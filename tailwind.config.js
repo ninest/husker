@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   purge: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -8,6 +10,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        display: ["Inter", ...defaultTheme.fontFamily.mono],
+      },
       spacing: {
         xs: `${2 * 0.25}em`,
         sm: `${3 * 0.25}em`,
@@ -19,7 +25,7 @@ module.exports = {
       colors: {
         transparent: "transparent",
         current: "currentColor",
-        black: "#000",
+        black: "#f00",
         white: "#fff",
         gray: {
           50: "var(--gray-50)",

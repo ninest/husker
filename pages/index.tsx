@@ -1,7 +1,9 @@
 export default function Index() {
   return (
     <>
-      <h1 className="font-black text-5xl text-primary">Huskinfo</h1>
+      <h1 className="p-base font-bold text-4xl">
+        The headless editor framework for web artisans
+      </h1>
     </>
   );
 }
