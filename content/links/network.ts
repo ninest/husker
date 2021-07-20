@@ -9,13 +9,5 @@ export const network: Category = {
       title: "Husky Connect",
       href: "https://orientation.northeastern.wisr.io/dashboard",
     },
-    {
-      title: "Discord",
-      href: "https://discord.gg/XC3zy8jKhg",
-    },
-    {
-      title: "Reddit",
-      href: "https://www.reddit.com/r/NEU/",
-    },
   ],
 };

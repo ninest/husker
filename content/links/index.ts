@@ -7,6 +7,7 @@ import { financial } from "./financial";
 import { free } from "./free";
 import { housing } from "./housing";
 import { huskycard } from "./huskycard";
+import { instagram } from "./instagram";
 import { network } from "./network";
 
 export const categories: Category[] = [
@@ -17,6 +18,7 @@ export const categories: Category[] = [
   housing,
   family,
   community,
+  instagram,
   boston,
   free,
 ];

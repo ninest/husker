@@ -7,7 +7,7 @@ export default function Index() {
     <>
       <LandingLayout>
         <h1 className="font-bold text-4xl leading-normal">
-          All your links in one place
+          All NEU links in one place
         </h1>
 
         <section className="mt-xl space-y-lg">

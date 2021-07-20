@@ -13,5 +13,13 @@ export const housing: Category = {
       title: "NEUDorms Tumblr",
       href: "https://northeasterndorms.tumblr.com/",
     },
+    {
+      title: "Move in/out calendar",
+      href: "https://www.northeastern.edu/housing/move-inout/",
+    },
+    {
+      title: "Housing policies",
+      href: "https://www.northeastern.edu/housing/policies-and-publications/",
+    },
   ],
 };
