@@ -1,3 +1,4 @@
+
 import { Category } from "@/types/link";
 import { boston } from "./boston";
 import { community } from "./community";

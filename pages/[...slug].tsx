@@ -7,7 +7,7 @@ import { getMDX } from "@/lib/mdx";
 import { Guide } from "@/types/guide";
 import { substitutedComponents } from "@/components/substituted";
 import { GuideLayout } from "@/layouts/Guide";
-import { relativeDate } from "@/lib/date";
+import { relativeDate } from "@/utils/date";
 
 export default function GuidePage({ code, frontmatter }: Guide) {
   const Markdown = getMDXComponent(code);
@@ -19,8 +19,12 @@ export default function GuidePage({ code, frontmatter }: Guide) {
           <h1 className="font-bold text-4xl leading-normal">
             {frontmatter.title}
           </h1>
-          <Markdown components={substitutedComponents}></Markdown>
-          <div className="text-gray text-sm font-medium">Last updated {relativeDate(new Date(frontmatter.lastUpdated))} ago</div>
+          <div className="prose">
+            <Markdown components={substitutedComponents}></Markdown>
+          </div>
+          <div className="text-gray text-sm font-medium">
+            Last updated {relativeDate(new Date(frontmatter.lastUpdated))} ago
+          </div>
         </article>
       </GuideLayout>
     </>
