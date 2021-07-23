@@ -1,8 +1,11 @@
 import { LandingLayout } from "@/layouts/Landing";
 import { Resource } from "@/components/Resource";
 import { categories } from "@/content/links";
+import { GetStaticProps } from "next";
+import { getResources, getSheets } from "@/lib/sheet";
+import { Category } from "@/types/resource";
 
-export default function Index() {
+export default function Index({ categories }: { categories: Category[] }) {
   return (
     <>
       <LandingLayout>
@@ -19,3 +22,14 @@ export default function Index() {
     </>
   );
 }
+
+export const getStaticProps: GetStaticProps = async () => {
+  const resources = await getSheets();
+  for (let i = 0; i < resources.length; i++) {
+    resources[i].resources = await getResources(resources[i].sheetId);
+  }
+
+  console.log(resources);
+
+  return { props: {} };
+};

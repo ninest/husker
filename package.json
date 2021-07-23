@@ -11,6 +11,7 @@
   "dependencies": {
     "@types/glob": "^7.1.4",
     "glob": "^7.1.7",
+    "google-spreadsheet": "^3.1.15",
     "mdx-bundler": "^5.1.0",
     "next": "11.0.1",
     "react": "17.0.2",
