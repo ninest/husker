@@ -6,15 +6,17 @@ export function Resource({ name, description, resources }: Category) {
   return (
     <article className="rounded-lg p-md bg-gray-lightest">
       <h3 className="font-semibold text-2xl">{name}</h3>
-      {description && <p className="mt-sm text-sm text-gray">{description}</p>}
+      {description && <p className="mt-sm text-gray">{description}</p>}
 
       {resources && (
         <>
-          <div className="mt-base grid md:grid-cols-2 xl:grid-cols-3 gap-xs md:gap-base">
+          <div className="mt-base space-y-sm md:space-y-base">
+            {/* grid md:grid-cols-2 xl:grid-cols-3 gap-xs md:gap-base */}
             {resources.map((link) => (
-              <div key={link.url} className="inline-block">
-                <SmartLink href={link.url} className="underline">
-                  {link.name}
+              <div key={link.url}>
+                <SmartLink href={link.url}>
+                  <span className="underline mr-base">{link.name}</span>
+                  <span className="text-sm text-gray">{link.description}</span>
                 </SmartLink>
               </div>
             ))}

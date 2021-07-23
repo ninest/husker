@@ -5,7 +5,9 @@ import { SmartLink } from "./SmartLink";
 export function Navbar() {
   return (
     <header className="sticky top-0 space-x space-y flex justify-between items-center bg-white bg-opacity-70">
-      <div className="inline-ghost font-bold text-primary text">huskinfo</div>
+      <SmartLink href="/" className="inline-ghost font-bold text-primary text">
+        NEU Links
+      </SmartLink>
 
       <nav>
         <ul className="text-sm flex space-x-lg items-center">
@@ -35,7 +37,10 @@ export function Navbar() {
 
 function NavItem({ children, href }) {
   return (
-    <SmartLink href={href} className="inline-ghost rounded-md flex items-center space-x-sm">
+    <SmartLink
+      href={href}
+      className="inline-ghost rounded-md flex items-center space-x-sm"
+    >
       {children}
     </SmartLink>
   );

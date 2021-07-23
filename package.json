@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@types/glob": "^7.1.4",
+    "date-fns": "^2.23.0",
     "glob": "^7.1.7",
     "google-spreadsheet": "^3.1.15",
     "mdx-bundler": "^5.1.0",
