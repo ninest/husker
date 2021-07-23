@@ -6,15 +6,20 @@ import { getAllFiles } from "@/lib/file";
 import { getMDX } from "@/lib/mdx";
 import { Guide } from "@/types/guide";
 import { substitutedComponents } from "@/components/substituted";
+import { GuideLayout } from "@/layouts/Guide";
 
 export default function GuidePage({ code, frontmatter }: Guide) {
   const Markdown = getMDXComponent(code);
-  
+
   return (
     <>
-      <h1>{frontmatter.title}</h1>
-      <div>{frontmatter.lastUpdated}</div>
-      <Markdown components={substitutedComponents}></Markdown>
+      <GuideLayout side={<></>}>
+        <h1 className="font-bold text-4xl leading-normal">
+          {frontmatter.title}
+        </h1>
+        <Markdown components={substitutedComponents}></Markdown>
+        <div>Last updated {frontmatter.lastUpdated}</div>
+      </GuideLayout>
     </>
   );
 }

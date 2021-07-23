@@ -22,5 +22,17 @@
     @apply bg-black bg-opacity-20;
   }
 
-
+  /* Padding for page layout */
+  .space-x {
+    @apply px-lg;
+    @apply md:px-10;
+    @apply lg:px-32;
+    @apply xl:px-44;
+  }
+  .space-y {
+    @apply py-md;
+    @apply md:py-md;
+    @apply lg:py-md;
+    @apply xl:py-md;
+  }
 }

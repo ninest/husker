@@ -4,7 +4,7 @@ import { SmartLink } from "./SmartLink";
 
 export function Navbar() {
   return (
-    <header className="sticky top-0 p-md flex justify-between items-center bg-white bg-opacity-70">
+    <header className="sticky top-0 space-x space-y flex justify-between items-center bg-white bg-opacity-70">
       <div className="inline-ghost font-bold text-primary text">huskinfo</div>
 
       <nav>
