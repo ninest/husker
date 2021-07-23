@@ -14,7 +14,11 @@ export const free: Category = {
       href: "https://mfa.org/tickets",
     },
     {
-      title: "Showtime",
+      title: "Wall Street Journal",
+      href: "https://wsj.com/northeastern",
+    },
+    {
+      title: "Spotify",
       href: "https://www.spotify.com/us/student/",
     },
   ],

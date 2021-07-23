@@ -4,7 +4,7 @@ import { Category } from "@/types/link";
 
 export const boston: Category = {
   title: "Boston",
-  description: "Places to visit, restaurants, and mmore",
+  description: "Places to visit, restaurants, and more",
   slug: "boston",
   links: [
     {
