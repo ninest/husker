@@ -5,12 +5,18 @@ import "../styles/prose.scss";
 import { Navbar } from "@/components/Navbar";
 
 function MyApp({ Component, pageProps }) {
+  const showNavbar = Component.navbar ?? true;
+  const wrapWithMain = Component.main ?? true;
   return (
     <>
-      <Navbar></Navbar>
-      <main>
+      {showNavbar && <Navbar></Navbar>}
+      {wrapWithMain ? (
+        <main>
+          <Component {...pageProps} />
+        </main>
+      ) : (
         <Component {...pageProps} />
-      </main>
+      )}
     </>
   );
 }
