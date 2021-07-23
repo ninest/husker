@@ -22,10 +22,10 @@ export function Resource({ name, description, resources }: Category) {
         </>
       )}
 
-      <div className="mt-base font-medium text-sm text-gray-dark inline-flex items-center justify-center space-x-sm">
+      {/* <div className="mt-base font-medium text-sm text-gray-dark inline-flex items-center justify-center space-x-sm">
         <span>More</span>
         <FaArrowRight></FaArrowRight>
-      </div>
+      </div> */}
     </article>
   );
 }

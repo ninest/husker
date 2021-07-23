@@ -9,7 +9,7 @@ export function Navbar() {
 
       <nav>
         <ul className="text-sm flex space-x-lg items-center">
-          <li>
+          {/* <li>
             <NavItem href="/">
               <div>
                 <FaSearch></FaSearch>
@@ -17,13 +17,16 @@ export function Navbar() {
 
               <span>Search</span>
             </NavItem>
+          </li> */}
+          <li>
+            <NavItem href="/about">About</NavItem>
           </li>
           <li>
-            <NavItem href="/">About</NavItem>
+            <NavItem href="/contribute">Contribute</NavItem>
           </li>
-          <li>
+          {/* <li>
             <NavItem href="https://campusmap.northeastern.edu/printable/campusmap.pdf">Map</NavItem>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </header>
