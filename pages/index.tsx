@@ -24,12 +24,10 @@ export default function Index({ categories }: { categories: Category[] }) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const resources = await getSheets();
-  for (let i = 0; i < resources.length; i++) {
-    resources[i].resources = await getResources(resources[i].sheetId);
+  const categories = await getSheets();
+  for (let i = 0; i < categories.length; i++) {
+    categories[i].resources = await getResources(categories[i].sheetId);
   }
 
-  console.log(resources);
-
-  return { props: {} };
+  return { props: { categories } };
 };

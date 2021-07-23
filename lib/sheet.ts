@@ -1,4 +1,5 @@
 import { Category, Resource } from "@/types/resource";
+import { slugify } from "@/utils/slug";
 import { GoogleSpreadsheet } from "google-spreadsheet";
 
 const sheet = new GoogleSpreadsheet(
@@ -17,6 +18,7 @@ export async function getSheets(): Promise<Category[]> {
     const data: string[] = row._rawData;
     const sheetLink: Category = {
       name: data[0],
+      slug: slugify(data[0]),
       sheetId: sheet.sheetsByTitle[data[0]].sheetId,
     };
     if (data[1]) sheetLink.description = data[1];
@@ -36,8 +38,8 @@ export async function getResources(sheetId: string): Promise<Resource[]> {
     resources.push({
       name: row.Name,
       url: row.URL,
-      description: row.Description,
-      notes: row.Notes,
+      description: row.Description ?? null, // `undefined` cannot be serialized as JSON
+      notes: row.Notes ?? null,
     });
   }
   return resources;

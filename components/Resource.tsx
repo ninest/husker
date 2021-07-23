@@ -1,20 +1,20 @@
-import { Category } from "@/types/link";
+import { Category } from "@/types/resource";
 import { FaArrowRight } from "react-icons/fa";
 import { SmartLink } from "./SmartLink";
 
-export function Resource({ title, description, links }: Category) {
+export function Resource({ name, description, resources }: Category) {
   return (
     <article className="rounded-lg p-md bg-gray-lightest">
-      <h3 className="font-semibold text-2xl">{title}</h3>
+      <h3 className="font-semibold text-2xl">{name}</h3>
       {description && <p className="mt-sm text-sm text-gray">{description}</p>}
 
-      {links && (
+      {resources && (
         <>
           <div className="mt-base grid md:grid-cols-2 xl:grid-cols-3 gap-xs md:gap-base">
-            {links.map((link) => (
-              <div key={link.href} className="inline-block">
-                <SmartLink href={link.href} className="underline">
-                  {link.title}
+            {resources.map((link) => (
+              <div key={link.url} className="inline-block">
+                <SmartLink href={link.url} className="underline">
+                  {link.name}
                 </SmartLink>
               </div>
             ))}
