@@ -14,7 +14,7 @@ export const SmartLink = ({ href, children, ...props }: Props) => {
     );
   } else
     return (
-      <a rel="noopener" target="_blank" href={href} {...props}>
+      <a rel="noreferrer" target="_blank" href={href} {...props}>
         {children}
       </a>
     );

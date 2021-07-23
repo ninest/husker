@@ -34,6 +34,7 @@ export default function MapPage() {
             <section className="p-base sticky top-0 bg-white flex space-x-base overflow-x-scroll">
               {locationsGroupList.map((locationsGroupList, index) => (
                 <h3
+                  key={index}
                   className={clsx(
                     "whitespace-nowrap font-bold -m-xs p-xs rounded-md",
                     {
@@ -51,7 +52,10 @@ export default function MapPage() {
               <ul>
                 {locationsGroupList[locationListId].locations.map(
                   (location) => (
-                    <li className="flex items-center justify-between space-x-sm">
+                    <li
+                      key={location.shortName}
+                      className="flex items-center justify-between space-x-sm"
+                    >
                       <div className="space-x-sm">
                         <span className="text-gray font-light">
                           {location.coords}
