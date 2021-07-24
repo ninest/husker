@@ -2,6 +2,8 @@ import "../styles/global.scss";
 import "../styles/colors.scss";
 import "../styles/utils.scss";
 import "../styles/prose.scss";
+import "../styles/components.scss";
+
 import { Navbar } from "@/components/Navbar";
 
 function MyApp({ Component, pageProps }) {

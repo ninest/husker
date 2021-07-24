@@ -1,5 +1,7 @@
 import { LocationsGroup } from "@/types/map";
 
+/* locations list populated by output of scripts/map.py */
+
 export const locationsGroupList: LocationsGroup[] = [
   {
     name: "Academic and service buildings",

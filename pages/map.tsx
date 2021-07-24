@@ -26,7 +26,7 @@ export default function MapPage() {
                 src="/map.png"
                 alt="Northeastern campus map"
               /> */}
-              <Image src={map} alt="Northeastern campus map"></Image>
+              <Image src={map} placeholder="blur" alt="Northeastern campus map"></Image>
             </div>
           </TransformComponent>
 

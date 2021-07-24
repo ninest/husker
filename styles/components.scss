@@ -1,0 +1,11 @@
+@layer components {
+  .inline-ghost {
+    @apply flex -mx-sm -my-xs px-sm py-xs;
+    @apply rounded-md;
+    @apply transition-colors;
+  }
+  .inline-ghost:hover {
+    @apply bg-black bg-opacity-10;
+  }
+
+}
