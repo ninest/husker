@@ -5,6 +5,7 @@ import "../styles/prose.scss";
 import "../styles/components.scss";
 
 import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
 
 function MyApp({ Component, pageProps }) {
   const showNavbar = Component.navbar ?? true;
@@ -19,6 +20,7 @@ function MyApp({ Component, pageProps }) {
       ) : (
         <Component {...pageProps} />
       )}
+      {showNavbar && <Footer></Footer>}
     </>
   );
 }
