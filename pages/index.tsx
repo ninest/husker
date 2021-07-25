@@ -10,10 +10,10 @@ export default function Index({ categories }: { categories: Category[] }) {
     <>
       <LandingLayout>
         <h1 className="font-bold text-4xl leading-normal mb-xs">
-          Useful NEU resources
+          Useful NEU links and resources
         </h1>
 
-        <p>
+        <p className="lg:w-3/5">
           Hover on a link to see for more information about it (if there is). If
           you would like to add a useful link to this list, check out the{" "}
           <SmartLink href="/contribute" className="underline">

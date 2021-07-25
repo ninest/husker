@@ -16,7 +16,7 @@ import { SmartLink } from "./SmartLink";
 export function Resource({ name, description, resources, slug }: Category) {
   console.log(slug);
   const Icon = icon[slug];
-  // console.log(Icon);
+
   return (
     <article className="rounded-lg p-md bg-gray-100">
       {/* <div className="mb-xs">
