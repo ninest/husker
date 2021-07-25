@@ -8,12 +8,17 @@ import { Guide } from "@/types/guide";
 import { substitutedComponents } from "@/components/substituted";
 import { GuideLayout } from "@/layouts/Guide";
 import { relativeDate } from "@/utils/date";
+import { NextSeo } from "next-seo";
 
 export default function GuidePage({ code, frontmatter }: Guide) {
   const Markdown = getMDXComponent(code);
 
   return (
     <>
+      <NextSeo
+        title={frontmatter.title}
+        description={frontmatter.description}
+      ></NextSeo>
       <GuideLayout side={<></>}>
         <article className="space-y-lg">
           <h1 className="font-bold text-4xl leading-normal">

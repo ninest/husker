@@ -1,6 +1,7 @@
+import { GetStaticProps } from "next";
+import { DefaultSeo } from "next-seo";
 import { LandingLayout } from "@/layouts/Landing";
 import { Resource } from "@/components/Resource";
-import { GetStaticProps } from "next";
 import { getResources, getSheets } from "@/lib/sheet";
 import { Category } from "@/types/resource";
 import { SmartLink } from "@/components/SmartLink";
@@ -8,6 +9,10 @@ import { SmartLink } from "@/components/SmartLink";
 export default function Index({ categories }: { categories: Category[] }) {
   return (
     <>
+      <DefaultSeo
+        defaultTitle="NEU Links"
+        description="Useful NEU links and resources"
+      ></DefaultSeo>
       <LandingLayout>
         <h1 className="font-bold text-4xl leading-normal mb-xs">
           Useful NEU links and resources

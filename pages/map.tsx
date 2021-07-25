@@ -4,11 +4,16 @@ import map from "@/public/map.png";
 import { locationsGroupList } from "@/data/map";
 import { useState } from "react";
 import clsx from "clsx";
+import { NextSeo } from "next-seo";
 
 export default function MapPage() {
   const [locationListId, setLocationListId] = useState(0);
   return (
     <>
+      <NextSeo
+        title={"NEU Map"}
+        description={"Mobile-friendly NEU campus map"}
+      ></NextSeo>
       <div style={{ height: "100vh", overflow: "none" }}>
         <TransformWrapper
           initialScale={0.9}
@@ -26,7 +31,11 @@ export default function MapPage() {
                 src="/map.png"
                 alt="Northeastern campus map"
               /> */}
-              <Image src={map} placeholder="blur" alt="Northeastern campus map"></Image>
+              <Image
+                src={map}
+                placeholder="blur"
+                alt="Northeastern campus map"
+              ></Image>
             </div>
           </TransformComponent>
 
