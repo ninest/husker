@@ -1,11 +1,33 @@
 import { Category } from "@/types/resource";
-import { FaArrowRight } from "react-icons/fa";
+import {
+  FaArrowRight,
+  FaBook,
+  FaCalculator,
+  FaComments,
+  FaCreditCard,
+  FaFingerprint,
+  FaHotel,
+  FaIdCard,
+  FaShoePrints,
+  FaSmileBeam,
+} from "react-icons/fa";
 import { SmartLink } from "./SmartLink";
 
-export function Resource({ name, description, resources }: Category) {
+export function Resource({ name, description, resources, slug }: Category) {
+  console.log(slug);
+  const Icon = icon[slug];
+  // console.log(Icon);
   return (
     <article className="rounded-lg p-md bg-gray-100">
-      <h3 className="font-semibold text-2xl mb-sm">{name}</h3>
+      {/* <div className="mb-xs">
+        
+      </div> */}
+      <h3 className="flex items-center justify-between mb-sm">
+        <span className="font-semibold text-2xl">{name}</span>
+        <div className="inline-block text-xl text-gray-dark">
+          <Icon></Icon>
+        </div>
+      </h3>
       {description && <p className="mb-base text-gray">{description}</p>}
 
       {resources && (
@@ -39,3 +61,15 @@ export function Resource({ name, description, resources }: Category) {
     </article>
   );
 }
+
+const icon = {
+  services: FaCalculator,
+  courses: FaBook,
+  "husky-card": FaIdCard,
+  housing: FaHotel,
+  free: FaSmileBeam,
+  financial: FaCreditCard,
+  social: FaComments,
+  personal: FaFingerprint,
+  boston: FaShoePrints,
+};

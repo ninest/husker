@@ -30,7 +30,7 @@ export async function getSheets(): Promise<Category[]> {
 }
 
 export async function getResources(sheetId: string): Promise<Resource[]> {
-  await delay(200); // Add delay to prevent error 429: rate limiting
+  await delay(300); // Add delay to prevent error 429: rate limiting
   await sheet.loadInfo();
   const resourceSheet = sheet.sheetsById[sheetId];
   const rows = await resourceSheet.getRows();
