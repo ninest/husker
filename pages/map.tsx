@@ -1,10 +1,10 @@
 import Image from "next/image";
+import { useState } from "react";
+import { NextSeo } from "next-seo";
+import clsx from "clsx";
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 import map from "@/public/map.png";
 import { locationsGroupList } from "@/data/map";
-import { useState } from "react";
-import clsx from "clsx";
-import { NextSeo } from "next-seo";
 
 export default function MapPage() {
   const [locationListId, setLocationListId] = useState(0);
@@ -26,28 +26,25 @@ export default function MapPage() {
               style={{ height: "65vh", width: "100%" }}
               className="flex items-center justify-center"
             >
-              {/* <img
-                ref={imageRef}
-                src="/map.png"
-                alt="Northeastern campus map"
-              /> */}
               <Image
                 src={map}
+                loading="eager"
                 placeholder="blur"
                 alt="Northeastern campus map"
               ></Image>
             </div>
           </TransformComponent>
 
+          {/* TODO: separate into it's own component */}
           <div className="absolute bottom-0 right-0 left-0 w-full h-2/5 overflow-y-scroll bg-white border-t">
-            <section className="p-base sticky top-0 bg-white flex space-x-base overflow-x-scroll">
+            <section className="p-base sticky top-0 bg-white bg-opacity-80 flex space-x-base overflow-x-scroll">
               {locationsGroupList.map((locationsGroupList, index) => (
                 <h3
                   key={index}
                   className={clsx(
                     "whitespace-nowrap font-bold -m-xs p-xs rounded-md",
                     {
-                      "bg-gray-lightest": locationListId == index,
+                      "bg-black bg-opacity-10": locationListId == index,
                     }
                   )}
                   style={{ color: locationsGroupList.color }}
