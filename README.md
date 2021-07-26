@@ -3,11 +3,16 @@
 <p align="center">Useful Northeastern resources and links</p>
 
 ## Features
+
 - [x] Categories of links and resources (saved on a Google Sheet)
+  - [ ] Use incremental static regeneration to rebuild site
 - [ ] Guides
 - [x] Northeastern campus map
+  - [ ] Optimize map for desktop
+- [ ] FAQ (?)
 
 ## Build setup
+
 Clone or fork the repository, then run the commands to start the development server:
 
 ```bash
@@ -21,6 +26,22 @@ To build and serve the website, run
 yarn build
 yarn serve
 ```
+
+The website uses the new `revalidate` option in [`getStaticProps`](https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation) to enable [incremental static regeneration](https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation).
+
+### Project structure
+
+- `next.config.js`
+- `pages/`
+- `components/`
+- `layouts/`
+- `lib/`
+- `utils/`
+- `public/`
+- `content/`
+  - `guides/`
+- `scripts/`
+- `data/`
 
 ### Hosting
 
@@ -37,3 +58,11 @@ vc --prod
 ```
 
 If you're getting errors with `mdx-bundler`, or TailwindCSS styles aren't loading, try `vc --prod --force` to delete the old build cache.
+
+## Credits
+
+- Inspiration from [kj800x/nulinks](https://github.com/kj800x/nulinks)
+
+## Licence
+
+MIT
