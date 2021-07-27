@@ -19,14 +19,11 @@ export function Resource({ name, description, resources, slug }: Category) {
 
   return (
     <article className="rounded-lg p-md bg-gray-100">
-      {/* <div className="mb-xs">
-        
-      </div> */}
+      <div className="mb-xs inline-block rounded-xl p-base bg-black bg-opacity-10">
+        <Icon></Icon>
+      </div>
       <h3 className="flex items-center justify-between mb-sm">
         <span className="font-semibold text-2xl">{name}</span>
-        <div className="inline-block text-xl text-gray-dark">
-          <Icon></Icon>
-        </div>
       </h3>
       {description && <p className="mb-base text-gray">{description}</p>}
 
