@@ -3,7 +3,7 @@ import { SmartLink } from "./SmartLink";
 
 export function Navbar() {
   return (
-    <header className="sticky top-0 space-x py-base flex justify-between items-center bg-white bg-opacity-70">
+    <header className="z-50 sticky top-0 space-x py-base flex justify-between items-center bg-white bg-opacity-70">
       <SmartLink href="/" className="inline-ghost font-bold text-primary text">
         NEU Links
       </SmartLink>

@@ -1,8 +1,8 @@
 import path from "path";
 import { bundleMDX } from "mdx-bundler";
+import remarkSlug from "remark-slug";
 import { getFile } from "@/lib/file";
 import { Guide } from "@/types/guide";
-
 
 export async function getMDX<T>(filepath: string) {
   const markdownSource = getFile(`guides/${filepath}/index`, "md").trim();
@@ -28,7 +28,7 @@ export async function getMDX<T>(filepath: string) {
     cwd: process.cwd(),
     xdmOptions(options) {
       options.rehypePlugins = [...(options.rehypePlugins ?? [])];
-      options.remarkPlugins = [...(options.remarkPlugins ?? [])];
+      options.remarkPlugins = [...(options.remarkPlugins ?? []), remarkSlug];
       return options;
     },
     esbuildOptions(options) {
@@ -51,6 +51,9 @@ export async function getMDX<T>(filepath: string) {
       frontmatter[key] = frontmatter[key].toISOString();
     }
   });
+
+  /* Show TOC by default */
+  frontmatter.toc = frontmatter.toc ?? true;
 
   return {
     code,
