@@ -17,6 +17,7 @@ class MyDocument extends Document {
             type="font/woff2"
             crossOrigin="anonymous"
           />
+          <link rel="stylesheet" href="/fonts/stylesheet.css" />
 
           {/* PWA */}
           <meta name="theme-color" content="#4F46E5" />
@@ -30,4 +31,4 @@ class MyDocument extends Document {
   }
 }
 
-export default MyDocument
+export default MyDocument;
