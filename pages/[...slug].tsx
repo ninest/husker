@@ -205,10 +205,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   if (slug.length > 1) {
     /* Not a top level page, so show breadcrumbs on top */
     // Use .slice(0, -1) to remove the current page slug from breadcrumb
-    // for (const higherSlug of slug.slice(0, -1)) {
-    //   console.log(higherSlug);
-    // }
-    console.log(slug.length);
+
     for (let i = 1; i < slug.length; i++) {
       const filepath = slug.slice(0, i).join("/");
       const { frontmatter } = await getMDX<Guide>(filepath);
@@ -218,8 +215,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
       });
     }
   }
-
-  console.log(breadcrumb);
 
   return {
     props: {

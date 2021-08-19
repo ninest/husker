@@ -6,7 +6,6 @@ export const DynamicTOC = () => {
 
   useEffect(() => {
     const article = document.getElementsByTagName("article")[0];
-    console.log(article)
     for (let element of article.children) {
       element = element as HTMLElement;
       if (["H2", "H3", "H4"].includes(element.tagName)) {
