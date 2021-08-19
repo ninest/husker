@@ -103,10 +103,8 @@ export default function GuidePage({
               <RelatedLinks>
                 <ul>
                   {frontmatter.inSection.map((link) => (
-                    <li className="underline">
-                      <SmartLink key={link.href} href={link.href}>
-                        {link.title}
-                      </SmartLink>
+                    <li key={link.href} className="underline">
+                      <SmartLink href={link.href}>{link.title}</SmartLink>
                     </li>
                   ))}
                 </ul>
