@@ -4,7 +4,7 @@ import { HTMLProps } from "react";
 interface Props extends HTMLProps<HTMLAnchorElement> {}
 
 export const SmartLink = ({ href, children, ...props }: Props) => {
-  if (href.startsWith("/")) {
+  if (href.startsWith("/") || href.startsWith("https://neulinks.vercel.app/")) {
     return (
       <Link href={href}>
         <a href={href} {...props}>
