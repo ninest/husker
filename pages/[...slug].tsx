@@ -12,7 +12,7 @@ import { formatDate, relativeDate } from "@/utils/date";
 import { SmartLink } from "@/components/SmartLink";
 import { useState } from "react";
 import clsx from "clsx";
-import { FaChevronDown, FaHighlighter } from "react-icons/fa";
+import { FaChevronDown, FaChevronLeft, FaHighlighter } from "react-icons/fa";
 import { RelatedLinks } from "@/components/RelatedLinks";
 
 const DynamicTOC = dynamic(
@@ -62,21 +62,34 @@ export default function GuidePage({
         }
       >
         <div>
-          {breadcrumb?.length > 0 && (
-            <>
-              {/* {JSON.stringify(breadcrumb)} */}
-              <div className="-mb-2 flex space-x-sm text-gray text-sm font-bold">
-                {breadcrumb.map((crumb) => (
-                  <>
-                    <SmartLink key={crumb.href} href={crumb.href}>
-                      {crumb.title}
-                    </SmartLink>
-                    <div>{"/"}</div>
-                  </>
-                ))}
-              </div>
-            </>
-          )}
+          <div className="-mb-1 flex items-center space-x-sm text-gray text-sm font-bold">
+            <SmartLink
+              href="/"
+              className="inline-ghost flex items-center space-x-sm"
+            >
+              {/* Show back chevron if no sub breadcrumbs */}
+              {breadcrumb.length == 0 && (
+                <div className="text-xs">
+                  <FaChevronLeft></FaChevronLeft>
+                </div>
+              )}
+              <div>Home</div>
+            </SmartLink>
+            {breadcrumb.map((crumb) => (
+              <>
+                <div>{"/"}</div>
+                <div>
+                  <SmartLink
+                    key={crumb.href}
+                    href={crumb.href}
+                    className="inline-ghost"
+                  >
+                    {crumb.title}
+                  </SmartLink>
+                </div>
+              </>
+            ))}
+          </div>
 
           <div className="mb-base">
             <h1 className="font-bold text-5xl leading-normal">
