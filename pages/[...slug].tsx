@@ -125,7 +125,7 @@ export default function GuidePage({
             <Markdown components={substitutedComponents}></Markdown>
           </article>
 
-          <div className=" text-gray text-sm font-medium">
+          <div className="mt-lg text-gray text-sm font-medium">
             Last updated{" "}
             <span className="group">
               <span className="group-hover:hidden">
@@ -185,8 +185,6 @@ function MobileContents({ frontmatter }: { frontmatter: GuideFrontmatter }) {
 
 export const getStaticPaths: GetStaticPaths = () => {
   const paths = getAllFiles("guides", "md");
-
-  console.log(paths);
 
   return {
     paths: paths.map((path) => {
