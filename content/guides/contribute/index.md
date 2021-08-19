@@ -12,7 +12,7 @@ All links on the [main page](/) must be commonly used links directly related to 
 2. Find the appropriate category and navigate to that sheet via the bottom bar
 3. Make a comment in the sheet with the name of resource, a URL, and a short description if required
 
-## Contributing an [app](/app)
+## Contributing an [app](/apps)
 
 To contribute an app, you may either open an issue or pull request on [ninest/huskinfo](https://github.com/ninest/huskinfo) on GitHub. 
 
