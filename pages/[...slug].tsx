@@ -5,14 +5,15 @@ import { getMDXComponent } from "mdx-bundler/client";
 
 import { getAllFiles } from "@/lib/file";
 import { getMDX } from "@/lib/mdx";
-import { Guide, GuideFrontmatter } from "@/types/guide";
+import { Breadcrumb, Guide, GuideFrontmatter } from "@/types/guide";
 import { substitutedComponents } from "@/components/substituted";
 import { GuideLayout } from "@/layouts/Guide";
 import { formatDate, relativeDate } from "@/utils/date";
 import { SmartLink } from "@/components/SmartLink";
 import { useState } from "react";
 import clsx from "clsx";
-import { FaChevronCircleDown, FaChevronDown } from "react-icons/fa";
+import { FaChevronDown, FaHighlighter } from "react-icons/fa";
+import { RelatedLinks } from "@/components/RelatedLinks";
 
 const DynamicTOC = dynamic(
   () => import("../components/DynamicTOC").then((mod) => mod.DynamicTOC) as any,
@@ -31,10 +32,12 @@ const DynamicTOC = dynamic(
 interface Props {
   slug: string[];
   guide: Guide;
+  breadcrumb: Breadcrumb;
 }
 export default function GuidePage({
   slug,
   guide: { frontmatter, code },
+  breadcrumb,
 }: Props) {
   const Markdown = getMDXComponent(code);
   const path = slug.join("/");
@@ -58,21 +61,56 @@ export default function GuidePage({
           </>
         }
       >
-        <div className="space-y-md">
-          <h1 className="font-bold text-5xl leading-normal">
-            {frontmatter.title}
-          </h1>
+        <div>
+          {breadcrumb?.length > 0 && (
+            <>
+              {/* {JSON.stringify(breadcrumb)} */}
+              <div className="-mb-2 flex space-x-sm text-gray text-sm font-bold">
+                {breadcrumb.map((crumb) => (
+                  <>
+                    <SmartLink key={crumb.href} href={crumb.href}>
+                      {crumb.title}
+                    </SmartLink>
+                    <div>{"/"}</div>
+                  </>
+                ))}
+              </div>
+            </>
+          )}
 
-          <p className="text-lg text-gray">{frontmatter.description}</p>
+          <div className="mb-base">
+            <h1 className="font-bold text-5xl leading-normal">
+              {frontmatter.title}
+            </h1>
+          </div>
+
+          {/* In this section */}
+          {frontmatter.inSection && (
+            <div className="mb-md">
+              <RelatedLinks>
+                <ul>
+                  {frontmatter.inSection.map((link) => (
+                    <li className="underline">
+                      <SmartLink key={link.href} href={link.href}>
+                        {link.title}
+                      </SmartLink>
+                    </li>
+                  ))}
+                </ul>
+              </RelatedLinks>
+            </div>
+          )}
+
+          <p className="mb-base text-lg text-gray">{frontmatter.description}</p>
 
           {/* Mobile TOC */}
           {frontmatter.toc && (
-            <div className="lg:hidden">
+            <div className="mb-base lg:hidden">
               <MobileContents frontmatter={frontmatter}></MobileContents>
             </div>
           )}
 
-          <article className="prose">
+          <article className="mt-base prose">
             <Markdown components={substitutedComponents}></Markdown>
           </article>
 
@@ -163,5 +201,31 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
   const { code, frontmatter } = await getMDX<Guide>(filepath);
 
-  return { props: { slug, guide: { code, frontmatter } } };
+  const breadcrumb: Breadcrumb = [];
+  if (slug.length > 1) {
+    /* Not a top level page, so show breadcrumbs on top */
+    // Use .slice(0, -1) to remove the current page slug from breadcrumb
+    // for (const higherSlug of slug.slice(0, -1)) {
+    //   console.log(higherSlug);
+    // }
+    console.log(slug.length);
+    for (let i = 1; i < slug.length; i++) {
+      const filepath = slug.slice(0, i).join("/");
+      const { frontmatter } = await getMDX<Guide>(filepath);
+      breadcrumb.push({
+        title: frontmatter.title,
+        href: `/${filepath}`,
+      });
+    }
+  }
+
+  console.log(breadcrumb);
+
+  return {
+    props: {
+      slug,
+      guide: { code, frontmatter },
+      breadcrumb,
+    },
+  };
 };

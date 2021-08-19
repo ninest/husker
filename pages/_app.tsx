@@ -12,6 +12,7 @@ function MyApp({ Component, pageProps }) {
   const wrapWithMain = Component.main ?? true;
   return (
     <>
+    
       {showNavbar && <Navbar></Navbar>}
       {wrapWithMain ? (
         <main>
