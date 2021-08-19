@@ -186,6 +186,8 @@ function MobileContents({ frontmatter }: { frontmatter: GuideFrontmatter }) {
 export const getStaticPaths: GetStaticPaths = () => {
   const paths = getAllFiles("guides", "md");
 
+  console.log(paths);
+
   return {
     paths: paths.map((path) => {
       if (path[path.length - 1] === "index") {
@@ -219,11 +221,16 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
     for (let i = 1; i < slug.length; i++) {
       const filepath = slug.slice(0, i).join("/");
-      const { frontmatter } = await getMDX<Guide>(filepath);
-      breadcrumb.push({
-        title: frontmatter.title,
-        href: `/${filepath}`,
-      });
+      try {
+        // If the page doesn't exist, no breadcrump. This only applies to deeply
+        // nested pages like one/two/deep/nest where pages in certain folders
+        // (like `two` or `deep` don't have an index.md inside)
+        const { frontmatter } = await getMDX<Guide>(filepath);
+        breadcrumb.push({
+          title: frontmatter.title,
+          href: `/${filepath}`,
+        });
+      } catch (e) {}
     }
   }
 

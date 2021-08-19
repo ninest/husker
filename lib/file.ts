@@ -5,6 +5,7 @@ import glob from "glob";
 const root = process.cwd();
 
 export function getFile(filepath: string, extension: string) {
+  console.log(filepath, extension)
   // Check if file exists
   if (fs.existsSync(path.join(root, "content", `${filepath}.${extension}`))) {
     return fs.readFileSync(
