@@ -5,11 +5,15 @@
 ## Features
 
 - [x] Categories of links and resources (saved on a Google Sheet)
-  - [ ] Use incremental static regeneration to rebuild site
-- [ ] Guides
+  - [x] Use incremental static regeneration to rebuild site
 - [x] Northeastern campus map
   - [ ] Optimize map for desktop
-- [ ] FAQ (?)
+
+### Pages to add
+- [x] Apps list: https://neulinks.vercel.app/apps
+- [ ] Group chats list - in progress: https://neulinks.vercel.app/social/chats
+- [ ] FAQ
+- [ ] Husky card uses, free stuff to claim - in progress: https://neulinks.vercel.app/huskycard
 
 ## Build setup
 
