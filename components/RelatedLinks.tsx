@@ -1,4 +1,4 @@
-export function RelatedLinks({ children, title = "In this section" }) {
+export function RelatedLinks({ children, title = "Related pages" }) {
   return (
     <>
       <section className="p-base rounded-lg bg-gray-100">

@@ -76,7 +76,7 @@ export default function GuidePage({
               <div>Home</div>
             </SmartLink>
             {breadcrumb.map((crumb) => (
-              <>
+              <div key={crumb.href} className="flex items-center space-x-sm">
                 <div>{"/"}</div>
                 <div>
                   <SmartLink
@@ -87,19 +87,21 @@ export default function GuidePage({
                     {crumb.title}
                   </SmartLink>
                 </div>
-              </>
+              </div>
             ))}
           </div>
 
-          <div className="mb-base">
+          <div className="mb-xs">
             <h1 className="font-bold text-5xl leading-normal">
               {frontmatter.title}
             </h1>
           </div>
 
+          <p className="mb-base text-lg text-gray">{frontmatter.description}</p>
+
           {/* In this section */}
           {frontmatter.inSection && (
-            <div className="mb-md">
+            <div className="mt-base mb-md">
               <RelatedLinks>
                 <ul>
                   {frontmatter.inSection.map((link) => (
@@ -112,11 +114,9 @@ export default function GuidePage({
             </div>
           )}
 
-          <p className="mb-base text-lg text-gray">{frontmatter.description}</p>
-
           {/* Mobile TOC */}
           {frontmatter.toc && (
-            <div className="mb-base lg:hidden">
+            <div className="mb-lg lg:hidden">
               <MobileContents frontmatter={frontmatter}></MobileContents>
             </div>
           )}

@@ -24,10 +24,13 @@ Husky card on your phone.
 
 ### NUGO
 
-View your schedule, meal plan, husky card balance, and more.
+View your schedule, grades, meal plan, husky card balance, and more.
 
+- [Website](https://northeastern.service-now.com/tech?id=kb_article&sys_id=bfe8951c1b14b0105ad79683b24bcbeb)
 - [Android](https://play.google.com/store/apps/details?id=edu.neu.mobile.myneu&hl=en&gl=US)
 - [iOS](https://apps.apple.com/us/app/nugo/id950690549)
+
+If you get a log in error, press the back button (once or twice) until you reach the main screen of the app.
 
 ### Canvas Student
 
@@ -96,18 +99,13 @@ A rewards app that will allow Husky fans to earn prizes for their loyalty and de
 
 ## Other
 
-### Transit App
+### Now Mobile
 
-- [Website](https://transitapp.com/)
-- [Android](https://play.google.com/store/apps/details?id=com.thetransitapp.droid)
-- [iOS](https://apps.apple.com/app/apple-store/id498151501)
+Complete wellness checks and schedule COVID tests.
 
-### Xfinity
-
-- [Website](https://www.xfinity.com/stream/entity/5525634154916965112)
-- [How to access on campus](https://northeastern.service-now.com/tech?id=kb_article&sys_id=9aa2d4511b34f0103fcdcb35624bcb14)
-- [Android](https://play.google.com/store/apps/details?id=com.xfinity.digitalhome&hl=en_SG&gl=US)
-- [iOS](https://apps.apple.com/us/app/xfinity/id1178765645)
+- [Website](https://its.northeastern.edu/2021/02/17/northeastern-wellness-checks-go-mobile/)
+- [Android](https://play.google.com/store/apps/details?id=com.servicenow.requestor)
+- [iOS](https://apps.apple.com/us/app/now-mobile/id1469616608)
 
 ### Duo
 
@@ -116,3 +114,16 @@ A rewards app that will allow Husky fans to earn prizes for their loyalty and de
 - [Website](https://www.get2fa.northeastern.edu/how-to-enroll-in-2fa/)
 - [Android](https://play.google.com/store/apps/details?id=com.duosecurity.duomobile&hl=en_SG&gl=US)
 - [iOS](https://apps.apple.com/us/app/duo-mobile/id422663827)
+
+### Xfinity
+
+- [Website](https://www.xfinity.com/stream/entity/5525634154916965112)
+- [How to access on campus](https://northeastern.service-now.com/tech?id=kb_article&sys_id=9aa2d4511b34f0103fcdcb35624bcb14)
+- [Android](https://play.google.com/store/apps/details?id=com.xfinity.digitalhome&hl=en_SG&gl=US)
+- [iOS](https://apps.apple.com/us/app/xfinity/id1178765645)
+
+### Transit App
+
+- [Website](https://transitapp.com/)
+- [Android](https://play.google.com/store/apps/details?id=com.thetransitapp.droid)
+- [iOS](https://apps.apple.com/app/apple-store/id498151501)
