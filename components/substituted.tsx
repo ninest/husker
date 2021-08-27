@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FaDog } from "react-icons/fa";
 
 export const substitutedComponents = {
   /* Use Nextjs optimized images */
@@ -8,6 +9,13 @@ export const substitutedComponents = {
     return (
       <div className="next-image">
         <Image alt="Image from guide" {...props} src={src}></Image>
+      </div>
+    );
+  },
+  Husky: () => {
+    return (
+      <div className="inline-block">
+        <FaDog></FaDog>
       </div>
     );
   },

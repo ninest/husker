@@ -9,6 +9,7 @@ const sheet = new GoogleSpreadsheet(
 sheet.useApiKey(process.env.GOOGLE_API_KEY);
 
 export async function getSheets(): Promise<Category[]> {
+  /* Return Categories (without resources) */
   await sheet.loadInfo();
   const indexSheet = sheet.sheetsById[1558207367]; // "Index" sheet ID
   const rows = await indexSheet.getRows();
@@ -30,6 +31,7 @@ export async function getSheets(): Promise<Category[]> {
 }
 
 export async function getResources(sheetId: string): Promise<Resource[]> {
+  /* Return Categories with resources */
   await delay(300); // Add delay to prevent error 429: rate limiting
   await sheet.loadInfo();
   const resourceSheet = sheet.sheetsById[sheetId];

@@ -3,7 +3,7 @@ export interface GuideFrontmatter {
   description: string;
   lastUpdated: string;
   toc: boolean;
-  inSection?: { title: string; href: string }[];
+  related?: { title: string; href: string }[];
 }
 
 export interface Guide {

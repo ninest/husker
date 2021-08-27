@@ -100,11 +100,11 @@ export default function GuidePage({
           <p className="mb-base text-lg text-gray">{frontmatter.description}</p>
 
           {/* In this section */}
-          {frontmatter.inSection && (
+          {frontmatter.related && (
             <div className="mt-base mb-md">
               <RelatedLinks>
                 <ul>
-                  {frontmatter.inSection.map((link) => (
+                  {frontmatter.related.map((link) => (
                     <li key={link.href} className="underline">
                       <SmartLink href={link.href}>{link.title}</SmartLink>
                     </li>

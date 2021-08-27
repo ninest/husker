@@ -8,6 +8,11 @@ module.exports = {
         destination: "/resources/download-books",
         permanent: true,
       },
+      {
+        source: "/huskycard/uses",
+        destination: "/free",
+        permanent: true,
+      },
     
     ];
   },

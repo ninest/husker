@@ -2,9 +2,9 @@
 title: Husky Card
 description: Information related to the Husky Card
 lastUpdated: 2021-08-18
-inSection:
-  - title: Husky Card Uses
-    href: /huskycard/uses
+related:
+  - title: Free or discounted things
+    href: /free
 ---
 
 ## Dining

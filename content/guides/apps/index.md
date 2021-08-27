@@ -32,6 +32,11 @@ View your schedule, grades, meal plan, husky card balance, and more.
 
 If you get a log in error, press the back button (once or twice) until you reach the main screen of the app.
 
+### MentorHub NU
+
+- [Android](https://play.google.com/store/apps/details?id=org.mentorhubapp.neuapp)
+- [iOS](https://apps.apple.com/us/app/mentorhub-nu/id1573608578)
+
 ### Canvas Student
 
 Access courses and grades.
@@ -99,6 +104,13 @@ A rewards app that will allow Husky fans to earn prizes for their loyalty and de
 
 ## Other
 
+### CoOp'd
+
+An app for students to share their experiences in past co-ops.
+
+- [Android](https://play.google.com/store/apps/details?id=suds.coop_d)
+- [iOS](https://apps.apple.com/us/app/coopd/id1579118409)
+
 ### Now Mobile
 
 Complete wellness checks and schedule COVID tests.
@@ -127,3 +139,11 @@ Complete wellness checks and schedule COVID tests.
 - [Website](https://transitapp.com/)
 - [Android](https://play.google.com/store/apps/details?id=com.thetransitapp.droid)
 - [iOS](https://apps.apple.com/app/apple-store/id498151501)
+
+### Rockbot
+
+Request music in dining halls
+
+- [Website](https://news.northeastern.edu/2018/09/28/whats-new-this-fall-at-campus-dining-mobile-ordering-song-requests-and-a-hydroponic-garden/)
+- [Android](https://play.google.com/store/apps/details?id=com.roqbot.client)
+- [iOS](https://apps.apple.com/us/app/rockbot-social-jukebox-app/id401347343)
