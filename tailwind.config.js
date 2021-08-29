@@ -8,6 +8,7 @@ module.exports = {
     "./content/**/*.md",
   ],
   darkMode: false, // or 'media' or 'class'
+  important: true,
   theme: {
     extend: {
       fontFamily: {

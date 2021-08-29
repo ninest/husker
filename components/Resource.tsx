@@ -1,16 +1,6 @@
 import { Category } from "@/types/resource";
-import {
-  FaArrowRight,
-  FaBook,
-  FaCalculator,
-  FaComments,
-  FaCreditCard,
-  FaFingerprint,
-  FaHotel,
-  FaIdCard,
-  FaShoePrints,
-  FaSmileBeam,
-} from "react-icons/fa";
+
+import { icon } from "./Icon";
 import { SmartLink } from "./SmartLink";
 
 export function Resource({ name, description, resources, slug }: Category) {
@@ -58,14 +48,4 @@ export function Resource({ name, description, resources, slug }: Category) {
   );
 }
 
-const icon = {
-  services: FaCalculator,
-  courses: FaBook,
-  "husky-card": FaIdCard,
-  housing: FaHotel,
-  free: FaSmileBeam,
-  financial: FaCreditCard,
-  social: FaComments,
-  personal: FaFingerprint,
-  boston: FaShoePrints,
-};
+

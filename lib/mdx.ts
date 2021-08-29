@@ -2,9 +2,24 @@ import path from "path";
 import { bundleMDX } from "mdx-bundler";
 import remarkSlug from "remark-slug";
 import { getFile } from "@/lib/file";
-import { Guide } from "@/types/guide";
+
+async function getMDXFromString(markdownSource: string) {
+  /* Use for markdown strings, does not support images */
+
+  const { code } = await bundleMDX(markdownSource, {
+    cwd: process.cwd(),
+    xdmOptions(options) {
+      options.rehypePlugins = [...(options.rehypePlugins ?? [])];
+      options.remarkPlugins = [...(options.remarkPlugins ?? []), remarkSlug];
+      return options;
+    },
+  });
+  return { code };
+}
 
 export async function getMDX<T>(filepath: string) {
+  /* Use for markdown files */
+
   const markdownSource = getFile(`guides/${filepath}/index`, "md").trim();
 
   if (process.platform === "win32") {
