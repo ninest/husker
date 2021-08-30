@@ -238,6 +238,13 @@ export default {
           href: "https://northeastern.bncollege.com/shop/northeastern/page/find-textbooks",
         },
       ],
+    },  {
+      title: "Boston",
+      slug: "boston",
+      moreInfoLink: {
+        name: "Things to do in Boston",
+        href: "/boston",
+      },
     },
   ],
 } as Data;
