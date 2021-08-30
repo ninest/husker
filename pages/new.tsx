@@ -7,14 +7,15 @@ export default function NewIndex({}) {
   return (
     <>
       <LandingLayout>
-        <h1 className="font-bold text-4xl leading-normal mb-xs">Huskinfo</h1>
+        <h1 className="font-bold text-4xl leading-normal mb-sm">Huskinfo</h1>
 
         <div className="space-y-md">
           {sections.map((section) => (
             <>
               <NewResource
-                title={section.title}
+                key={section.slug}
                 slug={section.slug}
+                title={section.title}
                 bricks={section.bricks}
                 list={section.list}
                 info={section.info ?? null}

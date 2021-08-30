@@ -9,6 +9,7 @@ import {
   FaIdCard,
   FaLink,
   FaPhotoVideo,
+  FaRegBookmark,
   FaRegFileAlt,
   FaShareSquare,
   FaShoePrints,
@@ -26,6 +27,7 @@ export const icon = {
   social: FaComments,
   personal: FaFingerprint,
   boston: FaShoePrints,
+  resources: FaRegBookmark,
 
   // Other
   gallery: FaPhotoVideo,

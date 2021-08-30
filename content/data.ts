@@ -174,6 +174,10 @@ export default {
       ],
       list: [
         {
+          name: "Residential Mail",
+          href: "https://mailservices.sites.northeastern.edu/residential-mail/",
+        },
+        {
           name: "Move in/out calendar",
           href: "https://www.northeastern.edu/housing/move-inout/",
         },
@@ -208,6 +212,30 @@ export default {
           name: "Second year housing chats",
           href: "https://docs.google.com/document/d/1tFgnGDDVCX6m1qbZhCVOWJBDHFDs0VH6mIvDkFwyVG8/edit?usp=drivesdk",
           icon: "document",
+        },
+      ],
+    },
+    {
+      title: "Free",
+      slug: "free",
+      moreInfoLink: {
+        name: "Free or discounted things to get as a college student",
+        href: "/free",
+      },
+    },
+    {
+      title: "Resources",
+      slug: "resources",
+      bricks: [
+        {
+          name: "Find textbooks",
+          href: "https://northeastern.bncollege.com/shop/northeastern/page/find-textbooks",
+        },
+      ],
+      list: [
+        {
+          name: "Download books",
+          href: "https://northeastern.bncollege.com/shop/northeastern/page/find-textbooks",
         },
       ],
     },
