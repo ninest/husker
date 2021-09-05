@@ -1,4 +1,4 @@
-import {  Section } from "@/types/resource";
+import { Section } from "@/types/resource";
 import { FaArrowRight, FaRegFile } from "react-icons/fa";
 
 import { icon } from "./Icon";
@@ -48,9 +48,8 @@ export function Resource({
               {list.map((link) => {
                 const Icon = link.icon ? icon[link.icon] : FaRegFile;
                 return (
-                  <div>
+                  <div key={link.href}>
                     <SmartLink
-                      key={link.href}
                       href={link.href}
                       className="inline-ghost hover:bg-primary-lightest hover:opacity-100  flex items-center space-x-xs hover:underline"
                     >

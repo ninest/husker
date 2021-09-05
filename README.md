@@ -11,9 +11,9 @@
 
 ### Pages to add
 - [x] Apps list: https://neulinks.vercel.app/apps
-- [ ] Group chats list - in progress: https://neulinks.vercel.app/social/chats
+- [x] Group chats list - in progress: https://neulinks.vercel.app/social/chats
 - [ ] FAQ
-- [ ] Husky card uses, free stuff to claim - in progress: https://neulinks.vercel.app/huskycard
+- [x] Husky card uses, free stuff to claim - in progress: https://neulinks.vercel.app/free
 
 ## Build setup
 

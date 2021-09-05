@@ -39,12 +39,12 @@ export async function getResources(sheetId: string): Promise<Resource[]> {
 
   const resources: Resource[] = [];
   for (const row of rows) {
-    resources.push({
-      name: row.Name,
-      url: row.URL,
-      description: row.Description ?? null, // `undefined` cannot be serialized as JSON
-      notes: row.Notes ?? null,
-    });
+    // resources.push({
+    //   name: row.Name,
+    //   url: row.URL,
+    //   description: row.Description ?? null, // `undefined` cannot be serialized as JSON
+    //   notes: row.Notes ?? null,
+    // });
   }
   return resources;
 }

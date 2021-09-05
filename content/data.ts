@@ -19,6 +19,10 @@ export default {
           href: "https://orientation.northeastern.wisr.io/dashboard",
         },
         {
+          name: "Piazza",
+          href: "https://piazza.com",
+        },
+        {
           name: "Trace",
           href: "https://www.applyweb.com/eval/shibboleth/neu/36892",
         },
@@ -238,7 +242,8 @@ export default {
           href: "https://northeastern.bncollege.com/shop/northeastern/page/find-textbooks",
         },
       ],
-    },  {
+    },
+    {
       title: "Boston",
       slug: "boston",
       moreInfoLink: {
