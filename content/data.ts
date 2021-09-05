@@ -120,8 +120,13 @@ export default {
       ],
       list: [
         {
-          name: "NUDining",
-          href: "https://nudining.com/",
+          name: "Menus",
+          href: "https://nudining.com/public/menus",
+          icon: "external",
+        },
+        {
+          name: "Dining info",
+          href: "/dining",
         },
       ],
     },
