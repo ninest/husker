@@ -65,6 +65,12 @@ export default {
           href: "https://northeastern.sharepoint.com/sites/covidscheduler/SitePages/TestScheduler.aspx",
         },
       ],
+      list: [
+        {
+          name: "Apps to download",
+          href: "/apps",
+        },
+      ],
       info: "Also be sure to download these apps",
     },
     {
@@ -201,7 +207,7 @@ export default {
           icon: "gallery",
         },
         {
-          name: "Map, Floor plan, Room layours",
+          name: "Map, Floor plan, Room layouts",
           href: "https://www.northeastern.edu/housing/dnaesantoelrihtriseertn/",
         },
         {
