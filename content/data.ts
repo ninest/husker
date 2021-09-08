@@ -162,6 +162,7 @@ export default {
           name: "Clubs and organizations",
           href: "https://neu.campuslabs.com/engage/",
         },
+        { name: "Virtual clubs info", href: "https://huskyeventhub.com/" },
         {
           name: "Social Impact Lab",
           href: "https://cssh.northeastern.edu/impactlab/",
