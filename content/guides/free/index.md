@@ -26,13 +26,6 @@ See [Husky how-to](https://news.northeastern.edu/2012/01/17/huskycard/).
 
 - [Boston Red Sox](https://www.mlb.com/redsox/tickets/specials/student9s): $9 for tickets: text the word `STUDENTS` to 23215 to sign up for Red Sox Ticket Availability.
 
-## Travel
-
-- [Amtrak](https://www.amtrak.com/student-discounts)
-- [Dollar Flight Club](https://dollarflightclub.com/student-and-teachers-discount/)
-
-
-If you're in [NUin Boston](https://nuin.northeastern.edu/destinations/boston/student-life/#Transportation), you'll get the Charlie Card (MBTA) unlimited pass for the entire duration of your first semester.
 
 ## News and articles
 
@@ -45,11 +38,19 @@ If you're in [NUin Boston](https://nuin.northeastern.edu/destinations/boston/stu
 - [Amazon Prime](https://www.amazon.com/Amazon-Student/b?node=668781011)
 - [StudentBeans](https://www.studentbeans.com/us)
 - [UniDays](https://www.myunidays.com/US/en-US)
+- [From You Flowers](https://www.fromyouflowers.com/gsh): Save 20% off normal product price. Only this specific link automatically applies the discount. Save up to 50% on Seasonal Specials in the "Grower's Collection" section.
+- [GrubHub+](https://www.amazon.com/prime/offer/GrubHub/student-discount): Requires Amazon Prime student subscription
 
 ## Transport
 
+- [Amtrak](https://www.amtrak.com/student-discounts)
 - <Husky /> [Bluebikes](https://www.northeastern.edu/commutingservices/bicycling/discounted-blue-bike-sharing-program/): Use the program code `HUSKY`.
 - <Husky /> [Zipcar](https://www.zipcar.com/universities/northeastern-university)
+- [AVIS Car Rentals](https://www.avis.com/en/association/A672012): Up to 25% off a rental. Link already includes code (`A672012`).
+- [Dollar Flight Club](https://dollarflightclub.com/student-and-teachers-discount/)
+
+
+If you're in [NUin Boston](https://nuin.northeastern.edu/destinations/boston/student-life/#Transportation), you'll get the Charlie Card (MBTA) unlimited pass for the entire duration of your first semester.
 
 ## Video, music, and streaming
 
