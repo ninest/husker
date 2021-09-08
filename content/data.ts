@@ -64,6 +64,10 @@ export default {
           name: "COVID-19 test scheduling",
           href: "https://northeastern.sharepoint.com/sites/covidscheduler/SitePages/TestScheduler.aspx",
         },
+        {
+          name: "Employment",
+          href: "https://studentemployment.neu.edu/Cmx_Content.aspx?cpId=10",
+        },
       ],
       list: [
         {

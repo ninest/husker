@@ -54,7 +54,7 @@ If you're in [NUin Boston](https://nuin.northeastern.edu/destinations/boston/stu
 
 ## Video, music, and streaming
 
-- <Husky /> [Xfinity](https://xfinityoncampus.com/): Search for "Northeastern", and use campus Wi-Fi. Can also be used for HBO Max.
+- <Husky /> [Xfinity](https://xfinityoncampus.com/): Search for "Northeastern", and use campus Wi-Fi. Can also be used for HBO Max. See [instructions](https://northeastern.service-now.com/tech?id=kb_article&sys_id=117a75791b5a389058845420604bcb26) on how to enable.
 - [Spotify](https://www.spotify.com/us/student/): Discounted Spotify Premium, Hulu, and Showtime.
 - [YouTube Premium](https://support.google.com/youtube/answer/9158808?hl=en&co=GENIE.Platform%3DAndroid)
 - [PeacockTV](https://www.peacocktv.com): Log in through Xfinity.
