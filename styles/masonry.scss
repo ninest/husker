@@ -1,0 +1,15 @@
+@layer components {
+  .masonry-grid {
+    display: flex;
+    width: auto;
+    @apply -ml-8;
+  }
+  .masonry-grid-item {
+    background-clip: padding-box;
+    @apply pl-8;
+
+    & > section {
+      @apply mb-8;
+    }
+  }
+}

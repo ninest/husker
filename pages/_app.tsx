@@ -4,6 +4,8 @@ import "../styles/utils.scss";
 import "../styles/prose.scss";
 import "../styles/components.scss";
 
+import "../styles/masonry.scss";
+
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { DefaultSeo } from "next-seo";
