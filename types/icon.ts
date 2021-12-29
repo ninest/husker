@@ -1,10 +1,17 @@
 import {
+  FaBook,
+  FaCalendar,
   FaChalkboard,
+  FaCog,
   FaFileInvoice,
+  FaHome,
+  FaMoneyBillAlt,
+  FaMoneyCheckAlt,
   FaNetworkWired,
   FaPhone,
   FaPizzaSlice,
   FaRegFileAlt,
+  FaRegFrown,
   FaThermometerHalf,
   FaVirusSlash,
 } from "react-icons/fa";
@@ -18,5 +25,12 @@ export const iconMap = {
   network: FaNetworkWired,
   halfthermometer: FaThermometerHalf,
   virusslash: FaVirusSlash,
+  calendar: FaCalendar,
+  book: FaBook,
+  moneycheckalt: FaMoneyCheckAlt,
+  cog: FaCog,
+  frown: FaRegFrown,
+  moneybillalt: FaMoneyBillAlt,
+  home: FaHome,
 };
 export type IconId = keyof typeof iconMap;

@@ -9,5 +9,6 @@ export interface Category {
 export interface Link {
   name: string;
   href: string;
+  description: string;
   icon?: IconId;
 }
