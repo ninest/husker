@@ -2,6 +2,7 @@ import { FaSearch } from "react-icons/fa";
 import { SmartLink } from "@/components/SmartLinks";
 import { contentMap } from "@/content/map";
 
+
 export const Sidebar = () => {
   const links = [
     { text: "Index", href: "/" },
@@ -9,8 +10,9 @@ export const Sidebar = () => {
     { text: "Contact", href: "/contact" },
     { text: "More", href: "/more" },
   ];
+
   return (
-    <aside className="w-72 h-screen border-r space-y-md">
+    <aside className="md:w-72 h-screen border-r space-y-md">
       <div className="font-display font-black text-lg text-dark pt-base px-md">
         Husker
       </div>
