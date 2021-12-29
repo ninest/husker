@@ -1,27 +1,43 @@
-import { Icon } from "@/components/Icon";
-import { SmartLink } from "@/components/SmartLinks";
 import { Spacer } from "@/components/Spacer";
 import { Title } from "@/components/title";
 import { Category } from "@/types/category";
+import { LinkButton } from "@/components/LinkButton";
+import { SmartLink } from "./SmartLinks";
+import { Icon } from "./Icon";
 
 interface CategorySetProps {
   category: Category;
+  showTitle?: boolean;
+  showDescription?: boolean;
 }
-export const CategorySet = ({ category }: CategorySetProps) => {
+export const CategorySet = ({
+  category,
+  showTitle = true,
+  showDescription = false,
+}: CategorySetProps) => {
   return (
     <section key={category.slug} className="mb-xl">
-      <Title level={2}>{category.title}</Title>
-      <Spacer size="sm"></Spacer>
+      {showTitle && (
+        <>
+          <SmartLink
+            href={`/${category.slug}`}
+            className="flex items-center space-x-xs"
+          >
+            <Title level={2}>{category.title}</Title>
+
+            <Icon id="caretright" className="text-xl"></Icon>
+          </SmartLink>
+          <Spacer size="sm"></Spacer>
+        </>
+      )}
+
       <div className="grid grid-cols-2 md:grid-cols-3 gap-md">
-        {category.links.map((link: any) => {
+        {category.links.map((link) => {
           return (
-            <SmartLink
-              className="flex items-center space-x-base rounded p-md bg-gray-50 hover:bg-gray-100 font-semibold text-sm text-gray"
-              href={link.href}
-            >
-              <Icon id={link.icon}></Icon>
-              <div>{link.name}</div>
-            </SmartLink>
+            <LinkButton
+              link={link}
+              showDescription={showDescription}
+            ></LinkButton>
           );
         })}
       </div>

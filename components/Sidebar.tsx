@@ -32,7 +32,7 @@ export const Sidebar = () => {
           return (
             <div key={link.href}>
               <SmartLink
-                href={link.href}
+                href={`/${link.href}`}
                 className="block font-semibold text-gray-dark -m-xs p-xs hover:bg-gray-50 rounded"
                 activeClassName="bg-gray-100"
               >
@@ -43,12 +43,18 @@ export const Sidebar = () => {
         })}
       </nav>
       <hr />
-      <div className="px-md space-y-base">
+      <div className="px-md flex flex-col space-y-base">
         {contentMap.map((category) => {
           return (
             <>
-              <div key={category.slug} className="font-semibold text-gray-dark">
-                {category.title}
+              <div key={category.slug}>
+                <SmartLink
+                  href={`/${category.slug}`}
+                  className="block font-semibold text-gray-dark -m-xs p-xs hover:bg-gray-50 rounded"
+                  activeClassName="bg-gray-100"
+                >
+                  {category.title}
+                </SmartLink>
               </div>
             </>
           );

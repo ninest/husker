@@ -14,6 +14,7 @@ import {
   FaRegFrown,
   FaThermometerHalf,
   FaVirusSlash,
+  FaCaretRight,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -32,5 +33,6 @@ export const iconMap = {
   frown: FaRegFrown,
   moneybillalt: FaMoneyBillAlt,
   home: FaHome,
+  caretright: FaCaretRight,
 };
 export type IconId = keyof typeof iconMap;
