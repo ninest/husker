@@ -16,7 +16,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const slug = params?.slug![0] as string;
   const category = contentMap.find((category) => category.slug === slug);
-  console.log({ slug, category });
+
   return {
     props: {
       category,
@@ -37,6 +37,7 @@ const ContentPage = ({ category }: ContentPageProps) => {
         category={category!}
         showTitle={false}
         showDescription
+        showPages
       ></CategorySet>
     </>
   );

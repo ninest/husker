@@ -31,13 +31,7 @@ export const Sidebar = () => {
         {links.map((link) => {
           return (
             <div key={link.href}>
-              <SmartLink
-                href={`/${link.href}`}
-                className="block font-semibold text-gray-dark -m-xs p-xs hover:bg-gray-50 rounded"
-                activeClassName="bg-gray-100"
-              >
-                {link.text}
-              </SmartLink>
+              <SidebarLink href={link.href} title={link.text}></SidebarLink>
             </div>
           );
         })}
@@ -48,18 +42,31 @@ export const Sidebar = () => {
           return (
             <>
               <div key={category.slug}>
-                <SmartLink
+                <SidebarLink
                   href={`/${category.slug}`}
-                  className="block font-semibold text-gray-dark -m-xs p-xs hover:bg-gray-50 rounded"
-                  activeClassName="bg-gray-100"
-                >
-                  {category.title}
-                </SmartLink>
+                  title={category.title}
+                ></SidebarLink>
               </div>
             </>
           );
         })}
       </div>
     </aside>
+  );
+};
+
+interface SidebarLinkProps {
+  href: string;
+  title: string;
+}
+const SidebarLink = ({ href, title }: SidebarLinkProps) => {
+  return (
+    <SmartLink
+      href={href}
+      className="block font-semibold text-gray-dark -m-xs p-xs hover:bg-gray-50 rounded"
+      activeClassName="bg-gray-100"
+    >
+      {title}
+    </SmartLink>
   );
 };

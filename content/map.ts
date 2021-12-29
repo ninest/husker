@@ -59,6 +59,8 @@ export const contentMap: Category[] = [
         description: "Access student employment hub",
         href: "https://studentemployment.neu.edu/Cmx_Content.aspx?cpId=10",
       },
+    ],
+    pages: [
       {
         name: "Apps",
         description: "A list of Northeastern-related apps to download",
@@ -83,6 +85,30 @@ export const contentMap: Category[] = [
         icon: "calendar",
       },
     ],
+    pages: [
+      {
+        name: "Course descriptions",
+        href: "http://catalog.northeastern.edu/course-descriptions/",
+        description: "View course descriptions",
+      },
+      {
+        name: "NUPath dashboard",
+        href: "https://www.northeastern.edu/core/dashboard/",
+        description: "View course NUPath, filter courses by NUPath",
+      },
+      {
+        name: "SearchNEU",
+        href: "https://searchneu.com/",
+        description: "Courses list, notifications for seat openings",
+        icon: "search",
+      },
+      {
+        name: "RateMyCourses",
+        href: "https://ratemycourses.io/NEU",
+        description: "Course ratings",
+        icon: "starhalf",
+      },
+    ],
   },
   {
     title: "Husky Card",
@@ -105,6 +131,25 @@ export const contentMap: Category[] = [
         href: "https://huskycardcenter.neu.edu/student/welcome.php",
         description: "Balance, lost card, open my door, settings",
         icon: "cog",
+      },
+    ],
+    pages: [
+      {
+        name: "Menus",
+        href: "https://nudining.com/public/menus",
+        description: "Dining hall menus",
+        icon: "utensils",
+      },
+      {
+        name: "Hours",
+        href: "https://nudining.com/public/hours",
+        description: "Dining hall and restaurants timings",
+        icon: "clock",
+      },
+      {
+        name: "Dining info",
+        description: "Information about meal plan",
+        href: "/dining",
       },
     ],
   },
