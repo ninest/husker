@@ -19,6 +19,7 @@ import {
   FaStarHalfAlt,
   FaUtensils,
   FaRegClock,
+  FaTimes,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -41,6 +42,7 @@ export const iconMap = {
   search: FaSearch,
   starhalf: FaStarHalfAlt,
   utensils: FaUtensils,
-  clock:FaRegClock
+  clock: FaRegClock,
+  x: FaTimes,
 };
 export type IconId = keyof typeof iconMap;

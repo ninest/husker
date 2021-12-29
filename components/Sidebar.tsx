@@ -1,9 +1,13 @@
 import { FaSearch } from "react-icons/fa";
 import { SmartLink } from "@/components/SmartLinks";
 import { contentMap } from "@/content/map";
+import { Icon } from "./Icon";
 
+interface SidebarProps {
+  onCloseClick: () => void;
+}
 
-export const Sidebar = () => {
+export const Sidebar = ({ onCloseClick }: SidebarProps) => {
   const links = [
     { text: "Index", href: "/" },
     { text: "About", href: "/about" },
@@ -13,8 +17,12 @@ export const Sidebar = () => {
 
   return (
     <aside className="md:w-72 h-screen border-r space-y-md">
-      <div className="font-display font-black text-lg text-dark pt-base px-md">
-        Husker
+      {/* Close button for mobile only */}
+      <div className="flex items-center pt-base px-md">
+        <button onClick={onCloseClick} className="block md:hidden mr-base">
+          <Icon id="x"></Icon>
+        </button>
+        <div className="font-display font-black text-lg text-dark">Husker</div>
       </div>
 
       <label className="relative flex px-md">
