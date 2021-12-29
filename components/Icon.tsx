@@ -1,7 +1,16 @@
 import { HTMLAttributes } from "react";
 import clsx from "clsx";
 import { IconType } from "react-icons";
-import { FaRegFileAlt } from "react-icons/fa";
+import {
+  FaChalkboard,
+  FaFileInvoice,
+  FaNetworkWired,
+  FaPhone,
+  FaPizzaSlice,
+  FaRegFileAlt,
+  FaThermometerHalf,
+  FaVirusSlash,
+} from "react-icons/fa";
 
 export interface IconProps extends HTMLAttributes<HTMLDivElement> {
   id?: string;
@@ -15,4 +24,11 @@ export const Icon = ({ id = "filealt", ...props }: IconProps) => {
 
 const iconMap: Record<string, IconType> = {
   filealt: FaRegFileAlt,
+  invoice: FaFileInvoice,
+  pizza: FaPizzaSlice,
+  chalkboard: FaChalkboard,
+  phone: FaPhone,
+  network: FaNetworkWired,
+  halfthermometer: FaThermometerHalf,
+  virusslash: FaVirusSlash,
 };

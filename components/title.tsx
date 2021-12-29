@@ -5,7 +5,7 @@ interface TitleProps extends HTMLAttributes<HTMLDivElement> {
   level?: number;
 }
 
-const Title = ({ level = 1, children, ...props }: TitleProps) => {
+export const Title = ({ level = 1, children, ...props }: TitleProps) => {
   // https://stackoverflow.com/a/59685929/8677167
   const HeadingTag = `h${level}` as keyof JSX.IntrinsicElements;
 
@@ -25,4 +25,3 @@ const Title = ({ level = 1, children, ...props }: TitleProps) => {
     </HeadingTag>
   );
 };
-export default Title;

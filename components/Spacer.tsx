@@ -6,7 +6,7 @@ interface SpacerProps {
   axis?: "x" | "y";
 }
 
-const Spacer = ({ size = "base", axis = "y" }: SpacerProps) => {
+export const Spacer = ({ size = "base", axis = "y" }: SpacerProps) => {
   const prefix = axis == "x" ? "w" : "h";
   return <div className={clsx(`${prefix}-${size}`)}></div>;
 };
@@ -32,5 +32,3 @@ const _ = [
   "w-2xl",
   "w-3xl",
 ] as const;
-
-export default Spacer;
