@@ -20,6 +20,7 @@ import {
   FaUtensils,
   FaRegClock,
   FaTimes,
+  FaGripLines,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -44,5 +45,6 @@ export const iconMap = {
   utensils: FaUtensils,
   clock: FaRegClock,
   x: FaTimes,
+  griplines: FaGripLines,
 };
 export type IconId = keyof typeof iconMap;

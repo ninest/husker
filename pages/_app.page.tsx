@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       ></DefaultSeo>
 
       {!showSidebar && (
-        <div className={clsx("block md:hidden")}>
+        <div className={clsx("block md:hidden sticky top-0")}>
           <MobileNavbar
             onMenuClick={() => {
               setShowSidebar(!showSidebar);
@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       )}
 
       <main className={clsx("md:flex")}>
-        <div className={clsx({ hidden: !showSidebar }, "md:block")}>
+        <div className={clsx({ hidden: !showSidebar }, "md:block sticky top-0")}>
           <Sidebar onCloseClick={() => setShowSidebar(false)}></Sidebar>
         </div>
         <article className="wrapper">
