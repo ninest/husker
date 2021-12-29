@@ -1,3 +1,5 @@
+import { IconId } from "@/types/icon";
+
 export interface Category {
   slug: string;
   title: string;
@@ -7,5 +9,5 @@ export interface Category {
 export interface Link {
   name: string;
   href: string;
-  icon?: string;
+  icon?: IconId;
 }
