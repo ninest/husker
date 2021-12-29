@@ -1,0 +1,38 @@
+@layer utilities {
+  .prose {
+    @apply space-y-base leading-8 text-gray-darker;
+
+    p {
+      @apply break-words;
+    }
+
+    ul {
+      @apply list-outside list-disc ml-lg;
+    }
+    ol {
+      @apply list-outside list-decimal ml-lg;
+    }
+
+    a {
+      @apply underline;
+    }
+
+    h2,
+    h3,
+    h4 {
+      @apply font-display text-gray-800;
+      // Extra spacing above and below headings
+      @apply pt-0.5 pb-0.5;
+    }
+
+    h2 {
+      @apply text-3xl font-semibold;
+    }
+    h3 {
+      @apply text-2xl font-medium;
+    }
+    h4 {
+      @apply text-xl font-medium;
+    }
+  }
+}
