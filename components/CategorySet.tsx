@@ -1,10 +1,11 @@
 import { Icon } from "@/components/Icon";
 import { SmartLink } from "@/components/SmartLinks";
-import {Spacer} from "@/components/Spacer";
-import {Title} from "@/components/title";
+import { Spacer } from "@/components/Spacer";
+import { Title } from "@/components/title";
+import { Category } from "@/types/category";
 
 interface CategorySetProps {
-  category: any;
+  category: Category;
 }
 export const CategorySet = ({ category }: CategorySetProps) => {
   return (

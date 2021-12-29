@@ -1,4 +1,6 @@
-export const contentMap = [
+import { Category } from "@/types/category";
+
+export const contentMap: Category[] = [
   {
     slug: "service",
     title: "Services",
