@@ -2,7 +2,7 @@ import { FaSearch } from "react-icons/fa";
 import { SmartLink } from "@/components/SmartLinks";
 import { contentMap } from "@/content/map";
 import { Icon } from "./Icon";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { LinkButton } from "./LinkButton";
 import { Link } from "@/types/category";
 import { search } from "@/lib/search";
@@ -33,6 +33,23 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
     }
   }, [searchTerm]);
 
+  /* Listen for keyboard "/" to focus on search */
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  const onKeyPress = (e: KeyboardEvent) => {
+    if (e.key === "/") {
+      e.preventDefault();
+      inputRef.current?.focus();
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("keydown", onKeyPress);
+    return () => {
+      document.removeEventListener("keydown", onKeyPress);
+    };
+  }, []);
+
   return (
     <aside className="bg-light md:w-80 h-screen border-r space-y-md">
       {/* Close button for mobile only */}
@@ -52,6 +69,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
         </span>
         {/* Search bar */}
         <input
+          ref={inputRef}
           style={{ minWidth: 0 }}
           /* More padding on mobile for fat fingers */
           className="w-full pl-10 pr-xs py-sm md:py-1 border-2 font-medium rounded outline-none bg-gray-50 text-gray placeholder:text-gray-lighter"
