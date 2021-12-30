@@ -17,7 +17,7 @@ export const LinkButton = ({
       className="flex items-center space-x-md rounded p-base bg-gray-100 hover:bg-gray-200 "
       href={link.href}
     >
-      <Icon id={link.icon} className="text-sm"></Icon>
+      <Icon id={link.icon} className="text-sm min-w-fit"></Icon>
       <div>
         <div className="font-semibold text-sm text-gray">{link.name}</div>
         {showDescription && (

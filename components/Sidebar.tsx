@@ -34,7 +34,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
   }, [searchTerm]);
 
   return (
-    <aside className="bg-light md:w-72 h-screen border-r space-y-md">
+    <aside className="bg-light md:w-80 h-screen border-r space-y-md">
       {/* Close button for mobile only */}
       <div className="flex items-center pt-base px-md">
         <button
@@ -62,13 +62,14 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
       </label>
 
       {shouldSearch() && searchResults.length > 0 && (
-        <>
+        <div>
+          <div className="px-md pb-sm text-sm text-gray">Search results</div>
           <div className="px-md flex flex-col space-y-sm">
             {searchResults.map((link) => {
               return <LinkButton link={link} showDescription></LinkButton>;
             })}
           </div>
-        </>
+        </div>
       )}
 
       <hr />
