@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { fileExists } from "./exists";
 
 const root = process.cwd();
 
@@ -16,9 +17,7 @@ export function readFile(filepath: string) {
   }
 }
 
-export function fileExists(filepath: string) {
-  return fs.existsSync(path.join(root, "content", `${filepath}`));
-}
+
 
 export function fileNameExtension(filepath: string) {
   /* Split at last index of "." */

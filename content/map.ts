@@ -2,7 +2,7 @@ import { Category } from "@/types/category";
 
 export const contentMap: Category[] = [
   {
-    slug: "service",
+    slug: "services",
     title: "Services",
     links: [
       {
@@ -179,4 +179,11 @@ export const contentMap: Category[] = [
   },
 ];
 
-export const pages = ["/about", "/contribute", "/apps", "/boston"];
+export const pages = [
+  "/about",
+  "/contribute",
+  "/apps",
+  "/boston",
+  "/social/chats",
+  "/social/instagram",
+];
