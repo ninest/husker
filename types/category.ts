@@ -13,3 +13,6 @@ export interface Link {
   description: string;
   icon?: IconId;
 }
+export interface LinkWithCategory extends Link {
+  categoryTitle: string;
+}

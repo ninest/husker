@@ -2,9 +2,10 @@ import { FaSearch } from "react-icons/fa";
 import { SmartLink } from "@/components/SmartLinks";
 import { contentMap } from "@/content/map";
 import { Icon } from "./Icon";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { LinkButton } from "./LinkButton";
 import { Link } from "@/types/category";
+import { search } from "@/lib/search";
 
 interface SidebarProps {
   onCloseClick: () => void;
@@ -18,7 +19,19 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
     { text: "More", href: "/more" },
   ];
 
+  const [searchTerm, setSearchTerm] = useState("");
   const [searchResults, setSearchResults] = useState<Link[]>([]);
+
+  /* To prevent showing everything, only search when more than 3 
+  characters are typed */
+  const shouldSearch = () => searchTerm.length > 3;
+
+  useEffect(() => {
+    if (shouldSearch()) {
+      const results = search(searchTerm);
+      setSearchResults(results);
+    }
+  }, [searchTerm]);
 
   return (
     <aside className="bg-light md:w-72 h-screen border-r space-y-md">
@@ -44,10 +57,11 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
           className="w-full pl-10 pr-xs py-sm md:py-1 border-2 font-medium rounded outline-none bg-gray-50 text-gray placeholder:text-gray-lighter"
           placeholder="Search"
           type="text"
+          onChange={(e) => setSearchTerm(e.target.value)}
         />
       </label>
 
-      {searchResults.length > 0 && (
+      {shouldSearch() && searchResults.length > 0 && (
         <>
           <div className="px-md flex flex-col space-y-sm">
             {searchResults.map((link) => {
