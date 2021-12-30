@@ -22,6 +22,7 @@ import {
   FaTimes,
   FaGripLines,
   FaRegMoneyBillAlt,
+  FaCaretLeft,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -40,9 +41,9 @@ export const iconMap = {
   frown: FaRegFrown,
   moneybillalt: FaMoneyBillAlt,
   regmoneybillalt: FaRegMoneyBillAlt,
-
   home: FaHome,
   caretright: FaCaretRight,
+  caretleft: FaCaretLeft,
   search: FaSearch,
   starhalf: FaStarHalfAlt,
   utensils: FaUtensils,

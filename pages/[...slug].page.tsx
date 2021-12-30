@@ -8,6 +8,8 @@ import { listToFilepath } from "@/lib/file/list-to-file";
 import { getPage } from "@/lib/pages";
 import { Category } from "@/types/category";
 import { Page } from "@/types/page";
+import { Icon } from "@/components/Icon";
+import { SmartLink } from "@/components/SmartLinks";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const categoryPaths = contentMap.map((category) => `/${category.slug}`);
@@ -38,15 +40,21 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
 interface ContentPageProps {
   category?: Category;
-  page?: Page;
+  page: Page;
 }
 
 const ContentPage = ({ category, page }: ContentPageProps) => {
-  const Markdown = getMDXComponent(page?.code);
+  const Markdown = getMDXComponent(page.code);
   const { title, description, updatedAt } = page.frontmatter;
 
   return (
     <>
+      <Spacer></Spacer>
+      <SmartLink className="flex items-center space-x-sm text-gray" href={"/"}>
+        <Icon id="caretleft" className="text-gray"></Icon>
+        <div>Index</div>
+      </SmartLink>
+      <Spacer size="sm"></Spacer>
       <Title>{category?.title ?? title}</Title>
       <Spacer></Spacer>
       {category && (
