@@ -11,6 +11,7 @@ import { Page } from "@/types/page";
 import { Icon } from "@/components/Icon";
 import { SmartLink } from "@/components/SmartLinks";
 import { BackButton } from "@/components/BackButton";
+import { NextSeo } from "next-seo";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const categoryPaths = contentMap.map((category) => `/${category.slug}`);
@@ -50,6 +51,11 @@ const ContentPage = ({ category, page }: ContentPageProps) => {
 
   return (
     <>
+      <NextSeo
+        title={category?.title ?? title}
+        description={description}
+      ></NextSeo>
+
       <Spacer></Spacer>
       <BackButton></BackButton>
       <Spacer size="sm"></Spacer>

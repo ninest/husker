@@ -1,5 +1,6 @@
 import { contentMap } from "@/content/map";
 import { CategorySet } from "@/components/CategorySet";
+import { Icon } from "@/components/Icon";
 
 const IndexPage = () => {
   return (

@@ -4,6 +4,9 @@ description: Free or discounted things to get as a college student
 lastUpdated: 2021-08-27
 ---
 
+import { Icon } from '@/components/Icon';
+export const Husky = () => Icon({ id: "dog", className: "inline" });
+
 This page contains a list of things that are free or discounted for students. If something is free or discounted specifically for Northeastern students, or if Northeastern is paying for and providing that service, there will be a <Husky /> next to the link.
 
 ## Movies

@@ -73,6 +73,11 @@ export const contentMap: Category[] = [
         description: "A list of Northeastern-related apps to download",
         href: "/apps",
       },
+      {
+        name: "Free",
+        description: "Free stuff students can get",
+        href: "/free",
+      },
     ],
   },
   {
@@ -259,6 +264,7 @@ export const pages = [
   "/about",
   "/apps",
   "/boston",
+  "/free",
   "/social/chats",
   "/social/instagram",
   "/changelog",
