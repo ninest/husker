@@ -257,10 +257,9 @@ export const contentMap: Category[] = [
 
 export const pages = [
   "/about",
-  "/contribute",
   "/apps",
   "/boston",
   "/social/chats",
   "/social/instagram",
-  "/changelog"
+  "/changelog",
 ];
