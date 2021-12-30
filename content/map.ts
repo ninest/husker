@@ -37,6 +37,13 @@ export const contentMap: Category[] = [
         icon: "network",
       },
     ],
+    pages: [
+      {
+        name: "Apps",
+        description: "A list of Northeastern-related apps to download",
+        href: "/apps",
+      },
+    ],
   },
   {
     slug: "personal",
@@ -162,6 +169,12 @@ export const contentMap: Category[] = [
         href: "https://nu.outsystemsenterprise.com/StudentFinance/ViewBill",
         description: "View and pay bill",
         icon: "moneybillalt",
+      },
+      {
+        name: "Payment Plan",
+        href: "https://sso.myonplanu.com/landing/northeastern",
+        description: "Set up and view payment plan",
+        icon: "regmoneybillalt",
       },
     ],
   },

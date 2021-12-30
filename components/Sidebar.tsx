@@ -21,7 +21,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
   ];
 
   return (
-    <aside className="bg-light md:w-80 h-screen border-r space-y-md">
+    <aside className="bg-light md:w-80 h-screen overflow-y-scroll sticky top-0 border-r space-y-md">
       {/* Close button for mobile only */}
       <div className="flex items-center pt-base px-md">
         <button
@@ -36,7 +36,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
       <Search></Search>
 
       <hr />
-      <nav className="px-md flex flex-col space-y-base">
+      <nav className="px-md text-sm flex flex-col space-y-base">
         {links.map((link) => {
           return (
             <div key={link.href}>
@@ -46,7 +46,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
         })}
       </nav>
       <hr />
-      <div className="px-md flex flex-col space-y-base">
+      <div className="px-md text-sm flex flex-col space-y-base">
         {contentMap.map((category) => {
           return (
             <div key={category.slug}>

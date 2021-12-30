@@ -3,6 +3,7 @@ import { FaSearch } from "react-icons/fa";
 import { search } from "@/lib/search";
 import { Link } from "@/types/category";
 import { LinkButton } from "@/components/LinkButton";
+import { Icon } from "./Icon";
 
 export const Search = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -26,6 +27,9 @@ characters are typed */
     if (e.key === "/") {
       e.preventDefault();
       inputRef.current?.focus();
+    } else if (e.key == "Escape") {
+      console.log("Must clear");
+      setSearchTerm("");
     }
   };
 
@@ -50,19 +54,37 @@ characters are typed */
           placeholder="Search"
           type="text"
           onChange={(e) => setSearchTerm(e.target.value)}
+          value={searchTerm}
         />
       </label>
 
-      {shouldSearch() && searchResults.length > 0 && (
+      {shouldSearch() && (
         <div>
-          <div className="px-md pb-sm text-sm text-gray">Search results</div>
-          <div className="px-md flex flex-col space-y-sm">
-            {searchResults.map((link) => {
-              return (
-                <LinkButton key={link.href} link={link} showDescription></LinkButton>
-              );
-            })}
-          </div>
+          {searchResults.length > 0 ? (
+            <>
+              <div className="px-md pb-sm text-sm text-gray">
+                Search results
+              </div>
+              <div className="px-md flex flex-col space-y-sm">
+                {searchResults.map((link) => {
+                  return (
+                    <LinkButton
+                      key={link.href}
+                      link={link}
+                      showDescription
+                    ></LinkButton>
+                  );
+                })}
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="px-md text-sm text-gray flex items-center space-x-sm">
+                <Icon id="frown"></Icon>
+                <span>No search results</span>
+              </div>
+            </>
+          )}
         </div>
       )}
     </>
