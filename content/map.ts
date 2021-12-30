@@ -91,6 +91,16 @@ export const contentMap: Category[] = [
         description: "Summarized semester schedule",
         icon: "calendar",
       },
+      {
+        name: "Grades",
+        href: "https://nubanner.neu.edu/ssomanager/c/SSB?pkg=bwskogrd.P_ViewTermGrde",
+        description: "View grades and GPA",
+      },
+      {
+        name: "Transcript",
+        href: "https://nubanner.neu.edu/ssomanager/c/SSB?pkg=bwskotrn.P_ViewTermTran",
+        description: "View degree audit",
+      },
     ],
     pages: [
       {
@@ -252,4 +262,5 @@ export const pages = [
   "/boston",
   "/social/chats",
   "/social/instagram",
+  "/changelog"
 ];

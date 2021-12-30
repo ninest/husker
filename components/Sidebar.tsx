@@ -17,6 +17,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
     { text: "Index", href: "/" },
     { text: "About", href: "/about" },
     { text: "Contribute", href: "/contribute" },
+    { text: "Changelog", href: "/changelog" },
     // { text: "More", href: "/more" },
   ];
 
