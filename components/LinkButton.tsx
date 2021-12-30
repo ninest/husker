@@ -14,7 +14,7 @@ export const LinkButton = ({
 }: LinkButtonProps) => {
   return (
     <SmartLink
-      className="flex items-center space-x-md rounded p-base bg-gray-50 hover:bg-gray-100 "
+      className="flex items-center space-x-md rounded p-base bg-gray-100 hover:bg-gray-200 "
       href={link.href}
     >
       <Icon id={link.icon} className="text-sm"></Icon>

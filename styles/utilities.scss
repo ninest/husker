@@ -27,10 +27,13 @@
 
   .wrapper {
     @apply p-md;
+
     @screen md {
-      @apply px-0;
       @apply w-[75ch] mx-auto;
     }
-    // @apply bg-primary-lightest;
+    
+    @screen xl {
+      @apply px-0;
+    }
   }
 }

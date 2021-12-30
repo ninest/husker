@@ -4,11 +4,17 @@ import { CategorySet } from "@/components/CategorySet";
 const IndexPage = () => {
   return (
     <>
-      {contentMap.map((category) => {
-        return (
-          <CategorySet key={category.slug} category={category}></CategorySet>
-        );
-      })}
+      <div className="space-y-lg">
+        {contentMap.map((category) => {
+          return (
+            <CategorySet
+              key={category.slug}
+              showTitle
+              category={category}
+            ></CategorySet>
+          );
+        })}
+      </div>
     </>
   );
 };

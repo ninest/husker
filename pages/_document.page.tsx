@@ -27,7 +27,7 @@ class MyDocument extends Document {
           <link rel="stylesheet" href="/font.css" />
           <meta name="theme-color" content="#111111" />
         </Head>
-        <body className="bg-light" {...{ "data-theme": "dark" }}>
+        <body className="bg-light" {...{ "data-theme": "light" }}>
           <Main />
           {/* <script
             dangerouslySetInnerHTML={{

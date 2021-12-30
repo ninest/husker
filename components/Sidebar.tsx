@@ -19,7 +19,10 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
     <aside className="bg-light md:w-72 h-screen border-r space-y-md">
       {/* Close button for mobile only */}
       <div className="flex items-center pt-base px-md">
-        <button onClick={onCloseClick} className="block md:hidden mr-base border p-2 rounded">
+        <button
+          onClick={onCloseClick}
+          className="block md:hidden mr-base border p-2 rounded"
+        >
           <Icon id="x"></Icon>
         </button>
         <div className="font-display font-black text-lg text-dark">Husker</div>
@@ -52,14 +55,12 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
       <div className="px-md flex flex-col space-y-base">
         {contentMap.map((category) => {
           return (
-            <>
-              <div key={category.slug}>
-                <SidebarLink
-                  href={`/${category.slug}`}
-                  title={category.title}
-                ></SidebarLink>
-              </div>
-            </>
+            <div key={category.slug}>
+              <SidebarLink
+                href={`/${category.slug}`}
+                title={category.title}
+              ></SidebarLink>
+            </div>
           );
         })}
       </div>

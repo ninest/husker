@@ -8,14 +8,12 @@ import { Icon } from "./Icon";
 interface CategorySetProps {
   category: Category;
   showTitle?: boolean;
-  showDescription?: boolean;
-  showPages?: boolean;
+  showFull?: boolean;
 }
 export const CategorySet = ({
   category,
-  showTitle = true,
-  showDescription = false,
-  showPages = false,
+  showTitle = false,
+  showFull = false,
 }: CategorySetProps) => {
   return (
     <section key={category.slug} className="mb-xl">
@@ -25,36 +23,38 @@ export const CategorySet = ({
             href={`/${category.slug}`}
             className="flex items-center space-x-xs"
           >
-            <Title level={2}>{category.title}</Title>
+            <Title level={3}>{category.title}</Title>
 
             <Icon id="caretright" className="text-xl"></Icon>
           </SmartLink>
-          <Spacer size="sm"></Spacer>
+          <Spacer size="xs"></Spacer>
         </>
       )}
 
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-md">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-md">
         {category.links.map((link) => {
           return (
             <LinkButton
+              key={link.href}
               link={link}
-              showDescription={showDescription}
+              showDescription={showFull}
             ></LinkButton>
           );
         })}
       </div>
 
-      {showPages && category.pages && (
+      {showFull && category.pages && (
         <>
           <Spacer size="lg"></Spacer>
           <hr />
           <Spacer size="lg"></Spacer>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-md">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-md">
             {category.pages?.map((link) => {
               return (
                 <LinkButton
+                  key={link.href}
                   link={link}
-                  showDescription={showDescription}
+                  showDescription={showFull}
                 ></LinkButton>
               );
             })}

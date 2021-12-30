@@ -36,8 +36,7 @@ const ContentPage = ({ category }: ContentPageProps) => {
       <CategorySet
         category={category!}
         showTitle={false}
-        showDescription
-        showPages
+        showFull
       ></CategorySet>
     </>
   );
