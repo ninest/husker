@@ -189,6 +189,59 @@ export const contentMap: Category[] = [
         icon: "home",
       },
     ],
+    pages: [
+      {
+        name: "Northeastern Dorms",
+        href: "https://sites.google.com/view/neudorms/home",
+        description: "Images and descriptions of dorms",
+      },
+      {
+        name: "Map, Floor plan, Room layouts",
+        href: "https://www.northeastern.edu/housing/dnaesantoelrihtriseertn/",
+        description: "Layouts and floor plans of dorms",
+      },
+    ],
+  },
+  {
+    title: "Social",
+    slug: "social",
+    links: [
+      {
+        name: "Clubs and organizations",
+        href: "https://neu.campuslabs.com/engage/",
+        description: "Organizations list and description",
+      },
+    ],
+    pages: [
+      {
+        name: "Group chats list",
+        description: "GroupMe and other chats to join",
+        href: "/social/chats",
+      },
+      {
+        name: "Instagram pages",
+        description: "Official and student-run Instagram pages",
+        href: "/social/instagram",
+      },
+    ],
+  },
+  {
+    title: "Resources",
+    slug: "resources",
+    links: [
+      {
+        name: "Find textbooks",
+        href: "https://northeastern.bncollege.com/shop/northeastern/page/find-textbooks",
+        description: "Northeastern book store",
+      },
+    ],
+    pages: [
+      {
+        name: "Download books",
+        href: "https://northeastern.bncollege.com/shop/northeastern/page/find-textbooks",
+        description: "Download books for free",
+      },
+    ],
   },
 ];
 

@@ -10,6 +10,7 @@ import { Category } from "@/types/category";
 import { Page } from "@/types/page";
 import { Icon } from "@/components/Icon";
 import { SmartLink } from "@/components/SmartLinks";
+import { BackButton } from "@/components/BackButton";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const categoryPaths = contentMap.map((category) => `/${category.slug}`);
@@ -50,10 +51,7 @@ const ContentPage = ({ category, page }: ContentPageProps) => {
   return (
     <>
       <Spacer></Spacer>
-      <SmartLink className="flex items-center space-x-sm text-gray" href={"/"}>
-        <Icon id="caretleft" className="text-gray"></Icon>
-        <div>Index</div>
-      </SmartLink>
+      <BackButton></BackButton>
       <Spacer size="sm"></Spacer>
       <Title>{category?.title ?? title}</Title>
       <Spacer></Spacer>
