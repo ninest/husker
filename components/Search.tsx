@@ -10,7 +10,7 @@ export const Search = () => {
 
   /* To prevent showing everything, only search when more than 3 
 characters are typed */
-  const shouldSearch = () => searchTerm.length > 3;
+  const shouldSearch = () => searchTerm.length > 1;
 
   useEffect(() => {
     if (shouldSearch()) {

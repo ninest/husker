@@ -16,10 +16,13 @@ export const SmartLink = ({
   ...props
 }: SmartLinkProps) => {
   const router = useRouter();
-  const className = clsx(props.className, {
-    underline,
-    [`${activeClassName}`]: router.asPath === href,
-  });
+  const className = clsx(
+    {
+      underline,
+      [`${activeClassName}`]: router.asPath === href,
+    },
+    props.className
+  );
 
   if (href[0] === "/")
     return (

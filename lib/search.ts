@@ -4,7 +4,10 @@ import { Link, LinkWithCategory } from "@/types/category";
 
 const searchableItems: any[] = contentMap
   .map((category) => {
-    return category.links.map(
+    let items: Link[] = [...category.links];
+    if (category.pages) items = [...items, ...category.pages];
+
+    return items.map(
       (link: Link): LinkWithCategory => ({
         ...link,
         categoryTitle: category.title,
@@ -15,6 +18,7 @@ const searchableItems: any[] = contentMap
 
 const fuse = new Fuse(searchableItems, {
   keys: ["name", "href", "description", "categoryTitle"],
+  threshold: 0.4,
 });
 
 interface FuseSearchResult<T> {
