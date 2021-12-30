@@ -2,6 +2,9 @@ import { FaSearch } from "react-icons/fa";
 import { SmartLink } from "@/components/SmartLinks";
 import { contentMap } from "@/content/map";
 import { Icon } from "./Icon";
+import { useState } from "react";
+import { LinkButton } from "./LinkButton";
+import { Link } from "@/types/category";
 
 interface SidebarProps {
   onCloseClick: () => void;
@@ -14,6 +17,8 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
     { text: "Contact", href: "/contact" },
     { text: "More", href: "/more" },
   ];
+
+  const [searchResults, setSearchResults] = useState<Link[]>([]);
 
   return (
     <aside className="bg-light md:w-72 h-screen border-r space-y-md">
@@ -32,6 +37,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
         <span className="absolute inset-y-0 left-0 flex items-center pl-8 md:pl-7">
           <FaSearch className="text-gray-light" />
         </span>
+        {/* Search bar */}
         <input
           style={{ minWidth: 0 }}
           /* More padding on mobile for fat fingers */
@@ -40,6 +46,16 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
           type="text"
         />
       </label>
+
+      {searchResults.length > 0 && (
+        <>
+          <div className="px-md flex flex-col space-y-sm">
+            {searchResults.map((link) => {
+              return <LinkButton link={link} showDescription></LinkButton>;
+            })}
+          </div>
+        </>
+      )}
 
       <hr />
       <nav className="px-md flex flex-col space-y-base">
