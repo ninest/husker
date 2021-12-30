@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import { LinkButton } from "./LinkButton";
 import { Link } from "@/types/category";
 import { search } from "@/lib/search";
+import { Search } from "./Search";
 
 interface SidebarProps {
   onCloseClick: () => void;
@@ -18,37 +19,6 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
     { text: "Contact", href: "/contact" },
     { text: "More", href: "/more" },
   ];
-
-  const [searchTerm, setSearchTerm] = useState("");
-  const [searchResults, setSearchResults] = useState<Link[]>([]);
-
-  /* To prevent showing everything, only search when more than 3 
-  characters are typed */
-  const shouldSearch = () => searchTerm.length > 3;
-
-  useEffect(() => {
-    if (shouldSearch()) {
-      const results = search(searchTerm);
-      setSearchResults(results);
-    }
-  }, [searchTerm]);
-
-  /* Listen for keyboard "/" to focus on search */
-  const inputRef = useRef<HTMLInputElement>(null);
-
-  const onKeyPress = (e: KeyboardEvent) => {
-    if (e.key === "/") {
-      e.preventDefault();
-      inputRef.current?.focus();
-    }
-  };
-
-  useEffect(() => {
-    document.addEventListener("keydown", onKeyPress);
-    return () => {
-      document.removeEventListener("keydown", onKeyPress);
-    };
-  }, []);
 
   return (
     <aside className="bg-light md:w-80 h-screen border-r space-y-md">
@@ -63,32 +33,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
         <div className="font-display font-black text-lg text-dark">Husker</div>
       </div>
 
-      <label className="relative flex px-md">
-        <span className="absolute inset-y-0 left-0 flex items-center pl-8 md:pl-7">
-          <FaSearch className="text-gray-light" />
-        </span>
-        {/* Search bar */}
-        <input
-          ref={inputRef}
-          style={{ minWidth: 0 }}
-          /* More padding on mobile for fat fingers */
-          className="w-full pl-10 pr-xs py-sm md:py-1 border-2 font-medium rounded outline-none bg-gray-50 text-gray placeholder:text-gray-lighter"
-          placeholder="Search"
-          type="text"
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
-      </label>
-
-      {shouldSearch() && searchResults.length > 0 && (
-        <div>
-          <div className="px-md pb-sm text-sm text-gray">Search results</div>
-          <div className="px-md flex flex-col space-y-sm">
-            {searchResults.map((link) => {
-              return <LinkButton link={link} showDescription></LinkButton>;
-            })}
-          </div>
-        </div>
-      )}
+      <Search></Search>
 
       <hr />
       <nav className="px-md flex flex-col space-y-base">
