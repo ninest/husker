@@ -258,6 +258,7 @@ export const pages = [
   "/apps",
   "/boston",
   "/free",
+  "/dining",
   "/social/chats",
   "/social/instagram",
   "/changelog",
