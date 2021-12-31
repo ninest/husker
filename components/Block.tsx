@@ -8,22 +8,21 @@ interface BlockChildren {
   href?: string;
 }
 export const Block = ({ title, children, href }: BlockChildren) => {
-  const Block = (
-    <div
-      className={clsx("p-base rounded bg-gray-100", {
-        "hover:bg-gray-200": href,
-      })}
-    >
+  const className = clsx("block p-base rounded bg-gray-100", {
+    "hover:bg-gray-200": href,
+  });
+  const content = (
+    <>
       <div className="font-bold">{title}</div>
       <div className="text-sm text-gray">{children}</div>
-    </div>
+    </>
   );
 
   if (href)
     return (
-      <SmartLink href={href} className="block no-underline">
-        {Block}
+      <SmartLink href={href} className={className}>
+        {content}
       </SmartLink>
     );
-  else return Block;
+  else return <div className={className}>{content}</div>;
 };

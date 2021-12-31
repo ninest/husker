@@ -37,4 +37,27 @@ export const dorms: Dorm[] = [
     title: "Stetson West",
     url: "https://sites.google.com/view/neudorms/first-year/traditional/stetson-west",
   },
+  ...[
+    "153-hemenway-street",
+    "international-village",
+    "east-village",
+    "kennedy-eall",
+  ].map((slug) => ({
+    type: suite,
+    slug,
+    title: slug
+      .split("-")
+      .map((s) => capitalizeFirstLetter(s))
+      .join(" "),
+    url: `https://sites.google.com/view/neudorms/first-year/suite-style/${slug}`,
+  })),
+  ...["midtown-hotel", "the-sheraton", "the-westin"].map((slug) => ({
+    type: suite,
+    slug,
+    title: slug
+      .split("-")
+      .map((s) => capitalizeFirstLetter(s))
+      .join(" "),
+    url: `https://sites.google.com/view/neudorms/hotels/${slug}`,
+  })),
 ];

@@ -13,6 +13,7 @@ import { SmartLink } from "@/components/SmartLinks";
 import { BackButton } from "@/components/BackButton";
 import { NextSeo } from "next-seo";
 import { Block } from "@/components/Block";
+import clsx from "clsx";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const categoryPaths = contentMap.map((category) => `/${category.slug}`);
@@ -74,8 +75,10 @@ const ContentPage = ({ category, page }: ContentPageProps) => {
         <Markdown
           components={{
             Block,
-            a: (props) => {
-              return <a {...props} className="underline"></a>;
+            a: ({ className, ...props }) => {
+              return (
+                <a {...props} className={clsx(className, "underline")}></a>
+              );
             },
           }}
         ></Markdown>
