@@ -166,6 +166,16 @@ export const contentMap: Category[] = [
         description: "Information about meal plan",
         href: "/dining",
       },
+      {
+        name: "On-campus vendors",
+        description: "Where to use dining dollars on campus?",
+        href: "https://www.northeastern.edu/huskycard/vendors/on-campus-vendors/",
+      },
+      {
+        name: "Off-campus vendors",
+        description: "Places to use dining dollars outside campus",
+        href: "https://www.northeastern.edu/huskycard/vendors/off-campus-vendors/",
+      },
     ],
   },
   {

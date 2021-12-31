@@ -4,12 +4,6 @@ description: Information related to dining and meals
 lastUpdated: 2021-09-08
 ---
 
-## Useful links
-
-- [Meal plans, rates, and dining dollars included](https://www.northeastern.edu/huskycard/meal-plans/traditional-meal-plan/)
-- [On-campus vendors](https://www.northeastern.edu/huskycard/vendors/on-campus-vendors/)
-- [Off-campus vendors](https://www.northeastern.edu/huskycard/vendors/off-campus-vendors/)
-
 ## Meal plan
 
 export const mealPlans = [
@@ -33,11 +27,81 @@ More information:
 
 - Each meal plan includes 10 guest swipes for the semester (or 5 guest swipes in summer semesters)
 - In summer semesters, you get half the dining dollars shown
-- NUin Boston students have the 12 meal plan, $165 dining dollars and cannot change it ([source](https://nuin.northeastern.edu/destinations/boston/housing/))
+- NUin Boston students have the 12 meal plan and cannot change it ([source](https://nuin.northeastern.edu/destinations/boston/housing/))
 
-Source: [northeastern.edu/huskycard](https://www.northeastern.edu/huskycard/meal-plans/traditional-meal-plan/), [nudining.com](https://nudining.com/public/meal-plans)
+Sources: [northeastern.edu/huskycard](https://www.northeastern.edu/huskycard/meal-plans/traditional-meal-plan/), [nudining.com](https://nudining.com/public/meal-plans)
 
 ### Meal exchange
+
+export const mealExchanges = [
+{
+name: "Sweet Tomatoes Pizza",
+menu: []
+},
+{
+name: "Popeyes",
+menu: [
+<><b>Combo 3</b>: 3 pience bonafide chicken</>,
+<><b>Combo 8</b>: 3 pience tenders</>,
+<><b>Combo 10</b>: classic chicken sandwhich</>,
+<><b>Combo 11</b>: Spicy chicken sandwhich</>,
+],
+extra: "With cajun fries and medium fountain drink"
+},
+
+{
+name: "Tú Taco",
+menu: []
+},
+
+{
+name: "Burger 373",
+menu: []
+},
+
+{
+name: "Kigo Kitchen",
+menu: []
+},
+
+{
+name: "Chaat House",
+menu: []
+},
+
+{
+name: "Café Crossing",
+menu: []
+},
+
+{
+name: "Subway",
+menu: []
+},
+
+{
+name: "Churchill's Kitchen + Sandwich Shop",
+menu: []
+},
+]
+
+<section className="grid gap-base grid-cols-2 md:grid-cols-3">
+{mealExchanges.map(exc => {
+  return <div key={exc.name} className="p-base rounded bg-gray-100">
+    <div className="font-bold text-center">{exc.name}</div>
+    {exc.menu.length > 0 ?
+      <div className="mt-xs">
+        <div className="space-y-sm">
+          {exc.menu.map(item => {
+            return <div className="text-sm text-gray">{item}</div>
+          })}
+        </div>
+        <div className="mt-sm text-sm font-semibold text-gray">{exc.extra}</div>
+      </div>
+   : <div className="mt-xs text-sm text-gray-light text-center">Menu not added yet</div> }
+  </div>
+})}
+</section>
 
 Meal swipes can be used at restaurants on campus that have a sign that says "Meal Exchange". Meal exchange can be used at locations listed on [nudining.com/public/meal-exchanges](https://nudining.com/public/meal-exchanges).
 
