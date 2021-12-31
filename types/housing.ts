@@ -1,10 +1,11 @@
-interface DormType {
+export interface DormType {
   slug: string;
   name: string;
 }
 
-interface Dorm {
+export interface Dorm {
   type: DormType;
   slug: string;
   title: string;
+  url: string;
 }

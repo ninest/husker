@@ -12,6 +12,7 @@ import { Icon } from "@/components/Icon";
 import { SmartLink } from "@/components/SmartLinks";
 import { BackButton } from "@/components/BackButton";
 import { NextSeo } from "next-seo";
+import { Block } from "@/components/Block";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const categoryPaths = contentMap.map((category) => `/${category.slug}`);
@@ -70,7 +71,14 @@ const ContentPage = ({ category, page }: ContentPageProps) => {
       )}
 
       <article className="prose">
-        <Markdown></Markdown>
+        <Markdown
+          components={{
+            Block,
+            a: (props) => {
+              return <a {...props} className="underline"></a>;
+            },
+          }}
+        ></Markdown>
       </article>
     </>
   );
