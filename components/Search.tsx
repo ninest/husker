@@ -39,12 +39,26 @@ characters are typed */
       document.removeEventListener("keydown", onKeyPress);
     };
   }, []);
+
+  const onCrossClick = () => {
+    setSearchTerm("");
+    inputRef.current?.focus();
+  };
+
   return (
     <>
       <label className="relative flex px-md">
         <span className="absolute inset-y-0 left-0 flex items-center pl-8 md:pl-7">
-          <FaSearch className="text-gray-light" />
+          <Icon id="search" className="text-gray-light"></Icon>
         </span>
+        {searchTerm && (
+          <button
+            onClick={onCrossClick}
+            className="absolute inset-y-0 right-0 flex items-center pr-8 md:pr-7"
+          >
+            <Icon id="x" className="text-gray-light"></Icon>
+          </button>
+        )}
         {/* Search bar */}
         <input
           ref={inputRef}
