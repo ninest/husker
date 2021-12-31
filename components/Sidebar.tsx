@@ -30,7 +30,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
   const { toggleTheme, isLightTheme, isDarkTheme } = useTheme();
 
   return (
-    <aside className="bg-light md:w-80 h-screen overflow-y-scroll sticky top-0 border-r">
+    <aside className="bg-light md:w-64 lg:w-80 h-screen overflow-y-scroll sticky top-0 border-r">
       {/* Close button for mobile only */}
       <div className="flex items-center pt-base px-md">
         <button
@@ -79,7 +79,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
       <Spacer size="2xl"></Spacer>
 
 
-      <section className="fixed bottom-0 w-full md:w-80 bg-light">
+      <section className="fixed bottom-0 w-full md:w-64 lg:w-80 bg-light border-r">
         <hr />
 
         <div className="p-md">
