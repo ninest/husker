@@ -7,6 +7,7 @@ import { LinkButton } from "./LinkButton";
 import { Link } from "@/types/category";
 import { search } from "@/lib/search";
 import { Search } from "./Search";
+import { useRouter } from "next/router";
 
 interface SidebarProps {
   onCloseClick: () => void;
@@ -20,6 +21,12 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
     { text: "Changelog", href: "/changelog" },
     // { text: "More", href: "/more" },
   ];
+
+  /* When route changes, close sidebar. It means a link has been clicked */
+  const router = useRouter();
+  useEffect(() => {
+    onCloseClick();
+  }, [router.asPath]);
 
   return (
     <aside className="bg-light md:w-80 h-screen overflow-y-scroll sticky top-0 border-r space-y-md">

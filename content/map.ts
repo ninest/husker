@@ -37,13 +37,6 @@ export const contentMap: Category[] = [
         icon: "network",
       },
     ],
-    pages: [
-      {
-        name: "Apps",
-        description: "A list of Northeastern-related apps to download",
-        href: "/apps",
-      },
-    ],
   },
   {
     slug: "personal",
