@@ -9,6 +9,7 @@ import { search } from "@/lib/search";
 import { Search } from "./Search";
 import { useRouter } from "next/router";
 import { Spacer } from "./Spacer";
+import { useTheme } from "@/lib/theme";
 
 interface SidebarProps {
   onCloseClick: () => void;
@@ -28,6 +29,8 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
   useEffect(() => {
     onCloseClick();
   }, [router.asPath]);
+
+  const { toggleTheme, isLightTheme, isDarkTheme } = useTheme();
 
   return (
     <aside className="bg-light md:w-80 h-screen overflow-y-scroll sticky top-0 border-r">
@@ -74,6 +77,22 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
           );
         })}
       </div>
+
+      <section className="fixed bottom-0 w-full md:w-80">
+        <hr />
+
+        <div className="p-md">
+          <button
+            onClick={toggleTheme}
+            className="text-sm flex items-center space-x-base -m-xs p-xs hover:bg-gray-50 rounded"
+          >
+            <Icon id={isLightTheme ? "regmoon" : "regsun"}></Icon>
+            <div className="font-semibold text-gray">
+              {isLightTheme ? "Dark" : "Light"} theme
+            </div>
+          </button>
+        </div>
+      </section>
     </aside>
   );
 };
@@ -82,6 +101,7 @@ interface SidebarLinkProps {
   href: string;
   title: string;
 }
+
 const SidebarLink = ({ href, title }: SidebarLinkProps) => {
   return (
     <SmartLink

@@ -50,14 +50,16 @@ class MyDocument extends Document {
           <link rel="stylesheet" href="/font.css" />
           <meta name="theme-color" content="#111111" />
         </Head>
-        <body className="bg-light" {...{ "data-theme": "light" }}>
+        <body
+          className="bg-light"
+          // {...{ "data-theme": "light" }}
+        >
           <Main />
-          {/* <script
+          <script
             dangerouslySetInnerHTML={{
-              __html: `document.body.dataset.theme = window.localStorage.getItem("theme") || "light";
-              console.log("Hello")`,
+              __html: `document.body.dataset.theme = window.localStorage.getItem("theme") || "light";`,
             }}
-          ></script> */}
+          ></script>
           <NextScript />
         </body>
       </Html>

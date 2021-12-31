@@ -4,6 +4,7 @@ import { search } from "@/lib/search";
 import { Link } from "@/types/category";
 import { LinkButton } from "@/components/LinkButton";
 import { Icon } from "./Icon";
+import { Spacer } from "./Spacer";
 
 export const Search = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -76,6 +77,7 @@ characters are typed */
         <div>
           {searchResults.length > 0 ? (
             <>
+              <Spacer></Spacer>
               <div className="px-md pb-sm text-sm text-gray">
                 Search results
               </div>
