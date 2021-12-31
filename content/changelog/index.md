@@ -4,6 +4,10 @@ description: How has this site improved?
 lastUpdated: 2021-12-30
 ---
 
+### 2021-12-31
+
+- Add dark mode
+
 ### 2021-12-30
 
 - Redesign site
