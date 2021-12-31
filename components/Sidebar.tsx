@@ -2,10 +2,7 @@ import { FaSearch } from "react-icons/fa";
 import { SmartLink } from "@/components/SmartLinks";
 import { contentMap } from "@/content/map";
 import { Icon } from "./Icon";
-import { useEffect, useRef, useState } from "react";
-import { LinkButton } from "./LinkButton";
-import { Link } from "@/types/category";
-import { search } from "@/lib/search";
+import { useEffect, } from "react";
 import { Search } from "./Search";
 import { useRouter } from "next/router";
 import { Spacer } from "./Spacer";
@@ -17,7 +14,7 @@ interface SidebarProps {
 
 export const Sidebar = ({ onCloseClick }: SidebarProps) => {
   const links = [
-    { text: "Index", href: "/" },
+    { text: "Links", href: "/" },
     { text: "About", href: "/about" },
     { text: "Contribute", href: "/contribute" },
     { text: "Changelog", href: "/changelog" },
@@ -78,7 +75,11 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
         })}
       </div>
 
-      <section className="fixed bottom-0 w-full md:w-80">
+      <Spacer size="3xl"></Spacer>
+      <Spacer size="2xl"></Spacer>
+
+
+      <section className="fixed bottom-0 w-full md:w-80 bg-light">
         <hr />
 
         <div className="p-md">
