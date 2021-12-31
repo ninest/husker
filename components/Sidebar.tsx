@@ -8,6 +8,7 @@ import { Link } from "@/types/category";
 import { search } from "@/lib/search";
 import { Search } from "./Search";
 import { useRouter } from "next/router";
+import { Spacer } from "./Spacer";
 
 interface SidebarProps {
   onCloseClick: () => void;
@@ -29,7 +30,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
   }, [router.asPath]);
 
   return (
-    <aside className="bg-light md:w-80 h-screen overflow-y-scroll sticky top-0 border-r space-y-md">
+    <aside className="bg-light md:w-80 h-screen overflow-y-scroll sticky top-0 border-r">
       {/* Close button for mobile only */}
       <div className="flex items-center pt-base px-md">
         <button
@@ -41,9 +42,12 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
         <div className="font-display font-black text-lg text-dark">Husker</div>
       </div>
 
+      <Spacer></Spacer>
       <Search></Search>
-
+      <Spacer size="md"></Spacer>
       <hr />
+      <Spacer size="md"></Spacer>
+
       <nav className="px-md text-sm flex flex-col space-y-base">
         {links.map((link) => {
           return (
@@ -53,7 +57,11 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
           );
         })}
       </nav>
+
+      <Spacer size="md"></Spacer>
       <hr />
+      <Spacer size="md"></Spacer>
+
       <div className="px-md text-sm flex flex-col space-y-base">
         {contentMap.map((category) => {
           return (
