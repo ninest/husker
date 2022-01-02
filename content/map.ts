@@ -145,6 +145,11 @@ export const contentMap: Category[] = [
     ],
     pages: [
       {
+        name: "Dining info",
+        description: "Information about meal plan",
+        href: "/husky-card/dining",
+      },
+      {
         name: "Menus",
         href: "https://nudining.com/public/menus",
         description: "Dining hall menus",
@@ -156,11 +161,7 @@ export const contentMap: Category[] = [
         description: "Dining hall and restaurants timings",
         icon: "clock",
       },
-      {
-        name: "Dining info",
-        description: "Information about meal plan",
-        href: "/dining",
-      },
+
       {
         name: "On-campus vendors",
         description: "Where to use dining dollars on campus?",

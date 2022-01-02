@@ -60,7 +60,13 @@ const ContentPage = ({ isCategoryPage, category, page }: ContentPageProps) => {
       <NextSeo title={title} description={description}></NextSeo>
 
       <Spacer></Spacer>
-      <BackButton></BackButton>
+
+      {isCategoryPage ? (
+        <BackButton></BackButton>
+      ) : (
+        <BackButton href={`/${category.slug}`}>{category.title}</BackButton>
+      )}
+
       <Spacer size="sm"></Spacer>
       <Title>{title}</Title>
       <Spacer></Spacer>
