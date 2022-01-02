@@ -65,7 +65,8 @@ characters are typed */
           ref={inputRef}
           style={{ minWidth: 0 }}
           /* More padding on mobile for fat fingers */
-          className="w-full pl-10 pr-xs py-sm md:py-1 border-2 font-medium rounded outline-none bg-gray-50 text-gray placeholder:text-gray-lighter"
+          // className="w-full pl-10 pr-xs py-sm md:py-1 border-2 font-medium rounded outline-none bg-gray-50 text-gray placeholder:text-gray-lighter"
+          className="w-full form-input pl-10 pr-xs py-sm md:py-1"
           placeholder="Search"
           type="text"
           onChange={(e) => setSearchTerm(e.target.value)}
