@@ -1,11 +1,19 @@
 import clsx from "clsx";
 import { HTMLAttributes } from "react";
 
-interface FormProps extends HTMLAttributes<HTMLFormElement> {}
+interface FormProps extends HTMLAttributes<HTMLFormElement> {
+  method?: "GET" | "POST";
+  action?: string;
+}
 
-export const Form = ({ children, ...props }: FormProps) => {
+export const Form = ({ method, action, children, ...props }: FormProps) => {
   return (
-    <form className={clsx(props.className, "space-y-base")} {...props}>
+    <form
+      method={method}
+      action={action}
+      className={clsx(props.className, "space-y-base")}
+      {...props}
+    >
       {children}
     </form>
   );
