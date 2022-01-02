@@ -8,9 +8,14 @@ export const Footer = () => {
       icon: "github",
       href: "https://github.com/ninest/huskinfo",
     },
+    {
+      title: "Contribute",
+      icon: "outlineheart",
+      href: "/contribute",
+    },
   ];
   return (
-    <div className="wrapper flex items-center justify-between">
+    <div className="wrapper flex items-center space-x-lg">
       {links.map((link) => {
         return (
           <div className="flex items-center space-x-base -m-xs p-xs rounded hover:bg-gray-100">

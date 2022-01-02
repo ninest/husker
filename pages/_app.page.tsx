@@ -44,6 +44,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             <hr />
             <Spacer></Spacer>
             <Footer></Footer>
+            <Spacer></Spacer>
           </div>
         </main>
       </ThemeProvider>

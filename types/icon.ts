@@ -29,6 +29,11 @@ import {
   FaGithub,
   FaVirus,
   FaPen,
+  FaRegHeart,
+  FaHeart,
+  FaApple,
+  FaGooglePlay,
+  FaFirefox,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -62,5 +67,10 @@ export const iconMap = {
   regsun: FaRegSun,
   github: FaGithub,
   pen: FaPen,
+  outlineheart: FaRegHeart,
+  heart: FaHeart,
+  apple: FaApple,
+  googleplay: FaGooglePlay,
+  firefox: FaFirefox,
 };
 export type IconId = keyof typeof iconMap;

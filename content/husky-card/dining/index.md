@@ -15,11 +15,10 @@ export const mealPlans = [
 
 <section className="grid gap-base grid-cols-2 md:grid-cols-3">
 {mealPlans.map(mealPlan => {
-  return <div key={mealPlan.meals} className="p-base rounded bg-gray-100">
-    <div className="font-bold">{mealPlan.meals} meal plan</div>
-    <div className="text-sm text-gray">${mealPlan.dollars} dining dollars</div>
-    <div className="text-sm text-gray">{mealPlan.exchange} meal exchange/week</div>
-  </div>
+  return <Block key={mealPlan.meals} title={`${mealPlan.meals} meals`}>
+    <div>${mealPlan.dollars} dining dollars</div>
+    <div>{mealPlan.exchange} meal exchange/week</div>
+  </Block>
 })}
 </section>
 
@@ -87,8 +86,7 @@ menu: []
 
 <section className="grid gap-base grid-cols-2 md:grid-cols-3">
 {mealExchanges.map(exc => {
-  return <div key={exc.name} className="p-base rounded bg-gray-100">
-    <div className="font-bold text-center">{exc.name}</div>
+  return <Block key={exc.name} title={exc.name}>
     {exc.menu.length > 0 ?
       <div className="mt-xs">
         <div className="space-y-sm">
@@ -99,7 +97,7 @@ menu: []
         <div className="mt-sm text-sm font-semibold text-gray">{exc.extra}</div>
       </div>
    : <div className="mt-xs text-sm text-gray-light text-center">Menu not added yet</div> }
-  </div>
+  </Block>
 })}
 </section>
 

@@ -85,12 +85,14 @@ const ContentPage = ({ isCategoryPage, category, page }: ContentPageProps) => {
         <div className="prose">
           <Markdown
             components={{
+              /* TODO: move to external file */
               Block,
               a: ({ className, ...props }) => {
                 return (
                   <a {...props} className={clsx(className, "underline")}></a>
                 );
               },
+              Button,
             }}
           ></Markdown>
         </div>

@@ -8,8 +8,9 @@ import { SmartLink, SmartLinkProps } from "./SmartLink";
 
 interface ButtonProps {
   icon?: IconId;
-  href?: SmartLinkProps['href'];
+  href?: SmartLinkProps["href"];
   size?: Size;
+  className?: string;
   children: ReactNode;
 }
 
@@ -18,10 +19,12 @@ export const Button = ({
   size = "base",
   href,
   children,
+  ...props
 }: ButtonProps) => {
   const { isLightTheme, isDarkTheme } = useTheme();
 
   const className = clsx(
+    props.className,
     "rounded-md font-semibold text-gray",
     {
       "bg-gray-100 hover:bg-gray-200": isLightTheme,
