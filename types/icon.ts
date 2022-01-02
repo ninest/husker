@@ -28,6 +28,7 @@ import {
   FaRegMoon,
   FaGithub,
   FaVirus,
+  FaPen,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -60,5 +61,6 @@ export const iconMap = {
   regmoon: FaRegMoon,
   regsun: FaRegSun,
   github: FaGithub,
+  pen: FaPen,
 };
 export type IconId = keyof typeof iconMap;

@@ -40,7 +40,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             <div className="min-h-screen">
               <Component {...pageProps} />
             </div>
-            <Spacer></Spacer>
+            {/* <Spacer></Spacer> */}
             <hr />
             <Spacer></Spacer>
             <Footer></Footer>

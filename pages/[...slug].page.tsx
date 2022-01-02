@@ -12,6 +12,7 @@ import { BackButton } from "@/components/BackButton";
 import { NextSeo } from "next-seo";
 import { Block } from "@/components/Block";
 import clsx from "clsx";
+import { Button } from "@/components/Button";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const categoryPaths = contentMap.map((category) => `/${category.slug}`);
@@ -92,6 +93,14 @@ const ContentPage = ({ isCategoryPage, category, page }: ContentPageProps) => {
               },
             }}
           ></Markdown>
+        </div>
+
+        <Spacer size="2xl"></Spacer>
+
+        <div className="flex">
+          <Button href={`/contribute?id=${page.frontmatter.title}`} icon="pen" size="sm">
+            Edit
+          </Button>
         </div>
       </article>
     </>
