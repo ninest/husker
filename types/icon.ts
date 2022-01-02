@@ -26,6 +26,7 @@ import {
   FaDog,
   FaRegSun,
   FaRegMoon,
+  FaGithub,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -56,5 +57,6 @@ export const iconMap = {
   dog: FaDog,
   regmoon: FaRegMoon,
   regsun: FaRegSun,
+  github: FaGithub,
 };
 export type IconId = keyof typeof iconMap;

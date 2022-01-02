@@ -6,6 +6,8 @@ import { Sidebar } from "@/components/Sidebar";
 import { useState } from "react";
 import clsx from "clsx";
 import { ThemeProvider } from "@/lib/theme";
+import { Footer } from "@/components/Footer";
+import { Spacer } from "@/components/Spacer";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -34,7 +36,13 @@ function MyApp({ Component, pageProps }: AppProps) {
           >
             <Sidebar onCloseClick={() => setShowSidebar(false)}></Sidebar>
           </div>
+          <div className="w-full">
             <Component {...pageProps} />
+<Spacer></Spacer>
+            <hr />
+            <Spacer></Spacer>
+            <Footer></Footer>
+          </div>
         </main>
       </ThemeProvider>
     </>
