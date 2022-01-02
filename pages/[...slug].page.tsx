@@ -23,17 +23,22 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const slug = listToFilepath(params?.slug! as string[]);
+  const slugList = params?.slug! as string[];
+  const slug = listToFilepath(slugList);
 
-  // Check if there is a category with the slug
-  const category =
-    contentMap.find((category) => category.slug === slug) ?? null;
+  // Check if slug is the category. If so, the entire page is a category)
+  let category;
+  const isCategoryPage = slugList.length === 1;
+
+  category =
+    contentMap.find((category) => category.slug === slugList[0]) ?? null;
 
   // Get page
   const page = await getPage(slug);
 
   return {
     props: {
+      isCategoryPage,
       category,
       page,
     },
@@ -41,27 +46,25 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 };
 
 interface ContentPageProps {
-  category?: Category;
+  isCategoryPage: boolean;
+  category: Category;
   page: Page;
 }
 
-const ContentPage = ({ category, page }: ContentPageProps) => {
+const ContentPage = ({ isCategoryPage, category, page }: ContentPageProps) => {
   const Markdown = getMDXComponent(page.code);
   const { title, description, updatedAt } = page.frontmatter;
 
   return (
     <>
-      <NextSeo
-        title={category?.title ?? title}
-        description={description}
-      ></NextSeo>
+      <NextSeo title={title} description={description}></NextSeo>
 
       <Spacer></Spacer>
       <BackButton></BackButton>
       <Spacer size="sm"></Spacer>
-      <Title>{category?.title ?? title}</Title>
+      <Title>{title}</Title>
       <Spacer></Spacer>
-      {category && (
+      {isCategoryPage && (
         <CategorySet
           category={category!}
           showTitle={false}
