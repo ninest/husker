@@ -2,7 +2,7 @@ import { Spacer } from "@/components/Spacer";
 import { Title } from "@/components/title";
 import { Category } from "@/types/category";
 import { LinkButton } from "@/components/LinkButton";
-import { SmartLink } from "./SmartLinks";
+import { SmartLink } from "./SmartLink";
 import { Icon } from "./Icon";
 
 interface CategorySetProps {

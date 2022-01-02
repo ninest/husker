@@ -1,7 +1,7 @@
 import { highlightedSidebarLinks } from "@/content/sidebar";
 import { IconId } from "@/types/icon";
 import { Icon } from "./Icon";
-import { SmartLink } from "./SmartLinks";
+import { SmartLink } from "./SmartLink";
 
 interface MobileNavbarProps {
   onMenuClick: () => void;

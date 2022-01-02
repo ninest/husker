@@ -1,6 +1,6 @@
 import { Link } from "@/types/category";
 import { Icon } from "@/components/Icon";
-import { SmartLink } from "@/components/SmartLinks";
+import { SmartLink } from "@/components/SmartLink";
 import { Spacer } from "@/components/Spacer";
 
 interface LinkButtonProps {

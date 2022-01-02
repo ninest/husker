@@ -4,7 +4,7 @@ import { Size } from "@/types/size";
 import clsx from "clsx";
 import { ReactNode } from "react";
 import { Icon } from "./Icon";
-import { SmartLink } from "./SmartLinks";
+import { SmartLink } from "./SmartLink";
 
 interface ButtonProps {
   icon?: IconId;

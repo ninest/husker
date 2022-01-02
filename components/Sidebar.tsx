@@ -1,5 +1,5 @@
 import { FaSearch } from "react-icons/fa";
-import { SmartLink } from "@/components/SmartLinks";
+import { SmartLink } from "@/components/SmartLink";
 import { contentMap } from "@/content/map";
 import { Icon } from "./Icon";
 import { useEffect } from "react";

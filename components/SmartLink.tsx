@@ -1,0 +1,51 @@
+import { AnchorHTMLAttributes } from "react";
+import { useRouter } from "next/router";
+import Link, { LinkProps } from "next/link";
+import clsx from "clsx";
+
+interface SmartLinkProps
+  extends Omit<AnchorHTMLAttributes<HTMLAnchorElement>, "href"> {
+  href: LinkProps["href"] | string;
+  underline?: boolean;
+  activeClassName?: string;
+}
+
+export const SmartLink = ({
+  href,
+  activeClassName,
+  underline = false,
+  ...props
+}: SmartLinkProps) => {
+  const router = useRouter();
+  const className = clsx(
+    {
+      underline,
+      [`${activeClassName}`]: router.asPath === href,
+    },
+    props.className
+  );
+
+  if (typeof href === "string") {
+    if (href[0] === "/")
+      return (
+        <Link href={href}>
+          <a {...props} className={className} />
+        </Link>
+      );
+    else
+      return (
+        <a
+          {...props}
+          className={className}
+          href={href}
+          target="_blank"
+          rel="noreferrer"
+        />
+      );
+  } else {
+    /* href is not a string, it's a URL param object */
+    <Link href={href}>
+      <a {...props} className={className} />
+    </Link>;
+  }
+};

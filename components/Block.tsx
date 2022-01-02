@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { SmartLink } from "@/components/SmartLinks";
+import { SmartLink } from "@/components/SmartLink";
 import clsx from "clsx";
 
 interface BlockChildren {
