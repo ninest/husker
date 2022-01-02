@@ -37,8 +37,10 @@ function MyApp({ Component, pageProps }: AppProps) {
             <Sidebar onCloseClick={() => setShowSidebar(false)}></Sidebar>
           </div>
           <div className="w-full">
-            <Component {...pageProps} />
-<Spacer></Spacer>
+            <div className="min-h-screen">
+              <Component {...pageProps} />
+            </div>
+            <Spacer></Spacer>
             <hr />
             <Spacer></Spacer>
             <Footer></Footer>
