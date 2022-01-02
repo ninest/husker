@@ -5,6 +5,16 @@ module.exports = {
   async redirects() {
     return [
       {
+        source: "/free",
+        destination: "/services/free",
+        permanent: true,
+      },
+      {
+        source: "/apps",
+        destination: "/services/apps",
+        permanent: true,
+      },
+      {
         source: "/personal",
         destination: "/services",
         permanent: true,
