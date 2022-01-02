@@ -59,36 +59,38 @@ const ContentPage = ({ isCategoryPage, category, page }: ContentPageProps) => {
     <>
       <NextSeo title={title} description={description}></NextSeo>
 
-      <Spacer></Spacer>
+      <article className="wrapper">
+        <Spacer></Spacer>
 
-      {isCategoryPage ? (
-        <BackButton></BackButton>
-      ) : (
-        <BackButton href={`/${category.slug}`}>{category.title}</BackButton>
-      )}
+        {isCategoryPage ? (
+          <BackButton></BackButton>
+        ) : (
+          <BackButton href={`/${category.slug}`}>{category.title}</BackButton>
+        )}
 
-      <Spacer size="sm"></Spacer>
-      <Title>{title}</Title>
-      <Spacer></Spacer>
-      {isCategoryPage && (
-        <CategorySet
-          category={category!}
-          showTitle={false}
-          showFull
-        ></CategorySet>
-      )}
+        <Spacer size="sm"></Spacer>
+        <Title>{title}</Title>
+        <Spacer></Spacer>
+        {isCategoryPage && (
+          <CategorySet
+            category={category!}
+            showTitle={false}
+            showFull
+          ></CategorySet>
+        )}
 
-      <article className="prose">
-        <Markdown
-          components={{
-            Block,
-            a: ({ className, ...props }) => {
-              return (
-                <a {...props} className={clsx(className, "underline")}></a>
-              );
-            },
-          }}
-        ></Markdown>
+        <div className="prose">
+          <Markdown
+            components={{
+              Block,
+              a: ({ className, ...props }) => {
+                return (
+                  <a {...props} className={clsx(className, "underline")}></a>
+                );
+              },
+            }}
+          ></Markdown>
+        </div>
       </article>
     </>
   );

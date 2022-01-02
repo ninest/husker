@@ -5,17 +5,19 @@ import { Icon } from "@/components/Icon";
 const IndexPage = () => {
   return (
     <>
-      <div className="space-y-lg">
-        {contentMap.map((category) => {
-          return (
-            <CategorySet
-              key={category.slug}
-              showTitle
-              category={category}
-            ></CategorySet>
-          );
-        })}
-      </div>
+      <article className="wrapper">
+        <div className="space-y-lg">
+          {contentMap.map((category) => {
+            return (
+              <CategorySet
+                key={category.slug}
+                showTitle
+                category={category}
+              ></CategorySet>
+            );
+          })}
+        </div>
+      </article>
     </>
   );
 };

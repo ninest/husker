@@ -34,9 +34,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           >
             <Sidebar onCloseClick={() => setShowSidebar(false)}></Sidebar>
           </div>
-          <article className="wrapper">
             <Component {...pageProps} />
-          </article>
         </main>
       </ThemeProvider>
     </>
