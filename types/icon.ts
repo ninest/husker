@@ -27,6 +27,7 @@ import {
   FaRegSun,
   FaRegMoon,
   FaGithub,
+  FaVirus,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -38,6 +39,7 @@ export const iconMap = {
   network: FaNetworkWired,
   halfthermometer: FaThermometerHalf,
   virusslash: FaVirusSlash,
+  virus: FaVirus,
   calendar: FaCalendar,
   book: FaBook,
   moneycheckalt: FaMoneyCheckAlt,

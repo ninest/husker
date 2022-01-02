@@ -2,25 +2,20 @@ import { FaSearch } from "react-icons/fa";
 import { SmartLink } from "@/components/SmartLinks";
 import { contentMap } from "@/content/map";
 import { Icon } from "./Icon";
-import { useEffect, } from "react";
+import { useEffect } from "react";
 import { Search } from "./Search";
 import { useRouter } from "next/router";
 import { Spacer } from "./Spacer";
 import { useTheme } from "@/lib/theme";
+import { highlightedSidebarLinks, sidebarLinks } from "@/content/sidebar";
+import { Button } from "./Button";
+import { IconId } from "@/types/icon";
 
 interface SidebarProps {
   onCloseClick: () => void;
 }
 
 export const Sidebar = ({ onCloseClick }: SidebarProps) => {
-  const links = [
-    { text: "Links", href: "/" },
-    { text: "About", href: "/about" },
-    { text: "Contribute", href: "/contribute" },
-    { text: "Changelog", href: "/changelog" },
-    // { text: "More", href: "/more" },
-  ];
-
   /* When route changes, close sidebar. It means a link has been clicked */
   const router = useRouter();
   useEffect(() => {
@@ -48,8 +43,23 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
       <hr />
       <Spacer size="md"></Spacer>
 
+      {/* Quick access highlight links */}
+      <div className="px-md grid gap-base grid-cols-2">
+        {highlightedSidebarLinks.map((link) => {
+          return (
+            <Button size="sm" icon={link.icon as IconId} href={link.href}>
+              {link.text}
+            </Button>
+          );
+        })}
+      </div>
+
+      <Spacer size="md"></Spacer>
+      <hr />
+      <Spacer size="md"></Spacer>
+
       <nav className="px-md text-sm flex flex-col space-y-base">
-        {links.map((link) => {
+        {sidebarLinks.map((link) => {
           return (
             <div key={link.href}>
               <SidebarLink href={link.href} title={link.text}></SidebarLink>
@@ -77,7 +87,6 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
 
       <Spacer size="3xl"></Spacer>
       <Spacer size="2xl"></Spacer>
-
 
       <section className="fixed bottom-0 w-full md:w-64 lg:w-80 bg-light border-r">
         <hr />
