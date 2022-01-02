@@ -59,7 +59,7 @@ characters are typed */
           >
             <Icon id="x" className="text-gray-light"></Icon>
           </button>
-        )}
+        )}    
         {/* Search bar */}
         <input
           ref={inputRef}

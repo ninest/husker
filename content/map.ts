@@ -36,12 +36,11 @@ export const contentMap: Category[] = [
         description: "Find work",
         icon: "network",
       },
-    ],
-  },
-  {
-    slug: "personal",
-    title: "Personal",
-    links: [
+      {
+        name: "Employment Hub",
+        description: "Access student employment hub",
+        href: "https://studentemployment.neu.edu/Cmx_Content.aspx?cpId=10",
+      },
       {
         name: "Daily wellness",
         href: "https://wellness-check.northeastern.edu/?utm_source=student&utm_medium=portal&utm_campaign=reopening",
@@ -53,11 +52,6 @@ export const contentMap: Category[] = [
         href: "https://northeastern.sharepoint.com/sites/covidscheduler/SitePages/TestScheduler.aspx",
         description: "Book a COVID-19 test",
         icon: "virusslash",
-      },
-      {
-        name: "Employment Hub",
-        description: "Access student employment hub",
-        href: "https://studentemployment.neu.edu/Cmx_Content.aspx?cpId=10",
       },
     ],
     pages: [
@@ -73,6 +67,7 @@ export const contentMap: Category[] = [
       },
     ],
   },
+
   {
     title: "Courses",
     slug: "courses",

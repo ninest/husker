@@ -8,8 +8,6 @@ import { listToFilepath } from "@/lib/file/list-to-file";
 import { getPage } from "@/lib/pages";
 import { Category } from "@/types/category";
 import { Page } from "@/types/page";
-import { Icon } from "@/components/Icon";
-import { SmartLink } from "@/components/SmartLinks";
 import { BackButton } from "@/components/BackButton";
 import { NextSeo } from "next-seo";
 import { Block } from "@/components/Block";
