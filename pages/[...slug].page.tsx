@@ -28,7 +28,9 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
   // Check if slug is the category. If so, the entire page is a category)
   let category;
-  const isCategoryPage = slugList.length === 1;
+  const isCategoryPage =
+    slugList.length === 1 &&
+    !!contentMap.find((category) => category.slug === slug);
 
   category =
     contentMap.find((category) => category.slug === slugList[0]) ?? null;
@@ -47,7 +49,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
 interface ContentPageProps {
   isCategoryPage: boolean;
-  category: Category;
+  category?: Category;
   page: Page;
 }
 
@@ -62,7 +64,7 @@ const ContentPage = ({ isCategoryPage, category, page }: ContentPageProps) => {
       <article className="wrapper">
         <Spacer></Spacer>
 
-        {isCategoryPage ? (
+        {isCategoryPage || !category ? (
           <BackButton></BackButton>
         ) : (
           <BackButton href={`/${category.slug}`}>{category.title}</BackButton>
