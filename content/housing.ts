@@ -41,7 +41,7 @@ export const dorms: Dorm[] = [
     "153-hemenway-street",
     "international-village",
     "east-village",
-    "kennedy-eall",
+    "kennedy-hall",
   ].map((slug) => ({
     type: suite,
     slug,
