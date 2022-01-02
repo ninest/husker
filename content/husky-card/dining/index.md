@@ -1,5 +1,5 @@
 ---
-title: Dining
+title: Dining Information
 description: Information related to dining and meals
 lastUpdated: 2021-09-08
 ---

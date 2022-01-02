@@ -4,11 +4,11 @@ import { Size } from "@/types/size";
 import clsx from "clsx";
 import { ReactNode } from "react";
 import { Icon } from "./Icon";
-import { SmartLink } from "./SmartLink";
+import { SmartLink, SmartLinkProps } from "./SmartLink";
 
 interface ButtonProps {
   icon?: IconId;
-  href?: string;
+  href?: SmartLinkProps['href'];
   size?: Size;
   children: ReactNode;
 }

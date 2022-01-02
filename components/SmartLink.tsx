@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Link, { LinkProps } from "next/link";
 import clsx from "clsx";
 
-interface SmartLinkProps
+export interface SmartLinkProps
   extends Omit<AnchorHTMLAttributes<HTMLAnchorElement>, "href"> {
   href: LinkProps["href"] | string;
   underline?: boolean;
@@ -44,8 +44,10 @@ export const SmartLink = ({
       );
   } else {
     /* href is not a string, it's a URL param object */
-    <Link href={href}>
-      <a {...props} className={className} />
-    </Link>;
+    return (
+      <Link href={href}>
+        <a {...props} className={className} />
+      </Link>
+    );
   }
 };

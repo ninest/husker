@@ -98,7 +98,15 @@ const ContentPage = ({ isCategoryPage, category, page }: ContentPageProps) => {
         <Spacer size="2xl"></Spacer>
 
         <div className="flex">
-          <Button href={`/contribute?id=${page.frontmatter.title}`} icon="pen" size="sm">
+          <Button
+            // href={`/contribute?id=${page.frontmatter.title}`}
+            href={{
+              pathname: "/contribute",
+              query: { name: page.frontmatter.title },
+            }}
+            icon="pen"
+            size="sm"
+          >
             Edit
           </Button>
         </div>
