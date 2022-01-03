@@ -6,7 +6,7 @@ import { Title } from "@/components/title";
 import { contentMap, pages } from "@/content/map";
 import { listToFilepath } from "@/lib/file/list-to-file";
 import { getPage } from "@/lib/pages";
-import { Category } from "@/types/category";
+import { Category, Link } from "@/types/category";
 import { Page } from "@/types/page";
 import { BackButton } from "@/components/BackButton";
 import { NextSeo } from "next-seo";
@@ -28,24 +28,49 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const slugList = params?.slug! as string[];
   const slug = listToFilepath(slugList);
 
-  // Check if slug is the category. If so, the entire page is a category)
-  let category;
+  // Get page
+  const page = await getPage(slug);
+  const { title, description, pageType } = page.frontmatter;
+
+  /* 
+  It's a category page if:
+  - The slugList length is 1 
+  - AND that one element in the slugList is a category slug
+  */
   const isCategoryPage =
     slugList.length === 1 &&
     !!contentMap.find((category) => category.slug === slug);
-
-  category =
+  /*
+  Even if it's not a category page, try finding the category for a page to find the back button text and link
+  */
+  const category =
     contentMap.find((category) => category.slug === slugList[0]) ?? null;
 
-  // Get page
-  const page = await getPage(slug);
+  console.log({ isCategoryPage });
 
-  const { title, description } = page.frontmatter;
+  /* Some pages, such as "category" or "dorm" pages contain the link set */
+  const containsLinkSet = isCategoryPage || pageType == "dorm";
+  let links;
+  let pages;
+
+  if (isCategoryPage) {
+    // {links,pages} = category
+    links = category?.links!;
+    pages = category?.pages!;
+  } else if (pageType == "dorm") {
+    links = [];
+    pages = [];
+  }
 
   return {
     props: {
       isCategoryPage,
       category,
+
+      containsLinkSet,
+      links,
+      pages,
+
       page,
       title,
       description,
@@ -56,6 +81,11 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 interface ContentPageProps {
   isCategoryPage: boolean;
   category?: Category;
+
+  containsLinkSet: boolean;
+  links: Link[];
+  pages: Link[];
+
   page: Page;
 
   title: string;
@@ -65,6 +95,11 @@ interface ContentPageProps {
 const ContentPage = ({
   isCategoryPage,
   category,
+
+  containsLinkSet,
+  links,
+  pages,
+
   page,
   title,
   description,
@@ -81,10 +116,10 @@ const ContentPage = ({
       <article className="wrapper">
         <Spacer></Spacer>
 
-        {isCategoryPage || !category ? (
+        {isCategoryPage && category ? (
           <BackButton></BackButton>
         ) : (
-          <BackButton href={`/${category.slug}`}>{category.title}</BackButton>
+          <BackButton href={`/${category?.slug}`}>{category?.title}</BackButton>
         )}
 
         <Spacer size="sm"></Spacer>
@@ -96,8 +131,8 @@ const ContentPage = ({
             <LinkSet
               showTitle={false}
               showFull
-              links={category!.links}
-              pages={category?.pages}
+              links={links}
+              pages={pages}
             ></LinkSet>
             <Spacer size="xl"></Spacer>
           </>
@@ -124,7 +159,6 @@ const ContentPage = ({
 
         <div className="flex">
           <Button
-            // href={`/contribute?id=${page.frontmatter.title}`}
             href={{
               pathname: "/contribute",
               query: { name: page.frontmatter.title },
