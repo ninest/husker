@@ -31,11 +31,18 @@ function MyApp({ Component, pageProps }: AppProps) {
         )}
 
         <main className={clsx("md:flex")}>
+          {/* 
+          TODO
+          Wrapping this element in a div will fix the safari scroll bug
+          https://stackoverflow.com/q/51792783/8677167
+          But it causes an issue with the sidebar
+          */}
           <div
             className={clsx(
               { hidden: !showSidebar },
               "md:block sticky top-0 bottom-0 left-0"
             )}
+
           >
             <Sidebar onCloseClick={() => setShowSidebar(false)}></Sidebar>
           </div>
