@@ -14,6 +14,7 @@ import { Block } from "@/components/Block";
 import clsx from "clsx";
 import { Button } from "@/components/Button";
 import { LinkSet } from "@/components/LinkSet";
+import { dorms } from "@/content/housing";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const categoryPaths = contentMap.map((category) => `/${category.slug}`);
@@ -58,8 +59,12 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     links = category?.links!;
     pages = category?.pages!;
   } else if (pageType == "dorm") {
-    links = [];
-    pages = [];
+    /* 
+    The dorm slug is in the URL
+    */
+    const dormSlug = slugList.at(-1);
+    links = dorms.find((dorm) => dorm.slug == dormSlug)?.links;
+    pages = dorms.find((dorm) => dorm.slug == dormSlug)?.pages ?? null;
   }
 
   return {
@@ -84,7 +89,7 @@ interface ContentPageProps {
 
   containsLinkSet: boolean;
   links: Link[];
-  pages: Link[];
+  pages?: Link[];
 
   page: Page;
 
@@ -126,7 +131,7 @@ const ContentPage = ({
         <Title>{title}</Title>
         <Spacer></Spacer>
 
-        {isCategoryPage && (
+        {containsLinkSet && (
           <>
             <LinkSet
               showTitle={false}

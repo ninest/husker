@@ -247,42 +247,42 @@ export const dorms: Dorm[] = [
     title: "West Village",
     links: [
       {
-        name: "West Village A NEUDorms",
+        name: "WVA NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-a",
       },
       {
-        name: "West Village B NEUDorms",
+        name: "WVB NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-b",
       },
       {
-        name: "West Village C NEUDorms",
+        name: "WVC NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-c",
       },
       {
-        name: "West Village D NEUDorms",
+        name: "WVD NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-d",
       },
       {
-        name: "West Village E NEUDorms",
+        name: "WVE NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-e",
       },
       {
-        name: "West Village F NEUDorms",
+        name: "WVF NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-f",
       },
       {
-        name: "West Village G NEUDorms",
+        name: "WVG NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-g",
       },
       {
-        name: "West Village H NEUDorms",
+        name: "WVH NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-h-21",
       },
