@@ -13,7 +13,6 @@ import { NextSeo } from "next-seo";
 import { Block } from "@/components/Block";
 import clsx from "clsx";
 import { Button } from "@/components/Button";
-import { fileExists } from "@/lib/file/exists";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const categoryPaths = contentMap.map((category) => `/${category.slug}`);
@@ -52,7 +51,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 interface ContentPageProps {
   isCategoryPage: boolean;
   category?: Category;
-  page?: Page;
+  page: Page;
 }
 
 const ContentPage = ({ isCategoryPage, category, page }: ContentPageProps) => {
