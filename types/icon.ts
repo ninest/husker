@@ -34,6 +34,7 @@ import {
   FaApple,
   FaGooglePlay,
   FaFirefox,
+  FaMapMarkerAlt,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -72,5 +73,6 @@ export const iconMap = {
   apple: FaApple,
   googleplay: FaGooglePlay,
   firefox: FaFirefox,
+  markeralt: FaMapMarkerAlt,
 };
 export type IconId = keyof typeof iconMap;

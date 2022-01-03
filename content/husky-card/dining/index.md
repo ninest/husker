@@ -79,7 +79,7 @@ menu: []
 },
 ]
 
-<section className="grid gap-base grid-cols-2 md:grid-cols-3">
+<section className="grid gap-base grid-cols-2 lg:grid-cols-1 xl:grid-cols-3">
 {mealExchanges.map(exc => {
   return <Block key={exc.name} title={exc.name}>
   </Block>
@@ -97,3 +97,52 @@ At Stetson West, you can use your unused meal swipes to get "grocery food items"
 - **1 meal swipe** becomes **10 points**.
 - See the [opening hours](https://nudining.com/public/hours) for Outtakes at Stetson West
 - You can use a maximum of 3 swipes here (unconfirmed)
+
+## Off-campus vendors
+
+import { Icon } from '@/components/Icon'
+
+export const offCampusVendors = [
+  { name: "Amelia’s Taqueria", address: "309 Huntington Ave" },
+  { name: "Bangkok Pinto", address: "1041 Tremont Street" },
+  { name: "Blaze Pizza", address: "1282 Boylston St" },
+  { name: "Boston Shawarma", address: "315 Huntington Avenue" },
+  { name: "Cappy’s Pizza & Subs", address: "82 Westland Avenue" },
+  { name: "College Convenience", address: "281 Huntington Ave" },
+  { name: "CVS", address: "231 Massachusetts Ave" },
+  { name: "Domino’s Pizza", address: "1260 Boylston St" },
+  { name: "Domino’s Pizza", address: "1400 Tremont St" },
+  { name: "Dos Diablos Taco Bar & Two Saints Tavern", address: "52 Gainsborough St" },
+  { name: "El Jefe’s Taqueria", address: "269 Huntington Ave" },
+  { name: "Giovanni’s Market", address: "624 Columbus Avenue" },
+  { name: "Gyroscope", address: "305 Huntington Ave" },
+  { name: "Honeygrow", address: "1282 Boylston St" },
+  { name: "Ingredients @ the Westin Hotel", address: "10 Huntington Ave" },
+  { name: "Lobstah on a Roll", address: "537 Columbus Ave" },
+  { name: "Mamacita Authentic Mexican Comida", address: "329 Huntington Ave" },
+  { name: "MARKET @ the Sheraton Hotel", address: "39 Dalton St" },
+  { name: "Panera Bread", address: "289 Huntington Ave" },
+  { name: "Sprout", address: "305 Huntington Ave" },
+  { name: "Star Market", address: "53 Huntington Avenue" },
+  { name: "Star Market", address: "33 Kilmarnock Street (near Fenway)" },
+  { name: "Symphony Market", address: "291 Huntington Avenue" },
+  { name: "University House of Pizza", address: "452 Huntington Avenue" },
+  { name: "Whole Foods Market", address: "15 Westland Ave" },
+  { name: "Wings Over Boston", address: "325 Huntington Ave" },
+  { name: "Energize", address: "265 Massachusetts Ave" },
+  { name: "Poke Station", address: "313 Huntington Ave" },
+  { name: "Quick Pick Convenience", address: "973 Tremont St" },
+]
+
+Click on the below vendors to locate them on Google Maps.
+
+<section className="grid gap-base md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+{offCampusVendors.map(ocv => {
+  return <Block key={ocv.name} title={ocv.name} href={`https://maps.google.com/?q=${ocv.name}, ${ocv.address}`}>
+  <div className="flex items-baseline space-x-sm">
+  <Icon id="markeralt" className="text-gray-light" />
+  <div>{ocv.address}</div>
+  </div>
+  </Block>
+})}
+</section>

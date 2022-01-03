@@ -6,11 +6,12 @@ import { Spacer } from "./Spacer";
 interface BlockChildren {
   title: string;
   children?: ReactNode;
+  className?: string;
   href?: string;
 }
-export const Block = ({ title, children, href }: BlockChildren) => {
+export const Block = ({ title, children, href, ...props }: BlockChildren) => {
   const isClickable = !!href;
-  const className = clsx("block p-base rounded", {
+  const className = clsx(props.className, "block p-base rounded", {
     "bg-gray-50": !isClickable,
     "bg-gray-100 hover:bg-gray-200": isClickable,
   });
