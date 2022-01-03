@@ -10,4 +10,6 @@ export interface Frontmatter {
   title: string;
   description: string;
   updatedAt: string;
+
+  pageType?: "dorm" | "other";
 }
