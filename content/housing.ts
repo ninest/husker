@@ -1,19 +1,18 @@
 import { Dorm, DormType } from "@/types/housing";
-import { capitalizeFirstLetter } from "@/utils/string";
 
-const traditional: DormType = {
+export const traditional: DormType = {
   slug: "traditional",
   name: "Traditional",
 };
-const suite: DormType = {
+export const suite: DormType = {
   slug: "suite",
   name: "Suite",
 };
-const hotel: DormType = {
+export const hotel: DormType = {
   slug: "hotel",
   name: "Hotel",
 };
-const apartment: DormType = {
+export const apartment: DormType = {
   slug: "apartment",
   name: "Apartment",
 };

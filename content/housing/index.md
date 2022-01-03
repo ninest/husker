@@ -4,12 +4,18 @@ description: More information about housing
 lastUpdated: 2021-08-31
 ---
 
-import { dorms } from '@/content/housing/'
+import { dorms, traditional, suite, hotel, apartment } from '@/content/housing/'
 
 ## Dorms
 
+{[traditional, suite, hotel, apartment].map(dormType => {
+return <div key={dormType.slug} className="prose">
+<h3>{dormType.name}</h3>
 <section className="grid gap-base grid-cols-2 md:grid-cols-3">
-{dorms.map(dorm => {
-  return <Block key={dorm.slug} title={dorm.title} href={`/housing/${dorm.slug}`}>{dorm.type.name}</Block>
+{dorms.filter(dorm => dorm.type == dormType).map(dorm => {
+return <Block key={dorm.slug} title={dorm.title} href={`/housing/${dorm.slug}`}>{dorm.type.name}</Block>
 })}
 </section>
+
+  </div>
+})}
