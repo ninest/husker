@@ -39,11 +39,15 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   // Get page
   const page = await getPage(slug);
 
+  const { title, description } = page.frontmatter;
+
   return {
     props: {
       isCategoryPage,
       category,
       page,
+      title,
+      description,
     },
   };
 };
@@ -52,14 +56,22 @@ interface ContentPageProps {
   isCategoryPage: boolean;
   category?: Category;
   page: Page;
+
+  title: string;
+  description: string;
 }
 
-const ContentPage = ({ isCategoryPage, category, page }: ContentPageProps) => {
+const ContentPage = ({
+  isCategoryPage,
+  category,
+  page,
+  title,
+  description,
+}: ContentPageProps) => {
   let Markdown;
   if (page) {
     Markdown = getMDXComponent(page?.code);
   }
-  const { title, description, updatedAt } = page?.frontmatter;
 
   return (
     <>

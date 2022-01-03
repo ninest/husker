@@ -11,5 +11,6 @@ export interface Frontmatter {
   description: string;
   updatedAt: string;
 
+  /* Some pages, like housing pages, are *special* */
   pageType?: "dorm" | "other";
 }
