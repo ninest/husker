@@ -5,7 +5,7 @@ import { Spacer } from "./Spacer";
 
 interface BlockChildren {
   title: string;
-  children: ReactNode;
+  children?: ReactNode;
   href?: string;
 }
 export const Block = ({ title, children, href }: BlockChildren) => {
@@ -17,8 +17,12 @@ export const Block = ({ title, children, href }: BlockChildren) => {
   const content = (
     <>
       <div className="font-semibold text-sm text-gray">{title}</div>
-      <Spacer size="xs"></Spacer>
-      <div className="text-xs text-gray-light">{children}</div>
+      {children && (
+        <>
+          <Spacer size="xs"></Spacer>
+          <div className="text-xs text-gray-light">{children}</div>
+        </>
+      )}
     </>
   );
 

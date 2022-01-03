@@ -39,12 +39,7 @@ menu: []
 },
 {
 name: "Popeyes",
-menu: [
-<><b>Combo 3</b>: 3 pience bonafide chicken</>,
-<><b>Combo 8</b>: 3 pience tenders</>,
-<><b>Combo 10</b>: classic chicken sandwhich</>,
-<><b>Combo 11</b>: Spicy chicken sandwhich</>,
-],
+menu: [],
 extra: "With cajun fries and medium fountain drink"
 },
 
@@ -87,16 +82,6 @@ menu: []
 <section className="grid gap-base grid-cols-2 md:grid-cols-3">
 {mealExchanges.map(exc => {
   return <Block key={exc.name} title={exc.name}>
-    {exc.menu.length > 0 ?
-      <div className="mt-xs">
-        <div className="space-y-sm">
-          {exc.menu.map(item => {
-            return <div className="text-sm text-gray">{item}</div>
-          })}
-        </div>
-        <div className="mt-sm text-sm font-semibold text-gray">{exc.extra}</div>
-      </div>
-   : <div className="mt-xs text-sm text-gray-light text-center">Menu not added yet</div> }
   </Block>
 })}
 </section>
