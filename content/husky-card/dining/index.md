@@ -139,7 +139,7 @@ export const offCampusVendors = [
 
 These restaurants/shops accept dining dollars and husky dollars. Click on the below vendors to locate them on Google Maps.
 
-<section className="grid gap-base md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+<section className="grid gap-base grid-cols-2 md:grid-cols-3">
 {offCampusVendors.map(ocv => {
   return <Block key={ocv.name} title={ocv.name} href={`https://maps.google.com/?q=${ocv.name}, ${ocv.address}`}>
   <div className="flex items-baseline space-x-sm">

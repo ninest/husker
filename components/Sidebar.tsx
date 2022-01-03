@@ -34,7 +34,12 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
         >
           <Icon id="x"></Icon>
         </button>
-        <div className="font-display font-black text-lg text-dark">Husker</div>
+        <SmartLink
+          href="/"
+          className="font-display font-black text-lg text-dark"
+        >
+          Husker
+        </SmartLink>
       </div>
 
       <Spacer></Spacer>
