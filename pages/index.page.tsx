@@ -1,18 +1,21 @@
 import { contentMap } from "@/content/map";
-import { CategorySet } from "@/components/CategorySet";
+
+import { LinkSet } from "@/components/LinkSet";
 
 const IndexPage = () => {
   return (
     <>
       <article className="wrapper">
-        <div className="space-y-lg">
+        <div className="space-y-xl">
           {contentMap.map((category) => {
             return (
-              <CategorySet
+              <LinkSet
                 key={category.slug}
                 showTitle
-                category={category}
-              ></CategorySet>
+                title={category.title}
+                moreInfoHref={`/${category.slug}`}
+                links={category.links}
+              ></LinkSet>
             );
           })}
         </div>

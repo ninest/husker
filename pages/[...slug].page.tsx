@@ -1,6 +1,6 @@
 import { GetStaticPaths, GetStaticProps } from "next";
 import { getMDXComponent } from "mdx-bundler/client";
-import { CategorySet } from "@/components/CategorySet";
+
 import { Spacer } from "@/components/Spacer";
 import { Title } from "@/components/title";
 import { contentMap, pages } from "@/content/map";
@@ -13,6 +13,7 @@ import { NextSeo } from "next-seo";
 import { Block } from "@/components/Block";
 import clsx from "clsx";
 import { Button } from "@/components/Button";
+import { LinkSet } from "@/components/LinkSet";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const categoryPaths = contentMap.map((category) => `/${category.slug}`);
@@ -89,12 +90,17 @@ const ContentPage = ({
         <Spacer size="sm"></Spacer>
         <Title>{title}</Title>
         <Spacer></Spacer>
+
         {isCategoryPage && (
-          <CategorySet
-            category={category!}
-            showTitle={false}
-            showFull
-          ></CategorySet>
+          <>
+            <LinkSet
+              showTitle={false}
+              showFull
+              links={category!.links}
+              pages={category?.pages}
+            ></LinkSet>
+            <Spacer size="xl"></Spacer>
+          </>
         )}
 
         {Markdown && (

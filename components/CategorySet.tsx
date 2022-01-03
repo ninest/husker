@@ -1,3 +1,5 @@
+/* DEPRECATED */
+
 import { Spacer } from "@/components/Spacer";
 import { Title } from "@/components/title";
 import { Category } from "@/types/category";

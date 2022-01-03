@@ -23,7 +23,7 @@ export const LinkSet = ({
   showFull = false,
 }: LinkSetProps) => {
   return (
-    <section className="mb-xl">
+    <section>
       {showTitle && (
         /* Show the more info caret only if the title is shown */
         <>
