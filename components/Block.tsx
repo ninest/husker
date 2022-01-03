@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import { SmartLink } from "@/components/SmartLink";
 import clsx from "clsx";
+import { Spacer } from "./Spacer";
 
 interface BlockChildren {
   title: string;
@@ -8,13 +9,16 @@ interface BlockChildren {
   href?: string;
 }
 export const Block = ({ title, children, href }: BlockChildren) => {
-  const className = clsx("block p-base rounded bg-gray-100", {
-    "hover:bg-gray-200": href,
+  const isClickable = !!href;
+  const className = clsx("block p-base rounded", {
+    "bg-gray-50": !isClickable,
+    "bg-gray-100 hover:bg-gray-200": isClickable,
   });
   const content = (
     <>
-      <div className="font-bold">{title}</div>
-      <div className="text-sm text-gray">{children}</div>
+      <div className="font-semibold text-sm text-gray">{title}</div>
+      <Spacer size="xs"></Spacer>
+      <div className="text-xs text-gray-light">{children}</div>
     </>
   );
 
