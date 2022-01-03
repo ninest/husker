@@ -47,17 +47,15 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const category =
     contentMap.find((category) => category.slug === slugList[0]) ?? null;
 
-  console.log({ isCategoryPage });
-
   /* Some pages, such as "category" or "dorm" pages contain the link set */
   const containsLinkSet = isCategoryPage || pageType == "dorm";
-  let links;
-  let pages;
+  let links = null;
+  let pages = null;
 
   if (isCategoryPage) {
     // {links,pages} = category
-    links = category?.links!;
-    pages = category?.pages!;
+    links = category?.links! ?? null;
+    pages = category?.pages! ?? null;
   } else if (pageType == "dorm") {
     /* 
     The dorm slug is in the URL
