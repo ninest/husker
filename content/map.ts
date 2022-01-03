@@ -1,4 +1,5 @@
 import { Category } from "@/types/category";
+import { dorms } from "./housing";
 
 export const contentMap: Category[] = [
   {
@@ -274,4 +275,6 @@ export const pages = [
   "/social/chats",
   "/social/instagram",
   "/changelog",
+
+  ...dorms.map((dorm): string => `/housing/${dorm.slug}`),
 ];

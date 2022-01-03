@@ -29,6 +29,7 @@ export const MobileNavbar = ({ onMenuClick }: MobileNavbarProps) => {
           {highlightedSidebarLinks.map((link) => {
             return (
               <SmartLink
+                key={link.href}
                 href={link.href}
                 className="hover:bg-gray-100 p-2 rounded"
               >

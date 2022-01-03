@@ -10,6 +10,6 @@ import { dorms } from '@/content/housing/'
 
 <section className="grid gap-base grid-cols-2 md:grid-cols-3">
 {dorms.map(dorm => {
-  return <Block key={dorm.slug} title={dorm.title} href={dorm.url}>{dorm.type.name}</Block>
+  return <Block key={dorm.slug} title={dorm.title} href={`/housing/${dorm.slug}`}>{dorm.type.name}</Block>
 })}
 </section>

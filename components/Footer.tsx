@@ -18,7 +18,7 @@ export const Footer = () => {
     <div className="wrapper flex items-center space-x-lg">
       {links.map((link) => {
         return (
-          <div className="flex items-center space-x-base -m-xs p-xs rounded hover:bg-gray-100">
+          <div key={link.href} className="flex items-center space-x-base -m-xs p-xs rounded hover:bg-gray-100">
             {/* @ts-ignore */}
             <Icon id={link.icon} />
             <SmartLink

@@ -13,6 +13,7 @@ import { NextSeo } from "next-seo";
 import { Block } from "@/components/Block";
 import clsx from "clsx";
 import { Button } from "@/components/Button";
+import { fileExists } from "@/lib/file/exists";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const categoryPaths = contentMap.map((category) => `/${category.slug}`);
@@ -51,12 +52,15 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 interface ContentPageProps {
   isCategoryPage: boolean;
   category?: Category;
-  page: Page;
+  page?: Page;
 }
 
 const ContentPage = ({ isCategoryPage, category, page }: ContentPageProps) => {
-  const Markdown = getMDXComponent(page.code);
-  const { title, description, updatedAt } = page.frontmatter;
+  let Markdown;
+  if (page) {
+    Markdown = getMDXComponent(page?.code);
+  }
+  const { title, description, updatedAt } = page?.frontmatter;
 
   return (
     <>
@@ -82,20 +86,22 @@ const ContentPage = ({ isCategoryPage, category, page }: ContentPageProps) => {
           ></CategorySet>
         )}
 
-        <div className="prose">
-          <Markdown
-            components={{
-              /* TODO: move to external file */
-              Block,
-              a: ({ className, ...props }) => {
-                return (
-                  <a {...props} className={clsx(className, "underline")}></a>
-                );
-              },
-              Button,
-            }}
-          ></Markdown>
-        </div>
+        {Markdown && (
+          <div className="prose">
+            <Markdown
+              components={{
+                /* TODO: move to external file */
+                Block,
+                a: ({ className, ...props }) => {
+                  return (
+                    <a {...props} className={clsx(className, "underline")}></a>
+                  );
+                },
+                Button,
+              }}
+            ></Markdown>
+          </div>
+        )}
 
         <Spacer size="2xl"></Spacer>
 

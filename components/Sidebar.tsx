@@ -47,7 +47,12 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
       <div className="px-md grid gap-base grid-cols-2">
         {highlightedSidebarLinks.map((link) => {
           return (
-            <Button size="sm" icon={link.icon as IconId} href={link.href}>
+            <Button
+              key={link.href}
+              size="sm"
+              icon={link.icon as IconId}
+              href={link.href}
+            >
               {link.text}
             </Button>
           );
