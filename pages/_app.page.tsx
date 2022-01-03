@@ -32,10 +32,14 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         <main className={clsx("md:flex")}>
           <div
-            className={clsx({ hidden: !showSidebar }, "md:block sticky top-0")}
+            className={clsx(
+              { hidden: !showSidebar },
+              "md:block sticky top-0 bottom-0 left-0"
+            )}
           >
             <Sidebar onCloseClick={() => setShowSidebar(false)}></Sidebar>
           </div>
+
           <div className="w-full">
             <div className="min-h-screen">
               <Component {...pageProps} />

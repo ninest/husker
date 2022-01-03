@@ -14,20 +14,27 @@ export const LinkButton = ({
 }: LinkButtonProps) => {
   return (
     <SmartLink
+      style={{ minWidth: 0 }}
       className="flex items-center space-x-md rounded p-base bg-gray-100 hover:bg-gray-200 "
       href={link.href}
     >
       <Icon
         id={link.icon}
         className="text-sm"
-        style={{ width: "1.25em" }}
       ></Icon>
+
       <div>
-        <div className="font-semibold text-sm text-gray">{link.name}</div>
+        <div
+        className="font-semibold text-sm text-gray"
+        >
+          {link.name}
+        </div>
         {showDescription && (
           <>
             <Spacer size="xs"></Spacer>
-            <div className="text-gray-light font-normal text-xs">
+            <div
+            className="text-gray-light font-normal text-xs"
+            >
               {link.description}
             </div>
           </>

@@ -29,10 +29,15 @@
     @apply p-md;
 
     @screen md {
-      @apply w-[75ch] mx-auto;
+      @apply w-11/12 mx-auto;
     }
-    
+
+    @screen lg {
+      @apply w-5/6 mx-auto;
+    }
+
     @screen xl {
+      @apply w-[75ch];
       @apply px-0;
     }
   }
