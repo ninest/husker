@@ -1,26 +1,7 @@
-import { Dorm, DormType } from "@/types/housing";
-import { capitalizeFirstLetter } from "@/utils/string";
+const fs = require("fs");
 
-const traditional: DormType = {
-  slug: "traditional",
-  name: "Traditional",
-};
-const suite: DormType = {
-  slug: "suite",
-  name: "Suite",
-};
-const hotel: DormType = {
-  slug: "hotel",
-  name: "hotel",
-};
-const apartment: DormType = {
-  slug: "apartment",
-  name: "Apartment",
-};
-
-export const dorms: Dorm[] = [
+const dorms = [
   {
-    type: traditional,
     slug: "hastings-hall",
     title: "Hastings Hall",
     links: [
@@ -32,7 +13,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: traditional,
     slug: "kerr-hall",
     title: "Kerr Hall",
     links: [
@@ -44,7 +24,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: traditional,
     slug: "melvin-hall",
     title: "Melvin Hall",
     links: [
@@ -56,7 +35,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: traditional,
     slug: "smith-hall",
     title: "Smith Hall",
     links: [
@@ -68,7 +46,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: traditional,
     slug: "spears-hall",
     title: "Spears Hall",
     links: [
@@ -80,7 +57,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: traditional,
     slug: "white-hall",
     title: "White Hall",
     links: [
@@ -92,7 +68,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: traditional,
     slug: "stetson-east",
     title: "Stetson East",
     links: [
@@ -104,7 +79,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: traditional,
     slug: "stetson-west",
     title: "Stetson West",
     links: [
@@ -116,7 +90,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: suite,
     slug: "153-hemenway-street",
     title: "153 Hemenway Street",
     links: [
@@ -128,7 +101,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: suite,
     slug: "international-village",
     title: "International Village",
     links: [
@@ -140,7 +112,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: suite,
     slug: "east-village",
     title: "East Village",
     links: [
@@ -152,7 +123,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: suite,
     slug: "kennedy-hall",
     title: "Kennedy Hall",
     links: [
@@ -164,7 +134,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: hotel,
     slug: "midtown-hotel",
     title: "Midtown Hotel",
     links: [
@@ -176,7 +145,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: hotel,
     slug: "the-sheraton",
     title: "The Sheraton",
     links: [
@@ -188,7 +156,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: hotel,
     slug: "the-westin",
     title: "The Westin",
     links: [
@@ -200,7 +167,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: apartment,
     slug: "116-st-stephen-street",
     title: "116 St. Stephen Street",
     links: [
@@ -212,7 +178,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: apartment,
     slug: "122-st-stephen-street-levine-hall",
     title: "122 St. Stephen Street (Levine Hall)",
     links: [
@@ -224,7 +189,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: apartment,
     slug: "dav-a",
     title: "Davenport A",
     links: [
@@ -236,7 +200,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: apartment,
     slug: "dav-b",
     title: "Davenport B",
     links: [
@@ -248,7 +211,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: apartment,
     slug: "west-village-a",
     title: "West Village A",
     links: [
@@ -260,7 +222,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: apartment,
     slug: "west-village-b",
     title: "West Village B",
     links: [
@@ -272,7 +233,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: apartment,
     slug: "west-village-c",
     title: "West Village C",
     links: [
@@ -284,7 +244,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: apartment,
     slug: "west-village-d",
     title: "West Village D",
     links: [
@@ -296,7 +255,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: apartment,
     slug: "west-village-e",
     title: "West Village E",
     links: [
@@ -308,7 +266,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: apartment,
     slug: "west-village-f",
     title: "West Village F",
     links: [
@@ -320,7 +277,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: apartment,
     slug: "west-village-g",
     title: "West Village G",
     links: [
@@ -332,7 +288,6 @@ export const dorms: Dorm[] = [
     ],
   },
   {
-    type: apartment,
     slug: "west-village-h-21",
     title: "West Village H",
     links: [
@@ -344,3 +299,19 @@ export const dorms: Dorm[] = [
     ],
   },
 ];
+
+for (const d of dorms) {
+  const folderName = d.slug;
+  const fileName = "index.md";
+  const fileContent = `---
+title: ${d.title}
+description: Information on ${d.title}
+createdAt: 2022-01-04
+updatedAt: 2022-01-04
+---
+  
+  `;
+
+  // fs.mkdirSync(`./content/housing/${folderName}`);
+  fs.writeFileSync(`./content/housing/${folderName}/index.md`, fileContent)
+}

@@ -1,5 +1,8 @@
 ---
 title: Hastings Hall
-description: 
-lastUpdated: 2021-08-31
+description: Information on Hastings Hall
+createdAt: 2022-01-04
+updatedAt: 2022-01-04
 ---
+  
+  
