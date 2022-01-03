@@ -22,13 +22,16 @@ export const mealPlans = [
 })}
 </section>
 
-More information:
+<details>
+<summary>More information</summary>
 
 - Each meal plan includes 10 guest swipes for the semester (or 5 guest swipes in summer semesters)
 - In summer semesters, you get half the dining dollars shown
-- NUin Boston students have the 12 meal plan and cannot change it ([source](https://nuin.northeastern.edu/destinations/boston/housing/))
+- NUin Boston students have the 12 meal plan and [cannot change it](https://nuin.northeastern.edu/destinations/boston/housing/)
 
 Sources: [northeastern.edu/huskycard](https://www.northeastern.edu/huskycard/meal-plans/traditional-meal-plan/), [nudining.com](https://nudining.com/public/meal-plans)
+</details>
+
 
 ### Meal exchange
 
@@ -90,7 +93,7 @@ Meal swipes can be used at restaurants on campus that have a sign that says "Mea
 
 There are weekly limits for the number of meal exchanges (see up).
 
-## Outtakes
+### Outtakes
 
 At Stetson West, you can use your unused meal swipes to get "grocery food items" (like chips, cheetos, sandwiches, salads, water, drinks, fruits, etc)
 
@@ -134,7 +137,7 @@ export const offCampusVendors = [
   { name: "Quick Pick Convenience", address: "973 Tremont St" },
 ]
 
-Click on the below vendors to locate them on Google Maps.
+These restaurants/shops accept dining dollars and husky dollars. Click on the below vendors to locate them on Google Maps.
 
 <section className="grid gap-base md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
 {offCampusVendors.map(ocv => {

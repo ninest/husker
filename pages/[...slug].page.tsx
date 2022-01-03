@@ -60,7 +60,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     /* 
     The dorm slug is in the URL
     */
-    const dormSlug = slugList.at(-1);
+    const dormSlug = slugList[slugList.length - 1];
     links = dorms.find((dorm) => dorm.slug == dormSlug)?.links;
     pages = dorms.find((dorm) => dorm.slug == dormSlug)?.pages ?? null;
   }
