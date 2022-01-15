@@ -24,7 +24,14 @@ export const dorms: Dorm[] = [
     title: "Hastings Hall",
     links: [
       {
-        name: "NEUDorms",
+        name: "Hastings Hall Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/hastings-hall",
+      },
+    ],
+    pages: [
+      {
+        name: "Hastings Hall NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/first-year/traditional/hastings-hall",
       },
@@ -36,7 +43,14 @@ export const dorms: Dorm[] = [
     title: "Kerr Hall",
     links: [
       {
-        name: "NEUDorms",
+        name: "Kerr Hall Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/kerr-hall",
+      },
+    ],
+    pages: [
+      {
+        name: "Kerr Hall NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/first-year/traditional/kerr-hall",
       },
@@ -48,7 +62,14 @@ export const dorms: Dorm[] = [
     title: "Melvin Hall",
     links: [
       {
-        name: "NEUDorms",
+        name: "Melvin Hall Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/melvin-hall",
+      },
+    ],
+    pages: [
+      {
+        name: "Melvin Hall NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/first-year/traditional/melvin-hall",
       },
@@ -60,7 +81,14 @@ export const dorms: Dorm[] = [
     title: "Smith Hall",
     links: [
       {
-        name: "NEUDorms",
+        name: "Smith Hall Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/smith-hall",
+      },
+    ],
+    pages: [
+      {
+        name: "Smith Hall NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/first-year/traditional/smith-hall",
       },
@@ -68,13 +96,20 @@ export const dorms: Dorm[] = [
   },
   {
     type: traditional,
-    slug: "spears-hall",
-    title: "Spears Hall",
+    slug: "speare-hall",
+    title: "Speare Hall",
     links: [
       {
-        name: "NEUDorms",
+        name: "Spears Hall Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/speare-hall",
+      },
+    ],
+    pages: [
+      {
+        name: "Speare Hall NEUDorms",
         description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/first-year/traditional/spears-hall",
+        href: "https://sites.google.com/view/neudorms/first-year/traditional/speare-hall",
       },
     ],
   },
@@ -84,7 +119,14 @@ export const dorms: Dorm[] = [
     title: "White Hall",
     links: [
       {
-        name: "NEUDorms",
+        name: "White Hall Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/white-hall",
+      },
+    ],
+    pages: [
+      {
+        name: "White Hall NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/first-year/traditional/white-hall",
       },
@@ -96,7 +138,14 @@ export const dorms: Dorm[] = [
     title: "Stetson East",
     links: [
       {
-        name: "NEUDorms",
+        name: "Stetson East Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/stetson-hall-east",
+      },
+    ],
+    pages: [
+      {
+        name: "Stetson East NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/first-year/traditional/stetson-east",
       },
@@ -108,7 +157,14 @@ export const dorms: Dorm[] = [
     title: "Stetson West",
     links: [
       {
-        name: "NEUDorms",
+        name: "Stetson West Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/stetson-hall-west",
+      },
+    ],
+    pages: [
+      {
+        name: "Stetson West NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/first-year/traditional/stetson-west",
       },
@@ -120,7 +176,14 @@ export const dorms: Dorm[] = [
     title: "153 Hemenway Street",
     links: [
       {
-        name: "NEUDorms",
+        name: "153 Hemenway Street Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/hemenway-street",
+      },
+    ],
+    pages: [
+      {
+        name: "153 Hemenway Street NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/first-year/suite-style/153-hemenway-street",
       },
@@ -132,7 +195,14 @@ export const dorms: Dorm[] = [
     title: "International Village",
     links: [
       {
-        name: "NEUDorms",
+        name: "International Village Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/international-village",
+      },
+    ],
+    pages: [
+      {
+        name: "International Village NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/first-year/suite-style/international-village",
       },
@@ -144,7 +214,14 @@ export const dorms: Dorm[] = [
     title: "East Village",
     links: [
       {
-        name: "NEUDorms",
+        name: "East Village Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/east-village",
+      },
+    ],
+    pages: [
+      {
+        name: "East Village NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/first-year/suite-style/east-village",
       },
@@ -156,7 +233,14 @@ export const dorms: Dorm[] = [
     title: "Kennedy Hall",
     links: [
       {
-        name: "NEUDorms",
+        name: "Kennedy Hall Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/kennedy-hall",
+      },
+    ],
+    pages: [
+      {
+        name: "Kennedy Hall NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/first-year/suite-style/kennedy-hall",
       },
@@ -168,7 +252,14 @@ export const dorms: Dorm[] = [
     title: "Midtown Hotel",
     links: [
       {
-        name: "NEUDorms",
+        name: "Midtown Hotel Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/midtown-hotel",
+      },
+    ],
+    pages: [
+      {
+        name: "Midtown Hotel NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/hotels/midtown-hotel",
       },
@@ -180,7 +271,14 @@ export const dorms: Dorm[] = [
     title: "The Sheraton",
     links: [
       {
-        name: "NEUDorms",
+        name: "The Sheraton Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/the-sheraton",
+      },
+    ],
+    pages: [
+      {
+        name: "The Sheraton NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/hotels/the-sheraton",
       },
@@ -192,7 +290,14 @@ export const dorms: Dorm[] = [
     title: "The Westin",
     links: [
       {
-        name: "NEUDorms",
+        name: "The Westin Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/the-westin",
+      },
+    ],
+    pages: [
+      {
+        name: "The Westin NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/hotels/the-westin",
       },
@@ -204,7 +309,14 @@ export const dorms: Dorm[] = [
     title: "116 St. Stephen Street",
     links: [
       {
-        name: "NEUDorms",
+        name: "116 St. Stephen Street Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/stephen-street",
+      },
+    ],
+    pages: [
+      {
+        name: "116 St. Stephen Street NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/first-year/apartment-style/116-st-stephen-street",
       },
@@ -216,7 +328,14 @@ export const dorms: Dorm[] = [
     title: "122 St. Stephen Street (Levine Hall)",
     links: [
       {
-        name: "NEUDorms",
+        name: "122 St. Stephen Street (Levine Hall) Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/levine-hall",
+      },
+    ],
+    pages: [
+      {
+        name: "122 St. Stephen Street (Levine Hall) NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/first-year/apartment-style/122-st-stephen-street-levine-hall",
       },
@@ -284,6 +403,166 @@ export const dorms: Dorm[] = [
         name: "WVH NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-h-21",
+      },
+    ],
+  },
+
+  {
+    type: apartment,
+    slug: "10-coventry",
+    title: "10 Coventry",
+    links: [
+      {
+        name: "10 Coventry Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/10-coventry",
+      },
+    ],
+    pages: [
+      {
+        name: "10 Coventry NEUDorms",
+        description: "Images and videos from NEUDorms",
+        href: "https://sites.google.com/view/neudorms/upperclassmen/10-coventry?authuser=0",
+      },
+    ],
+  },
+
+  {
+    type: apartment,
+    slug: "110-st-stephen-street",
+    title: "110 St Stephen Street",
+    links: [
+      {
+        name: "110 St Stephen Street Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/110-st-stephen-street",
+      },
+    ],
+    pages: [
+      {
+        name: "110 St Stephen Street NEUDorms",
+        description: "Images and videos from NEUDorms",
+        href: "https://sites.google.com/view/neudorms/upperclassmen/110-st-stephen-street?authuser=0",
+      },
+    ],
+  },
+
+  {
+    type: apartment,
+    slug: "319-huntington-ave",
+    title: "319 Huntington Ave",
+    links: [
+      {
+        name: "319 Huntington Ave Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/319-huntington-ave",
+      },
+    ],
+    pages: [
+      {
+        name: "319 Huntington Ave NEUDorms",
+        description: "Images and videos from NEUDorms",
+        href: "https://sites.google.com/view/neudorms/upperclassmen/319-huntington-ave",
+      },
+    ],
+  },
+
+  {
+    type: apartment,
+    slug: "337-huntington-ave",
+    title: "337 Huntington Ave",
+    links: [
+      {
+        name: "337 Huntington Ave Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/337-huntington-ave",
+      },
+    ],
+    pages: [
+      {
+        name: "337 Huntington Ave NEUDorms",
+        description: "Images and videos from NEUDorms",
+        href: "https://sites.google.com/view/neudorms/upperclassmen/337-huntington-ave",
+      },
+    ],
+  },
+
+  {
+    type: apartment,
+    slug: "407-huntington-ave",
+    title: "407 Huntington Ave",
+    links: [
+      {
+        name: "407 Huntington Ave Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/407-huntington-ave",
+      },
+    ],
+    pages: [
+      {
+        name: "407 Huntington Ave NEUDorms",
+        description: "Images and videos from NEUDorms",
+        href: "https://sites.google.com/view/neudorms/upperclassmen/407-huntington-ave",
+      },
+    ],
+  },
+
+  {
+    type: apartment,
+    slug: "780-columbus-ave",
+    title: "780 Columbus Ave",
+    links: [
+      {
+        name: "780 Columbus Ave Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/780-columbus",
+      },
+    ],
+    pages: [
+      {
+        name: "780 Columbus Ave NEUDorms",
+        description: "Images and videos from NEUDorms",
+        href: "https://sites.google.com/view/neudorms/upperclassmen/780-columbus-ave",
+      },
+    ],
+  },
+
+  {
+    type: apartment,
+    slug: "burstein-hall",
+    title: "Burstein Hall",
+    links: [
+      {
+        name: "Burstein Hall Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/burstein-hall",
+      },
+    ],
+    pages: [
+      {
+        name: "Burstein Hall NEUDorms",
+        description: "Images and videos from NEUDorms",
+        href: "https://sites.google.com/view/neudorms/upperclassmen/burstein-hall",
+      },
+    ],
+  },
+
+  {
+    type: apartment,
+    slug: "loftman-hall",
+    title: "Loftman Hall",
+    links: [
+      {
+        name: "Loftman Hall Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://northeastern.edu/housing/loftman-hall",
+      },
+    ],
+    pages: [
+      {
+        name: "Loftman Hall NEUDorms",
+        description: "Images and videos from NEUDorms",
+        href: "https://sites.google.com/view/neudorms/upperclassmen/loftman-hall",
       },
     ],
   },

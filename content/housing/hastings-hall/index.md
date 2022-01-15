@@ -6,5 +6,3 @@ updatedAt: 2022-01-04
 
 pageType: dorm
 ---
-  
-  
