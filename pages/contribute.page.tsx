@@ -2,6 +2,7 @@ import { BackButton } from "@/components/BackButton";
 import { Button } from "@/components/Button";
 import { Form } from "@/components/form/Form";
 import { FormField } from "@/components/form/FormField";
+import { SmartLink } from "@/components/SmartLink";
 import { Spacer } from "@/components/Spacer";
 import { Title } from "@/components/title";
 import { useRouter } from "next/router";
@@ -12,6 +13,18 @@ const ContactPage = () => {
 
   const { name: initialName } = router.query;
   const [name, setName] = useState(initialName ?? "");
+
+  const contributors = [
+    {
+      name: "turtleman99",
+      href: "https://github.com/turtleman99",
+      description: "Northeastern status page",
+    },
+    {
+      name: "Vocaloiid",
+      description: "Various links",
+    },
+  ];
 
   return (
     <>
@@ -50,6 +63,33 @@ const ContactPage = () => {
 
           <Button>Submit</Button>
         </Form>
+        <Spacer />
+
+        <div className="prose">
+          <details>
+            <summary>Thanks to these contributors!</summary>
+
+            <ul>
+              {contributors.map((contributor) => {
+                const Element = (
+                  <>
+                    <b className="underline">{contributor.name}</b>{" "}
+                    <span className="text-gray">{contributor.description}</span>
+                  </>
+                );
+                if (contributor.href)
+                  return (
+                    <li key={contributor.name}>
+                      <SmartLink href={`/${contributor.href}`}>
+                        {Element}
+                      </SmartLink>
+                    </li>
+                  );
+                else return <li key={contributor.name}>{Element}</li>;
+              })}
+            </ul>
+          </details>
+        </div>
       </article>
     </>
   );
