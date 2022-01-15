@@ -11,7 +11,7 @@ import { useState } from "react";
 const ContactPage = () => {
   const router = useRouter();
 
-  const { name: initialName } = router.query;
+  const { name: initialName, fixLinks } = router.query;
   const [name, setName] = useState(initialName ?? "");
 
   const contributors = [
@@ -50,6 +50,11 @@ const ContactPage = () => {
           <FormField
             name="entry.1613298240"
             label="Content"
+            description={
+              fixLinks
+                ? "Please enter the link or link title that is broken."
+                : null
+            }
             required
             textarea
             minLength={15}
@@ -80,9 +85,7 @@ const ContactPage = () => {
                 if (contributor.href)
                   return (
                     <li key={contributor.name}>
-                      <SmartLink href={`/${contributor.href}`}>
-                        {Element}
-                      </SmartLink>
+                      <SmartLink href={contributor.href}>{Element}</SmartLink>
                     </li>
                   );
                 else return <li key={contributor.name}>{Element}</li>;

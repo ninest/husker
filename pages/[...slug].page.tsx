@@ -160,7 +160,7 @@ const ContentPage = ({
 
         <Spacer size="2xl"></Spacer>
 
-        <div className="flex">
+        <div className="flex items-center space-x-base">
           <Button
             href={{
               pathname: "/contribute",
@@ -170,6 +170,16 @@ const ContentPage = ({
             size="sm"
           >
             Edit
+          </Button>
+          <Button
+            href={{
+              pathname: "/contribute",
+              query: { name: page.frontmatter.title, fixLinks: true },
+            }}
+            icon="bug"
+            size="sm"
+          >
+            Links broken?
           </Button>
         </div>
       </article>

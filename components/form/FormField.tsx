@@ -4,7 +4,7 @@ import { Spacer } from "../Spacer";
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   label?: string;
-  description?: string;
+  description?: string | null;
   type?: "text" | "password" | "email" | "number" | "tel" | "url";
   textarea?: boolean;
   rows?: number;
@@ -31,10 +31,12 @@ export const FormField = ({
         </>
       ) : null}
 
-      {description ? <>
-      <div className="text-sm text-gray">{description}</div>
-      <Spacer size="sm" />
-      </> : null}
+      {description ? (
+        <>
+          <div className="text-sm text-gray">{description}</div>
+          <Spacer size="sm" />
+        </>
+      ) : null}
 
       {textarea ? (
         <textarea
