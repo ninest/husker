@@ -38,9 +38,9 @@ export const contentMap: Category[] = [
         icon: "network",
       },
       {
-        name: "Employment Hub",
-        description: "Access student employment hub",
-        href: "https://studentemployment.neu.edu/Cmx_Content.aspx?cpId=10",
+        name: "My Workday",
+        description: "Apply for on campus jobs",
+        href: "https://www.myworkday.com/northeastern/d/pex/home.htmld",
       },
       {
         name: "Daily wellness",
