@@ -259,7 +259,7 @@ export const contentMap: Category[] = [
     pages: [
       {
         name: "Download books",
-        href: "https://northeastern.bncollege.com/shop/northeastern/page/find-textbooks",
+        href: "/resources/download-books",
         description: "Download books for free",
       },
     ],
@@ -274,6 +274,7 @@ export const pages = [
   "/husky-card/dining",
   "/social/chats",
   "/social/instagram",
+  "/resources/download-books",
   "/changelog",
 
   ...dorms.map((dorm): string => `/housing/${dorm.slug}`),
