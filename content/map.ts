@@ -255,6 +255,11 @@ export const contentMap: Category[] = [
         href: "https://northeastern.bncollege.com/shop/northeastern/page/find-textbooks",
         description: "Northeastern book store",
       },
+      {
+        name: "OnTheHub",
+        href: "https://neu.onthehub.com/WebStore/Security/SignIn.aspx?rurl=%2fWebStore%2fProductsByMajorVersionList.aspx%3f",
+        description: "Free and discounted software",
+      },
     ],
     pages: [
       {
