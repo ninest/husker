@@ -54,6 +54,12 @@ export const contentMap: Category[] = [
         description: "Book a COVID-19 test",
         icon: "virusslash",
       },
+      {
+        name: "Snell Reservations",
+        href: "https://northeastern.libcal.com/reserve/",
+        description: "Reserve rooms in Snell Library",
+        icon: "book",
+      },
     ],
     pages: [
       {
