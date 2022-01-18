@@ -15,6 +15,7 @@ import clsx from "clsx";
 import { Button } from "@/components/Button";
 import { LinkSet } from "@/components/LinkSet";
 import { dorms } from "@/content/housing";
+import { SmartLink } from "@/components/SmartLink";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const categoryPaths = contentMap.map((category) => `/${category.slug}`);
@@ -147,9 +148,15 @@ const ContentPage = ({
               components={{
                 /* TODO: move to external file */
                 Block,
-                a: ({ className, ...props }) => {
+                a: ({ className, href, ...props }) => {
                   return (
-                    <a {...props} className={clsx(className, "underline")}></a>
+                    <SmartLink
+                      // @ts-ignore
+                      href={href}
+                      className={clsx(className, "underline")}
+                    >
+                      {props.children}
+                    </SmartLink>
                   );
                 },
                 Button,
