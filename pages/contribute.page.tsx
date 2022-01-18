@@ -24,6 +24,11 @@ const ContactPage = () => {
       name: "Vocaloiid",
       description: "Various links",
     },
+    {
+      name: "Kyle Sferrazza",
+      href: "https://github.com/kylesferrazza",
+      descriptions: "Links",
+    },
   ];
 
   return (
