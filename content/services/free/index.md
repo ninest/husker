@@ -68,6 +68,7 @@ If you're in [NUin Boston](https://nuin.northeastern.edu/destinations/boston/stu
 - <Husky /> [Microsoft 365](https://www.microsoft.com/en-us/education/products/office): Sign in with your northeastern.edu email. Free Office 365 apps, 5 TB of OneDrive cloud storage, and other services.
 - <Husky /> [Zoom](https://northeastern.zoom.us/)
 - <Husky /> [Headspace](https://work.headspace.com/northeastern/member-enroll): Meditation, mindfulness, and sleep. If your NU ID starts with `00`, try entering only the numbers after it.
+- <Husky /> [OnTheHub](https://neu.onthehub.com/WebStore/Security/SignIn.aspx?rurl=%2fWebStore%2fProductsByMajorVersionList.aspx%3f): free and discounted software (VMware, Windows, and more)
 - [Azure](https://azureforeducation.microsoft.com/devtools)
 - [Notion](https://www.notion.so/product/notion-for-education): Students get the pro plan for free.
 - [Craft.do](https://dollarflightclub.com/student-and-teachers-discount/): Free 1-year license for students and teachers, reapply every 1 year for 5 years.
