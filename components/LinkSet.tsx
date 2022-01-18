@@ -38,6 +38,7 @@ export const LinkSet = ({
         </>
       )}
 
+      {/* TODO: use LinkButtonGrid here */}
       <div
         className="grid grid-cols-2 lg:grid-cols-3 gap-md"
         style={{ minWidth: 0, minHeight: 0 }}

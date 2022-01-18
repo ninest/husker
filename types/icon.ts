@@ -37,6 +37,7 @@ import {
   FaMapMarkerAlt,
   FaExclamationTriangle,
   FaBug,
+  FaReddit,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -78,5 +79,6 @@ export const iconMap = {
   markeralt: FaMapMarkerAlt,
   exclamationtriangle: FaExclamationTriangle,
   bug: FaBug,
+  reddit: FaReddit,
 };
 export type IconId = keyof typeof iconMap;

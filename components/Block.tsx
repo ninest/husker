@@ -1,15 +1,15 @@
-import { ReactNode } from "react";
+import { HTMLAttributes, ReactNode } from "react";
 import { SmartLink } from "@/components/SmartLink";
 import clsx from "clsx";
 import { Spacer } from "./Spacer";
 
-interface BlockChildren {
+interface BlockProps extends HTMLAttributes<HTMLDivElement> {
   title: string;
-  children?: ReactNode;
   className?: string;
   href?: string;
 }
-export const Block = ({ title, children, href, ...props }: BlockChildren) => {
+
+export const Block = ({ title, children, href, ...props }: BlockProps) => {
   const isClickable = !!href;
   const className = clsx(props.className, "block p-base rounded", {
     "bg-gray-50": !isClickable,

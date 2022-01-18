@@ -34,3 +34,30 @@ export const LinkButton = ({
     </SmartLink>
   );
 };
+
+interface LinkButtonGridProps {
+  links: Link[];
+  showDescription?: boolean;
+}
+
+export const LinkButtonGrid = ({
+  links,
+  showDescription = false,
+}: LinkButtonGridProps) => {
+  return (
+    <div
+      className="grid grid-cols-2 lg:grid-cols-3 gap-md"
+      style={{ minWidth: 0, minHeight: 0 }}
+    >
+      {links.map((link) => {
+        return (
+          <LinkButton
+            key={link.href}
+            link={link}
+            showDescription={showDescription}
+          ></LinkButton>
+        );
+      })}
+    </div>
+  );
+};

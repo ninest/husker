@@ -16,6 +16,7 @@ import { Button } from "@/components/Button";
 import { LinkSet } from "@/components/LinkSet";
 import { dorms } from "@/content/housing";
 import { SmartLink } from "@/components/SmartLink";
+import { LinkButtonGrid } from "@/components/LinkButton";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const categoryPaths = contentMap.map((category) => `/${category.slug}`);
@@ -160,6 +161,7 @@ const ContentPage = ({
                   );
                 },
                 Button,
+                LinkButtonGrid,
               }}
             ></Markdown>
           </div>
