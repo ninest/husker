@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <DefaultSeo
         titleTemplate="%s - Husker"
         defaultTitle="Husker"
-        description="Northeastern websites are bad"
+        description="Information about Northeastern including dorms, housing, dorms, free stuff, and apps to download"
       ></DefaultSeo>
 
       <ThemeProvider>
@@ -42,7 +42,6 @@ function MyApp({ Component, pageProps }: AppProps) {
               { hidden: !showSidebar },
               "md:block sticky top-0 bottom-0 left-0"
             )}
-
           >
             <Sidebar onCloseClick={() => setShowSidebar(false)}></Sidebar>
           </div>
