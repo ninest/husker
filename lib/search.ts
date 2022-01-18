@@ -1,20 +1,30 @@
 import Fuse from "fuse.js";
 import { contentMap } from "@/content/map";
 import { Link, LinkWithCategory } from "@/types/category";
+import { SearchableItem } from "@/types/search";
+import { dorms } from "@/content/housing";
 
-const searchableItems: any[] = contentMap
-  .map((category) => {
-    let items: Link[] = [...category.links];
-    if (category.pages) items = [...items, ...category.pages];
+const searchableItems: SearchableItem[] = [
+  ...contentMap
+    .map((category) => {
+      let items: Link[] = [...category.links];
+      if (category.pages) items = [...items, ...category.pages];
 
-    return items.map(
-      (link: Link): LinkWithCategory => ({
-        ...link,
-        categoryTitle: category.title,
-      })
-    );
-  })
-  .flat();
+      return items.map(
+        (link: Link): LinkWithCategory => ({
+          ...link,
+          categoryTitle: category.title,
+        })
+      );
+    })
+    .flat(),
+  ...dorms.map((dorm) => ({
+    name: dorm.title,
+    href: `/housing/${dorm.slug}`,
+    description: dorm.title,
+    categoryTitle: "Housing",
+  })),
+];
 
 const fuse = new Fuse(searchableItems, {
   keys: ["name", "href", "description", "categoryTitle"],
