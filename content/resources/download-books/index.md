@@ -8,7 +8,7 @@ toc: false
 *If any of the links do not work, please head over to [contribute](/contribute) to help change/remove them.*
 
 - [z-lib.org](https://z-lib.org/): books and articles
-- [gutenberg.org](https://gutenberg.org/): over 60,000 free books, focus on older works for which US copyright as expired
+- [gutenberg.org](https://gutenberg.org/): over 60,000 free books, focus on older works for which US copyright has expired
 - [textbooknova.com](https://textbooknova.com/)
 - [manybooks.net](https://manybooks.net/)
 - [bookguru.net](http://bookguru.net/)
