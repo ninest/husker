@@ -27,7 +27,7 @@ const ContactPage = () => {
     {
       name: "Kyle Sferrazza",
       href: "https://github.com/kylesferrazza",
-      descriptions: "Links",
+      description: "Links",
     },
   ];
 
