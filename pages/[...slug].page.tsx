@@ -32,6 +32,11 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const slugList = params?.slug! as string[];
   const slug = listToFilepath(slugList);
 
+  const backLink =
+    slugList.length > 1 ? `/${listToFilepath(slugList.slice(0, -1))}` : "/";
+  const backTitle =
+    backLink == "/" ? "Links" : (await getPage(backLink)).frontmatter.title;
+
   // Get page
   const page = await getPage(slug);
   const { title, description, pageType } = page.frontmatter;
@@ -70,6 +75,9 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
   return {
     props: {
+      backLink,
+      backTitle,
+
       isCategoryPage,
       category,
 
@@ -85,6 +93,9 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 };
 
 interface ContentPageProps {
+  backLink: string;
+  backTitle: string;
+
   isCategoryPage: boolean;
   category?: Category;
 
@@ -99,6 +110,9 @@ interface ContentPageProps {
 }
 
 const ContentPage = ({
+  backLink,
+  backTitle,
+
   isCategoryPage,
   category,
 
@@ -122,11 +136,7 @@ const ContentPage = ({
       <article className="wrapper">
         <Spacer></Spacer>
 
-        {isCategoryPage && category ? (
-          <BackButton></BackButton>
-        ) : (
-          <BackButton href={`/${category?.slug}`}>{category?.title}</BackButton>
-        )}
+        <BackButton href={backLink}>{backTitle}</BackButton>
 
         <Spacer size="sm"></Spacer>
         <Title>{title}</Title>

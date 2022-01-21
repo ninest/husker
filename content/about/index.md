@@ -8,7 +8,7 @@ This website aims to share links and resources related to Northeastern. Links an
 
 ## Contribute
 
-See [the contribute page](/contribute).
+See [the contribute page](/contribute) to add content.
 
 ## Reddit posts
 
