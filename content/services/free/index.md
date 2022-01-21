@@ -52,7 +52,7 @@ See [Husky how-to](https://news.northeastern.edu/2012/01/17/huskycard/).
 - [Dollar Flight Club](https://dollarflightclub.com/student-and-teachers-discount/)
 
 
-If you're in [NUin Boston](https://nuin.northeastern.edu/destinations/boston/student-life/#Transportation), you'll get the Charlie Card (MBTA) unlimited pass for the entire duration of your first semester.
+If you stay in [The Sheraton](/housing/the-sheraton) or [The Westin](/housing/the-westin) , you'll get the Charlie Card (MBTA) unlimited pass for the semester.
 
 ## Video, music, and streaming
 

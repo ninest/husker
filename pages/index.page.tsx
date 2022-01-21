@@ -5,7 +5,7 @@ import { LinkSet } from "@/components/LinkSet";
 const IndexPage = () => {
   return (
     <>
-      <article className="mt-sm wrapper">
+      <article className="wrapper">
         <div className="space-y-xl">
           {contentMap.map((category) => {
             return (

@@ -273,7 +273,7 @@ export const dorms: Dorm[] = [
       {
         name: "The Sheraton Northeastern Housing",
         description: "Dorm specifications",
-        href: "https://northeastern.edu/housing/the-sheraton",
+        href: "https://northeastern.edu/housing/sheraton",
       },
     ],
     pages: [
@@ -292,7 +292,7 @@ export const dorms: Dorm[] = [
       {
         name: "The Westin Northeastern Housing",
         description: "Dorm specifications",
-        href: "https://northeastern.edu/housing/the-westin",
+        href: "https://northeastern.edu/housing/westin",
       },
     ],
     pages: [
