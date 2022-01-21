@@ -8,6 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.4.3",
     "clsx": "^1.1.1",
     "esbuild": "^0.12.20",
     "fuse.js": "^6.5.3",

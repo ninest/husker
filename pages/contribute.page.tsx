@@ -1,5 +1,6 @@
 import { BackButton } from "@/components/BackButton";
 import { Button } from "@/components/Button";
+import { Expandable } from "@/components/Expandable";
 import { Form } from "@/components/form/Form";
 import { FormField } from "@/components/form/FormField";
 import { SmartLink } from "@/components/SmartLink";
@@ -76,14 +77,13 @@ const ContactPage = () => {
         <Spacer />
 
         <div className="prose">
-          <details>
-            <summary>Thanks to these contributors!</summary>
-
-            <ul>
+          <Expandable icon="smilebeam" title="Contributors list">
+            <p>Thanks to these contributors:</p>
+            <ul className="">
               {contributors.map((contributor) => {
                 const Element = (
                   <>
-                    <b className="underline">{contributor.name}</b>{" "}
+                    <span className="underline">{contributor.name}</span>{" "}
                     <span className="text-gray">{contributor.description}</span>
                   </>
                 );
@@ -96,7 +96,7 @@ const ContactPage = () => {
                 else return <li key={contributor.name}>{Element}</li>;
               })}
             </ul>
-          </details>
+          </Expandable>
         </div>
       </article>
     </>

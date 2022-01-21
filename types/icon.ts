@@ -38,6 +38,9 @@ import {
   FaExclamationTriangle,
   FaBug,
   FaReddit,
+  FaRegSmileBeam,
+  FaCaretDown,
+  FaInfoCircle,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -60,6 +63,7 @@ export const iconMap = {
   home: FaHome,
   caretright: FaCaretRight,
   caretleft: FaCaretLeft,
+  caretdown: FaCaretDown,
   search: FaSearch,
   starhalf: FaStarHalfAlt,
   utensils: FaUtensils,
@@ -80,5 +84,7 @@ export const iconMap = {
   exclamationtriangle: FaExclamationTriangle,
   bug: FaBug,
   reddit: FaReddit,
+  smilebeam: FaRegSmileBeam,
+  info: FaInfoCircle,
 };
 export type IconId = keyof typeof iconMap;
