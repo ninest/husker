@@ -8,11 +8,13 @@ interface ExpandableProps extends HTMLAttributes<HTMLDivElement> {
   icon?: IconId;
   title: string;
   variant?: "primary" | "gray" | "error" | "warning";
+  containsProse?: boolean;
 }
 export const Expandable = ({
   icon = "info",
   variant = "primary",
   title,
+  containsProse = false,
   children,
 }: ExpandableProps) => {
   return (
@@ -54,7 +56,11 @@ export const Expandable = ({
                   className={clsx("text-gray-light", { "rotate-180": open })}
                 ></Icon>
               </Disclosure.Button>
-              <Disclosure.Panel className="px-base pt-sm pb-base">
+              <Disclosure.Panel
+                className={clsx("px-base pt-sm pb-base", {
+                  prose: containsProse,
+                })}
+              >
                 {children}
               </Disclosure.Panel>
             </>

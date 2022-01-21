@@ -4,7 +4,7 @@ description: Information related to dining and meals
 lastUpdated: 2021-09-08
 ---
 
-## Meal plan
+import { Icon } from '@/components/Icon'
 
 export const mealPlans = [
 { meals: 7, exchange: 1, dollars: 140 },
@@ -13,97 +13,17 @@ export const mealPlans = [
 { meals: 'Unlimited', exchange: 5, dollars: 350 },
 ]
 
-<section className="grid gap-base grid-cols-2 md:grid-cols-3">
-{mealPlans.map(mealPlan => {
-  return <Block key={mealPlan.meals} title={`${mealPlan.meals} meals`}>
-    <div>${mealPlan.dollars} dining dollars</div>
-    <div>{mealPlan.exchange} meal exchange/week</div>
-  </Block>
-})}
-</section>
-
-<details>
-<summary>More information</summary>
-
-- Each meal plan includes 10 guest swipes for the semester (or 5 guest swipes in summer semesters)
-- In summer semesters, you get half the dining dollars shown
-- NUin Boston students have the 12 meal plan and [cannot change it](https://nuin.northeastern.edu/destinations/boston/housing/)
-
-Sources: [northeastern.edu/huskycard](https://www.northeastern.edu/huskycard/meal-plans/traditional-meal-plan/), [nudining.com](https://nudining.com/public/meal-plans)
-</details>
-
-
-### Meal exchange
-
-export const mealExchanges = [
-{
-name: "Sweet Tomatoes Pizza",
-menu: []
-},
-{
-name: "Popeyes",
-menu: [],
-extra: "With cajun fries and medium fountain drink"
-},
-
-{
-name: "Tú Taco",
-menu: []
-},
-
-{
-name: "Burger 373",
-menu: []
-},
-
-{
-name: "Kigo Kitchen",
-menu: []
-},
-
-{
-name: "Chaat House",
-menu: []
-},
-
-{
-name: "Café Crossing",
-menu: []
-},
-
-{
-name: "Subway",
-menu: []
-},
-
-{
-name: "Churchill's Kitchen + Sandwich Shop",
-menu: []
-},
+export const mealExchangeVendors = [
+  { name: "Sweet Tomatoes Pizza", address: "Curry Student Center" },
+  { name: "Popeyes", address: "Curry Student Center" },
+  { name: "Tú Taco", address: "Curry Student Center" },
+  { name: "Burger 373", address: "Curry Student Center" },
+  { name: "Kigo Kitchen", address: "Curry Student Center" },
+  { name: "Chaat House", address: "Curry Student Center" },
+  { name: "Café Crossing", address: "International village" },
+  { name: "Subway", address: "Ryder Hall" },
+  { name: "Churchill's Kitchen + Sandwich Shop", address: " Churchill Hall" }
 ]
-
-<section className="grid gap-base grid-cols-2 lg:grid-cols-1 xl:grid-cols-3">
-{mealExchanges.map(exc => {
-  return <Block key={exc.name} title={exc.name}>
-  </Block>
-})}
-</section>
-
-Meal swipes can be used at restaurants on campus that have a sign that says "Meal Exchange". Meal exchange can be used at locations listed on [nudining.com/public/meal-exchanges](https://nudining.com/public/meal-exchanges).
-
-There are weekly limits for the number of meal exchanges (see up).
-
-### Outtakes
-
-At Stetson West, you can use your unused meal swipes to get "grocery food items" (like chips, cheetos, sandwiches, salads, water, drinks, fruits, etc)
-
-- **1 meal swipe** becomes **10 points**.
-- See the [opening hours](https://nudining.com/public/hours) for Outtakes at Stetson West
-- You can use a maximum of 3 swipes here (unconfirmed)
-
-## Off-campus vendors
-
-import { Icon } from '@/components/Icon'
 
 export const offCampusVendors = [
   { name: "Amelia’s Taqueria", address: "309 Huntington Ave" },
@@ -136,6 +56,58 @@ export const offCampusVendors = [
   { name: "Poke Station", address: "313 Huntington Ave" },
   { name: "Quick Pick Convenience", address: "973 Tremont St" },
 ]
+
+<Expandable title="Meal plan and Outtakes" icon="pizza" containsProse>
+
+### Meal plan
+
+<section className="grid gap-base grid-cols-2 md:grid-cols-3">
+{mealPlans.map(mealPlan => {
+  return <Block key={mealPlan.meals} title={`${mealPlan.meals} meals`}>
+    <div>${mealPlan.dollars} dining dollars</div>
+    <div>{mealPlan.exchange} meal exchange/week</div>
+  </Block>
+})}
+</section>
+
+- Each meal plan includes 10 guest swipes for the semester (or 5 guest swipes in summer semesters)
+- In summer semesters, you get half the dining dollars shown
+- NUin Boston students have the 12 meal plan and [cannot change it](https://nuin.northeastern.edu/destinations/boston/housing/)
+
+Sources: [northeastern.edu/huskycard](https://www.northeastern.edu/huskycard/meal-plans/traditional-meal-plan/), [nudining.com](https://nudining.com/public/meal-plans)
+
+### Meal exchange
+
+Meal swipes can be used at restaurants on campus that have a sign that says "Meal Exchange". Meal exchange can be used at locations listed on [nudining.com/public/meal-exchanges](https://nudining.com/public/meal-exchanges).
+
+There are weekly limits for the number of meal exchanges (see up).
+
+### Outtakes
+
+At Stetson West, you can use your unused meal swipes to get "grocery food items" (like chips, cheetos, sandwiches, salads, water, drinks, fruits, etc)
+
+- **1 meal swipe** becomes **10 points**.
+- See the [opening hours](https://nudining.com/public/hours) for Outtakes at Stetson West
+- You can use a maximum of 3 swipes here
+
+
+</Expandable>
+
+
+### Meal exchange
+
+<section className="grid gap-base grid-cols-2 md:grid-cols-3">
+{mealExchangeVendors.map(mev => {
+  return <Block key={mev.name} title={mev.name} href={`https://maps.google.com/?q=${mev.name}, ${mev.address}`}>
+  <div className="flex items-baseline space-x-sm">
+  <Icon id="markeralt" className="text-gray-light" />
+  <div>{mev.address}</div>
+  </div>
+  </Block>
+})}
+</section>
+
+## Off-campus vendors
 
 These restaurants/shops accept dining dollars and husky dollars. Click on the below vendors to locate them on Google Maps.
 

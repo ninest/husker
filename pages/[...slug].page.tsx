@@ -17,6 +17,7 @@ import { LinkSet } from "@/components/LinkSet";
 import { dorms } from "@/content/housing";
 import { SmartLink } from "@/components/SmartLink";
 import { LinkButtonGrid } from "@/components/LinkButton";
+import { Expandable } from "@/components/Expandable";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const categoryPaths = contentMap.map((category) => `/${category.slug}`);
@@ -149,6 +150,7 @@ const ContentPage = ({
               components={{
                 /* TODO: move to external file */
                 Block,
+                Expandable,
                 a: ({ className, href, ...props }) => {
                   return (
                     <SmartLink
