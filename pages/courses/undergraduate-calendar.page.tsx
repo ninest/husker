@@ -1,5 +1,6 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { Button } from "@/components/Button";
+import { Spacer } from "@/components/Spacer";
 
 const UndergraduateCalendarPage = () => {
   const calendarHref = "/files/calendar-2021-2022.pdf";
@@ -22,7 +23,9 @@ const UndergraduateCalendarPage = () => {
       >
         <embed src={calendarHref} type="application/pdf" />
       </object>
-
+      
+      <Spacer />
+      
       <div className="wrapper">
         <Button href={calendarHref} icon="download">
           Download

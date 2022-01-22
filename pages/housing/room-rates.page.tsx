@@ -1,4 +1,6 @@
 import { ArticleHead } from "@/components/ArticleHead";
+import { Button } from "@/components/Button";
+import { Spacer } from "@/components/Spacer";
 
 const RoomRatePage = () => {
   const roomRates = [
@@ -44,6 +46,12 @@ const RoomRatePage = () => {
                 <embed src={cat.href} type="application/pdf" />
               </object>
             </div>
+            <p className="wrapper">
+              <Button href={cat.href} icon="download">
+                Download
+              </Button>
+            </p>
+            <Spacer />
           </>
         ))}
       </div>
