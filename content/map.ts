@@ -215,6 +215,12 @@ export const contentMap: Category[] = [
         description: "Apply for housing, roommate information, requests",
         icon: "home",
       },
+      {
+        name: "Room Rates",
+        href: "/housing/room-rates",
+        description: "Housing costs",
+        icon: "moneybillalt",
+      },
     ],
     pages: [
       {

@@ -26,7 +26,7 @@
   }
 
   .wrapper {
-    @apply p-md;
+    @apply px-md;
 
     @screen md {
       @apply w-11/12 mx-auto;

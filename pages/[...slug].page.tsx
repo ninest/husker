@@ -134,7 +134,7 @@ const ContentPage = ({
     <>
       <NextSeo title={title} description={description}></NextSeo>
 
-      <article className="wrapper">
+      <article className="mt-sm wrapper">
         <ArticleHead
           backButtonHref={backLink}
           backButtonText={backTitle}

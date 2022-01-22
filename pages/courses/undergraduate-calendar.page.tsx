@@ -1,11 +1,8 @@
 import { ArticleHead } from "@/components/ArticleHead";
-import { BackButton } from "@/components/BackButton";
 import { Button } from "@/components/Button";
-import { Spacer } from "@/components/Spacer";
-import { Title } from "@/components/title";
 
-const UndergraduateCalendar = () => {
-  const calendarLink = "/files/calendar-2021-2022.pdf";
+const UndergraduateCalendarPage = () => {
+  const calendarHref = "/files/calendar-2021-2022.pdf";
 
   return (
     <>
@@ -22,14 +19,14 @@ const UndergraduateCalendar = () => {
         style={{
           height: "calc(100vh - 10rem)",
         }}
-        data={calendarLink}
+        data={calendarHref}
         type="application/pdf"
       >
-        <embed src={calendarLink} type="application/pdf" />
+        <embed src={calendarHref} type="application/pdf" />
       </object>
 
       <div className="wrapper">
-        <Button href={calendarLink} icon="download">
+        <Button href={calendarHref} icon="download">
           Download
         </Button>
       </div>
@@ -37,4 +34,4 @@ const UndergraduateCalendar = () => {
   );
 };
 
-export default UndergraduateCalendar;
+export default UndergraduateCalendarPage;
