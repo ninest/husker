@@ -1,5 +1,6 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { Button } from "@/components/Button";
+import { PDFEmbed } from "@/components/PDFEmbed";
 import { Spacer } from "@/components/Spacer";
 
 const RoomRatePage = () => {
@@ -35,16 +36,13 @@ const RoomRatePage = () => {
               <h2>{cat.title}</h2>
             </div>
             <div>
-              <object
-                className="w-full"
+              <PDFEmbed
+                href={cat.href}
                 style={{
-                  height: "calc(100vh - 15rem)",
+                  // Can be shorter
+                  height: "calc(100vh - 25rem)",
                 }}
-                data={cat.href}
-                type="application/pdf"
-              >
-                <embed src={cat.href} type="application/pdf" />
-              </object>
+              ></PDFEmbed>
             </div>
             <p className="wrapper">
               <Button href={cat.href} icon="download">

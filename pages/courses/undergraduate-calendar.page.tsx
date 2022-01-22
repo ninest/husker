@@ -1,5 +1,6 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { Button } from "@/components/Button";
+import { PDFEmbed } from "@/components/PDFEmbed";
 import { Spacer } from "@/components/Spacer";
 
 const UndergraduateCalendarPage = () => {
@@ -13,7 +14,7 @@ const UndergraduateCalendarPage = () => {
         title="Undergraduate Calendar 2021-2022"
       ></ArticleHead>
 
-      <object
+      {/* <object
         className="w-full"
         style={{
           height: "calc(100vh - 10rem)",
@@ -22,10 +23,29 @@ const UndergraduateCalendarPage = () => {
         type="application/pdf"
       >
         <embed src={calendarHref} type="application/pdf" />
-      </object>
-      
+      </object> */}
+
+      {/* <object
+        data={calendarHref}
+        type="application/pdf"
+        className="w-full"
+        style={{
+          height: "calc(100vh - 10rem)",
+        }}
+      >
+        <embed
+          className="w-full"
+          style={{
+            height: "calc(100vh - 10rem)",
+          }}
+          src={`https://docs.google.com/viewer?url=https://husker.vercel.app/${calendarHref}&embedded=true`}
+        />
+      </object> */}
+
+      <PDFEmbed href={calendarHref}></PDFEmbed>
+
       <Spacer />
-      
+
       <div className="wrapper">
         <Button href={calendarHref} icon="download">
           Download

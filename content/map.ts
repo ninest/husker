@@ -115,11 +115,6 @@ export const contentMap: Category[] = [
         description: "View course descriptions",
       },
       {
-        name: "NUPath dashboard",
-        href: "https://www.northeastern.edu/core/dashboard/",
-        description: "View course NUPath, filter courses by NUPath",
-      },
-      {
         name: "SearchNEU",
         href: "https://searchneu.com/",
         description: "Courses list, notifications for seat openings",
