@@ -41,6 +41,9 @@ import {
   FaRegSmileBeam,
   FaCaretDown,
   FaInfoCircle,
+  FaBookmark,
+  FaUniversalAccess,
+  FaDownload,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -86,5 +89,8 @@ export const iconMap = {
   reddit: FaReddit,
   smilebeam: FaRegSmileBeam,
   info: FaInfoCircle,
+  bookmark: FaBookmark,
+  universalaccess: FaUniversalAccess,
+  download: FaDownload
 };
 export type IconId = keyof typeof iconMap;

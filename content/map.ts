@@ -54,12 +54,6 @@ export const contentMap: Category[] = [
         description: "Book a COVID-19 test",
         icon: "virusslash",
       },
-      {
-        name: "Snell Reservations",
-        href: "https://northeastern.libcal.com/reserve/",
-        description: "Reserve rooms in Snell Library",
-        icon: "book",
-      },
     ],
     pages: [
       {
@@ -100,6 +94,18 @@ export const contentMap: Category[] = [
         name: "Transcript",
         href: "https://nubanner.neu.edu/ssomanager/c/SSB?pkg=bwskotrn.P_ViewTermTran",
         description: "View degree audit",
+      },
+      {
+        name: "NUpath Dashboard",
+        href: "https://www.northeastern.edu/core/dashboard/",
+        description: "View NUpath covered by courses",
+        icon: "bookmark",
+      },
+      {
+        name: "Academic Calendar",
+        description: "Undergraduate Calendar",
+        href: "/courses/undergraduate-calendar",
+        icon: "calendar",
       },
     ],
     pages: [
@@ -272,6 +278,24 @@ export const contentMap: Category[] = [
         name: "Download books",
         href: "/resources/download-books",
         description: "Download books for free",
+      },
+    ],
+  },
+  {
+    title: "Miscellaneous",
+    slug: "miscellaneous",
+    links: [
+      {
+        name: "DRC services",
+        description: "Disability Resource Center",
+        href: "https://northeastern.secure.force.com/public/apex/ITSDRCMainEntry",
+        icon: "universalaccess",
+      },
+      {
+        name: "Snell Reservations",
+        href: "https://northeastern.libcal.com/reserve/",
+        description: "Reserve rooms in Snell Library",
+        icon: "book",
       },
     ],
   },

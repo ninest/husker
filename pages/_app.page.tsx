@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <DefaultSeo
-        titleTemplate="%s - Husker"
+        titleTemplate="%s - Husker Northeastern"
         defaultTitle="Husker"
         description="Information about Northeastern including dorms, housing, dorms, free stuff, and apps to download"
       ></DefaultSeo>
