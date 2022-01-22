@@ -29,10 +29,13 @@ export const LinkSet = ({
         <>
           <SmartLink
             href={moreInfoHref!}
-            className="flex items-center space-x-xs"
+            className="flex items-center justify-between space-x-xs"
           >
             <Title level={3}>{title}</Title>
-            <Icon id="caretright" className="text-xl"></Icon>
+            <div className="flex items-end p-xs rounded hover:bg-gray-100">
+              <div className="text-gray text-sm mr-xs">more</div>
+              <Icon id="caretright" className="text-lg"></Icon>
+            </div>
           </SmartLink>
           <Spacer size="xs"></Spacer>
         </>
