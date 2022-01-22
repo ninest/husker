@@ -1,3 +1,4 @@
+import { ArticleHead } from "@/components/ArticleHead";
 import { BackButton } from "@/components/BackButton";
 import { Button } from "@/components/Button";
 import { Spacer } from "@/components/Spacer";
@@ -9,12 +10,11 @@ const UndergraduateCalendar = () => {
   return (
     <>
       <div className="wrapper">
-        <Spacer></Spacer>
-        <BackButton href="/courses">Courses</BackButton>
-        <Spacer size="sm"></Spacer>
-        <Title>Undergraduate Calendar 2021-2022</Title>
-
-        <Spacer></Spacer>
+        <ArticleHead
+          backButtonHref="/courses"
+          backButtonText="Courses"
+          title="Undergraduate Calendar 2021-2022"
+        ></ArticleHead>
       </div>
 
       <object

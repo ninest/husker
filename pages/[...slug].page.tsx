@@ -18,6 +18,7 @@ import { dorms } from "@/content/housing";
 import { SmartLink } from "@/components/SmartLink";
 import { LinkButtonGrid } from "@/components/LinkButton";
 import { Expandable } from "@/components/Expandable";
+import { ArticleHead } from "@/components/ArticleHead";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const categoryPaths = contentMap.map((category) => `/${category.slug}`);
@@ -134,13 +135,11 @@ const ContentPage = ({
       <NextSeo title={title} description={description}></NextSeo>
 
       <article className="wrapper">
-        <Spacer></Spacer>
-
-        <BackButton href={backLink}>{backTitle}</BackButton>
-
-        <Spacer size="sm"></Spacer>
-        <Title>{title}</Title>
-        <Spacer></Spacer>
+        <ArticleHead
+          backButtonHref={backLink}
+          backButtonText={backTitle}
+          title={title}
+        ></ArticleHead>
 
         {containsLinkSet && (
           <>

@@ -1,6 +1,6 @@
 ---
-title: Courses
-description: More information about course
+title: Financial
+description: More information about financial
 lastUpdated: 2021-08-31
 ---
 

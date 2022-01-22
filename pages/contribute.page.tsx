@@ -1,3 +1,4 @@
+import { ArticleHead } from "@/components/ArticleHead";
 import { BackButton } from "@/components/BackButton";
 import { Button } from "@/components/Button";
 import { Expandable } from "@/components/Expandable";
@@ -35,12 +36,7 @@ const ContactPage = () => {
   return (
     <>
       <article className="wrapper">
-        <Spacer></Spacer>
-        <BackButton></BackButton>
-        <Spacer size="sm"></Spacer>
-        <Title>Contribute</Title>
-
-        <Spacer></Spacer>
+        <ArticleHead title="Contribute"></ArticleHead>
 
         <Form
           method="POST"
