@@ -10,6 +10,7 @@ interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
   icon?: IconId;
   href?: SmartLinkProps["href"];
   size?: Size;
+  variant?: "primary" | "gray";
   className?: string;
   children?: ReactNode;
 }
@@ -17,6 +18,7 @@ interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
 export const Button = ({
   icon,
   size = "base",
+  variant = "gray",
   href,
   children,
   ...props
@@ -27,8 +29,13 @@ export const Button = ({
     props.className,
     "rounded-md font-semibold text-gray",
     {
-      "bg-gray-100 hover:bg-gray-200": isLightTheme,
-      "bg-gray-50 hover:bg-gray-100": isDarkTheme,
+      "bg-gray-100 hover:bg-gray-200": isLightTheme && variant === "gray",
+      "bg-gray-50 hover:bg-gray-100": isDarkTheme && variant === "gray",
+
+      "text-primary-darkest bg-primary-lighter hover:bg-primary-light":
+        isLightTheme && variant === "primary",
+      "bg-primary-50 hover:bg-primary-100":
+        isDarkTheme && variant === "primary",
     },
     {
       "text-sm p-sm": size === "sm",

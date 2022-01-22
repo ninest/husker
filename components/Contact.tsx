@@ -22,8 +22,8 @@ export const ContactDetail = ({ contact }: ContactDetailProps) => {
       <Disclosure>
         {({ open }) => (
           <>
-            <div className="bg-gray-100 rounded-md">
-              <Disclosure.Button className="p-md w-full">
+            <div className="bg-gray-50 rounded-md">
+              <Disclosure.Button className="p-md w-full hover:bg-gray-100 rounded-md">
                 <div className="flex items-center justify-between">
                   <div className="text-left font-semibold text-lg text-gray-dark">
                     {contact.name}
@@ -40,7 +40,7 @@ export const ContactDetail = ({ contact }: ContactDetailProps) => {
               </Disclosure.Button>
               {!open && (
                 <>
-                  <div className="px-md pb-md flex items-center space-x-base">
+                  <div className="pt-xs px-md pb-md flex items-center space-x-base">
                     {contact.methods.map((method) => {
                       return (
                         <>
@@ -57,13 +57,14 @@ export const ContactDetail = ({ contact }: ContactDetailProps) => {
               )}
 
               <Disclosure.Panel>
-                <div className="px-md pb-md flex flex-col items-center space-y-base">
+                <div className="pt-xs px-md pb-md flex flex-col items-center space-y-base">
                   {contact.methods.map((method) => {
                     return (
                       <>
                         <Button
                           icon={method.type}
-                          className="w-full bg-gray-200 hover:bg-gray-300"
+                          className="w-full"
+                          variant={method.type == "email" ? "primary" : "gray"}
                           onClick={() => {
                             copy(method.value, method.type);
                             setJustCopied(method.type);
