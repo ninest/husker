@@ -134,13 +134,13 @@ const ContentPage = ({
     <>
       <NextSeo title={title} description={description}></NextSeo>
 
-      <article className="mt-sm wrapper">
-        <ArticleHead
-          backButtonHref={backLink}
-          backButtonText={backTitle}
-          title={title}
-        ></ArticleHead>
+      <ArticleHead
+        backButtonHref={backLink}
+        backButtonText={backTitle}
+        title={title}
+      ></ArticleHead>
 
+      <article className="wrapper">
         {containsLinkSet && (
           <>
             <LinkSet

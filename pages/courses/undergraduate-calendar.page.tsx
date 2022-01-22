@@ -6,13 +6,11 @@ const UndergraduateCalendarPage = () => {
 
   return (
     <>
-      <div className="wrapper">
-        <ArticleHead
-          backButtonHref="/courses"
-          backButtonText="Courses"
-          title="Undergraduate Calendar 2021-2022"
-        ></ArticleHead>
-      </div>
+      <ArticleHead
+        backButtonHref="/courses"
+        backButtonText="Courses"
+        title="Undergraduate Calendar 2021-2022"
+      ></ArticleHead>
 
       <object
         className="w-full"

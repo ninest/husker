@@ -9,18 +9,19 @@ interface ArticleHeadProps {
 }
 
 export const ArticleHead = ({
-  backButtonHref='/',
-  backButtonText='Links',
+  backButtonHref = "/",
+  backButtonText = "Links",
   title,
 }: ArticleHeadProps) => {
   return (
     <>
-      <div>
-        <Spacer></Spacer>
-        <BackButton href={backButtonHref}>{backButtonText}</BackButton>
-        <Spacer size="sm"></Spacer>
-        <Title>{title}</Title>
-        <Spacer></Spacer>
+      <div className="">
+        <div className="wrapper">
+          <Spacer size="lg"></Spacer>
+          <BackButton href={backButtonHref}>{backButtonText}</BackButton>
+          <Title>{title}</Title>
+          <Spacer></Spacer>
+        </div>
       </div>
     </>
   );

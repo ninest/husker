@@ -55,6 +55,7 @@ module.exports = {
           900: "var(--gray-900)",
         },
         primary: {
+          50: "var(--indigo-50)",
           lightest: "var(--indigo-100)",
           lighter: "var(--indigo-200)",
           light: "var(--indigo-400)",

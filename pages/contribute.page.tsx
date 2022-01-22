@@ -35,9 +35,8 @@ const ContactPage = () => {
 
   return (
     <>
+      <ArticleHead title="Contribute"></ArticleHead>
       <article className="wrapper">
-        <ArticleHead title="Contribute"></ArticleHead>
-
         <Form
           method="POST"
           action="https://docs.google.com/forms/d/e/1FAIpQLSdQ8vhyic8Z5lxnBw9643UnqPxN2MIfssLYz32OBW_Vhn_X9A/formResponse"
