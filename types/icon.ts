@@ -44,6 +44,9 @@ import {
   FaBookmark,
   FaUniversalAccess,
   FaDownload,
+  FaUserCircle,
+  FaRegEnvelope,
+  FaRegBuilding,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -91,6 +94,11 @@ export const iconMap = {
   info: FaInfoCircle,
   bookmark: FaBookmark,
   universalaccess: FaUniversalAccess,
-  download: FaDownload
+  download: FaDownload,
+  usercircle: FaUserCircle,
+  envelope: FaRegEnvelope,
+  email: FaRegEnvelope,
+  website: FaFirefox,
+  address: FaRegBuilding,
 };
 export type IconId = keyof typeof iconMap;

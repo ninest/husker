@@ -2,16 +2,16 @@ import { useTheme } from "@/lib/theme";
 import { IconId } from "@/types/icon";
 import { Size } from "@/types/size";
 import clsx from "clsx";
-import { ReactNode } from "react";
+import { HTMLAttributes, ReactNode } from "react";
 import { Icon } from "./Icon";
 import { SmartLink, SmartLinkProps } from "./SmartLink";
 
-interface ButtonProps {
+interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
   icon?: IconId;
   href?: SmartLinkProps["href"];
   size?: Size;
   className?: string;
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 export const Button = ({
@@ -40,8 +40,10 @@ export const Button = ({
 
   const Element = (
     <>
-      {icon ? <Icon id={icon} className="mr-base" /> : null}
-      <div>{children}</div>
+      {icon ? (
+        <Icon id={icon} className={clsx({ "mr-base": children })} />
+      ) : null}
+      {children && <div>{children}</div>}
     </>
   );
 
@@ -51,5 +53,10 @@ export const Button = ({
         {Element}
       </SmartLink>
     );
-  } else return <button className={className}>{Element}</button>;
+  } else
+    return (
+      <button className={className} onClick={props.onClick}>
+        {Element}
+      </button>
+    );
 };

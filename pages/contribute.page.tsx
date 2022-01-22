@@ -16,27 +16,14 @@ const ContactPage = () => {
   const { name: initialName, fixLinks } = router.query;
   const [name, setName] = useState(initialName ?? "");
 
-  const contributors = [
-    {
-      name: "turtleman99",
-      href: "https://github.com/turtleman99",
-      description: "Northeastern status page",
-    },
-    {
-      name: "Vocaloiid",
-      description: "Various links",
-    },
-    {
-      name: "Kyle Sferrazza",
-      href: "https://github.com/kylesferrazza",
-      description: "Links",
-    },
-  ];
-
   return (
     <>
       <ArticleHead title="Contribute"></ArticleHead>
       <article className="wrapper">
+        <ContributorsExpandable></ContributorsExpandable>
+
+        <Spacer size="md" />
+
         <Form
           method="POST"
           action="https://docs.google.com/forms/d/e/1FAIpQLSdQ8vhyic8Z5lxnBw9643UnqPxN2MIfssLYz32OBW_Vhn_X9A/formResponse"
@@ -70,31 +57,52 @@ const ContactPage = () => {
           <Button>Submit</Button>
         </Form>
         <Spacer />
-
-        <div className="prose">
-          <Expandable icon="smilebeam" title="Contributors list">
-            <p>Thanks to these contributors:</p>
-            <ul className="">
-              {contributors.map((contributor) => {
-                const Element = (
-                  <>
-                    <span className="underline">{contributor.name}</span>{" "}
-                    <span className="text-gray">{contributor.description}</span>
-                  </>
-                );
-                if (contributor.href)
-                  return (
-                    <li key={contributor.name}>
-                      <SmartLink href={contributor.href}>{Element}</SmartLink>
-                    </li>
-                  );
-                else return <li key={contributor.name}>{Element}</li>;
-              })}
-            </ul>
-          </Expandable>
-        </div>
       </article>
     </>
+  );
+};
+
+const ContributorsExpandable = () => {
+  const contributors = [
+    {
+      name: "turtleman99",
+      href: "https://github.com/turtleman99",
+      description: "Northeastern status page",
+    },
+    {
+      name: "Vocaloiid",
+      description: "Various links",
+    },
+    {
+      name: "Kyle Sferrazza",
+      href: "https://github.com/kylesferrazza",
+      description: "Links",
+    },
+  ];
+  return (
+    <Expandable icon="smilebeam" title="Contributors list">
+      <div className="prose">
+        <p>Thanks to these contributors:</p>
+        <ul className="">
+          {contributors.map((contributor) => {
+            const Element = (
+              <>
+                <span className="underline">{contributor.name}</span>{" "}
+                <span className="text-gray">{contributor.description}</span>
+              </>
+            );
+            if (contributor.href)
+              return (
+                <li key={contributor.name}>
+                  <SmartLink href={contributor.href}>{Element}</SmartLink>
+                </li>
+              );
+            else return <li key={contributor.name}>{Element}</li>;
+          })}
+        </ul>
+        <p>And of course, thank you to all anonymous contributors too!</p>
+      </div>
+    </Expandable>
   );
 };
 

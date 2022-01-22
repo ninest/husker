@@ -1,9 +1,9 @@
 export const sidebarLinks = [
   { text: "Links", href: "/" },
+  { text: "Contacts", href: "/contacts" },
   { text: "About", href: "/about" },
   { text: "Contribute", href: "/contribute" },
   { text: "Changelog", href: "/changelog" },
-  // { text: "More", href: "/more" },
 ];
 export const highlightedSidebarLinks = [
   {

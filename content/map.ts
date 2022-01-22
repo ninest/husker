@@ -303,6 +303,12 @@ export const contentMap: Category[] = [
         description: "Reserve rooms in Snell Library",
         icon: "book",
       },
+      {
+        name: "Contacts",
+        href: "/contacts",
+        description: "Important emails and phone numbers",
+        icon: "usercircle",
+      },
     ],
   },
 ];
