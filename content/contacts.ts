@@ -22,6 +22,21 @@ export const contacts: Contact[] = [
     ],
   },
   {
+    name: "Housing",
+    methods: [
+      { type: "email", value: "housing@northeastern.edu" },
+      { type: "phone", value: "6173732814" },
+      { type: "website", value: "https://www.northeastern.edu/housing/" },
+    ],
+  },
+  {
+    name: "Mailroom - Speare",
+    methods: [
+      { type: "phone", value: "6173735108" },
+      { type: "phone", value: "6173732114" },
+    ],
+  },
+  {
     name: "Undergraduate Admissions",
     methods: [
       {

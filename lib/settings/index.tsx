@@ -29,7 +29,7 @@ const SettingsProvider = ({ children }: { children: ReactNode }) => {
 
   const setColors = () => {};
 
-  return (
-    // <SettingsContext.Provider value={{}}>{children}</SettingsContext.Provider>
-  );
+  // return (
+  // <SettingsContext.Provider value={{}}>{children}</SettingsContext.Provider>
+  // );
 };
