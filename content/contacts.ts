@@ -31,10 +31,11 @@ export const contacts: Contact[] = [
   },
   {
     name: "Mailroom - Speare",
-    methods: [
-      { type: "phone", value: "6173735108" },
-      { type: "phone", value: "6173732114" },
-    ],
+    methods: [{ type: "phone", value: "6173735108" }],
+  },
+  {
+    name: "Mailroom - Columbus",
+    methods: [{ type: "phone", value: "6173732114" }],
   },
   {
     name: "Undergraduate Admissions",
