@@ -45,6 +45,8 @@ export const FormField = ({
           placeholder={props.placeholder}
           className={clsx(className, "block form-input w-full")}
           rows={rows ?? 5}
+          required={props.required}
+          minLength={props.minLength}
         ></textarea>
       ) : (
         <input
