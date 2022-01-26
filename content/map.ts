@@ -43,16 +43,22 @@ export const contentMap: Category[] = [
         href: "https://www.myworkday.com/northeastern/d/pex/home.htmld",
       },
       {
-        name: "Daily wellness",
+        name: "Daily Wellness",
         href: "https://wellness-check.northeastern.edu/?utm_source=student&utm_medium=portal&utm_campaign=reopening",
         description: "COVID-19 Daily wellness",
         icon: "halfthermometer",
       },
       {
-        name: "COVID-19 test",
+        name: "COVID-19 Test",
         href: "https://northeastern.sharepoint.com/sites/covidscheduler/SitePages/TestScheduler.aspx",
         description: "Book a COVID-19 test",
         icon: "virusslash",
+      },
+      {
+        name: "COVID-19 Results",
+        href: "https://nuniorchard.netsmartcloud.com/1.view",
+        description: "View COVID test results",
+        icon: "virus",
       },
     ],
     pages: [
