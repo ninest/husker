@@ -9,9 +9,11 @@ interface BackButtonProps {
 
 export const BackButton = ({ href = "/", children }: BackButtonProps) => {
   return (
-    <SmartLink className="flex items-center space-x-sm text-gray" href={href}>
-      <Icon id="caretleft" className="text-gray"></Icon>
-      <div>{children ?? "Links"}</div>
+    <SmartLink href={href} className="block">
+      <div className="inline-flex items-center space-x-sm text-gray -m-xs p-xs rounded hover:bg-gray-100">
+        <Icon id="caretleft" className="text-gray"></Icon>
+        <div>{children ?? "Links"}</div>
+      </div>
     </SmartLink>
   );
 };
