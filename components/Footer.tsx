@@ -1,3 +1,5 @@
+import { IconId } from "@/types/icon";
+import { Button } from "./Button";
 import { Icon } from "./Icon";
 import { SmartLink } from "./SmartLink";
 
@@ -23,18 +25,14 @@ export const Footer = () => {
     <div className="wrapper flex items-center space-x-lg">
       {links.map((link) => {
         return (
-          <div key={link.href}>
+          <SmartLink key={link.href} href={link.href}>
             <div className="flex items-center space-x-base -m-xs p-xs rounded hover:bg-gray-100">
-              {/* @ts-ignore */}
-              <Icon id={link.icon} />
-              <SmartLink
-                className="text-gray font-semibold text-sm"
-                href={link.href}
-              >
+              <Icon id={link.icon as IconId} />
+              <div className="text-gray font-semibold text-sm">
                 {link.title}
-              </SmartLink>
+              </div>
             </div>
-          </div>
+          </SmartLink>
         );
       })}
     </div>

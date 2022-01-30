@@ -38,6 +38,7 @@ export const Button = ({
         isDarkTheme && variant === "primary",
     },
     {
+      "text-sm p-xs": size === "xs",
       "text-sm p-sm": size === "sm",
       "text-base p-base": size === "base",
       "text-lg p-lg": size === "lg",
