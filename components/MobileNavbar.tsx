@@ -1,5 +1,6 @@
 import { highlightedSidebarLinks } from "@/content/sidebar";
 import { IconId } from "@/types/icon";
+import { Button } from "./Button";
 import { Icon } from "./Icon";
 import { SmartLink } from "./SmartLink";
 
@@ -25,16 +26,22 @@ export const MobileNavbar = ({ onMenuClick }: MobileNavbarProps) => {
       </div>
 
       <div className="flex items-center space-x-xs">
-        <div className="w-40 overflow-hidden flex justify-end ">
+        <div className="w-40 overflow-hidden flex justify-end space-x-xs">
           {highlightedSidebarLinks.map((link) => {
             return (
               <SmartLink
                 key={link.href}
                 href={link.href}
-                className="hover:bg-gray-100 p-2 rounded"
+                className="text-gray border border-gray-100 p-2 rounded-md"
               >
                 <Icon id={link.icon as IconId} />
               </SmartLink>
+              // <SmartLink
+
+              //   className="hover:bg-gray-100 p-2 rounded"
+              // >
+              //   <Icon id={link.icon as IconId} />
+              // </SmartLink>
             );
           })}
         </div>
