@@ -2,6 +2,7 @@ import { ArticleHead } from "@/components/ArticleHead";
 import { Button } from "@/components/Button";
 import { PDFEmbed } from "@/components/PDFEmbed";
 import { Spacer } from "@/components/Spacer";
+import { NextSeo } from "next-seo";
 
 const RoomRatePage = () => {
   const roomRates = [
@@ -21,6 +22,10 @@ const RoomRatePage = () => {
 
   return (
     <>
+      <NextSeo
+        title="Housing Rates"
+        description="Northeastern housing rates: how much are you paying?"
+      />
       <div className="wrapper">
         <ArticleHead
           backButtonHref="/housing"
