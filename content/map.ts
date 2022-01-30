@@ -310,6 +310,12 @@ export const contentMap: Category[] = [
         description: "Important emails and phone numbers",
         icon: "usercircle",
       },
+      {
+        name: "COVID FAQ",
+        href: "https://news.northeastern.edu/coronavirus/spring-2022-faq/",
+        description: "Spring 2022 COVID FAQ",
+        icon: "virusslash",
+      },
     ],
   },
 ];

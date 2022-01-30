@@ -10,11 +10,11 @@ export const Search = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResults, setSearchResults] = useState<Link[]>([]);
 
-  /* To prevent showing everything, only search when more than 3 
-characters are typed */
-  const shouldSearch = () => searchTerm.length > 1;
-
   useEffect(() => {
+    /* To prevent showing everything, only search when more than 3 
+    characters are typed */
+    const shouldSearch = () => searchTerm.length > 1;
+
     if (shouldSearch()) {
       const results = search(searchTerm);
       setSearchResults(results);
@@ -59,7 +59,7 @@ characters are typed */
           >
             <Icon id="x" className="text-gray-light"></Icon>
           </button>
-        )}    
+        )}
         {/* Search bar */}
         <input
           ref={inputRef}

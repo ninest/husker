@@ -25,10 +25,14 @@ export const Footer = () => {
     <div className="wrapper p-md flex items-center space-x-lg">
       {links.map((link) => {
         return (
-          <button className="text-sm flex items-center space-x-base -m-xs p-xs hover:bg-gray-50 rounded">
+          <SmartLink
+            href={link.href}
+            key={link.href}
+            className="text-sm flex items-center space-x-base -m-xs p-xs hover:bg-gray-50 rounded"
+          >
             <Icon id={link.icon as IconId} />
             <div className="text-gray font-semibold text-sm">{link.title}</div>
-          </button>
+          </SmartLink>
         );
       })}
     </div>

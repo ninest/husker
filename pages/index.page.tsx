@@ -10,7 +10,7 @@ const IndexPage = () => {
       <article className="mt-base wrapper">
         <Expandable title="What's new?" containsProse>
           <ul>
-            <li>
+            <li>  
               One extra meal exchange Monday-Thursday 4-7PM: see more on the{" "}
               <SmartLink href="/dining" className="underline">
                 {" "}
