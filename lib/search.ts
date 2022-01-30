@@ -3,6 +3,7 @@ import { contentMap } from "@/content/map";
 import { Link, LinkWithCategory } from "@/types/category";
 import { SearchableItem } from "@/types/search";
 import { dorms } from "@/content/housing";
+import { cleanCourse, isCourse } from "@/utils/course";
 
 const searchableItems: SearchableItem[] = [
   ...contentMap
@@ -38,5 +39,46 @@ interface FuseSearchResult<T> {
 
 export function search(keyword: string): LinkWithCategory[] {
   const results: FuseSearchResult<LinkWithCategory>[] = fuse.search(keyword);
-  return results.map((result) => result.item);
+
+  const searchResults = results.map((result) => result.item);
+
+  /* Check if there are numbers to determine if it's a course */
+  if (isCourse(keyword)) {
+    const { code, number } = cleanCourse(keyword);
+    const courseResults: LinkWithCategory[] = [
+      {
+        categoryTitle: "Course",
+        name: `SearchNEU: ${code} ${number}`,
+        description: `${code} ${number} on SearchNEU`,
+        href: `https://searchneu.com/NEU/202230/search/${code}%20${number}`,
+        icon: "search",
+      },
+      {
+        categoryTitle: "Course",
+        name: `Reddit: ${code} ${number}`,
+        description: `Search ${code} ${number} on r/NEU`,
+        href: `https://www.google.com/search?q=${code}+${number}+site%3Areddit.com%2Fr%2Fneu`,
+        icon: "reddit",
+      },
+      {
+        categoryTitle: "Course",
+        name: `RateMyCourses: ${code} ${number}`,
+        description: `${code} ${number} on RateMyCourses`,
+        href: `https://www.ratemycourses.io/neu/course/${code}${number}`,
+      },
+      {
+        categoryTitle: "Course",
+        name: `${code} Catalog`,
+        description: `${code} courses on Northeastern's Catalog`,
+        href: `https://catalog.northeastern.edu/course-descriptions/${code.toLowerCase()}`,
+        icon: "book",
+      },
+    ];
+
+    // Add all to start of array (The cool way)
+    //  https://stackoverflow.com/a/8159547/8677167
+    courseResults.reverse().forEach((result) => searchResults.unshift(result));
+  }
+
+  return searchResults;
 }

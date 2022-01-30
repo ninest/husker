@@ -1,3 +1,4 @@
+import { useTheme } from "@/lib/theme";
 import { IconId } from "@/types/icon";
 import { Disclosure } from "@headlessui/react";
 import clsx from "clsx";
@@ -9,14 +10,17 @@ interface ExpandableProps extends HTMLAttributes<HTMLDivElement> {
   title: string;
   variant?: "primary" | "gray" | "error" | "warning";
   containsProse?: boolean;
+  open?: boolean;
 }
 export const Expandable = ({
   icon = "info",
   variant = "primary",
   title,
   containsProse = false,
+  open = false,
   children,
 }: ExpandableProps) => {
+  const { isLightTheme, isDarkTheme } = useTheme();
   return (
     <>
       <div
@@ -25,7 +29,7 @@ export const Expandable = ({
           "rounded-lg"
         )}
       >
-        <Disclosure>
+        <Disclosure defaultOpen={open}>
           {({ open }) => (
             <>
               <Disclosure.Button
@@ -57,7 +61,7 @@ export const Expandable = ({
                 ></Icon>
               </Disclosure.Button>
               <Disclosure.Panel
-                className={clsx("px-base pt-sm pb-base", {
+                className={clsx("px-base pdt-sm pb-base", {
                   prose: containsProse,
                 })}
               >

@@ -4,6 +4,10 @@ description: How has this site improved?
 lastUpdated: 2021-12-30
 ---
 
+### 2022-01-29
+
+- Add course search links to search bar
+
 ### 2022-01-21
 
 - Add more links + miscellaneous section
