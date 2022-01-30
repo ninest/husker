@@ -6,13 +6,6 @@ lastUpdated: 2021-09-08
 
 import { Icon } from '@/components/Icon'
 
-export const mealPlans = [
-{ meals: 7, exchange: 1, dollars: 140 },
-{ meals: 12, exchange: 2, dollars: 200 },
-{ meals: 17, exchange: 3, dollars: 250 },
-{ meals: 'Unlimited', exchange: 5, dollars: 350 },
-]
-
 export const mealExchangeVendors = [
 { name: "Sweet Tomatoes Pizza", address: "Curry Student Center" },
 { name: "Popeyes", address: "Curry Student Center" },
@@ -91,12 +84,25 @@ export const offCampusVendors = [
 ### Meal plan
 
 <section className="grid gap-base grid-cols-2 md:grid-cols-3">
-{mealPlans.map(mealPlan => {
-  return <Block key={mealPlan.meals} title={`${mealPlan.meals} meals`}>
-    <div>${mealPlan.dollars} dining dollars</div>
-    <div>{mealPlan.exchange} meal exchange/week</div>
-  </Block>
-})}
+
+<Block title={`7 meals`}>
+
+<div>$140 dining dollars</div>
+<div>1 meal exchange/week</div>
+</Block>
+<Block title={`12 meals`}>
+<div>$200 dining dollars</div>
+<div>2<span className="font-bold text-primary">+1</span> meal exchange/week</div>
+</Block>
+<Block title={`17 meals`}>
+<div>$250 dining dollars</div>
+<div>3<span className="font-bold text-primary">+1</span>  meal exchange/week</div>
+</Block>
+<Block title={`Unlimited meals`}>
+<div>$250 dining dollars</div>
+<div>5<span className="font-bold text-primary">+2</span>  meal exchange/week</div>
+</Block>
+
 </section>
 
 - Each meal plan includes 10 guest swipes for the semester (or 5 guest swipes in summer semesters)
