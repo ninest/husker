@@ -22,17 +22,13 @@ export const Footer = () => {
     },
   ];
   return (
-    <div className="wrapper flex items-center space-x-lg">
+    <div className="wrapper p-md flex items-center space-x-lg">
       {links.map((link) => {
         return (
-          <SmartLink key={link.href} href={link.href}>
-            <div className="flex items-center space-x-base -m-xs p-xs rounded hover:bg-gray-100">
-              <Icon id={link.icon as IconId} />
-              <div className="text-gray font-semibold text-sm">
-                {link.title}
-              </div>
-            </div>
-          </SmartLink>
+          <button className="text-sm flex items-center space-x-base -m-xs p-xs hover:bg-gray-50 rounded">
+            <Icon id={link.icon as IconId} />
+            <div className="text-gray font-semibold text-sm">{link.title}</div>
+          </button>
         );
       })}
     </div>

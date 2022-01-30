@@ -52,9 +52,8 @@ function MyApp({ Component, pageProps }: AppProps) {
             </div>
             <Spacer size="md"></Spacer>
             <hr />
-            <Spacer></Spacer>
+
             <Footer></Footer>
-            <Spacer></Spacer>
           </div>
         </main>
       </ThemeProvider>
