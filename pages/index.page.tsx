@@ -12,7 +12,7 @@ const IndexPage = () => {
           <ul>
             <li>  
               One extra meal exchange Monday-Thursday 4-7PM: see more on the{" "}
-              <SmartLink href="/dining" className="underline">
+              <SmartLink href="/husky-card/dining" className="underline">
                 {" "}
                 dining info page
               </SmartLink>{" "}

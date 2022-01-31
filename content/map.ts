@@ -56,7 +56,7 @@ export const contentMap: Category[] = [
       },
       {
         name: "COVID-19 Results",
-        href: "https://nuniorchard.netsmartcloud.com/1.view",
+        href: "https://nuniorchard.netsmartcloud.com/",
         description: "View COVID test results",
         icon: "virus",
       },
