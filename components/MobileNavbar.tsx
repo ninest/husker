@@ -32,16 +32,10 @@ export const MobileNavbar = ({ onMenuClick }: MobileNavbarProps) => {
               <SmartLink
                 key={link.href}
                 href={link.href}
-                className="text-gray border border-gray-100 p-2 rounded-md"
+                className="text-gray border border p-2 rounded-md"
               >
                 <Icon id={link.icon as IconId} />
               </SmartLink>
-              // <SmartLink
-
-              //   className="hover:bg-gray-100 p-2 rounded"
-              // >
-              //   <Icon id={link.icon as IconId} />
-              // </SmartLink>
             );
           })}
         </div>
