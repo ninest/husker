@@ -13,10 +13,6 @@
       @apply list-outside list-decimal ml-lg;
     }
 
-    // a:not(a.link-button) {
-    //   @apply underline;
-    // }
-
     h2,
     h3,
     h4 {
@@ -33,6 +29,20 @@
     }
     h4 {
       @apply text-xl font-medium;
+    }
+
+    /* Style all link anchors */
+    h2 a::before,
+    h3 a::before,
+    h4 a::before {
+      content: "#";
+      @apply opacity-0 md:opacity-10;
+    }
+    h2 a,
+    h3 a,
+    h4 a {
+      /* w-4/6 to allow clicking on the title to navigate to the hashed link */
+      @apply absolute -mx-sm w-4/6;
     }
   }
 }

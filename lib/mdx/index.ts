@@ -4,6 +4,8 @@ import { bundleMDX } from "mdx-bundler";
 import remarkCodeMeta from "remark-code-meta";
 import math from "remark-math";
 import katex from "rehype-katex";
+import rehypeSlug from "rehype-slug";
+import rehypeAutolinkHeadings from "rehype-autolink-headings";
 
 export async function mdxFromFile<T>(filepath: string) {
   const source = readFile(`${filepath}/index.md`).trim();
@@ -39,7 +41,12 @@ export async function mdxFromFile<T>(filepath: string) {
         remarkCodeMeta,
         math,
       ];
-      options.rehypePlugins = [...(options.rehypePlugins ?? []), katex];
+      options.rehypePlugins = [
+        ...(options.rehypePlugins ?? []),
+        katex,
+        rehypeSlug,
+        rehypeAutolinkHeadings,
+      ];
       return options;
     },
     esbuildOptions: (options) => {

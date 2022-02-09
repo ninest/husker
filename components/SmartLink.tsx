@@ -26,7 +26,7 @@ export const SmartLink = ({
   );
 
   if (typeof href === "string") {
-    if (href[0] === "/")
+    if (href[0] === "/" || href[0] === "#")
       return (
         <Link href={href}>
           <a {...props} className={className} />
