@@ -8,9 +8,9 @@ const IndexPage = () => {
   return (
     <>
       <article className="mt-base wrapper">
-        <Expandable title="What's new?" containsProse>
+        {/* <Expandable title="What's new?" containsProse>
           <ul>
-            <li>  
+            <li>
               One extra meal exchange Monday-Thursday 4-7PM: see more on the{" "}
               <SmartLink href="/husky-card/dining" className="underline">
                 {" "}
@@ -24,9 +24,12 @@ const IndexPage = () => {
                 nudining
               </SmartLink>
             </li>
-            <li>Use this site's search bar to find relevant links related to courses: try searching for <i>CS 4500</i></li>
+            <li>
+              Use this site's search bar to find relevant links related to
+              courses: try searching for <i>CS 4500</i>
+            </li>
           </ul>
-        </Expandable>
+        </Expandable> */}
 
         <div className="mt-lg space-y-xl">
           {contentMap.map((category) => {

@@ -63,6 +63,12 @@ export const contentMap: Category[] = [
     ],
     pages: [
       {
+        name: "Student Hub",
+        description: "Open the one and only Student Hub",
+        href: "https://me.northeastern.edu/",
+        icon: "dizzy",
+      },
+      {
         name: "Apps",
         description: "A list of Northeastern-related apps to download",
         href: "/services/apps",

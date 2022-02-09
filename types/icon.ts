@@ -47,6 +47,8 @@ import {
   FaUserCircle,
   FaRegEnvelope,
   FaRegBuilding,
+  FaRegCommentAlt,
+  FaDizzy,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -100,5 +102,7 @@ export const iconMap = {
   email: FaRegEnvelope,
   website: FaFirefox,
   address: FaRegBuilding,
+  commentalt: FaRegCommentAlt,
+  dizzy: FaDizzy,
 };
 export type IconId = keyof typeof iconMap;
