@@ -10,7 +10,13 @@ import { Icon } from '@/components/Icon'
 
 ### How do I find my co-op cycle?
 
-Open the [Student Hub](https://me.northeastern.edu/), then
+Open [Registrar Self Service](https://nubanner.neu.edu/ssomanager/c/SSB?pkg=twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu), then
+
+- Click "Registration"
+- Click "Patterns of Attendance"
+
+
+If that doesn't work, you can find it on the Student Hub. Open the [Student Hub](https://me.northeastern.edu/), then
 
 - Click "Resources" (top bar)
 - Click "<Icon id="commentalt" className="inline" /> Academics, Classes & Registration"

@@ -60,6 +60,13 @@ export const contentMap: Category[] = [
         description: "View COVID test results",
         icon: "virus",
       },
+      {
+        name: "Registrar Self Service",
+        href: "https://nubanner.neu.edu/ssomanager/c/SSB?pkg=twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu",
+        description:
+          "Registration, student records, account, patterns of attendance",
+        icon: "receipt",
+      },
     ],
     pages: [
       {
@@ -227,6 +234,12 @@ export const contentMap: Category[] = [
         href: "/housing/room-rates",
         description: "Housing costs",
         icon: "moneybillalt",
+      },
+      {
+        name: "Work Request",
+        href: "https://workrequest.neu.edu/logon.aspx?ReturnUrl=%2fFAWorkRequestForm.aspx",
+        description: "Request a repair",
+        icon: "wrench",
       },
     ],
     pages: [
