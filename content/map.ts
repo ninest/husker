@@ -249,12 +249,6 @@ export const contentMap: Category[] = [
         description: "Images and descriptions of dorms",
       },
       {
-        name: "Housing Rates",
-        href: "https://www.northeastern.edu/housing/rates/",
-        description: "Cost of housing",
-        icon: "moneybillalt",
-      },
-      {
         name: "Map, Floor plan, Room layouts",
         href: "https://www.northeastern.edu/housing/dnaesantoelrihtriseertn/",
         description: "Layouts and floor plans of dorms",
