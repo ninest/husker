@@ -21,7 +21,7 @@ See [Husky how-to](https://news.northeastern.edu/2012/01/17/huskycard/).
 
 - [Museum of Fine Arts Boston (MFA)](https://mfa.org/tickets): Free general admission tickets and $7 special exhibition tickets are available to students, faculty, and staff from Northeastern University in person with a valid student or faculty ID. Offer not valid Wednesdays 3–4 pm or in advance.
 - [Isabella Steward Gardner Museum](https://www.gardnermuseum.org/visit/admissions): $5
-- [Institute of Contemporary Art (ICA)](https://www.icaboston.org/page/university-membership): $10, free admission Thursdays 5–9 PM.
+- [Institute of Contemporary Art (ICA)](https://www.icaboston.org/page/university-membership): $10, free admission Thursdays 5–9 PM; free tickets with the code `NEU2022ICA`.
 
 {/* https://www.instagram.com/p/CL46HQoFswY/ */}
 
@@ -72,6 +72,12 @@ If you stay in [The Sheraton](/housing/the-sheraton) or [The Westin](/housing/th
 - [Notion](https://www.notion.so/product/notion-for-education): Students get the pro plan for free.
 - [Craft.do](https://dollarflightclub.com/student-and-teachers-discount/): Free 1-year license for students and teachers, reapply every 1 year for 5 years.
 - [Figma](https://www.figma.com/education/)
+- [Lucidchart](https://lucidco.zendesk.com/hc/en-us/articles/360049831771-Get-Started-with-an-Educational-Account): Free with .edu email address.
+- [Milanote](https://help.milanote.com/en/articles/3600867-can-i-have-a-discount): Contact support for a discount.
+
+## Academic and career
+
+- <Husky />  [VMock](https://www.vmock.com/northeastern): AI resume review tool
 
 ## Other
 

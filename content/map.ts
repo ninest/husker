@@ -112,7 +112,7 @@ export const contentMap: Category[] = [
       {
         name: "Transcript",
         href: "https://nubanner.neu.edu/ssomanager/c/SSB?pkg=bwskotrn.P_ViewTermTran",
-        description: "View degree audit",
+        description: "View academic transcript",
       },
       {
         name: "NUpath Dashboard",
