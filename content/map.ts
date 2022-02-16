@@ -115,6 +115,12 @@ export const contentMap: Category[] = [
         description: "View academic transcript",
       },
       {
+        name: "Degree Audit",
+        href: "https://prod-web.neu.edu/wasapp/DARSStudent/RequestAuditServlet",
+        description: "View myPaws degree audit and requirements",
+        icon: "invoice",
+      },
+      {
         name: "NUpath Dashboard",
         href: "https://www.northeastern.edu/core/dashboard/",
         description: "View NUpath covered by courses",
