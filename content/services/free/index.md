@@ -15,7 +15,9 @@ See [Husky how-to](https://news.northeastern.edu/2012/01/17/huskycard/).
 
 - [AMC Loews Boston Common theater](https://www.amctheatres.com/movie-theatres/boston/amc-boston-common-19): $3 off tickets on Thursdays.
 - [Regal Fenway Stadium 13](https://www.regmovies.com/theatres/regal-fenway-rpx/1930#/buy-tickets-by-cinema?in-cinema=1930&at=2021-08-19&view-mode=list): $2.50 off any movie after 4 PM.
-- [The Brattle Theater in Harvard Square](https://www.harvardsquare.com/venue/brattle-theatre/): $2 off.
+- [The Brattle Theater in Harvard Square](https://www.harvardsquare.com/venue/brattle-theatre/): $2 off ($12 tickets).
+- [Apple Cinemas in Cambridge](https://www.applecinemas.com/movies): $4.75 movie tickets on Tuesdays.
+
 
 ## Museums
 
