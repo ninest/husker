@@ -51,6 +51,7 @@ import {
   FaDizzy,
   FaWrench,
   FaReceipt,
+  FaPrint,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -59,6 +60,7 @@ export const iconMap = {
   pizza: FaPizzaSlice,
   chalkboard: FaChalkboard,
   phone: FaPhone,
+  printer: FaPrint,
   network: FaNetworkWired,
   halfthermometer: FaThermometerHalf,
   virusslash: FaVirusSlash,
