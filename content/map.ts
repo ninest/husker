@@ -21,7 +21,7 @@ export const contentMap: Category[] = [
       {
         name: "PaperCut",
         href: "https://papercut.northeastern.edu",
-        description: "Print Stuff",
+        description: "Print with PaperCut",
         icon: "printer",
       },
       {
