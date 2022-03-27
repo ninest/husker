@@ -51,6 +51,8 @@ import {
   FaDizzy,
   FaWrench,
   FaReceipt,
+  FaDoorOpen,
+  FaDoorClosed,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -108,5 +110,7 @@ export const iconMap = {
   dizzy: FaDizzy,
   wrench: FaWrench,
   receipt: FaReceipt,
+  dooropen: FaDoorOpen,
+  doorclosed: FaDoorClosed,
 };
 export type IconId = keyof typeof iconMap;

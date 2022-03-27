@@ -7,9 +7,9 @@ export const sidebarLinks = [
 ];
 export const highlightedSidebarLinks = [
   {
-    text: "Testing",
-    href: "https://northeastern.sharepoint.com/sites/covidscheduler/SitePages/TestScheduler.aspx",
-    icon: "virus",
+    text: "Door",
+    href: "https://huskycardcenter.neu.edu/student/openmydoor.php",
+    icon: "doorclosed",
   },
   {
     text: "Wellness",
