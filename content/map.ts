@@ -12,12 +12,17 @@ export const contentMap: Category[] = [
         description: "Manage courses and grades",
         icon: "invoice",
       },
-
       {
         name: "Piazza",
         href: "https://piazza.com",
         description: "Student-professor forum",
         icon: "pizza",
+      },
+      {
+        name: "PaperCut",
+        href: "https://papercut.northeastern.edu",
+        description: "Print Stuff",
+        icon: "printer",
       },
       {
         name: "Trace",
@@ -63,8 +68,7 @@ export const contentMap: Category[] = [
       {
         name: "Registrar Self Service",
         href: "https://nubanner.neu.edu/ssomanager/c/SSB?pkg=twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu",
-        description:
-          "Registration, student records, account, patterns of attendance",
+        description: "Registration, student records, account, patterns of attendance",
         icon: "receipt",
       },
     ],
