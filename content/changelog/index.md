@@ -1,8 +1,13 @@
 ---
 title: Changelog
 description: How has this site improved?
-lastUpdated: 2021-12-30
+lastUpdated: 2022-03-27
 ---
+
+## 2022-03-27
+
+- Replace Testing with Open My Door link
+- Change `/housing/` to `/house/` (due to a redirect error)
 
 ### 2022-01-29
 
