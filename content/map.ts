@@ -227,7 +227,9 @@ export const contentMap: Category[] = [
   },
   {
     title: "Housing",
-    slug: "housing",
+    // TEMPORARY to check SEO
+    // slug: "housing",
+    slug: "house",
     links: [
       {
         name: "Housing online",
@@ -350,5 +352,5 @@ export const pages = [
   "/resources/download-books",
   "/changelog",
 
-  ...dorms.map((dorm): string => `/housing/${dorm.slug}`),
+  ...dorms.map((dorm): string => `/house/${dorm.slug}`),
 ];

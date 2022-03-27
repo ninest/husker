@@ -31,6 +31,16 @@ module.exports = {
         destination: "/husky-card/:path",
         permanent: true,
       },
+      {
+        source: "/housing",
+        destination: "/house",
+        permanent: true,
+      },
+      {
+        source: "/housing/:path",
+        destination: "/house/:path",
+        permanent: false,
+      },
     ];
   },
 };
