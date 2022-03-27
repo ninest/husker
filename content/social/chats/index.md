@@ -8,10 +8,11 @@ lastUpdated: 2021-08-19
 
 - [Northeastern](https://discord.gg/7R4cfM3GGx)
 - [Northeastern Class of 25](https://discord.gg/YvVc5PPBZT)
-- [NUin Boston](https://discord.gg/ecz34aphDP)
+- [KHOURY](https://discord.gg/gfcFgSbfT4)
 
 ## Patio
 
+- [Northeastern 2026](https://invite.patio.app/community-invite/f9f9ac2d-5e13-4708-b8e3-b977f860b4e2)
 - [Northeastern 2025](https://invite.patio.app/community-invite/5268669a-eb16-42dd-bff5-0f21191861ed)
 
 ## GroupMe
