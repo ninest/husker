@@ -78,6 +78,11 @@ const ContributorsExpandable = () => {
       href: "https://github.com/kylesferrazza",
       description: "Links",
     },
+    {
+      name: "Ahrav Soi",
+      href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      description: "I helped a lot, should definetly be compensated, was good baby",
+    },
   ];
   return (
     <Expandable icon="smilebeam" title="Contributors list">

@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 module.exports = {
+  trailingSlash: true,
   reactStrictMode: true,
   pageExtensions: ["page.tsx", "page.ts", "page.jsx", "page.js"],
   async redirects() {
@@ -29,6 +30,16 @@ module.exports = {
         source: "/huskycard/:path",
         destination: "/husky-card/:path",
         permanent: true,
+      },
+      {
+        source: "/housing",
+        destination: "/house",
+        permanent: true,
+      },
+      {
+        source: "/housing/:path",
+        destination: "/house/:path",
+        permanent: false,
       },
     ];
   },
