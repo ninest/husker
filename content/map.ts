@@ -84,7 +84,7 @@ export const contentMap: Category[] = [
       {
         name: "Direct Deposit",
         href: "https://neuforms3.neu.edu/lfserver/DirectDeposit.xfm",
-        description: "Direct Deposit",
+        description: "SFS Direct Deposit",
       },
       {
         name: "Apps",

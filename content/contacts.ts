@@ -30,6 +30,13 @@ export const contacts: Contact[] = [
     ],
   },
   {
+    name: "Information Technology Services Help",
+    methods: [
+      { type: "email", value: "help@northeastern.edu" },
+      { type: "phone", value: "6173734357" },
+    ],
+  },
+  {
     name: "Mailroom - Speare",
     methods: [{ type: "phone", value: "6173735108" }],
   },

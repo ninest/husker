@@ -62,12 +62,15 @@ If you stay in [The Sheraton](/housing/the-sheraton) or [The Westin](/housing/th
 - [Spotify](https://www.spotify.com/us/student/): Discounted Spotify Premium, Hulu, and Showtime.
 - [YouTube Premium](https://support.google.com/youtube/answer/9158808?hl=en&co=GENIE.Platform%3DAndroid)
 - [PeacockTV](https://www.peacocktv.com): Log in through Xfinity.
+- <Husky /> [Kanopy](https://library.northeastern.edu/research/resources/items/kanopy-streaming)
+
 
 ## Apps and services
 
 - <Husky /> [Adobe CC](https://adobe.northeastern.edu/)
 - <Husky /> [Microsoft 365](https://www.microsoft.com/en-us/education/products/office): Sign in with your northeastern.edu email. Free Office 365 apps, 5 TB of OneDrive cloud storage, and other services.
 - <Husky /> [Zoom](https://northeastern.zoom.us/)
+- <Husky /> [Google Services]( https://service.northeastern.edu/tech?id=kb_article&sys_id=f5fbc2c11b3fb4d058845420604bcba1)
 - <Husky /> [Headspace](https://work.headspace.com/northeastern/member-enroll): Meditation, mindfulness, and sleep. If your NU ID starts with `00`, try entering only the numbers after it.
 - <Husky /> [OnTheHub](https://neu.onthehub.com/WebStore/Security/SignIn.aspx?rurl=%2fWebStore%2fProductsByMajorVersionList.aspx%3f): Free and discounted software (VMware, Windows, and more).
 - [Azure](https://azureforeducation.microsoft.com/devtools)
