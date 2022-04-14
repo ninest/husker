@@ -53,23 +53,19 @@ export const contentMap: Category[] = [
         description: "COVID-19 Daily wellness",
         icon: "halfthermometer",
       },
-      {
-        name: "COVID-19 Test",
-        href: "https://northeastern.sharepoint.com/sites/covidscheduler/SitePages/TestScheduler.aspx",
-        description: "Book a COVID-19 test",
-        icon: "virusslash",
-      },
-      {
-        name: "COVID-19 Results",
-        href: "https://nuniorchard.netsmartcloud.com/",
-        description: "View COVID test results",
-        icon: "virus",
-      },
+
       {
         name: "Registrar Self Service",
         href: "https://nubanner.neu.edu/ssomanager/c/SSB?pkg=twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu",
-        description: "Registration, student records, account, patterns of attendance",
+        description:
+          "Registration, student records, account, patterns of attendance",
         icon: "receipt",
+      },
+      {
+        name: "Outlook",
+        href: "https://outlook.office.com/mail/inbox",
+        description: "Student email",
+        icon: "email",
       },
     ],
     pages: [
@@ -78,6 +74,17 @@ export const contentMap: Category[] = [
         description: "Open the one and only Student Hub",
         href: "https://me.northeastern.edu/",
         icon: "dizzy",
+      },
+      {
+        name: "COVID-19 Results",
+        href: "https://nuniorchard.netsmartcloud.com/",
+        description: "View COVID test results",
+        icon: "virus",
+      },
+      {
+        name: "Direct Deposit",
+        href: "https://neuforms3.neu.edu/lfserver/DirectDeposit.xfm",
+        description: "Direct Deposit",
       },
       {
         name: "Apps",
