@@ -13,6 +13,12 @@ export const contentMap: Category[] = [
         icon: "invoice",
       },
       {
+        name: "Outlook",
+        href: "https://outlook.office.com/mail/",
+        description: "View email",
+        icon: "envelope",
+      },
+      {
         name: "Piazza",
         href: "https://piazza.com",
         description: "Student-professor forum",
@@ -232,6 +238,12 @@ export const contentMap: Category[] = [
         name: "Payment Plan",
         href: "https://sso.myonplanu.com/landing/northeastern",
         description: "Set up and view payment plan",
+        icon: "regmoneybillalt",
+      },
+      {
+        name: "Financial Aid Self Serivce",
+        href: "https://www.pfw.neu.edu/NetPartnerStudent/PgHome.aspx",
+        description: "Financial Aid Self Service",
         icon: "regmoneybillalt",
       },
     ],
