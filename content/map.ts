@@ -54,13 +54,6 @@ export const contentMap: Category[] = [
         href: "https://www.myworkday.com/northeastern/d/pex/home.htmld",
       },
       {
-        name: "Daily Wellness",
-        href: "https://wellness-check.northeastern.edu/?utm_source=student&utm_medium=portal&utm_campaign=reopening",
-        description: "COVID-19 Daily wellness",
-        icon: "halfthermometer",
-      },
-
-      {
         name: "Registrar Self Service",
         href: "https://nubanner.neu.edu/ssomanager/c/SSB?pkg=twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu",
         description:
@@ -87,11 +80,7 @@ export const contentMap: Category[] = [
         description: "View COVID test results",
         icon: "virus",
       },
-      {
-        name: "Direct Deposit",
-        href: "https://neuforms3.neu.edu/lfserver/DirectDeposit.xfm",
-        description: "SFS Direct Deposit",
-      },
+
       {
         name: "Apps",
         description: "A list of Northeastern-related apps to download",
@@ -245,6 +234,11 @@ export const contentMap: Category[] = [
         href: "https://www.pfw.neu.edu/NetPartnerStudent/PgHome.aspx",
         description: "Financial Aid Self Service",
         icon: "regmoneybillalt",
+      },
+      {
+        name: "Direct Deposit",
+        href: "https://neuforms3.neu.edu/lfserver/DirectDeposit.xfm",
+        description: "SFS Direct Deposit",
       },
     ],
   },
