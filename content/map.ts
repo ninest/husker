@@ -13,9 +13,9 @@ export const contentMap: Category[] = [
         icon: "invoice",
       },
       {
-        name: "Outlook",
-        href: "https://outlook.office.com/mail/",
-        description: "View email",
+        name: "Office 365",
+        href: "https://www.office.com/",
+        description: "Outlook and other services",
         icon: "envelope",
       },
       {
@@ -241,7 +241,7 @@ export const contentMap: Category[] = [
         icon: "regmoneybillalt",
       },
       {
-        name: "Financial Aid Self Serivce",
+        name: "Financial Aid Status",
         href: "https://www.pfw.neu.edu/NetPartnerStudent/PgHome.aspx",
         description: "Financial Aid Self Service",
         icon: "regmoneybillalt",

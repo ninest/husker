@@ -3,33 +3,24 @@ import { contentMap } from "@/content/map";
 import { LinkSet } from "@/components/LinkSet";
 import { Expandable } from "@/components/Expandable";
 import { SmartLink } from "@/components/SmartLink";
+import { Button } from "@/components/Button";
 
 const IndexPage = () => {
   return (
     <>
       <article className="mt-base wrapper">
-        {/* <Expandable title="What's new?" containsProse>
-          <ul>
-            <li>
-              One extra meal exchange Monday-Thursday 4-7PM: see more on the{" "}
-              <SmartLink href="/husky-card/dining" className="underline">
-                {" "}
-                dining info page
-              </SmartLink>{" "}
-              and on{" "}
-              <SmartLink
-                href="https://nudining.com/public/meal-plans"
-                className="underline"
-              >
-                nudining
-              </SmartLink>
-            </li>
-            <li>
-              Use this site's search bar to find relevant links related to
-              courses: try searching for <i>CS 4500</i>
-            </li>
-          </ul>
-        </Expandable> */}
+        <Expandable
+          title="Would you like to contribute to Husker?"
+          containsProse
+        >
+          <p>
+            We are looking to add more content to Husker! Would you like to
+            write guides? Do you think your knowledge on the school can help
+            others? Click the button below to contribute!
+          </p>
+
+          <Button href="/contribute">Contribute</Button>
+        </Expandable>
 
         <div className="mt-lg space-y-xl">
           {contentMap.map((category) => {
