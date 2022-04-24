@@ -1,3 +1,5 @@
+import { isStartOfSemester } from "@/lib/here";
+import ContentPage from "@/pages/[...slug].page";
 import { Category } from "@/types/category";
 import { dorms } from "./housing";
 
@@ -65,12 +67,6 @@ export const contentMap: Category[] = [
         href: "https://outlook.office.com/mail/inbox",
         description: "Student email",
         icon: "email",
-      },
-      {
-        name: "I Am Here",
-        href: "https://nu.outsystemsenterprise.com/studentinfo/IAmHere",
-        description: "Confirm that you are indeed here",
-        icon: "hand",
       },
     ],
     pages: [
@@ -368,6 +364,17 @@ export const contentMap: Category[] = [
     ],
   },
 ];
+
+// Add I am here at the start of a semester
+if (isStartOfSemester()) {
+  contentMap[0].links.push({
+    name: "I'm Here",
+    href: "https://nu.outsystemsenterprise.com/studentinfo/IAmHere",
+    description: "Confirm that you are indeed here",
+    icon: "hand",
+    variant: "warning",
+  });
+}
 
 export const pages = [
   "/about",

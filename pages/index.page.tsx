@@ -3,8 +3,6 @@ import { contentMap } from "@/content/map";
 import { LinkSet } from "@/components/LinkSet";
 import { Expandable } from "@/components/Expandable";
 import { Button } from "@/components/Button";
-import { useEffect } from "react";
-import { YoutubeEmbed } from "@/components/YoutubeEmbed";
 
 const IndexPage = () => {
   return (

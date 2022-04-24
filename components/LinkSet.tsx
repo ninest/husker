@@ -51,6 +51,7 @@ export const LinkSet = ({
             <LinkButton
               key={link.href}
               link={link}
+              variant={link.variant}
               showDescription={showFull}
             ></LinkButton>
           );

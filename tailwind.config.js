@@ -70,6 +70,8 @@ module.exports = {
           dark: "var(--red-700)",
         },
         warning: {
+          lightest: "var(--orange-100)",
+          lighter: "var(--orange-200)",
           light: "var(--orange-300)",
           DEFAULT: "var(--orange-500)",
           dark: "var(--orange-700)",

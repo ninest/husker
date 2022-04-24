@@ -1,3 +1,5 @@
+import { isStartOfSemester } from "@/lib/here";
+
 export const sidebarLinks = [
   { text: "Links", href: "/" },
   { text: "Contacts", href: "/contacts" },
@@ -5,6 +7,7 @@ export const sidebarLinks = [
   { text: "Contribute", href: "/contribute" },
   { text: "Changelog", href: "/changelog" },
 ];
+
 export const highlightedSidebarLinks = [
   {
     text: "Door",

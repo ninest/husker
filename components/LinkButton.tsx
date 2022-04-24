@@ -2,20 +2,31 @@ import { Link } from "@/types/category";
 import { Icon } from "@/components/Icon";
 import { SmartLink } from "@/components/SmartLink";
 import { Spacer } from "@/components/Spacer";
+import clsx from "clsx";
 
 interface LinkButtonProps {
   link: Link;
+
+  variant?: "default" | "highlighted" | "warning";
   showDescription?: boolean;
 }
 
 export const LinkButton = ({
   link,
+  variant = "default",
   showDescription = false,
 }: LinkButtonProps) => {
   return (
     <SmartLink
       style={{ minWidth: 0 }}
-      className="link-button flex items-center space-x-md rounded p-base bg-gray-100 hover:bg-gray-200 "
+      className={clsx(
+        "link-button flex items-center space-x-md rounded p-base",
+        {
+          "bg-gray-100 hover:bg-gray-200": variant == "default",
+          "bg-gradient-to-r from-warning-lightest to-warning-lighter":
+            variant == "warning",
+        }
+      )}
       href={link.href}
     >
       <Icon id={link.icon} className="flex-none text-sm"></Icon>
