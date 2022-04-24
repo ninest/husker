@@ -66,6 +66,12 @@ export const contentMap: Category[] = [
         description: "Student email",
         icon: "email",
       },
+      {
+        name: "I Am Here",
+        href: "https://nu.outsystemsenterprise.com/studentinfo/IAmHere",
+        description: "Confirm that you are indeed here",
+        icon: "hand",
+      },
     ],
     pages: [
       {
@@ -181,6 +187,12 @@ export const contentMap: Category[] = [
         description: "Balance, lost card, open my door, settings",
         icon: "cog",
       },
+      {
+        name: "Hours",
+        href: "https://nudining.com/public/hours",
+        description: "Dining hall and restaurants timings",
+        icon: "clock",
+      },
     ],
     pages: [
       {
@@ -193,12 +205,6 @@ export const contentMap: Category[] = [
         href: "https://nudining.com/public/menus",
         description: "Dining hall menus",
         icon: "utensils",
-      },
-      {
-        name: "Hours",
-        href: "https://nudining.com/public/hours",
-        description: "Dining hall and restaurants timings",
-        icon: "clock",
       },
 
       {

@@ -15,6 +15,7 @@ Open [Registrar Self Service](https://nubanner.neu.edu/ssomanager/c/SSB?pkg=twbk
 - Click "Registration"
 - Click "Patterns of Attendance"
 
+The link for Registrar Self Service is available under "Services".
 
 If that doesn't work, you can find it on the Student Hub. Open the [Student Hub](https://me.northeastern.edu/), then
 

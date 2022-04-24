@@ -5,7 +5,8 @@ import { Spacer } from "@/components/Spacer";
 import { NextSeo } from "next-seo";
 
 const UndergraduateCalendarPage = () => {
-  const calendarHref = "/files/calendar-2021-2022.pdf";
+  const calendarHref2022 = "/files/calendar/2021-2022.pdf";
+  const calendarHref2023 = "/files/calendar/2022-2023.pdf";
 
   return (
     <>
@@ -16,18 +17,25 @@ const UndergraduateCalendarPage = () => {
       <ArticleHead
         backButtonHref="/courses"
         backButtonText="Courses"
-        title="Undergraduate Calendar 2021-2022"
+        title="Undergraduate Calendar 2021-2023"
       ></ArticleHead>
 
-      <PDFEmbed href={calendarHref}></PDFEmbed>
+      <PDFEmbed href={calendarHref2022}></PDFEmbed>
 
       <Spacer />
 
       <div className="wrapper">
-        <Button href={calendarHref} icon="download">
+        <Button href={calendarHref2023} icon="download">
           Download
         </Button>
       </div>
+
+      <Spacer size="2xl" />
+      <div className="wrapper prose">
+        <h2>2022-2023</h2>
+      </div>
+      <Spacer />
+      <PDFEmbed href={calendarHref2022}></PDFEmbed>
     </>
   );
 };
