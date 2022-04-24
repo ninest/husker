@@ -23,7 +23,7 @@ import plan1 from './house/337-huntington-ave/images/plans/plan1.jpg'
 import plan2 from './house/337-huntington-ave/images/plans/plan2.jpg'
 import plan3 from './house/337-huntington-ave/images/plans/plan3.jpg'
 
-<Expandable title="Floor Plans" icon="image">
+<Expandable title="Floor Plans" variant="gray">
 <div className="grid grid-cols-1 gap-base">
   <Image src={plan1} height={221} width={374} quality={50} alt={"Plan 1"}/>
   <Image src={plan2} height={448} width={361} quality={50} alt={"Plan 2"}/>
