@@ -54,6 +54,7 @@ import {
   FaPrint,
   FaDoorOpen,
   FaDoorClosed,
+  FaImage,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -114,5 +115,6 @@ export const iconMap = {
   receipt: FaReceipt,
   dooropen: FaDoorOpen,
   doorclosed: FaDoorClosed,
+  image: FaImage,
 };
 export type IconId = keyof typeof iconMap;

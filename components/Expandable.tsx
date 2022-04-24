@@ -20,6 +20,7 @@ export const Expandable = ({
   open = false,
   children,
 }: ExpandableProps) => {
+
   const { isLightTheme, isDarkTheme } = useTheme();
   return (
     <>

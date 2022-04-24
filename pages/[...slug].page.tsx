@@ -1,14 +1,12 @@
 import { GetStaticPaths, GetStaticProps } from "next";
+import Image from "next/image";
 import { getMDXComponent } from "mdx-bundler/client";
-
 import { Spacer } from "@/components/Spacer";
-import { Title } from "@/components/title";
 import { contentMap, pages } from "@/content/map";
 import { listToFilepath } from "@/lib/file/list-to-file";
 import { getPage } from "@/lib/pages";
 import { Category, Link } from "@/types/category";
 import { Page } from "@/types/page";
-import { BackButton } from "@/components/BackButton";
 import { NextSeo } from "next-seo";
 import { Block } from "@/components/Block";
 import clsx from "clsx";
@@ -19,7 +17,6 @@ import { SmartLink } from "@/components/SmartLink";
 import { LinkButtonGrid } from "@/components/LinkButton";
 import { Expandable } from "@/components/Expandable";
 import { ArticleHead } from "@/components/ArticleHead";
-
 export const getStaticPaths: GetStaticPaths = async () => {
   const categoryPaths = contentMap.map((category) => `/${category.slug}`);
   const otherPagePaths = pages;
@@ -172,7 +169,22 @@ const ContentPage = ({
                   );
                 },
                 Button,
+                Spacer,
                 LinkButtonGrid,
+                /* Next image */
+                Image: (props: any) => {
+                  const src = `/notouchy/${props.src}`;
+
+                  return (
+                    <div className="flex justify-center mobile-full-bleed">
+                      <Image
+                        {...props}
+                        src={src}
+                        className="md:rounded bg-gray-lightest"
+                      ></Image>
+                    </div>
+                  );
+                },
               }}
             ></Markdown>
           </div>
