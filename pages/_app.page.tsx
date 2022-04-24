@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
       <ThemeProvider>
         {!showSidebar && (
-          <div className={clsx("block md:hidden sticky top-0")}>
+          <div className={clsx("block md:hidden sticky top-0 z-50")}>
             <MobileNavbar
               onMenuClick={() => {
                 setShowSidebar(!showSidebar);

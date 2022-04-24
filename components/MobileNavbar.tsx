@@ -9,7 +9,7 @@ interface MobileNavbarProps {
 }
 export const MobileNavbar = ({ onMenuClick }: MobileNavbarProps) => {
   return (
-    <header className="bg-light  px-md py-base border-b flex items-center justify-between">
+    <header className="bg-light px-md py-base border-b flex items-center justify-between">
       <div className="flex items-center">
         <button
           className="text-gray border p-2 rounded mr-base"

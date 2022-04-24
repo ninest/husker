@@ -20,59 +20,56 @@ export const Expandable = ({
   open = false,
   children,
 }: ExpandableProps) => {
-
   const { isLightTheme, isDarkTheme } = useTheme();
   return (
-    <>
-      <div
-        className={clsx(
-          { "bg-primary-lightest": variant == "primary" },
-          { "bg-gray-lightest": variant == "gray" },
-          "rounded-lg"
-        )}
-      >
-        <Disclosure defaultOpen={open}>
-          {({ open }) => (
-            <>
-              <Disclosure.Button
-                className={clsx(
-                  "flex justify-between items-center w-full p-base font-semibold text-gray-darkest rounded-lg transition-colors",
-                  { "hover:bg-primary-lighter": variant == "primary" }
-                )}
-              >
-                <div className="flex items-center">
-                  <Icon
-                    id={icon}
-                    className={clsx(
-                      { "text-gray-darker": open, "text-gray-dark": !open },
-                      "mr-base"
-                    )}
-                  ></Icon>
-                  <div
-                    className={clsx({
-                      "text-gray-darker": open,
-                      "text-gray-dark": !open,
-                    })}
-                  >
-                    {title}
-                  </div>
-                </div>
+    <div
+      className={clsx(
+        { "bg-primary-lightest": variant == "primary" },
+        { "bg-gray-lightest": variant == "gray" },
+        "rounded-lg"
+      )}
+    >
+      <Disclosure defaultOpen={open}>
+        {({ open }) => (
+          <>
+            <Disclosure.Button
+              className={clsx(
+                "flex justify-between items-center w-full p-base font-semibold text-gray-darkest rounded-lg transition-colors",
+                { "hover:bg-primary-lighter": variant == "primary" }
+              )}
+            >
+              <div className="flex items-center">
                 <Icon
-                  id="caretdown"
-                  className={clsx("text-gray-light", { "rotate-180": open })}
+                  id={icon}
+                  className={clsx(
+                    { "text-gray-darker": open, "text-gray-dark": !open },
+                    "mr-base z-10"
+                  )}
                 ></Icon>
-              </Disclosure.Button>
-              <Disclosure.Panel
-                className={clsx("px-base pdt-sm pb-base", {
-                  prose: containsProse,
-                })}
-              >
-                {children}
-              </Disclosure.Panel>
-            </>
-          )}
-        </Disclosure>
-      </div>
-    </>
+                <div
+                  className={clsx({
+                    "text-gray-darker": open,
+                    "text-gray-dark": !open,
+                  })}
+                >
+                  {title}
+                </div>
+              </div>
+              <Icon
+                id="caretdown"
+                className={clsx("text-gray-light", { "rotate-180": open })}
+              ></Icon>
+            </Disclosure.Button>
+            <Disclosure.Panel
+              className={clsx("px-base pdt-sm pb-base", {
+                prose: containsProse,
+              })}
+            >
+              {children}
+            </Disclosure.Panel>
+          </>
+        )}
+      </Disclosure>
+    </div>
   );
 };
