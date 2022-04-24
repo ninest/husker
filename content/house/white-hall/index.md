@@ -7,6 +7,8 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
+import { YoutubeEmbed } from "@/components/YoutubeEmbed"
+
 ## Images
 
 import double1 from './house/white-hall/images/double/double1.png'
@@ -24,6 +26,13 @@ import double6 from './house/white-hall/images/double/double6.png'
     <Image src={double2} height={ 1726} width={2302} quality={50} alt={"White Hall Double 2"}/>
     <Image src={double3} height={ 1726} width={2302} quality={50} alt={"White Hall Double 3"}/>
     <Image src={double4} height={ 1726} width={2302} quality={50} alt={"White Hall Double 4"}/>
+  </div>
+</Expandable>
+
+<Expandable title="Videos" icon="video" variant="gray">
+  <div className="grid grid-cols-1 gap-base">
+    <YoutubeEmbed videoId="NTwTXX48DTM" />
+    <YoutubeEmbed videoId="s3b34GOuv-U" />
   </div>
 </Expandable>
 

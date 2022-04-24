@@ -7,6 +7,8 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
+import { YoutubeEmbed } from "@/components/YoutubeEmbed"
+
 ## Images
 
 import double1 from './house/kerr-hall/images/double/double1.png'
@@ -32,6 +34,12 @@ import triple2 from './house/kerr-hall/images/triple/triple2.png'
   <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
     <Image src={triple1} height={1566} width={2084} quality={50} alt={"Kerr Hall Triple 1"}/>
     <Image src={triple2} height={1566} width={2084} quality={50} alt={"Kerr Hall Triple 2"}/>
+  </div>
+</Expandable>
+
+<Expandable title="Videos" icon="video" variant="gray">
+  <div className="grid grid-cols-1 gap-base">
+    <YoutubeEmbed videoId="TWeSaqGxCEc" />
   </div>
 </Expandable>
 

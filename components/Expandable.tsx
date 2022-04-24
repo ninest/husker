@@ -27,6 +27,7 @@ export const Expandable = ({
       <div
         className={clsx(
           { "bg-primary-lightest": variant == "primary" },
+          { "bg-gray-lightest": variant == "gray" },
           "rounded-lg"
         )}
       >
