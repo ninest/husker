@@ -42,15 +42,19 @@ export const Expandable = ({
                 <Icon
                   id={icon}
                   className={clsx(
+                    "mr-base flex-none",
                     { "text-gray-darker": open, "text-gray-dark": !open },
-                    "mr-base"
                   )}
                 ></Icon>
                 <div
-                  className={clsx({
-                    "text-gray-darker": open,
-                    "text-gray-dark": !open,
-                  })}
+                  className={clsx(
+                    {
+                      "text-gray-darker": open,
+                      "text-gray-dark": !open,
+                    },
+                    // Prevent text from being centered
+                    "text-left"
+                  )}
                 >
                   {title}
                 </div>
