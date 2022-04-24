@@ -1,4 +1,4 @@
-import { Dorm, DormType } from "@/types/housing";
+import { Dorm, DormPricePoint, DormType } from "@/types/housing";
 
 export const traditional: DormType = {
   slug: "traditional",
@@ -17,11 +17,25 @@ export const apartment: DormType = {
   name: "Apartment",
 };
 
+export const economy: DormPricePoint = {
+  slug: "economy",
+  name: "Economy",
+};
+export const standard: DormPricePoint = {
+  slug: "standard",
+  name: "Standard",
+};
+export const enhanced: DormPricePoint = {
+  slug: "enhanced",
+  name: "Enhanced",
+};
+
 export const dorms: Dorm[] = [
   {
     type: traditional,
     slug: "hastings-hall",
     title: "Hastings Hall",
+    pricesPoints: [economy, standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -41,6 +55,7 @@ export const dorms: Dorm[] = [
     type: traditional,
     slug: "kerr-hall",
     title: "Kerr Hall",
+    pricesPoints: [economy, standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -60,6 +75,7 @@ export const dorms: Dorm[] = [
     type: traditional,
     slug: "light-hall",
     title: "Light Hall",
+    pricesPoints: [economy, standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -72,6 +88,7 @@ export const dorms: Dorm[] = [
     type: traditional,
     slug: "melvin-hall",
     title: "Melvin Hall",
+    pricesPoints: [economy, standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -91,6 +108,7 @@ export const dorms: Dorm[] = [
     type: traditional,
     slug: "smith-hall",
     title: "Smith Hall",
+    pricesPoints: [economy, standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -110,6 +128,7 @@ export const dorms: Dorm[] = [
     type: traditional,
     slug: "speare-hall",
     title: "Speare Hall",
+    pricesPoints: [economy, standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -129,6 +148,7 @@ export const dorms: Dorm[] = [
     type: traditional,
     slug: "white-hall",
     title: "White Hall",
+    pricesPoints: [economy, standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -148,6 +168,7 @@ export const dorms: Dorm[] = [
     type: traditional,
     slug: "stetson-east",
     title: "Stetson East",
+    pricesPoints: [standard],
     links: [
       {
         name: "Stetson East Northeastern Housing",
@@ -167,6 +188,7 @@ export const dorms: Dorm[] = [
     type: traditional,
     slug: "stetson-west",
     title: "Stetson West",
+    pricesPoints: [economy, standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -186,6 +208,7 @@ export const dorms: Dorm[] = [
     type: suite,
     slug: "153-hemenway-street",
     title: "153 Hemenway Street",
+    pricesPoints: [economy, standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -205,6 +228,7 @@ export const dorms: Dorm[] = [
     type: suite,
     slug: "international-village",
     title: "International Village",
+    pricesPoints: [enhanced],
     links: [
       {
         name: "Northeastern Housing",
@@ -224,6 +248,7 @@ export const dorms: Dorm[] = [
     type: suite,
     slug: "east-village",
     title: "East Village",
+    pricesPoints: [enhanced],
     links: [
       {
         name: "Northeastern Housing",
@@ -243,6 +268,7 @@ export const dorms: Dorm[] = [
     type: suite,
     slug: "kennedy-hall",
     title: "Kennedy Hall",
+    pricesPoints: [economy, standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -262,6 +288,7 @@ export const dorms: Dorm[] = [
     type: hotel,
     slug: "midtown-hotel",
     title: "Midtown Hotel",
+    pricesPoints: [enhanced],
     links: [
       {
         name: "Northeastern Housing",
@@ -281,6 +308,7 @@ export const dorms: Dorm[] = [
     type: hotel,
     slug: "the-sheraton",
     title: "The Sheraton",
+    pricesPoints: [enhanced],
     links: [
       {
         name: "Northeastern Housing",
@@ -300,6 +328,7 @@ export const dorms: Dorm[] = [
     type: hotel,
     slug: "the-westin",
     title: "The Westin",
+    pricesPoints: [enhanced],
     links: [
       {
         name: "Northeastern Housing",
@@ -319,6 +348,7 @@ export const dorms: Dorm[] = [
     type: apartment,
     slug: "110-st-stephen-street",
     title: "110 St Stephen Street",
+    pricesPoints: [economy, standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -338,6 +368,7 @@ export const dorms: Dorm[] = [
     type: apartment,
     slug: "116-st-stephen-street",
     title: "116 St. Stephen Street",
+    pricesPoints: [economy, standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -357,6 +388,7 @@ export const dorms: Dorm[] = [
     type: apartment,
     slug: "122-st-stephen-street-levine-hall",
     title: "122 St. Stephen Street / Levine Hall",
+    pricesPoints: [economy, standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -377,6 +409,7 @@ export const dorms: Dorm[] = [
     type: apartment,
     slug: "10-coventry",
     title: "10 Coventry",
+    pricesPoints: [standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -402,6 +435,7 @@ export const dorms: Dorm[] = [
     type: apartment,
     slug: "dav",
     title: "Davenport",
+    pricesPoints: [enhanced],
     links: [],
     pages: [
       {
@@ -421,6 +455,7 @@ export const dorms: Dorm[] = [
     type: apartment,
     slug: "west-village",
     title: "West Village",
+    pricesPoints: [enhanced],
     links: [
       {
         name: "WVA Northeastern Housing",
@@ -506,6 +541,7 @@ export const dorms: Dorm[] = [
     type: apartment,
     slug: "319-huntington-ave",
     title: "319 Huntington Ave",
+    pricesPoints: [economy],
     links: [
       {
         name: "Northeastern Housing",
@@ -526,6 +562,7 @@ export const dorms: Dorm[] = [
     type: apartment,
     slug: "337-huntington-ave",
     title: "337 Huntington Ave",
+    pricesPoints: [economy, standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -551,6 +588,7 @@ export const dorms: Dorm[] = [
     type: apartment,
     slug: "407-huntington-ave",
     title: "407 Huntington Ave",
+    pricesPoints: [economy, standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -571,6 +609,7 @@ export const dorms: Dorm[] = [
     type: apartment,
     slug: "780-columbus-ave",
     title: "780 Columbus Ave",
+    pricesPoints: [standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -591,6 +630,7 @@ export const dorms: Dorm[] = [
     type: apartment,
     slug: "burstein-hall",
     title: "Burstein Hall",
+    pricesPoints: [economy, standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -616,6 +656,7 @@ export const dorms: Dorm[] = [
     type: apartment,
     slug: "loftman-hall",
     title: "Loftman Hall",
+    pricesPoints: [standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -641,6 +682,7 @@ export const dorms: Dorm[] = [
     type: apartment,
     slug: "rubenstein-hall",
     title: "Rubenstein Hall",
+    pricesPoints: [economy, standard],
     links: [
       {
         name: "Northeastern Housing",
@@ -658,6 +700,7 @@ export const dorms: Dorm[] = [
     type: apartment,
     slug: "willis-hall",
     title: "Willis Hall",
+    pricesPoints: [standard],
     links: [
       {
         name: "Northeastern Housing",

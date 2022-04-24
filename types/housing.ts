@@ -5,10 +5,16 @@ export interface DormType {
   name: string;
 }
 
-export interface Dorm {
-  type: DormType;
+export interface DormPricePoint {
   slug: string;
+  name: string;
+}
+
+export interface Dorm {
+  slug: string;
+  type: DormType;
   title: string;
+  pricesPoints: DormPricePoint[],
   links: Link[];
   pages?: Link[];
 }
