@@ -43,7 +43,7 @@ export const Expandable = ({
                   id={icon}
                   className={clsx(
                     { "text-gray-darker": open, "text-gray-dark": !open },
-                    "mr-base z-10"
+                    "mr-base"
                   )}
                 ></Icon>
                 <div

@@ -40,7 +40,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           <div
             className={clsx(
               { hidden: !showSidebar },
-              "md:block sticky top-0 bottom-0 left-0"
+              "md:block sticky z-50 top-0 bottom-0 left-0"
             )}
           >
             <Sidebar onCloseClick={() => setShowSidebar(false)}></Sidebar>
