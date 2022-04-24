@@ -13,9 +13,14 @@ return <div key={dormType.slug} className="prose">
 
 <h3>{dormType.name}</h3>
 <section className="grid gap-base grid-cols-2 md:grid-cols-3">
-{dorms.filter(dorm => dorm.type == dormType).map(dorm => {
-return <Block key={dorm.slug} title={dorm.title} href={`/housing/${dorm.slug}`}>{dorm.type.name}</Block>
-})}
+{dorms.filter(dorm => dorm.type == dormType).map(dorm => (
+  <Block 
+    key={dorm.slug} 
+    title={dorm.title} 
+    href={`/housing/${dorm.slug}`}>
+    {dorm.pricesPoints.map((p) => p.name).join(", ")}
+  </Block>
+))}
 </section>
   </div>
 })}
