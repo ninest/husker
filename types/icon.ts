@@ -56,6 +56,7 @@ import {
   FaDoorClosed,
   FaImage,
   FaVideo,
+  FaPlus,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -117,6 +118,7 @@ export const iconMap = {
   dooropen: FaDoorOpen,
   doorclosed: FaDoorClosed,
   image: FaImage,
-  video: FaVideo
+  video: FaVideo,
+  plus: FaPlus
 };
 export type IconId = keyof typeof iconMap;

@@ -35,13 +35,25 @@ const ContactPage = () => {
             value={name}
             onChange={(e) => setName(e.target.value)}
           ></FormField>
+
           <FormField
             name="entry.1613298240"
             label="Content"
             description={
-              fixLinks
-                ? "Please enter the link or link title that is broken."
-                : null
+              fixLinks ? (
+                "Please enter the link or link title that is broken."
+              ) : (
+                <>
+                  Please use Imgur links to submit images.{" "}
+                  <SmartLink
+                    href="https://imgur.com/upload"
+                    className="underline"
+                  >
+                    Upload images on Imgur
+                  </SmartLink>
+                  .
+                </>
+              )
             }
             required
             textarea
@@ -81,7 +93,8 @@ const ContributorsExpandable = () => {
     {
       name: "Ahrav Soi",
       href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      description: "I helped a lot, should definetly be compensated, was good baby",
+      description:
+        "I helped a lot, should definetly be compensated, was good baby",
     },
   ];
   return (

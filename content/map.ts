@@ -240,6 +240,11 @@ export const contentMap: Category[] = [
         href: "https://neuforms3.neu.edu/lfserver/DirectDeposit.xfm",
         description: "SFS Direct Deposit",
       },
+      {
+        name: "Scholarship Application",
+        href: "https://nextgensso.com/sp/startSSO.ping?PartnerIdpId=https://neuidmsso.neu.edu/idp/shibboleth&TargetResource=https://northeastern.scholarships.ngwebsolutions.com/scholarx_studentportal.aspx",
+        description: "Apply for Scholarships",
+      },
     ],
   },
   {

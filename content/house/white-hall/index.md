@@ -18,6 +18,7 @@ import double4 from './house/white-hall/images/double/double4.png'
 import double5 from './house/white-hall/images/double/double5.png'
 import double6 from './house/white-hall/images/double/double6.png'
 
+
 <Expandable title="Standard Double" icon="image">
   <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
     <Image src={double5} height={ 1726} width={2302} quality={50} alt={"White Hall Double 5"}/>
@@ -35,6 +36,15 @@ import double6 from './house/white-hall/images/double/double6.png'
     <YoutubeEmbed videoId="s3b34GOuv-U" />
   </div>
 </Expandable>
+
+<div className="flex">
+  <Button 
+    icon="plus"
+    href={{
+      pathname: "/contribute",
+      query: { name: frontmatter.title },
+    }}> Submit images </Button>
+</div>
 
 ## Reddit Links
 

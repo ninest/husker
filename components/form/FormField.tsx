@@ -4,7 +4,7 @@ import { Spacer } from "../Spacer";
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   label?: string;
-  description?: string | null;
+  description?: string | JSX.Element | null;
   type?: "text" | "password" | "email" | "number" | "tel" | "url";
   textarea?: boolean;
   rows?: number;

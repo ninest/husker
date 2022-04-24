@@ -111,9 +111,6 @@ const ContentPage = ({
   backLink,
   backTitle,
 
-  isCategoryPage,
-  category,
-
   containsLinkSet,
   links,
   pages,

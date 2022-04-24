@@ -60,6 +60,15 @@ import plan1 from './house/international-village/images/plan.jpg'
   </div>
 </Expandable>
 
+<div className="flex">
+  <Button 
+    icon="plus"
+    href={{
+      pathname: "/contribute",
+      query: { name: frontmatter.title },
+    }}> Submit images </Button>
+</div>
+
 ## Reddit Links
 
 <LinkButtonGrid showDescription={true} links={[
@@ -80,5 +89,15 @@ name: "East",
 description: "2013",
 icon: "reddit",
 href: "https://www.reddit.com/r/NEU/comments/1tmot0/has_anyone_lived_in_international_village_east/"
+},
+]} />
+
+## Other
+
+<LinkButtonGrid showDescription={true} links={[
+{
+name: "My Dorm Room Is Secretly Awesome",
+description: "2011",
+href: "https://ithinkincomics.wordpress.com/2011/09/04/my-dorm-room-is-secretly-awesome/"
 },
 ]} />
