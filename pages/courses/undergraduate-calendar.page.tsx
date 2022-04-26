@@ -25,7 +25,7 @@ const UndergraduateCalendarPage = () => {
       <Spacer />
 
       <div className="wrapper">
-        <Button href={calendarHref2023} icon="download">
+        <Button href={calendarHref2022} icon="download">
           Download
         </Button>
       </div>
@@ -35,7 +35,7 @@ const UndergraduateCalendarPage = () => {
         <h2>2022-2023</h2>
       </div>
       <Spacer />
-      <PDFEmbed href={calendarHref2022}></PDFEmbed>
+      <PDFEmbed href={calendarHref2023}></PDFEmbed>
     </>
   );
 };

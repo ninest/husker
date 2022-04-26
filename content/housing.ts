@@ -436,7 +436,13 @@ export const dorms: Dorm[] = [
     slug: "dav",
     title: "Davenport",
     pricesPoints: [enhanced],
-    links: [],
+    links: [
+      {
+        name: "Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://www.northeastern.edu/housing/davenport-commons-a-b/",
+      },
+    ],
     pages: [
       {
         name: "Dav A NEUDorms",
@@ -453,84 +459,152 @@ export const dorms: Dorm[] = [
 
   {
     type: apartment,
-    slug: "west-village",
-    title: "West Village",
+    slug: "west-village-a",
+    title: "West Village A",
     pricesPoints: [enhanced],
     links: [
       {
-        name: "WVA Northeastern Housing",
+        name: "Northeastern Housing",
         description: "Dorm specifications",
         href: "https://www.northeastern.edu/housing/west-village-a/",
       },
+    ],
+    pages: [
       {
-        name: "WVB Northeastern Housing",
+        name: "NEUDorms",
+        description: "Images and videos from NEUDorms",
+        href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-a",
+      },
+    ],
+  },
+  {
+    type: apartment,
+    slug: "west-village-b",
+    title: "West Village B",
+    pricesPoints: [enhanced],
+    links: [
+      {
+        name: "Northeastern Housing",
         description: "Dorm specifications",
         href: "https://www.northeastern.edu/housing/west-village-b/",
       },
+    ],
+    pages: [
       {
-        name: "WVC Northeastern Housing",
+        name: "NEUDorms",
+        description: "Images and videos from NEUDorms",
+        href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-b",
+      },
+    ],
+  },
+  {
+    type: apartment,
+    slug: "west-village-c",
+    title: "West Village C",
+    pricesPoints: [enhanced],
+    links: [
+      {
+        name: "Northeastern Housing",
         description: "Dorm specifications",
         href: "https://www.northeastern.edu/housing/west-village-c/",
       },
+    ],
+    pages: [
       {
-        name: "WVD Northeastern Housing",
-        description: "Dorm specifications",
-        href: "https://www.northeastern.edu/housing/west-village-d/",
+        name: "NEUDorms",
+        description: "Images and videos from NEUDorms",
+        href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-c",
       },
+    ],
+  },
+
+  {
+    type: apartment,
+    slug: "west-village-e",
+    title: "West Village E",
+    pricesPoints: [enhanced],
+    links: [
       {
-        name: "WVD Northeastern Housing",
+        name: "Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://www.northeastern.edu/housing/west-village-e/",
+      },
+    ],
+    pages: [
+      {
+        name: "NEUDorms",
+        description: "Images and videos from NEUDorms",
+        href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-e",
+      },
+    ],
+  },
+  {
+    type: apartment,
+    slug: "west-village-f",
+    title: "West Village F",
+    pricesPoints: [enhanced],
+    links: [
+      {
+        name: "Northeastern Housing",
         description: "Dorm specifications",
         href: "https://www.northeastern.edu/housing/west-village-f/",
       },
       {
-        name: "WVG Northeastern Housing",
+        name: "Floor Plans",
+        description: "Map",
+        href: "https://www.northeastern.edu/housing/dnaesantoelrihtriseertn/west-village-f/",
+      },
+    ],
+    pages: [
+      {
+        name: "NEUDorms",
+        description: "Images and videos from NEUDorms",
+        href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-f",
+      },
+    ],
+  },
+
+  {
+    type: apartment,
+    slug: "west-village-g",
+    title: "West Village G",
+    pricesPoints: [enhanced],
+    links: [
+      {
+        name: "Northeastern Housing",
         description: "Dorm specifications",
         href: "https://www.northeastern.edu/housing/west-village-g/",
       },
       {
-        name: "WVH Northeastern Housing",
+        name: "Floor Plan",
+        description: "Map",
+        href: "https://www.northeastern.edu/housing/dnaesantoelrihtriseertn/west-village-g/",
+      },
+    ],
+    pages: [
+      {
+        name: "NEUDorms",
+        description: "Images and videos from NEUDorms",
+        href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-g",
+      },
+    ],
+  },
+
+  {
+    type: apartment,
+    slug: "west-village-h",
+    title: "West Village H",
+    pricesPoints: [enhanced],
+    links: [
+      {
+        name: "Northeastern Housing",
         description: "Dorm specifications",
         href: "https://www.northeastern.edu/housing/west-village-h/",
       },
     ],
     pages: [
       {
-        name: "WVA NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-a",
-      },
-      {
-        name: "WVB NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-b",
-      },
-      {
-        name: "WVC NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-c",
-      },
-      {
-        name: "WVD NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-d",
-      },
-      {
-        name: "WVE NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-e",
-      },
-      {
-        name: "WVF NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-f",
-      },
-      {
-        name: "WVG NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-g",
-      },
-      {
-        name: "WVH NEUDorms",
+        name: "NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-h-21",
       },

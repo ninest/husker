@@ -27,6 +27,11 @@ module.exports = {
         permanent: true,
       },
       {
+        source: "/dining",
+        destination: "/huskycard/dining",
+        permanent: true,
+      },
+      {
         source: "/huskycard/:path",
         destination: "/husky-card/:path",
         permanent: true,
@@ -39,6 +44,11 @@ module.exports = {
       {
         source: "/housing/:path",
         destination: "/house/:path",
+        permanent: false,
+      },
+      {
+        source: "/house/west-village",
+        destination: "/house/west-village-a",
         permanent: false,
       },
     ];

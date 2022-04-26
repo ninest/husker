@@ -14,7 +14,7 @@ import gym1 from './house/the-westin/images/gym/weights1.jpg'
 import gym2 from './house/the-westin/images/gym/weights2.jpg'
 import gym3 from './house/the-westin/images/gym/weights3.jpg'
 
-<Expandable title="Rooms" icon="image">
+<Expandable title="Double" icon="image">
   <Image src={room1} height={ 3456} width={4608} alt={"Westin Room 1503"} />
 </Expandable>
 
