@@ -56,6 +56,8 @@ export async function mdxFromFile<T>(filepath: string) {
         ".png": "file",
         ".jpg": "file",
         ".jpeg": "file",
+        ".mp4": "file",
+        ".pdf": "file",
       };
 
       options.publicPath = filepath;

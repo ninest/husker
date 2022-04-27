@@ -18,7 +18,12 @@ const IndexPage = () => {
             others? Click the button below to contribute!
           </p>
 
-          <Button href="/contribute">Contribute</Button>
+          <div className="flex gap-base">
+            <Button href="/contribute">Contribute</Button>
+            <Button href="https://discord.gg/XVUT7jRTD3" icon="discord">
+              Discord
+            </Button>
+          </div>
         </Expandable>
 
         <div className="mt-lg space-y-xl">

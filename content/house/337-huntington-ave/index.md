@@ -7,7 +7,7 @@ updatedAt: 2022-04-14
 pageType: dorm
 ---
 
-<Expandable title="Dorm Information" variant="gray" open>
+<Expandable title="Dorm Information" variant="gray">
 
 - Economy 2-, 3-, and 4-person apartments
   - Studio double apartments

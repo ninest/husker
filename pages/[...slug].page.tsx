@@ -1,5 +1,4 @@
 import { GetStaticPaths, GetStaticProps } from "next";
-import Image from "next/image";
 import { getMDXComponent } from "mdx-bundler/client";
 import { Spacer } from "@/components/Spacer";
 import { contentMap, pages } from "@/content/map";
@@ -8,15 +7,12 @@ import { getPage } from "@/lib/pages";
 import { Category, Link } from "@/types/category";
 import { Page } from "@/types/page";
 import { NextSeo } from "next-seo";
-import { Block } from "@/components/Block";
-import clsx from "clsx";
 import { Button } from "@/components/Button";
 import { LinkSet } from "@/components/LinkSet";
 import { dorms } from "@/content/housing";
-import { SmartLink } from "@/components/SmartLink";
-import { LinkButtonGrid } from "@/components/LinkButton";
-import { Expandable } from "@/components/Expandable";
 import { ArticleHead } from "@/components/ArticleHead";
+import { substitutedComponents } from "@/components/substitutedComponents";
+
 export const getStaticPaths: GetStaticPaths = async () => {
   const categoryPaths = contentMap.map((category) => `/${category.slug}`);
   const otherPagePaths = pages;
@@ -149,41 +145,7 @@ const ContentPage = ({
 
         {Markdown && (
           <div className="prose">
-            <Markdown
-              components={{
-                /* TODO: move to external file */
-                Block,
-                Expandable,
-                a: ({ className, href, ...props }) => {
-                  return (
-                    <SmartLink
-                      // @ts-ignore
-                      href={href}
-                      className={clsx(className, "underline")}
-                    >
-                      {props.children}
-                    </SmartLink>
-                  );
-                },
-                Button,
-                Spacer,
-                LinkButtonGrid,
-                /* Next image */
-                Image: (props: any) => {
-                  const src = `/notouchy/${props.src}`;
-
-                  return (
-                    <div className="flex justify-center mobile-full-bleed">
-                      <Image
-                        {...props}
-                        src={src}
-                        className="md:rounded bg-gray-lightest"
-                      ></Image>
-                    </div>
-                  );
-                },
-              }}
-            ></Markdown>
+            <Markdown components={substitutedComponents}></Markdown>
           </div>
         )}
 
