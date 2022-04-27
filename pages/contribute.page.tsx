@@ -20,6 +20,28 @@ const ContactPage = () => {
     <>
       <ArticleHead title="Contribute"></ArticleHead>
       <article className="wrapper">
+        <Expandable title="How to contribute?">
+          <div className="prose">
+            <p>To contribute, you may either:</p>
+
+            <ul>
+              <li>Fill out this form</li>
+              <li>
+                Join the{" "}
+                <SmartLink href="https://discord.gg/XVUT7jRTD3" underline>
+                  Discord server
+                </SmartLink>
+              </li>
+              <li>
+                Make a{" "}
+                <SmartLink href="https://github.com/ninest/huskinfo" underline>
+                  pull request
+                </SmartLink>
+              </li>
+            </ul>
+          </div>
+        </Expandable>
+        <Spacer />
         <ContributorsExpandable></ContributorsExpandable>
 
         <Spacer size="md" />

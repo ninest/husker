@@ -58,6 +58,7 @@ import {
   FaVideo,
   FaPlus,
   FaHandPaper,
+  FaDiscord,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -122,5 +123,6 @@ export const iconMap = {
   video: FaVideo,
   plus: FaPlus,
   hand: FaHandPaper,
+  discord: FaDiscord,
 };
 export type IconId = keyof typeof iconMap;

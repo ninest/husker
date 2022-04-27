@@ -15,10 +15,15 @@ export const Footer = () => {
       icon: "outlineheart",
       href: "/contribute",
     },
+    // {
+    //   title: "Status",
+    //   icon: "exclamationtriangle",
+    //   href: "https://northeastern.statuspage.io/",
+    // },
     {
-      title: "Status",
-      icon: "exclamationtriangle",
-      href: "https://northeastern.statuspage.io/",
+      title: "Discord",
+      icon: "discord",
+      href: "https://discord.gg/XVUT7jRTD3",
     },
   ];
   return (
