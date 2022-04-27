@@ -7,6 +7,15 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
+<Expandable title="Dorm Information" variant="gray">
+
+- Hotel rooms 
+- Air conditioning
+- Includes pillows, bedsheets, blankets, microfrige
+- Free Charlie Card
+
+</Expandable>
+
 ## Images
 
 import room1 from './house/the-westin/images/room1.jpg'

@@ -7,6 +7,14 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
+<Expandable title="Dorm Information" variant="gray">
+
+- Hotel rooms 
+- Air conditioning
+
+</Expandable>
+
+
 ## Reddit Links
 
 <LinkButtonGrid showDescription={true} links={[

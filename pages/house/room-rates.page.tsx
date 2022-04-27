@@ -8,15 +8,15 @@ const RoomRatePage = () => {
   const roomRates = [
     {
       title: "First Year",
-      href: "/files/room-rates/first-year-2022.pdf",
+      href: "/files/housing/room-rates/first-year-2022.pdf",
     },
     {
       title: "Upperclassmen",
-      href: "/files/room-rates/upperclassmen-2022.pdf",
+      href: "/files/housing/room-rates/upperclassmen-2022.pdf",
     },
     {
       title: "Graduate/Law",
-      href: "/files/room-rates/graduate-law-2022.pdf",
+      href: "/files/housing/room-rates/graduate-law-2022.pdf",
     },
   ];
 
@@ -26,20 +26,22 @@ const RoomRatePage = () => {
         title="Housing Rates"
         description="Northeastern housing rates: how much are you paying?"
       />
-      <div className="wrapper">
-        <ArticleHead
-          backButtonHref="/housing"
-          backButtonText="Housing"
-          title="Room Rates 2021-2022"
-        ></ArticleHead>
-      </div>
+
+      <ArticleHead
+        backButtonHref="/housing"
+        backButtonText="Housing"
+        title="Room Rates 2021-2022"
+      ></ArticleHead>
 
       <div className="prose">
         {roomRates.map((cat) => (
-          <>
+          <div key={cat.href}>
             <div className="wrapper">
               <h2>{cat.title}</h2>
             </div>
+
+            <Spacer />
+
             <div>
               <PDFEmbed
                 href={cat.href}
@@ -49,13 +51,17 @@ const RoomRatePage = () => {
                 }}
               ></PDFEmbed>
             </div>
-            <p className="wrapper">
+
+            <Spacer />
+
+            <div className="wrapper">
               <Button href={cat.href} icon="download">
                 Download
               </Button>
-            </p>
+            </div>
+
             <Spacer />
-          </>
+          </div>
         ))}
       </div>
     </>

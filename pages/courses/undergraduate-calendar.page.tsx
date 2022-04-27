@@ -20,6 +20,8 @@ const UndergraduateCalendarPage = () => {
         title="Undergraduate Calendar 2021-2023"
       ></ArticleHead>
 
+      <Spacer />
+
       <PDFEmbed href={calendarHref2022}></PDFEmbed>
 
       <Spacer />

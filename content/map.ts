@@ -256,7 +256,7 @@ export const contentMap: Category[] = [
     slug: "house",
     links: [
       {
-        name: "Housing online",
+        name: "Housing Online",
         href: "https://neuidmsso.neu.edu/rmsmercury",
         description: "Apply for housing, roommate information, requests",
         icon: "home",
@@ -272,6 +272,12 @@ export const contentMap: Category[] = [
         href: "https://workrequest.neu.edu/logon.aspx?ReturnUrl=%2fFAWorkRequestForm.aspx",
         description: "Request a repair",
         icon: "wrench",
+      },
+      {
+        name: "Apartment Capacity",
+        href: "/house/capacity",
+        description: "Housing capacity and size",
+        icon: "moneybillalt",
       },
     ],
     pages: [

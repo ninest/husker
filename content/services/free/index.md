@@ -22,7 +22,7 @@ See [Husky how-to](https://news.northeastern.edu/2012/01/17/huskycard/).
 ## Museums
 
 - [Museum of Fine Arts Boston (MFA)](https://mfa.org/tickets): Free general admission tickets and $7 special exhibition tickets are available to students, faculty, and staff from Northeastern University in person with a valid student or faculty ID. Offer not valid Wednesdays 3–4 pm or in advance.
-- [Isabella Steward Gardner Museum](https://www.gardnermuseum.org/visit/admissions): $5
+- [Isabella Steward Gardner Museum](https://www.gardnermuseum.org/visit/admissions): $13 with student ID, $20 otherwise
 - [Institute of Contemporary Art (ICA)](https://www.icaboston.org/page/university-membership): $10, free admission Thursdays 5–9 PM; free tickets with the code `NEU2022ICA`.
 
 {/* https://www.instagram.com/p/CL46HQoFswY/ */}
@@ -53,8 +53,6 @@ See [Husky how-to](https://news.northeastern.edu/2012/01/17/huskycard/).
 - [AVIS Car Rentals](https://www.avis.com/en/association/A672012): Up to 25% off a rental. Link already includes code (`A672012`).
 - [Dollar Flight Club](https://dollarflightclub.com/student-and-teachers-discount/)
 
-
-If you stay in [The Sheraton](/housing/the-sheraton) or [The Westin](/housing/the-westin) , you'll get the Charlie Card (MBTA) unlimited pass for the semester.
 
 ## Video, music, and streaming
 
