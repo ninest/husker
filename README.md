@@ -1,6 +1,12 @@
-<h1 align="center"><a href="https://huskinfo.vercel.app/">🐾 NEU Links</a></h1>
+<h1 align="center"><a href="https://husker.vercel.app/">🐾 Husker</a></h1>
 
 <p align="center">Useful Northeastern resources and links</p>
+
+## Contributing
+
+- Fill out the [contribution form](https://husker.vercel.app/contribute/)
+- Message me on [reddit](https://www.reddit.com/user/mapuniverse)
+- Join the [Discord server](https://discord.gg/XVUT7jRTD3)
 
 ## Build setup
 
