@@ -125,7 +125,7 @@ export const contentMap: Category[] = [
       {
         name: "Degree Audit",
         href: "https://prod-web.neu.edu/wasapp/DARSStudent/RequestAuditServlet",
-        description: "View myPaws degree audit and requirements",
+        description: "View undergraduate degree audit",
         icon: "invoice",
       },
       {
@@ -139,6 +139,12 @@ export const contentMap: Category[] = [
         description: "Undergraduate Calendar",
         href: "/courses/undergraduate-calendar",
         icon: "calendar",
+      },
+      {
+        name: "Degree Audit Graduate, Law, and PhD",
+        href: "https://prod-web.neu.edu/wasapp/DARSStudent/RequestAuditServlet",
+        description: "Degree for Graduate, Law, amd PhD students",
+        icon: "invoice",
       },
     ],
     pages: [
