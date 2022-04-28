@@ -14,6 +14,9 @@ export const highlightedSidebarLinks = [
     href: "https://huskycardcenter.neu.edu/student/openmydoor.php",
     icon: "doorclosed",
   },
+  { text: "Discord", icon: "discord", href: "https://discord.gg/XVUT7jRTD3" },
+
+  // No longer required:
   // {
   //   text: "Wellness",
   //   href: "https://wellness-check.northeastern.edu/?utm_source=student&utm_medium=portal&utm_campaign=reopening",

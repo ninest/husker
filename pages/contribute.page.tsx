@@ -118,6 +118,11 @@ const ContributorsExpandable = () => {
       description:
         "I helped a lot, should definetly be compensated, was good baby",
     },
+    {
+      name: "Altruistic_Biscuits",
+      href: "https://www.reddit.com/user/Altruistic_Biscuits/",
+      description: "Housing images",
+    },
   ];
   return (
     <Expandable icon="smilebeam" title="Contributors list">
