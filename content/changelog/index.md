@@ -4,6 +4,11 @@ description: How has this site improved?
 lastUpdated: 2022-03-27
 ---
 
+## 2022-04-28
+
+- Add more housing images
+- Remove Google Analytics
+
 ## 2022-03-27
 
 - Replace Testing with Open My Door link

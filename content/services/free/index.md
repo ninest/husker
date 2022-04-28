@@ -47,6 +47,7 @@ See [Husky how-to](https://news.northeastern.edu/2012/01/17/huskycard/).
 
 ## Transport
 
+- <Husky /> [MBTA Pass](https://www.northeastern.edu/commutingservices/mbta/student-discounted-semester-pass-program/): 11% discount on MBTA pass in Fall and Spring.
 - [Amtrak](https://www.amtrak.com/student-discounts)
 - <Husky /> [Bluebikes](https://www.northeastern.edu/commutingservices/bicycling/discounted-blue-bike-sharing-program/): Use the program code `HUSKY`.
 - <Husky /> [Zipcar](https://www.zipcar.com/universities/northeastern-university)
