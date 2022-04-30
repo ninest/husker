@@ -1,0 +1,57 @@
+import { ArticleHead } from "@/components/ArticleHead";
+import { GetServerSideProps } from "next/types";
+import { JSDOM } from "jsdom";
+
+export const getServerSideProps: GetServerSideProps = async ({ params }) => {
+  const pageId = params?.slug![0];
+  const url = `https://huskypedia.miraheze.org/w/api.php?action=parse&page=${pageId}&format=json`;
+
+  const res = await fetch(url);
+  const data = await res.json();
+
+  const title = data.parse.title;
+  const html = data.parse.text["*"];
+
+  const content = new JSDOM(html);
+  const one =
+    content.window.document.getElementsByClassName("mw-parser-output")[0];
+
+  // Remove all edit tags
+  const editTags = one.querySelectorAll(".mw-editsection");
+  editTags.forEach((et) => et.remove());
+
+  // Change all a tags
+  const aTags = one.querySelectorAll("a");
+
+  // underline tailwind class
+  aTags.forEach((a) => (a.className += " underline"));
+
+  // Replace link if links to another wiki page
+  aTags.forEach((a) => {
+    if (a.href.includes("huskypedia.miraheze.org")) {
+      const pageId = a.href.split("wiki/")[1];
+      a.href = `/wiki/${pageId}`;
+    }
+  });
+
+  return { props: { title, html: one.innerHTML } };
+};
+
+interface WikiPageProps {
+  title: string;
+  html: string;
+}
+
+const WikiPage = ({ title, html }: WikiPageProps) => {
+  return (
+    <>
+      <ArticleHead backButtonHref="/wiki" backButtonText="Wiki" title={title} />
+
+      <article className="wrapper">
+        <div className="prose" dangerouslySetInnerHTML={{ __html: html }}></div>
+      </article>
+    </>
+  );
+};
+
+export default WikiPage;
