@@ -23,7 +23,7 @@ export const Footer = () => {
     {
       title: "Discord",
       icon: "discord",
-      href: "https://discord.gg/XVUT7jRTD3",
+      href: "https://discord.gg/j7WkFct2rY",
     },
   ];
   return (

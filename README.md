@@ -6,7 +6,7 @@
 
 - Fill out the [contribution form](https://husker.vercel.app/contribute/)
 - Message me on [reddit](https://www.reddit.com/user/mapuniverse)
-- Join the [Discord server](https://discord.gg/XVUT7jRTD3)
+- Join the [Discord server](https://discord.gg/j7WkFct2rY)
 
 ## Build setup
 

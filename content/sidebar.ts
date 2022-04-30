@@ -14,7 +14,7 @@ export const highlightedSidebarLinks = [
     href: "https://huskycardcenter.neu.edu/student/openmydoor.php",
     icon: "doorclosed",
   },
-  { text: "Discord", icon: "discord", href: "https://discord.gg/XVUT7jRTD3" },
+  { text: "Discord", icon: "discord", href: "https://discord.gg/j7WkFct2rY" },
 
   // No longer required:
   // {

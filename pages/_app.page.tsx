@@ -1,10 +1,12 @@
 import type { AppProps } from "next/app";
 import { DefaultSeo } from "next-seo";
+import clsx from "clsx";
+
 import "../styles/globals.scss";
+
 import { MobileNavbar } from "@/components/MobileNavbar";
 import { Sidebar } from "@/components/Sidebar";
 import { useState } from "react";
-import clsx from "clsx";
 import { ThemeProvider } from "@/lib/theme";
 import { Footer } from "@/components/Footer";
 import { Spacer } from "@/components/Spacer";
@@ -34,11 +36,11 @@ function MyApp({ Component, pageProps }: AppProps) {
 
           <main className={clsx("md:flex")}>
             {/* 
-          TODO
-          Wrapping this element in a div will fix the safari scroll bug
-          https://stackoverflow.com/q/51792783/8677167
-          But it causes an issue with the sidebar
-          */}
+              TODO
+              Wrapping this element in a div will fix the safari scroll bug
+              https://stackoverflow.com/q/51792783/8677167
+              But it causes an issue with the sidebar
+            */}
             <div
               className={clsx(
                 { hidden: !showSidebar },

@@ -8,7 +8,7 @@ const IndexPage = () => {
   return (
     <>
       <article className="mt-base wrapper">
-        <Expandable
+        {/* <Expandable
           title="Would you like to contribute to Husker?"
           containsProse
         >
@@ -20,13 +20,13 @@ const IndexPage = () => {
 
           <div className="flex gap-base">
             <Button href="/contribute">Contribute</Button>
-            <Button href="https://discord.gg/XVUT7jRTD3" icon="discord">
+            <Button href="https://discord.gg/j7WkFct2rY" icon="discord">
               Discord
             </Button>
           </div>
-        </Expandable>
+        </Expandable> */}
 
-        <div className="mt-lg space-y-xl">
+        <div className="space-y-xl">
           {contentMap.map((category) => {
             return (
               <LinkSet

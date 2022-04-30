@@ -28,7 +28,7 @@ const ContactPage = () => {
               <li>Fill out this form</li>
               <li>
                 Join the{" "}
-                <SmartLink href="https://discord.gg/XVUT7jRTD3" underline>
+                <SmartLink href="https://discord.gg/j7WkFct2rY" underline>
                   Discord server
                 </SmartLink>
               </li>
@@ -121,6 +121,11 @@ const ContributorsExpandable = () => {
     {
       name: "Altruistic_Biscuits",
       href: "https://www.reddit.com/user/Altruistic_Biscuits/",
+      description: "Housing images",
+    },
+    {
+      name: "level 3",
+      href: "https://www.reddit.com/user/thecrashmaverick/",
       description: "Housing images",
     },
   ];
