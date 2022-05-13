@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 module.exports = {
-  trailingSlash: true,
+  trailingSlash: false,
   reactStrictMode: true,
   pageExtensions: ["page.tsx", "page.ts", "page.jsx", "page.js"],
   async redirects() {
