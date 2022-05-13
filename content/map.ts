@@ -142,7 +142,7 @@ export const contentMap: Category[] = [
       },
       {
         name: "Degree Audit Graduate, Law, and PhD",
-        href: "https://prod-web.neu.edu/wasapp/DARSStudent/RequestAuditServlet",
+        href: "https://uagr.northeastern.edu/SelfService",
         description: "Degree for Graduate, Law, amd PhD students",
         icon: "invoice",
       },
