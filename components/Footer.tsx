@@ -27,7 +27,7 @@ export const Footer = () => {
     },
   ];
   return (
-    <div className="wrapper p-md flex items-center space-x-lg">
+    <div className="wrapper py-md flex items-center space-x-lg">
       {links.map((link) => {
         return (
           <SmartLink

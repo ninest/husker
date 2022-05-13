@@ -1,6 +1,8 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { GetServerSideProps } from "next/types";
 import { JSDOM } from "jsdom";
+import { Spacer } from "@/components/Spacer";
+import { Button } from "@/components/Button";
 
 export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const pageId = params?.slug![0];
@@ -34,21 +36,30 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
     }
   });
 
-  return { props: { title, html: one.innerHTML } };
+  return { props: { pageId, title, html: one.innerHTML } };
 };
 
 interface WikiPageProps {
+  pageId: string;
   title: string;
   html: string;
 }
 
-const WikiPage = ({ title, html }: WikiPageProps) => {
+const WikiPage = ({ pageId, title, html }: WikiPageProps) => {
+  const editHref = `https://huskypedia.miraheze.org/w/index.php?title=${pageId}&action=edit`;
   return (
     <>
       <ArticleHead backButtonHref="/wiki" backButtonText="Wiki" title={title} />
 
       <article className="wrapper">
         <div className="prose" dangerouslySetInnerHTML={{ __html: html }}></div>
+
+        <Spacer size="xl" />
+        <div className="flex items-center space-x-base">
+          <Button href={editHref} icon="pen" size="sm">
+            Edit
+          </Button>
+        </div>
       </article>
     </>
   );

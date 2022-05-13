@@ -27,6 +27,7 @@
     "rehype-slug": "^5.0.1",
     "remark-code-meta": "^0.4.1",
     "remark-math": "^5.1.1",
+    "remark-mdx-images": "^1.0.3",
     "sass": "^1.45.1"
   },
   "devDependencies": {
