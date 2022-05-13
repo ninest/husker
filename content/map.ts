@@ -146,6 +146,11 @@ export const contentMap: Category[] = [
         description: "Degree for Graduate, Law, amd PhD students",
         icon: "invoice",
       },
+      {
+        name: "Registrar Forms",
+        href: "https://northeastern.secure.force.com/public/apex/ITSASCMainEntry",
+        description: "Registrar Forms",
+      },
     ],
     pages: [
       {
