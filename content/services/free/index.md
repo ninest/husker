@@ -66,7 +66,7 @@ See [Husky how-to](https://news.northeastern.edu/2012/01/17/huskycard/).
 
 ## Apps and services
 
-- <Husky /> [Adobe CC](https://adobe.northeastern.edu/)
+- <Husky /> [Adobe CC](https://adobe.northeastern.edu/): [instructions](https://service.northeastern.edu/ogs?id=kb_article&sys_id=0dc2194647f289d0c1c8874c346d43b1)
 - <Husky /> [Microsoft 365](https://www.microsoft.com/en-us/education/products/office): Sign in with your northeastern.edu email. Free Office 365 apps, 5 TB of OneDrive cloud storage, and other services.
 - <Husky /> [Zoom](https://northeastern.zoom.us/)
 - <Husky /> [Google Services]( https://service.northeastern.edu/tech?id=kb_article&sys_id=f5fbc2c11b3fb4d058845420604bcba1)

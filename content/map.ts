@@ -341,6 +341,11 @@ export const contentMap: Category[] = [
         href: "https://neu.onthehub.com/WebStore/Security/SignIn.aspx?rurl=%2fWebStore%2fProductsByMajorVersionList.aspx%3f",
         description: "Free and discounted software",
       },
+      {
+        name: "Adobe CC",
+        href: "https://adobe.northeastern.edu/",
+        description: "Access Adobe CC for free",
+      },
     ],
     pages: [
       {
