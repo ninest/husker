@@ -72,12 +72,15 @@ See [Husky how-to](https://news.northeastern.edu/2012/01/17/huskycard/).
 - <Husky /> [Google Services]( https://service.northeastern.edu/tech?id=kb_article&sys_id=f5fbc2c11b3fb4d058845420604bcba1)
 - <Husky /> [Headspace](https://work.headspace.com/northeastern/member-enroll): Meditation, mindfulness, and sleep. If your NU ID starts with `00`, try entering only the numbers after it.
 - <Husky /> [OnTheHub](https://neu.onthehub.com/WebStore/Security/SignIn.aspx?rurl=%2fWebStore%2fProductsByMajorVersionList.aspx%3f): Free and discounted software (VMware, Windows, and more).
+- [JetBrains IDEs](https://www.jetbrains.com/community/education/): Free education license.
 - [Azure](https://azureforeducation.microsoft.com/devtools)
 - [Notion](https://www.notion.so/product/notion-for-education): Students get the pro plan for free.
 - [Craft.do](https://dollarflightclub.com/student-and-teachers-discount/): Free 1-year license for students and teachers, reapply every 1 year for 5 years.
 - [Figma](https://www.figma.com/education/)
 - [Lucidchart](https://lucidco.zendesk.com/hc/en-us/articles/360049831771-Get-Started-with-an-Educational-Account): Free with .edu email address.
 - [Milanote](https://help.milanote.com/en/articles/3600867-can-i-have-a-discount): Contact support for a discount.
+- [[Wolfram Alpha](https://www.wolframalpha.com/pro/pricing/students)]: Discounted for students: $5 for students, $7.25 per month otherwise. [Mathematica] also discounted for students.
+- 
 
 ## Academic and career
 

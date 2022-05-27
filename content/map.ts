@@ -93,6 +93,11 @@ export const contentMap: Category[] = [
         description: "Free stuff students can get",
         href: "/services/free",
       },
+      {
+        name: "Student Enrollment and Degree Verification",
+        description: "Enrollment and degree",
+        href: "https://registrar.northeastern.edu/article/student-enrollment-degree-verification/",
+      },
     ],
   },
 
