@@ -1,14 +1,14 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { Button } from "@/components/Button";
 import { Expandable } from "@/components/Expandable";
-import { Form } from "@/components/form/Form";
 import { FormField } from "@/components/form/FormField";
 import { SmartLink } from "@/components/SmartLink";
 import { Spacer } from "@/components/Spacer";
 import { useRouter } from "next/router";
 import { useState } from "react";
-import { z } from "zod";
 import { useForm } from "react-hook-form";
+import { z } from "zod";
+import { zodResolver } from "@hookform/resolvers/zod";
 
 const contributeFormSchema = z.object({
   name: z.string().optional(),
@@ -31,6 +31,7 @@ const ContactPage = () => {
     reset,
     control,
   } = useForm<ContributeForm>({
+    resolver: zodResolver(contributeFormSchema),
     defaultValues: {
       name: (initialName as string) ?? "",
       content: "",
@@ -41,8 +42,7 @@ const ContactPage = () => {
   const [submitted, setSubmitted] = useState(false);
 
   const onSubmit = handleSubmit(async (data) => {
-    // TODO: change form
-    const formUrl = `https://docs.google.com/forms/d/e/1FAIpQLSc8sKaaGFdwlGBj8-gfvYNtda6voEc-9v4AeH7oUAB2YfQqsw/formResponse?usp=pp_url&entry.1536758950=${data.name}&entry.1410925369=${data.message}&entry.2037984550=${data.contact}`;
+    const formUrl = `https://docs.google.com/forms/d/e/1FAIpQLSdQ8vhyic8Z5lxnBw9643UnqPxN2MIfssLYz32OBW_Vhn_X9A/formResponse?usp=pp_url&entry.770504043=${data.name}&entry.1613298240=${data.content}&entry.1321358172=${data.credit}`;
     try {
       // CORS bypasser
       await fetch(`https://api.codetabs.com/v1/proxy?quest=${formUrl}`);
@@ -110,10 +110,15 @@ const ContactPage = () => {
                 </>
               )
             }
-            required
             textarea
-            minLength={15}
           ></FormField>
+
+          <FormField
+            control={control}
+            name="credit"
+            label="Credit"
+            description="If you would like to be credited, leave your Reddit/Discord username or website."
+          />
 
           <fieldset className="flex">
             <Button type="submit" variant="gray" disabled={isSubmitting}>
