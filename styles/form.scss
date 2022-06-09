@@ -2,7 +2,7 @@
   .form {
     &-input {
       @apply border-2 font-medium rounded outline-none bg-gray-50;
-      @apply w-full md:w-4/6 p-xs;
+      @apply p-xs;
       @apply text-gray placeholder:text-gray-lighter;
       @apply focus:border-gray-light;
     }
