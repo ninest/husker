@@ -1,3 +1,4 @@
+import { IconId } from "@/types/icon";
 import {
   createContext,
   ReactNode,
@@ -12,13 +13,23 @@ const SettingsContext = createContext<SettingsContextValue>(
 );
 
 interface SettingsContextValue {
+  settings: Settings;
   setColors: () => void;
   setOpenLinksInNewTab: (openInNewTab: boolean) => void;
+  setFavorites: (favorites: Favorite[]) => void;
+}
+
+interface Favorite {
+  icon: string;
+  name: string;
+  href: string;
+  description?: string;
 }
 
 interface Settings {
   // colors: Object;
   openLinksInNewTab: boolean;
+  favorites: Favorite[];
 }
 
 // For link sets
@@ -35,6 +46,7 @@ type Color =
 const defaultSettings: Settings = {
   // colors: {
   openLinksInNewTab: false,
+  favorites: [],
 };
 
 export const SettingsProvider = ({ children }: { children: ReactNode }) => {
@@ -44,11 +56,16 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
     // Get initial settings from local storage
     const loadedSettings = storage.get<Settings>("settings", defaultSettings);
     setSettings(loadedSettings);
-  });
+  }, []);
 
   const saveSettings = () => {
     storage.save<Settings>("settings", settings);
   };
+
+  // Auto save settings on change
+  useEffect(() => {
+    saveSettings();
+  }, [settings]);
 
   const setColors = () => {
     // TODO: implement
@@ -59,11 +76,19 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
       ...settings,
       openLinksInNewTab: openInNewTab,
     });
-    saveSettings();
+  };
+
+  const setFavorites = (favorites: Favorite[]) => {
+    setSettings({
+      ...settings,
+      favorites,
+    });
   };
 
   return (
-    <SettingsContext.Provider value={{ setColors, setOpenLinksInNewTab }}>
+    <SettingsContext.Provider
+      value={{ settings, setColors, setOpenLinksInNewTab, setFavorites }}
+    >
       {children}
     </SettingsContext.Provider>
   );

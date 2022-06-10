@@ -1,20 +1,57 @@
 import { ArticleHead } from "@/components/ArticleHead";
-import { BackButton } from "@/components/BackButton";
 import { Button } from "@/components/Button";
 import { Expandable } from "@/components/Expandable";
-import { Form } from "@/components/form/Form";
 import { FormField } from "@/components/form/FormField";
 import { SmartLink } from "@/components/SmartLink";
 import { Spacer } from "@/components/Spacer";
-import { Title } from "@/components/title";
 import { useRouter } from "next/router";
 import { useState } from "react";
+import { useForm } from "react-hook-form";
+import { z } from "zod";
+import { zodResolver } from "@hookform/resolvers/zod";
+
+const contributeFormSchema = z.object({
+  name: z.string().optional(),
+  content: z
+    .string()
+    .min(15, "The content is too short! Please add a little more!"),
+  credit: z.string().optional(),
+});
+
+type ContributeForm = z.infer<typeof contributeFormSchema>;
 
 const ContactPage = () => {
   const router = useRouter();
 
   const { name: initialName, fixLinks } = router.query;
-  const [name, setName] = useState(initialName ?? "");
+
+  const {
+    handleSubmit,
+    formState: { isSubmitting },
+    reset,
+    control,
+  } = useForm<ContributeForm>({
+    resolver: zodResolver(contributeFormSchema),
+    defaultValues: {
+      name: (initialName as string) ?? "",
+      content: "",
+      credit: "",
+    },
+  });
+
+  const [submitted, setSubmitted] = useState(false);
+
+  const onSubmit = handleSubmit(async (data) => {
+    const formUrl = `https://docs.google.com/forms/d/e/1FAIpQLSdQ8vhyic8Z5lxnBw9643UnqPxN2MIfssLYz32OBW_Vhn_X9A/formResponse?usp=pp_url&entry.770504043=${data.name}&entry.1613298240=${data.content}&entry.1321358172=${data.credit}`;
+    try {
+      // CORS bypasser
+      await fetch(`https://api.codetabs.com/v1/proxy?quest=${formUrl}`);
+      setSubmitted(true);
+      reset();
+    } catch {
+      alert("An error has ocurred :/");
+    }
+  });
 
   return (
     <>
@@ -46,20 +83,17 @@ const ContactPage = () => {
 
         <Spacer size="md" />
 
-        <Form
-          method="POST"
-          action="https://docs.google.com/forms/d/e/1FAIpQLSdQ8vhyic8Z5lxnBw9643UnqPxN2MIfssLYz32OBW_Vhn_X9A/formResponse"
-        >
+        <form onSubmit={onSubmit} className="space-y-base">
           <FormField
-            name="entry.770504043"
+            control={control}
+            name="name"
             label="Name"
             description="Enter the title of the page you want to contribute to. If you are suggesting a new page, feel free to leave this field blank."
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          ></FormField>
-
+            className="md:w-3/4"
+          />
           <FormField
-            name="entry.1613298240"
+            control={control}
+            name="content"
             label="Content"
             description={
               fixLinks ? (
@@ -77,19 +111,23 @@ const ContactPage = () => {
                 </>
               )
             }
-            required
             textarea
-            minLength={15}
           ></FormField>
 
           <FormField
-            name="entry.1321358172"
+            control={control}
+            name="credit"
             label="Credit"
             description="If you would like to be credited, leave your Reddit/Discord username or website."
-          ></FormField>
+            className="md:w-3/4"
+          />
 
-          <Button>Submit</Button>
-        </Form>
+          <fieldset className="flex">
+            <Button type="submit" variant="gray" disabled={isSubmitting}>
+              {submitted ? "Submitted!" : <>Submit{isSubmitting && "ing"}</>}
+            </Button>
+          </fieldset>
+        </form>
         <Spacer />
       </article>
     </>

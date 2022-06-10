@@ -24,6 +24,11 @@ export const Search = () => {
   const inputRef = useRef<HTMLInputElement>(null);
 
   const onKeyPress = (e: KeyboardEvent) => {
+    const textInputFocused = ["INPUT", "TEXTAREA"].includes(
+      document.activeElement?.tagName ?? ""
+    );
+    if (textInputFocused) return;
+
     if (e.key === "/") {
       e.preventDefault();
       inputRef.current?.focus();

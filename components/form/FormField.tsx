@@ -1,8 +1,13 @@
 import clsx from "clsx";
-import { HTMLAttributes, InputHTMLAttributes } from "react";
+import { InputHTMLAttributes } from "react";
+import { useController } from "react-hook-form";
 import { Spacer } from "../Spacer";
+import { FormDescription } from "./FormDescription";
+import { FormError } from "./FormError";
+import { FormLabel } from "./FormLabel";
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
+  control: any;
   label?: string;
   description?: string | JSX.Element | null;
   type?: "text" | "password" | "email" | "number" | "tel" | "url";
@@ -11,6 +16,7 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   name: string;
 }
 export const FormField = ({
+  control,
   label,
   description,
   type = "text",
@@ -20,44 +26,52 @@ export const FormField = ({
   className,
   ...props
 }: InputProps) => {
+  const {
+    field,
+    fieldState: { error },
+  } = useController({ name, control });
+
+  const fieldProps = {
+    name,
+    id: name,
+    placeholder: props.placeholder,
+    required: props.required,
+    value: field.value || "",
+    onChange: (e: any) => field.onChange(e.target.value),
+  };
+
   return (
     <fieldset>
-      {label ? (
+      {label && (
         <>
-          <label htmlFor={name} className="block font-semibold text-gray-dark">
-            {label}
-          </label>
+          <FormLabel name={name}>{label}</FormLabel>
           <Spacer size="xs" />
         </>
-      ) : null}
+      )}
 
-      {description ? (
+      {description && (
         <>
-          <div className="text-sm text-gray">{description}</div>
+          <FormDescription>{description}</FormDescription>
           <Spacer size="sm" />
         </>
-      ) : null}
+      )}
 
       {textarea ? (
         <textarea
-          name={name}
-          id={name}
-          placeholder={props.placeholder}
           className={clsx(className, "block form-input w-full")}
           rows={rows ?? 5}
-          required={props.required}
           minLength={props.minLength}
+          {...fieldProps}
         ></textarea>
       ) : (
         <input
-          name={name}
-          id={name}
           type={type}
-          placeholder={props.placeholder}
-          className={clsx(className, "block form-input")}
+          className={clsx(className, "block form-input w-full")}
           {...props}
+          {...fieldProps}
         />
       )}
+      {error && <FormError message={error?.message!} />}
     </fieldset>
   );
 };

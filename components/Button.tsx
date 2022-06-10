@@ -12,6 +12,8 @@ interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
   size?: Size;
   variant?: "primary" | "gray";
   className?: string;
+  type?: "button" | "reset" | "submit";
+  disabled?: boolean;
   children?: ReactNode;
 }
 
@@ -21,6 +23,8 @@ export const Button = ({
   variant = "gray",
   href,
   children,
+  type = "button",
+  disabled = false,
   ...props
 }: ButtonProps) => {
   const { isLightTheme, isDarkTheme } = useTheme();
@@ -63,7 +67,12 @@ export const Button = ({
     );
   } else
     return (
-      <button className={className} onClick={props.onClick}>
+      <button
+        type={type}
+        className={className}
+        disabled={disabled}
+        onClick={props.onClick}
+      >
         {Element}
       </button>
     );

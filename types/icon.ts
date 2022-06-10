@@ -59,6 +59,8 @@ import {
   FaPlus,
   FaHandPaper,
   FaDiscord,
+  FaCaretUp,
+  FaTrash,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -83,6 +85,7 @@ export const iconMap = {
   caretright: FaCaretRight,
   caretleft: FaCaretLeft,
   caretdown: FaCaretDown,
+  caretup: FaCaretUp,
   search: FaSearch,
   starhalf: FaStarHalfAlt,
   utensils: FaUtensils,
@@ -124,5 +127,6 @@ export const iconMap = {
   plus: FaPlus,
   hand: FaHandPaper,
   discord: FaDiscord,
+  trash: FaTrash,
 };
 export type IconId = keyof typeof iconMap;
