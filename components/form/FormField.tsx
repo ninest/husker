@@ -2,6 +2,8 @@ import clsx from "clsx";
 import { InputHTMLAttributes } from "react";
 import { useController } from "react-hook-form";
 import { Spacer } from "../Spacer";
+import { FormDescription } from "./FormDescription";
+import { FormLabel } from "./FormLabel";
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   control: any;
@@ -39,21 +41,19 @@ export const FormField = ({
 
   return (
     <fieldset>
-      {label ? (
+      {label && (
         <>
-          <label htmlFor={name} className="block font-semibold text-gray-dark">
-            {label}
-          </label>
+          <FormLabel name={name}>{label}</FormLabel>
           <Spacer size="xs" />
         </>
-      ) : null}
+      )}
 
-      {description ? (
+      {description && (
         <>
-          <div className="text-sm text-gray">{description}</div>
+          <FormDescription>{description}</FormDescription>
           <Spacer size="sm" />
         </>
-      ) : null}
+      )}
 
       {textarea ? (
         <textarea
@@ -70,7 +70,11 @@ export const FormField = ({
           {...fieldProps}
         />
       )}
-      {error && <div className="text-error mt-xs text-sm form-error">{error.message}</div>}
+      {error && (
+        <div className="text-error mt-xs text-sm form-error">
+          {error.message}
+        </div>
+      )}
     </fieldset>
   );
 };

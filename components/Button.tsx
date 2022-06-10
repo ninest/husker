@@ -23,7 +23,7 @@ export const Button = ({
   variant = "gray",
   href,
   children,
-  type,
+  type = "button",
   disabled = false,
   ...props
 }: ButtonProps) => {

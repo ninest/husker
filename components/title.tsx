@@ -17,6 +17,7 @@ export const Title = ({ level = 1, children, ...props }: TitleProps) => {
           "text-5xl": level == 1,
           "text-3xl": level == 2,
           "text-2xl": level == 3,
+          "text-xl": level == 4,
         },
         props.className
       )}
