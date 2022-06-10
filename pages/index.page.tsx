@@ -7,6 +7,7 @@ import { useSettings } from "@/lib/settings";
 import { Link } from "@/types/category";
 import { IconId } from "@/types/icon";
 import { useEffect } from "react";
+import { Icon } from "@/components/Icon";
 
 const IndexPage = () => {
   const {
@@ -53,11 +54,28 @@ const IndexPage = () => {
               <LinkSet
                 showTitle
                 title={"Favorites"}
-                moreInfoHref={`/favorites`}
+                moreInfoHref={
+                  favoriteLinks.length == 0 ? `/settings` : `/favorites`
+                }
                 links={favoriteLinks}
               />
               {favoriteLinks.length == 0 && (
-                <div className="border-2 border-dashed rounded-md text-gray p-base">You haven't added any favorites yet!</div>
+                <div className="border-2 border-dashed rounded-md text-gray text-sm p-base space-y-sm">
+                  <p className="font-bold">
+                    You haven't added any favorites yet! To add favorites, open
+                    the settings page.
+                  </p>
+                  <p>
+                    On mobile, open the menu by pressing the{" "}
+                    <Icon id="griplines" className="inline" /> button on the top
+                    right, then find the <Icon id="cog" className="inline" />{" "}
+                    button on the bottom.
+                  </p>
+                  <p>
+                    On desktop, click the <Icon id="cog" className="inline" />{" "}
+                    button at the bottom of the sidebar.
+                  </p>
+                </div>
               )}
             </section>
           )}

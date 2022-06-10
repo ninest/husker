@@ -102,16 +102,20 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
       <section className="fixed bottom-0 left-0 w-full md:w-72 lg:w-80 bg-light border-r">
         <hr />
 
-        <div className="p-md">
+        <div className="p-md flex justify-between items-center">
           <button
             onClick={toggleTheme}
-            className="text-sm flex items-center space-x-base -m-xs p-xs hover:bg-gray-50 rounded"
+            className="text-sm flex items-center space-x-base -m-sm p-sm hover:bg-gray-50 rounded"
           >
-            <Icon id={isLightTheme ? "regmoon" : "regsun"}></Icon>
+            <Icon id={isLightTheme ? "regmoon" : "regsun"} />
             <div className="font-semibold text-gray">
               {isLightTheme ? "Dark" : "Light"} theme
             </div>
           </button>
+
+          <SmartLink href="/settings" className="text-sm -m-sm p-sm hover:bg-gray-50 rounded">
+            <Icon id="cog" />
+          </SmartLink>
         </div>
       </section>
     </aside>
