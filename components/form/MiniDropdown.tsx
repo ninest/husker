@@ -9,12 +9,15 @@ import { FormDescription } from "./FormDescription";
 import { FormError } from "./FormError";
 import { FormLabel } from "./FormLabel";
 
-export interface MiniDropdownProps extends SelectHTMLAttributes<HTMLSelectElement> {
+export interface MiniDropdownProps
+  extends SelectHTMLAttributes<HTMLSelectElement> {
   control: any;
   name: string;
   label?: string;
   description?: string;
-  options: { value: string; label?: string; icon?: IconId }[];
+  options: { value: any; label?: string; icon?: IconId }[];
+  wrapperClassName?: string;
+  className?: string;
 }
 
 export const MiniDropdown = ({
@@ -24,7 +27,8 @@ export const MiniDropdown = ({
   label,
   value,
   options,
-  className,
+  wrapperClassName = "",
+  className = "",
 }: MiniDropdownProps) => {
   const {
     field,
@@ -36,7 +40,7 @@ export const MiniDropdown = ({
   )?.label;
 
   return (
-    <fieldset className={clsx(className, "relative w-full")}>
+    <fieldset className={clsx(wrapperClassName, "relative")}>
       {label && (
         <>
           <FormLabel name={name}>{label}</FormLabel>
@@ -52,13 +56,23 @@ export const MiniDropdown = ({
       )}
 
       <Listbox value={field.value} onChange={field.onChange}>
-        <Listbox.Button className="flex form-input w-full justify-between items-center">
+        <Listbox.Button
+          className={clsx(
+            className,
+            "flex form-input justify-between items-center"
+          )}
+        >
           <div>{valueSelectedLabel}</div>
           <div>
             <Icon id="caretdown" />
           </div>
         </Listbox.Button>
-        <Listbox.Options className="absolute mt-xs rounded p-xs shadow bg-light border w-full">
+        <Listbox.Options
+          className={clsx(
+            className,
+            "z-50 absolute mt-xs rounded p-xs shadow bg-light border"
+          )}
+        >
           {options.map((option) => (
             <Listbox.Option
               key={option.value}

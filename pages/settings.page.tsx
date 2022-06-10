@@ -6,6 +6,7 @@ import {
   MiniDropdown,
   MiniDropdownProps,
 } from "@/components/form/MiniDropdown";
+import { Spacer } from "@/components/Spacer";
 import { Title } from "@/components/title";
 import { useSettings } from "@/lib/settings";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -14,6 +15,7 @@ import { useFieldArray, useForm } from "react-hook-form";
 import { z } from "zod";
 
 const settingsFormSchema = z.object({
+  favoritesEnabled: z.boolean().default(false),
   favorites: z.array(
     z.object({
       name: z.string(),
@@ -28,18 +30,18 @@ const settingsFormSchema = z.object({
 type SettingsForm = z.infer<typeof settingsFormSchema>;
 
 const SettingsPage = () => {
-  const { settings, setFavorites } = useSettings();
+  const { settings, setSettings } = useSettings();
 
-  const { handleSubmit, control, watch, getValues, setValue } =
-    useForm<SettingsForm>({
-      defaultValues: { favorites: [] },
-      resolver: zodResolver(settingsFormSchema),
-    });
+  const { handleSubmit, control, watch, setValue } = useForm<SettingsForm>({
+    defaultValues: { favoritesEnabled: false, favorites: [] },
+    resolver: zodResolver(settingsFormSchema),
+  });
 
   // Set initial values, should only happen once and only on the client
   // Cannot use defaultValues because localStorage isn't available on the server
   useEffect(() => {
     setValue("favorites", settings.favorites);
+    setValue("favoritesEnabled", settings.favoritesEnabled);
   }, [settings]);
 
   const { fields, append, remove, swap } = useFieldArray({
@@ -48,7 +50,11 @@ const SettingsPage = () => {
   });
 
   const onSubmit = handleSubmit(async (data) => {
-    setFavorites(data.favorites);
+    setSettings({
+      ...settings,
+      favorites: data.favorites,
+      favoritesEnabled: data.favoritesEnabled,
+    });
   });
 
   const availableIcons: MiniDropdownProps["options"] = [
@@ -64,88 +70,112 @@ const SettingsPage = () => {
     { value: "video", icon: "video", label: "Video" },
   ];
 
+  const { favoritesEnabled } = watch();
+
   return (
     <>
       <ArticleHead title="Settings" />
       <article className="wrapper">
         <form onSubmit={onSubmit} className="space-y-base">
           <section className="space-y-base">
-            <Title level={3}>Favorites</Title>
-            {fields.map((field, index) => (
-              <div
-                key={field.id}
-                className="p-base rounded-md border space-y-base"
-              >
-                <div className="flex flex-col md:flex-row md:items-center space-y-base md:space-x-base md:space-y-0">
-                  <MiniDropdown
-                    control={control}
-                    name={`favorites.${index}.icon`}
-                    label={"Icon"}
-                    options={availableIcons}
-                    className="w-3/4 md:w-32 flex-none"
-                  />
-                  <FormField
-                    control={control}
-                    name={`favorites.${index}.name`}
-                    label="Name"
-                    wrapperClassName="flex-1"
-                  />
-                </div>
-                <FormField
-                  control={control}
-                  name={`favorites.${index}.href`}
-                  label="URL"
-                />
-                <FormField
-                  control={control}
-                  name={`favorites.${index}.description`}
-                  label="Description"
-                />
+            <Title level={2}>Favorites</Title>
 
-                <div className="flex justify-end items-center space-x-base">
+            <MiniDropdown
+              control={control}
+              name={`favoritesEnabled`}
+              label="Enabled"
+              options={[
+                { value: true, label: "Yes" },
+                { value: false, label: "No" },
+              ]}
+              className="w-1/3"
+            />
+
+            {favoritesEnabled && (
+              <>
+                <Spacer size="0.5" />
+                {fields.map((field, index) => (
+                  <div
+                    key={field.id}
+                    className="p-base rounded-md border space-y-base"
+                  >
+                    <div className="flex flex-col md:flex-row md:items-center space-y-base md:space-x-base md:space-y-0">
+                      <MiniDropdown
+                        control={control}
+                        name={`favorites.${index}.icon`}
+                        label={"Icon"}
+                        options={availableIcons}
+                        className="w-full"
+                        wrapperClassName="w-3/4 md:w-32 flex-none"
+                      />
+                      <FormField
+                        control={control}
+                        name={`favorites.${index}.name`}
+                        label="Name"
+                        wrapperClassName="flex-1"
+                      />
+                    </div>
+                    <FormField
+                      control={control}
+                      name={`favorites.${index}.href`}
+                      label="URL"
+                    />
+                    <FormField
+                      control={control}
+                      name={`favorites.${index}.description`}
+                      label="Description"
+                    />
+
+                    <div className="flex justify-end items-center space-x-base">
+                      <Button
+                        size="sm"
+                        icon="trash"
+                        onClick={() => remove(index)}
+                      />
+                      {index !== 0 && (
+                        <Button
+                          size="sm"
+                          icon="caretup"
+                          onClick={() => swap(index, index - 1)}
+                        />
+                      )}
+                      {index !== fields.length - 1 && (
+                        <Button
+                          size="sm"
+                          icon="caretdown"
+                          onClick={() => swap(index, index + 1)}
+                        />
+                      )}
+                    </div>
+                  </div>
+                ))}
+
+                <div className="flex">
                   <Button
                     size="sm"
-                    icon="trash"
-                    onClick={() => remove(index)}
-                  />
-                  {index !== 0 && (
-                    <Button
-                      size="sm"
-                      icon="caretup"
-                      onClick={() => swap(index, index - 1)}
-                    />
-                  )}
-                  {index !== fields.length - 1 && (
-                    <Button
-                      size="sm"
-                      icon="caretdown"
-                      onClick={() => swap(index, index + 1)}
-                    />
-                  )}
+                    icon="plus"
+                    onClick={() =>
+                      append({
+                        name: "",
+                        icon: "filealt",
+                        href: "",
+                        description: "",
+                      })
+                    }
+                  >
+                    Add favorite
+                  </Button>
                 </div>
-              </div>
-            ))}
-
-            <div className="flex">
-              <Button
-                size="sm"
-                icon="plus"
-                onClick={() =>
-                  append({
-                    name: "",
-                    icon: "filealt",
-                    href: "",
-                    description: "",
-                  })
-                }
-              >
-                Add favorite
-              </Button>
-            </div>
+              </>
+            )}
           </section>
 
+          <Spacer size="xs" />
+
           <div className="flex">
-            <Button type="submit">Save</Button>
+            <Button variant="primary" type="submit">
+              Save
+            </Button>
           </div>
         </form>
 

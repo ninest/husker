@@ -14,6 +14,10 @@ export const Spacer = ({ size = "base", axis = "y" }: SpacerProps) => {
 // So Tailwind can read it
 // TODO: fix
 const _ = [
+  "w-0.5",
+  "h-0.5",
+  "w-1",
+  "h-1",
   "h-md",
   "h-base",
   "h-sm",

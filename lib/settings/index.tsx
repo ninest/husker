@@ -16,7 +16,9 @@ interface SettingsContextValue {
   settings: Settings;
   setColors: () => void;
   setOpenLinksInNewTab: (openInNewTab: boolean) => void;
+  setFavoritesEnabled: (enabled: boolean) => void;
   setFavorites: (favorites: Favorite[]) => void;
+  setSettings: (settings: Settings) => void;
 }
 
 interface Favorite {
@@ -29,6 +31,7 @@ interface Favorite {
 interface Settings {
   // colors: Object;
   openLinksInNewTab: boolean;
+  favoritesEnabled: boolean;
   favorites: Favorite[];
 }
 
@@ -46,6 +49,7 @@ type Color =
 const defaultSettings: Settings = {
   // colors: {
   openLinksInNewTab: false,
+  favoritesEnabled: false,
   favorites: [],
 };
 
@@ -78,6 +82,13 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
     });
   };
 
+  const setFavoritesEnabled = (enabled: boolean) => {
+    setSettings({
+      ...settings,
+      favoritesEnabled: enabled,
+    });
+  };
+
   const setFavorites = (favorites: Favorite[]) => {
     setSettings({
       ...settings,
@@ -87,7 +98,14 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
 
   return (
     <SettingsContext.Provider
-      value={{ settings, setColors, setOpenLinksInNewTab, setFavorites }}
+      value={{
+        settings,
+        setColors,
+        setOpenLinksInNewTab,
+        setFavoritesEnabled,
+        setFavorites,
+        setSettings,
+      }}
     >
       {children}
     </SettingsContext.Provider>

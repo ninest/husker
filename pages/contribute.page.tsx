@@ -123,7 +123,7 @@ const ContactPage = () => {
           />
 
           <fieldset className="flex">
-            <Button type="submit" variant="gray" disabled={isSubmitting}>
+            <Button type="submit" variant="primary" disabled={isSubmitting}>
               {submitted ? "Submitted!" : <>Submit{isSubmitting && "ing"}</>}
             </Button>
           </fieldset>
