@@ -8,24 +8,14 @@ import { Link } from "@/types/category";
 import { IconId } from "@/types/icon";
 import { useEffect } from "react";
 import { Icon } from "@/components/Icon";
+import { favoritesToLinks } from "@/lib/favorites";
 
 const IndexPage = () => {
   const {
     settings: { favoritesEnabled, favorites },
   } = useSettings();
 
-  useEffect(() => {
-    console.log(favoritesEnabled);
-    console.log(favorites);
-  }, []);
-
-  // Favorite[] -> Link[]
-  const favoriteLinks: Link[] = favorites?.map((favorite) => ({
-    ...favorite,
-    // TODO: if the icon is not in IconId, use filealt as the default
-    icon: favorite.icon as IconId,
-    description: favorite.description ?? "",
-  }));
+  const favoriteLinks = favoritesToLinks(favorites);
 
   return (
     <>

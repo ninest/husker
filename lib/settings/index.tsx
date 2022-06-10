@@ -1,3 +1,4 @@
+import { Favorite } from "@/types/favorites";
 import { IconId } from "@/types/icon";
 import {
   createContext,
@@ -21,12 +22,7 @@ interface SettingsContextValue {
   setSettings: (settings: Settings) => void;
 }
 
-interface Favorite {
-  icon: string;
-  name: string;
-  href: string;
-  description?: string;
-}
+
 
 interface Settings {
   // colors: Object;

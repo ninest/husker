@@ -122,24 +122,19 @@ const ContentPage = ({
 
   return (
     <>
-      <NextSeo title={title} description={description}></NextSeo>
+      <NextSeo title={title} description={description} />
 
       <ArticleHead
         backButtonHref={backLink}
         backButtonText={backTitle}
         title={title}
-      ></ArticleHead>
+      />
 
       <article className="wrapper">
         {containsLinkSet && (
           <>
-            <LinkSet
-              showTitle={false}
-              showFull
-              links={links}
-              pages={pages}
-            ></LinkSet>
-            <Spacer size="xl"></Spacer>
+            <LinkSet showTitle={false} showFull links={links} pages={pages} />
+            <Spacer size="xl" />
           </>
         )}
 
