@@ -4,6 +4,10 @@ description: How has this site improved?
 lastUpdated: 2022-03-27
 ---
 
+## 2022-06-11
+
+- Add favorites!
+
 ## 2022-04-28
 
 - Add more housing images
