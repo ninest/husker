@@ -9,7 +9,7 @@ import { FormDescription } from "./FormDescription";
 import { FormError } from "./FormError";
 import { FormLabel } from "./FormLabel";
 
-interface MiniDropdownProps extends SelectHTMLAttributes<HTMLSelectElement> {
+export interface MiniDropdownProps extends SelectHTMLAttributes<HTMLSelectElement> {
   control: any;
   name: string;
   label?: string;
@@ -31,6 +31,10 @@ export const MiniDropdown = ({
     fieldState: { error },
   } = useController({ name, control });
 
+  const valueSelectedLabel = options.find(
+    (option) => option.value == field.value
+  )?.label;
+
   return (
     <fieldset className={clsx(className, "relative w-full")}>
       {label && (
@@ -49,7 +53,7 @@ export const MiniDropdown = ({
 
       <Listbox value={field.value} onChange={field.onChange}>
         <Listbox.Button className="flex form-input w-full justify-between items-center">
-          <div>{field.value}</div>
+          <div>{valueSelectedLabel}</div>
           <div>
             <Icon id="caretdown" />
           </div>

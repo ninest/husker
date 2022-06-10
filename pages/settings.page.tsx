@@ -2,13 +2,14 @@ import { ArticleHead } from "@/components/ArticleHead";
 import { Button } from "@/components/Button";
 import { Debug } from "@/components/Debug";
 import { FormField } from "@/components/form/FormField";
-import { MiniDropdown } from "@/components/form/MiniDropdown";
-import { LinkButton } from "@/components/LinkButton";
+import {
+  MiniDropdown,
+  MiniDropdownProps,
+} from "@/components/form/MiniDropdown";
 import { Title } from "@/components/title";
 import { useSettings } from "@/lib/settings";
-import { IconId } from "@/types/icon";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useFieldArray, useForm } from "react-hook-form";
 import { z } from "zod";
 
@@ -46,11 +47,22 @@ const SettingsPage = () => {
     name: "favorites",
   });
 
-  const values = getValues();
-
   const onSubmit = handleSubmit(async (data) => {
     setFavorites(data.favorites);
   });
+
+  const availableIcons: MiniDropdownProps["options"] = [
+    { value: "filealt", icon: "filealt", label: "File" },
+    { value: "calendar", icon: "calendar", label: "Calendar" },
+    { value: "book", icon: "book", label: "Book" },
+    { value: "moneycheckalt", icon: "moneycheckalt", label: "Money" },
+    { value: "home", icon: "home", label: "Home" },
+    { value: "clock", icon: "clock", label: "Clock" },
+    { value: "pen", icon: "pen", label: "Pen" },
+    { value: "heart", icon: "heart", label: "Heart" },
+    { value: "image", icon: "image", label: "Image" },
+    { value: "video", icon: "video", label: "Video" },
+  ];
 
   return (
     <>
@@ -64,22 +76,21 @@ const SettingsPage = () => {
                 key={field.id}
                 className="p-base rounded-md border space-y-base"
               >
-                <FormField
-                  control={control}
-                  name={`favorites.${index}.name`}
-                  label="Name"
-                  className="md:w-3/4"
-                />
-                <MiniDropdown
-                  control={control}
-                  name={`favorites.${index}.icon`}
-                  label={"Icon"}
-                  options={[
-                    { value: "filealt", icon: "filealt", label: "File" },
-                    { value: "pizza", icon: "pizza", label: "Pizza" },
-                  ]}
-                  className="md:w-1/2"
-                />
+                <div className="flex flex-col md:flex-row md:items-center space-y-base md:space-x-base md:space-y-0">
+                  <MiniDropdown
+                    control={control}
+                    name={`favorites.${index}.icon`}
+                    label={"Icon"}
+                    options={availableIcons}
+                    className="w-3/4 md:w-32 flex-none"
+                  />
+                  <FormField
+                    control={control}
+                    name={`favorites.${index}.name`}
+                    label="Name"
+                    wrapperClassName="flex-1"
+                  />
+                </div>
                 <FormField
                   control={control}
                   name={`favorites.${index}.href`}
@@ -90,22 +101,6 @@ const SettingsPage = () => {
                   name={`favorites.${index}.description`}
                   label="Description"
                 />
-
-                {field.name && (
-                  <>
-                    <p>The link will look like this:</p>
-                    <div className="md:w-1/2 lg:w-1/3">
-                      <LinkButton
-                        link={{
-                          icon: field.icon as IconId,
-                          name: field.name,
-                          href: field.href,
-                          description: field.description ?? "",
-                        }}
-                      />
-                    </div>
-                  </>
-                )}
 
                 <div className="flex justify-end items-center space-x-base">
                   <Button

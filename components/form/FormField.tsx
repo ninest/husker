@@ -14,6 +14,7 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   textarea?: boolean;
   rows?: number;
   name: string;
+  wrapperClassName?: string;
 }
 export const FormField = ({
   control,
@@ -24,6 +25,7 @@ export const FormField = ({
   rows = 5,
   name,
   className,
+  wrapperClassName = "",
   ...props
 }: InputProps) => {
   const {
@@ -41,7 +43,7 @@ export const FormField = ({
   };
 
   return (
-    <fieldset>
+    <fieldset className={wrapperClassName}>
       {label && (
         <>
           <FormLabel name={name}>{label}</FormLabel>
