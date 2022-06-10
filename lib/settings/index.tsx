@@ -22,8 +22,6 @@ interface SettingsContextValue {
   setSettings: (settings: Settings) => void;
 }
 
-
-
 interface Settings {
   // colors: Object;
   openLinksInNewTab: boolean;
@@ -64,8 +62,6 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
 
   // Auto save settings on change
   useEffect(() => {
-    console.log("Saving settings");
-    console.log({ settings });
     saveSettings();
   }, [settings]);
 

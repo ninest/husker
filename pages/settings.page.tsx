@@ -37,17 +37,18 @@ const SettingsPage = () => {
     resolver: zodResolver(settingsFormSchema),
   });
 
-  // Set initial values, should only happen once and only on the client
-  // Cannot use defaultValues because localStorage isn't available on the server
-  useEffect(() => {
-    setValue("favorites", settings.favorites);
-    setValue("favoritesEnabled", settings.favoritesEnabled);
-  }, [settings]);
-
   const { fields, append, remove, swap } = useFieldArray({
     control,
     name: "favorites",
   });
+
+  // Set initial values, should only happen once and only on the client
+  // Cannot use defaultValues because localStorage isn't available on the server
+  useEffect(() => {
+    setValue("favorites", settings.favorites);
+    console.log(settings.favorites);
+    setValue("favoritesEnabled", settings.favoritesEnabled);
+  }, [settings]);
 
   const onSubmit = handleSubmit(async (data) => {
     setSettings({
@@ -55,8 +56,6 @@ const SettingsPage = () => {
       favorites: data.favorites,
       favoritesEnabled: data.favoritesEnabled,
     });
-    console.log("Set settings");
-    console.log({ settings });
   });
 
   const availableIcons: MiniDropdownProps["options"] = [
@@ -93,83 +92,86 @@ const SettingsPage = () => {
               className="w-1/3"
             />
 
-            {favoritesEnabled && (
-              <>
-                <Spacer size="0.5" />
-                {fields.map((field, index) => (
-                  <div
-                    key={field.id}
-                    className="p-base rounded-md border space-y-base"
-                  >
-                    <div className="flex flex-col md:flex-row md:items-center space-y-base md:space-x-base md:space-y-0">
-                      <MiniDropdown
-                        control={control}
-                        name={`favorites.${index}.icon`}
-                        label={"Icon"}
-                        options={availableIcons}
-                        className="w-full"
-                        wrapperClassName="w-3/4 md:w-32 flex-none"
-                      />
-                      <FormField
-                        control={control}
-                        name={`favorites.${index}.name`}
-                        label="Name"
-                        wrapperClassName="flex-1"
-                      />
-                    </div>
-                    <FormField
-                      control={control}
-                      name={`favorites.${index}.href`}
-                      label="URL"
-                    />
-                    <FormField
-                      control={control}
-                      name={`favorites.${index}.description`}
-                      label="Description"
-                    />
+            {!favoritesEnabled && (
+              <p className="text-gray">
+                Favorites are <b>not</b> enabled, so they will <b>not</b> be
+                displayed on the links page.
+              </p>
+            )}
 
-                    <div className="flex justify-end items-center space-x-base">
-                      <Button
-                        size="sm"
-                        icon="trash"
-                        onClick={() => remove(index)}
-                      />
-                      {index !== 0 && (
-                        <Button
-                          size="sm"
-                          icon="caretup"
-                          onClick={() => swap(index, index - 1)}
-                        />
-                      )}
-                      {index !== fields.length - 1 && (
-                        <Button
-                          size="sm"
-                          icon="caretdown"
-                          onClick={() => swap(index, index + 1)}
-                        />
-                      )}
-                    </div>
-                  </div>
-                ))}
+            <Spacer size="0.5" />
+            {fields.map((field, index) => (
+              <div
+                key={field.id}
+                className="p-base rounded-md border space-y-base"
+              >
+                <div className="flex flex-col md:flex-row md:items-center space-y-base md:space-x-base md:space-y-0">
+                  <MiniDropdown
+                    control={control}
+                    name={`favorites.${index}.icon`}
+                    label={"Icon"}
+                    options={availableIcons}
+                    className="w-full"
+                    wrapperClassName="w-3/4 md:w-32 flex-none"
+                  />
+                  <FormField
+                    control={control}
+                    name={`favorites.${index}.name`}
+                    label="Name"
+                    wrapperClassName="flex-1"
+                  />
+                </div>
+                <FormField
+                  control={control}
+                  name={`favorites.${index}.href`}
+                  label="URL"
+                />
+                <FormField
+                  control={control}
+                  name={`favorites.${index}.description`}
+                  label="Description"
+                />
 
-                <div className="flex">
+                <div className="flex justify-end items-center space-x-base">
                   <Button
                     size="sm"
-                    icon="plus"
-                    onClick={() =>
-                      append({
-                        name: "",
-                        icon: "filealt",
-                        href: "",
-                        description: "",
-                      })
-                    }
-                  >
-                    Add favorite
-                  </Button>
+                    icon="trash"
+                    onClick={() => remove(index)}
+                  />
+                  {index !== 0 && (
+                    <Button
+                      size="sm"
+                      icon="caretup"
+                      onClick={() => swap(index, index - 1)}
+                    />
+                  )}
+                  {index !== fields.length - 1 && (
+                    <Button
+                      size="sm"
+                      icon="caretdown"
+                      onClick={() => swap(index, index + 1)}
+                    />
+                  )}
                 </div>
-              </>
-            )}
+              </div>
+            ))}
+
+            <div className="flex">
+              <Button
+                size="sm"
+                icon="plus"
+                onClick={() =>
+                  append({
+                    name: "",
+                    icon: "filealt",
+                    href: "",
+                    description: "",
+                  })
+                }
+              >
+                Add favorite
+              </Button>
+            </div>
           </section>
 
           <Spacer size="xs" />
