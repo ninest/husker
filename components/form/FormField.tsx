@@ -3,6 +3,7 @@ import { InputHTMLAttributes } from "react";
 import { useController } from "react-hook-form";
 import { Spacer } from "../Spacer";
 import { FormDescription } from "./FormDescription";
+import { FormError } from "./FormError";
 import { FormLabel } from "./FormLabel";
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
@@ -65,16 +66,12 @@ export const FormField = ({
       ) : (
         <input
           type={type}
-          className={clsx(className, "block form-input w-full md:w-3/4")}
+          className={clsx(className, "block form-input w-full")}
           {...props}
           {...fieldProps}
         />
       )}
-      {error && (
-        <div className="text-error mt-xs text-sm form-error">
-          {error.message}
-        </div>
-      )}
+      {error && <FormError message={error?.message!} />}
     </fieldset>
   );
 };

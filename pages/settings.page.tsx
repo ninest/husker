@@ -5,8 +5,10 @@ import { FormField } from "@/components/form/FormField";
 import { MiniDropdown } from "@/components/form/MiniDropdown";
 import { LinkButton } from "@/components/LinkButton";
 import { Title } from "@/components/title";
+import { useSettings } from "@/lib/settings";
 import { IconId } from "@/types/icon";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useEffect, useState } from "react";
 import { useFieldArray, useForm } from "react-hook-form";
 import { z } from "zod";
 
@@ -15,7 +17,9 @@ const settingsFormSchema = z.object({
     z.object({
       name: z.string(),
       icon: z.string(),
-      href: z.string({ required_error: "A URL is required" }),
+      href: z
+        .string({ required_error: "A URL is required" })
+        .url("Please enter a URL starting with https://"),
       description: z.string().optional(),
     })
   ),
@@ -23,35 +27,41 @@ const settingsFormSchema = z.object({
 type SettingsForm = z.infer<typeof settingsFormSchema>;
 
 const SettingsPage = () => {
-  const {
-    handleSubmit,
-    formState: { isSubmitting },
-    reset,
-    control,
-    watch,
-    getValues,
-  } = useForm<SettingsForm>({
-    defaultValues: { favorites: [] },
-    resolver: zodResolver(settingsFormSchema),
-  });
+  const { settings, setFavorites } = useSettings();
 
-  const { fields, append, insert, remove, move } = useFieldArray({
+  const { handleSubmit, control, watch, getValues, setValue } =
+    useForm<SettingsForm>({
+      defaultValues: { favorites: [] },
+      resolver: zodResolver(settingsFormSchema),
+    });
+
+  // Set initial values, should only happen once and only on the client
+  // Cannot use defaultValues because localStorage isn't available on the server
+  useEffect(() => {
+    setValue("favorites", settings.favorites);
+  }, [settings]);
+
+  const { fields, append, remove, swap } = useFieldArray({
     control,
     name: "favorites",
   });
 
   const values = getValues();
 
+  const onSubmit = handleSubmit(async (data) => {
+    setFavorites(data.favorites);
+  });
+
   return (
     <>
       <ArticleHead title="Settings" />
       <article className="wrapper">
-        <form className="space-y-base">
+        <form onSubmit={onSubmit} className="space-y-base">
           <section className="space-y-base">
             <Title level={3}>Favorites</Title>
             {fields.map((field, index) => (
               <div
-                key={index}
+                key={field.id}
                 className="p-base rounded-md border space-y-base"
               >
                 <FormField
@@ -68,7 +78,7 @@ const SettingsPage = () => {
                     { value: "filealt", icon: "filealt", label: "File" },
                     { value: "pizza", icon: "pizza", label: "Pizza" },
                   ]}
-                  className="md:w-3/4"
+                  className="md:w-1/2"
                 />
                 <FormField
                   control={control}
@@ -81,23 +91,49 @@ const SettingsPage = () => {
                   label="Description"
                 />
 
-                <p>The link will look like this:</p>
+                {field.name && (
+                  <>
+                    <p>The link will look like this:</p>
+                    <div className="md:w-1/2 lg:w-1/3">
+                      <LinkButton
+                        link={{
+                          icon: field.icon as IconId,
+                          name: field.name,
+                          href: field.href,
+                          description: field.description ?? "",
+                        }}
+                      />
+                    </div>
+                  </>
+                )}
 
-                <div className="md:w-1/2 lg:w-1/3">
-                  <LinkButton
-                    link={{
-                      icon: values.favorites[0].icon as IconId,
-                      name: values.favorites[0].name,
-                      href: values.favorites[0].href,
-                      description: values.favorites[0].description ?? "",
-                    }}
+                <div className="flex justify-end items-center space-x-base">
+                  <Button
+                    size="sm"
+                    icon="trash"
+                    onClick={() => remove(index)}
                   />
+                  {index !== 0 && (
+                    <Button
+                      size="sm"
+                      icon="caretup"
+                      onClick={() => swap(index, index - 1)}
+                    />
+                  )}
+                  {index !== fields.length - 1 && (
+                    <Button
+                      size="sm"
+                      icon="caretdown"
+                      onClick={() => swap(index, index + 1)}
+                    />
+                  )}
                 </div>
               </div>
             ))}
 
             <div className="flex">
               <Button
+                size="sm"
                 icon="plus"
                 onClick={() =>
                   append({
@@ -112,6 +148,10 @@ const SettingsPage = () => {
               </Button>
             </div>
           </section>
+
+          <div className="flex">
+            <Button type="submit">Save</Button>
+          </div>
         </form>
 
         <Debug data={watch()} />

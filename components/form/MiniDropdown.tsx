@@ -6,6 +6,7 @@ import { useController } from "react-hook-form";
 import { Icon } from "../Icon";
 import { Spacer } from "../Spacer";
 import { FormDescription } from "./FormDescription";
+import { FormError } from "./FormError";
 import { FormLabel } from "./FormLabel";
 
 interface MiniDropdownProps extends SelectHTMLAttributes<HTMLSelectElement> {
@@ -68,20 +69,9 @@ export const MiniDropdown = ({
               <div>{option.label}</div>
             </Listbox.Option>
           ))}
-          {/* <Listbox.Option
-            value="1"
-            className="p-xs rounded hover:bg-gray-100 text-sm text-gray"
-          >
-            Option 1
-          </Listbox.Option>
-          <Listbox.Option
-            value="2"
-            className="p-xs rounded hover:bg-gray-100 text-sm text-gray"
-          >
-            Option 2
-          </Listbox.Option> */}
         </Listbox.Options>
       </Listbox>
+      {error && <FormError message={error?.message!} />}
     </fieldset>
   );
 };

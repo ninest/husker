@@ -89,6 +89,7 @@ const ContactPage = () => {
             name="name"
             label="Name"
             description="Enter the title of the page you want to contribute to. If you are suggesting a new page, feel free to leave this field blank."
+            className="md:w-3/4"
           />
           <FormField
             control={control}
@@ -118,6 +119,7 @@ const ContactPage = () => {
             name="credit"
             label="Credit"
             description="If you would like to be credited, leave your Reddit/Discord username or website."
+            className="md:w-3/4"
           />
 
           <fieldset className="flex">

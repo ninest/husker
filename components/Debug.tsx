@@ -3,9 +3,14 @@ interface DebugProps {
 }
 
 export const Debug = ({ data }: DebugProps) => {
+  const isDev = process && process.env.NODE_ENV === "development";
   return (
-    <pre className="mt-xl bg-dark p-sm text-gray-300 text-sm rounded-lg">
-      {JSON.stringify(data, null, 2)}
-    </pre>
+    <>
+      {isDev && (
+        <pre className="mt-xl bg-dark p-sm text-gray-300 text-sm rounded-lg">
+          {JSON.stringify(data, null, 2)}
+        </pre>
+      )}
+    </>
   );
 };
