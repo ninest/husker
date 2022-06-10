@@ -14,10 +14,10 @@ export const Title = ({ level = 1, children, ...props }: TitleProps) => {
       className={clsx(
         "font-display text-dark font-black leading-relaxed tracking-normal",
         {
-          "text-5xl": level == 1,
-          "text-3xl": level == 2,
-          "text-2xl": level == 3,
-          "text-xl": level == 4,
+          "text-4xl": level == 1,
+          "text-2xl": level == 2,
+          "text-xl": level == 3,
+          "text-lg": level == 4,
         },
         props.className
       )}

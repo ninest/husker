@@ -9,7 +9,7 @@ import { FormDescription } from "./FormDescription";
 import { FormError } from "./FormError";
 import { FormLabel } from "./FormLabel";
 
-export interface MiniDropdownProps
+export interface FormSelectProps
   extends SelectHTMLAttributes<HTMLSelectElement> {
   control: any;
   name: string;
@@ -20,7 +20,7 @@ export interface MiniDropdownProps
   className?: string;
 }
 
-export const MiniDropdown = ({
+export const FormSelect = ({
   control,
   name,
   description,
@@ -29,7 +29,7 @@ export const MiniDropdown = ({
   options,
   wrapperClassName = "",
   className = "",
-}: MiniDropdownProps) => {
+}: FormSelectProps) => {
   const {
     field,
     fieldState: { error },
@@ -70,23 +70,26 @@ export const MiniDropdown = ({
         <Listbox.Options
           className={clsx(
             className,
-            "z-50 absolute mt-xs rounded p-xs shadow bg-light border"
+            "z-50 absolute mt-xs rounded-md p-xs shadow bg-light border border-gray-100"
           )}
         >
-          {options.map((option) => (
-            <Listbox.Option
-              key={option.value}
-              value={option.value}
-              className="p-xs rounded hover:bg-gray-100 text-sm text-gray flex items-center"
-            >
-              {option.icon && (
-                <div className="mr-base">
-                  <Icon id={option.icon} />
-                </div>
-              )}
-              <div>{option.label}</div>
-            </Listbox.Option>
-          ))}
+          {/* More padding and spacing on mobile */}
+          <div className="space-y-xs md:space-y-0">
+            {options.map((option) => (
+              <Listbox.Option
+                key={option.value}
+                value={option.value}
+                className="px-xs py-sm md:py-xs rounded hover:bg-gray-100 text-sm text-gray flex items-center"
+              >
+                {option.icon && (
+                  <div className="mr-base">
+                    <Icon id={option.icon} />
+                  </div>
+                )}
+                <div>{option.label}</div>
+              </Listbox.Option>
+            ))}
+          </div>
         </Listbox.Options>
       </Listbox>
       {error && <FormError message={error?.message!} />}

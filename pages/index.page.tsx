@@ -57,7 +57,7 @@ const IndexPage = () => {
                   </p>
                   <p>
                     On mobile, open the menu by pressing the{" "}
-                    <Icon id="griplines" className="inline" /> button on the top
+                    <Icon id="griplines" className="inline border rounded-sm p-0.5" /> button on the top
                     right, then find the <Icon id="cog" className="inline" />{" "}
                     button on the bottom.
                   </p>

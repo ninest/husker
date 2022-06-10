@@ -3,9 +3,9 @@ import { Button } from "@/components/Button";
 import { Debug } from "@/components/Debug";
 import { FormField } from "@/components/form/FormField";
 import {
-  MiniDropdown,
-  MiniDropdownProps,
-} from "@/components/form/MiniDropdown";
+  FormSelect,
+  FormSelectProps,
+} from "@/components/form/FormSelect";
 import { Spacer } from "@/components/Spacer";
 import { Title } from "@/components/title";
 import { useSettings } from "@/lib/settings";
@@ -58,7 +58,7 @@ const SettingsPage = () => {
     });
   });
 
-  const availableIcons: MiniDropdownProps["options"] = [
+  const availableIcons: FormSelectProps["options"] = [
     { value: "filealt", icon: "filealt", label: "File" },
     { value: "calendar", icon: "calendar", label: "Calendar" },
     { value: "book", icon: "book", label: "Book" },
@@ -81,7 +81,7 @@ const SettingsPage = () => {
           <section className="space-y-base">
             <Title level={2}>Favorites</Title>
 
-            <MiniDropdown
+            <FormSelect
               control={control}
               name={`favoritesEnabled`}
               label="Enabled"
@@ -106,7 +106,7 @@ const SettingsPage = () => {
                 className="p-base rounded-md border space-y-base"
               >
                 <div className="flex flex-col md:flex-row md:items-center space-y-base md:space-x-base md:space-y-0">
-                  <MiniDropdown
+                  <FormSelect
                     control={control}
                     name={`favorites.${index}.icon`}
                     label={"Icon"}
