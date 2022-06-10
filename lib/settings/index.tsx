@@ -68,6 +68,8 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
 
   // Auto save settings on change
   useEffect(() => {
+    console.log("Saving settings");
+    console.log({ settings });
     saveSettings();
   }, [settings]);
 

@@ -55,6 +55,8 @@ const SettingsPage = () => {
       favorites: data.favorites,
       favoritesEnabled: data.favoritesEnabled,
     });
+    console.log("Set settings");
+    console.log({ settings });
   });
 
   const availableIcons: MiniDropdownProps["options"] = [
