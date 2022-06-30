@@ -1,14 +1,10 @@
 import { contentMap } from "@/content/map";
 
-import { LinkSet } from "@/components/LinkSet";
-import { Expandable } from "@/components/Expandable";
-import { Button } from "@/components/Button";
-import { useSettings } from "@/lib/settings";
-import { Link } from "@/types/category";
-import { IconId } from "@/types/icon";
-import { useEffect } from "react";
 import { Icon } from "@/components/Icon";
+import { LinkSet } from "@/components/LinkSet";
 import { favoritesToLinks } from "@/lib/favorites";
+import { useSettings } from "@/lib/settings";
+import { NoFavorites } from "@/components/NoFavorites";
 
 const IndexPage = () => {
   const {
@@ -44,37 +40,10 @@ const IndexPage = () => {
               <LinkSet
                 showTitle
                 title={"Favorites"}
-                moreInfoHref={
-                  favoriteLinks.length == 0 ? `/settings` : `/favorites`
-                }
+                moreInfoHref={`/favorites`}
                 links={favoriteLinks}
               />
-              {favoriteLinks.length == 0 && (
-                <div className="prose border-2 border-dashed rounded-md text-gray text-sm p-base">
-                  <p className="font-bold">
-                    You haven't added any favorites yet! To add favorites, right
-                    click a link (or long press on mobile) and click on "Add to
-                    favorites".
-                  </p>
-
-                  <p>You may also add custom links to favorites:</p>
-                  <ul>
-                    <li>
-                      On mobile, open the menu by pressing the{" "}
-                      <Icon
-                        id="griplines"
-                        className="inline border rounded-sm p-0.5"
-                      />{" "}
-                      button on the top right, then find the{" "}
-                      <Icon id="cog" className="inline" /> button on the bottom.
-                    </li>
-                    <li>
-                      On desktop, click the <Icon id="cog" className="inline" />{" "}
-                      button at the bottom of the sidebar.
-                    </li>
-                  </ul>
-                </div>
-              )}
+              {favoriteLinks.length == 0 && <NoFavorites />}
             </section>
           )}
           {contentMap.map((category) => {

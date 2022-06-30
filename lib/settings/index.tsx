@@ -95,6 +95,7 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
   };
 
   const addFavorite = (favorite: Favorite) => {
+    setFavoritesEnabled(true);
     setSettings((settings) => ({
       ...settings,
       favorites: [...settings.favorites, favorite],

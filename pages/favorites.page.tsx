@@ -1,6 +1,7 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { Button } from "@/components/Button";
 import { LinkSet } from "@/components/LinkSet";
+import { NoFavorites } from "@/components/NoFavorites";
 import { Spacer } from "@/components/Spacer";
 import { favoritesToLinks } from "@/lib/favorites";
 import { useSettings } from "@/lib/settings";
@@ -27,6 +28,8 @@ const FavoritesPage = () => {
       <ArticleHead title={"Favorites"} />
 
       <article className="wrapper">
+        {favoriteLinks.length == 0 && <NoFavorites />}
+        <Spacer size="md" />
         <div className="flex">
           <Button icon="pen" href="/settings" size="sm">
             Edit
