@@ -1,15 +1,13 @@
+import { showToast } from "@/components/Toast";
 import { Favorite } from "@/types/favorites";
-import { IconId } from "@/types/icon";
 import {
   createContext,
   ReactNode,
   useContext,
   useEffect,
-  useState,
+  useState
 } from "react";
-import { boolean } from "zod";
 import { storage } from "../storage";
-import { favoriteAddedToast, favoriteRemovedToast } from "../toast/favorites";
 
 const SettingsContext = createContext<SettingsContextValue>(
   {} as SettingsContextValue
@@ -102,7 +100,7 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
       favorites: [...settings.favorites, favorite],
     }));
 
-    favoriteAddedToast();
+    showToast({ text: "A favorite has been added!" });
   };
 
   const isFavorited = (favorite: Pick<Favorite, "href">): boolean => {
@@ -121,7 +119,7 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
       favorites: newFavorites,
     }));
 
-    favoriteRemovedToast();
+    showToast({ text: "A favorite has been removed" });
   };
 
   return (
