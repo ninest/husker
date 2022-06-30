@@ -18,6 +18,7 @@ export interface FormSelectProps
   options: { value: any; label?: string; icon?: IconId }[];
   wrapperClassName?: string;
   className?: string;
+  dropdownClassName?: string;
 }
 
 export const FormSelect = ({
@@ -29,6 +30,7 @@ export const FormSelect = ({
   options,
   wrapperClassName = "",
   className = "",
+  dropdownClassName = "",
 }: FormSelectProps) => {
   const {
     field,
@@ -69,6 +71,7 @@ export const FormSelect = ({
         </Listbox.Button>
         <Listbox.Options
           className={clsx(
+            dropdownClassName,
             className,
             "z-50 absolute mt-xs rounded-md p-xs shadow bg-light border border-gray-100"
           )}
