@@ -20,7 +20,7 @@ import double5 from './house/kerr-hall/images/double/double5.png'
 import triple1 from './house/kerr-hall/images/triple/triple1.png'
 import triple2 from './house/kerr-hall/images/triple/triple2.png'
 
-<Expandable title="Economy Single" icon="image">
+<Expandable title="Economy Double" icon="image">
   <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
     <Image src={double1} height={1634} width={1222} quality={50} alt={"Kerr Hall Double 1"}/>
     <Image src={double2} height={1634} width={1222} quality={50} alt={"Kerr Hall Double 2"}/>

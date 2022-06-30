@@ -213,7 +213,7 @@ export const dorms: Dorm[] = [
       {
         name: "Northeastern Housing",
         description: "Dorm specifications",
-        href: "https://northeastern.edu/housing/hemenway-street",
+        href: "https://northeastern.edu/housing/153-hemenway-street",
       },
     ],
     pages: [

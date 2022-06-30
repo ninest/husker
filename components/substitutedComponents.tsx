@@ -26,8 +26,8 @@ export const substitutedComponents = {
   LinkButtonGrid,
   /* Next image */
   Image: (props: any) => {
-    // const src = `/notouchy/${props.src}`;
-    const src = `${props.src}`;
+    const src = `/notouchy/${props.src}`;
+    // const src = `${props.src}`;
 
     return (
       <div className="flex justify-center mobile-full-bleed">

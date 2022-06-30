@@ -12,7 +12,7 @@ const RoomRatePage = () => {
     },
     {
       title: "Upperclassmen",
-      href: "/files/housing/room-rates/upperclassmen-2022.pdf",
+      href: "/files/housing/room-rates/upperclassmen-2023.pdf",
     },
     {
       title: "Graduate/Law",
