@@ -50,21 +50,29 @@ const IndexPage = () => {
                 links={favoriteLinks}
               />
               {favoriteLinks.length == 0 && (
-                <div className="border-2 border-dashed rounded-md text-gray text-sm p-base space-y-sm">
+                <div className="prose border-2 border-dashed rounded-md text-gray text-sm p-base">
                   <p className="font-bold">
-                    You haven't added any favorites yet! To add favorites, open
-                    the settings page.
+                    You haven't added any favorites yet! To add favorites, right
+                    click a link (or long press on mobile) and click on "Add to
+                    favorites".
                   </p>
-                  <p>
-                    On mobile, open the menu by pressing the{" "}
-                    <Icon id="griplines" className="inline border rounded-sm p-0.5" /> button on the top
-                    right, then find the <Icon id="cog" className="inline" />{" "}
-                    button on the bottom.
-                  </p>
-                  <p>
-                    On desktop, click the <Icon id="cog" className="inline" />{" "}
-                    button at the bottom of the sidebar.
-                  </p>
+
+                  <p>You may also add custom links to favorites:</p>
+                  <ul>
+                    <li>
+                      On mobile, open the menu by pressing the{" "}
+                      <Icon
+                        id="griplines"
+                        className="inline border rounded-sm p-0.5"
+                      />{" "}
+                      button on the top right, then find the{" "}
+                      <Icon id="cog" className="inline" /> button on the bottom.
+                    </li>
+                    <li>
+                      On desktop, click the <Icon id="cog" className="inline" />{" "}
+                      button at the bottom of the sidebar.
+                    </li>
+                  </ul>
                 </div>
               )}
             </section>

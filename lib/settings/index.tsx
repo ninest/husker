@@ -7,6 +7,7 @@ import {
   useEffect,
   useState,
 } from "react";
+import { boolean } from "zod";
 import { storage } from "../storage";
 
 const SettingsContext = createContext<SettingsContextValue>(
@@ -20,6 +21,9 @@ interface SettingsContextValue {
   setFavoritesEnabled: (enabled: boolean) => void;
   setFavorites: (favorites: Favorite[]) => void;
   setSettings: (settings: Settings) => void;
+  addFavorite: (favorite: Favorite) => void;
+  isFavorited: (favorite: Pick<Favorite, "href">) => boolean;
+  removeFromFavorites: (favorite: Pick<Favorite, "href">) => void;
 }
 
 interface Settings {
@@ -90,6 +94,30 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
     });
   };
 
+  const addFavorite = (favorite: Favorite) => {
+    setSettings((settings) => ({
+      ...settings,
+      favorites: [...settings.favorites, favorite],
+    }));
+  };
+
+  const isFavorited = (favorite: Pick<Favorite, "href">): boolean => {
+    return !!settings.favorites?.find(
+      (exisitngFavorite) => exisitngFavorite.href == favorite.href
+    );
+  };
+
+  const removeFromFavorites = (favorite: Pick<Favorite, "href">) => {
+    const newFavorites = settings.favorites.filter(
+      (existingFavorite) => existingFavorite.href !== favorite.href
+    );
+
+    setSettings((settings) => ({
+      ...settings,
+      favorites: newFavorites,
+    }));
+  };
+
   return (
     <SettingsContext.Provider
       value={{
@@ -99,6 +127,9 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
         setFavoritesEnabled,
         setFavorites,
         setSettings,
+        addFavorite,
+        isFavorited,
+        removeFromFavorites,
       }}
     >
       {children}
