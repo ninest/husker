@@ -1,9 +1,9 @@
 import { showToast } from "@/components/Toast";
 
 export const favoriteAddedToast = () => {
-  showToast({ content: "A favorite has been added!" });
+  showToast({ text: "A favorite has been added!", type: "error" });
 };
 
 export const favoriteRemovedToast = () => {
-  showToast({ content: "A favorite has been removed" });
+  showToast({ text: "A favorite has been removed" });
 };

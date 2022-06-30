@@ -5,6 +5,7 @@ import { FormField } from "@/components/form/FormField";
 import { FormSelect, FormSelectProps } from "@/components/form/FormSelect";
 import { Spacer } from "@/components/Spacer";
 import { Title } from "@/components/title";
+import { showToast } from "@/components/Toast";
 import { useSettings } from "@/lib/settings";
 import { IconId, iconMap } from "@/types/icon";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -54,20 +55,9 @@ const SettingsPage = () => {
       favorites: data.favorites,
       favoritesEnabled: data.favoritesEnabled,
     });
+    showToast({ text: "Settings saved" });
   });
 
-  // const availableIcons: FormSelectProps["options"] = [
-  //   { value: "filealt", icon: "filealt", label: "File" },
-  //   { value: "calendar", icon: "calendar", label: "Calendar" },
-  //   { value: "book", icon: "book", label: "Book" },
-  //   { value: "moneycheckalt", icon: "moneycheckalt", label: "Money" },
-  //   { value: "home", icon: "home", label: "Home" },
-  //   { value: "clock", icon: "clock", label: "Clock" },
-  //   { value: "pen", icon: "pen", label: "Pen" },
-  //   { value: "heart", icon: "heart", label: "Heart" },
-  //   { value: "image", icon: "image", label: "Image" },
-  //   { value: "video", icon: "video", label: "Video" },
-  // ];
   const availableIcons: FormSelectProps["options"] = Object.keys(iconMap).map(
     (iconKey) => ({
       value: iconKey as IconId,

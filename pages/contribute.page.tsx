@@ -9,6 +9,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { showToast } from "@/components/Toast";
 
 const contributeFormSchema = z.object({
   name: z.string().optional(),
@@ -48,8 +49,10 @@ const ContactPage = () => {
       await fetch(`https://api.codetabs.com/v1/proxy?quest=${formUrl}`);
       setSubmitted(true);
       reset();
+      showToast({ text: "Thank you for your contribution!" });
     } catch {
       alert("An error has ocurred :/");
+      showToast({ text: "Unfortunately, an error ocurred", type: "error" });
     }
   });
 
