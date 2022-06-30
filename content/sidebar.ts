@@ -4,6 +4,7 @@ export const sidebarLinks = [
   { text: "Links", href: "/" },
   { text: "Contacts", href: "/contacts" },
   { text: "About", href: "/about" },
+  { text: "Favorites", href: "/favorites" },
   { text: "Contribute", href: "/contribute" },
   { text: "Changelog", href: "/changelog" },
 ];
