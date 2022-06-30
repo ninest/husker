@@ -11,6 +11,7 @@ import { ThemeProvider } from "@/lib/theme";
 import { Footer } from "@/components/Footer";
 import { Spacer } from "@/components/Spacer";
 import { SettingsProvider } from "@/lib/settings";
+import { Toaster } from "react-hot-toast";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -21,6 +22,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         defaultTitle="Husker"
         description="Information about Northeastern including dorms, housing, dorms, free stuff, and apps to download"
       ></DefaultSeo>
+
+      {/* Top padding to the toast on mobile so it doesn't block the navbar */}
+      <Toaster position="top-right" containerClassName="mt-16 md:mt-0" />
 
       <ThemeProvider>
         <SettingsProvider>

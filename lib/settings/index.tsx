@@ -9,6 +9,7 @@ import {
 } from "react";
 import { boolean } from "zod";
 import { storage } from "../storage";
+import { favoriteAddedToast, favoriteRemovedToast } from "../toast/favorites";
 
 const SettingsContext = createContext<SettingsContextValue>(
   {} as SettingsContextValue
@@ -100,6 +101,8 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
       ...settings,
       favorites: [...settings.favorites, favorite],
     }));
+
+    favoriteAddedToast();
   };
 
   const isFavorited = (favorite: Pick<Favorite, "href">): boolean => {
@@ -117,6 +120,8 @@ export const SettingsProvider = ({ children }: { children: ReactNode }) => {
       ...settings,
       favorites: newFavorites,
     }));
+
+    favoriteRemovedToast();
   };
 
   return (
