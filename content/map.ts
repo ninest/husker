@@ -140,13 +140,13 @@ export const contentMap: Category[] = [
         icon: "bookmark",
       },
       {
-        name: "Academic Calendar",
+        name: "Calendar",
         description: "Undergraduate Calendar",
         href: "/courses/undergraduate-calendar",
         icon: "calendar",
       },
       {
-        name: "Degree Audit Graduate, Law, and PhD",
+        name: "Graduate Degree Audit",
         href: "https://uagr.northeastern.edu/SelfService",
         description: "Degree for Graduate, Law, amd PhD students",
         icon: "invoice",
@@ -259,7 +259,7 @@ export const contentMap: Category[] = [
         description: "SFS Direct Deposit",
       },
       {
-        name: "Scholarship Application",
+        name: "Scholarship App",
         href: "https://nextgensso.com/sp/startSSO.ping?PartnerIdpId=https://neuidmsso.neu.edu/idp/shibboleth&TargetResource=https://northeastern.scholarships.ngwebsolutions.com/scholarx_studentportal.aspx",
         description: "Apply for Scholarships",
       },

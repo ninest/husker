@@ -55,58 +55,59 @@ export const LinkButton = ({
         },
   ];
   return (
-    <ContextMenu.Root>
-      <ContextMenu.Trigger>
-        <SmartLink
-          style={{ minWidth: 0 }}
-          className={clsx(
-            "link-button flex items-center space-x-md rounded p-base",
-            {
-              "bg-gray-100 hover:bg-gray-200": variant == "default",
-              "bg-gradient-to-r from-warning-lightest to-warning-lighter":
-                variant == "warning",
-            }
-          )}
-          href={link.href}
-        >
-          <Icon id={link.icon} className="flex-none text-sm"></Icon>
+    <div
+      className={clsx("rounded-md", {
+        "bg-gray-100 hover:bg-gray-200": variant == "default",
+        "bg-gradient-to-r from-warning-lightest to-warning-lighter":
+          variant == "warning",
+      })}
+    >
+      <ContextMenu.Root>
+        <ContextMenu.Trigger>
+          <SmartLink
+            style={{ minWidth: 0 }}
+            className={clsx("p-base h-full flex items-center space-x-md")}
+            href={link.href}
+          >
+            <Icon id={link.icon} className="flex-none text-sm"></Icon>
 
-          <div>
-            <div className="font-semibold text-sm text-gray">{link.name}</div>
-            {showDescription && (
-              <>
-                <Spacer size="xs"></Spacer>
-                <div className="text-gray-light font-normal text-xs">
-                  {link.description}
-                </div>
-              </>
-            )}
-          </div>
-        </SmartLink>
-
-        {/* Context menu content */}
-        <ContextMenu.Content className="text-xs font-medium w-48 p-xs md:p-1 bg-gray-50 shadow rounded-md space-y-1">
-          {contextMenuActions.map((item) => (
-            <>
-              {item.separator ? (
-                <div>
-                  <ContextMenu.Separator className="border-t my-0.5" />
-                </div>
-              ) : (
-                <div>
-                  <ContextMenu.Item
-                    onClick={item.action}
-                    className="py-xs px-sm md:py-1 md:px-xs rounded text-gray hover:bg-primary-50"
-                  >
-                    {item.label}
-                  </ContextMenu.Item>
-                </div>
+            <div>
+              <div className="font-semibold text-sm text-gray">{link.name}</div>
+              {showDescription && (
+                <>
+                  <Spacer size="xs"></Spacer>
+                  <div className="text-gray-light font-normal text-xs">
+                    {link.description}
+                  </div>
+                </>
               )}
-            </>
-          ))}
-        </ContextMenu.Content>
-      </ContextMenu.Trigger>
-    </ContextMenu.Root>
+            </div>
+          </SmartLink>
+
+          {/* Context menu content */}
+          <ContextMenu.Content className="text-xs font-medium w-48 p-xs md:p-1 bg-gray-50 shadow rounded-md space-y-1">
+            {contextMenuActions.map((item) => (
+              <>
+                {item.separator ? (
+                  <div>
+                    <ContextMenu.Separator className="border-t my-0.5" />
+                  </div>
+                ) : (
+                  <div>
+                    <ContextMenu.Item
+                      onClick={item.action}
+                      className="py-xs px-sm md:py-1 md:px-xs rounded text-gray hover:bg-primary-50"
+                    >
+                      {item.label}
+                    </ContextMenu.Item>
+                  </div>
+                )}
+              </>
+            ))}
+          </ContextMenu.Content>
+        </ContextMenu.Trigger>
+      </ContextMenu.Root>
+    </div>
   );
 };
 
