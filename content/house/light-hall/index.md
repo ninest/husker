@@ -11,6 +11,12 @@ pageType: dorm
 
 <LinkButtonGrid showDescription={true} links={[
 {
+name: "Light Hall",
+description: "2022",
+icon: "reddit",
+href: "https://www.reddit.com/r/NEU/comments/vj55gl/light_hall/"
+},
+{
 name: "Dark Hall",
 description: "2017",
 icon: "reddit",

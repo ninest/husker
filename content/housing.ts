@@ -16,6 +16,10 @@ export const apartment: DormType = {
   slug: "apartment",
   name: "Apartment",
 };
+export const leased: DormType = {
+  slug: "leased",
+  name: "Leased Properties",
+};
 
 export const economy: DormPricePoint = {
   slug: "economy",
@@ -785,6 +789,20 @@ export const dorms: Dorm[] = [
         name: "Floor Plan",
         description: "Map",
         href: "https://www.northeastern.edu/housing/dnaesantoelrihtriseertn/willis-hall/",
+      },
+    ],
+  },
+
+  {
+    type: leased,
+    slug: "84-the-fenway",
+    title: "84 The Fenway",
+    pricesPoints: [standard],
+    links: [
+      {
+        name: "Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://www.northeastern.edu/housing/leased-properties/",
       },
     ],
   },
