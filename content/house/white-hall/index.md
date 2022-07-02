@@ -18,6 +18,8 @@ import double4 from './house/white-hall/images/double/double4.png'
 import double5 from './house/white-hall/images/double/double5.png'
 import double6 from './house/white-hall/images/double/double6.png'
 
+import triple1 from './house/white-hall/images/triple/triple1.jpeg'
+
 
 <Expandable title="Standard Double" icon="image">
   <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
@@ -28,6 +30,10 @@ import double6 from './house/white-hall/images/double/double6.png'
     <Image src={double3} height={ 1726} width={2302} quality={50} alt={"White Hall Double 3"}/>
     <Image src={double4} height={ 1726} width={2302} quality={50} alt={"White Hall Double 4"}/>
   </div>
+</Expandable>
+
+<Expandable title="Forced Double" icon="image">
+  <Image src={triple1} height={3024} width={4032} quality={50} alt={"White Hall Triple 1"}/>
 </Expandable>
 
 <Expandable title="Videos" icon="video" variant="gray">

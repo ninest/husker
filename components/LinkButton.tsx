@@ -27,13 +27,15 @@ export const LinkButton = ({
         window.open(link.href);
       },
     },
-    { separator: true },
+
     {
       label: "Open in current tab",
       action: () => {
         document.location.href = link.href;
       },
     },
+
+    { separator: true },
 
     isFavorited({ href: link.href })
       ? {
