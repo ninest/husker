@@ -73,7 +73,8 @@ export const FormSelect = ({
           className={clsx(
             dropdownClassName,
             className,
-            "z-50 absolute mt-xs rounded-md p-xs shadow bg-light border border-gray-100"
+            "z-50 absolute mt-xs rounded-md p-xs shadow bg-light border border-gray-100",
+            "max-h-96 overflow-y-scroll"
           )}
         >
           {/* More padding and spacing on mobile */}
