@@ -1,7 +1,7 @@
 import { contentMap } from "@/content/map";
 
 import { Icon } from "@/components/Icon";
-import { LinkSet } from "@/components/LinkSet";
+import { LinkSet } from "@/components/link/LinkSet";
 import { favoritesToLinks } from "@/lib/favorites";
 import { useSettings } from "@/lib/settings";
 import { NoFavorites } from "@/components/NoFavorites";

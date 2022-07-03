@@ -4,7 +4,7 @@ import { Debug } from "@/components/Debug";
 import { FormField } from "@/components/form/FormField";
 import { FormSelect, FormSelectProps } from "@/components/form/FormSelect";
 import { Spacer } from "@/components/Spacer";
-import { Title } from "@/components/title";
+import { Title } from "@/components/Title";
 import { showToast } from "@/components/Toast";
 import { useSettings } from "@/lib/settings";
 import { IconId, iconMap } from "@/types/icon";

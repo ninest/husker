@@ -1,6 +1,6 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { Button } from "@/components/Button";
-import { LinkSet } from "@/components/LinkSet";
+import { LinkSet } from "@/components/link/LinkSet";
 import { NoFavorites } from "@/components/NoFavorites";
 import { Spacer } from "@/components/Spacer";
 import { favoritesToLinks } from "@/lib/favorites";

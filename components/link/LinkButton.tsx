@@ -27,16 +27,13 @@ export const LinkButton = ({
         window.open(link.href);
       },
     },
-
     {
       label: "Open in current tab",
       action: () => {
         document.location.href = link.href;
       },
     },
-
     { separator: true },
-
     isFavorited({ href: link.href })
       ? {
           label: "Remove from favorites",
@@ -60,8 +57,7 @@ export const LinkButton = ({
     <div
       className={clsx("rounded-md", {
         "bg-gray-100 hover:bg-gray-200": variant == "default",
-        "bg-gradient-to-r from-warning-lightest to-warning-lighter":
-          variant == "warning",
+        "bg-gradient-to-r from-warning-lightest to-warning-lighter": variant == "warning",
       })}
     >
       <ContextMenu.Root>
@@ -133,6 +129,7 @@ export const LinkButtonGrid = ({
             key={link.href}
             link={link}
             showDescription={showDescription}
+            variant={link.variant}
           ></LinkButton>
         );
       })}

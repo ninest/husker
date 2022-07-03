@@ -8,7 +8,7 @@ import { Category, Link } from "@/types/category";
 import { Page } from "@/types/page";
 import { NextSeo } from "next-seo";
 import { Button } from "@/components/Button";
-import { LinkSet } from "@/components/LinkSet";
+import { LinkSet } from "@/components/link/LinkSet";
 import { dorms } from "@/content/housing";
 import { ArticleHead } from "@/components/ArticleHead";
 import { substitutedComponents } from "@/components/substitutedComponents";

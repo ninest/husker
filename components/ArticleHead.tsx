@@ -1,6 +1,6 @@
 import { BackButton } from "./BackButton";
 import { Spacer } from "./Spacer";
-import { Title } from "./title";
+import { Title } from "./Title";
 
 interface ArticleHeadProps {
   backButtonHref?: string;

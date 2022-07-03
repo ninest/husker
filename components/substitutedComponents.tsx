@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Block } from "./Block";
 import { Button } from "./Button";
 import { Expandable } from "./Expandable";
-import { LinkButtonGrid } from "./LinkButton";
+import { LinkButtonGrid } from "./link/LinkButton";
 import { SmartLink } from "./SmartLink";
 import { Spacer } from "./Spacer";
 
