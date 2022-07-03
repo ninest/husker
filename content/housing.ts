@@ -161,11 +161,11 @@ export const dorms: Dorm[] = [
       },
     ],
     pages: [
-      {
-        name: "NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/first-year/traditional/white-hall",
-      },
+      // {
+      //   name: "NEUDorms",
+      //   description: "Images and videos from NEUDorms",
+      //   href: "https://sites.google.com/view/neudorms/first-year/traditional/white-hall",
+      // },
     ],
   },
   {

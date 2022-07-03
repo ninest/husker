@@ -32,7 +32,7 @@ import triple1 from './house/white-hall/images/triple/triple1.jpeg'
   </div>
 </Expandable>
 
-<Expandable title="Forced Double" icon="image">
+<Expandable title="Forced Triple" icon="image">
   <Image src={triple1} height={3024} width={4032} quality={50} alt={"White Hall Triple 1"}/>
 </Expandable>
 

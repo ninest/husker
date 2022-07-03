@@ -27,7 +27,7 @@ import { YoutubeEmbed } from "@/components/YoutubeEmbed"
   </div>
 </Expandable>
 
-## Reddit Links
+## Links
 
 <LinkButtonGrid showDescription={true} links={[
 {

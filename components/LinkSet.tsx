@@ -58,7 +58,7 @@ export const LinkSet = ({
         })}
       </div>
 
-      {showFull && pages && (
+      {showFull && pages && pages.length > 0 && (
         <>
           <Spacer size="lg"></Spacer>
           <hr />

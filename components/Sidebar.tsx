@@ -1,15 +1,14 @@
-import { FaSearch } from "react-icons/fa";
 import { SmartLink } from "@/components/SmartLink";
 import { contentMap } from "@/content/map";
-import { Icon } from "./Icon";
-import { useEffect } from "react";
-import { Search } from "./Search";
-import { useRouter } from "next/router";
-import { Spacer } from "./Spacer";
-import { useTheme } from "@/lib/theme";
 import { highlightedSidebarLinks, sidebarLinks } from "@/content/sidebar";
-import { Button } from "./Button";
+import { useTheme } from "@/lib/theme";
 import { IconId } from "@/types/icon";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
+import { Button } from "./Button";
+import { Icon } from "./Icon";
+import { Search } from "./Search";
+import { Spacer } from "./Spacer";
 
 interface SidebarProps {
   onCloseClick: () => void;

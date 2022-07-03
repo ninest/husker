@@ -9,7 +9,9 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const url = `https://huskypedia.miraheze.org/w/api.php?action=parse&page=${pageId}&format=json`;
 
   const res = await fetch(url);
-  const data = await res.json();
+  const data = await res.json()
+  
+  console.log(data);
 
   const title = data.parse.title;
   const html = data.parse.text["*"];
