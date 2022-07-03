@@ -1,9 +1,9 @@
-import { Link } from "@/types/category";
 import { SmartLink } from "@/components/SmartLink";
 import { Title } from "@/components/title";
+import { Link } from "@/types/category";
 import { Icon } from "./Icon";
+import { LinkButtonGrid } from "./LinkButton";
 import { Spacer } from "./Spacer";
-import { LinkButton } from "./LinkButton";
 
 interface LinkSetProps {
   title?: string;
@@ -41,39 +41,15 @@ export const LinkSet = ({
         </>
       )}
 
-      {/* TODO: use LinkButtonGrid here */}
-      <div
-        className="grid grid-cols-2 lg:grid-cols-3 gap-md"
-        style={{ minWidth: 0, minHeight: 0 }}
-      >
-        {links.map((link) => {
-          return (
-            <LinkButton
-              key={link.href}
-              link={link}
-              variant={link.variant}
-              showDescription={showFull}
-            ></LinkButton>
-          );
-        })}
-      </div>
+      <LinkButtonGrid links={links} showDescription={showFull} />
 
+      {/* Show divider line + extra links if `pages` is provided */}
       {showFull && pages && pages.length > 0 && (
         <>
           <Spacer size="lg"></Spacer>
           <hr />
           <Spacer size="lg"></Spacer>
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-md">
-            {pages.map((link) => {
-              return (
-                <LinkButton
-                  key={link.href}
-                  link={link}
-                  showDescription={showFull}
-                ></LinkButton>
-              );
-            })}
-          </div>
+          <LinkButtonGrid links={pages} showDescription={showFull} />
         </>
       )}
     </section>

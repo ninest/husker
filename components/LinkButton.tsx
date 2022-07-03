@@ -1,11 +1,11 @@
-import { Link } from "@/types/category";
 import { Icon } from "@/components/Icon";
 import { SmartLink } from "@/components/SmartLink";
 import { Spacer } from "@/components/Spacer";
-import clsx from "clsx";
-import * as ContextMenu from "@radix-ui/react-context-menu";
 import { useSettings } from "@/lib/settings";
+import { Link } from "@/types/category";
 import { IconId } from "@/types/icon";
+import * as ContextMenu from "@radix-ui/react-context-menu";
+import clsx from "clsx";
 
 interface LinkButtonProps {
   link: Link;

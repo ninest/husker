@@ -5,6 +5,7 @@ import { LinkSet } from "@/components/LinkSet";
 import { favoritesToLinks } from "@/lib/favorites";
 import { useSettings } from "@/lib/settings";
 import { NoFavorites } from "@/components/NoFavorites";
+import { Spacer } from "@/components/Spacer";
 
 const IndexPage = () => {
   const {
@@ -58,6 +59,7 @@ const IndexPage = () => {
             );
           })}
         </div>
+        <Spacer />
       </article>
     </>
   );
