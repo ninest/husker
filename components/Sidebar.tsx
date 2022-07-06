@@ -24,7 +24,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
   const { toggleTheme, isLightTheme, isDarkTheme } = useTheme();
 
   return (
-    <aside className="bg-light md:w-72 lg:w-80 h-screen overflow-y-scroll sticky z-50 top-0 left-0 bottom-0 border-r transition-colors">
+    <aside className="bg-light md:w-72 lg:w-80 h-screen overflow-y-scroll sticky z-50 top-0 left-0 bottom-0 border-r">
       {/* Close button for mobile only */}
       <div className="flex items-center pt-base px-md">
         <button

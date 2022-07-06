@@ -27,6 +27,13 @@ class MyDocument extends Document {
           <link rel="stylesheet" href="/font.css" />
           <meta name="theme-color" content="#111111" />
 
+          {/* Blocking script */}
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `document.body.dataset.theme = window.localStorage.getItem("theme") || "light";`,
+            }}
+          />
+
           {/* Icons */}
           <link
             rel="apple-touch-icon"
@@ -47,15 +54,11 @@ class MyDocument extends Document {
           />
         </Head>
         <body
-          className="bg-light transition-colors"
-          // {...{ "data-theme": "light" }}
+          className="bg-light"
+          {...{ "data-theme": "dark" }}
         >
           <Main />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `document.body.dataset.theme = window.localStorage.getItem("theme") || "light";`,
-            }}
-          ></script>
+
           <NextScript />
         </body>
       </Html>
