@@ -47,7 +47,7 @@ class MyDocument extends Document {
           />
         </Head>
         <body
-          className="bg-light"
+          className="bg-light transition-colors"
           // {...{ "data-theme": "light" }}
         >
           <Main />

@@ -2,10 +2,12 @@ import { Icon } from "@/components/Icon";
 import { SmartLink } from "@/components/SmartLink";
 import { Spacer } from "@/components/Spacer";
 import { useSettings } from "@/lib/settings";
+import { copy } from "@/lib/utils/copy";
 import { Link } from "@/types/category";
 import { IconId } from "@/types/icon";
 import * as ContextMenu from "@radix-ui/react-context-menu";
 import clsx from "clsx";
+import { showToast } from "../Toast";
 
 interface LinkButtonProps {
   link: Link;
@@ -34,6 +36,14 @@ export const LinkButton = ({
       },
     },
     { separator: true },
+    {
+      label: "Copy link",
+      action: () => {
+        copy(link.href, link.name);
+        showToast({ text: "Copied link" });
+      },
+    },
+    { separator: true },
     isFavorited({ href: link.href })
       ? {
           label: "Remove from favorites",
@@ -55,9 +65,10 @@ export const LinkButton = ({
   ];
   return (
     <div
-      className={clsx("rounded-md", {
+      className={clsx("rounded-md transition-colors", {
         "bg-gray-100 hover:bg-gray-200": variant == "default",
-        "bg-gradient-to-r from-warning-lightest to-warning-lighter": variant == "warning",
+        "bg-gradient-to-r from-warning-lightest to-warning-lighter":
+          variant == "warning",
       })}
     >
       <ContextMenu.Root>
