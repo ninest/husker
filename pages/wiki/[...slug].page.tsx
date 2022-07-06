@@ -9,9 +9,7 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const url = `https://huskypedia.miraheze.org/w/api.php?action=parse&page=${pageId}&format=json`;
 
   const res = await fetch(url);
-  const data = await res.json()
-  
-  console.log(data);
+  const data = await res.json();
 
   const title = data.parse.title;
   const html = data.parse.text["*"];
@@ -23,6 +21,10 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   // Remove all edit tags
   const editTags = one.querySelectorAll(".mw-editsection");
   editTags.forEach((et) => et.remove());
+
+  // Remove all styles from all tags
+  const allTags = one.querySelectorAll("*");
+  allTags.forEach((tag) => tag.setAttribute("style", ""));
 
   // Change all a tags
   const aTags = one.querySelectorAll("a");
@@ -37,6 +39,14 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
       a.href = `/wiki/${pageId}`;
     }
   });
+
+  // Remove TOC
+  const toc = one.querySelector("#toc");
+  toc?.remove();
+
+  // Remove right side content
+  const rightContent = one.querySelectorAll(".tright");
+  rightContent.forEach((element) => element.remove());
 
   return { props: { pageId, title, html: one.innerHTML } };
 };
