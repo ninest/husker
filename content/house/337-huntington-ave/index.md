@@ -31,6 +31,8 @@ import plan3 from './house/337-huntington-ave/images/plans/plan3.jpg'
 </div>
 </Expandable>
 
+## Images
+
 import triple1 from './house/337-huntington-ave/images/triple/triple1.jpg'
 import triple2 from './house/337-huntington-ave/images/triple/triple2.jpg'
 import triple3 from './house/337-huntington-ave/images/triple/triple3.jpg'

@@ -38,7 +38,9 @@ import double3 from './house/10-coventry/images/double/double3.png'
 import singleDouble from './house/10-coventry/images/single-double.mp4'
 
 <Expandable title="Standard double" icon="video">
+  <div className="mx-auto md:max-w-[80%] lg:max-w-[60%] xl:max-w-[50%]">
   <Video src={singleDouble} />
+  </div>
 </Expandable>
 
 

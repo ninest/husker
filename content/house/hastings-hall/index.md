@@ -7,6 +7,17 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
+import { YoutubeEmbed } from "@/components/YoutubeEmbed"
+
+## Images
+
+<Expandable title="Videos" icon="video" variant="gray">
+  <div className="grid grid-cols-1 gap-base">
+    <YoutubeEmbed videoId="4nVpwnWfHwY" />
+    <YoutubeEmbed videoId="w7g8lozkHLo" />
+  </div>
+</Expandable>
+
 ## Reddit Links
 
 <LinkButtonGrid showDescription={true} links={[

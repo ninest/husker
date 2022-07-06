@@ -6,3 +6,13 @@ updatedAt: 2022-01-14
 
 pageType: dorm
 ---
+
+import { YoutubeEmbed } from "@/components/YoutubeEmbed"
+
+## Images
+
+<Expandable title="Videos" icon="video" variant="gray">
+  <div className="grid grid-cols-1 gap-base">
+    <YoutubeEmbed videoId="McEOHZ0g-bw" />
+  </div>
+</Expandable>

@@ -8,6 +8,26 @@ pageType: dorm
 ---
 
 import { YoutubeEmbed } from "@/components/YoutubeEmbed"
+import { Icon } from "@/components/Icon"
+
+<Expandable title="Dorm Information" variant="gray">
+
+- 1-, 2-, 3-person suites
+  - Enhanced single semi-private bedrooms (shares bathroom with connecting room)
+  - Enhanced double semi-private bedrooms (shares bathroom with connecting room)
+  - Enhanced forced triple semi-private bedrooms (shares bathroom with connecting room)
+- Lounges on every floor
+- <Icon className="inline" id="printer" /> Printer on first-floor lobby
+
+</Expandable>
+
+import plan1 from './house/international-village/images/plan.jpg'
+
+<Expandable title="Floor Plans" variant="gray">
+  <div className="grid grid-cols-1 gap-base">
+    <Image src={plan1} height={234} width={269} quality={50} />
+  </div>
+</Expandable>
 
 ## Images
 
@@ -41,16 +61,6 @@ import bathroom1 from './house/international-village/images/bathroom/bathroom1.j
     <Image src={bathroom1} height={2048} width={1536} quality={50} />
   </div>
 </Expandable>
-
-
-import plan1 from './house/international-village/images/plan.jpg'
-
-<Expandable title="Floor Plans" variant="gray">
-  <div className="grid grid-cols-1 gap-base">
-    <Image src={plan1} height={234} width={269} quality={50} />
-  </div>
-</Expandable>
-
 
 <Expandable title="Videos" icon="video" variant="gray">
   <div className="grid grid-cols-1 gap-base">

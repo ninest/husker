@@ -437,8 +437,8 @@ export const dorms: Dorm[] = [
 
   {
     type: apartment,
-    slug: "dav",
-    title: "Davenport",
+    slug: "dav-a",
+    title: "Davenport A",
     pricesPoints: [enhanced],
     links: [
       {
@@ -449,12 +449,27 @@ export const dorms: Dorm[] = [
     ],
     pages: [
       {
-        name: "Dav A NEUDorms",
+        name: "NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/upperclassmen/davenport-commons/dav-a",
       },
+    ],
+  },
+  {
+    type: apartment,
+    slug: "dav-b",
+    title: "Davenport B",
+    pricesPoints: [enhanced],
+    links: [
       {
-        name: "Dav B NEUDorms",
+        name: "Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://www.northeastern.edu/housing/davenport-commons-a-b/",
+      },
+    ],
+    pages: [
+      {
+        name: "NEUDorms",
         description: "Images and videos from NEUDorms",
         href: "https://sites.google.com/view/neudorms/upperclassmen/davenport-commons/dav-b",
       },
@@ -627,13 +642,7 @@ export const dorms: Dorm[] = [
         href: "https://northeastern.edu/housing/319-huntington-ave",
       },
     ],
-    pages: [
-      {
-        name: "NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/upperclassmen/319-huntington-ave",
-      },
-    ],
+    pages: [],
   },
 
   {
@@ -653,13 +662,7 @@ export const dorms: Dorm[] = [
         href: "https://www.northeastern.edu/housing/dnaesantoelrihtriseertn/the-fairwoods-at-337-huntington-ave/",
       },
     ],
-    pages: [
-      {
-        name: "NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/upperclassmen/337-huntington-ave",
-      },
-    ],
+    pages: [],
   },
 
   {
@@ -747,13 +750,7 @@ export const dorms: Dorm[] = [
         href: "https://www.northeastern.edu/housing/dnaesantoelrihtriseertn/loftman-hall/",
       },
     ],
-    pages: [
-      {
-        name: "NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/upperclassmen/loftman-hall",
-      },
-    ],
+    pages: [],
   },
 
   {
