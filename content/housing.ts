@@ -446,6 +446,11 @@ export const dorms: Dorm[] = [
         description: "Dorm specifications",
         href: "https://www.northeastern.edu/housing/davenport-commons-a-b/",
       },
+      {
+        name: "Floor Plan",
+        description: "Map",
+        href: "https://www.northeastern.edu/housing/dnaesantoelrihtriseertn/davenport-commons-a/",
+      },
     ],
     pages: [
       {
@@ -465,6 +470,11 @@ export const dorms: Dorm[] = [
         name: "Northeastern Housing",
         description: "Dorm specifications",
         href: "https://www.northeastern.edu/housing/davenport-commons-a-b/",
+      },
+      {
+        name: "Floor Plan",
+        description: "Map",
+        href: "https://www.northeastern.edu/housing/dnaesantoelrihtriseertn/davenport-commons-b/",
       },
     ],
     pages: [

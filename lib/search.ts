@@ -22,7 +22,7 @@ const searchableItems: SearchableItem[] = [
   ...dorms.map((dorm) => ({
     name: dorm.title,
     href: `/housing/${dorm.slug}`,
-    description: dorm.title,
+    description: `${dorm.type.name} housing`,
     categoryTitle: "Housing",
   })),
 ];
