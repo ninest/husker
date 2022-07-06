@@ -2,6 +2,7 @@ import { Icon } from "@/components/Icon";
 import { SmartLink } from "@/components/SmartLink";
 import { Spacer } from "@/components/Spacer";
 import { useSettings } from "@/lib/settings";
+import { useTheme } from "@/lib/theme";
 import { copy } from "@/lib/utils/copy";
 import { Link } from "@/types/category";
 import { IconId } from "@/types/icon";
@@ -22,6 +23,7 @@ export const LinkButton = ({
   showDescription = false,
 }: LinkButtonProps) => {
   const { addFavorite, isFavorited, removeFromFavorites } = useSettings();
+  const { isDarkTheme } = useTheme();
   const contextMenuActions = [
     {
       label: "Open in new tab",
@@ -67,6 +69,7 @@ export const LinkButton = ({
     <div
       className={clsx("rounded-md transition-colors", {
         "bg-gray-100 hover:bg-gray-200": variant == "default",
+        "bg-gray-50 hover:bg-gray-100": variant == "default" && isDarkTheme,
         "bg-gradient-to-r from-warning-lightest to-warning-lighter":
           variant == "warning",
       })}
