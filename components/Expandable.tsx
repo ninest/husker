@@ -24,7 +24,7 @@ export const Expandable = ({
   return (
     <div
       className={clsx(
-        "transition-colors",
+        "expandable transition-colors",
         {
           "bg-primary-lightest": variant == "primary",
           "bg-gray-100": variant == "gray" && isLightTheme,

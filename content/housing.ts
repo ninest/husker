@@ -724,13 +724,7 @@ export const dorms: Dorm[] = [
         href: "https://www.northeastern.edu/housing/dnaesantoelrihtriseertn/burstein-hall/",
       },
     ],
-    pages: [
-      {
-        name: "NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/upperclassmen/burstein-hall",
-      },
-    ],
+    pages: [],
   },
 
   {

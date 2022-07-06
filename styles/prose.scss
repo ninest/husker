@@ -44,5 +44,11 @@
       /* w-4/6 to allow clicking on the title to navigate to the hashed link */
       @apply absolute -mx-sm w-3/6;
     }
+
+    .expandable {
+      h3 {
+        @apply text-lg font-semibold;
+      }
+    }
   }
 }
