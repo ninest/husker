@@ -783,6 +783,25 @@ export const dorms: Dorm[] = [
       },
     ],
   },
+  {
+    type: apartment,
+    slug: "lightview",
+    title: "LightView",
+    pricesPoints: [enhanced],
+    links: [
+      {
+        name: "Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://www.northeastern.edu/housing/lightview/",
+      },
+      // No lightview floor plan?
+      // {
+      //   name: "Floor Plan",
+      //   description: "Map",
+      //   href: "https://www.northeastern.edu/housing/dnaesantoelrihtriseertn/willis-hall/",
+      // },
+    ],
+  },
 
   {
     type: leased,
