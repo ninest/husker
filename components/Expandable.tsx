@@ -24,9 +24,13 @@ export const Expandable = ({
   return (
     <div
       className={clsx(
-        { "bg-primary-lightest": variant == "primary" },
-        { "bg-gray-lightest": variant == "gray" },
-        "rounded-lg"
+        "transition-colors",
+        {
+          "bg-primary-lightest": variant == "primary",
+          "bg-gray-100": variant == "gray" && isLightTheme,
+          "bg-gray-50": variant == "gray" && isDarkTheme,
+        },
+        "rounded-md"
       )}
     >
       <Disclosure defaultOpen={open}>
@@ -35,16 +39,20 @@ export const Expandable = ({
             <Disclosure.Button
               className={clsx(
                 "flex justify-between items-center w-full p-base font-semibold text-gray-darkest rounded-lg transition-colors",
-                { "hover:bg-primary-lighter": variant == "primary" }
+                {
+                  "hover:bg-primary-lighter": variant == "primary",
+                  "hover:bg-gray-200": variant == "gray" && isLightTheme,
+                  "hover:bg-gray-100": variant == "gray" && isDarkTheme,
+                }
               )}
             >
               <div className="flex items-center">
                 <Icon
                   id={icon}
-                  className={clsx(
-                    "mr-base flex-none",
-                    { "text-gray-darker": open, "text-gray-dark": !open },
-                  )}
+                  className={clsx("mr-base flex-none", {
+                    "text-gray-darker": open,
+                    "text-gray-dark": !open,
+                  })}
                 ></Icon>
                 <div
                   className={clsx(
