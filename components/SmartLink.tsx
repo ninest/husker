@@ -17,10 +17,11 @@ export const SmartLink = ({
   ...props
 }: SmartLinkProps) => {
   const router = useRouter();
+  const path = router.asPath.split("?")[0];
   const className = clsx(
     {
       underline,
-      [`${activeClassName}`]: router.asPath === href,
+      [`${activeClassName}`]: path === href,
     },
     props.className
   );

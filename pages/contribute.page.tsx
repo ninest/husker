@@ -5,11 +5,12 @@ import { FormField } from "@/components/form/FormField";
 import { SmartLink } from "@/components/SmartLink";
 import { Spacer } from "@/components/Spacer";
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { showToast } from "@/components/Toast";
+import { NextSeo } from "next-seo";
 
 const contributeFormSchema = z.object({
   name: z.string().optional(),
@@ -24,21 +25,29 @@ type ContributeForm = z.infer<typeof contributeFormSchema>;
 const ContactPage = () => {
   const router = useRouter();
 
-  const { name: initialName, fixLinks } = router.query;
-
   const {
     handleSubmit,
     formState: { isSubmitting },
     reset,
+    setValue,
     control,
   } = useForm<ContributeForm>({
     resolver: zodResolver(contributeFormSchema),
     defaultValues: {
-      name: (initialName as string) ?? "",
+      name: "",
       content: "",
       credit: "",
     },
   });
+
+  const { name: initialName, fixLinks } = router.query;
+
+  useEffect(() => {
+    if (initialName) {
+      const newPageName = (initialName as string).replaceAll("_", " ");
+      setValue("name", newPageName);
+    }
+  }, [initialName]);
 
   const [submitted, setSubmitted] = useState(false);
 
@@ -58,6 +67,7 @@ const ContactPage = () => {
 
   return (
     <>
+      <NextSeo title="Contribute" description="Contribute to Husker" />
       <ArticleHead title="Contribute"></ArticleHead>
       <article className="wrapper">
         <Expandable title="How to contribute?">

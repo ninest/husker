@@ -42,7 +42,11 @@ export const LinkButton = ({
     {
       label: "Copy link",
       action: () => {
-        copy(link.href, link.name);
+        let href = link.href;
+        if (href.startsWith("/")) {
+          href = `https://husker.vercel.app${href}`;
+        }
+        copy(href, link.name);
         showToast({ text: "Copied link" });
       },
     },
