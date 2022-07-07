@@ -61,6 +61,7 @@ import {
   FaDiscord,
   FaCaretUp,
   FaTrash,
+  FaChevronLeft,
 } from "react-icons/fa";
 
 export const iconMap = {
@@ -128,5 +129,6 @@ export const iconMap = {
   hand: FaHandPaper,
   discord: FaDiscord,
   trash: FaTrash,
+  chevronright: FaChevronLeft,
 };
 export type IconId = keyof typeof iconMap;
