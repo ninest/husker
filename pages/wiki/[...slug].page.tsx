@@ -3,6 +3,7 @@ import { GetServerSideProps } from "next/types";
 import { JSDOM } from "jsdom";
 import { Spacer } from "@/components/Spacer";
 import { Button } from "@/components/Button";
+import { NextSeo } from "next-seo";
 
 export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const pageId = params?.slug![0];
@@ -14,41 +15,49 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const title = data.parse.title;
   const html = data.parse.text["*"];
 
-  const content = new JSDOM(html);
-  const one =
-    content.window.document.getElementsByClassName("mw-parser-output")[0];
+  const dom = new JSDOM(html);
+  const content =
+    dom.window.document.getElementsByClassName("mw-parser-output")[0];
 
   // Remove all edit tags
-  const editTags = one.querySelectorAll(".mw-editsection");
+  const editTags = content.querySelectorAll(".mw-editsection");
   editTags.forEach((et) => et.remove());
 
   // Remove all styles from all tags
-  const allTags = one.querySelectorAll("*");
+  const allTags = content.querySelectorAll("*");
   allTags.forEach((tag) => tag.setAttribute("style", ""));
 
   // Change all a tags
-  const aTags = one.querySelectorAll("a");
+  const aTags = content.querySelectorAll("a");
 
   // underline tailwind class
   aTags.forEach((a) => (a.className += " underline"));
 
-  // Replace link if links to another wiki page
   aTags.forEach((a) => {
-    if (a.href.includes("huskypedia.miraheze.org")) {
-      const pageId = a.href.split("wiki/")[1];
+    // Replace link if links to another wiki page
+    if (a.href.includes("/wiki/")) {
+      const pageId = a.href.split("/wiki/")[1];
       a.href = `/wiki/${pageId}`;
+    }
+
+    // Show link in red if
+    if (a.href.includes("/w/index.php")) {
+      const pageId = a.href.split("title=")[1].split("&")[0];
+      console.log(pageId);
+      a.className += " text-error";
+      a.href = `/contribute?name=${pageId}`;
     }
   });
 
   // Remove TOC
-  const toc = one.querySelector("#toc");
+  const toc = content.querySelector("#toc");
   toc?.remove();
 
   // Remove right side content
-  const rightContent = one.querySelectorAll(".tright");
+  const rightContent = content.querySelectorAll(".tright");
   rightContent.forEach((element) => element.remove());
 
-  return { props: { pageId, title, html: one.innerHTML } };
+  return { props: { pageId, title, html: content.innerHTML } };
 };
 
 interface WikiPageProps {
@@ -61,6 +70,8 @@ const WikiPage = ({ pageId, title, html }: WikiPageProps) => {
   const editHref = `https://huskypedia.miraheze.org/w/index.php?title=${pageId}&action=edit`;
   return (
     <>
+      <NextSeo title={title} description={title} />
+
       <ArticleHead backButtonHref="/wiki" backButtonText="Wiki" title={title} />
 
       <article className="wrapper">
