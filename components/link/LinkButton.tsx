@@ -23,7 +23,8 @@ export const LinkButton = ({
   showDescription = false,
 }: LinkButtonProps) => {
   const { addFavorite, isFavorited, removeFromFavorites } = useSettings();
-  const { isDarkTheme } = useTheme();
+  const { isLightTheme, isDarkTheme } = useTheme();
+
   const contextMenuActions = [
     {
       label: "Open in new tab",
@@ -68,7 +69,7 @@ export const LinkButton = ({
   return (
     <div
       className={clsx("rounded-md transition-colors", {
-        "bg-gray-100 hover:bg-gray-200": variant == "default",
+        "bg-gray-100 hover:bg-gray-200": variant == "default" && isLightTheme,
         "bg-gray-50 hover:bg-gray-100": variant == "default" && isDarkTheme,
         "bg-gradient-to-r from-warning-lightest to-warning-lighter":
           variant == "warning",
@@ -98,8 +99,8 @@ export const LinkButton = ({
 
           {/* Context menu content */}
           <ContextMenu.Content className="text-xs font-medium w-48 p-xs md:p-1 bg-gray-50 shadow rounded-md space-y-1">
-            {contextMenuActions.map((item) => (
-              <>
+            {contextMenuActions.map((item, index) => (
+              <div key={index}>
                 {item.separator ? (
                   <div>
                     <ContextMenu.Separator className="border-t my-0.5" />
@@ -114,7 +115,7 @@ export const LinkButton = ({
                     </ContextMenu.Item>
                   </div>
                 )}
-              </>
+              </div>
             ))}
           </ContextMenu.Content>
         </ContextMenu.Trigger>
