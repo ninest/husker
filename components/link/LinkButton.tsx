@@ -98,7 +98,7 @@ export const LinkButton = ({
           </SmartLink>
 
           {/* Context menu content */}
-          <ContextMenu.Content className="text-xs font-medium w-48 p-xs md:p-1 bg-gray-50 shadow rounded-md space-y-1">
+          <ContextMenu.Content className="text-xs font-medium w-48 p-xs md:p-1 bg-gray-100 border shadow rounded-md space-y-1">
             {contextMenuActions.map((item, index) => (
               <div key={index}>
                 {item.separator ? (
