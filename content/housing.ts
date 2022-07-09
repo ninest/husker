@@ -759,4 +759,17 @@ export const dorms: Dorm[] = [
       },
     ],
   },
+  {
+    type: leased,
+    slug: "edwards-rodgers-hall",
+    title: "Edwards and Rodgers Hall",
+    pricesPoints: [standard],
+    links: [
+      {
+        name: "Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://www.northeastern.edu/housing/edwards-rodgers-hall/",
+      },
+    ],
+  },
 ];
