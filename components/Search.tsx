@@ -92,7 +92,7 @@ export const Search = () => {
                     <LinkButton
                       key={link.href}
                       link={link}
-                      showDescription
+                      showDescription={!!link.description}
                     ></LinkButton>
                   );
                 })}

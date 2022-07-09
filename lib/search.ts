@@ -23,12 +23,22 @@ const searchableItems: SearchableItem[] = [
     name: dorm.title,
     href: `/housing/${dorm.slug}`,
     description: `${dorm.type.name} housing`,
-    categoryTitle: "Housing",
+  })),
+
+  ...contentMap.map((cat) => ({
+    name: cat.title,
+    href: `/${cat.slug}`,
   })),
 ];
 
 const fuse = new Fuse(searchableItems, {
-  keys: ["name", "href", "description", "categoryTitle"],
+  keys: [
+    // More weightage for name than description
+    { name: "name", weight: 2 },
+    "href",
+    "description",
+    "categoryTitle",
+  ],
   threshold: 0.4,
 });
 
@@ -78,6 +88,14 @@ export function search(keyword: string): LinkWithCategory[] {
     // Add all to start of array (The cool way)
     //  https://stackoverflow.com/a/8159547/8677167
     courseResults.reverse().forEach((result) => searchResults.unshift(result));
+  } else {
+    /* Search for professor on rate my professors */
+    searchResults.push({
+      categoryTitle: "Professor",
+      name: "RateMyProfessors",
+      description: `Search for "${keyword}"`,
+      href: `https://www.google.com/search?q=${keyword} site%3Aratemyprofessors.com+northeastern+university`,
+    });
   }
 
   return searchResults;
