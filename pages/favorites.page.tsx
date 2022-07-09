@@ -1,5 +1,6 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { Button } from "@/components/Button";
+import { ClientOnly } from "@/components/ClientOnly";
 import { LinkSet } from "@/components/link/LinkSet";
 import { NoFavorites } from "@/components/NoFavorites";
 import { Spacer } from "@/components/Spacer";
@@ -11,9 +12,6 @@ import { useRouter } from "next/router";
 import { useEffect } from "react";
 
 const FavoritesPage = () => {
-  // const {
-  //   settings: { favoritesEnabled, favorites },
-  // } = useSettings();
   const {
     settings: { favoritesEnabled, favorites },
   } = useSettings();
@@ -31,16 +29,22 @@ const FavoritesPage = () => {
       <NextSeo title={"Favorites"} description={"All your favorites"} />
       <ArticleHead title={"Favorites"} />
 
-      <article className="wrapper">
-        {favoriteLinks.length == 0 && <NoFavorites />}
-        <Spacer size="md" />
-        <div className="flex">
-          <Button icon="pen" href="/settings" size="sm">
-            Edit
-          </Button>
-        </div>
-        <Spacer size="md" />
-        <LinkSet showTitle={false} showFull links={favoriteLinks} />
+      <article className="wrapper" suppressHydrationWarning>
+        <ClientOnly>
+          {favoriteLinks.length == 0 && (
+            <>
+              <NoFavorites />
+              <Spacer size="md" />
+            </>
+          )}
+          <div className="flex">
+            <Button icon="pen" href="/settings" size="sm">
+              Edit
+            </Button>
+          </div>
+          <Spacer size="md" />
+          <LinkSet showTitle={false} showFull links={favoriteLinks} />
+        </ClientOnly>
       </article>
     </>
   );

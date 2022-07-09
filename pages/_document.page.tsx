@@ -51,7 +51,8 @@ class MyDocument extends Document {
           {/* Blocking script */}
           <script
             dangerouslySetInnerHTML={{
-              __html: `window.document.body.dataset.theme = JSON.parse(window.localStorage.getItem("settings")).dark || "light";`,
+              __html: `try {window.document.body.dataset.theme = JSON.parse(window.localStorage.getItem("settings")).dark || "dark"}
+                       catch(error) {window.document.body.dataset.theme = "dark"}`,
             }}
           />
 

@@ -60,14 +60,16 @@ export const useTheme = () => {
 export const useFavorites = () => {
   const { settings, mergeSettings } = useSettings();
 
-  const setFavoritesEnabled = (favoritesEnabled: boolean) =>
+  const setFavoritesEnabled = (favoritesEnabled: boolean) => {
+    console.log("Setting favs enavled: ", favoritesEnabled);
     mergeSettings({ favoritesEnabled });
+  };
 
   const setFavorites = (favorites: Favorite[]) => mergeSettings({ favorites });
 
   const addFavorite = (newFavorite: Favorite) => {
-    setFavoritesEnabled(true);
     mergeSettings({
+      favoritesEnabled: true,
       favorites: [...settings.favorites, newFavorite],
     });
     showToast({ text: "Favorite added" });
@@ -81,7 +83,7 @@ export const useFavorites = () => {
   const removeFavorite = (favorite: Pick<Favorite, "href">) => {
     mergeSettings({
       favorites: settings.favorites.filter(
-        (existingFavorite) => existingFavorite.href === favorite.href
+        (existingFavorite) => existingFavorite.href !== favorite.href
       ),
     });
     showToast({ text: "Favorite removed" });

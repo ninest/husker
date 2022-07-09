@@ -1,13 +1,13 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { Button } from "@/components/Button";
+import { ClientOnly } from "@/components/ClientOnly";
 import { Debug } from "@/components/Debug";
 import { FormField } from "@/components/form/FormField";
 import { FormSelect, FormSelectProps } from "@/components/form/FormSelect";
 import { Spacer } from "@/components/Spacer";
 import { Title } from "@/components/Title";
 import { showToast } from "@/components/Toast";
-import { themes, useSettings } from "@/hooks/settings";
-import { useTheme } from "@/hooks/settings";
+import { themes, useSettings, useTheme } from "@/hooks/settings";
 import { IconId, iconMap } from "@/types/icon";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useEffect } from "react";
@@ -31,10 +31,10 @@ const settingsFormSchema = z.object({
 type SettingsForm = z.infer<typeof settingsFormSchema>;
 
 const SettingsPage = () => {
-  const { settings, setSettings } = useSettings();
+  const { settings, mergeSettings } = useSettings();
   const { setTheme } = useTheme();
 
-  const { handleSubmit, control, watch, setValue, reset } =
+  const { handleSubmit, control, watch, getValues, setValue, reset } =
     useForm<SettingsForm>({
       defaultValues: {
         theme: settings.theme,
@@ -51,8 +51,7 @@ const SettingsPage = () => {
 
   const onSubmit = handleSubmit(async (data) => {
     setTheme(data.theme);
-    setSettings({
-      ...settings,
+    mergeSettings({
       theme: data.theme,
       favorites: data.favorites,
       favoritesEnabled: data.favoritesEnabled,
@@ -70,11 +69,28 @@ const SettingsPage = () => {
 
   const { favoritesEnabled } = watch();
 
+  useEffect(() => {
+    const subscription = watch((value, { name, type }) => {
+      const data = getValues();
+      console.log("Settings chanege");
+
+      mergeSettings({
+        theme: data.theme,
+        favorites: data.favorites,
+        favoritesEnabled: data.favoritesEnabled,
+      });
+
+      // TODO: Only change theme if different
+      setTheme(data.theme);
+    });
+    return () => subscription.unsubscribe();
+  }, [watch]);
+
   return (
     <>
       <ArticleHead title="Settings" />
       <article className="wrapper" suppressHydrationWarning>
-        {typeof window !== "undefined" && (
+        <ClientOnly>
           <form onSubmit={onSubmit} className="space-y-base">
             <section className="space-y-base">
               <Title level={2}>Colors</Title>
@@ -194,7 +210,7 @@ const SettingsPage = () => {
               </Button>
             </div>
           </form>
-        )}
+        </ClientOnly>
 
         <Debug data={watch()} />
       </article>

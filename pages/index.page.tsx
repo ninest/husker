@@ -1,3 +1,4 @@
+import { ClientOnly } from "@/components/ClientOnly";
 import { LinkSet } from "@/components/link/LinkSet";
 import { NoFavorites } from "@/components/NoFavorites";
 import { Spacer } from "@/components/Spacer";
@@ -34,17 +35,21 @@ const IndexPage = () => {
         </Expandable> */}
 
         <div className="space-y-xl">
-          {favoritesEnabled && (
-            <section>
-              <LinkSet
-                showTitle
-                title={"Favorites"}
-                moreInfoHref={`/favorites`}
-                links={favoriteLinks}
-              />
-              {favoriteLinks.length == 0 && <NoFavorites />}
-            </section>
-          )}
+          <div suppressHydrationWarning>
+            <ClientOnly>
+              {favoritesEnabled && (
+                <div>
+                  <LinkSet
+                    showTitle
+                    title={"Favorites"}
+                    moreInfoHref={`/favorites`}
+                    links={favoriteLinks}
+                  />
+                  {favoriteLinks.length == 0 && <NoFavorites />}
+                </div>
+              )}
+            </ClientOnly>
+          </div>
           {contentMap.map((category) => {
             return (
               <LinkSet
@@ -57,6 +62,7 @@ const IndexPage = () => {
             );
           })}
         </div>
+
         <Spacer />
       </article>
     </>
