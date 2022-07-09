@@ -220,13 +220,7 @@ export const dorms: Dorm[] = [
         href: "https://northeastern.edu/housing/153-hemenway-street",
       },
     ],
-    pages: [
-      {
-        name: "NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/first-year/suite-style/153-hemenway-street",
-      },
-    ],
+    pages: [],
   },
   {
     type: suite,
@@ -350,63 +344,32 @@ export const dorms: Dorm[] = [
   },
   {
     type: apartment,
-    slug: "110-st-stephen-street",
-    title: "110 St Stephen Street",
+    slug: "st-stephen-street",
+    title: "St. Stephen Street",
     pricesPoints: [economy, standard],
     links: [
       {
-        name: "Northeastern Housing",
+        name: "106",
         description: "Dorm specifications",
-        href: "https://northeastern.edu/housing/110-st-stephen-street",
+        href: "https://www.northeastern.edu/housing/106-st-stephen-street/",
       },
-    ],
-    pages: [
       {
-        name: "NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/upperclassmen/110-st-stephen-street?authuser=0",
-      },
-    ],
-  },
-  {
-    type: apartment,
-    slug: "116-st-stephen-street",
-    title: "116 St. Stephen Street",
-    pricesPoints: [economy, standard],
-    links: [
-      {
-        name: "Northeastern Housing",
+        name: "110",
         description: "Dorm specifications",
-        href: "https://northeastern.edu/housing/stephen-street",
+        href: "https://www.northeastern.edu/housing/110-st-stephen-street/",
       },
-    ],
-    pages: [
       {
-        name: "NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/first-year/apartment-style/116-st-stephen-street",
+        name: "116",
+        description: "Dorm specifications",
+        href: "https://www.northeastern.edu/housing/116-st-stephen-street/",
       },
-    ],
-  },
-  {
-    type: apartment,
-    slug: "122-st-stephen-street-levine-hall",
-    title: "122 St. Stephen Street / Levine Hall",
-    pricesPoints: [economy, standard],
-    links: [
       {
-        name: "Northeastern Housing",
+        name: "122",
         description: "Dorm specifications",
         href: "https://northeastern.edu/housing/levine-hall",
       },
     ],
-    pages: [
-      {
-        name: "NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/first-year/apartment-style/122-st-stephen-street-levine-hall",
-      },
-    ],
+    pages: [],
   },
 
   {
@@ -498,13 +461,7 @@ export const dorms: Dorm[] = [
         href: "https://www.northeastern.edu/housing/west-village-a/",
       },
     ],
-    pages: [
-      {
-        name: "NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-a",
-      },
-    ],
+    pages: [],
   },
   {
     type: apartment,
@@ -518,13 +475,7 @@ export const dorms: Dorm[] = [
         href: "https://www.northeastern.edu/housing/west-village-b/",
       },
     ],
-    pages: [
-      {
-        name: "NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-b",
-      },
-    ],
+    pages: [],
   },
   {
     type: apartment,
@@ -538,13 +489,7 @@ export const dorms: Dorm[] = [
         href: "https://www.northeastern.edu/housing/west-village-c/",
       },
     ],
-    pages: [
-      {
-        name: "NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-c",
-      },
-    ],
+    pages: [],
   },
 
   {
@@ -559,13 +504,7 @@ export const dorms: Dorm[] = [
         href: "https://www.northeastern.edu/housing/west-village-e/",
       },
     ],
-    pages: [
-      {
-        name: "NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-e",
-      },
-    ],
+    pages: [],
   },
   {
     type: apartment,
@@ -584,13 +523,7 @@ export const dorms: Dorm[] = [
         href: "https://www.northeastern.edu/housing/dnaesantoelrihtriseertn/west-village-f/",
       },
     ],
-    pages: [
-      {
-        name: "NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/upperclassmen/west-villages/west-village-f",
-      },
-    ],
+    pages: [],
   },
 
   {
