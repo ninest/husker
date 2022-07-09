@@ -1,3 +1,5 @@
+/* DEPRECATED */
+
 import { showToast } from "@/components/Toast";
 import { Favorite } from "@/types/favorites";
 import {
@@ -5,7 +7,7 @@ import {
   ReactNode,
   useContext,
   useEffect,
-  useState
+  useState,
 } from "react";
 import { storage } from "../storage";
 

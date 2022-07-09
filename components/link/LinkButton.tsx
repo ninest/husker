@@ -1,8 +1,7 @@
 import { Icon } from "@/components/Icon";
 import { SmartLink } from "@/components/SmartLink";
 import { Spacer } from "@/components/Spacer";
-import { useSettings } from "@/lib/settings";
-import { useTheme } from "@/hooks/settings";
+import { useFavorites, useTheme } from "@/hooks/settings";
 import { copy } from "@/lib/utils/copy";
 import { Link } from "@/types/category";
 import { IconId } from "@/types/icon";
@@ -22,7 +21,7 @@ export const LinkButton = ({
   variant = "default",
   showDescription = false,
 }: LinkButtonProps) => {
-  const { addFavorite, isFavorited, removeFromFavorites } = useSettings();
+  const { addFavorite, isFavorited, removeFavorite } = useFavorites();
   const { isLightTheme, isDarkTheme } = useTheme();
 
   const contextMenuActions = [
@@ -55,7 +54,7 @@ export const LinkButton = ({
       ? {
           label: "Remove from favorites",
           action: () => {
-            removeFromFavorites({ href: link.href });
+            removeFavorite({ href: link.href });
           },
         }
       : {

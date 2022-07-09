@@ -1,11 +1,9 @@
-import { contentMap } from "@/content/map";
-
-import { Icon } from "@/components/Icon";
 import { LinkSet } from "@/components/link/LinkSet";
-import { favoritesToLinks } from "@/lib/favorites";
-import { useSettings } from "@/lib/settings";
 import { NoFavorites } from "@/components/NoFavorites";
 import { Spacer } from "@/components/Spacer";
+import { contentMap } from "@/content/map";
+import { useSettings } from "@/hooks/settings";
+import { favoritesToLinks } from "@/lib/favorites";
 
 const IndexPage = () => {
   const {

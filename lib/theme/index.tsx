@@ -1,3 +1,5 @@
+/* DEPRECATED */
+
 import {
   createContext,
   ReactNode,

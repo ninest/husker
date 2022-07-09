@@ -3,13 +3,17 @@ import { Button } from "@/components/Button";
 import { LinkSet } from "@/components/link/LinkSet";
 import { NoFavorites } from "@/components/NoFavorites";
 import { Spacer } from "@/components/Spacer";
+import { useFavorites, useSettings } from "@/hooks/settings";
 import { favoritesToLinks } from "@/lib/favorites";
-import { useSettings } from "@/lib/settings";
+
 import { NextSeo } from "next-seo";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 
 const FavoritesPage = () => {
+  // const {
+  //   settings: { favoritesEnabled, favorites },
+  // } = useSettings();
   const {
     settings: { favoritesEnabled, favorites },
   } = useSettings();

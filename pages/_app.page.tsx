@@ -8,13 +8,19 @@ import { Footer } from "@/components/Footer";
 import { MobileNavbar } from "@/components/MobileNavbar";
 import { Sidebar } from "@/components/Sidebar";
 import { Spacer } from "@/components/Spacer";
-import { useTheme } from "@/hooks/settings";
-import { SettingsProvider } from "@/lib/settings";
-import { useState } from "react";
+import { useSettings, useTheme } from "@/hooks/settings";
+import { useEffect, useState } from "react";
 import { Toaster } from "react-hot-toast";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  useTheme();
+  // TODO: Set initial theme
+  const { settings } = useSettings();
+  const { setTheme } = useTheme();
+  useEffect(() => {
+    const currentTheme = settings.theme;
+    setTheme(currentTheme);
+    document.body.dataset.theme = currentTheme;
+  }, []);
 
   const [showSidebar, setShowSidebar] = useState(false);
   return (
@@ -29,44 +35,44 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Toaster position="top-right" containerClassName="mt-16 md:mt-0" />
 
       {/* <ThemeProvider> */}
-      <SettingsProvider>
-        {!showSidebar && (
-          <div className={clsx("block md:hidden sticky top-0 z-50")}>
-            <MobileNavbar
-              onMenuClick={() => {
-                setShowSidebar(!showSidebar);
-              }}
-            ></MobileNavbar>
-          </div>
-        )}
+      {/* <SettingsProvider> */}
+      {!showSidebar && (
+        <div className={clsx("block md:hidden sticky top-0 z-50")}>
+          <MobileNavbar
+            onMenuClick={() => {
+              setShowSidebar(!showSidebar);
+            }}
+          ></MobileNavbar>
+        </div>
+      )}
 
-        <main className={clsx("md:flex")}>
-          {/* 
+      <main className={clsx("md:flex")}>
+        {/* 
               TODO
               Wrapping this element in a div will fix the safari scroll bug
               https://stackoverflow.com/q/51792783/8677167
               But it causes an issue with the sidebar
             */}
-          <div
-            className={clsx(
-              { hidden: !showSidebar },
-              "md:block sticky z-50 top-0 bottom-0 left-0"
-            )}
-          >
-            <Sidebar onCloseClick={() => setShowSidebar(false)}></Sidebar>
-          </div>
+        <div
+          className={clsx(
+            { hidden: !showSidebar },
+            "md:block sticky z-50 top-0 bottom-0 left-0"
+          )}
+        >
+          <Sidebar onCloseClick={() => setShowSidebar(false)}></Sidebar>
+        </div>
 
-          <div className="w-full">
-            <div className="min-h-screen">
-              <Component {...pageProps} />
-            </div>
-            <Spacer size="md"></Spacer>
-            <hr />
-
-            <Footer></Footer>
+        <div className="w-full">
+          <div className="min-h-screen">
+            <Component {...pageProps} />
           </div>
-        </main>
-      </SettingsProvider>
+          <Spacer size="md"></Spacer>
+          <hr />
+
+          <Footer></Footer>
+        </div>
+      </main>
+      {/* </SettingsProvider> */}
       {/* </ThemeProvider> */}
     </>
   );

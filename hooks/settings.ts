@@ -2,7 +2,9 @@ import { showToast } from "@/components/Toast";
 import { Favorite } from "@/types/favorites";
 import { useAtom } from "jotai";
 import { atomWithStorage } from "jotai/utils";
-import { useEffect } from "react";
+
+export const themes = ["light", "dark"] as const;
+type Theme = typeof themes[number];
 
 interface Settings {
   theme: Theme;
@@ -10,7 +12,6 @@ interface Settings {
   favoritesEnabled: boolean;
   favorites: Favorite[];
 }
-type Theme = "light" | "dark";
 
 const settingsAtom = atomWithStorage<Settings>("settings", {
   theme: "dark",
@@ -26,18 +27,11 @@ export const useSettings = () => {
     setSettings({ ...settings, ...newSettings });
   };
 
-  return { settings, mergeSettings };
+  return { settings, setSettings, mergeSettings };
 };
 
 export const useTheme = () => {
   const { settings, mergeSettings } = useSettings();
-
-  // Set initial theme
-  useEffect(() => {
-    const currentTheme = settings.theme;
-    setTheme(currentTheme);
-    document.body.dataset.theme = currentTheme;
-  }, []);
 
   const setTheme = (theme: Theme) => {
     mergeSettings({ theme });
@@ -56,6 +50,7 @@ export const useTheme = () => {
   const isDarkTheme = settings.theme == "dark";
 
   return {
+    setTheme,
     toggleTheme,
     isLightTheme,
     isDarkTheme,
