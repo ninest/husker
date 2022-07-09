@@ -1,7 +1,7 @@
 import { SmartLink } from "@/components/SmartLink";
 import { contentMap } from "@/content/map";
 import { highlightedSidebarLinks, sidebarLinks } from "@/content/sidebar";
-import { useTheme } from "@/lib/theme";
+import { useTheme } from "@/hooks/settings";
 import { IconId } from "@/types/icon";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
@@ -112,7 +112,10 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
             </div>
           </button>
 
-          <SmartLink href="/settings" className="text-sm -m-sm p-sm hover:bg-gray-50 rounded">
+          <SmartLink
+            href="/settings"
+            className="text-sm -m-sm p-sm hover:bg-gray-50 rounded"
+          >
             <Icon id="cog" />
           </SmartLink>
         </div>

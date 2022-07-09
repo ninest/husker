@@ -1,4 +1,4 @@
-import { useTheme } from "@/lib/theme";
+import { useTheme } from "@/hooks/settings";
 import { IconId } from "@/types/icon";
 import { Size } from "@/types/size";
 import clsx from "clsx";

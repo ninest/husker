@@ -1,4 +1,4 @@
-import { useTheme } from "@/lib/theme";
+import { useTheme } from "@/hooks/settings";
 import clsx from "clsx";
 import { HTMLAttributes } from "react";
 

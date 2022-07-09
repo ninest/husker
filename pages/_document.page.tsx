@@ -27,13 +27,6 @@ class MyDocument extends Document {
           <link rel="stylesheet" href="/font.css" />
           <meta name="theme-color" content="#111111" />
 
-          {/* Blocking script */}
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `document.body.dataset.theme = window.localStorage.getItem("theme") || "light";`,
-            }}
-          />
-
           {/* Icons */}
           <link
             rel="apple-touch-icon"
@@ -53,10 +46,15 @@ class MyDocument extends Document {
             href="/icons/favicon-16x16.png"
           />
         </Head>
-        <body
-          className="bg-light"
-          {...{ "data-theme": "dark" }}
-        >
+
+        <body className="bg-light" {...{ "data-theme": "dark" }}>
+          {/* Blocking script */}
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `window.document.body.dataset.theme = JSON.parse(window.localStorage.getItem("settings")).dark || "light";`,
+            }}
+          />
+
           <Main />
 
           <NextScript />

@@ -2,7 +2,7 @@ import { Icon } from "@/components/Icon";
 import { SmartLink } from "@/components/SmartLink";
 import { Spacer } from "@/components/Spacer";
 import { useSettings } from "@/lib/settings";
-import { useTheme } from "@/lib/theme";
+import { useTheme } from "@/hooks/settings";
 import { copy } from "@/lib/utils/copy";
 import { Link } from "@/types/category";
 import { IconId } from "@/types/icon";

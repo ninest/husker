@@ -1,11 +1,10 @@
 import {
-  ReactNode,
-  useState,
   createContext,
+  ReactNode,
   useContext,
   useEffect,
+  useState
 } from "react";
-import { storage } from "../storage";
 
 const ThemeContext = createContext<ThemeContextValue>({} as ThemeContextValue);
 

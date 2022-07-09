@@ -1,8 +1,7 @@
-import { useEffect, useRef, useState } from "react";
-import { FaSearch } from "react-icons/fa";
+import { LinkButton } from "@/components/link/LinkButton";
 import { search } from "@/lib/search";
 import { Link } from "@/types/category";
-import { LinkButton } from "@/components/link/LinkButton";
+import { useEffect, useRef, useState } from "react";
 import { Icon } from "./Icon";
 import { Spacer } from "./Spacer";
 
