@@ -23,6 +23,8 @@ export const Search = () => {
   /* Listen for keyboard "/" to focus on search */
   const inputRef = useRef<HTMLInputElement>(null);
 
+  const [focused, setFocused] = useState(false);
+
   const onKeyPress = (e: KeyboardEvent) => {
     const textInputFocused = ["INPUT", "TEXTAREA"].includes(
       document.activeElement?.tagName ?? ""
@@ -75,8 +77,18 @@ export const Search = () => {
           type="text"
           onChange={(e) => setSearchTerm(e.target.value)}
           value={searchTerm}
+          onFocus={() => setFocused(true)}
+          onBlur={() => setFocused(false)}
         />
       </label>
+
+      {focused && !shouldSearch() && (
+        <div className="mt-base px-md">
+          <p className="text-sm text-gray">
+            Try searching for pages, courses, and professors.
+          </p>
+        </div>
+      )}
 
       {shouldSearch() && (
         <div>
