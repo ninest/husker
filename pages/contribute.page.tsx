@@ -4,13 +4,14 @@ import { Expandable } from "@/components/Expandable";
 import { FormField } from "@/components/form/FormField";
 import { SmartLink } from "@/components/SmartLink";
 import { Spacer } from "@/components/Spacer";
+import { showToast } from "@/components/Toast";
+import { celebrate, fireConfetti } from "@/lib/confetti";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { NextSeo } from "next-seo";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { showToast } from "@/components/Toast";
-import { NextSeo } from "next-seo";
 
 const contributeFormSchema = z.object({
   name: z.string().optional(),
@@ -59,6 +60,7 @@ const ContactPage = () => {
       setSubmitted(true);
       reset();
       showToast({ text: "Thank you for your contribution!" });
+      celebrate();
     } catch {
       alert("An error has ocurred :/");
       showToast({ text: "Unfortunately, an error ocurred", type: "error" });
