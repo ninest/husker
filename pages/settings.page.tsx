@@ -7,7 +7,12 @@ import { FormSelect, FormSelectProps } from "@/components/form/FormSelect";
 import { Spacer } from "@/components/Spacer";
 import { Title } from "@/components/Title";
 import { showToast } from "@/components/Toast";
-import { themes, useSettings, useTheme } from "@/hooks/settings";
+import {
+  themes,
+  useSecretSettings,
+  useSettings,
+  useTheme,
+} from "@/hooks/settings";
 import { IconId, iconMap } from "@/types/icon";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useEffect } from "react";
@@ -27,11 +32,17 @@ const settingsFormSchema = z.object({
       description: z.string().optional(),
     })
   ),
+  secretSettings: z
+    .object({
+      augmentedTitle: z.string().optional(),
+    })
+    .optional(),
 });
 type SettingsForm = z.infer<typeof settingsFormSchema>;
 
 const SettingsPage = () => {
   const { settings, mergeSettings } = useSettings();
+  const { secretSettingsEnabled } = useSecretSettings();
   const { setTheme } = useTheme();
 
   const { handleSubmit, control, watch, getValues, setValue, reset } =
@@ -40,6 +51,7 @@ const SettingsPage = () => {
         theme: settings.theme,
         favoritesEnabled: settings.favoritesEnabled,
         favorites: settings.favorites,
+        secretSettings: settings.secretSettings,
       },
       resolver: zodResolver(settingsFormSchema),
     });
@@ -51,11 +63,7 @@ const SettingsPage = () => {
 
   const onSubmit = handleSubmit(async (data) => {
     setTheme(data.theme);
-    mergeSettings({
-      theme: data.theme,
-      favorites: data.favorites,
-      favoritesEnabled: data.favoritesEnabled,
-    });
+    mergeSettings(data);
     showToast({ text: "Settings saved" });
   });
 
@@ -69,22 +77,23 @@ const SettingsPage = () => {
 
   const { favoritesEnabled } = watch();
 
-  useEffect(() => {
-    const subscription = watch((value, { name, type }) => {
-      const data = getValues();
-      console.log("Settings chanege");
+  // TODO: autosave
+  // useEffect(() => {
+  //   const subscription = watch((value, { name, type }) => {
+  //     const data = getValues();
+  //     console.log("Settings chanege");
 
-      mergeSettings({
-        theme: data.theme,
-        favorites: data.favorites,
-        favoritesEnabled: data.favoritesEnabled,
-      });
+  //     mergeSettings({
+  //       theme: data.theme,
+  //       favorites: data.favorites,
+  //       favoritesEnabled: data.favoritesEnabled,
+  //     });
 
-      // TODO: Only change theme if different
-      setTheme(data.theme);
-    });
-    return () => subscription.unsubscribe();
-  }, [watch]);
+  //     // TODO: Only change theme if different
+  //     setTheme(data.theme);
+  //   });
+  //   return () => subscription.unsubscribe();
+  // }, [watch]);
 
   return (
     <>
@@ -201,6 +210,19 @@ const SettingsPage = () => {
                 </Button>
               </div>
             </section>
+
+            {secretSettingsEnabled && (
+              <section className="bg-gray-100 -m-base p-base rounded space-y-base">
+                <Title level={2}>Secret settings</Title>
+
+                <FormField
+                  control={control}
+                  name={`secretSettings.augmentedTitle`}
+                  label="Augmented Title"
+                  className="md:w-3/4"
+                />
+              </section>
+            )}
 
             <Spacer size="xs" />
 

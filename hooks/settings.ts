@@ -11,6 +11,10 @@ interface Settings {
   openLinksInNewTab: boolean;
   favoritesEnabled: boolean;
   favorites: Favorite[];
+  secretSettingsEnabled?: boolean;
+  secretSettings?: {
+    augmentedTitle?: string;
+  };
 }
 
 const settingsAtom = atomWithStorage<Settings>("settings", {
@@ -18,6 +22,8 @@ const settingsAtom = atomWithStorage<Settings>("settings", {
   openLinksInNewTab: false,
   favoritesEnabled: false,
   favorites: [],
+  secretSettingsEnabled: false,
+  secretSettings: {},
 });
 
 export const useSettings = () => {
@@ -95,5 +101,40 @@ export const useFavorites = () => {
     addFavorite,
     isFavorited,
     removeFavorite,
+  };
+};
+
+export const useSecretSettings = () => {
+  const { settings, mergeSettings } = useSettings();
+  const secretSettings = settings.secretSettings;
+
+  const mergeSecretSettings = (
+    newSecretSettings: Partial<Settings["secretSettings"]>
+  ) => {
+    mergeSettings({
+      secretSettings: {
+        ...settings.secretSettings,
+        ...newSecretSettings,
+      },
+    });
+  };
+
+  const setSecretSettingsEnabled = (secretSettingsEnabled: boolean) => {
+    mergeSettings({ secretSettingsEnabled });
+    if (secretSettingsEnabled) showToast({ text: "Secret settings enabled" });
+    else showToast({ text: "Secret settings disabled" });
+  };
+
+  const setAugmentedTitle = (augmentedTitle: string) => {
+    mergeSecretSettings({
+      augmentedTitle,
+    });
+  };
+
+  return {
+    secretSettingsEnabled: settings.secretSettingsEnabled,
+    secretSettings,
+    setSecretSettingsEnabled,
+    setAugmentedTitle,
   };
 };

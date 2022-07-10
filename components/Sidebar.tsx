@@ -1,11 +1,12 @@
 import { SmartLink } from "@/components/SmartLink";
 import { contentMap } from "@/content/map";
 import { highlightedSidebarLinks, sidebarLinks } from "@/content/sidebar";
-import { useTheme } from "@/hooks/settings";
+import { useSecretSettings, useSettings, useTheme } from "@/hooks/settings";
 import { IconId } from "@/types/icon";
 import { useRouter } from "next/router";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "./Button";
+import { ClientOnly } from "./ClientOnly";
 import { Icon } from "./Icon";
 import { Search } from "./Search";
 import { Spacer } from "./Spacer";
@@ -23,6 +24,18 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
 
   const { toggleTheme, isLightTheme, isDarkTheme } = useTheme();
 
+  const { secretSettingsEnabled, secretSettings, setSecretSettingsEnabled } =
+    useSecretSettings();
+
+  const [settingsClicked, setSettingsClicked] = useState(0);
+
+  useEffect(() => {
+    if (settingsClicked > 7) {
+      setSecretSettingsEnabled(!secretSettingsEnabled);
+      setSettingsClicked(0);
+    }
+  }, [settingsClicked]);
+
   return (
     <aside className="bg-light md:w-72 lg:w-80 h-screen overflow-y-scroll sticky z-50 top-0 left-0 bottom-0 border-r">
       {/* Close button for mobile only */}
@@ -35,9 +48,17 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
         </button>
         <SmartLink
           href="/"
-          className="font-display font-black text-lg text-dark"
+          className="font-display font-black flex items-baseline space-x-1"
+          suppressHydrationWarning
         >
-          Husker
+          <div className="text-lg text-dark">Husker</div>
+          <ClientOnly>
+            {secretSettings?.augmentedTitle && (
+              <div className="text-gray text-lg">
+                {secretSettings.augmentedTitle}
+              </div>
+            )}
+          </ClientOnly>
         </SmartLink>
       </div>
 
@@ -115,6 +136,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
           <SmartLink
             href="/settings"
             className="text-sm -m-sm p-sm hover:bg-gray-50 rounded"
+            onClick={() => setSettingsClicked(settingsClicked + 1)}
           >
             <Icon id="cog" />
           </SmartLink>
