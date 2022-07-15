@@ -1,5 +1,3 @@
-import { isStartOfSemester } from "@/lib/here";
-
 export const sidebarLinks = [
   { text: "Links", href: "/" },
   { text: "Contacts", href: "/contacts" },
@@ -16,11 +14,4 @@ export const highlightedSidebarLinks = [
     icon: "doorclosed",
   },
   { text: "Discord", icon: "discord", href: "https://discord.gg/j7WkFct2rY" },
-
-  // No longer required:
-  // {
-  //   text: "Wellness",
-  //   href: "https://wellness-check.northeastern.edu/?utm_source=student&utm_medium=portal&utm_campaign=reopening",
-  //   icon: "halfthermometer",
-  // },
 ];

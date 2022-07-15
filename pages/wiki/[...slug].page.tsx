@@ -1,7 +1,7 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { GetServerSideProps } from "next/types";
 import { JSDOM } from "jsdom";
-import { Spacer } from "@/components/Spacer";
+import { Spacer } from "@/components/util/Spacer";
 import { Button } from "@/components/Button";
 import { NextSeo } from "next-seo";
 

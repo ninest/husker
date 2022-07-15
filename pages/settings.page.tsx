@@ -1,12 +1,12 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { Button } from "@/components/Button";
-import { ClientOnly } from "@/components/ClientOnly";
-import { Debug } from "@/components/Debug";
+import { ClientOnly } from "@/components/util/ClientOnly";
+import { Debug } from "@/components/util/Debug";
 import { FormField } from "@/components/form/FormField";
 import { FormSelect, FormSelectProps } from "@/components/form/FormSelect";
-import { Spacer } from "@/components/Spacer";
+import { Spacer } from "@/components/util/Spacer";
 import { Title } from "@/components/Title";
-import { showToast } from "@/components/Toast";
+import { showToast } from "@/components/util/Toast";
 import {
   themes,
   useSecretSettings,

@@ -4,7 +4,7 @@ import clsx from "clsx";
 import { SelectHTMLAttributes, useState } from "react";
 import { useController } from "react-hook-form";
 import { Icon } from "../Icon";
-import { Spacer } from "../Spacer";
+import { Spacer } from "../util/Spacer";
 import { FormDescription } from "./FormDescription";
 import { FormError } from "./FormError";
 import { FormLabel } from "./FormLabel";

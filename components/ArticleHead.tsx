@@ -1,5 +1,5 @@
 import { BackButton } from "./BackButton";
-import { Spacer } from "./Spacer";
+import { Spacer } from "./util/Spacer";
 import { Title } from "./Title";
 
 interface ArticleHeadProps {

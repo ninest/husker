@@ -1,4 +1,4 @@
-import { showToast } from "@/components/Toast";
+import { showToast } from "@/components/util/Toast";
 import { Favorite } from "@/types/favorites";
 import { useAtom } from "jotai";
 import { atomWithStorage } from "jotai/utils";

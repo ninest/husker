@@ -1,9 +1,10 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { Button } from "@/components/Button";
-import { ClientOnly } from "@/components/ClientOnly";
+import { ClientOnly } from "@/components/util/ClientOnly";
 import { LinkSet } from "@/components/link/LinkSet";
-import { NoFavorites } from "@/components/NoFavorites";
-import { Spacer } from "@/components/Spacer";
+import { NoFavorites } from "@/components/ui/NoFavorites";
+import { Spacer } from "@/components/util/Spacer";
+import { showToast } from "@/components/util/Toast";
 import { useFavorites, useSettings } from "@/hooks/settings";
 import { favoritesToLinks } from "@/lib/favorites";
 
@@ -15,11 +16,17 @@ const FavoritesPage = () => {
   const {
     settings: { favoritesEnabled, favorites },
   } = useSettings();
+  const { setFavoritesEnabled } = useFavorites();
   const router = useRouter();
 
   useEffect(() => {
     // No need to be here if favorites aren't enabled
-    if (!favoritesEnabled) router.push("/settings");
+    if (!favoritesEnabled) {
+      setFavoritesEnabled(true);
+      showToast({
+        text: "Favorites have been enabled",
+      });
+    }
   }, []);
 
   const favoriteLinks = favoritesToLinks(favorites);

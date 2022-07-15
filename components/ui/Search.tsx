@@ -2,8 +2,8 @@ import { LinkButton } from "@/components/link/LinkButton";
 import { search } from "@/lib/search";
 import { Link } from "@/types/category";
 import { useEffect, useRef, useState } from "react";
-import { Icon } from "./Icon";
-import { Spacer } from "./Spacer";
+import { Icon } from "../Icon";
+import { Spacer } from "../util/Spacer";
 
 export const Search = () => {
   const [searchTerm, setSearchTerm] = useState("");

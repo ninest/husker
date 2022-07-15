@@ -4,10 +4,10 @@ import type { AppProps } from "next/app";
 
 import "../styles/globals.scss";
 
-import { Footer } from "@/components/Footer";
-import { MobileNavbar } from "@/components/MobileNavbar";
-import { Sidebar } from "@/components/Sidebar";
-import { Spacer } from "@/components/Spacer";
+import { Footer } from "@/components/ui/Footer";
+import { MobileNavbar } from "@/components/ui/MobileNavbar";
+import { Sidebar } from "@/components/ui/Sidebar";
+import { Spacer } from "@/components/util/Spacer";
 import { useSettings, useTheme } from "@/hooks/settings";
 import { useEffect, useState } from "react";
 import { Toaster } from "react-hot-toast";
@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <DefaultSeo
         titleTemplate="%s - Husker Northeastern"
         defaultTitle="Husker"
-        description="Information about Northeastern including dorms, housing, dorms, free stuff, and apps to download"
+        description="Information about Northeastern including dorms, housing, free stuff, and apps to download"
       ></DefaultSeo>
 
       {/* Top padding to the toast on mobile so it doesn't block the navbar */}

@@ -1,7 +1,7 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { Button } from "@/components/Button";
-import { PDFEmbed } from "@/components/PDFEmbed";
-import { Spacer } from "@/components/Spacer";
+import { PDFEmbed } from "@/components/embed/PDFEmbed";
+import { Spacer } from "@/components/util/Spacer";
 import { NextSeo } from "next-seo";
 
 const UndergraduateCalendarPage = () => {

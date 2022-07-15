@@ -1,7 +1,7 @@
 import { HTMLAttributes, ReactNode } from "react";
 import { SmartLink } from "@/components/SmartLink";
 import clsx from "clsx";
-import { Spacer } from "./Spacer";
+import { Spacer } from "./util/Spacer";
 
 interface BlockProps extends HTMLAttributes<HTMLDivElement> {
   title: string;

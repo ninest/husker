@@ -5,7 +5,7 @@ import { Button } from "./Button";
 import { Expandable } from "./Expandable";
 import { LinkButtonGrid } from "./link/LinkButton";
 import { SmartLink } from "./SmartLink";
-import { Spacer } from "./Spacer";
+import { Spacer } from "./util/Spacer";
 
 export const substitutedComponents = {
   Block,

@@ -1,13 +1,13 @@
 import { Icon } from "@/components/Icon";
 import { SmartLink } from "@/components/SmartLink";
-import { Spacer } from "@/components/Spacer";
+import { Spacer } from "@/components/util/Spacer";
 import { useFavorites, useTheme } from "@/hooks/settings";
 import { copy } from "@/lib/utils/copy";
 import { Link } from "@/types/category";
 import { IconId } from "@/types/icon";
 import * as ContextMenu from "@radix-ui/react-context-menu";
 import clsx from "clsx";
-import { showToast } from "../Toast";
+import { showToast } from "../util/Toast";
 
 interface LinkButtonProps {
   link: Link;

@@ -3,7 +3,7 @@ import { Title } from "@/components/Title";
 import { Link } from "@/types/category";
 import { Icon } from "../Icon";
 import { LinkButtonGrid } from "./LinkButton";
-import { Spacer } from "../Spacer";
+import { Spacer } from "../util/Spacer";
 
 interface LinkSetProps {
   title?: string;

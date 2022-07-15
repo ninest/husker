@@ -1,6 +1,6 @@
 import { GetStaticPaths, GetStaticProps } from "next";
 import { getMDXComponent } from "mdx-bundler/client";
-import { Spacer } from "@/components/Spacer";
+import { Spacer } from "@/components/util/Spacer";
 import { contentMap, pages } from "@/content/map";
 import { listToFilepath } from "@/lib/file/list-to-file";
 import { getPage } from "@/lib/pages";

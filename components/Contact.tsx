@@ -8,7 +8,7 @@ import { useState } from "react";
 import { Button } from "./Button";
 import { Icon } from "./Icon";
 
-import { Spacer } from "./Spacer";
+import { Spacer } from "./util/Spacer";
 
 interface ContactDetailProps {
   contact: Contact;

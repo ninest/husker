@@ -5,11 +5,11 @@ import { useSecretSettings, useSettings, useTheme } from "@/hooks/settings";
 import { IconId } from "@/types/icon";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import { Button } from "./Button";
-import { ClientOnly } from "./ClientOnly";
-import { Icon } from "./Icon";
+import { Button } from "../Button";
+import { ClientOnly } from "../util/ClientOnly";
+import { Icon } from "../Icon";
 import { Search } from "./Search";
-import { Spacer } from "./Spacer";
+import { Spacer } from "../util/Spacer";
 
 interface SidebarProps {
   onCloseClick: () => void;

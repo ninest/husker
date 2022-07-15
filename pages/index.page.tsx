@@ -1,7 +1,7 @@
-import { ClientOnly } from "@/components/ClientOnly";
+import { ClientOnly } from "@/components/util/ClientOnly";
 import { LinkSet } from "@/components/link/LinkSet";
-import { NoFavorites } from "@/components/NoFavorites";
-import { Spacer } from "@/components/Spacer";
+import { NoFavorites } from "@/components/ui/NoFavorites";
+import { Spacer } from "@/components/util/Spacer";
 import { contentMap } from "@/content/map";
 import { useSettings } from "@/hooks/settings";
 import { favoritesToLinks } from "@/lib/favorites";
@@ -34,22 +34,21 @@ const IndexPage = () => {
           </div>
         </Expandable> */}
 
-        <div className="space-y-xl">
-          <div suppressHydrationWarning>
-            <ClientOnly>
-              {favoritesEnabled && (
-                <div>
-                  <LinkSet
-                    showTitle
-                    title={"Favorites"}
-                    moreInfoHref={`/favorites`}
-                    links={favoriteLinks}
-                  />
-                  {favoriteLinks.length == 0 && <NoFavorites />}
-                </div>
-              )}
-            </ClientOnly>
-          </div>
+        <div className="space-y-xl" suppressHydrationWarning>
+          <ClientOnly>
+            {favoritesEnabled && (
+              <div>
+                <LinkSet
+                  showTitle
+                  title={"Favorites"}
+                  moreInfoHref={`/favorites`}
+                  links={favoriteLinks}
+                />
+                {favoriteLinks.length == 0 && <NoFavorites />}
+              </div>
+            )}
+          </ClientOnly>
+
           {contentMap.map((category) => {
             return (
               <LinkSet
