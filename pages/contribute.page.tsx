@@ -6,6 +6,7 @@ import { SmartLink } from "@/components/SmartLink";
 import { Spacer } from "@/components/util/Spacer";
 import { showToast } from "@/components/util/Toast";
 import { celebrate, fireConfetti } from "@/lib/confetti";
+import { submitToContributeForm } from "@/lib/google/form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { NextSeo } from "next-seo";
 import { useRouter } from "next/router";
@@ -21,7 +22,7 @@ const contributeFormSchema = z.object({
   credit: z.string().optional(),
 });
 
-type ContributeForm = z.infer<typeof contributeFormSchema>;
+export type ContributeForm = z.infer<typeof contributeFormSchema>;
 
 const ContactPage = () => {
   const router = useRouter();
@@ -53,15 +54,13 @@ const ContactPage = () => {
   const [submitted, setSubmitted] = useState(false);
 
   const onSubmit = handleSubmit(async (data) => {
-    const formUrl = `https://docs.google.com/forms/d/e/1FAIpQLSdQ8vhyic8Z5lxnBw9643UnqPxN2MIfssLYz32OBW_Vhn_X9A/formResponse?usp=pp_url&entry.770504043=${data.name}&entry.1613298240=${data.content}&entry.1321358172=${data.credit}`;
-    try {
-      // CORS bypasser
-      await fetch(`https://api.codetabs.com/v1/proxy?quest=${formUrl}`);
+    const success = await submitToContributeForm(data);
+    if (success) {
       setSubmitted(true);
       reset();
       showToast({ text: "Thank you for your contribution!" });
       celebrate();
-    } catch {
+    } else {
       alert("An error has ocurred :/");
       showToast({ text: "Unfortunately, an error ocurred", type: "error" });
     }
