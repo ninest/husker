@@ -1,24 +1,20 @@
-import { createRouter } from "./context";
-import { z } from "zod";
+import { issueData } from "@/lib/github/issue";
 import { contributeFormSchema } from "@/schema/contribute";
-import { isNumberObject } from "util/types";
+import { createRouter } from "./context";
 
-export const githubRouter = createRouter()
-  .query("get-user", {
-    resolve({ ctx }) {
-      console.log({ ctx });
-      return {};
-    },
-  })
-  .mutation("create-issue", {
-    input: contributeFormSchema,
-    async resolve({ input, ctx }) {
-      const issue = await ctx.octokit.rest.issues.create({
-        owner: "ninest",
-        repo: "husker",
-        title: `Issue title`, //`${input.name ?? "Suggestion"}`,
-        body: input.content,
-      });
-      return issue;
-    },
-  });
+export const githubRouter = createRouter().mutation("create-issue", {
+  input: contributeFormSchema,
+  async resolve({ input, ctx }) {
+    const { title, body } = issueData(input);
+    console.log({ title, body });
+    const issue = await ctx.octokit.rest.issues.create({
+      owner: "ninest",
+      repo: "husker",
+      title,
+      body,
+      // TODO: label not working
+      labels: ["suggestion"],
+    });
+    return issue;
+  },
+});

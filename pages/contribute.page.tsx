@@ -51,8 +51,11 @@ const ContactPage = () => {
       const issue = await mutation.mutateAsync(data);
       setSubmitted(true);
       showToast({ text: "Thank you for your contribution!" });
+      showToast({
+        text: "Click here to view the suggestion on GitHub",
+        href: issue.data.html_url,
+      });
       celebrate();
-      console.log(issue);
       reset();
     } catch {
       showToast({ text: "Unfortunately, an error ocurred", type: "error" });
