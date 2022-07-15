@@ -7,7 +7,6 @@ updatedAt: 2022-01-14
 pageType: dorm
 ---
 
-import { Video } from "@/components/Video"
 
 ## Images
 

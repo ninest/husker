@@ -2,6 +2,7 @@ import clsx from "clsx";
 import Image from "next/image";
 import { Block } from "./Block";
 import { Button } from "./Button";
+import { Video } from "./embed/Video";
 import { YoutubeEmbed } from "./embed/YoutubeEmbed";
 import { Expandable } from "./Expandable";
 import { Icon } from "./Icon";
@@ -43,4 +44,5 @@ export const substitutedComponents = {
   },
   YoutubeEmbed,
   Icon,
+  Video,
 };
