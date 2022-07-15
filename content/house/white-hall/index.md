@@ -7,33 +7,21 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
-
-
 ## Images
-
-import double1 from './house/white-hall/images/double/double1.png'
-import double2 from './house/white-hall/images/double/double2.png'
-import double3 from './house/white-hall/images/double/double3.png'
-import double4 from './house/white-hall/images/double/double4.png'
-import double5 from './house/white-hall/images/double/double5.png'
-import double6 from './house/white-hall/images/double/double6.png'
-
-import triple1 from './house/white-hall/images/triple/triple1.jpeg'
-
 
 <Expandable title="Standard Double" icon="image">
   <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
-    <Image src={double5} height={ 1726} width={2302} quality={50} alt={"White Hall Double 5"}/>
-    <Image src={double6} height={ 1726} width={2302} quality={50} alt={"White Hall Double 6"}/>
-    <Image src={double1} height={ 1726} width={2302} quality={50} alt={"White Hall Double 1"}/>
-    <Image src={double2} height={ 1726} width={2302} quality={50} alt={"White Hall Double 2"}/>
-    <Image src={double3} height={ 1726} width={2302} quality={50} alt={"White Hall Double 3"}/>
-    <Image src={double4} height={ 1726} width={2302} quality={50} alt={"White Hall Double 4"}/>
+    <Image src={"/housing/white-hall/double5.png"} height={ 1726} width={2302} quality={50} alt={"White Hall Double 5"}/>
+    <Image src={"/housing/white-hall/double6.png"} height={ 1726} width={2302} quality={50} alt={"White Hall Double 6"}/>
+    <Image src={"/housing/white-hall/double1.png"} height={ 1726} width={2302} quality={50} alt={"White Hall Double 1"}/>
+    <Image src={"/housing/white-hall/double2.png"} height={ 1726} width={2302} quality={50} alt={"White Hall Double 2"}/>
+    <Image src={"/housing/white-hall/double3.png"} height={ 1726} width={2302} quality={50} alt={"White Hall Double 3"}/>
+    <Image src={"/housing/white-hall/double4.png"} height={ 1726} width={2302} quality={50} alt={"White Hall Double 4"}/>
   </div>
 </Expandable>
 
 <Expandable title="Forced Triple" icon="image">
-  <Image src={triple1} height={3024} width={4032} quality={50} alt={"White Hall Triple 1"}/>
+  <Image src={"/housing/white-hall/triple1.jpeg"} height={3024} width={4032} quality={50} alt={"White Hall Triple 1"}/>
 </Expandable>
 
 <Expandable title="Videos" icon="video" variant="gray">

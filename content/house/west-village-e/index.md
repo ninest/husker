@@ -9,52 +9,35 @@ pageType: dorm
 
 ## Images
 
-import qs1 from './house/west-village-e/images/quad-singles-a/one.png'
-import qs2 from './house/west-village-e/images/quad-singles-a/two.png'
-import qs3 from './house/west-village-e/images/quad-singles-a/three.png'
-import qs4 from './house/west-village-e/images/quad-singles-a/four.png'
-import qs5 from './house/west-village-e/images/quad-singles-a/five.png'
-
 <Expandable title="Quad singles" icon="image">
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-base">
-    <Image src={qs1} height={1592} width={2120} quality={50} /> 
-    <Image src={qs2} height={1592} width={2120} quality={50} /> 
-    <Image src={qs3} height={1592} width={2120} quality={50} /> 
-    <Image src={qs4} height={1592} width={2120} quality={50} /> 
-    <Image src={qs5} height={1592} width={2120} quality={50} /> 
+    <Image src={"/housing/west-village-e/quad-singles-a-1.png"} height={1592} width={2120} quality={50} /> 
+    <Image src={"/housing/west-village-e/quad-singles-a-2.png"} height={1592} width={2120} quality={50} /> 
+    <Image src={"/housing/west-village-e/quad-singles-a-3.png"} height={1592} width={2120} quality={50} /> 
+    <Image src={"/housing/west-village-e/quad-singles-a-4.png"} height={1592} width={2120} quality={50} /> 
+    <Image src={"/housing/west-village-e/quad-singles-a-5.png"} height={1592} width={2120} quality={50} /> 
   </div>
 </Expandable>
 
-import qsb3 from './house/west-village-e/images/quad-singles-b/three.png'
-import qsb4 from './house/west-village-e/images/quad-singles-b/four.png'
-
 <Expandable title="Quad singles" icon="image">
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-base">
-    <Image src={qsb3} height={1590} width={1188} quality={50} /> 
-    <Image src={qsb4} height={1590} width={1188} quality={50} /> 
+    <Image src={"/housing/west-village-e/quad-singles-b-1.png"} height={1590} width={1188} quality={50} /> 
+    <Image src={"/housing/west-village-e/quad-singles-b-2.png"} height={1590} width={1188} quality={50} /> 
   </div>
 </Expandable>
-
-import studioSingle1 from './house/west-village-e/images/studio-single/one.png'
-import studioSingle2 from './house/west-village-e/images/studio-single/two.png'
 
 <Expandable title="Studio single" icon="image">
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-base">
-    <Image src={studioSingle1} height={1436} width={2556} quality={50} /> 
-    <Image src={studioSingle2} height={1436} width={2556} quality={50} /> 
+    <Image src={"/housing/west-village-e/studio-single1.png"} height={1436} width={2556} quality={50} /> 
+    <Image src={"/housing/west-village-e/studio-single2.png"} height={1436} width={2556} quality={50} /> 
   </div>
 </Expandable>
 
-import single1 from './house/west-village-e/images/singles/single1.png'
-import single2 from './house/west-village-e/images/singles/single2.png'
-import single3 from './house/west-village-e/images/singles/single3.png'
-import single4 from './house/west-village-e/images/singles/single4.png'
-
 <Expandable title="Singles" icon="image">
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-base">
-    <Image src={single1} height={1592} width={1182} quality={50} /> 
-    <Image src={single2} height={1592} width={1182} quality={50} /> 
-    <Image src={single3} height={1592} width={1182} quality={50} /> 
-    <Image src={single4} height={1592} width={1182} quality={50} /> 
+    <Image src={"/housing/west-village-e/single1.png"} height={1592} width={1182} quality={50} /> 
+    <Image src={"/housing/west-village-e/single2.png"} height={1592} width={1182} quality={50} /> 
+    <Image src={"/housing/west-village-e/single3.png"} height={1592} width={1182} quality={50} /> 
+    <Image src={"/housing/west-village-e/single4.png"} height={1592} width={1182} quality={50} /> 
   </div>
 </Expandable>

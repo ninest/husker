@@ -19,22 +19,16 @@ pageType: dorm
 
 </Expandable>
 
-import plan1 from './house/153-hemenway-street/images/plan1.jpg'
-
 <Expandable title="Floor Plans" variant="gray">
-  <Image className="w-full" src={plan1} height={234} width={269} quality={50} />
+  <Image className="w-full" src={"/housing/153-hemenway-street/plan1.jpg"} height={234} width={269} quality={50} />
 </Expandable>
 
 ## Images
 
-import double1 from './house/153-hemenway-street/images/double1.jpg'
-import common1 from './house/153-hemenway-street/images/common1.jpg'
-
-
 <Expandable title="Economy Double" icon="image">
   <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
-    <Image src={double1} width={1536} height={2048}quality={50} /> 
-    <Image src={common1} width={1536} height={2048}quality={50} /> 
+    <Image src={"/housing/153-hemenway-street/double1.jpg"} width={1536} height={2048}quality={50} /> 
+    <Image src={"/housing/153-hemenway-street/common1.jpg"} width={1536} height={2048}quality={50} /> 
   </div>
 </Expandable>
 

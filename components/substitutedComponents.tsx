@@ -29,8 +29,10 @@ export const substitutedComponents = {
   LinkButtonGrid,
   /* Next image */
   Image: (props: any) => {
-    const src = `/notouchy/${props.src}`;
-    // const src = `${props.src}`;
+    const src = (props.src as string).startsWith("/")
+      ? `${props.src}`
+      // Compatibility with mdx-bundled images
+      : `/notouchy/${props.src}`;
 
     return (
       <div className="flex justify-center mobile-full-bleed">

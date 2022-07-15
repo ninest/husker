@@ -7,9 +7,7 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
-
-
-*106, 110, 116, and 122 St. Stephen Street are the same building.*
+_106, 110, 116, and 122 St. Stephen Street are the same building._
 
 <Expandable title="Dorm Information" variant="gray">
 
@@ -21,18 +19,13 @@ pageType: dorm
 
 </Expandable>
 
-import plan1 from './house/st-stephen-street/images/plan1.jpg'
-import plan2 from './house/st-stephen-street/images/plan2.jpg'
-import plan3 from './house/st-stephen-street/images/plan3.jpg'
-
 <Expandable title="Floor Plans" variant="gray">
   <div className="grid grid-cols-2 lg:grid-cols-3 gap-base">
-    <div><Image src={plan1} width={355} height={282} quality={50} /></div>
-    <div><Image src={plan2} width={169} height={270} quality={50} /></div>
-    <div><Image src={plan3} width={319} height={186} quality={50} /></div>
+    <div><Image src={"/housing/st-stephen-street/plan1.jpg"} width={355} height={282} quality={50} /></div>
+    <div><Image src={"/housing/st-stephen-street/plan2.jpg"} width={169} height={270} quality={50} /></div>
+    <div><Image src={"/housing/st-stephen-street/plan3.jpg"} width={319} height={186} quality={50} /></div>
   </div>
 </Expandable>
-
 
 ## Images
 

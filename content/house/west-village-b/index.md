@@ -9,9 +9,6 @@ pageType: dorm
 
 ## Images
 
-import pano from './house/west-village-b/images/pano.png'
-
-
 <Expandable title="Kitchen, living room" icon="image">
-  <Image src={pano} height={297} width={1280} quality={50} /> 
+  <Image src={"/housing/west-village-b/pano.png"} height={297} width={1280} quality={50} /> 
 </Expandable>

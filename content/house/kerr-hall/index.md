@@ -7,33 +7,22 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
-
-
 ## Images
-
-import double1 from './house/kerr-hall/images/double/double1.png'
-import double2 from './house/kerr-hall/images/double/double2.png'
-import double3 from './house/kerr-hall/images/double/double3.png'
-import double4 from './house/kerr-hall/images/double/double4.png'
-import double5 from './house/kerr-hall/images/double/double5.png'
-
-import triple1 from './house/kerr-hall/images/triple/triple1.png'
-import triple2 from './house/kerr-hall/images/triple/triple2.png'
 
 <Expandable title="Economy Double" icon="image">
   <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
-    <Image src={double1} height={1634} width={1222} quality={50} alt={"Kerr Hall Double 1"}/>
-    <Image src={double2} height={1634} width={1222} quality={50} alt={"Kerr Hall Double 2"}/>
-    <Image src={double3} height={1634} width={1222} quality={50} alt={"Kerr Hall Double 3"}/>
-    <Image src={double4} height={1634} width={1222} quality={50} alt={"Kerr Hall Double 4"}/>
-    <Image src={double5} height={1634} width={1222} quality={50} alt={"Kerr Hall Double 5"}/>
+    <Image src={"/housing/kerr-hall/double1.png"} height={1634} width={1222} quality={50} alt={"Kerr Hall Double 1"}/>
+    <Image src={"/housing/kerr-hall/double2.png"} height={1634} width={1222} quality={50} alt={"Kerr Hall Double 2"}/>
+    <Image src={"/housing/kerr-hall/double3.png"} height={1634} width={1222} quality={50} alt={"Kerr Hall Double 3"}/>
+    <Image src={"/housing/kerr-hall/double4.png"} height={1634} width={1222} quality={50} alt={"Kerr Hall Double 4"}/>
+    <Image src={"/housing/kerr-hall/double5.png"} height={1634} width={1222} quality={50} alt={"Kerr Hall Double 5"}/>
   </div>
 </Expandable>
 
 <Expandable title="Forced Triple" icon="image">
   <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
-    <Image src={triple1} height={1566} width={2084} quality={50} alt={"Kerr Hall Triple 1"}/>
-    <Image src={triple2} height={1566} width={2084} quality={50} alt={"Kerr Hall Triple 2"}/>
+    <Image src={"/housing/kerr-hall/triple1.png"} height={1566} width={2084} quality={50} alt={"Kerr Hall Triple 1"}/>
+    <Image src={"/housing/kerr-hall/triple2.png"} height={1566} width={2084} quality={50} alt={"Kerr Hall Triple 2"}/>
   </div>
 </Expandable>
 

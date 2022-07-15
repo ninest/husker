@@ -7,8 +7,6 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
-
-
 <Expandable title="Dorm Information" variant="gray">
 
 - 3-, 4-, 5-, and 6-person apartments; majority of apartments are 5- or 6-person
@@ -18,20 +16,16 @@ pageType: dorm
 
 </Expandable>
 
-import plan1 from './house/dav-a/images/plan1.jpg'
-import plan2 from './house/dav-a/images/plan2.jpg'
-import plan3 from './house/dav-a/images/plan3.jpg'
-
 <Expandable title="Floor Plans" variant="gray">
   <div className="grid grid-cols-1 md:grid-cols-3 gap-base">
     <div>
-      <Image src={plan1} width={706} height={471} quality={50} />
+      <Image src={"/housing/dav-a/plan1.jpg"} width={706} height={471} quality={50} />
     </div>
     <div>
-      <Image src={plan2} width={997} height={480} quality={50} />
+      <Image src={"/housing/dav-a/plan2.jpg"} width={997} height={480} quality={50} />
     </div>
     <div>
-      <Image src={plan3} width={623} height={503} quality={50} />
+      <Image src={"/housing/dav-a/plan3.jpg"} width={623} height={503} quality={50} />
     </div>
   </div>
 </Expandable>

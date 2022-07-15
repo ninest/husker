@@ -7,9 +7,6 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
-
-
-
 <Expandable title="Dorm Information" variant="gray">
 
 - 1-, 2-, 3-person suites
@@ -21,44 +18,34 @@ pageType: dorm
 
 </Expandable>
 
-import plan1 from './house/international-village/images/plan.jpg'
-
 <Expandable title="Floor Plans" variant="gray">
   <div className="grid grid-cols-1 gap-base">
-    <Image src={plan1} height={234} width={269} quality={50} />
+    <Image src={"/housing/international-village/plan1.jpg"} height={234} width={269} quality={50} />
   </div>
 </Expandable>
 
 ## Images
 
-import double1 from './house/international-village/images/double/double1.jpg'
-
 <Expandable title="Double" icon="image">
   <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
-    <Image src={double1} height={1478} width={1125} quality={50} /> 
+    <Image src={"/housing/international-village/double1.jpg"} height={1478} width={1125} quality={50} /> 
   </div>
 </Expandable>
-
-import single1 from './house/international-village/images/single/single1.jpg'
-import single2 from './house/international-village/images/single/single2.png'
-import single3 from './house/international-village/images/single/single3.png'
 
 <Expandable title="Single" icon="image">
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-base">
-    <Image src={single2} height={1608} width={2164} quality={50} /> 
-    <Image src={single3} height={1608} width={2164} quality={50} /> 
+    <Image src={"/housing/international-village/single2.png"} height={1608} width={2164} quality={50} /> 
+    <Image src={"/housing/international-village/single3.png"} height={1608} width={2164} quality={50} /> 
   </div>
   <Spacer />
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-base">
-    <Image src={single1} height={2048} width={1536} quality={50} /> 
+    <Image src={"/housing/international-village/single1.jpg"} height={2048} width={1536} quality={50} /> 
   </div>
 </Expandable>
 
-import bathroom1 from './house/international-village/images/bathroom/bathroom1.jpg'
-
 <Expandable title="Bathroom" icon="image">
   <div className="grid grid-cols-1 gap-base">
-    <Image src={bathroom1} height={2048} width={1536} quality={50} />
+    <Image src={"/housing/international-village/bathroom1.jpg"} height={2048} width={1536} quality={50} />
   </div>
 </Expandable>
 
