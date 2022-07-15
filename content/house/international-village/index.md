@@ -7,8 +7,8 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
-import { YoutubeEmbed } from "@/components/YoutubeEmbed"
-import { Icon } from "@/components/Icon"
+
+
 
 <Expandable title="Dorm Information" variant="gray">
 

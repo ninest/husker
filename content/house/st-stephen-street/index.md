@@ -7,7 +7,7 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
-import { YoutubeEmbed } from "@/components/YoutubeEmbed"
+
 
 *106, 110, 116, and 122 St. Stephen Street are the same building.*
 

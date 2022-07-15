@@ -2,7 +2,9 @@ import clsx from "clsx";
 import Image from "next/image";
 import { Block } from "./Block";
 import { Button } from "./Button";
+import { YoutubeEmbed } from "./embed/YoutubeEmbed";
 import { Expandable } from "./Expandable";
+import { Icon } from "./Icon";
 import { LinkButtonGrid } from "./link/LinkButton";
 import { SmartLink } from "./SmartLink";
 import { Spacer } from "./util/Spacer";
@@ -39,4 +41,6 @@ export const substitutedComponents = {
       </div>
     );
   },
+  YoutubeEmbed,
+  Icon,
 };

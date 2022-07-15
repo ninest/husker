@@ -3,7 +3,16 @@
 module.exports = {
   trailingSlash: false,
   reactStrictMode: true,
-  pageExtensions: ["page.tsx", "page.ts", "page.jsx", "page.js"],
+  pageExtensions: [
+    "page.tsx",
+    "page.ts",
+    "page.jsx",
+    "page.js",
+    "api.tsx",
+    "api.ts",
+    "api.jsx",
+    "api.js",
+  ],
   async redirects() {
     return [
       {

@@ -7,7 +7,7 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
-import { YoutubeEmbed } from "@/components/YoutubeEmbed"
+
 
 ## Images
 

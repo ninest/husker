@@ -7,7 +7,7 @@ updatedAt: 2022-01-14
 pageType: dorm
 ---
 
-import { YoutubeEmbed } from "@/components/YoutubeEmbed"
+
 
 <Expandable title="Dorm Information" variant="gray">
 

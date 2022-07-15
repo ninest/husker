@@ -5,24 +5,15 @@ import { FormField } from "@/components/form/FormField";
 import { SmartLink } from "@/components/SmartLink";
 import { Spacer } from "@/components/util/Spacer";
 import { showToast } from "@/components/util/Toast";
-import { celebrate, fireConfetti } from "@/lib/confetti";
+import { celebrate } from "@/lib/confetti";
 import { submitToContributeForm } from "@/lib/google/form";
+import { server } from "@/lib/trpc";
+import { ContributeForm, contributeFormSchema } from "@/schema/contribute";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { NextSeo } from "next-seo";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
-import { z } from "zod";
-
-const contributeFormSchema = z.object({
-  name: z.string().optional(),
-  content: z
-    .string()
-    .min(15, "The content is too short! Please add a little more!"),
-  credit: z.string().optional(),
-});
-
-export type ContributeForm = z.infer<typeof contributeFormSchema>;
 
 const ContactPage = () => {
   const router = useRouter();
@@ -51,17 +42,19 @@ const ContactPage = () => {
     }
   }, [initialName]);
 
+  const mutation = server.useMutation(["github.create-issue"]);
+
   const [submitted, setSubmitted] = useState(false);
 
   const onSubmit = handleSubmit(async (data) => {
-    const success = await submitToContributeForm(data);
-    if (success) {
+    try {
+      const issue = await mutation.mutateAsync(data);
       setSubmitted(true);
-      reset();
       showToast({ text: "Thank you for your contribution!" });
       celebrate();
-    } else {
-      alert("An error has ocurred :/");
+      console.log(issue);
+      reset();
+    } catch {
       showToast({ text: "Unfortunately, an error ocurred", type: "error" });
     }
   });

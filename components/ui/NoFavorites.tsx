@@ -1,4 +1,6 @@
-import { Icon } from "@/components/Icon";
+import { Icon } from "../Icon";
+
+;
 
 export const NoFavorites = () => (
   <div className="prose border-2 border-dashed rounded-md text-gray text-sm p-base">
