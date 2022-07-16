@@ -145,7 +145,6 @@ const ContentPage = ({
         )}
 
         <Spacer size="2xl"></Spacer>
-
         <div className="flex items-center space-x-base">
           <Button
             href={{
