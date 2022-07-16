@@ -17,8 +17,6 @@ export function readFile(filepath: string) {
   }
 }
 
-
-
 export function fileNameExtension(filepath: string) {
   /* Split at last index of "." */
   const lastIndex = filepath.lastIndexOf(".");

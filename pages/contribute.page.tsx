@@ -48,14 +48,14 @@ const ContactPage = () => {
 
   const onSubmit = handleSubmit(async (data) => {
     try {
-      // const issue = await mutation.mutateAsync(data);
-      await submitToContributeForm(data);
+      const issue = await mutation.mutateAsync(data);
+      // await submitToContributeForm(data);
       setSubmitted(true);
       showToast({ text: "Thank you for your contribution!" });
-      // showToast({
-      //   text: "Click here to view the suggestion on GitHub",
-      //   href: issue.data.html_url,
-      // });
+      showToast({
+        text: "Click here to view the suggestion on GitHub",
+        href: issue.data.html_url,
+      });
       celebrate();
       reset();
     } catch {

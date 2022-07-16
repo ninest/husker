@@ -1,7 +1,0 @@
-{
-  "functions": {
-    "pages/api/**": {
-      "excludeFiles": "{+(.now|.next|_next|node_modules|public|assets|components|pages)/**,yarn.lock,README.md}"
-    }
-  }
-}

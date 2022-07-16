@@ -6,7 +6,3 @@ export default createNextApiHandler({
   router: appRouter,
   createContext: createContext,
 });
-
-export const config = {
-  unstable_excludeFiles: ["public/**/*"],
-};
