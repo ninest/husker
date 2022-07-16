@@ -1,5 +1,6 @@
 @layer utilities {
-  .prose {
+  .prose,
+  .prose > article {
     @apply space-y-base leading-8 text-gray-darker;
 
     p {

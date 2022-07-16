@@ -406,7 +406,6 @@ if (isStartOfSemester()) {
 export const pages = [
   "/about",
   "/services/apps",
-  // "/boston",
   "/services/free",
   "/husky-card/dining",
   "/social/chats",

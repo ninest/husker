@@ -29,6 +29,7 @@ export const Expandable = ({
           "bg-primary-lightest": variant == "primary",
           "bg-gray-100": variant == "gray" && isLightTheme,
           "bg-gray-50": variant == "gray" && isDarkTheme,
+          "bg-error-light": variant == "error"
         },
         "rounded-md"
       )}

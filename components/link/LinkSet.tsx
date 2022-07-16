@@ -31,7 +31,9 @@ export const LinkSet = ({
             href={moreInfoHref!}
             className="flex items-center justify-between space-x-xs"
           >
-            <Title level={3}>{title}</Title>
+            <Title level={3} weightClassName="font-black">
+              {title}
+            </Title>
             <div className="flex items-end p-xs rounded hover:bg-gray-100">
               <div className="text-gray text-sm mr-xs">more</div>
               <Icon id="caretright" className="text-lg"></Icon>

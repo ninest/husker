@@ -1,14 +1,20 @@
+import clsx from "clsx";
+
 interface DebugProps {
   data: any;
+  noSpaceAbove?: boolean;
 }
 
-export const Debug = ({ data }: DebugProps) => {
+export const Debug = ({ data, noSpaceAbove = false }: DebugProps) => {
   const isDev = process && process.env.NODE_ENV === "development";
   return (
     <>
       {isDev && (
         <pre
-          className="mt-xl bg-[#112] p-sm text-gray-300 text-sm rounded-lg"
+          className={clsx(
+            { "mt-xl": !noSpaceAbove },
+            "bg-[#112] p-sm text-gray-300 text-sm rounded-lg"
+          )}
           suppressHydrationWarning
         >
           {JSON.stringify(data, null, 2)}

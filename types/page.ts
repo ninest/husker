@@ -1,3 +1,5 @@
+import { ValidateError } from "@markdoc/markdoc";
+
 export interface Page {
   slug: string;
   frontmatter: Frontmatter;
@@ -13,4 +15,10 @@ export interface Frontmatter {
 
   /* Some pages, like housing pages, are *special* */
   pageType?: "dorm" | "other";
+}
+
+export interface MarkdocPage {
+  frontmatter: Frontmatter;
+  content: any;
+  errors: ValidateError[];
 }

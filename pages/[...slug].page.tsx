@@ -3,7 +3,7 @@ import { getMDXComponent } from "mdx-bundler/client";
 import { Spacer } from "@/components/util/Spacer";
 import { contentMap, pages } from "@/content/map";
 import { listToFilepath } from "@/lib/file/list-to-file";
-import { getPage } from "@/lib/pages";
+
 import { Category, Link } from "@/types/category";
 import { Page } from "@/types/page";
 import { NextSeo } from "next-seo";
@@ -12,6 +12,7 @@ import { LinkSet } from "@/components/link/LinkSet";
 import { dorms } from "@/content/housing";
 import { ArticleHead } from "@/components/ArticleHead";
 import { substitutedComponents } from "@/components/substitutedComponents";
+import { getPage } from "@/lib/mdx";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const categoryPaths = contentMap.map((category) => `/${category.slug}`);

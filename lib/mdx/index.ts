@@ -6,6 +6,7 @@ import math from "remark-math";
 import katex from "rehype-katex";
 import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
+import { Page } from "@/types/page";
 
 export async function mdxFromFile<T>(filepath: string) {
   const source = readFile(`${filepath}/index.md`).trim();
@@ -78,4 +79,9 @@ export async function mdxFromFile<T>(filepath: string) {
     code,
     frontmatter,
   } as unknown as T;
+}
+
+export async function getPage(filepath: string): Promise<Page> {
+  const page: Page = await mdxFromFile(filepath);
+  return page;
 }

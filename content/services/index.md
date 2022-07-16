@@ -4,8 +4,6 @@ description: More information about services
 lastUpdated: 2021-08-31
 ---
 
-import { Icon } from '@/components/Icon'
-
 ## FAQ
 
 ### How do I find my co-op cycle?
@@ -20,7 +18,7 @@ The link for Registrar Self Service is available under "Services".
 If that doesn't work, you can find it on the Student Hub. Open the [Student Hub](https://me.northeastern.edu/), then
 
 - Click "Resources" (top bar)
-- Click "<Icon id="commentalt" className="inline" /> Academics, Classes & Registration"
+- Click "{% icon id="commentalt" / %} Academics, Classes & Registration"
 - Click "Registrar Self Service"
 - Click "Registration"
 - Click "Patterns of Attendance"
