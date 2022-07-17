@@ -7,11 +7,11 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
-<Expandable title="Dorm Information" variant="gray">
+{% expandable variant="gray" title="Dorm Information" %}
 
 - Hotel rooms 
 - Air conditioning
 - Includes pillows, bedsheets, blankets, microfrige
 - Free Charlie Card
 
-</Expandable>
+{% /expandable %}

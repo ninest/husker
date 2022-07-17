@@ -7,18 +7,21 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
+{% expandable variant="gray" title="Floor Plans" %}
+{% grid className="grid-cols-1 md:grid-cols-2" %}
+![Plan](/housing/west-village-f/plan1.jpg)
+
+![Plan](/housing/west-village-f/plan2.jpg)
+
+![Plan](/housing/west-village-f/plan3.jpg)
+
+{% /grid %}
+{% /expandable %}
+
 ## Images
 
-<Expandable title="Videos" icon="video" variant="gray">
-  <div className="grid grid-cols-1 gap-base">
-    <YoutubeEmbed videoId="AhDZgHf2kDA" />
-  </div>
-</Expandable>
-
-<Expandable title="Floor Plans" variant="gray">
-  <div className="grid grid-cols-1 gap-base">
-    <Image src={"/housing/west-village-f/plan1.jpg"} height={417} width={661} quality={50} />
-    <Image src={"/housing/west-village-f/plan2.jpg"} height={497} width={713} quality={50} />
-    <Image src={"/housing/west-village-f/plan3.jpg"} height={397} width={579} quality={50} />
-  </div>
-</Expandable>
+{% expandable variant="gray" icon="video" title="Video" %}
+{% grid %}
+{% youtube videoId="AhDZgHf2kDA" / %}
+{% /grid %}
+{% /expandable %}

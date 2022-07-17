@@ -9,6 +9,8 @@ pageType: dorm
 
 ## Images
 
-<Expandable title="Kitchen, living room" icon="image">
-  <Image src={"/housing/west-village-b/pano.png"} height={297} width={1280} quality={50} /> 
-</Expandable>
+{% expandable icon="image" title="Kitchen, living room" %}
+{% grid %}
+![Pano of room](/housing/west-village-b/pano.png)
+{% /grid %}
+{% /expandable %}

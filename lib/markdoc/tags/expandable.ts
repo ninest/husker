@@ -2,7 +2,7 @@ import { Tag } from "@markdoc/markdoc";
 
 export const expandableTag = {
   render: "Expandable",
-  children: ["paragraph", "tag", "list", "title"],
+  children: ["paragraph", "tag", "list", "title", "heading"],
   attributes: {
     icon: { type: String },
     title: { type: String, required: true },

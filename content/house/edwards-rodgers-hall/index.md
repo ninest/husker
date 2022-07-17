@@ -7,15 +7,17 @@ updatedAt: 2022-01-14
 pageType: dorm
 ---
 
+{% expandable variant="gray" title="Dorm Information" %}
+
 Edwards/Rodgers Hall used to be [accommodation for Wentworth Institute Of Technology](https://wit.edu/student-life/reslife/communities/edwards-rodgers).
+
+{% /expandable %}
 
 ## Links
 
-<LinkButtonGrid showDescription={true} links={[
-{
-name: "Info",
-description: "2021",
-icon: "reddit",
-href: "https://www.reddit.com/r/wentworth/comments/p3p16q/rodgersedwards_hall/"
-},
-]} />
+{% linkButtonGrid
+  showDescription=true
+  links=[
+    { name: "Info", description: "2021", icon: "reddit", href: 
+    "https://www.reddit.com/r/wentworth/comments/p3p16q/rodgersedwards_hall/" },
+  ] / %}

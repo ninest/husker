@@ -7,13 +7,10 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
-## Reddit Links
+## Links
 
-<LinkButtonGrid showDescription={true} links={[
-{
-name: "West Village H",
-description: "2019",
-icon: "reddit",
-href: "https://www.reddit.com/r/NEU/comments/eenzd0/is_west_village_h_worth_it/"
-},
-]} />
+{% linkButtonGrid
+  showDescription=true
+  links=[
+    { name: "West Village H", description: "2019", icon: "reddit", href: "https://www.reddit.com/r/NEU/comments/eenzd0/is_west_village_h_worth_it/" },
+  ] / %}

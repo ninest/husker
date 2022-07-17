@@ -314,13 +314,7 @@ export const dorms: Dorm[] = [
         href: "https://northeastern.edu/housing/sheraton",
       },
     ],
-    pages: [
-      {
-        name: "NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/hotels/the-sheraton",
-      },
-    ],
+    pages: [],
   },
   {
     type: hotel,

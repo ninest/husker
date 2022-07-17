@@ -9,7 +9,7 @@ pageType: dorm
 
 _106, 110, 116, and 122 St. Stephen Street are the same building._
 
-<Expandable title="Dorm Information" variant="gray">
+{% expandable variant="gray" title="Dorm Information" %}
 
 - 2-, 3-, and 5-person apartments; majority of apartments are economy
   - Standard studio double apartments
@@ -17,20 +17,23 @@ _106, 110, 116, and 122 St. Stephen Street are the same building._
   - Economy double bedrooms
 - Lounges with TV
 
-</Expandable>
+{% /expandable %}
 
-<Expandable title="Floor Plans" variant="gray">
-  <div className="grid grid-cols-2 lg:grid-cols-3 gap-base">
-    <div><Image src={"/housing/st-stephen-street/plan1.jpg"} width={355} height={282} quality={50} /></div>
-    <div><Image src={"/housing/st-stephen-street/plan2.jpg"} width={169} height={270} quality={50} /></div>
-    <div><Image src={"/housing/st-stephen-street/plan3.jpg"} width={319} height={186} quality={50} /></div>
-  </div>
-</Expandable>
+{% expandable variant="gray" title="Plans" %}
+{% grid className="grid-cols-2 lg:grid-cols-3" %}
+![Plan](/housing/st-stephen-street/plan1.jpg)
+
+![Plan](/housing/st-stephen-street/plan2.jpg)
+
+![Plan](/housing/st-stephen-street/plan3.jpg)
+
+{% /grid %}
+{% /expandable %}
 
 ## Images
 
-<Expandable title="Videos" icon="video" variant="gray">
-  <div className="grid grid-cols-1 gap-base">
-    <YoutubeEmbed videoId="v2v4ySUvq8M" />
-  </div>
-</Expandable>
+{% expandable variant="gray" icon="video" title="Videos" %}
+{% grid %}
+{% youtube videoId="v2v4ySUvq8M" / %}
+{% /grid %}
+{% /expandable %}

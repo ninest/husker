@@ -7,34 +7,31 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
-<Expandable title="Dorm Information" variant="gray">
+{% expandable variant="gray" title="Dorm Information" %}
 
 - 3-, 4-, 5-, and 6-person apartments; majority of apartments are 5- or 6-person
   - Enhanced single bedrooms
   - Enhanced double bedrooms
 - Lounges on first floor
 
-</Expandable>
+{% /expandable %}
 
-<Expandable title="Floor Plans" variant="gray">
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-base">
-    <div>
-      <Image src={"/housing/dav-a/plan1.jpg"} width={706} height={471} quality={50} />
-    </div>
-    <div>
-      <Image src={"/housing/dav-a/plan2.jpg"} width={997} height={480} quality={50} />
-    </div>
-    <div>
-      <Image src={"/housing/dav-a/plan3.jpg"} width={623} height={503} quality={50} />
-    </div>
-  </div>
-</Expandable>
+{% expandable variant="gray" title="Floor Plans" %}
+{% grid className="grid-cols-1 md:grid-cols-3" %}
+![Plan](/housing/dav-a/plan1.jpg)
+
+![Plan](/housing/dav-a/plan2.jpg)
+
+![Plan](/housing/dav-a/plan3.jpg)
+
+{%/grid %}
+{% /expandable %}
 
 ## Images
 
-<Expandable title="Videos" icon="video" variant="gray">
-  <div className="grid grid-cols-1 gap-base">
-    <YoutubeEmbed videoId="4EtiBtBqh04" />
-    <YoutubeEmbed videoId="reOT2ix-0E4" />
-  </div>
-</Expandable>
+{% expandable variant="gray" icon="video" title="Videos" %}
+{% grid %}
+{% youtube videoId="4EtiBtBqh04" / %}
+{% youtube videoId="reOT2ix-0E4" / %}
+{% /grid %}
+{% /expandable %}

@@ -7,7 +7,7 @@ updatedAt: 2022-01-14
 pageType: dorm
 ---
 
-<Expandable title="Dorm Information" variant="gray">
+{% expandable variant="gray" title="Dorm Information" %}
 
 - 2-, 3-, and 4-person apartments; majority of apartments are economy or standard 2-person apartments
   - Standard double bedrooms
@@ -17,50 +17,46 @@ pageType: dorm
   - Economy triple apartments
 - Lounge with TV, pool table and ping pong table
 
-</Expandable>
+{% /expandable %}
 
-<Expandable title="Floor Plans" variant="gray">
-  <div className="grid grid-cols-3 gap-base">
-    <div>
-      <Image src={"/housing/burstein-hall/plan1.jpg"} width={227} height={338} quality={50} />
-    </div>
-    <div>
-      <Image src={"/housing/burstein-hall/plan2.jpg"} width={249} height={232} quality={50} />
-    </div>
-    <div>
-      <Image src={"/housing/burstein-hall/plan3.jpg"} width={239} height={171} quality={50} />
-    </div>
-  </div>
-</Expandable>
+{% expandable variant="gray" title="Floor Plans" %}
+{% grid className="md:grid-cols-3" %}
+![Plan](/housing/burstein-hall/plan1.jpg)
+
+![Plan](/housing/burstein-hall/plan2.jpg)
+
+![Plan](/housing/burstein-hall/plan3.jpg)
+
+{% /grid %}
+{% /expandable %}
 
 ## Images
 
-<Expandable title="Three-person apartment: double + single" icon="image" containsProse>
-
+{% expandable icon="image" title="Three-person apartment: double + single" containsProse=true %}
 
 ### Double
 
-<Image src={"/housing/burstein-hall/double1.jpg"} width={2560} height={1920} quality={50} />
+![Double](/housing/burstein-hall/double1.jpg)
 
 ### Single
 
-<Image src={"/housing/burstein-hall/single1.jpg"} width={2560} height={1920} quality={50} />
+![Double](/housing/burstein-hall/single1.jpg)
 
-</Expandable>
+{% /expandable %}
 
-<Expandable title="Common area and kitchen" icon="image">
-  <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
-    <Image src={"/housing/burstein-hall/common1.jpg"} width={2560} height={1920} quality={50} /> 
-    <Image src={"/housing/burstein-hall/common2.jpg"} width={2560} height={1920} quality={50} /> 
-  </div>
-  <Spacer />
-  <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
-    <Image src={"/housing/burstein-hall/kitchen1.jpg"} width={1200} height={1600} quality={50} /> 
-  </div>
-</Expandable>
+{% expandable icon="image" title="Common area and Kitchen" %}
+{% grid className="grid-cols-1 md:grid-cols-3 lg:grid-cols-2" %}
+![Common area](/housing/burstein-hall/common1.jpg)
 
-<Expandable title="Bathroom" icon="image">
-  <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
-    <Image src={"/housing/burstein-hall/bathroom1.jpg"} width={1200} height={1600} quality={50} /> 
-  </div>
-</Expandable>
+![Common area](/housing/burstein-hall/common2.jpg)
+
+![Common area](/housing/burstein-hall/kitchen1.jpg)
+
+{% /grid %}
+{% /expandable %}
+
+{% expandable icon="image" title="Bathroom" %}
+{% grid className="grid-cols-1 md:grid-cols-3 lg:grid-cols-2" %}
+![Bathroom](/housing/burstein-hall/bathroom1.jpg)
+{% /grid %}
+{% /expandable %}

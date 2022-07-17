@@ -7,94 +7,66 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
-<Expandable title="Dorm Information" variant="gray">
+{% expandable variant="gray" title="Dorm Information" %}
 
 - 1-, 2-, 3-person suites
   - Enhanced single semi-private bedrooms (shares bathroom with connecting room)
   - Enhanced double semi-private bedrooms (shares bathroom with connecting room)
   - Enhanced forced triple semi-private bedrooms (shares bathroom with connecting room)
 - Lounges on every floor
-- <Icon className="inline" id="printer" /> Printer on first-floor lobby
+- {% icon id="printer" / %} Printer on first-floor lobby
 
-</Expandable>
+{% /expandable %}
 
-<Expandable title="Floor Plans" variant="gray">
-  <div className="grid grid-cols-1 gap-base">
-    <Image src={"/housing/international-village/plan1.jpg"} height={234} width={269} quality={50} />
-  </div>
-</Expandable>
+{% expandable variant="gray" title="Floor Plans" %}
+{% grid %}
+![Plan](/housing/international-village/plan.jpg)
+
+{% /grid %}
+{% /expandable %}
 
 ## Images
 
-<Expandable title="Double" icon="image">
-  <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
-    <Image src={"/housing/international-village/double1.jpg"} height={1478} width={1125} quality={50} /> 
-  </div>
-</Expandable>
+{% expandable icon="image" title="Double" %}
+{% grid className="grid-cols-1 md:grid-cols-2" %}
+![Double](/housing/international-village/double1.jpg)
 
-<Expandable title="Single" icon="image">
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-base">
-    <Image src={"/housing/international-village/single2.png"} height={1608} width={2164} quality={50} /> 
-    <Image src={"/housing/international-village/single3.png"} height={1608} width={2164} quality={50} /> 
-  </div>
-  <Spacer />
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-base">
-    <Image src={"/housing/international-village/single1.jpg"} height={2048} width={1536} quality={50} /> 
-  </div>
-</Expandable>
+{% /grid %}
+{% /expandable %}
 
-<Expandable title="Bathroom" icon="image">
-  <div className="grid grid-cols-1 gap-base">
-    <Image src={"/housing/international-village/bathroom1.jpg"} height={2048} width={1536} quality={50} />
-  </div>
-</Expandable>
+{% expandable icon="image" title="Single" %}
+{% grid className="grid-cols-1 md:grid-cols-3 lg:grid-cols-2" %}
+![Single](/housing/international-village/single2.png)
 
-<Expandable title="Videos" icon="video" variant="gray">
-  <div className="grid grid-cols-1 gap-base">
-    <YoutubeEmbed videoId="xNI5kKrLsyw" />
-    <YoutubeEmbed videoId="5XV07tNnICw" />
-    <YoutubeEmbed videoId="yd7RlBdA4ac" />
-  </div>
-</Expandable>
+![Single](/housing/international-village/single3.png)
 
-<div className="flex">
-  <Button 
-    icon="plus"
-    href={{
-      pathname: "/contribute",
-      query: { name: frontmatter.title },
-    }}> Submit images </Button>
-</div>
+![Single](/housing/international-village/single1.jpg)
 
-## Reddit Links
+{% /grid %}
+{% /expandable %}
 
-<LinkButtonGrid showDescription={true} links={[
-{
-name: "Freshman rating",
-description: "2018",
-icon: "reddit",
-href: "https://www.reddit.com/r/NEU/comments/8c6bh3/rate_international_village_as_a_freshman_housing/"
-},
-{
-name: "Gym",
-description: "2013",
-icon: "reddit",
-href: "https://www.reddit.com/r/NEU/comments/3g9ndn/international_village_gym/"
-},
-{
-name: "East",
-description: "2013",
-icon: "reddit",
-href: "https://www.reddit.com/r/NEU/comments/1tmot0/has_anyone_lived_in_international_village_east/"
-},
-]} />
+{% expandable icon="image" title="Bathroom" %}
+{% grid %}
+![Bathroom](/housing/international-village/bathroom1.jpg)
 
-## Other
+{% /grid %}
+{% /expandable %}
 
-<LinkButtonGrid showDescription={true} links={[
-{
-name: "My Dorm Room Is Secretly Awesome",
-description: "2011",
-href: "https://ithinkincomics.wordpress.com/2011/09/04/my-dorm-room-is-secretly-awesome/"
-},
-]} />
+{% expandable variant="gray" icon="video" title="Videos" %}
+{% grid %}
+{% youtube videoId="xNI5kKrLsyw" / %}
+{% youtube videoId="5XV07tNnICw" / %}
+{% youtube videoId="yd7RlBdA4ac" / %}
+{% /grid %}
+{% /expandable %}
+
+## Links
+
+{% linkButtonGrid
+  showDescription=true
+  links=[
+    { name: "Freshman rating", description: "2018", icon: "reddit", href: "https://www.reddit.com/r/NEU/comments/8c6bh3/rate_international_village_as_a_freshman_housing/" },
+    { name: "Gym", description: "2013", icon: "reddit", href: "https://www.reddit.com/r/NEU/comments/3g9ndn/international_village_gym/" },
+    { name: "East", description: "2013", icon: "reddit", href: "https://www.reddit.com/r/NEU/comments/1tmot0/has_anyone_lived_in_international_village_east/" },
+    { name: "My Dorm Room Is Secretly Awesome", description: "2011", href: "https://ithinkincomics.wordpress.com/2011/09/04/my-dorm-room-is-secretly-awesome/" },
+  ] / %}

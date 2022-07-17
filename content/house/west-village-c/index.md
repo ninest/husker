@@ -9,26 +9,30 @@ pageType: dorm
 
 ## Images
 
-<Expandable title="Singles" icon="image" containsProse>
+{% expandable icon="image" title="Singles" containsProse=true %}
 
 ### Single corner room
 
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-base">
-  <Image src={"/housing/west-village-c/single-corner.png"} height={1672} width={1248} quality={50} /> 
-</div>
+{% grid className="grid-cols-1 md:grid-cols-2 lg:grid-cols-2" %}
+
+![Single corner room](/housing/west-village-c/single-corner.png)
+
+{% /grid %}
 
 ### Single in a quad
 
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-base">
-  <Image src={"/housing/west-village-c/single1.png"} height={1586} width={892} quality={50} /> 
-  <Image src={"/housing/west-village-c/single2.png"} height={1586} width={892} quality={50} /> 
-  <Image src={"/housing/west-village-c/single3.png"} height={1586} width={892} quality={50} /> 
-</div>
+{% grid className="grid-cols-1 md:grid-cols-2 lg:grid-cols-2" %}
+![Quad Single](/housing/west-village-c/single1.png)
 
-</Expandable>
+![Quad Single](/housing/west-village-c/single2.png)
 
-<Expandable title="Videos" icon="video" variant="gray">
-  <div className="grid grid-cols-1 gap-base">
-    <YoutubeEmbed videoId="ePMKnp-OjvQ" />
-  </div>
-</Expandable>
+![Quad Single](/housing/west-village-c/single3.png)
+{% /grid %}
+
+{% /expandable %}
+
+{% expandable variant="gray" icon="video" title="Videos" %}
+{% grid %}
+{% youtube videoId="ePMKnp-OjvQ" / %}
+{% /grid %}
+{% /expandable %}

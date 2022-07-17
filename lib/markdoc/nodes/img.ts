@@ -1,4 +1,5 @@
 import { Tag } from "@markdoc/markdoc";
+import sizeOf from "image-size";
 
 export const imageNode = {
   render: "MarkdocImage",
@@ -12,8 +13,12 @@ export const imageNode = {
     const attributes = node.transformAttributes(config);
     const children = node.transformChildren(config);
 
-    console.log(attributes)
-
-    return new Tag(this.render, { ...attributes }, children);
+    try {
+      const result = sizeOf(`public/${attributes.src}`);
+      const { width, height } = result;
+      return new Tag(this.render, { ...attributes, width, height }, children);
+    } catch {
+      return new Tag(this.render, attributes, children);
+    }
   },
 };
