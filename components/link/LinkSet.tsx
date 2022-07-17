@@ -24,7 +24,7 @@ export const LinkSet = ({
 }: LinkSetProps) => {
   return (
     <section>
-      {showTitle && (
+      {showTitle && title && (
         /* Show the more info caret only if the title is shown */
         <>
           <SmartLink

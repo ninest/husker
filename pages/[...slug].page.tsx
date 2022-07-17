@@ -24,6 +24,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
+  console.log("Building MDX page")
   const slugList = params?.slug! as string[];
   const slug = listToFilepath(slugList);
 

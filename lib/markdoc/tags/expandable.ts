@@ -10,10 +10,4 @@ export const expandableTag = {
     containsProse: { type: Boolean, default: false },
     variant: { type: String },
   },
-  transform(node: any, config: any) {
-    const attributes = node.transformAttributes(config);
-    const children = node.transformChildren(config);
-
-    return new Tag(this.render, { ...attributes }, children);
-  },
 };

@@ -12,6 +12,6 @@ Open the [Student Hub](https://me.northeastern.edu/) and wait for it to load. Th
 
 {% expandable title="Tips" open=true %}
 
-Use the search bar to search for courses to get links to SearchNEU, Reddit, and RateMyCourses! Try it by searching for **_CS 4500_**!
+Use the search bar to search for courses to get links to SearchNEU, Reddit, and RateMyCourses! Try it by searching for **CS 4500**!
 
 {% /expandable %}

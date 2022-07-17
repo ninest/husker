@@ -1,15 +1,20 @@
 import { ArticleHead } from "@/components/ArticleHead";
+import { Button } from "@/components/Button";
+import { Dorms } from "@/components/Dorms";
+import { YoutubeEmbed } from "@/components/embed/YoutubeEmbed";
 import { Expandable } from "@/components/Expandable";
 import { Icon } from "@/components/Icon";
+import { LinkButtonGrid } from "@/components/link/LinkButton";
 import { LinkSet } from "@/components/link/LinkSet";
+import { MarkdocImage } from "@/components/MarkdocImage";
 import { Title } from "@/components/Title";
 import { Debug } from "@/components/util/Debug";
+import { Grid } from "@/components/util/Grid";
 import { Spacer } from "@/components/util/Spacer";
 import { dorms } from "@/content/housing";
 import { contentMap, pages } from "@/content/map";
 import { listToFilepath } from "@/lib/file/list-to-file";
 import { getMarkdocPage } from "@/lib/markdoc";
-import { getPage } from "@/lib/mdx";
 import Markdoc from "@markdoc/markdoc";
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from "next";
 import { NextSeo } from "next-seo";
@@ -28,12 +33,15 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const slugList = params?.slug! as string[]; // [services, free]
   const slug = listToFilepath(slugList); // "services/free"
+
   console.log(slug);
 
   /* Create back button attributes */
   const href = slugList.length == 1 ? `/` : `/${slugList[0]}`; // First item in slug; "/services"
   const text =
-    slugList.length == 1 ? `Links` : (await getPage(href)).frontmatter.title; // "Services"
+    slugList.length == 1
+      ? `Links`
+      : (await getMarkdocPage(href)).frontmatter.title; // "Services"
   const back = { href, text };
 
   /* Markdoc page */
@@ -53,7 +61,10 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   let pages = category?.pages ?? null;
 
   // For housing pages, the "category" is either "house" or "housing"
-  if (slugList[0] === "housing" || slugList[0] === "house") {
+  if (
+    slugList.length > 1 &&
+    (slugList[0] === "housing" || slugList[0] === "house")
+  ) {
     const dormSlug = slugList[slugList.length - 1]; // The last part of the URL
     const dorm = dorms.find((dorm) => dorm.slug == dormSlug);
     links = dorm?.links ?? null;
@@ -90,6 +101,11 @@ const ContentPage = ({
       Title,
       Icon,
       Expandable,
+      Dorms,
+      LinkButtonGrid,
+      YoutubeEmbed,
+      Grid,
+      MarkdocImage,
     },
   });
   const parsedErrors = JSON.parse(errors);
@@ -134,6 +150,30 @@ const ContentPage = ({
         )}
 
         {content && <div className="prose">{renderedContent}</div>}
+
+        <Spacer size="2xl"></Spacer>
+        <div className="flex items-center space-x-base">
+          <Button
+            href={{
+              pathname: "/contribute",
+              query: { name: frontmatter.title },
+            }}
+            icon="pen"
+            size="sm"
+          >
+            Edit
+          </Button>
+          <Button
+            href={{
+              pathname: "/contribute",
+              query: { name: frontmatter.title, fixLinks: true },
+            }}
+            icon="bug"
+            size="sm"
+          >
+            Links broken?
+          </Button>
+        </div>
       </div>
     </>
   );

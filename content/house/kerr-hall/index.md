@@ -9,6 +9,26 @@ pageType: dorm
 
 ## Images
 
+{% expandable icon="image" title="Economy Double" %}
+{% grid className="grid-cols-1 md:grid-cols-3 lg:grid-cols-2" %}
+
+![Kerr Hall Double 1](/housing/kerr-hall/double1.png){% width=1222 height=1634 %}
+
+
+![Kerr Hall Double 2](/housing/kerr-hall/double2.png)
+
+
+![Kerr Hall Double 3](/housing/kerr-hall/double3.png)
+
+
+![Kerr Hall Double 4](/housing/kerr-hall/double4.png)
+
+
+![Kerr Hall Double 5](/housing/kerr-hall/double5.png)
+
+{% /grid %}
+{% /expandable %}
+
 <Expandable title="Economy Double" icon="image">
   <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
     <Image src={"/housing/kerr-hall/double1.png"} height={1634} width={1222} quality={50} alt={"Kerr Hall Double 1"}/>

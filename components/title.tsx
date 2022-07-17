@@ -52,7 +52,7 @@ export const Title = ({
   const slug = slugify(children);
 
   return hash ? (
-    <a id={slug} href={`#${slug}`}>
+    <a id={slug} href={`#${slug}`} className="block">
       {headingElement}
     </a>
   ) : (

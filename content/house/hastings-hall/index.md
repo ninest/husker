@@ -7,42 +7,22 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
-
-
 ## Images
 
-<Expandable title="Videos" icon="video" variant="gray">
-  <div className="grid grid-cols-1 gap-base">
-    <YoutubeEmbed videoId="4nVpwnWfHwY" />
-    <YoutubeEmbed videoId="w7g8lozkHLo" />
-  </div>
-</Expandable>
+{% expandable icon="video" title="Videos" variant="gray" %}
+{% grid className="grid-cols-1" %}
+{% youtube videoId="4nVpwnWfHwY" / %}
+{% youtube videoId="w7g8lozkHLo" / %}
+{% /grid %}
+{% /expandable %}
 
-## Reddit Links
+## Links
 
-<LinkButtonGrid showDescription={true} links={[
-{
-name: "Hastings Hall",
-description: "2019",
-icon: "reddit",
-href: "https://www.reddit.com/r/NEU/comments/csi7nq/hastings_hall_ymca_building/"
-},
-{
-name: "Economy singles",
-description: "2017",
-icon: "reddit",
-href: "https://www.reddit.com/r/NEU/comments/6svf92/how_are_economy_singles_in_hastings_hall/"
-},
-{
-name: "Hastings Hall",
-description: "2017",
-icon: "reddit",
-href: "https://www.reddit.com/r/NEU/comments/6a5ac5/how_is_hastings_hall/"
-},
-{
-name: "Hastings Hall",
-description: "2014",
-icon: "reddit",
-href: "https://www.reddit.com/r/NEU/comments/2nz9ra/hastings_hall/"
-}
-]} />
+{% linkButtonGrid
+  showDescription=true
+  links=[
+    { name: "Hastings Hall",description: "2019",icon: "reddit", href: "https://www.reddit.com/r/NEU/comments/csi7nq/hastings_hall_ymca_building/" },
+    { name: "Economy singles", description: "2017", icon: "reddit", href: "https://www.reddit.com/r/NEU/comments/6svf92/how_are_economy_singles_in_hastings_hall/" },
+    { name: "Hastings Hall", description: "2017", icon: "reddit", href: "https://www.reddit.com/r/NEU/comments/6a5ac5/how_is_hastings_hall/" },
+    { name: "Hastings Hall", description: "2014", icon: "reddit", href: "https://www.reddit.com/r/NEU/comments/2nz9ra/hastings_hall/" }
+  ] / %}
