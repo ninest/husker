@@ -1,6 +1,6 @@
 import { useTheme } from "@/hooks/settings";
 import clsx from "clsx";
-import { HTMLAttributes } from "react";
+import { HTMLAttributes, ReactNode, useRef } from "react";
 
 // TODO: move to lib
 const slugify = (str: string) =>
@@ -15,7 +15,7 @@ interface TitleProps extends HTMLAttributes<HTMLDivElement> {
   level?: number;
   weightClassName?: string;
   hash?: boolean;
-  children: string;
+  children: string | ReactNode;
 }
 
 export const Title = ({
@@ -49,7 +49,11 @@ export const Title = ({
     </HeadingTag>
   );
 
-  const slug = slugify(children);
+  const slug =
+    typeof children === "string"
+      ? slugify(children)
+      : // TODO: fix, get inner text of children
+        slugify(children?.toString() ?? "");
 
   return hash ? (
     <a id={slug} href={`#${slug}`} className="block">

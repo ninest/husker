@@ -6,6 +6,7 @@ import yaml from "js-yaml";
 import { headingNode } from "./nodes/heading";
 import { imageNode } from "./nodes/img";
 import { blockTag } from "./tags/block";
+import { buttonSetTag } from "./tags/buttonSet";
 import { commentTag } from "./tags/comment";
 import { diningTags } from "./tags/dining";
 import { divTag } from "./tags/div";
@@ -34,6 +35,7 @@ const config: Config = {
     div: divTag,
     block: blockTag,
     ...diningTags,
+    buttonSet: buttonSetTag,
   },
 };
 
