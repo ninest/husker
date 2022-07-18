@@ -7,7 +7,7 @@ updatedAt: 2022-01-14
 pageType: dorm
 ---
 
-<Expandable title="Dorm Information" variant="gray">
+{% expandable variant="gray" title="Dorm Information" %}
 
 - 1-, 2-, 3-, and 4-person apartments.
   - Studio single apartments
@@ -16,38 +16,50 @@ pageType: dorm
   - Economy double bedrooms without kitchenette
 - No Lounges
 
-</Expandable>
+{% /expandable %}
 
-<Expandable title="Floor Plans" variant="gray">
-  <div className="grid grid-cols-2 gap-base">
-    <Image src={"/housing/407-huntington-ave/plan1.png"} width={470} height={353} quality={50} />
-    <Image src={"/housing/407-huntington-ave/plan2.png"} width={430} height={265} quality={50} />
-  </div>
-</Expandable>
+{% expandable variant="gray" title="Floor Plans" %}
+{% grid className="grid-cols-2" %}
+![Plan](/housing/407-huntington-ave/plan1.png)
+
+![Plan](/housing/407-huntington-ave/plan2.png)
+
+{% /grid %}
+{% /expandable %}
 
 ## Images
 
-<Expandable title="Standard double" icon="image">
-  <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
-    <Image src={"/housing/407-huntington-ave/double1.jpg"} width={2048} height={1536} quality={50} /> 
-    <Image src={"/housing/407-huntington-ave/double2.jpg"} width={2048} height={1536} quality={50} /> 
-    <Image src={"/housing/407-huntington-ave/double3.jpg"} width={2048} height={1536} quality={50} /> 
-  </div>
-</Expandable>
+{% expandable icon="image" title="Double" %}
+{% grid className="grid-cols-1 md:grid-cols-3 lg:grid-cols-2" %}
+![Double](/housing/407-huntington-ave/double1.jpg)
 
-<Expandable title="Common area, kitchen, and hall" icon="image">
-  <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
-    <Image src={"/housing/407-huntington-ave/common1.jpg"} width={2048} height={1536} quality={50} /> 
-    <Image src={"/housing/407-huntington-ave/common2.jpg"} width={2048} height={1536} quality={50} /> 
-    <Image src={"/housing/407-huntington-ave/hall1.jpg"} width={2048} height={1536} quality={50} /> 
-    <Image src={"/housing/407-huntington-ave/kitchen1.jpg"} width={2048} height={1536} quality={50} /> 
-  </div>
-</Expandable>
+![Double](/housing/407-huntington-ave/double2.jpg)
 
-<Expandable title="Bathroom" icon="image">
-  <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
-    <Image src={"/housing/407-huntington-ave/bathroom2.jpg"} width={2048} height={1536} quality={50} /> 
-    <Image src={"/housing/407-huntington-ave/bathroom3.jpg"} width={2048} height={1536} quality={50} /> 
-    <Image src={"/housing/407-huntington-ave/bathroom1.jpg"} width={1536} height={2048} quality={50} /> 
-  </div>
-</Expandable>
+![Double](/housing/407-huntington-ave/double3.jpg)
+
+{% /grid %}
+{% /expandable %}
+
+{% expandable icon="image" title="Common area, kitchen, and hall" %}
+{% grid className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2" %}
+![Common](/housing/407-huntington-ave/common1.jpg)
+
+![Common](/housing/407-huntington-ave/common2.jpg)
+
+![Common](/housing/407-huntington-ave/hall1.jpg)
+
+![Common](/housing/407-huntington-ave/kitchen1.jpg)
+
+{% /grid %}
+{% /expandable %}
+
+{% expandable icon="image" title="Bathroom" %}
+{% grid className="grid-cols-1 md:grid-cols-3 lg:grid-cols-2" %}
+![Bathroom](/housing/407-huntington-ave/bathroom2.jpg)
+
+![Bathroom](/housing/407-huntington-ave/bathroom3.jpg)
+
+![Bathroom](/housing/407-huntington-ave/bathroom1.jpg)
+
+{% /grid %}
+{% /expandable %}

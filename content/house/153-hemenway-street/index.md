@@ -7,7 +7,7 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
-<Expandable title="Dorm Information" variant="gray">
+{% expandable variant="gray" title="Dorm Information" %}
 
 - 2-, 3-, 4-person apartments
   - Standard double bedrooms
@@ -17,34 +17,30 @@ pageType: dorm
 - Lounge/study area is located on the lower level: 2 study lounges, 1 multimedia lounge.
 - No elevator
 
-</Expandable>
+{% /expandable %}
 
-<Expandable title="Floor Plans" variant="gray">
-  <Image className="w-full" src={"/housing/153-hemenway-street/plan1.jpg"} height={234} width={269} quality={50} />
-</Expandable>
+{% expandable variant="gray" title="Floor Plans" %}
+{% grid %}
+![Plan](/housing/153-hemenway-street/plan1.jpg)
+
+{% /grid %}
+{% /expandable %}
 
 ## Images
 
-<Expandable title="Economy Double" icon="image">
-  <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
-    <Image src={"/housing/153-hemenway-street/double1.jpg"} width={1536} height={2048}quality={50} /> 
-    <Image src={"/housing/153-hemenway-street/common1.jpg"} width={1536} height={2048}quality={50} /> 
-  </div>
-</Expandable>
+{% expandable title="Economy Double" %}
+{% grid className="md:grid-cols-2" %}
+![Dobule](/housing/153-hemenway-street/double1.jpg)
+
+![Dobule](/housing/153-hemenway-street/common1.jpg)
+{% /grid %}
+{% /expandable %}
 
 ## Links
 
-<LinkButtonGrid showDescription={true} links={[
-{
-name: "Suite",
-description: "2021",
-icon: "reddit",
-href: "https://www.reddit.com/r/NEU/comments/ooa9y5/153_hemenway_dorm/"
-},
-{
-name: "Economy double",
-description: "2017",
-icon: "reddit",
-href: "https://www.reddit.com/r/NEU/comments/6tktql/153_hemenway_st/"
-},
-]} />
+{% linkButtonGrid
+  showDescription=true
+  links=[
+      { name: "Suite", description: "2021", icon: "reddit", href: "https://www.reddit.com/r/NEU/comments/ooa9y5/153_hemenway_dorm/" },
+      { name: "Economy double", description: "2017", icon: "reddit", href: "https://www.reddit.com/r/NEU/comments/6tktql/153_hemenway_st/" },
+  ] / %}

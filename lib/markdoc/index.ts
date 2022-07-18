@@ -5,17 +5,20 @@ import Markdoc, { Config } from "@markdoc/markdoc";
 import yaml from "js-yaml";
 import { headingNode } from "./nodes/heading";
 import { imageNode } from "./nodes/img";
+import { commentTag } from "./tags/comment";
+import { divTag } from "./tags/div";
 import { dormsTag } from "./tags/dorms";
 import { expandableTag } from "./tags/expandable";
 import { gridTag } from "./tags/grid";
 import { iconTag } from "./tags/icon";
 import { linkButtonGridTag } from "./tags/linkButtonGrid";
+import { videoTag } from "./tags/video";
 import { youtubeTag } from "./tags/youtube";
 
 const config: Config = {
   nodes: {
     heading: headingNode,
-    image: imageNode
+    image: imageNode,
   },
   tags: {
     icon: iconTag,
@@ -24,6 +27,9 @@ const config: Config = {
     linkButtonGrid: linkButtonGridTag,
     youtube: youtubeTag,
     grid: gridTag,
+    comment: commentTag,
+    video: videoTag,
+    div: divTag,
   },
 };
 

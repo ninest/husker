@@ -1,12 +1,14 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { Button } from "@/components/Button";
 import { Dorms } from "@/components/Dorms";
+import { Video } from "@/components/embed/Video";
 import { YoutubeEmbed } from "@/components/embed/YoutubeEmbed";
 import { Expandable } from "@/components/Expandable";
 import { Icon } from "@/components/Icon";
 import { LinkButtonGrid } from "@/components/link/LinkButton";
 import { LinkSet } from "@/components/link/LinkSet";
-import { MarkdocImage } from "@/components/MarkdocImage";
+import { MarkdocDiv } from "@/components/markdoc/MarkdocDiv";
+import { MarkdocImage } from "@/components/markdoc/MarkdocImage";
 import { Title } from "@/components/Title";
 import { Debug } from "@/components/util/Debug";
 import { Grid } from "@/components/util/Grid";
@@ -106,6 +108,8 @@ const ContentPage = ({
       YoutubeEmbed,
       Grid,
       MarkdocImage,
+      Video,
+      MarkdocDiv,
     },
   });
   const parsedErrors = JSON.parse(errors);

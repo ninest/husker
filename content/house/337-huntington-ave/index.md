@@ -7,7 +7,7 @@ updatedAt: 2022-04-14
 pageType: dorm
 ---
 
-<Expandable title="Dorm Information" variant="gray">
+{% expandable variant="gray" title="Dorm Information" %}
 
 - Economy 2-, 3-, and 4-person apartments
   - Studio double apartments
@@ -17,26 +17,33 @@ pageType: dorm
   - Economy triple apartments
 - Lounges
 
-</Expandable>
+{% /expandable %}
 
-<Expandable title="Floor Plans" variant="gray">
-<div className="grid grid-cols-1 gap-base">
-  <Image src={"/housing/337-huntington-ave/plans/plan1.jpg"} height={221} width={374} quality={50} alt={"Plan 1"}/>
-  <Image src={"/housing/337-huntington-ave/plans/plan2.jpg"} height={448} width={361} quality={50} alt={"Plan 2"}/>
-  <Image src={"/housing/337-huntington-ave/plans/plan3.jpg"} height={323} width={224} quality={50} alt={"Plan 3"}/>
-</div>
-</Expandable>
+{% expandable variant="gray" title="Floor Plans" %}
+{% grid className="md:grid-cols-2" %}
+![Plan](/housing/337-huntington-ave/plans/plan2.jpg)
+
+![Plan](/housing/337-huntington-ave/plans/plan1.jpg)
+
+![Plan](/housing/337-huntington-ave/plans/plan3.jpg)
+
+{% /grid %}
+{% /expandable %}
 
 ## Images
 
-<Expandable title="Economy Three Person: 1 double + 1 single" icon="image">
-<div className="grid grid-cols-1 md:grid-cols-2 gap-base">
+{% expandable icon="image" title="Economy Three Person: 1 double + 1 single" %}
+{% grid className="md:grid-cols-2" %}
 
-<Image src={"/housing/337-huntington-ave/triple/triple1.jpg"} height={2048} width={1536} quality={50} alt={"Room 311 Triple 1"}/>
-<Image src={"/housing/337-huntington-ave/triple/triple2.jpg"} height={2048} width={1536} quality={50} alt={"Room 311 Triple 2"}/>
-<Image src={"/housing/337-huntington-ave/triple/triple3.jpg"} height={2048} width={1536} quality={50} alt={"Room 311 Triple 3"}/>
-<Image src={"/housing/337-huntington-ave/triple/triple4.jpg"} height={2048} width={1536} quality={50} alt={"Room 311 Triple 4"}/>
-<Image src={"/housing/337-huntington-ave/triple/triple5.jpg"} height={2048} width={1536} quality={50} alt={"Room 311 Triple 5"}/>
+![Economy](/housing/337-huntington-ave/triple/triple1.jpg)
 
-</div>
-</Expandable>
+![Economy](/housing/337-huntington-ave/triple/triple2.jpg)
+
+![Economy](/housing/337-huntington-ave/triple/triple3.jpg)
+
+![Economy](/housing/337-huntington-ave/triple/triple4.jpg)
+
+![Economy](/housing/337-huntington-ave/triple/triple5.jpg)
+
+{% /grid %}
+{% /expandable %}

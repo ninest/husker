@@ -7,7 +7,7 @@ updatedAt: 2022-01-14
 pageType: dorm
 ---
 
-<Expandable title="Dorm Information" variant="gray">
+{% expandable variant="gray" title="Dorm Information" %}
 
 - Studio, 2-, 3-, and 4-person apartments.
   - Standard Studio apartments
@@ -17,31 +17,42 @@ pageType: dorm
   - Standard one bedroom apartment
 - No lounges ☹️
 
-</Expandable>
+{% /expandable %}
 
 ## Images
 
-<Expandable title="Standard double" icon="image">
-  <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
-    <Image src={"/housing/10-coventry/double/double2.png"} height={1598} width={1194} quality={50} /> 
-    <Image src={"/housing/10-coventry/double/double3.png"} height={1598} width={1194} quality={50} /> 
-    <Image src={"/housing/10-coventry/double/double1.png"} height={1592} width={1490} quality={50} /> 
-  </div>
-</Expandable>
+{% expandable icon="image" title="Double" %}
+{% grid className="md:grid-cols-2" %}
+![Double](/housing/10-coventry/double/double2.png)
 
-<Expandable title="Standard double" icon="video">
-  <div className="mx-auto md:max-w-[80%] lg:max-w-[60%] xl:max-w-[50%]">
-  <Video src={"/housing/10-coventry/single-double.mp4"} />
-  </div>
-</Expandable>
+![Double](/housing/10-coventry/double/double3.png)
 
-<Expandable title="Two singles" icon="image">
-  <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-base">
-    <Image src={"/housing/10-coventry/two-singles/singles1.png"} height={1588} width={2126} quality={50} /> 
-    <Image src={"/housing/10-coventry/two-singles/singles2.png"} height={1588} width={2126} quality={50} /> 
-    <Image src={"/housing/10-coventry/two-singles/singles3.png"} height={1588} width={2126} quality={50} /> 
-    <Image src={"/housing/10-coventry/two-singles/singles4.png"} height={1588} width={2126} quality={50} /> 
-    <Image src={"/housing/10-coventry/two-singles/singles5.png"} height={1588} width={2126} quality={50} /> 
-    <Image src={"/housing/10-coventry/two-singles/singles6.png"} height={1588} width={2126} quality={50} /> 
-  </div>
-</Expandable>
+![Double](/housing/10-coventry/double/double1.png)
+
+{% /grid %}
+{% /expandable %}
+
+{% expandable icon="video" title="Standard Double" %}
+{% grid %}
+{% div className="mx-auto md:max-w-[80%] lg:max-w-[60%] xl:max-w-[50%]" %}
+{% video src="/housing/10-coventry/single-double.mp4" / %}
+{% /div %}
+{% /grid %}
+{% /expandable %}
+
+{% expandable icon="image" title="Two Singles" %}
+{% grid className="md:grid-cols-2" %}
+![Single](/housing/10-coventry/two-singles/singles1.png)
+
+![Single](/housing/10-coventry/two-singles/singles2.png)
+
+![Single](/housing/10-coventry/two-singles/singles3.png)
+
+![Single](/housing/10-coventry/two-singles/singles4.png)
+
+![Single](/housing/10-coventry/two-singles/singles5.png)
+
+![Single](/housing/10-coventry/two-singles/singles6.png)
+
+{% /grid %}
+{% /expandable %}
