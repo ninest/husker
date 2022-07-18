@@ -53,14 +53,19 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const isCategoryPage =
     slugList.length === 1 && // it's a top level page ...
     contentMap.find((category) => category.slug === slug); // and the cat slug is valid
-  const category = contentMap.find((cat) => cat.slug === slugList[0]);
+  const category = contentMap.find((cat) => cat.slug === slugList[0]) ?? null;
 
   // /* Should contain link set */
   const containsLinkSet =
     isCategoryPage || slugList[0] === "housing" || slugList[0] === "house";
 
-  let links = category?.links ?? null;
-  let pages = category?.pages ?? null;
+  let links = null;
+  let pages = null;
+
+  if (containsLinkSet) {
+    links = category?.links ?? null;
+    pages = category?.pages ?? null;
+  }
 
   // For housing pages, the "category" is either "house" or "housing"
   if (
@@ -77,6 +82,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     props: {
       back,
       category,
+      containsLinkSet,
       links,
       pages,
       frontmatter: JSON.parse(JSON.stringify(frontmatter)), //TODO: fix date serialization
