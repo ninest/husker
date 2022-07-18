@@ -5,7 +5,9 @@ import Markdoc, { Config } from "@markdoc/markdoc";
 import yaml from "js-yaml";
 import { headingNode } from "./nodes/heading";
 import { imageNode } from "./nodes/img";
+import { blockTag } from "./tags/block";
 import { commentTag } from "./tags/comment";
+import { diningTags } from "./tags/dining";
 import { divTag } from "./tags/div";
 import { dormsTag } from "./tags/dorms";
 import { expandableTag } from "./tags/expandable";
@@ -30,6 +32,8 @@ const config: Config = {
     comment: commentTag,
     video: videoTag,
     div: divTag,
+    block: blockTag,
+    ...diningTags,
   },
 };
 

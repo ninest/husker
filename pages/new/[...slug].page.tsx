@@ -1,5 +1,7 @@
 import { ArticleHead } from "@/components/ArticleHead";
+import { Block } from "@/components/Block";
 import { Button } from "@/components/Button";
+import { MealExchangeDining, OffCampusDining, OnCampusDining } from "@/components/Dining";
 import { Dorms } from "@/components/Dorms";
 import { Video } from "@/components/embed/Video";
 import { YoutubeEmbed } from "@/components/embed/YoutubeEmbed";
@@ -116,6 +118,10 @@ const ContentPage = ({
       MarkdocImage,
       Video,
       MarkdocDiv,
+      Block,
+      OffCampusDining,
+      OnCampusDining,
+      MealExchangeDining
     },
   });
   const parsedErrors = JSON.parse(errors);
