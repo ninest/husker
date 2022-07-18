@@ -133,6 +133,7 @@ export const Icon = ({ id = "filealt", ...props }: IconProps) => {
     case "griplines":
       return <FaGripLines className={className} />;
     case "dog":
+    case "husky":
       return <FaDog className={className} />;
     case "regmoon":
       return <FaRegMoon className={className} />;

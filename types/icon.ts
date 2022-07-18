@@ -94,6 +94,7 @@ export const iconMap = {
   x: FaTimes,
   griplines: FaGripLines,
   dog: FaDog,
+  husky: FaDog,
   regmoon: FaRegMoon,
   regsun: FaRegSun,
   github: FaGithub,

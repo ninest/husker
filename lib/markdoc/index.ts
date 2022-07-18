@@ -1,22 +1,22 @@
 import { Title } from "@/components/Title";
 import { readFile } from "@/lib/file/read";
+import { headingNode } from "@/lib/markdoc/nodes/heading";
+import { imageNode } from "@/lib/markdoc/nodes/img";
+import { blockTag } from "@/lib/markdoc/tags/block";
+import { buttonSetTag } from "@/lib/markdoc/tags/buttonSet";
+import { commentTag } from "@/lib/markdoc/tags/comment";
+import { diningTags } from "@/lib/markdoc/tags/dining";
+import { divTag } from "@/lib/markdoc/tags/div";
+import { dormsTag } from "@/lib/markdoc/tags/dorms";
+import { expandableTag } from "@/lib/markdoc/tags/expandable";
+import { gridTag } from "@/lib/markdoc/tags/grid";
+import { iconTag } from "@/lib/markdoc/tags/icon";
+import { linkButtonGridTag } from "@/lib/markdoc/tags/linkButtonGrid";
+import { videoTag } from "@/lib/markdoc/tags/video";
+import { youtubeTag } from "@/lib/markdoc/tags/youtube";
 import { MarkdocPage } from "@/types/page";
 import Markdoc, { Config } from "@markdoc/markdoc";
 import yaml from "js-yaml";
-import { headingNode } from "./nodes/heading";
-import { imageNode } from "./nodes/img";
-import { blockTag } from "./tags/block";
-import { buttonSetTag } from "./tags/buttonSet";
-import { commentTag } from "./tags/comment";
-import { diningTags } from "./tags/dining";
-import { divTag } from "./tags/div";
-import { dormsTag } from "./tags/dorms";
-import { expandableTag } from "./tags/expandable";
-import { gridTag } from "./tags/grid";
-import { iconTag } from "./tags/icon";
-import { linkButtonGridTag } from "./tags/linkButtonGrid";
-import { videoTag } from "./tags/video";
-import { youtubeTag } from "./tags/youtube";
 
 const config: Config = {
   nodes: {
