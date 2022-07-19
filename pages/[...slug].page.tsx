@@ -1,22 +1,38 @@
-import { GetStaticPaths, GetStaticProps } from "next";
-import { getMDXComponent } from "mdx-bundler/client";
+import { ArticleHead } from "@/components/ArticleHead";
+import { Block } from "@/components/Block";
+import { Button } from "@/components/Button";
+import { ButtonSet } from "@/components/ButtonSet";
+import {
+  MealExchangeDining,
+  OffCampusDining,
+  OnCampusDining,
+} from "@/components/Dining";
+import { Dorms } from "@/components/Dorms";
+import { Video } from "@/components/embed/Video";
+import { YoutubeEmbed } from "@/components/embed/YoutubeEmbed";
+import { Expandable } from "@/components/Expandable";
+import { Icon } from "@/components/Icon";
+import { LinkButtonGrid } from "@/components/link/LinkButton";
+import { LinkSet } from "@/components/link/LinkSet";
+import { MarkdocDiv } from "@/components/markdoc/MarkdocDiv";
+import { MarkdocImage } from "@/components/markdoc/MarkdocImage";
+import { Title } from "@/components/Title";
+import { Debug } from "@/components/util/Debug";
+import { Grid } from "@/components/util/Grid";
 import { Spacer } from "@/components/util/Spacer";
+import { dorms } from "@/content/housing";
 import { contentMap, pages } from "@/content/map";
 import { listToFilepath } from "@/lib/file/list-to-file";
-
-import { Category, Link } from "@/types/category";
-import { Page } from "@/types/page";
+import { getMarkdocPage } from "@/lib/markdoc";
+import Markdoc from "@markdoc/markdoc";
+import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from "next";
 import { NextSeo } from "next-seo";
-import { Button } from "@/components/Button";
-import { LinkSet } from "@/components/link/LinkSet";
-import { dorms } from "@/content/housing";
-import { ArticleHead } from "@/components/ArticleHead";
-import { substitutedComponents } from "@/components/substitutedComponents";
-import { getPage } from "@/lib/mdx";
+import React from "react";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const categoryPaths = contentMap.map((category) => `/${category.slug}`);
-  const otherPagePaths = pages;
+  const otherPagePaths = pages.map((page) => `${page}`);
+
   return {
     paths: [...categoryPaths, ...otherPagePaths],
     fallback: false,
@@ -24,134 +40,145 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  console.log("Building MDX page")
-  const slugList = params?.slug! as string[];
-  const slug = listToFilepath(slugList);
+  const slugList = params?.slug! as string[]; // [services, free]
+  const slug = listToFilepath(slugList); // "services/free"
 
-  const backLink =
-    slugList.length > 1 ? `/${listToFilepath(slugList.slice(0, -1))}` : "/";
-  const backTitle =
-    backLink == "/" ? "Links" : (await getPage(backLink)).frontmatter.title;
+  console.log(slug);
 
-  // Get page
-  const page = await getPage(slug);
-  const { title, description, pageType } = page.frontmatter;
+  /* Create back button attributes */
+  const href = slugList.length == 1 ? `/` : `/${slugList[0]}`; // First item in slug; "/services"
+  const text =
+    slugList.length == 1
+      ? `Links`
+      : (await getMarkdocPage(href)).frontmatter.title; // "Services"
+  const back = { href, text };
 
-  /* 
-  It's a category page if:
-  - The slugList length is 1 
-  - AND that one element in the slugList is a category slug
-  */
+  /* Markdoc page */
+  const { frontmatter, content, errors } = getMarkdocPage(slug);
+
+  /* Category page? */
   const isCategoryPage =
-    slugList.length === 1 &&
-    !!contentMap.find((category) => category.slug === slug);
-  /*
-  Even if it's not a category page, try finding the category for a page to find the back button text and link
-  */
-  const category =
-    contentMap.find((category) => category.slug === slugList[0]) ?? null;
+    slugList.length === 1 && // it's a top level page ...
+    contentMap.find((category) => category.slug === slug); // and the cat slug is valid
+  const category = contentMap.find((cat) => cat.slug === slugList[0]) ?? null;
 
-  /* Some pages, such as "category" or "dorm" pages contain the link set */
-  const containsLinkSet = isCategoryPage || pageType == "dorm";
+  // /* Should contain link set */
+  const containsLinkSet =
+    isCategoryPage || slugList[0] === "housing" || slugList[0] === "house";
+
   let links = null;
   let pages = null;
 
-  if (isCategoryPage) {
-    // {links,pages} = category
-    links = category?.links! ?? null;
-    pages = category?.pages! ?? null;
-  } else if (pageType == "dorm") {
-    /* 
-    The dorm slug is in the URL
-    */
-    const dormSlug = slugList[slugList.length - 1];
-    links = dorms.find((dorm) => dorm.slug == dormSlug)?.links;
-    pages = dorms.find((dorm) => dorm.slug == dormSlug)?.pages ?? null;
+  if (containsLinkSet) {
+    links = category?.links ?? null;
+    pages = category?.pages ?? null;
+  }
+
+  // For housing pages, the "category" is either "house" or "housing"
+  if (
+    slugList.length > 1 &&
+    (slugList[0] === "housing" || slugList[0] === "house")
+  ) {
+    const dormSlug = slugList[slugList.length - 1]; // The last part of the URL
+    const dorm = dorms.find((dorm) => dorm.slug == dormSlug);
+    links = dorm?.links ?? null;
+    pages = dorm?.pages ?? null;
   }
 
   return {
     props: {
-      backLink,
-      backTitle,
-
-      isCategoryPage,
+      back,
       category,
-
       containsLinkSet,
       links,
       pages,
-
-      page,
-      title,
-      description,
+      frontmatter: JSON.parse(JSON.stringify(frontmatter)), //TODO: fix date serialization
+      content: JSON.stringify(content),
+      errors: JSON.stringify(errors),
     },
   };
 };
 
-interface ContentPageProps {
-  backLink: string;
-  backTitle: string;
-
-  isCategoryPage: boolean;
-  category?: Category;
-
-  containsLinkSet: boolean;
-  links: Link[];
-  pages?: Link[];
-
-  page: Page;
-
-  title: string;
-  description: string;
-}
-
 const ContentPage = ({
-  backLink,
-  backTitle,
-
-  containsLinkSet,
+  back,
+  category,
   links,
   pages,
-
-  page,
-  title,
-  description,
-}: ContentPageProps) => {
-  let Markdown;
-  if (page) {
-    Markdown = getMDXComponent(page?.code);
-  }
+  frontmatter,
+  content,
+  errors,
+}: InferGetStaticPropsType<typeof getStaticProps>) => {
+  const showLinkSet = links || pages;
+  const parsedContent = JSON.parse(content);
+  const renderedContent = Markdoc.renderers.react(parsedContent, React, {
+    // TODO: move somewhere else
+    components: {
+      Title,
+      Icon,
+      Expandable,
+      Dorms,
+      LinkButtonGrid,
+      YoutubeEmbed,
+      Grid,
+      MarkdocImage,
+      Video,
+      MarkdocDiv,
+      Block,
+      OffCampusDining,
+      OnCampusDining,
+      MealExchangeDining,
+      ButtonSet,
+    },
+  });
+  const parsedErrors = JSON.parse(errors);
 
   return (
     <>
-      <NextSeo title={title} description={description} />
-
-      <ArticleHead
-        backButtonHref={backLink}
-        backButtonText={backTitle}
-        title={title}
+      <NextSeo
+        title={frontmatter.title}
+        description={frontmatter.description}
       />
 
-      <article className="wrapper">
-        {containsLinkSet && (
+      <ArticleHead
+        backButtonHref={back.href}
+        backButtonText={back.text}
+        title={frontmatter.title}
+      />
+
+      <div className="wrapper">
+        {showLinkSet && (
           <>
-            <LinkSet showTitle={false} showFull links={links} pages={pages} />
+            <LinkSet showFull links={links} pages={pages} />
             <Spacer size="xl" />
           </>
         )}
 
-        {Markdown && (
-          <div className="prose">
-            <Markdown components={substitutedComponents}></Markdown>
-          </div>
+        {parsedErrors.length > 0 && (
+          <>
+            <Expandable
+              variant="error"
+              title="Markdoc errors"
+              open
+              containsProse
+            >
+              <p>
+                You should <b>not</b> be able to see this! Please review the
+                errors:
+              </p>
+              <Debug data={parsedErrors} noSpaceAbove />
+            </Expandable>
+            <Spacer size="xl" />
+          </>
         )}
+
+        {content && <div className="prose">{renderedContent}</div>}
 
         <Spacer size="2xl"></Spacer>
         <div className="flex items-center space-x-base">
           <Button
             href={{
               pathname: "/contribute",
-              query: { name: page.frontmatter.title },
+              query: { name: frontmatter.title },
             }}
             icon="pen"
             size="sm"
@@ -161,7 +188,7 @@ const ContentPage = ({
           <Button
             href={{
               pathname: "/contribute",
-              query: { name: page.frontmatter.title, fixLinks: true },
+              query: { name: frontmatter.title, fixLinks: true },
             }}
             icon="bug"
             size="sm"
@@ -169,7 +196,7 @@ const ContentPage = ({
             Links broken?
           </Button>
         </div>
-      </article>
+      </div>
     </>
   );
 };

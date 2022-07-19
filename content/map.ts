@@ -1,5 +1,5 @@
 import { isStartOfSemester } from "@/lib/iamhere";
-import ContentPage from "@/pages/[...slug].page";
+import ContentPage from "@/pages/old/[...slug].page";
 import { Category } from "@/types/category";
 import { dorms } from "./housing";
 
