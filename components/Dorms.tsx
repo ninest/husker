@@ -20,7 +20,7 @@ export const Dorms = () => {
               <Block
                 key={dorm.slug}
                 title={dorm.title}
-                href={`/housing/${dorm.slug}`}
+                href={`/house/${dorm.slug}`}
               >
                 {dorm.pricesPoints.map((p) => p.name).join(", ")}
               </Block>
