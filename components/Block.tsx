@@ -11,9 +11,8 @@ interface BlockProps extends HTMLAttributes<HTMLDivElement> {
 
 export const Block = ({ title, children, href, ...props }: BlockProps) => {
   const isClickable = !!href;
-  const className = clsx(props.className, "block p-base rounded", {
-    "bg-gray-50": !isClickable,
-    "bg-gray-100 hover:bg-gray-200": isClickable,
+  const className = clsx(props.className, "block p-base rounded bg-gray-50", {
+    "hover:bg-gray-100": isClickable,
   });
   const content = (
     <>
