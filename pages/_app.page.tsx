@@ -63,7 +63,9 @@ function MyApp({ Component, pageProps }: AppProps) {
           <Sidebar onCloseClick={() => setShowSidebar(false)}></Sidebar>
         </div>
 
-        <div className="w-full">
+        {/*  https://stackoverflow.com/a/43312314/8677167 */}
+        {/*  min-w-0 required if children may scroll horizontally */}
+        <div className="min-w-0 w-full">
           <div className="min-h-screen">
             <Component {...pageProps} />
           </div>

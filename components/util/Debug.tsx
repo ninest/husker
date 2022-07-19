@@ -13,7 +13,8 @@ export const Debug = ({ data, noSpaceAbove = false }: DebugProps) => {
         <pre
           className={clsx(
             { "mt-xl": !noSpaceAbove },
-            "bg-[#112] p-sm text-gray-300 text-sm rounded-lg"
+            "bg-[#112] p-sm text-gray-300 text-sm rounded-lg",
+            "overflow-scroll max-w-full"
           )}
           suppressHydrationWarning
         >
