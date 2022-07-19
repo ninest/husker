@@ -1,4 +1,8 @@
 import { ArticleHead } from "@/components/ArticleHead";
+import { Block } from "@/components/Block";
+import { Debug } from "@/components/util/Debug";
+import { Grid } from "@/components/util/Grid";
+import { Course, getAllCourses, searchSections } from "@/lib/courses/courses";
 import { getSubject, getSubjects } from "@/lib/courses/subjects";
 import { getLatestTerm, getTerm } from "@/lib/courses/terms";
 import { Campus, campuses } from "@/lib/courses/types";
@@ -40,8 +44,13 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
   const subject = await getSubject(term?.code!, subjectCode);
 
+  const courses = await getAllCourses({
+    termCode: term?.code!,
+    subjectCode,
+  });
+
   return {
-    props: { term, campus, subject },
+    props: { term, campus, subject, courses },
     revalidate: 100,
   };
 };
@@ -50,6 +59,7 @@ const SubjectPage = ({
   term,
   campus,
   subject,
+  courses,
 }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <>
@@ -63,6 +73,20 @@ const SubjectPage = ({
         backButtonText={term.description}
         title={subject.description}
       />
+
+      <div className="wrapper">
+        <Grid className="md:grid-cols-2">
+          {courses.map((course: Course) => (
+            <Block
+              id={course.courseNumber}
+              title={`${subject.code} ${course.courseNumber}`}
+            >
+              {course.courseTitle}
+            </Block>
+          ))}
+        </Grid>
+        <Debug data={courses} />
+      </div>
     </>
   );
 };

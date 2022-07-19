@@ -34,7 +34,7 @@ export const getTerms = async ({
 
   return {
     terms,
-    cookie: "",
+    cookie,
   };
 };
 
