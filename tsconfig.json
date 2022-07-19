@@ -29,7 +29,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/api/trpc/[trpc].api._ts"  ],
+, "pages/api/trpc/[trpc].api._ts", "pages/courses/[termCode]/[campus]/index.page,ts"  ],
   "exclude": [
     "node_modules"
   ]

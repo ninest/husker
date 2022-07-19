@@ -10,7 +10,14 @@ interface GetTerms {
   cookie: string;
 }
 
-export const getTerms = async (noTerms: number = 10): Promise<GetTerms> => {
+interface GetTermsParams {
+  campus?: Campus | "";
+  noTerms: number;
+}
+export const getTerms = async ({
+  campus = "",
+  noTerms,
+}: GetTermsParams): Promise<GetTerms> => {
   const response = await fetch(
     "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/classSearch/getTerms?" +
       new URLSearchParams({
@@ -45,7 +52,7 @@ const parseCookie = (cookieText: string): string => {
 };
 
 export const getTerm = async (termCode: string): Promise<Term | undefined> => {
-  const { terms } = await getTerms(20);
+  const { terms } = await getTerms({ noTerms: 20 });
   return terms.find((term) => term.code == termCode);
 };
 
@@ -54,7 +61,7 @@ export const getLatestTerm = async (
 ): Promise<Term | undefined> => {
   /* Find the latest term of the campus (NU, CPS, or LAW) */
 
-  const { terms } = await getTerms(10);
+  const { terms } = await getTerms({ noTerms: 10 });
 
   if (campus == "nu") {
     return terms.find(

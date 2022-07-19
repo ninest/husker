@@ -41,12 +41,14 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const subject = await getSubject(term?.code!, subjectCode);
 
   return {
-    props: { subject },
+    props: { term, campus, subject },
     revalidate: 100,
   };
 };
 
 const SubjectPage = ({
+  term,
+  campus,
   subject,
 }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
@@ -57,8 +59,8 @@ const SubjectPage = ({
       />
 
       <ArticleHead
-        backButtonHref={"/courses"}
-        backButtonText={"Courses"}
+        backButtonHref={`/courses/${term.code}/${campus}`}
+        backButtonText={term.description}
         title={subject.description}
       />
     </>
