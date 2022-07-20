@@ -4,6 +4,12 @@ description: How has this site improved?
 lastUpdated: 2022-03-27
 ---
 
+## 2022-07-20
+
+- Switch from MDX to Markdoc
+- Add more housing pages
+- Testing courses pages
+
 ## 2022-06-11
 
 - Add favorites!
@@ -18,31 +24,31 @@ lastUpdated: 2022-03-27
 - Replace Testing with Open My Door link
 - Change `/housing/` to `/house/` (due to a redirect error)
 
-### 2022-01-29
+## 2022-01-29
 
 - Add course search links to search bar
 
-### 2022-01-21
+## 2022-01-21
 
 - Add more links + miscellaneous section
 - Add [undergraduate calendar embed](/courses/undergraduate-calendar)
 - Improve [dining page](/husky-card/dining)
 
-### 2021-12-31
+## 2021-12-31
 
 - Add dark mode
 - Add [contribute form](/contribute)
 
-### 2021-12-30
+## 2021-12-30
 
 - Redesign site
 - Add search
 
-### 2021-09-05
+## 2021-09-05
 
 - Slight redesign
 - Add content pages
 
-### 2021-07-16
+## 2021-07-16
 
 - Create website
