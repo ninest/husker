@@ -17,11 +17,13 @@ import { youtubeTag } from "@/lib/markdoc/tags/youtube";
 import { MarkdocPage } from "@/types/page";
 import Markdoc, { Config } from "@markdoc/markdoc";
 import yaml from "js-yaml";
+import { linkNode } from "./nodes/link";
 
 const config: Config = {
   nodes: {
     heading: headingNode,
     image: imageNode,
+    link: linkNode,
   },
   tags: {
     icon: iconTag,

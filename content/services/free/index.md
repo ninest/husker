@@ -75,8 +75,7 @@ https://www.instagram.com/p/CL46HQoFswY/
 - [Figma](https://www.figma.com/education/)
 - [Lucidchart](https://lucidco.zendesk.com/hc/en-us/articles/360049831771-Get-Started-with-an-Educational-Account): Free with .edu email address.
 - [Milanote](https://help.milanote.com/en/articles/3600867-can-i-have-a-discount): Contact support for a discount.
-- [[Wolfram Alpha](https://www.wolframalpha.com/pro/pricing/students)]: Discounted for students: $5 for students, $7.25 per month otherwise. [Mathematica] also discounted for students.
--
+- [Wolfram Alpha](https://www.wolframalpha.com/pro/pricing/students): Discounted for students: $5 for students, $7.25 per month otherwise Mathematica also discounted for students.
 
 ## Academic and career
 

@@ -16,6 +16,7 @@ import { LinkButtonGrid } from "@/components/link/LinkButton";
 import { LinkSet } from "@/components/link/LinkSet";
 import { MarkdocDiv } from "@/components/markdoc/MarkdocDiv";
 import { MarkdocImage } from "@/components/markdoc/MarkdocImage";
+import { SmartLink } from "@/components/SmartLink";
 import { Title } from "@/components/Title";
 import { Debug } from "@/components/util/Debug";
 import { Grid } from "@/components/util/Grid";
@@ -128,6 +129,7 @@ const ContentPage = ({
       OnCampusDining,
       MealExchangeDining,
       ButtonSet,
+      SmartLink,
     },
   });
   const parsedErrors = JSON.parse(errors);
