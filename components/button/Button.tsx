@@ -31,22 +31,25 @@ export const Button = ({
 
   const className = clsx(
     props.className,
-    "rounded-md font-semibold text-gray",
-    {
-      "bg-gray-100 hover:bg-gray-200": isLightTheme && variant === "gray",
-      "bg-gray-50 hover:bg-gray-100": isDarkTheme && variant === "gray",
+    "rounded-md font-semibold",
+    // {
+    //   "text-gray bg-gray-100 hover:bg-gray-200":
+    //     isLightTheme && variant === "gray",
+    //   "text-gray bg-gray-50 hover:bg-gray-100":
+    //     isDarkTheme && variant === "gray",
 
-      "text-primary-darkest bg-primary-lighter hover:bg-primary-light":
-        isLightTheme && variant === "primary",
-      "bg-primary-50 hover:bg-primary-100":
-        isDarkTheme && variant === "primary",
-    },
-    {
-      "text-sm p-xs": size === "xs",
-      "text-sm p-sm": size === "sm",
-      "text-base p-base": size === "base",
-      "text-lg p-lg": size === "lg",
-    },
+    //   // "text-gray-200 bg-primary hover:bg-primary-light dark:text-red-500": variant === "primary",
+    //   "text-gray-200 bg-primary hover:bg-primary-light":
+    //     isLightTheme && variant === "primary",
+    //   "text-gray-500 bg-primary-50 hover:bg-primary-100":
+    //     isDarkTheme && variant === "primary",
+    // },
+    // {
+    //   "text-sm p-xs h-8": size === "xs",
+    //   "text-sm p-sm h-10": size === "sm",
+    //   "text-base p-base h-12": size === "base",
+    //   "text-lg p-lg h-14": size === "lg",
+    // },
     "flex items-center justify-center"
   );
 

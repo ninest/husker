@@ -14,7 +14,7 @@ export const MenuDropdown = ({ title, options }: MenuDropdownProps) => {
   return Menu ? (
     <div className="relative">
       <Menu>
-        <Menu.Button className="flex items-center justify-center space-x-base bg-gray-100 rounded-md p-sm text-sm text-gray">
+        <Menu.Button className="h-10 flex items-center justify-center space-x-base bg-gray-100 hover:bg-gray-200 rounded-md p-sm text-sm text-gray">
           <div className="">{title}</div>
           <Icon id="caretdown" />
         </Menu.Button>

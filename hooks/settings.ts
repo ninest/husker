@@ -41,7 +41,7 @@ export const useTheme = () => {
 
   const setTheme = (theme: Theme) => {
     mergeSettings({ theme });
-    document.body.dataset.theme = theme;
+    document.documentElement.className = theme;
   };
 
   const toggleTheme = () => {

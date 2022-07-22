@@ -1,4 +1,5 @@
 import { ArticleHead } from "@/components/ArticleHead";
+import { Button } from "@/components/button/Button";
 import { MenuDropdown } from "@/components/button/MenuButton";
 import { NUPathDisplay } from "@/components/NUPathDisplay";
 import { Debug } from "@/components/util/Debug";
@@ -88,7 +89,13 @@ const CoursePage = ({ subject, course }: CoursePageProps) => {
             <p className="text-gray font-bold">
               {course.scheduleType} - {creditsDisplay}
             </p>
-            <div className="flex">
+
+            <div className="flex items-center space-x-base">
+              <div>
+                <Button variant="primary" icon="plus" size="sm" className="w-10">
+                </Button>
+              </div>
+
               <MenuDropdown
                 title="Open with"
                 options={[

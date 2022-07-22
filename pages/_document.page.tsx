@@ -8,7 +8,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html className="dark">
         <Head>
           <link
             rel="preload"
@@ -47,12 +47,12 @@ class MyDocument extends Document {
           />
         </Head>
 
-        <body className="bg-light" {...{ "data-theme": "dark" }}>
+        <body className="bg-light">
           {/* Blocking script */}
           <script
             dangerouslySetInnerHTML={{
-              __html: `try {window.document.body.dataset.theme = JSON.parse(window.localStorage.getItem("settings")).dark || "dark"}
-                       catch(error) {window.document.body.dataset.theme = "dark"}`,
+              __html: `try {window.document.documentElement.className = JSON.parse(window.localStorage.getItem("settings")).dark || "dark"}
+                       catch(error) {window.document.documentElement.className = "dark"}`,
             }}
           />
 
