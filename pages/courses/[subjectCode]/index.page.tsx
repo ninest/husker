@@ -29,14 +29,18 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const { subjectCode } = params! as Path["params"];
 
   const subject = subjects.find((subject) => subject.code === subjectCode);
-  const courses: Course[] = JSON.parse(
-    readFile(`../.raw/courses/${subjectCode}.json`)
-  );
 
-  return {
-    props: { subject, courses },
-    revalidate: 100,
-  };
+  try {
+    const courses: Course[] = JSON.parse(
+      readFile(`../.raw/courses/${subjectCode}.json`)
+    );
+    return {
+      props: { subject, courses },
+    };
+  } catch {
+    // No courses found
+    return { props: { subject, courses: [] } };
+  }
 };
 
 interface SubjectPageProps {

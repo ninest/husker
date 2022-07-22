@@ -1,5 +1,5 @@
 import { IconId } from "@/types/icon";
-import { Button } from "../Button";
+import { Button } from "@/components/button/Button";
 import { Icon } from "../Icon";
 import { SmartLink } from "../SmartLink";
 

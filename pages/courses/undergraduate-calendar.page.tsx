@@ -1,5 +1,5 @@
 import { ArticleHead } from "@/components/ArticleHead";
-import { Button } from "@/components/Button";
+import { Button } from "@/components/button/Button";
 import { PDFEmbed } from "@/components/embed/PDFEmbed";
 import { Spacer } from "@/components/util/Spacer";
 import { NextSeo } from "next-seo";

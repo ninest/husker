@@ -1,14 +1,12 @@
-import { contacts, hrefPrefix } from "@/content/contacts";
-import { Contact, ContactMethod } from "@/types/contact";
-import { IconId } from "@/types/icon";
+import { Button } from "@/components/button/Button";
+import { hrefPrefix } from "@/content/contacts";
+import { Contact } from "@/types/contact";
 import { copy } from "@/utils/copy";
-import { Dialog, Disclosure } from "@headlessui/react";
+import { Disclosure } from "@headlessui/react";
 import clsx from "clsx";
 import { useState } from "react";
-import { Button } from "./Button";
 import { Icon } from "./Icon";
 
-import { Spacer } from "./util/Spacer";
 
 interface ContactDetailProps {
   contact: Contact;

@@ -1,5 +1,5 @@
 import { ArticleHead } from "@/components/ArticleHead";
-import { Button } from "@/components/Button";
+import { Button } from "@/components/button/Button";
 import { ClientOnly } from "@/components/util/ClientOnly";
 import { Debug } from "@/components/util/Debug";
 import { FormField } from "@/components/form/FormField";

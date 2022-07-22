@@ -1,5 +1,5 @@
 import { ArticleHead } from "@/components/ArticleHead";
-import { Button } from "@/components/Button";
+import { Button } from "@/components/button/Button";
 import { Expandable } from "@/components/Expandable";
 import { FormField } from "@/components/form/FormField";
 import { SmartLink } from "@/components/SmartLink";

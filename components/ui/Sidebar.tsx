@@ -1,15 +1,15 @@
+import { Button } from "@/components/button/Button";
 import { SmartLink } from "@/components/SmartLink";
 import { contentMap } from "@/content/map";
 import { highlightedSidebarLinks, sidebarLinks } from "@/content/sidebar";
-import { useSecretSettings, useSettings, useTheme } from "@/hooks/settings";
+import { useSecretSettings, useTheme } from "@/hooks/settings";
 import { IconId } from "@/types/icon";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import { Button } from "../Button";
-import { ClientOnly } from "../util/ClientOnly";
 import { Icon } from "../Icon";
-import { Search } from "./Search";
+import { ClientOnly } from "../util/ClientOnly";
 import { Spacer } from "../util/Spacer";
+import { Search } from "./Search";
 
 interface SidebarProps {
   onCloseClick: () => void;

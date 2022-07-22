@@ -1,7 +1,7 @@
+import { Button } from "@/components/button/Button";
 import clsx from "clsx";
 import Image from "next/image";
 import { Block } from "./Block";
-import { Button } from "./Button";
 import { Video } from "./embed/Video";
 import { YoutubeEmbed } from "./embed/YoutubeEmbed";
 import { Expandable } from "./Expandable";
@@ -31,8 +31,8 @@ export const substitutedComponents = {
   Image: (props: any) => {
     const src = (props.src as string).startsWith("/")
       ? `${props.src}`
-      // Compatibility with mdx-bundled images
-      : `/notouchy/${props.src}`;
+      : // Compatibility with mdx-bundled images
+        `/notouchy/${props.src}`;
 
     return (
       <div className="flex justify-center mobile-full-bleed">

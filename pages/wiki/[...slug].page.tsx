@@ -1,10 +1,9 @@
 import { ArticleHead } from "@/components/ArticleHead";
-import { GetServerSideProps } from "next/types";
-import { JSDOM } from "jsdom";
+import { MutedButton } from "@/components/button/MutedButton";
 import { Spacer } from "@/components/util/Spacer";
-import { Button } from "@/components/Button";
+import { JSDOM } from "jsdom";
 import { NextSeo } from "next-seo";
-import { MutedButton } from "@/components/MutedButton";
+import { GetServerSideProps } from "next/types";
 
 export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const pageId = params?.slug![0];

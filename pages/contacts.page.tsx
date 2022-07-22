@@ -1,5 +1,5 @@
 import { ArticleHead } from "@/components/ArticleHead";
-import { Button } from "@/components/Button";
+import { Button } from "@/components/button/Button";
 import { ContactDetail } from "@/components/Contact";
 import { contacts } from "@/content/contacts";
 

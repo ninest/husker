@@ -2,7 +2,6 @@ import { ArticleHead } from "@/components/ArticleHead";
 import { Debug } from "@/components/util/Debug";
 import { readFile } from "@/lib/file/read";
 import { Course, Subject } from "@/types/courses";
-import { Description } from "@headlessui/react/dist/components/description/description";
 import { GetStaticPaths, GetStaticProps } from "next";
 import { NextSeo } from "next-seo";
 import subjects from "../../../.raw/subjects.json";
@@ -58,6 +57,8 @@ interface CoursePageProps {
   subject: Subject;
   course: Course;
 }
+
+/* TODO: add links to reddit, searchneu, course catalog, rate my courses, rate my professor */
 
 const CoursePage = ({ subject, course }: CoursePageProps) => {
   const shortName = `${subject.code} ${course.number}`;
