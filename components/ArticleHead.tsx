@@ -17,8 +17,9 @@ export const ArticleHead = ({
     <>
       <div className="">
         <div className="wrapper">
-          <Spacer size="lg"></Spacer>
+          <Spacer size="lg" />
           <BackButton href={backButtonHref}>{backButtonText}</BackButton>
+          <Spacer size="sm" />
           <Title weightClassName="font-black">{title}</Title>
           <Spacer></Spacer>
         </div>
