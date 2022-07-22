@@ -1,5 +1,5 @@
-import { Block } from "./Block";
-import { Icon } from "./Icon";
+import { Block } from "../Block";
+import { Icon } from "../Icon";
 
 const mealExchangeVendors = [
   { name: "Sweet Tomatoes Pizza", address: "Curry Student Center" },

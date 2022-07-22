@@ -1,4 +1,4 @@
-import { BackButton } from "./BackButton";
+import { BackButton } from "./button/BackButton";
 import { Spacer } from "./util/Spacer";
 import { Title } from "./Title";
 

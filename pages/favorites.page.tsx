@@ -1,5 +1,5 @@
 import { ArticleHead } from "@/components/ArticleHead";
-import { Button } from "@/components/Button";
+import { Button } from "@/components/button/Button";
 import { ClientOnly } from "@/components/util/ClientOnly";
 import { LinkSet } from "@/components/link/LinkSet";
 import { NoFavorites } from "@/components/ui/NoFavorites";
@@ -11,7 +11,7 @@ import { favoritesToLinks } from "@/lib/favorites";
 import { NextSeo } from "next-seo";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
-import { MutedButton } from "@/components/MutedButton";
+import { MutedButton } from "@/components/button/MutedButton";
 
 const FavoritesPage = () => {
   const {

@@ -1,13 +1,7 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { Block } from "@/components/Block";
-import { Button } from "@/components/Button";
-import { ButtonSet } from "@/components/ButtonSet";
-import {
-  MealExchangeDining,
-  OffCampusDining,
-  OnCampusDining,
-} from "@/components/Dining";
-import { Dorms } from "@/components/Dorms";
+import { ButtonSet } from "@/components/button/ButtonSet";
+import { MutedButton } from "@/components/button/MutedButton";
 import { Video } from "@/components/embed/Video";
 import { YoutubeEmbed } from "@/components/embed/YoutubeEmbed";
 import { Expandable } from "@/components/Expandable";
@@ -16,8 +10,13 @@ import { LinkButtonGrid } from "@/components/link/LinkButton";
 import { LinkSet } from "@/components/link/LinkSet";
 import { MarkdocDiv } from "@/components/markdoc/MarkdocDiv";
 import { MarkdocImage } from "@/components/markdoc/MarkdocImage";
-import { MutedButton } from "@/components/MutedButton";
 import { SmartLink } from "@/components/SmartLink";
+import {
+  MealExchangeDining,
+  OffCampusDining,
+  OnCampusDining
+} from "@/components/special/Dining";
+import { Dorms } from "@/components/special/Dorms";
 import { Title } from "@/components/Title";
 import { Debug } from "@/components/util/Debug";
 import { Grid } from "@/components/util/Grid";

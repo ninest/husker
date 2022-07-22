@@ -3,37 +3,49 @@ import { IconId } from "@/types/icon";
 import { Size } from "@/types/size";
 import clsx from "clsx";
 import { HTMLAttributes, ReactNode } from "react";
-import { Icon } from "./Icon";
-import { SmartLink, SmartLinkProps } from "./SmartLink";
+import { Icon } from "@/components/Icon";
+import { SmartLink, SmartLinkProps } from "@/components/SmartLink";
 
-interface MutedButtonProps extends HTMLAttributes<HTMLButtonElement> {
+interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
   icon?: IconId;
   href?: SmartLinkProps["href"];
   size?: Size;
+  variant?: "primary" | "gray";
   className?: string;
   type?: "button" | "reset" | "submit";
   disabled?: boolean;
   children?: ReactNode;
 }
 
-export const MutedButton = ({
+export const Button = ({
   icon,
   size = "base",
+  variant = "gray",
   href,
   children,
   type = "button",
   disabled = false,
   ...props
-}: MutedButtonProps) => {
+}: ButtonProps) => {
   const { isLightTheme, isDarkTheme } = useTheme();
 
   const className = clsx(
     props.className,
-    "rounded-md font-semibold text-gray-light -m-xs p-xs hover:bg-gray-50 hover:underline",
+    "rounded-md font-semibold text-gray",
     {
-      "text-sm": size === "sm" || size === "xs",
-      "text-base ": size === "base",
-      "text-lg ": size === "lg",
+      "bg-gray-100 hover:bg-gray-200": isLightTheme && variant === "gray",
+      "bg-gray-50 hover:bg-gray-100": isDarkTheme && variant === "gray",
+
+      "text-primary-darkest bg-primary-lighter hover:bg-primary-light":
+        isLightTheme && variant === "primary",
+      "bg-primary-50 hover:bg-primary-100":
+        isDarkTheme && variant === "primary",
+    },
+    {
+      "text-sm p-xs": size === "xs",
+      "text-sm p-sm": size === "sm",
+      "text-base p-base": size === "base",
+      "text-lg p-lg": size === "lg",
     },
     "flex items-center justify-center"
   );
@@ -41,10 +53,7 @@ export const MutedButton = ({
   const Element = (
     <>
       {icon ? (
-        <Icon
-          id={icon}
-          className={clsx("text-gray-lighter text-xs", { "mr-sm": children })}
-        />
+        <Icon id={icon} className={clsx({ "mr-base": children })} />
       ) : null}
       {children && <div>{children}</div>}
     </>
