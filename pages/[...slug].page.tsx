@@ -26,6 +26,7 @@ import { dorms } from "@/content/housing";
 import { contentMap, pages } from "@/content/map";
 import { listToFilepath } from "@/lib/file/list-to-file";
 import { getMarkdocPage } from "@/lib/markdoc";
+import { objectEmpty } from "@/utils/object";
 import Markdoc from "@markdoc/markdoc";
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from "next";
 import { NextSeo } from "next-seo";
@@ -135,6 +136,9 @@ const ContentPage = ({
   });
   const parsedErrors = JSON.parse(errors);
 
+  // @ts-ignore
+  const containsProse = !objectEmpty(renderedContent.props);
+
   return (
     <>
       <NextSeo
@@ -174,9 +178,13 @@ const ContentPage = ({
           </>
         )}
 
-        {content && <div className="prose">{renderedContent}</div>}
+        {containsProse && (
+          <>
+            <div className="prose">{renderedContent}</div>
+            <Spacer size="xl"></Spacer>
+          </>
+        )}
 
-        <Spacer size="xl"></Spacer>
         <div className="flex flex-col items-start justify-center space-y-xs md:space-y-sm">
           <MutedButton
             href={{
