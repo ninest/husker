@@ -34,7 +34,6 @@ export const Search = () => {
       e.preventDefault();
       inputRef.current?.focus();
     } else if (e.key == "Escape") {
-      console.log("Must clear");
       setSearchTerm("");
     }
   };

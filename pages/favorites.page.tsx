@@ -11,6 +11,7 @@ import { favoritesToLinks } from "@/lib/favorites";
 import { NextSeo } from "next-seo";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import { MutedButton } from "@/components/MutedButton";
 
 const FavoritesPage = () => {
   const {
@@ -44,10 +45,10 @@ const FavoritesPage = () => {
               <Spacer size="md" />
             </>
           )}
-          <div className="flex">
-            <Button icon="pen" href="/settings" size="sm">
+          <div className="flex flex-col items-start justify-center space-y-xs md:space-y-sm">
+            <MutedButton href={"/settings"} icon="pen" size="sm">
               Edit
-            </Button>
+            </MutedButton>
           </div>
           <Spacer size="md" />
           <LinkSet showTitle={false} showFull links={favoriteLinks} />

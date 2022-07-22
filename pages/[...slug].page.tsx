@@ -46,8 +46,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const slugList = params?.slug! as string[]; // [services, free]
   const slug = listToFilepath(slugList); // "services/free"
 
-  console.log(slug);
-
   /* Create back button attributes */
   const href = slugList.length == 1 ? `/` : `/${slugList[0]}`; // First item in slug; "/services"
   const text =

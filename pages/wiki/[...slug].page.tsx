@@ -4,6 +4,7 @@ import { JSDOM } from "jsdom";
 import { Spacer } from "@/components/util/Spacer";
 import { Button } from "@/components/Button";
 import { NextSeo } from "next-seo";
+import { MutedButton } from "@/components/MutedButton";
 
 export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const pageId = params?.slug![0];
@@ -78,10 +79,13 @@ const WikiPage = ({ pageId, title, html }: WikiPageProps) => {
         <div className="prose" dangerouslySetInnerHTML={{ __html: html }}></div>
 
         <Spacer size="xl" />
-        <div className="flex items-center space-x-base">
-          <Button href={editHref} icon="pen" size="sm">
+        <div className="flex flex-col items-start justify-center space-y-xs md:space-y-sm">
+          <MutedButton href={editHref} icon="pen" size="sm">
             Edit
-          </Button>
+          </MutedButton>
+          <MutedButton href={editHref} icon="bug" size="sm">
+            Links broken?
+          </MutedButton>
         </div>
       </article>
     </>
