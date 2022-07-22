@@ -30,6 +30,7 @@
     "js-yaml": "^4.1.0",
     "jsdom": "^19.0.0",
     "mdx-bundler": "^8.0.1",
+    "minisearch": "^5.0.0",
     "next": "12.2.0",
     "next-seo": "^4.28.1",
     "octokit": "^2.0.3",

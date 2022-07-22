@@ -8,14 +8,16 @@ import { Spacer } from "../util/Spacer";
 export const Search = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResults, setSearchResults] = useState<Link[]>([]);
+  const [courseResults, setCourseResults] = useState<Link[]>([]);
 
   /* To prevent showing everything, only search when more than 3 
   characters are typed */
   const shouldSearch = () => searchTerm.length > 1;
   useEffect(() => {
     if (shouldSearch()) {
-      const results = search(searchTerm);
-      setSearchResults(results);
+      const { searchResults: sr, courseResults: cr } = search(searchTerm);
+      setSearchResults(sr);
+      setCourseResults(cr);
     }
   }, [searchTerm]);
 
@@ -90,14 +92,14 @@ export const Search = () => {
 
       {shouldSearch() && (
         <div>
-          {searchResults.length > 0 ? (
+          {searchResults.length > 0 || courseResults.length > 0 ? (
             <>
               <Spacer></Spacer>
               <div className="px-md pb-sm text-sm text-gray">
                 Search results
               </div>
               <div className="px-md flex flex-col space-y-sm">
-                {searchResults.map((link) => {
+                {[...searchResults, ...courseResults].map((link) => {
                   return (
                     <LinkButton
                       key={link.href}

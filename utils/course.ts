@@ -1,33 +1,30 @@
 export function isCourse(query: string): boolean {
-  let nums = 0;
+  let numbersStartAtIndex = -1;
 
-  query.split("").forEach((char) => {
-    if (isNumeric(char)) nums++;
-  });
+  const characters = query.replaceAll(" ", "");
+  const listOfChars = characters.split("");
 
-  // Last 2 chars should also be numbers
-  const lastTwo = query.slice(query.length - 2, query.length);
+  for (const [index, char] of listOfChars.entries()) {
+    if (isNumeric(char)) {
+      numbersStartAtIndex = index;
+    }
+  }
 
-  return nums >= 2 && isNumeric(lastTwo);
+  // All chars before numbersStartAtIndex should be letters
+  // All chars after should be numeric
+  const before = characters.slice(0, numbersStartAtIndex);
+  const after = characters.slice(numbersStartAtIndex);
+
+  return isLetter(before) && isNumeric(after);
 }
 
 interface Course {
   code: String;
   number: Number;
 }
-export function cleanCourse(query: string): Course {
-  // Find the course code followed by the number;
-  let splitIndex = 0;
-  for (let [index, char] of query.split("").entries()) {
-    if (isNumeric(char)) {
-      splitIndex = index;
-      break;
-    }
-  }
 
-  const code = query.substring(0, splitIndex).trim().toUpperCase();
-  const number = +query.substring(splitIndex, query.length).trim();
-  return { code, number };
+function isLetter(maybeLetters: string): boolean {
+  return !!maybeLetters.match(/[a-z]/i);
 }
 
 function isNumeric(maybeNumber: string): boolean {
