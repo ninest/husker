@@ -10,7 +10,7 @@ pageType: dorm
 ## Images
 
 {% expandable icon="image" title="Double" %}
-{% grid className="grid-cols-1 md:grid-cols-3 lg:grid-cols-2" %}
+{% grid className="grid-cols-1 md:grid-cols-2" %}
 ![Double](/housing/east-village/double1.jpg)
 
 ![Double](/housing/east-village/double2.jpg)
@@ -23,6 +23,14 @@ pageType: dorm
 
 ![Double](/housing/east-village/double6.jpg)
 
+![Double grid](/housing/east-village/double-grid.png)
+
+{% /grid %}
+{% /expandable %}
+
+{% expandable icon="video" title="Double" %}
+{% grid className="grid-cols-1 md:grid-cols-2" %}
+{% video src="/housing/east-village/double.mp4" / %}
 {% /grid %}
 {% /expandable %}
 
@@ -39,7 +47,14 @@ pageType: dorm
 {% /grid %}
 {% /expandable %}
 
-## Reddit Links
+{% expandable variant="gray" icon="video" title="Videos" %}
+{% grid %}
+{% youtube videoId="ru8ljEa_rpg" / %}
+{% youtube videoId="vXBGn0gxDzU" / %}
+{% /grid %}
+{% /expandable %}
+
+## Links
 
 {% linkButtonGrid
   showDescription=true

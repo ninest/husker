@@ -234,13 +234,7 @@ export const dorms: Dorm[] = [
         href: "https://northeastern.edu/housing/international-village",
       },
     ],
-    pages: [
-      {
-        name: "NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/first-year/suite-style/international-village",
-      },
-    ],
+    pages: [],
   },
   {
     type: suite,
@@ -254,13 +248,7 @@ export const dorms: Dorm[] = [
         href: "https://northeastern.edu/housing/east-village",
       },
     ],
-    pages: [
-      {
-        name: "NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/first-year/suite-style/east-village",
-      },
-    ],
+    pages: [],
   },
   {
     type: suite,
@@ -383,13 +371,7 @@ export const dorms: Dorm[] = [
         href: "https://www.northeastern.edu/housing/dnaesantoelrihtriseertn/10-coventry/",
       },
     ],
-    pages: [
-      {
-        name: "NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/upperclassmen/10-coventry?authuser=0",
-      },
-    ],
+    pages: [],
   },
 
   {
