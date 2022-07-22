@@ -92,7 +92,6 @@ const CoursePage = ({ subject, course }: CoursePageProps) => {
 
   const descriptionList = descriptionToList(course.description ?? "");
   const showDescription = descriptionList.length > 0;
-  console.log(descriptionList);
 
   return (
     <>

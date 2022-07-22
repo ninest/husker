@@ -13,7 +13,7 @@ export const NoFavorites = () => (
     <ul>
       <li>
         On mobile, open the menu by pressing the{" "}
-        <Icon id="griplines" className="inline border rounded-sm p-0.5" />{" "}
+        <Icon id="griplines" className="inline border dark:border-gray-darker rounded-sm p-0.5" />{" "}
         button on the top right, then find the{" "}
         <Icon id="cog" className="inline" /> button on the bottom.
       </li>

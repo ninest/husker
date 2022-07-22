@@ -67,7 +67,6 @@ export const useFavorites = () => {
   const { settings, mergeSettings } = useSettings();
 
   const setFavoritesEnabled = (favoritesEnabled: boolean) => {
-    console.log("Setting favs enavled: ", favoritesEnabled);
     mergeSettings({ favoritesEnabled });
   };
 

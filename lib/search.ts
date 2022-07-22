@@ -73,9 +73,6 @@ export function search(keyword: string) {
 
   let courseResults: LinkWithCategory[] = [];
 
-  console.log(keyword);
-  console.log(isCourse(keyword));
-
   if (isCourse(keyword)) {
     const courses = courseMS.search(keyword);
     courseResults = courses.map(
