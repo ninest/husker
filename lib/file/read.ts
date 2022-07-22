@@ -4,6 +4,8 @@ import { fileExists } from "./exists";
 
 const root = process.cwd();
 
+// TODO: generic typings
+
 export function readFile(filepath: string) {
   if (fileExists(filepath)) {
     return fs.readFileSync(path.join(root, "content", `${filepath}`), "utf8");

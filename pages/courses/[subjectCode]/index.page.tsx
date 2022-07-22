@@ -1,6 +1,12 @@
 import { ArticleHead } from "@/components/ArticleHead";
+import { Block } from "@/components/Block";
+import { Debug } from "@/components/util/Debug";
+import { Grid } from "@/components/util/Grid";
+import { readFile } from "@/lib/file/read";
+import { Course, Subject } from "@/types/courses";
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from "next";
 import { NextSeo } from "next-seo";
+import subjects from "../../../.raw/subjects.json";
 
 interface Path {
   params: {
@@ -9,7 +15,9 @@ interface Path {
 }
 
 export const getStaticPaths: GetStaticPaths = async (context) => {
-  const paths: Path[] = [];
+  const paths: Path[] = subjects.map((subject) => ({
+    params: { subjectCode: subject.code },
+  }));
 
   return {
     paths,
@@ -18,17 +26,26 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  let { subjectCode } = params! as { subjectCode: string };
+  const { subjectCode } = params! as { subjectCode: string };
+
+  const subject = subjects.find((subject) => subject.code === subjectCode);
+  // const courses: Course[] = await import(`.raw/courses/${subjectCode}.json`);
+  const courses: Course[] = JSON.parse(
+    readFile(`../.raw/courses/${subjectCode}.json`)
+  );
 
   return {
-    props: {},
+    props: { subject, courses },
     revalidate: 100,
   };
 };
 
-const SubjectPage = ({
-  subject,
-}: InferGetStaticPropsType<typeof getStaticProps>) => {
+interface SubjectPageProps {
+  subject: Subject;
+  courses: Course[];
+}
+
+const SubjectPage = ({ subject, courses }: SubjectPageProps) => {
   return (
     <>
       <NextSeo
@@ -42,20 +59,20 @@ const SubjectPage = ({
         title={subject.description}
       />
 
-      {/* <div className="wrapper">
+      <div className="wrapper">
         <Grid className="md:grid-cols-2">
           {courses.map((course: Course) => (
             <Block
-              key={course.courseNumber}
-              id={course.courseNumber}
-              title={`${subject.code} ${course.courseNumber}`}
+              key={course.number}
+              id={course.number}
+              title={`${subject.code} ${course.number}`}
             >
-              {course.courseTitle}
+              {course.title}
             </Block>
           ))}
         </Grid>
         <Debug data={courses} />
-      </div> */}
+      </div>
     </>
   );
 };
