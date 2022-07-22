@@ -16,6 +16,7 @@ import { LinkButtonGrid } from "@/components/link/LinkButton";
 import { LinkSet } from "@/components/link/LinkSet";
 import { MarkdocDiv } from "@/components/markdoc/MarkdocDiv";
 import { MarkdocImage } from "@/components/markdoc/MarkdocImage";
+import { MutedButton } from "@/components/MutedButton";
 import { SmartLink } from "@/components/SmartLink";
 import { Title } from "@/components/Title";
 import { Debug } from "@/components/util/Debug";
@@ -175,9 +176,9 @@ const ContentPage = ({
 
         {content && <div className="prose">{renderedContent}</div>}
 
-        <Spacer size="2xl"></Spacer>
-        <div className="flex items-center space-x-base">
-          <Button
+        <Spacer size="xl"></Spacer>
+        <div className="flex flex-col items-start justify-center space-y-xs md:space-y-sm">
+          <MutedButton
             href={{
               pathname: "/contribute",
               query: { name: frontmatter.title },
@@ -186,8 +187,8 @@ const ContentPage = ({
             size="sm"
           >
             Edit
-          </Button>
-          <Button
+          </MutedButton>
+          <MutedButton
             href={{
               pathname: "/contribute",
               query: { name: frontmatter.title, fixLinks: true },
@@ -196,7 +197,7 @@ const ContentPage = ({
             size="sm"
           >
             Links broken?
-          </Button>
+          </MutedButton>
         </div>
       </div>
     </>
