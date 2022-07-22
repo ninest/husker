@@ -32,20 +32,6 @@
       @apply text-xl font-medium;
     }
 
-    /* Style all link anchors */
-    h2 a::before,
-    h3 a::before,
-    h4 a::before {
-      content: "#";
-      @apply opacity-0 md:opacity-5;
-    }
-    h2 a,
-    h3 a,
-    h4 a {
-      /* w-4/6 to allow clicking on the title to navigate to the hashed link */
-      @apply absolute -mx-sm w-3/6;
-    }
-
     .expandable {
       h3 {
         @apply text-lg font-semibold;

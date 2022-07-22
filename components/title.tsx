@@ -30,10 +30,16 @@ export const Title = ({
   // https://stackoverflow.com/a/59685929/8677167
   const HeadingTag = `h${level}` as keyof JSX.IntrinsicElements;
 
-  const headingElement = (
+  const slug =
+    typeof children === "string"
+      ? slugify(children)
+      : // TODO: fix, get inner text of children
+        slugify(children?.toString() ?? "");
+
+  return (
     <HeadingTag
       className={clsx(
-        "font-display leading-relaxed tracking-normal",
+        "font-display tracking-normal",
         weightClassName,
         { "text-dark": !isDarkTheme, "text-gray-dark": isDarkTheme },
         {
@@ -44,22 +50,14 @@ export const Title = ({
         },
         props.className
       )}
+      href="/"
     >
       {children}
+      {hash && (
+        <a href={`#${slug}`} className="text-gray-100 hover:text-gray-200">
+          {" #"}
+        </a>
+      )}
     </HeadingTag>
-  );
-
-  const slug =
-    typeof children === "string"
-      ? slugify(children)
-      : // TODO: fix, get inner text of children
-        slugify(children?.toString() ?? "");
-
-  return hash ? (
-    <a id={slug} href={`#${slug}`} className="block">
-      {headingElement}
-    </a>
-  ) : (
-    headingElement
   );
 };
