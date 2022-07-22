@@ -68,7 +68,7 @@ import {
 } from "react-icons/fa";
 
 export interface IconProps extends HTMLAttributes<HTMLDivElement> {
-  id?: IconId;
+  id?: string;
 }
 
 export const Icon = ({ id = "filealt", ...props }: IconProps) => {

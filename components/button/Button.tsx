@@ -6,7 +6,7 @@ import { HTMLAttributes, ReactNode } from "react";
 import { Icon } from "@/components/Icon";
 import { SmartLink, SmartLinkProps } from "@/components/SmartLink";
 
-interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
   icon?: IconId;
   href?: SmartLinkProps["href"];
   size?: Size;

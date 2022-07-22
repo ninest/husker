@@ -1,4 +1,5 @@
 import { ArticleHead } from "@/components/ArticleHead";
+import { MenuDropdown } from "@/components/button/MenuButton";
 import { Debug } from "@/components/util/Debug";
 import { readFile } from "@/lib/file/read";
 import { Course, Subject } from "@/types/courses";
@@ -82,9 +83,27 @@ const CoursePage = ({ subject, course }: CoursePageProps) => {
 
       <div className="wrapper">
         <section className="flex flex-col space-y-md">
-          <p className="text-gray font-bold">
-            {course.scheduleType} - {creditsDisplay}
-          </p>
+          <div className="flex items-center justify-between">
+            <p className="text-gray font-bold">
+              {course.scheduleType} - {creditsDisplay}
+            </p>
+            <div className="flex">
+              <MenuDropdown
+                title="Open with"
+                options={[
+                  {
+                    icon: "reddit",
+                    text: "Reddit",
+                    href: `https://www.google.com/search?q=site%3Areddit.com%2Fr%2Fneu+${shortName}`,
+                  },
+                  {
+                    text: "SearchNEU",
+                    href: `https://searchneu.com/NEU/202310/search/${shortName}`,
+                  },
+                ]}
+              />
+            </div>
+          </div>
           <p className="text-gray">{course.description}</p>
         </section>
 
