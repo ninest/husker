@@ -26,10 +26,9 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const { subjectCode } = params! as { subjectCode: string };
+  const { subjectCode } = params! as Path["params"];
 
   const subject = subjects.find((subject) => subject.code === subjectCode);
-  // const courses: Course[] = await import(`.raw/courses/${subjectCode}.json`);
   const courses: Course[] = JSON.parse(
     readFile(`../.raw/courses/${subjectCode}.json`)
   );
@@ -66,6 +65,7 @@ const SubjectPage = ({ subject, courses }: SubjectPageProps) => {
               key={course.number}
               id={course.number}
               title={`${subject.code} ${course.number}`}
+              href={`/courses/${subject.code}/${course.number}`}
             >
               {course.title}
             </Block>
