@@ -70,6 +70,18 @@ const CoursePage = ({ subject, course }: CoursePageProps) => {
     course.credits > 1 ? "s" : ""
   }`;
 
+  const addOptions = [
+    {
+      icon: "reddit",
+      text: "Reddit",
+      href: `https://www.google.com/search?q=site%3Areddit.com%2Fr%2Fneu+${shortName}`,
+    },
+    {
+      text: "SearchNEU",
+      href: `https://searchneu.com/NEU/202310/search/${shortName}`,
+    },
+  ];
+
   return (
     <>
       <NextSeo
@@ -91,9 +103,22 @@ const CoursePage = ({ subject, course }: CoursePageProps) => {
             </p>
 
             <div className="flex items-center space-x-base">
-              <div>
-                <Button variant="primary" icon="plus" size="sm" className="w-10">
-                </Button>
+              <div className="hidden md:block">
+                <MenuDropdown
+                  title="Add"
+                  variant="primary"
+                  iconLeft="plus"
+                  options={addOptions}
+                />
+              </div>
+              <div className="md:hidden">
+                <MenuDropdown
+                  buttonClassName="w-10"
+                  variant="primary"
+                  iconLeft="plus"
+                  iconRight={null}
+                  options={addOptions}
+                />
               </div>
 
               <MenuDropdown

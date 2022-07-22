@@ -1,5 +1,6 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
-const { colors } = defaultTheme;
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   important: true,
   content: [
@@ -8,8 +9,7 @@ module.exports = {
     "./layouts/**/*.{js,ts,jsx,tsx}",
     "./content/**/*.md",
   ],
-  // darkMode: ["class", '[data-theme="dark"]'],
-  darkMode: 'class',
+  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
@@ -29,54 +29,38 @@ module.exports = {
       colors: {
         transparent: "transparent",
         current: "currentColor",
-        light: "var(--light)",
-        dark: "var(--dark)",
+        light: "#fefefe",
+        dark: "#010101",
         gray: {
-          50: "var(--gray-50)",
-          100: "var(--gray-100)",
-
-          lightest: "var(--gray-200)",
-          200: "var(--gray-200)",
-
-          lighter: "var(--gray-300)",
-          300: "var(--gray-300)",
-
-          light: "var(--gray-400)",
-          400: "var(--gray-400)",
-
-          DEFAULT: "var(--gray-500)",
-          500: "var(--gray-500)",
-
-          dark: "var(--gray-600)",
-          600: "var(--gray-600)",
-
-          darker: "var(--gray-700)",
-          700: "var(--gray-700)",
-
-          800: "var(--gray-800)",
-          900: "var(--gray-900)",
+          ...colors.gray,
+          lightest: colors.gray[200],
+          lighter: colors.gray[300],
+          light: colors.gray[400],
+          DEFAULT: colors.gray[500],
+          dark: colors.gray[600],
+          darker: colors.gray[700],
+          darkest: colors.gray[800],
         },
         primary: {
-          50: "var(--indigo-50)",
-          lightest: "var(--indigo-100)",
-          lighter: "var(--indigo-200)",
-          light: "var(--indigo-400)",
-          DEFAULT: "var(--indigo-600)",
-          dark: "var(--indigo-700)",
-          darker: "var(--indigo-800)",
-          darkest: "var(--indigo-900)",
+          lightest: colors.indigo[100],
+          lighter: colors.indigo[200],
+          light: colors.indigo[400],
+          DEFAULT: colors.indigo[600],
+          dark: colors.indigo[700],
+          darker: colors.indigo[800],
+          darkest: colors.indigo[900],
         },
         error: {
-          light: "var(--red-300)",
-          DEFAULT: "var(--red-500)",
-          dark: "var(--red-700)",
+          light: colors.red[300],
+          DEFAULT: colors.red[500],
+          dark: colors.red[700],
         },
         warning: {
-          lightest: "var(--orange-100)",
-          lighter: "var(--orange-200)",
-          light: "var(--orange-300)",
-          DEFAULT: "var(--orange-500)",
-          dark: "var(--orange-700)",
+          lightest: colors.orange[100],
+          lighter: colors.orange[200],
+          light: colors.orange[300],
+          DEFAULT: colors.orange[500],
+          dark: colors.orange[700],
         },
       },
     },

@@ -47,7 +47,7 @@ class MyDocument extends Document {
           />
         </Head>
 
-        <body className="bg-light">
+        <body className="bg-light text-gray dark:bg-dark">
           {/* Blocking script */}
           <script
             dangerouslySetInnerHTML={{

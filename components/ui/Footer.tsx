@@ -33,7 +33,7 @@ export const Footer = () => {
           <SmartLink
             href={link.href}
             key={link.href}
-            className="text-sm flex items-center space-x-base -m-xs p-xs hover:bg-gray-50 rounded"
+            className="text-sm flex items-center space-x-base -m-xs p-xs hover:bg-gray-50 dark:hover:bg-gray-900 rounded"
           >
             <Icon id={link.icon as IconId} />
             <div className="text-gray font-semibold text-sm">{link.title}</div>

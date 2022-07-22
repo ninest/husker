@@ -20,16 +20,14 @@ export const Expandable = ({
   open = false,
   children,
 }: ExpandableProps) => {
-  const { isLightTheme, isDarkTheme } = useTheme();
   return (
     <div
       className={clsx(
         "expandable transition-colors",
         {
-          "bg-primary-lightest": variant == "primary",
-          "bg-gray-100": variant == "gray" && isLightTheme,
-          "bg-gray-50": variant == "gray" && isDarkTheme,
-          "bg-error-light": variant == "error"
+          "bg-primary-lightest dark:bg-primary-darkest": variant == "primary",
+          "bg-gray-100 dark:bg-gray-900": variant == "gray",
+          "bg-error-light": variant == "error",
         },
         "rounded-md"
       )}
@@ -39,28 +37,24 @@ export const Expandable = ({
           <>
             <Disclosure.Button
               className={clsx(
-                "flex justify-between items-center w-full p-base font-semibold text-gray-darkest rounded-lg transition-colors",
+                "flex justify-between items-center w-full p-base font-semibold  rounded-lg transition-colors",
                 {
-                  "hover:bg-primary-lighter": variant == "primary",
-                  "hover:bg-gray-200": variant == "gray" && isLightTheme,
-                  "hover:bg-gray-100": variant == "gray" && isDarkTheme,
+                  "hover:bg-primary-lighter dark:hover:bg-primary-darker": variant == "primary",
+                  "hover:bg-gray-200 dark:hover:bg-gray-800": variant == "gray",
                 }
               )}
             >
               <div className="flex items-center">
                 <Icon
                   id={icon}
-                  className={clsx("mr-base flex-none", {
-                    "text-gray-darker": open,
-                    "text-gray-dark": !open,
-                  })}
+                  className={clsx(
+                    "mr-base flex-none",
+                    "text-gray-darkest dark:text-gray-light"
+                  )}
                 ></Icon>
                 <div
                   className={clsx(
-                    {
-                      "text-gray-darker": open,
-                      "text-gray-dark": !open,
-                    },
+                    "text-gray-darkest dark:text-gray-light",
                     // Prevent text from being centered
                     "text-left"
                   )}

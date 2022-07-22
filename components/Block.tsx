@@ -11,16 +11,20 @@ interface BlockProps extends HTMLAttributes<HTMLDivElement> {
 
 export const Block = ({ title, children, href, ...props }: BlockProps) => {
   const isClickable = !!href;
-  const className = clsx(props.className, "block p-base rounded bg-gray-50", {
-    "hover:bg-gray-100": isClickable,
-  });
+  const className = clsx(
+    props.className,
+    "block p-base rounded transition-colors bg-gray-50 dark:bg-gray-900",
+    {
+      "hover:bg-gray-100 dark:hover:bg-gray-800": isClickable,
+    }
+  );
   const content = (
     <>
       <div className="font-semibold text-sm text-gray">{title}</div>
       {children && (
         <>
           <Spacer size="xs"></Spacer>
-          <div className="text-xs text-gray-light">{children}</div>
+          <div className="text-xs text-gray-light dark:text-gray-dark">{children}</div>
         </>
       )}
     </>

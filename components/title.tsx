@@ -25,8 +25,6 @@ export const Title = ({
   hash = false,
   ...props
 }: TitleProps) => {
-  const { isDarkTheme } = useTheme();
-
   // https://stackoverflow.com/a/59685929/8677167
   const HeadingTag = `h${level}` as keyof JSX.IntrinsicElements;
 
@@ -40,8 +38,8 @@ export const Title = ({
     <HeadingTag
       className={clsx(
         "font-display tracking-normal",
+        "text-dark dark:text-gray-lighter",
         weightClassName,
-        { "text-dark": !isDarkTheme, "text-gray-dark": isDarkTheme },
         {
           "text-4xl": level == 1,
           "text-3xl": level == 2,
@@ -54,7 +52,10 @@ export const Title = ({
     >
       {children}
       {hash && (
-        <a href={`#${slug}`} className="text-gray-100 hover:text-gray-200">
+        <a
+          href={`#${slug}`}
+          className="text-gray-100 hover:text-gray-200 dark:text-gray-900 dark:hover:text-gray-darkest"
+        >
           {" #"}
         </a>
       )}

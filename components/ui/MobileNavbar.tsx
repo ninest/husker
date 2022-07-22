@@ -9,17 +9,17 @@ interface MobileNavbarProps {
 }
 export const MobileNavbar = ({ onMenuClick }: MobileNavbarProps) => {
   return (
-    <header className="bg-light px-md py-base border-b flex items-center justify-between">
+    <header className="bg-light dark:bg-dark px-md py-base border-b dark:border-gray-900 flex items-center justify-between">
       <div className="flex items-center">
         <button
-          className="text-gray border p-2 rounded mr-base"
+          className="text-gray border dark:border-gray-800 p-2 rounded mr-base"
           onClick={onMenuClick}
         >
           <Icon id="griplines"></Icon>
         </button>
         <SmartLink
           href="/"
-          className="font-display font-black text-lg text-dark"
+          className="font-display font-black text-lg text-dark dark:text-light"
         >
           Husker
         </SmartLink>
@@ -32,7 +32,7 @@ export const MobileNavbar = ({ onMenuClick }: MobileNavbarProps) => {
               <SmartLink
                 key={link.href}
                 href={link.href}
-                className="text-gray border border p-2 rounded-md"
+                className="text-gray border dark:border-gray-800 p-2 rounded-md"
               >
                 <Icon id={link.icon as IconId} />
               </SmartLink>
@@ -41,7 +41,7 @@ export const MobileNavbar = ({ onMenuClick }: MobileNavbarProps) => {
         </div>
 
         <button
-          className="text-gray border p-2 rounded-full"
+          className="text-gray border dark:border-gray-800 p-2 rounded-full"
           onClick={onMenuClick}
         >
           <Icon id="search"></Icon>

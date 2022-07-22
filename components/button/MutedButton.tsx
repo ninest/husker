@@ -25,11 +25,9 @@ export const MutedButton = ({
   disabled = false,
   ...props
 }: MutedButtonProps) => {
-  const { isLightTheme, isDarkTheme } = useTheme();
-
   const className = clsx(
     props.className,
-    "rounded-md font-semibold text-gray-light -m-xs p-xs hover:bg-gray-50 hover:underline",
+    "rounded-md font-semibold text-gray-light -m-xs p-xs hover:bg-gray-50 dark:hover:bg-gray-900 hover:underline",
     {
       "text-sm": size === "sm" || size === "xs",
       "text-base ": size === "base",

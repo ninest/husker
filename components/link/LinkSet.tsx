@@ -4,6 +4,8 @@ import { Link } from "@/types/category";
 import { Icon } from "../Icon";
 import { LinkButtonGrid } from "./LinkButton";
 import { Spacer } from "../util/Spacer";
+import { Divider } from "../Divider";
+import { Button } from "../button/Button";
 
 interface LinkSetProps {
   title?: string;
@@ -34,7 +36,8 @@ export const LinkSet = ({
             <Title level={3} weightClassName="font-black">
               {title}
             </Title>
-            <div className="flex items-end p-xs rounded hover:bg-gray-100">
+
+            <div className="flex items-end p-xs rounded hover:bg-gray-100 dark:hover:bg-gray-900">
               <div className="text-gray text-sm mr-xs">more</div>
               <Icon id="caretright" className="text-lg"></Icon>
             </div>
@@ -49,7 +52,7 @@ export const LinkSet = ({
       {showFull && pages && pages.length > 0 && (
         <>
           <Spacer size="lg"></Spacer>
-          <hr />
+          <Divider />
           <Spacer size="lg"></Spacer>
           <LinkButtonGrid links={pages} showDescription={showFull} />
         </>

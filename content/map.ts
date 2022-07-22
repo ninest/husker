@@ -58,7 +58,7 @@ export const contentMap: Category[] = [
         name: "Registrar Self Service",
         href: "https://nubanner.neu.edu/ssomanager/c/SSB?pkg=twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu",
         description:
-          "Registration, student records, account, patterns of attendance",
+          "Registration, student info, attendance",
         icon: "receipt",
       },
       {

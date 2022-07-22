@@ -3,7 +3,7 @@ import { Icon } from "../Icon";
 ;
 
 export const NoFavorites = () => (
-  <div className="prose border-2 border-dashed rounded-md text-gray text-sm p-base">
+  <div className="prose border-2 border-dashed dark:border-gray-darkest rounded-md text-gray text-sm p-base">
     <p className="font-bold">
       You haven't added any favorites yet! To add favorites, right click a link
       (or long press on mobile) and click "Add to favorites".

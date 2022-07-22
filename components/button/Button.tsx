@@ -7,7 +7,8 @@ import { Icon } from "@/components/Icon";
 import { SmartLink, SmartLinkProps } from "@/components/SmartLink";
 
 export interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
-  icon?: IconId;
+  iconLeft?: string | null;
+  iconRight?: string | null;
   href?: SmartLinkProps["href"];
   size?: Size;
   variant?: "primary" | "gray";
@@ -18,7 +19,8 @@ export interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
 }
 
 export const Button = ({
-  icon,
+  iconLeft,
+  iconRight,
   size = "base",
   variant = "gray",
   href,
@@ -27,38 +29,29 @@ export const Button = ({
   disabled = false,
   ...props
 }: ButtonProps) => {
-  const { isLightTheme, isDarkTheme } = useTheme();
-
   const className = clsx(
     props.className,
     "rounded-md font-semibold",
-    // {
-    //   "text-gray bg-gray-100 hover:bg-gray-200":
-    //     isLightTheme && variant === "gray",
-    //   "text-gray bg-gray-50 hover:bg-gray-100":
-    //     isDarkTheme && variant === "gray",
+    {
+      "text-gray bg-gray-100 hover:bg-gray-200 dark:bg-gray-900 dark:hover:bg-gray-darker":
+        variant === "gray",
 
-    //   // "text-gray-200 bg-primary hover:bg-primary-light dark:text-red-500": variant === "primary",
-    //   "text-gray-200 bg-primary hover:bg-primary-light":
-    //     isLightTheme && variant === "primary",
-    //   "text-gray-500 bg-primary-50 hover:bg-primary-100":
-    //     isDarkTheme && variant === "primary",
-    // },
-    // {
-    //   "text-sm p-xs h-8": size === "xs",
-    //   "text-sm p-sm h-10": size === "sm",
-    //   "text-base p-base h-12": size === "base",
-    //   "text-lg p-lg h-14": size === "lg",
-    // },
-    "flex items-center justify-center"
+      "text-gray-200 bg-primary hover:bg-primary-light": variant === "primary",
+    },
+    {
+      "text-sm p-xs h-8": size === "xs",
+      "text-sm p-sm h-10": size === "sm",
+      "text-base p-base h-12": size === "base",
+      "text-lg p-lg h-14": size === "lg",
+    },
+    "flex items-center justify-center space-x-base"
   );
 
   const Element = (
     <>
-      {icon ? (
-        <Icon id={icon} className={clsx({ "mr-base": children })} />
-      ) : null}
+      {iconLeft && <Icon id={iconLeft} className="text-current" />}
       {children && <div>{children}</div>}
+      {iconRight && <Icon id={iconRight} className="text-current" />}
     </>
   );
 

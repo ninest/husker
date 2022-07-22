@@ -1,3 +1,4 @@
+import { Divider } from "@/components/Divider";
 import { Footer } from "@/components/ui/Footer";
 import { MobileNavbar } from "@/components/ui/MobileNavbar";
 import { Sidebar } from "@/components/ui/Sidebar";
@@ -70,7 +71,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             <Component {...pageProps} />
           </div>
           <Spacer size="md"></Spacer>
-          <hr />
+          <Divider />
 
           <Footer></Footer>
         </div>

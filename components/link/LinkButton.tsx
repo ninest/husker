@@ -1,4 +1,3 @@
-;
 import { SmartLink } from "@/components/SmartLink";
 import { Spacer } from "@/components/util/Spacer";
 import { useFavorites, useTheme } from "@/hooks/settings";
@@ -23,7 +22,6 @@ export const LinkButton = ({
   showDescription = false,
 }: LinkButtonProps) => {
   const { addFavorite, isFavorited, removeFavorite } = useFavorites();
-  const { isLightTheme, isDarkTheme } = useTheme();
 
   const contextMenuActions = [
     {
@@ -73,8 +71,8 @@ export const LinkButton = ({
   return (
     <div
       className={clsx("rounded-md transition-colors", {
-        "bg-gray-100 hover:bg-gray-200": variant == "default" && isLightTheme,
-        "bg-gray-50 hover:bg-gray-100": variant == "default" && isDarkTheme,
+        ["bg-gray-50 hover:bg-gray-100 border border-gray-50 dark:border-gray-800 dark:bg-gray-900 dark:hover:bg-gray-800 dark:shadow"]:
+          variant == "default",
         "bg-gradient-to-r from-warning-lightest to-warning-lighter":
           variant == "warning",
       })}
@@ -93,7 +91,7 @@ export const LinkButton = ({
               {showDescription && (
                 <>
                   <Spacer size="xs"></Spacer>
-                  <div className="text-gray-light font-normal text-xs">
+                  <div className="text-gray-light dark:text-gray-dark font-normal text-xs">
                     {link.description}
                   </div>
                 </>
@@ -102,18 +100,18 @@ export const LinkButton = ({
           </SmartLink>
 
           {/* Context menu content */}
-          <ContextMenu.Content className="text-xs font-medium w-48 p-xs md:p-1 bg-gray-100 border shadow rounded-md space-y-1">
+          <ContextMenu.Content className="text-xs font-medium w-48 p-xs md:p-1 bg-gray-100 dark:bg-gray-900 border dark:border-gray-darkest shadow rounded-md space-y-1">
             {contextMenuActions.map((item, index) => (
               <div key={index}>
                 {item.separator ? (
                   <div>
-                    <ContextMenu.Separator className="border-t my-0.5" />
+                    <ContextMenu.Separator className="border-t dark:border-gray-darkest my-0.5" />
                   </div>
                 ) : (
                   <div>
                     <ContextMenu.Item
                       onClick={item.action}
-                      className="py-xs px-sm md:py-1 md:px-xs rounded text-gray hover:bg-primary-50"
+                      className="py-sm px-sm md:py-1 md:px-xs rounded text-gray hover:bg-primary-lightest dark:hover:bg-primary-darker"
                     >
                       {item.label}
                     </ContextMenu.Item>

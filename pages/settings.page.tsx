@@ -139,7 +139,7 @@ const SettingsPage = () => {
               {fields.map((field, index) => (
                 <div
                   key={field.id}
-                  className="p-base rounded-md border space-y-base"
+                  className="p-base rounded-md border dark:border-gray-800 space-y-base"
                 >
                   <div className="flex flex-col md:flex-row md:items-center space-y-base md:space-x-base md:space-y-0">
                     <FormSelect
@@ -172,20 +172,20 @@ const SettingsPage = () => {
                   <div className="flex justify-end items-center space-x-base">
                     <Button
                       size="sm"
-                      icon="trash"
+                      iconLeft="trash"
                       onClick={() => remove(index)}
                     />
                     {index !== 0 && (
                       <Button
                         size="sm"
-                        icon="caretup"
+                        iconLeft="caretup"
                         onClick={() => swap(index, index - 1)}
                       />
                     )}
                     {index !== fields.length - 1 && (
                       <Button
                         size="sm"
-                        icon="caretdown"
+                        iconLeft="caretdown"
                         onClick={() => swap(index, index + 1)}
                       />
                     )}
@@ -196,7 +196,7 @@ const SettingsPage = () => {
               <div className="flex">
                 <Button
                   size="sm"
-                  icon="plus"
+                  iconLeft="plus"
                   onClick={() =>
                     append({
                       name: "",

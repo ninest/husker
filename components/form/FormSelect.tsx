@@ -73,7 +73,7 @@ export const FormSelect = ({
           className={clsx(
             dropdownClassName,
             className,
-            "z-50 absolute mt-xs rounded-md p-xs shadow bg-light border border-gray-100",
+            "z-50 absolute mt-xs rounded-md p-xs shadow bg-light dark:bg-dark border border-gray-100 dark:border-gray-900",
             "max-h-96 overflow-y-scroll"
           )}
         >
@@ -83,7 +83,7 @@ export const FormSelect = ({
               <Listbox.Option
                 key={option.value}
                 value={option.value}
-                className="px-xs py-sm md:py-xs rounded hover:bg-gray-100 text-sm text-gray flex items-center"
+                className="px-xs py-sm md:py-xs rounded hover:bg-gray-100 dark:hover:bg-gray-900 text-sm text-gray flex items-center"
               >
                 {option.icon && (
                   <div className="mr-base">

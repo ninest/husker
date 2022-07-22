@@ -7,7 +7,6 @@ import clsx from "clsx";
 import { useState } from "react";
 import { Icon } from "./Icon";
 
-
 interface ContactDetailProps {
   contact: Contact;
 }
@@ -20,8 +19,8 @@ export const ContactDetail = ({ contact }: ContactDetailProps) => {
       <Disclosure>
         {({ open }) => (
           <>
-            <div className="bg-gray-50 rounded-md">
-              <Disclosure.Button className="p-md w-full hover:bg-gray-100 rounded-md">
+            <div className="bg-gray-50 dark:bg-gray-900 rounded-md">
+              <Disclosure.Button className="p-md w-full hover:bg-gray-100 dark:hover:bg-gray-darkest rounded-md">
                 <div className="flex items-center justify-between">
                   <div className="text-left font-semibold text-lg text-gray-dark">
                     {contact.name}

@@ -6,6 +6,7 @@ import { useSecretSettings, useTheme } from "@/hooks/settings";
 import { IconId } from "@/types/icon";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import { Divider } from "../Divider";
 import { Icon } from "../Icon";
 import { ClientOnly } from "../util/ClientOnly";
 import { Spacer } from "../util/Spacer";
@@ -37,12 +38,12 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
   }, [settingsClicked]);
 
   return (
-    <aside className="bg-light md:w-72 lg:w-80 h-screen overflow-y-scroll sticky z-50 top-0 left-0 bottom-0 border-r">
+    <aside className="md:w-72 lg:w-80 h-screen overflow-y-scroll sticky z-50 top-0 left-0 bottom-0 border-r dark:border-gray-darkest">
       {/* Close button for mobile only */}
       <div className="flex items-center pt-base px-md">
         <button
           onClick={onCloseClick}
-          className="block md:hidden mr-base border p-2 rounded"
+          className="block md:hidden mr-base border dark:border-gray-darkest p-2 rounded"
         >
           <Icon id="x"></Icon>
         </button>
@@ -51,7 +52,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
           className="font-display font-black flex items-baseline space-x-1"
           suppressHydrationWarning
         >
-          <div className="text-lg text-dark">Husker</div>
+          <div className="text-lg text-dark dark:text-light">Husker</div>
           <ClientOnly>
             {secretSettings?.augmentedTitle && (
               <div className="text-gray text-lg">
@@ -65,7 +66,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
       <Spacer></Spacer>
       <Search></Search>
       <Spacer size="md"></Spacer>
-      <hr />
+      <Divider />
       <Spacer size="md"></Spacer>
 
       {/* Quick access highlight links */}
@@ -85,7 +86,9 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
       </div>
 
       <Spacer size="md"></Spacer>
-      <hr />
+
+      <Divider />
+
       <Spacer size="md"></Spacer>
 
       <nav className="px-md text-sm flex flex-col space-y-base">
@@ -99,7 +102,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
       </nav>
 
       <Spacer size="md"></Spacer>
-      <hr />
+      <Divider />
       <Spacer size="md"></Spacer>
 
       <div className="px-md text-sm flex flex-col space-y-base">
@@ -119,13 +122,13 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
       <Spacer size="3xl"></Spacer>
       <Spacer size="3xl"></Spacer>
 
-      <section className="fixed bottom-0 left-0 w-full md:w-72 lg:w-80 bg-light border-r">
-        <hr />
+      <section className="fixed bottom-0 left-0 w-full md:w-72 lg:w-80 ">
+        <Divider />
 
         <div className="p-md flex justify-between items-center">
           <button
             onClick={toggleTheme}
-            className="text-sm flex items-center space-x-base -m-sm p-sm hover:bg-gray-50 rounded"
+            className=" rounded text-sm flex items-center space-x-base -m-sm p-sm hover:bg-gray-50 dark:hover:bg-gray-900"
           >
             <Icon id={isLightTheme ? "regmoon" : "regsun"} />
             <div className="font-semibold text-gray">
@@ -135,7 +138,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
 
           <SmartLink
             href="/settings"
-            className="text-sm -m-sm p-sm hover:bg-gray-50 rounded"
+            className="text-sm -m-sm p-sm hover:bg-gray-50 dark:hover:bg-gray-900 rounded"
             onClick={() => setSettingsClicked(settingsClicked + 1)}
           >
             <Icon id="cog" />
@@ -155,8 +158,8 @@ const SidebarLink = ({ href, title }: SidebarLinkProps) => {
   return (
     <SmartLink
       href={href}
-      className="block font-semibold text-gray-dark -m-xs p-xs hover:bg-gray-50 rounded"
-      activeClassName="bg-gray-100"
+      className="block rounded font-semibold text-gray-dark dark:text-gray-light -m-xs p-xs hover:bg-gray-100 dark:hover:bg-gray-900"
+      activeClassName="bg-gray-100 dark:bg-gray-800"
     >
       {title}
     </SmartLink>
