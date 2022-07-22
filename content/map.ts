@@ -105,6 +105,12 @@ export const contentMap: Category[] = [
     slug: "courses",
     links: [
       {
+        name: "All Courses",
+        href: "/courses/all",
+        description: "List of all subjects and courses",
+        icon: "book",
+      },
+      {
         name: "Registration",
         href: "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/classRegistration/classRegistration",
         description: "Course registration on Banner",
