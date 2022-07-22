@@ -1,10 +1,8 @@
-import { useTheme } from "@/hooks/settings";
-import { IconId } from "@/types/icon";
+import { Icon } from "@/components/Icon";
+import { SmartLink, SmartLinkProps } from "@/components/SmartLink";
 import { Size } from "@/types/size";
 import clsx from "clsx";
 import { HTMLAttributes, ReactNode } from "react";
-import { Icon } from "@/components/Icon";
-import { SmartLink, SmartLinkProps } from "@/components/SmartLink";
 
 export interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
   iconLeft?: string | null;
@@ -31,11 +29,10 @@ export const Button = ({
 }: ButtonProps) => {
   const className = clsx(
     props.className,
-    "rounded-md font-semibold",
+    "rounded-md font-semibold whitespace-nowrap",
     {
       "text-gray bg-gray-100 hover:bg-gray-200 dark:bg-gray-900 dark:hover:bg-gray-darker":
         variant === "gray",
-
       "text-gray-200 bg-primary hover:bg-primary-light": variant === "primary",
     },
     {

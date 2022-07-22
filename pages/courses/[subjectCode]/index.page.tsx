@@ -57,8 +57,8 @@ const SubjectPage = ({ subject, courses }: SubjectPageProps) => {
       />
 
       <ArticleHead
-        backButtonHref={`/courses/`}
-        backButtonText={"Courses"}
+        backButtonHref={`/courses/all`}
+        backButtonText={"Subjects"}
         title={subject.description}
       />
 
