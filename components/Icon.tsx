@@ -12,6 +12,8 @@ import {
   FaCaretRight,
   FaCaretUp,
   FaChalkboard,
+  FaCheck,
+  FaCheckCircle,
   FaChevronLeft,
   FaCog,
   FaDiscord,
@@ -207,6 +209,10 @@ export const Icon = ({ id = "filealt", ...props }: IconProps) => {
       return <FaTrash className={className} />;
     case "chevronright":
       return <FaChevronLeft className={className} />;
+    case "check":
+      return <FaCheck className={className} />;
+    case "checkcircle":
+      return <FaCheckCircle className={className} />;
     default:
       return <FaRegFileAlt className={className} />;
   }

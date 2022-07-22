@@ -1,5 +1,6 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { MenuDropdown } from "@/components/button/MenuButton";
+import { NUPathDisplay } from "@/components/NUPathDisplay";
 import { Debug } from "@/components/util/Debug";
 import { readFile } from "@/lib/file/read";
 import { Course, Subject } from "@/types/courses";
@@ -104,6 +105,9 @@ const CoursePage = ({ subject, course }: CoursePageProps) => {
               />
             </div>
           </div>
+
+          <NUPathDisplay path={course.nuPath} />
+
           <p className="text-gray">{course.description}</p>
         </section>
 

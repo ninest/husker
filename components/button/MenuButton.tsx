@@ -2,7 +2,7 @@ import { IconId } from "@/types/icon";
 import { Menu } from "@headlessui/react";
 import { Icon } from "../Icon";
 import { SmartLink } from "../SmartLink";
-import { Button, ButtonProps } from "./Button";
+import { ClientOnly } from "../util/ClientOnly";
 
 interface MenuDropdownProps {
   title: string;
@@ -10,7 +10,8 @@ interface MenuDropdownProps {
 }
 
 export const MenuDropdown = ({ title, options }: MenuDropdownProps) => {
-  return (
+  // TODO: Menu seems to be undefined on page load
+  return Menu ? (
     <div className="relative">
       <Menu>
         <Menu.Button className="flex items-center justify-center space-x-base bg-gray-100 rounded-md p-sm text-sm text-gray">
@@ -19,11 +20,13 @@ export const MenuDropdown = ({ title, options }: MenuDropdownProps) => {
         </Menu.Button>
         <Menu.Items className="absolute right-0 mt-1 border shadow rounded-md p-1 bg-gray-50">
           {options.map((option) => (
-            <MenuDropdownItem {...option} />
+            <MenuDropdownItem key={option.text} {...option} />
           ))}
         </Menu.Items>
       </Menu>
     </div>
+  ) : (
+    <></>
   );
 };
 
