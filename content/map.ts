@@ -262,6 +262,11 @@ export const contentMap: Category[] = [
         href: "https://nextgensso.com/sp/startSSO.ping?PartnerIdpId=https://neuidmsso.neu.edu/idp/shibboleth&TargetResource=https://northeastern.scholarships.ngwebsolutions.com/scholarx_studentportal.aspx",
         description: "Apply for Scholarships",
       },
+      {
+        name: "Awards and Aid",
+        href: "https://www.pfw.neu.edu/NetPartnerStudent/PgAwards.aspx",
+        description: "View total financial aid received",
+      },
     ],
   },
   {
