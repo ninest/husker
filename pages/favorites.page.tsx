@@ -28,6 +28,7 @@ const FavoritesPage = () => {
         text: "Favorites have been enabled",
       });
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const favoriteLinks = favoritesToLinks(favorites);

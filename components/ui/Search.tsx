@@ -19,6 +19,7 @@ export const Search = () => {
       setSearchResults(sr);
       setCourseResults(cr);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchTerm]);
 
   /* Listen for keyboard "/" to focus on search */

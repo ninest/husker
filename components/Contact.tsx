@@ -42,10 +42,10 @@ export const ContactDetail = ({ contact }: ContactDetailProps) => {
                       return (
                         <>
                           <Button
-                            icon={method.type}
+                            iconLeft={method.type}
                             className="rounded-full bg-gray-200 hover:bg-gray-300"
                             href={`${hrefPrefix[method.type]}${method.value}`}
-                          ></Button>
+                          />
                         </>
                       );
                     })}
@@ -59,7 +59,7 @@ export const ContactDetail = ({ contact }: ContactDetailProps) => {
                     return (
                       <>
                         <Button
-                          icon={method.type}
+                          iconLeft={method.type}
                           className="w-full"
                           variant={method.type == "email" ? "primary" : "gray"}
                           onClick={() => {

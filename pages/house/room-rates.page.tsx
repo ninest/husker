@@ -55,7 +55,7 @@ const RoomRatePage = () => {
             <Spacer />
 
             <div className="wrapper">
-              <Button href={cat.href} icon="download">
+              <Button href={cat.href} iconLeft="download">
                 Download
               </Button>
             </div>

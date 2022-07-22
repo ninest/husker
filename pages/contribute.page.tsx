@@ -40,6 +40,7 @@ const ContactPage = () => {
       const newPageName = (initialName as string).replaceAll("_", " ");
       setValue("name", newPageName);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [initialName]);
 
   const mutation = server.useMutation(["github.create-issue"]);

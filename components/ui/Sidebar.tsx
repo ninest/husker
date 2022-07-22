@@ -76,7 +76,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
             <Button
               key={link.href}
               size="sm"
-              icon={link.icon as IconId}
+              iconLeft={link.icon}
               href={link.href}
             >
               {link.text}

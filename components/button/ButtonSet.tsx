@@ -13,7 +13,7 @@ export const ButtonSet = ({ size = "sm", buttons }: ButtonsSetProps) => {
       {buttons.map((button, index) => (
         <Button
           key={index}
-          icon={button.icon}
+          iconLeft={button.icon}
           size={size}
           href={button.href}
           className="mr-base mb-base"

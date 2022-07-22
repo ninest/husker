@@ -27,7 +27,7 @@ const UndergraduateCalendarPage = () => {
       <Spacer />
 
       <div className="wrapper">
-        <Button href={calendarHref2022} icon="download">
+        <Button href={calendarHref2022} iconLeft="download">
           Download
         </Button>
       </div>

@@ -27,7 +27,7 @@ const CapacityPage = () => {
       <Spacer />
 
       <div className="wrapper">
-        <Button href={capacity21} icon="download">
+        <Button href={capacity21} iconLeft="download">
           Download
         </Button>
       </div>

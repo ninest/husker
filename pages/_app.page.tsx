@@ -10,7 +10,6 @@ import { DefaultSeo } from "next-seo";
 import type { AppProps } from "next/app";
 import { useEffect, useState } from "react";
 import { Toaster } from "react-hot-toast";
-import superjson from "superjson";
 import type { AppRouter } from "../server/router";
 import "../styles/globals.scss";
 
@@ -22,6 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     const currentTheme = settings.theme;
     setTheme(currentTheme);
     document.body.dataset.theme = currentTheme;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const [showSidebar, setShowSidebar] = useState(false);

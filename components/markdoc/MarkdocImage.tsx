@@ -30,6 +30,7 @@ export const MarkdocImage = ({
 
   return (
     <div className="flex justify-center mobile-full-bleed">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={src} alt={alt} />
     </div>
   );
