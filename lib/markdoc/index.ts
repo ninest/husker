@@ -18,6 +18,7 @@ import { MarkdocPage } from "@/types/page";
 import Markdoc, { Config } from "@markdoc/markdoc";
 import yaml from "js-yaml";
 import { linkNode } from "./nodes/link";
+import { linksTag } from "./tags/links";
 
 const config: Config = {
   nodes: {
@@ -38,6 +39,7 @@ const config: Config = {
     block: blockTag,
     ...diningTags,
     buttonSet: buttonSetTag,
+    links: linksTag,
   },
 };
 

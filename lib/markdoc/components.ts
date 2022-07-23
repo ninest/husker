@@ -7,6 +7,7 @@ import { Icon } from "@/components/Icon";
 import { LinkButtonGrid } from "@/components/link/LinkButton";
 import { MarkdocDiv } from "@/components/markdoc/MarkdocDiv";
 import { MarkdocImage } from "@/components/markdoc/MarkdocImage";
+import { MarkdocLinkButtonGrid } from "@/components/markdoc/MarkdocLinkButtonGrid";
 import { SmartLink } from "@/components/SmartLink";
 import { MealExchangeDining, OffCampusDining, OnCampusDining } from "@/components/special/Dining";
 import { Dorms } from "@/components/special/Dorms";
@@ -30,4 +31,5 @@ export const markdocComponents = {
   MealExchangeDining,
   ButtonSet,
   SmartLink,
+  MarkdocLinkButtonGrid,
 };

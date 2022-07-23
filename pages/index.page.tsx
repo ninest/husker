@@ -5,6 +5,9 @@ import { Spacer } from "@/components/util/Spacer";
 import { contentMap } from "@/content/map";
 import { useSettings } from "@/hooks/settings";
 import { favoritesToLinks } from "@/lib/favorites";
+import { MarkdocLinkButtonGrid } from "@/components/markdoc/MarkdocLinkButtonGrid";
+import { Icon } from "@/components/Icon";
+import { SmartLink } from "@/components/SmartLink";
 
 const IndexPage = () => {
   const {
@@ -16,6 +19,20 @@ const IndexPage = () => {
   return (
     <>
       <article className=" mt-base wrapper">
+        <MarkdocLinkButtonGrid>
+          <ul>
+            <li>
+              <Icon id="filealt" />
+              <SmartLink href={"/"}>One</SmartLink>: A
+            </li>
+            <li>
+              <Icon id="filealt" />
+              <SmartLink href={"/house"}>Two</SmartLink>: B
+            </li>
+          </ul>
+        </MarkdocLinkButtonGrid>
+        <Spacer />
+
         {/* <Expandable
           title="Would you like to contribute to Husker?"
           containsProse
