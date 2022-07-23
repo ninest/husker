@@ -19,20 +19,6 @@ const IndexPage = () => {
   return (
     <>
       <article className=" mt-base wrapper">
-        <MarkdocLinkButtonGrid>
-          <ul>
-            <li>
-              <Icon id="filealt" />
-              <SmartLink href={"/"}>One</SmartLink>: A
-            </li>
-            <li>
-              <Icon id="filealt" />
-              <SmartLink href={"/house"}>Two</SmartLink>: B
-            </li>
-          </ul>
-        </MarkdocLinkButtonGrid>
-        <Spacer />
-
         {/* <Expandable
           title="Would you like to contribute to Husker?"
           containsProse

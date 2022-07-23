@@ -2,6 +2,7 @@ import { isArray } from "@/lib/utils/is-array";
 import { Link } from "@/types/category";
 import { Children, ReactNode } from "react";
 import { LinkSet } from "../link/LinkSet";
+import { ClientOnly } from "../util/ClientOnly";
 
 /* 
 - Special component
@@ -9,13 +10,15 @@ import { LinkSet } from "../link/LinkSet";
 - Meant for use in markdown
 */
 
+interface MarkdocLinkButtonGridProps {
+  children: ReactNode;
+  showFull?: boolean;
+}
+
 export const MarkdocLinkButtonGrid = ({
   children,
   showFull = true,
-}: {
-  children: ReactNode;
-  showFull?: boolean;
-}) => {
+}: MarkdocLinkButtonGridProps) => {
   const ul = Children.toArray(children)[0];
 
   // @ts-ignore
@@ -37,16 +40,22 @@ export const MarkdocLinkButtonGrid = ({
         return typeof item == "string" ? !!item.trim() : true;
       });
 
-    if (a.type.name == "Icon") {
+    // Only icon has id prop
+    // Cannot use a.type.name because the name of the component changes in production
+    // TODO: find a better way to do this
+    if (!!a.props.id) {
       iconId = a.props.id;
       href = b.props.href;
       name = b.props.children;
+      console.log({ c });
       description = c.split(": ")[1];
     } else {
       href = a.props.href;
       name = a.props.children;
+      console.log({ b });
       description = b.split(": ")[1];
     }
+    console.log();
     return {
       icon: iconId,
       href,
