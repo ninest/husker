@@ -34,7 +34,14 @@ pageType: dorm
 {% /grid %}
 {% /expandable %}
 
-{% expandable icon="image" title="Forced triple" %}
+{% expandable icon="image" title="Forced Double" %}
+{% grid className="grid-cols-1 md:grid-cols-2" %}
+![Forced Double](/housing/east-village/forced-double1.jpg)
+
+{% /grid %}
+{% /expandable %}
+
+{% expandable icon="image" title="Forced Triple" %}
 {% grid className="grid-cols-1 md:grid-cols-2" %}
 ![Forced Triple](/housing/east-village/triple1.png)
 

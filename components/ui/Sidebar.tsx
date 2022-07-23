@@ -122,7 +122,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
       <Spacer size="3xl"></Spacer>
       <Spacer size="3xl"></Spacer>
 
-      <section className="fixed bottom-0 left-0 w-full md:w-72 lg:w-80 ">
+      <section className="bg-light dark:bg-dark fixed bottom-0 left-0 w-full md:w-72 lg:w-80 ">
         <Divider />
 
         <div className="p-md flex justify-between items-center">
