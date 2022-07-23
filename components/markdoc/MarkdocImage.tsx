@@ -16,7 +16,7 @@ export const MarkdocImage = ({
 }: MarkdocImageProps) => {
   if (height && width) {
     return (
-      <div className="flex justify-center mobile-full-bleed">
+      <span className="flex justify-center mobile-full-bleed">
         <Image
           src={src}
           alt={alt}
@@ -24,14 +24,14 @@ export const MarkdocImage = ({
           height={height}
           className="md:rounded bg-gray-lightest"
         ></Image>
-      </div>
+      </span>
     );
   }
 
   return (
-    <div className="flex justify-center mobile-full-bleed">
+    <span className="flex justify-center mobile-full-bleed">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={src} alt={alt} />
-    </div>
+    </span>
   );
 };
