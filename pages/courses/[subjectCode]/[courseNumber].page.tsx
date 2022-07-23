@@ -155,8 +155,8 @@ const CoursePage = ({ subject, course }: CoursePageProps) => {
 
           {showDescription && (
             <div
-              className="text-gray"
-              onClick={() => setShowFullDescription(true)}
+              className="text-gray text-sm"
+              onClick={() => setShowFullDescription(!showFullDescription)}
             >
               {showFullDescription ? (
                 <ul className="list-outside list-disc ml-lg">
@@ -167,15 +167,13 @@ const CoursePage = ({ subject, course }: CoursePageProps) => {
               ) : (
                 <>
                   {descriptionList.slice(0, 1).map((sentence, index) => (
-                    <span key={index}>
-                      {sentence}
-                      {". "}
-                    </span>
+                    <span key={index}>{sentence}</span>
                   ))}
                   {/* Only show "show all" if the description has more than 1 line */}
                   {descriptionList.length > 1 && (
                     <span>
-                      <i>Show all.</i>
+                      {" "}
+                      <i>Show more.</i>
                     </span>
                   )}
                 </>
