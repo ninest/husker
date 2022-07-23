@@ -1,5 +1,4 @@
 import { ArticleHead } from "@/components/ArticleHead";
-import { Button } from "@/components/button/Button";
 import { MenuDropdown } from "@/components/button/MenuButton";
 import { NUPathDisplay } from "@/components/NUPathDisplay";
 import { Debug } from "@/components/util/Debug";
@@ -24,9 +23,7 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
 
   for await (const subject of subjects) {
     try {
-      const courses: Course[] = JSON.parse(
-        readFile(`../.raw/courses/${subject.code}.json`)
-      );
+      const courses: Course[] = JSON.parse(readFile(`../.raw/courses/${subject.code}.json`));
 
       courses.forEach((course) =>
         paths.push({
@@ -49,9 +46,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const { subjectCode, courseNumber } = params! as Path["params"];
 
   const subject = subjects.find((subject) => subject.code === subjectCode);
-  const courses: Course[] = JSON.parse(
-    readFile(`../.raw/courses/${subjectCode}.json`)
-  );
+  const courses: Course[] = JSON.parse(readFile(`../.raw/courses/${subjectCode}.json`));
   const course = courses.find((c) => c.number === courseNumber);
 
   return {
@@ -69,22 +64,35 @@ interface CoursePageProps {
 const CoursePage = ({ subject, course }: CoursePageProps) => {
   const shortName = `${subject.code} ${course.number}`;
 
-  const creditsDisplay = `${course.credits} credit${
-    course.credits == 1 ? "" : "s"
-  }`;
+  const creditsDisplay = `${course.credits} credit${course.credits == 1 ? "" : "s"}`;
 
   const addOptions = [
     {
       icon: "checkcircle",
       text: "I've done this course",
-      action: () =>
-        showToast({ text: "This feature isn't ready yet", type: "error" }),
+      action: () => showToast({ text: "This feature isn't ready yet", type: "error" }),
     },
     {
       icon: "clock",
       text: "I'm going to do this course",
-      action: () =>
-        showToast({ text: "This feature isn't ready yet", type: "error" }),
+      action: () => showToast({ text: "This feature isn't ready yet", type: "error" }),
+    },
+  ];
+
+  const openWithOptions = [
+    {
+      icon: "reddit",
+      text: "Reddit",
+      href: `https://www.google.com/search?q=site%3Areddit.com%2Fr%2Fneu+${shortName}`,
+    },
+    {
+      icon: "starhalf",
+      text: "RateMyCourses",
+      href: `https://www.ratemycourses.io/neu/course/${shortName.replace(" ", "")}`,
+    },
+    {
+      text: "SearchNEU",
+      href: `https://searchneu.com/NEU/202310/search/${shortName}`,
     },
   ];
 
@@ -95,10 +103,7 @@ const CoursePage = ({ subject, course }: CoursePageProps) => {
 
   return (
     <>
-      <NextSeo
-        title={shortName}
-        description={`Information on ${shortName}: ${course.title}`}
-      />
+      <NextSeo title={shortName} description={`Information on ${shortName}: ${course.title}`} />
 
       <ArticleHead
         backButtonHref={`/courses/${subject.code}`}
@@ -134,20 +139,7 @@ const CoursePage = ({ subject, course }: CoursePageProps) => {
                 />
               </div>
 
-              <MenuDropdown
-                title="Open with"
-                options={[
-                  {
-                    icon: "reddit",
-                    text: "Reddit",
-                    href: `https://www.google.com/search?q=site%3Areddit.com%2Fr%2Fneu+${shortName}`,
-                  },
-                  {
-                    text: "SearchNEU",
-                    href: `https://searchneu.com/NEU/202310/search/${shortName}`,
-                  },
-                ]}
-              />
+              <MenuDropdown title="Open with" options={openWithOptions} />
             </div>
           </div>
 
