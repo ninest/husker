@@ -8,12 +8,7 @@ interface MarkdocImageProps extends HTMLAttributes<HTMLImageElement> {
   height?: number;
 }
 
-export const MarkdocImage = ({
-  src,
-  alt,
-  height,
-  width,
-}: MarkdocImageProps) => {
+export const MarkdocImage = ({ src, alt, height, width }: MarkdocImageProps) => {
   if (height && width) {
     return (
       <span className="flex justify-center mobile-full-bleed">
@@ -22,8 +17,8 @@ export const MarkdocImage = ({
           alt={alt}
           width={width}
           height={height}
-          className="md:rounded bg-gray-lightest"
-        ></Image>
+          className="md:rounded bg-gray-lightest dark:bg-gray-darkest"
+        />
       </span>
     );
   }

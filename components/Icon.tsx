@@ -214,8 +214,7 @@ export const Icon = ({ id = "filealt", ...props }: IconProps) => {
       return <FaCheck className={className} />;
     case "checkcircle":
       return <FaCheckCircle className={className} />;
-    case "Clock":
-      return <FaClock className={className} />;
+
     default:
       return <FaRegFileAlt className={className} />;
   }
