@@ -9,10 +9,7 @@ pageType: dorm
 
 {% expandable variant="gray" title="Dorm Information" %}
 
-- 1-, 2-, 3-person suites
-  - Enhanced single semi-private bedrooms (shares bathroom with connecting room)
-  - Enhanced double semi-private bedrooms (shares bathroom with connecting room)
-  - Enhanced forced triple semi-private bedrooms (shares bathroom with connecting room)
+- 1-, 2-, 3-person suites (singles, doubles, forced doubles, forced triples)
 - Lounges on every floor
 - {% icon id="printer" / %} Printer on first-floor lobby
 

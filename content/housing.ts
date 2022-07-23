@@ -737,6 +737,19 @@ export const dorms: Dorm[] = [
   },
   {
     type: leased,
+    slug: "douglass-park",
+    title: "Douglass Park",
+    pricesPoints: [standard],
+    links: [
+      {
+        name: "Northeastern Housing",
+        description: "Dorm specifications",
+        href: "https://www.northeastern.edu/housing/leased-properties/",
+      },
+    ],
+  },
+  {
+    type: leased,
     slug: "edwards-rodgers-hall",
     title: "Edwards and Rodgers Hall",
     pricesPoints: [standard],

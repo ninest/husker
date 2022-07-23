@@ -7,6 +7,21 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
+{% expandable variant="gray" title="Dorm Information" %}
+
+- 1-, 2-, 3-, 4-person rooms
+- Lounges on the first floor
+- {% icon id="utensils" /%} Shared kitchen
+
+{% /expandable %}
+
+{% expandable variant="gray" title="Floor Plans" %}
+{% grid %}
+![Plan](/housing/international-village/plan.jpg)
+
+{% /grid %}
+{% /expandable %}
+
 ## Images
 
 {% expandable icon="image" title="Standard Double" %}
