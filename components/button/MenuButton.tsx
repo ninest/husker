@@ -41,8 +41,8 @@ export const MenuDropdown = ({
         </Menu.Button>
         <Menu.Items
           className={clsx(
-            `absolute right-0 mt-1 border dark:border-gray-darkest shadow rounded-lg p-xs bg-gray-50 dark:bg-gray-900`,
-            menuClassName
+            menuClassName,
+            "absolute -right-3 mt-1 border dark:border-gray-darkest shadow rounded-lg p-xs bg-gray-50 dark:bg-gray-900"
           )}
         >
           {options.map((option) => (
@@ -70,7 +70,7 @@ const MenuDropdownItem = ({
   action,
 }: MenuDropdownItemProps) => {
   const className =
-    "flex items-center justify-start w-full p-sm md:p-xs rounded-md md:rounded hover:bg-gray-100 dark:hover:bg-gray-darkest";
+    "flex items-center justify-start w-full p-xs rounded-md hover:bg-gray-100 dark:hover:bg-gray-darkest";
   const children = (
     <>
       <div className="w-7">{icon && <Icon id={icon} />}</div>

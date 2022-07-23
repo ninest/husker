@@ -1,4 +1,7 @@
-/* KEEP IN SYNC WITH */
+/* 
+!! KEEP IN SYNC WITH !!
+https://github.com/ninest/nu-course/blob/main/banner/types.ts
+ */
 
 export const campuses = ["nu", "cps", "law"] as const;
 export type Campus = typeof campuses[number];
@@ -21,12 +24,14 @@ export interface Course {
   title: string;
   credits: number;
   nuPath: NUPath[];
+
   description?: string;
 
-  // Mapping of term code to reference number
-  _termReferenceMap: Record<string, string>;
-  // referenceNumber: string; // Required to get coreqs and prereqs
-  // _termCode: string; // Used for fetching description
+  // This can change during the semester if a section is added
+  sections: {
+    term: string;
+    crn: string; //description: string
+  }[];
 }
 
 export const nuPath = [
