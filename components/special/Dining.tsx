@@ -110,65 +110,25 @@ const offCampusVendors = [
   { name: "Quick Pick Convenience", address: "973 Tremont St" },
 ];
 
-export const OffCampusDining = () => {
-  return (
-    <section className="grid gap-base grid-cols-2 md:grid-cols-3">
-      {offCampusVendors.map((ocv) => {
-        return (
-          <Block
-            key={ocv.name}
-            title={ocv.name}
-            href={`https://maps.google.com/?q=${ocv.name}, ${ocv.address}`}
-          >
-            <div className="flex items-baseline space-x-sm">
-              <Icon id="markeralt" className="text-gray-light" />
-              <div>{ocv.address}</div>
-            </div>
-          </Block>
-        );
-      })}
-    </section>
-  );
-};
+const DiningGrid = ({ items }: { items: any[] }) => (
+  <section className="grid gap-base grid-cols-2 md:grid-cols-3">
+    {items.map((ocv) => {
+      return (
+        <Block
+          key={ocv.name}
+          title={ocv.name}
+          href={`https://maps.google.com/?q=${ocv.name}, ${ocv.address}`}
+        >
+          <div className="flex items-baseline space-x-sm">
+            <Icon id="markeralt" />
+            <div>{ocv.address}</div>
+          </div>
+        </Block>
+      );
+    })}
+  </section>
+);
 
-export const OnCampusDining = () => {
-  return (
-    <section className="grid gap-base grid-cols-2 md:grid-cols-3">
-      {onCampusVendors.map((cv) => {
-        return (
-          <Block
-            key={cv.name}
-            title={cv.name}
-            href={`https://maps.google.com/?q=${cv.name}, ${cv.address}`}
-          >
-            <div className="flex items-baseline space-x-sm">
-              <Icon id="markeralt" className="text-gray-light" />
-              <div>{cv.address}</div>
-            </div>
-          </Block>
-        );
-      })}
-    </section>
-  );
-};
-
-export const MealExchangeDining = () => {
-  return (
-    <section className="grid gap-base grid-cols-2 md:grid-cols-3">
-      {mealExchangeVendors.map((mev) => {
-        return (
-          <Block
-            key={mev.name}
-            title={mev.name}
-            href={`https://maps.google.com/?q=${mev.name}, ${mev.address}`}
-          >
-            <div className="flex items-baseline space-x-sm">
-              <Icon id="markeralt" className="text-gray-light" />
-              <div>{mev.address}</div>
-            </div>
-          </Block>
-        );
-      })}
-    </section>
-  );
-};
+export const OffCampusDining = () => <DiningGrid items={offCampusVendors} />;
+export const OnCampusDining = () => <DiningGrid items={onCampusVendors} />;
+export const MealExchangeDining = () => <DiningGrid items={mealExchangeVendors} />;
