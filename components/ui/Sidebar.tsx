@@ -38,7 +38,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
   }, [settingsClicked]);
 
   return (
-    <aside className="md:w-72 lg:w-80 h-screen overflow-y-scroll sticky z-50 top-0 left-0 bottom-0 border-r dark:border-gray-darkest">
+    <aside className="bg-light dark:bg-dark md:w-72 lg:w-80 h-screen overflow-y-scroll sticky z-50 top-0 left-0 bottom-0 border-r dark:border-gray-darkest">
       {/* Close button for mobile only */}
       <div className="flex items-center pt-base px-md">
         <button
@@ -159,7 +159,7 @@ const SidebarLink = ({ href, title }: SidebarLinkProps) => {
     <SmartLink
       href={href}
       className="block rounded font-semibold text-gray-dark dark:text-gray-light -m-xs p-xs hover:bg-gray-100 dark:hover:bg-gray-900"
-      activeClassName="bg-gray-100 dark:bg-gray-800"
+      activeClassName="bg-gray-100/70 dark:bg-gray-900/50"
     >
       {title}
     </SmartLink>

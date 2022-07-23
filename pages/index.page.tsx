@@ -15,7 +15,7 @@ const IndexPage = () => {
 
   return (
     <>
-      <article className="mt-base wrapper">
+      <article className=" mt-base wrapper">
         {/* <Expandable
           title="Would you like to contribute to Husker?"
           containsProse

@@ -138,6 +138,10 @@ const ContactPage = () => {
             <Button type="submit" variant="primary" disabled={isSubmitting}>
               {submitted ? "Submitted!" : <>Submit{isSubmitting && "ing"}</>}
             </Button>
+
+            <Button variant="ghost" iconLeft="caretdown">
+              {submitted ? "Submitted!" : <>Submit{isSubmitting && "ing"}</>}
+            </Button>
           </fieldset>
         </form>
         <Spacer />

@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import { Icon } from "../Icon";
 import { SmartLink } from "../SmartLink";
+import { Button } from "./Button";
 
 interface BackButtonProps {
   href?: string;

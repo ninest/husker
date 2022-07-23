@@ -1,7 +1,7 @@
 @layer utilities {
   .form {
     &-input {
-      @apply border-2 dark:border-gray-darker font-medium rounded-md outline-none;
+      @apply border-2 dark:border-gray-darker font-medium rounded-lg outline-none;
       @apply bg-gray-50 dark:bg-gray-900;
       @apply p-xs;
       @apply text-gray dark:text-gray-light placeholder:text-gray-lighter dark:placeholder:text-gray-darker;

@@ -4,17 +4,63 @@ import { Size } from "@/types/size";
 import clsx from "clsx";
 import { HTMLAttributes, ReactNode } from "react";
 
+type ButtonVariant = "primary" | "gray" | "ghost";
 export interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
   iconLeft?: string | null;
   iconRight?: string | null;
   href?: SmartLinkProps["href"];
   size?: Size;
-  variant?: "primary" | "gray";
+  variant?: ButtonVariant;
   className?: string;
   type?: "button" | "reset" | "submit";
   disabled?: boolean;
   children?: ReactNode;
 }
+
+const themeColors: Record<ButtonVariant, string> = {
+  gray: "text-gray bg-gray-100 hover:bg-gray-200 dark:bg-gray-900 dark:hover:bg-gray-darker",
+  primary: "text-gray-200 bg-primary hover:bg-primary-light",
+  ghost: "",
+};
+
+const fontSizes: Record<Size, string> = {
+  0.5: "",
+  1: "",
+  xs: "text-sm",
+  sm: "text-sm",
+  base: "text-base",
+  md: "text-lg",
+  lg: "text-lg",
+  xl: "",
+  "2xl": "",
+  "3xl": "",
+};
+
+const padding: Record<Size, string> = {
+  0.5: "",
+  1: "",
+  xs: "p-xs h-8",
+  sm: "p-sm h-10",
+  base: "p-base h-12",
+  md: "p-lg h-14",
+  lg: "p-lg h-14",
+  xl: "",
+  "2xl": "",
+  "3xl": "",
+};
+
+// const ghostPadding: Record<Size, string> = {
+//   0.5: "",
+//   1: "",
+//   xs: "p-xs h-8",
+//   sm: "p-sm h-10",
+//   base: "p-base h-12",
+//   md: "p-lg h-14",
+//   lg: "p-lg h-14",
+//   xl: "",
+//   "2xl": "",
+//   "3xl": "",
+// };
 
 export const Button = ({
   iconLeft,
@@ -30,16 +76,13 @@ export const Button = ({
   const className = clsx(
     props.className,
     "rounded-md font-semibold whitespace-nowrap",
+    fontSizes[size],
+    themeColors[variant],
+    // Padding does not apply to ghost buttons
+    // Use negative margin + margin for ghost button
     {
-      "text-gray bg-gray-100 hover:bg-gray-200 dark:bg-gray-900 dark:hover:bg-gray-darker":
-        variant === "gray",
-      "text-gray-200 bg-primary hover:bg-primary-light": variant === "primary",
-    },
-    {
-      "text-sm p-xs h-8": size === "xs",
-      "text-sm p-sm h-10": size === "sm",
-      "text-base p-base h-12": size === "base",
-      "text-lg p-lg h-14": size === "lg",
+      [clsx(padding[size])]: variant != "ghost",
+      "-m-xs p-xs hover:bg-gray-900": variant == "ghost",
     },
     "flex items-center justify-center space-x-base"
   );

@@ -87,11 +87,11 @@ export const LinkButton = ({
             <Icon id={link.icon} className="flex-none text-sm"></Icon>
 
             <div>
-              <div className="font-semibold text-sm text-gray">{link.name}</div>
+              <div className="font-semibold text-sm text-gray dark:text-gray-light">{link.name}</div>
               {showDescription && (
                 <>
                   <Spacer size="xs"></Spacer>
-                  <div className="text-gray-light dark:text-gray-dark font-normal text-xs">
+                  <div className="text-gray-light dark:text-gray font-normal text-xs">
                     {link.description}
                   </div>
                 </>
