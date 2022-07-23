@@ -1,26 +1,14 @@
 import { ArticleHead } from "@/components/ArticleHead";
-import { Block } from "@/components/Block";
-import { ButtonSet } from "@/components/button/ButtonSet";
 import { MutedButton } from "@/components/button/MutedButton";
-import { Video } from "@/components/embed/Video";
-import { YoutubeEmbed } from "@/components/embed/YoutubeEmbed";
 import { Expandable } from "@/components/Expandable";
-import { Icon } from "@/components/Icon";
-import { LinkButtonGrid } from "@/components/link/LinkButton";
 import { LinkSet } from "@/components/link/LinkSet";
-import { MarkdocDiv } from "@/components/markdoc/MarkdocDiv";
-import { MarkdocImage } from "@/components/markdoc/MarkdocImage";
-import { SmartLink } from "@/components/SmartLink";
-import { MealExchangeDining, OffCampusDining, OnCampusDining } from "@/components/special/Dining";
-import { Dorms } from "@/components/special/Dorms";
-import { Title } from "@/components/Title";
 import { Debug } from "@/components/util/Debug";
-import { Grid } from "@/components/util/Grid";
 import { Spacer } from "@/components/util/Spacer";
 import { dorms } from "@/content/housing";
 import { contentMap, pages } from "@/content/map";
 import { listToFilepath } from "@/lib/file/list-to-file";
 import { getMarkdocPage } from "@/lib/markdoc";
+import { markdocComponents } from "@/lib/markdoc/components";
 import { objectEmpty } from "@/utils/object";
 import Markdoc from "@markdoc/markdoc";
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from "next";
@@ -102,25 +90,7 @@ const ContentPage = ({
   const showLinkSet = links || pages;
   const parsedContent = JSON.parse(content);
   const renderedContent = Markdoc.renderers.react(parsedContent, React, {
-    // TODO: move somewhere else
-    components: {
-      Title,
-      Icon,
-      Expandable,
-      Dorms,
-      LinkButtonGrid,
-      YoutubeEmbed,
-      Grid,
-      MarkdocImage,
-      Video,
-      MarkdocDiv,
-      Block,
-      OffCampusDining,
-      OnCampusDining,
-      MealExchangeDining,
-      ButtonSet,
-      SmartLink,
-    },
+    components: markdocComponents,
   });
   const parsedErrors = JSON.parse(errors);
 

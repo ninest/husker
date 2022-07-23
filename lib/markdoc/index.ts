@@ -41,17 +41,11 @@ const config: Config = {
   },
 };
 
-export const markdocComponents = {
-  Title,
-};
-
 export const markdocFromFile = <T>(filepath: string) => {
   const source = readMarkdownFile(`${filepath}`).trim();
   const ast = Markdoc.parse(source);
   const errors = Markdoc.validate(ast, config);
-  const frontmatter = ast.attributes.frontmatter
-    ? yaml.load(ast.attributes.frontmatter)
-    : {};
+  const frontmatter = ast.attributes.frontmatter ? yaml.load(ast.attributes.frontmatter) : {};
 
   const content = Markdoc.transform(ast, config);
 
@@ -62,6 +56,8 @@ export const markdocFromFile = <T>(filepath: string) => {
   } as unknown as T;
 };
 
+// This function seems to be useless
+// TODO: remove
 export const getMarkdocPage = (filepath: string): MarkdocPage => {
   const page: MarkdocPage = markdocFromFile(filepath);
   return page;

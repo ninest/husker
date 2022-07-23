@@ -1,13 +1,21 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { MenuDropdown } from "@/components/button/MenuButton";
+import { Expandable } from "@/components/Expandable";
 import { NUPathDisplay } from "@/components/NUPathDisplay";
 import { Debug } from "@/components/util/Debug";
+import { Spacer } from "@/components/util/Spacer";
 import { showToast } from "@/components/util/Toast";
 import { descriptionToList } from "@/lib/courses";
+import { fileExists } from "@/lib/file/exists";
 import { readFile } from "@/lib/file/read";
+import { getMarkdocPage } from "@/lib/markdoc";
+import { markdocComponents } from "@/lib/markdoc/components";
 import { Course, Subject } from "@/types/courses";
+import { Frontmatter } from "@/types/page";
+import Markdoc from "@markdoc/markdoc";
 import { GetStaticPaths, GetStaticProps } from "next";
 import { NextSeo } from "next-seo";
+import React from "react";
 import { useState } from "react";
 import subjects from "../../../.raw/subjects.json";
 
@@ -49,6 +57,23 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const courses: Course[] = JSON.parse(readFile(`../.raw/courses/${subjectCode}.json`));
   const course = courses.find((c) => c.number === courseNumber);
 
+  /* Markdoc page */
+  if (fileExists(`courses/list/${subject?.code}/${courseNumber}.md`)) {
+    const { frontmatter, content, errors } = getMarkdocPage(
+      `courses/list/${subject?.code}/${courseNumber}`
+    );
+
+    return {
+      props: {
+        subject,
+        course,
+        frontmatter: JSON.parse(JSON.stringify(frontmatter)), //TODO: fix date serialization
+        content: JSON.stringify(content),
+        errors: JSON.stringify(errors),
+      },
+    };
+  }
+
   return {
     props: { subject, course },
   };
@@ -57,11 +82,14 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 interface CoursePageProps {
   subject: Subject;
   course: Course;
+  frontmatter?: Frontmatter;
+  content?: string;
+  errors?: string;
 }
 
 /* TODO: add links to reddit, searchneu, course catalog, rate my courses, rate my professor */
 
-const CoursePage = ({ subject, course }: CoursePageProps) => {
+const CoursePage = ({ subject, course, frontmatter, content, errors }: CoursePageProps) => {
   const shortName = `${subject.code} ${course.number}`;
 
   const creditsDisplay = `${course.credits} credit${course.credits == 1 ? "" : "s"}`;
@@ -100,6 +128,14 @@ const CoursePage = ({ subject, course }: CoursePageProps) => {
 
   const descriptionList = descriptionToList(course.description ?? "");
   const showDescription = descriptionList.length > 0;
+
+  const containsProse = !!content;
+  const renderedContent = content
+    ? Markdoc.renderers.react(JSON.parse(content), React, {
+        components: markdocComponents,
+      })
+    : null;
+  const parsedErrors = errors ? JSON.parse(errors) : null;
 
   return (
     <>
@@ -173,6 +209,28 @@ const CoursePage = ({ subject, course }: CoursePageProps) => {
             </div>
           )}
         </section>
+
+        {containsProse && (
+          <>
+            <Spacer size="xl" />
+
+            {/* TODO: make this a component */}
+            {parsedErrors.length > 0 && (
+              <>
+                <Expandable variant="error" title="Markdoc errors" open containsProse>
+                  <p>
+                    You should <b>not</b> be able to see this! Please review the errors:
+                  </p>
+                  <Debug data={parsedErrors} noSpaceAbove />
+                </Expandable>
+                <Spacer size="xl" />
+              </>
+            )}
+
+            <div className="prose">{renderedContent}</div>
+            <Spacer size="xl"></Spacer>
+          </>
+        )}
 
         <Debug data={course} />
       </div>
