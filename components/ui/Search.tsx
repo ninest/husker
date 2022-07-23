@@ -80,6 +80,7 @@ export const Search = () => {
           value={searchTerm}
           onFocus={() => setFocused(true)}
           onBlur={() => setFocused(false)}
+          id="search-input"
         />
       </label>
 

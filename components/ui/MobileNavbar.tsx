@@ -17,10 +17,7 @@ export const MobileNavbar = ({ onMenuClick }: MobileNavbarProps) => {
         >
           <Icon id="griplines"></Icon>
         </button>
-        <SmartLink
-          href="/"
-          className="font-display font-black text-lg text-dark dark:text-light"
-        >
+        <SmartLink href="/" className="font-display font-black text-lg text-dark dark:text-light">
           Husker
         </SmartLink>
       </div>
@@ -42,7 +39,11 @@ export const MobileNavbar = ({ onMenuClick }: MobileNavbarProps) => {
 
         <button
           className="text-gray border dark:border-gray-800 p-2 rounded-full"
-          onClick={onMenuClick}
+          onClick={() => {
+            onMenuClick();
+            // Manually focus search bar (yeah, I'm lazy)
+            setTimeout(() => document.getElementById("search-input")?.focus(), 1);
+          }}
         >
           <Icon id="search"></Icon>
         </button>

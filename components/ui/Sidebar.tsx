@@ -3,7 +3,6 @@ import { SmartLink } from "@/components/SmartLink";
 import { contentMap } from "@/content/map";
 import { highlightedSidebarLinks, sidebarLinks } from "@/content/sidebar";
 import { useSecretSettings, useTheme } from "@/hooks/settings";
-import { IconId } from "@/types/icon";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { Divider } from "../Divider";
@@ -25,8 +24,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
 
   const { toggleTheme, isLightTheme, isDarkTheme } = useTheme();
 
-  const { secretSettingsEnabled, secretSettings, setSecretSettingsEnabled } =
-    useSecretSettings();
+  const { secretSettingsEnabled, secretSettings, setSecretSettingsEnabled } = useSecretSettings();
 
   const [settingsClicked, setSettingsClicked] = useState(0);
 
@@ -55,9 +53,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
           <div className="text-lg text-dark dark:text-light">Husker</div>
           <ClientOnly>
             {secretSettings?.augmentedTitle && (
-              <div className="text-gray text-lg">
-                {secretSettings.augmentedTitle}
-              </div>
+              <div className="text-gray text-lg">{secretSettings.augmentedTitle}</div>
             )}
           </ClientOnly>
         </SmartLink>
@@ -73,12 +69,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
       <div className="px-md grid gap-base grid-cols-2">
         {highlightedSidebarLinks.map((link) => {
           return (
-            <Button
-              key={link.href}
-              size="sm"
-              iconLeft={link.icon}
-              href={link.href}
-            >
+            <Button key={link.href} size="sm" iconLeft={link.icon} href={link.href}>
               {link.text}
             </Button>
           );
@@ -109,10 +100,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
         {contentMap.map((category) => {
           return (
             <div key={category.slug}>
-              <SidebarLink
-                href={`/${category.slug}`}
-                title={category.title}
-              ></SidebarLink>
+              <SidebarLink href={`/${category.slug}`} title={category.title}></SidebarLink>
             </div>
           );
         })}
@@ -131,9 +119,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
             className=" rounded text-sm flex items-center space-x-base -m-sm p-sm hover:bg-gray-50 dark:hover:bg-gray-900"
           >
             <Icon id={isLightTheme ? "regmoon" : "regsun"} />
-            <div className="font-semibold text-gray">
-              {isLightTheme ? "Dark" : "Light"} theme
-            </div>
+            <div className="font-semibold text-gray">{isLightTheme ? "Dark" : "Light"} theme</div>
           </button>
 
           <SmartLink
@@ -160,6 +146,7 @@ const SidebarLink = ({ href, title }: SidebarLinkProps) => {
       href={href}
       className="block rounded font-semibold text-gray-dark dark:text-gray-light -m-xs p-xs hover:bg-gray-100 dark:hover:bg-gray-900"
       activeClassName="bg-gray-100/70 dark:bg-gray-900/50"
+      exactPath={false}
     >
       {title}
     </SmartLink>

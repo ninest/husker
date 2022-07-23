@@ -55,10 +55,9 @@ export const contentMap: Category[] = [
         href: "https://www.myworkday.com/northeastern/d/pex/home.htmld",
       },
       {
-        name: "Registrar Self Service",
+        name: "Registrar",
         href: "https://nubanner.neu.edu/ssomanager/c/SSB?pkg=twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu",
-        description:
-          "Registration, student info, attendance",
+        description: "Registration, student info, attendance",
         icon: "receipt",
       },
       {
@@ -139,7 +138,7 @@ export const contentMap: Category[] = [
         icon: "invoice",
       },
       {
-        name: "NUpath Dashboard",
+        name: "NUpath",
         href: "https://www.northeastern.edu/core/dashboard/",
         description: "View NUpath covered by courses",
         icon: "bookmark",
@@ -303,19 +302,19 @@ export const contentMap: Category[] = [
         name: "Apartment Capacity",
         href: "/house/capacity",
         description: "Housing capacity and size",
-        icon: "moneybillalt",
+        icon: "people",
       },
     ],
     pages: [
       {
-        name: "Northeastern Dorms",
-        href: "https://sites.google.com/view/neudorms/home",
-        description: "Images and descriptions of dorms",
-      },
-      {
-        name: "Map, Floor plan, Room layouts",
+        name: "Floor plans",
         href: "https://www.northeastern.edu/housing/dnaesantoelrihtriseertn/",
         description: "Layouts and floor plans of dorms",
+      },
+      {
+        name: "Furniture",
+        href: "/housing/furniture",
+        description: "Measurements and specifications",
       },
     ],
   },
@@ -324,7 +323,7 @@ export const contentMap: Category[] = [
     slug: "social",
     links: [
       {
-        name: "Clubs and organizations",
+        name: "Clubs",
         href: "https://neu.campuslabs.com/engage/",
         description: "Organizations list and description",
       },

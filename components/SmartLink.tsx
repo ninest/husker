@@ -3,17 +3,18 @@ import { useRouter } from "next/router";
 import Link, { LinkProps } from "next/link";
 import clsx from "clsx";
 
-export interface SmartLinkProps
-  extends Omit<AnchorHTMLAttributes<HTMLAnchorElement>, "href"> {
+export interface SmartLinkProps extends Omit<AnchorHTMLAttributes<HTMLAnchorElement>, "href"> {
   href: LinkProps["href"] | string;
   underline?: boolean;
   activeClassName?: string;
+  exactPath?: boolean; // Does the exact path have to match for activeClassName to apply?
 }
 
 export const SmartLink = ({
   href,
   activeClassName,
   underline = false,
+  exactPath = true,
   ...props
 }: SmartLinkProps) => {
   const router = useRouter();
@@ -21,7 +22,8 @@ export const SmartLink = ({
   const className = clsx(
     {
       underline,
-      [`${activeClassName}`]: path === href,
+      [`${activeClassName}`]: exactPath && path === href,
+      [`${activeClassName}`]: !exactPath && path.startsWith(href as string),
     },
     props.className
   );
@@ -36,15 +38,7 @@ export const SmartLink = ({
         </Link>
       );
     else
-      return (
-        <a
-          {...props}
-          className={className}
-          href={href}
-          target="_blank"
-          rel="noreferrer"
-        />
-      );
+      return <a {...props} className={className} href={href} target="_blank" rel="noreferrer" />;
   } else {
     /* href is not a string, it's a URL param object */
     return (

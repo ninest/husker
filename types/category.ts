@@ -11,7 +11,7 @@ export interface Link {
   name: string;
   href: string;
   description: string;
-  icon?: IconId;
+  icon?: string;
   variant?: "default" | "highlighted" | "warning";
 }
 export interface LinkWithCategory extends Link {
