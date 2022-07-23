@@ -1,3 +1,4 @@
+import { isArray } from "@/lib/utils/is-array";
 import { Link } from "@/types/category";
 import { Children, ReactNode } from "react";
 import { LinkSet } from "../link/LinkSet";
@@ -18,7 +19,10 @@ export const MarkdocLinkButtonGrid = ({
   const ul = Children.toArray(children)[0];
 
   // @ts-ignore
-  const items = ul.props.children;
+  let items = ul.props.children;
+
+  // If there's only one li, items is not a list, so convert it
+  if (!isArray(items)) items = [items];
 
   const links: Link[] = items.map((li: any) => {
     let iconId;
