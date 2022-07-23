@@ -422,6 +422,7 @@ export const pages = [
   "/social/instagram",
   "/resources/download-books",
   "/changelog",
+  "/house/furniture",
 
   ...dorms.map((dorm): string => `/house/${dorm.slug}`),
 ];

@@ -1,5 +1,5 @@
 import { Title } from "@/components/Title";
-import { readFile } from "@/lib/file/read";
+import { readFile, readMarkdownFile } from "@/lib/file/read";
 import { headingNode } from "@/lib/markdoc/nodes/heading";
 import { imageNode } from "@/lib/markdoc/nodes/img";
 import { blockTag } from "@/lib/markdoc/tags/block";
@@ -46,7 +46,7 @@ export const markdocComponents = {
 };
 
 export const markdocFromFile = <T>(filepath: string) => {
-  const source = readFile(`${filepath}/index.md`).trim();
+  const source = readMarkdownFile(`${filepath}`).trim();
   const ast = Markdoc.parse(source);
   const errors = Markdoc.validate(ast, config);
   const frontmatter = ast.attributes.frontmatter
