@@ -113,10 +113,7 @@ const ContactPage = () => {
               ) : (
                 <>
                   Please use Imgur links to submit images.{" "}
-                  <SmartLink
-                    href="https://imgur.com/upload"
-                    className="underline"
-                  >
+                  <SmartLink href="https://imgur.com/upload" className="underline">
                     Upload images on Imgur
                   </SmartLink>
                   .
@@ -136,10 +133,6 @@ const ContactPage = () => {
 
           <fieldset className="flex">
             <Button type="submit" variant="primary" disabled={isSubmitting}>
-              {submitted ? "Submitted!" : <>Submit{isSubmitting && "ing"}</>}
-            </Button>
-
-            <Button variant="ghost" iconLeft="caretdown">
               {submitted ? "Submitted!" : <>Submit{isSubmitting && "ing"}</>}
             </Button>
           </fieldset>
