@@ -11,11 +11,7 @@ import { LinkSet } from "@/components/link/LinkSet";
 import { MarkdocDiv } from "@/components/markdoc/MarkdocDiv";
 import { MarkdocImage } from "@/components/markdoc/MarkdocImage";
 import { SmartLink } from "@/components/SmartLink";
-import {
-  MealExchangeDining,
-  OffCampusDining,
-  OnCampusDining
-} from "@/components/special/Dining";
+import { MealExchangeDining, OffCampusDining, OnCampusDining } from "@/components/special/Dining";
 import { Dorms } from "@/components/special/Dorms";
 import { Title } from "@/components/Title";
 import { Debug } from "@/components/util/Debug";
@@ -47,10 +43,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
   /* Create back button attributes */
   const href = slugList.length == 1 ? `/` : `/${slugList[0]}`; // First item in slug; "/services"
-  const text =
-    slugList.length == 1
-      ? `Links`
-      : (await getMarkdocPage(href)).frontmatter.title; // "Services"
+  const text = slugList.length == 1 ? `Links` : (await getMarkdocPage(href)).frontmatter.title; // "Services"
   const back = { href, text };
 
   /* Markdoc page */
@@ -62,9 +55,10 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     contentMap.find((category) => category.slug === slug); // and the cat slug is valid
   const category = contentMap.find((cat) => cat.slug === slugList[0]) ?? null;
 
-  // /* Should contain link set */
-  const containsLinkSet =
-    isCategoryPage || slugList[0] === "housing" || slugList[0] === "house";
+  /* Should contain link set */
+  const isHousePage = !!dorms.find((dorm) => dorm.slug == slugList[1]);
+
+  const containsLinkSet = isCategoryPage || isHousePage;
 
   let links = null;
   let pages = null;
@@ -75,10 +69,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   }
 
   // For housing pages, the "category" is either "house" or "housing"
-  if (
-    slugList.length > 1 &&
-    (slugList[0] === "housing" || slugList[0] === "house")
-  ) {
+  if (slugList.length > 1 && isHousePage) {
     const dormSlug = slugList[slugList.length - 1]; // The last part of the URL
     const dorm = dorms.find((dorm) => dorm.slug == dormSlug);
     links = dorm?.links ?? null;
@@ -138,10 +129,7 @@ const ContentPage = ({
 
   return (
     <>
-      <NextSeo
-        title={frontmatter.title}
-        description={frontmatter.description}
-      />
+      <NextSeo title={frontmatter.title} description={frontmatter.description} />
 
       <ArticleHead
         backButtonHref={back.href}
@@ -159,15 +147,9 @@ const ContentPage = ({
 
         {parsedErrors.length > 0 && (
           <>
-            <Expandable
-              variant="error"
-              title="Markdoc errors"
-              open
-              containsProse
-            >
+            <Expandable variant="error" title="Markdoc errors" open containsProse>
               <p>
-                You should <b>not</b> be able to see this! Please review the
-                errors:
+                You should <b>not</b> be able to see this! Please review the errors:
               </p>
               <Debug data={parsedErrors} noSpaceAbove />
             </Expandable>
