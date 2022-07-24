@@ -19,11 +19,19 @@ export const SmartLink = ({
 }: SmartLinkProps) => {
   const router = useRouter();
   const path = router.asPath.split("?")[0];
+
+  const isMatch = path.startsWith(href as string);
+  const isExactMatch = path === href;
+
+  console.log({ href, isMatch, isExactMatch });
+
+  const showActiveClass = exactPath && isExactMatch;
+
   const className = clsx(
     {
       underline,
-      [`${activeClassName}`]: exactPath && path === href,
-      [`${activeClassName}`]: !exactPath && path.startsWith(href as string),
+      [`${activeClassName}`]: (!exactPath && isMatch) || (exactPath && isExactMatch),
+      // [`${activeClassName}`]: !exactPath && path.startsWith(href as string),
     },
     props.className
   );

@@ -86,7 +86,11 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
         {sidebarLinks.map((link) => {
           return (
             <div key={link.href}>
-              <SidebarLink href={link.href} title={link.text}></SidebarLink>
+              <SidebarLink
+                href={link.href}
+                title={link.text}
+                exactPath={link.exactPath}
+              ></SidebarLink>
             </div>
           );
         })}
@@ -110,7 +114,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
       <Spacer size="3xl"></Spacer>
       <Spacer size="3xl"></Spacer>
 
-      <section className="bg-light dark:bg-dark fixed bottom-0 left-0 w-full md:w-72 lg:w-80 ">
+      <section className="bg-light dark:bg-dark border-r dark:border-gray-darkest fixed bottom-0 left-0 w-full md:w-72 lg:w-80 ">
         <Divider />
 
         <div className="p-md flex justify-between items-center">
@@ -138,15 +142,16 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
 interface SidebarLinkProps {
   href: string;
   title: string;
+  exactPath?: boolean;
 }
 
-const SidebarLink = ({ href, title }: SidebarLinkProps) => {
+const SidebarLink = ({ href, title, exactPath = false }: SidebarLinkProps) => {
   return (
     <SmartLink
       href={href}
-      className="block rounded font-semibold text-gray-dark dark:text-gray-light -m-xs p-xs hover:bg-gray-100 dark:hover:bg-gray-900"
+      className="block rounded font-semibold text-gray-dark dark:border-gray-darkest -m-xs p-xs hover:bg-gray-100 dark:hover:bg-gray-900"
       activeClassName="bg-gray-100/70 dark:bg-gray-900/50"
-      exactPath={false}
+      exactPath={exactPath}
     >
       {title}
     </SmartLink>

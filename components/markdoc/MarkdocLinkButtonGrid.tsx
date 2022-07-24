@@ -2,7 +2,6 @@ import { isArray } from "@/lib/utils/is-array";
 import { Link } from "@/types/category";
 import { Children, ReactNode } from "react";
 import { LinkSet } from "../link/LinkSet";
-import { ClientOnly } from "../util/ClientOnly";
 
 /* 
 - Special component
@@ -61,11 +60,6 @@ export const MarkdocLinkButtonGrid = ({
       description,
     };
   });
-
-  // @ts-ignore
-  // children.props.children.forEach((li) => {
-  //   const elem = li.props.children;
-  // });
 
   return <LinkSet links={links} showFull={showFull} />;
 };

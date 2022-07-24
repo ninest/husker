@@ -1,5 +1,5 @@
 export const sidebarLinks = [
-  { text: "Links", href: "/" },
+  { text: "Links", href: "/", exactPath: true },
   { text: "Contacts", href: "/contacts" },
   { text: "About", href: "/about" },
   { text: "Favorites", href: "/favorites" },
