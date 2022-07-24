@@ -149,7 +149,7 @@ const SidebarLink = ({ href, title, exactPath = false }: SidebarLinkProps) => {
   return (
     <SmartLink
       href={href}
-      className="block rounded font-semibold text-gray-dark dark:border-gray-darkest -m-xs p-xs hover:bg-gray-100 dark:hover:bg-gray-900"
+      className="block rounded font-semibold text-gray-dark dark:text-gray dark:border-gray-darkest -m-xs p-xs hover:bg-gray-100 dark:hover:bg-gray-900"
       activeClassName="bg-gray-100/70 dark:bg-gray-900/50"
       exactPath={exactPath}
     >

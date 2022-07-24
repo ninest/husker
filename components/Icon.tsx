@@ -75,7 +75,7 @@ export interface IconProps extends HTMLAttributes<HTMLDivElement> {
 }
 
 export const Icon = ({ id = "filealt", ...props }: IconProps) => {
-  const className = clsx("text-gray", props.className);
+  const className = clsx(props.className);
 
   // if (id == "filealt") return <FaFileAlt className={className} />;
   switch (id) {

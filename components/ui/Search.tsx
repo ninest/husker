@@ -57,7 +57,7 @@ export const Search = () => {
     <>
       <label className="sticky top-md left-0 flex px-md">
         <span className="absolute inset-y-0 left-0 flex items-center pl-8 md:pl-7">
-          <Icon id="search" className="text-gray-light"></Icon>
+          <Icon id="search" className="text-gray-light dark:text-gray-dark"></Icon>
         </span>
         {searchTerm && (
           <button
