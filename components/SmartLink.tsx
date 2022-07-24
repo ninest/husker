@@ -23,15 +23,10 @@ export const SmartLink = ({
   const isMatch = path.startsWith(href as string);
   const isExactMatch = path === href;
 
-  console.log({ href, isMatch, isExactMatch });
-
-  const showActiveClass = exactPath && isExactMatch;
-
   const className = clsx(
     {
       underline,
       [`${activeClassName}`]: (!exactPath && isMatch) || (exactPath && isExactMatch),
-      // [`${activeClassName}`]: !exactPath && path.startsWith(href as string),
     },
     props.className
   );

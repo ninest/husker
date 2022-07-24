@@ -22,7 +22,7 @@ export const ContactDetail = ({ contact }: ContactDetailProps) => {
             <div className="bg-gray-50 dark:bg-gray-900 rounded-md">
               <Disclosure.Button className="p-md w-full hover:bg-gray-100 dark:hover:bg-gray-darkest rounded-md">
                 <div className="flex items-center justify-between">
-                  <div className="text-left font-semibold text-lg text-gray-dark">
+                  <div className="text-left font-semibold text-lg text-gray-dark dark:text-gray-light">
                     {contact.name}
                   </div>
                   <div>
@@ -43,7 +43,7 @@ export const ContactDetail = ({ contact }: ContactDetailProps) => {
                         <>
                           <Button
                             iconLeft={method.type}
-                            className="rounded-full bg-gray-200 hover:bg-gray-300"
+                            className="rounded-full bg-gray-200 hover:bg-gray-300 dark:bg-gray-darkest dark:hover:bg-gray-darker"
                             href={`${hrefPrefix[method.type]}${method.value}`}
                           />
                         </>
@@ -60,8 +60,8 @@ export const ContactDetail = ({ contact }: ContactDetailProps) => {
                       <>
                         <Button
                           iconLeft={method.type}
-                          className="w-full"
-                          variant={method.type == "email" ? "primary" : "gray"}
+                          className="w-full dark:bg-gray-darkest"
+                          variant={"gray"}
                           onClick={() => {
                             copy(method.value, method.type);
                             setJustCopied(method.type);
