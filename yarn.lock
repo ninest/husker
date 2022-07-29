@@ -80,6 +80,11 @@
   resolved "https://registry.yarnpkg.com/@fal-works/esbuild-plugin-global-externals/-/esbuild-plugin-global-externals-2.1.2.tgz#c05ed35ad82df8e6ac616c68b92c2282bd083ba4"
   integrity sha512-cEee/Z+I12mZcFJshKcCqC8tuX5hG3s+d+9nZ3LabqKF1vKdF41B92pJVCBggjAGORAeOzyyDDKrZwIkLffeOQ==
 
+"@formkit/auto-animate@^1.0.0-beta.1":
+  version "1.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@formkit/auto-animate/-/auto-animate-1.0.0-beta.1.tgz#aec5fd2ea5e499ceb7eb117c7fd1217a7f100748"
+  integrity sha512-I3OWOBaPZKSJL4bsooXI8kC3q7bcgibD2oML0P/Lir6MnbvUe/0/7EH8br024juvM/Ulm9C9xGx9CJUQYrOWSA==
+
 "@headlessui/react@^1.6.6":
   version "1.6.6"
   resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-1.6.6.tgz#3073c066b85535c9d28783da0a4d9288b5354d0c"

@@ -1,21 +1,16 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { Button } from "@/components/button/Button";
-import { ClientOnly } from "@/components/util/ClientOnly";
-import { Debug } from "@/components/util/Debug";
 import { FormField } from "@/components/form/FormField";
 import { FormSelect, FormSelectProps } from "@/components/form/FormSelect";
-import { Spacer } from "@/components/util/Spacer";
 import { Title } from "@/components/Title";
+import { ClientOnly } from "@/components/util/ClientOnly";
+import { Debug } from "@/components/util/Debug";
+import { Spacer } from "@/components/util/Spacer";
 import { showToast } from "@/components/util/Toast";
-import {
-  themes,
-  useSecretSettings,
-  useSettings,
-  useTheme,
-} from "@/hooks/settings";
+import { themes, useSecretSettings, useSettings, useTheme } from "@/hooks/settings";
 import { IconId, iconMap } from "@/types/icon";
+import { useAutoAnimate } from "@formkit/auto-animate/react";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useEffect } from "react";
 import { useFieldArray, useForm } from "react-hook-form";
 import { z } from "zod";
 
@@ -45,17 +40,17 @@ const SettingsPage = () => {
   const { secretSettingsEnabled } = useSecretSettings();
   const { setTheme } = useTheme();
 
-  const { handleSubmit, control, watch, getValues, setValue, reset } =
-    useForm<SettingsForm>({
-      defaultValues: {
-        theme: settings.theme,
-        favoritesEnabled: settings.favoritesEnabled,
-        favorites: settings.favorites,
-        secretSettings: settings.secretSettings,
-      },
-      resolver: zodResolver(settingsFormSchema),
-    });
+  const { handleSubmit, control, watch, getValues, setValue, reset } = useForm<SettingsForm>({
+    defaultValues: {
+      theme: settings.theme,
+      favoritesEnabled: settings.favoritesEnabled,
+      favorites: settings.favorites,
+      secretSettings: settings.secretSettings,
+    },
+    resolver: zodResolver(settingsFormSchema),
+  });
 
+  const [parent] = useAutoAnimate<HTMLElement>();
   const { fields, append, remove, swap } = useFieldArray({
     control,
     name: "favorites",
@@ -67,13 +62,11 @@ const SettingsPage = () => {
     showToast({ text: "Settings saved" });
   });
 
-  const availableIcons: FormSelectProps["options"] = Object.keys(iconMap).map(
-    (iconKey) => ({
-      value: iconKey as IconId,
-      icon: iconKey as IconId,
-      label: iconKey,
-    })
-  );
+  const availableIcons: FormSelectProps["options"] = Object.keys(iconMap).map((iconKey) => ({
+    value: iconKey as IconId,
+    icon: iconKey as IconId,
+    label: iconKey,
+  }));
 
   const { favoritesEnabled } = watch();
 
@@ -130,68 +123,63 @@ const SettingsPage = () => {
 
               {!favoritesEnabled && (
                 <p className="text-gray">
-                  Favorites are <b>not</b> enabled, so they will <b>not</b> be
-                  displayed on the links page.
+                  Favorites are <b>not</b> enabled, so they will <b>not</b> be displayed on the
+                  links page.
                 </p>
               )}
 
               <Spacer size="0.5" />
-              {fields.map((field, index) => (
-                <div
-                  key={field.id}
-                  className="p-base rounded-md border dark:border-gray-800 space-y-base"
-                >
-                  <div className="flex flex-col md:flex-row md:items-center space-y-base md:space-x-base md:space-y-0">
-                    <FormSelect
-                      control={control}
-                      name={`favorites.${index}.icon`}
-                      label={"Icon"}
-                      options={availableIcons}
-                      className="w-full"
-                      wrapperClassName="w-full md:w-32 flex-none"
-                      dropdownClassName="md:w-[150%]"
-                    />
+
+              <section ref={parent} className="space-y-sm">
+                {fields.map((field, index) => (
+                  <div
+                    key={field.id}
+                    className="p-base rounded-md border dark:border-gray-800 space-y-base"
+                  >
+                    <div className="flex flex-col md:flex-row md:items-center space-y-base md:space-x-base md:space-y-0">
+                      <FormSelect
+                        control={control}
+                        name={`favorites.${index}.icon`}
+                        label={"Icon"}
+                        options={availableIcons}
+                        className="w-full"
+                        wrapperClassName="w-full md:w-32 flex-none"
+                        dropdownClassName="md:w-[150%]"
+                      />
+                      <FormField
+                        control={control}
+                        name={`favorites.${index}.name`}
+                        label="Name"
+                        wrapperClassName="flex-1"
+                      />
+                    </div>
+                    <FormField control={control} name={`favorites.${index}.href`} label="URL" />
                     <FormField
                       control={control}
-                      name={`favorites.${index}.name`}
-                      label="Name"
-                      wrapperClassName="flex-1"
+                      name={`favorites.${index}.description`}
+                      label="Description"
                     />
-                  </div>
-                  <FormField
-                    control={control}
-                    name={`favorites.${index}.href`}
-                    label="URL"
-                  />
-                  <FormField
-                    control={control}
-                    name={`favorites.${index}.description`}
-                    label="Description"
-                  />
 
-                  <div className="flex justify-end items-center space-x-base">
-                    <Button
-                      size="sm"
-                      iconLeft="trash"
-                      onClick={() => remove(index)}
-                    />
-                    {index !== 0 && (
-                      <Button
-                        size="sm"
-                        iconLeft="caretup"
-                        onClick={() => swap(index, index - 1)}
-                      />
-                    )}
-                    {index !== fields.length - 1 && (
-                      <Button
-                        size="sm"
-                        iconLeft="caretdown"
-                        onClick={() => swap(index, index + 1)}
-                      />
-                    )}
+                    <div className="flex justify-end items-center space-x-base">
+                      <Button size="sm" iconLeft="trash" onClick={() => remove(index)} />
+                      {index !== 0 && (
+                        <Button
+                          size="sm"
+                          iconLeft="caretup"
+                          onClick={() => swap(index, index - 1)}
+                        />
+                      )}
+                      {index !== fields.length - 1 && (
+                        <Button
+                          size="sm"
+                          iconLeft="caretdown"
+                          onClick={() => swap(index, index + 1)}
+                        />
+                      )}
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </section>
 
               <div className="flex">
                 <Button

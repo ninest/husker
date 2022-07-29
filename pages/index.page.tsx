@@ -46,6 +46,7 @@ const IndexPage = () => {
                   title={"Favorites"}
                   moreInfoHref={`/favorites`}
                   links={favoriteLinks}
+                  animate
                 />
                 {favoriteLinks.length == 0 && <NoFavorites />}
               </div>

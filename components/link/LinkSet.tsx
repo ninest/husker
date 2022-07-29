@@ -1,11 +1,10 @@
 import { SmartLink } from "@/components/SmartLink";
 import { Title } from "@/components/Title";
 import { Link } from "@/types/category";
-import { Icon } from "../Icon";
-import { LinkButtonGrid } from "./LinkButton";
-import { Spacer } from "../util/Spacer";
 import { Divider } from "../Divider";
-import { Button } from "../button/Button";
+import { Icon } from "../Icon";
+import { Spacer } from "../util/Spacer";
+import { LinkButtonGrid } from "./LinkButton";
 
 interface LinkSetProps {
   title?: string;
@@ -14,6 +13,7 @@ interface LinkSetProps {
   pages?: Link[];
   showTitle?: boolean;
   showFull?: boolean;
+  animate?: boolean;
 }
 
 export const LinkSet = ({
@@ -23,16 +23,14 @@ export const LinkSet = ({
   pages,
   showTitle = false,
   showFull = false,
+  animate = false,
 }: LinkSetProps) => {
   return (
     <section>
       {showTitle && title && (
         /* Show the more info caret only if the title is shown */
         <>
-          <SmartLink
-            href={moreInfoHref!}
-            className="flex items-center justify-between space-x-xs"
-          >
+          <SmartLink href={moreInfoHref!} className="flex items-center justify-between space-x-xs">
             <Title level={3} weightClassName="font-black">
               {title}
             </Title>
@@ -46,7 +44,7 @@ export const LinkSet = ({
         </>
       )}
 
-      <LinkButtonGrid links={links} showDescription={showFull} />
+      <LinkButtonGrid links={links} showDescription={showFull} animate={animate} />
 
       {/* Show divider line + extra links if `pages` is provided */}
       {showFull && pages && pages.length > 0 && (
@@ -54,7 +52,7 @@ export const LinkSet = ({
           <Spacer size="lg"></Spacer>
           <Divider />
           <Spacer size="lg"></Spacer>
-          <LinkButtonGrid links={pages} showDescription={showFull} />
+          <LinkButtonGrid links={pages} showDescription={showFull} animate={animate} />
         </>
       )}
     </section>

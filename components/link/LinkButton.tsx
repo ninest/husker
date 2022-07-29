@@ -4,6 +4,7 @@ import { useFavorites, useTheme } from "@/hooks/settings";
 import { copy } from "@/lib/utils/copy";
 import { Link } from "@/types/category";
 import { IconId } from "@/types/icon";
+import { useAutoAnimate } from "@formkit/auto-animate/react";
 import * as ContextMenu from "@radix-ui/react-context-menu";
 import clsx from "clsx";
 import { Icon } from "../Icon";
@@ -73,8 +74,7 @@ export const LinkButton = ({
       className={clsx("rounded-md transition-colors", {
         ["bg-gray-50 hover:bg-gray-100 border border-gray-50 dark:border-gray-800 dark:bg-gray-900 dark:hover:bg-gray-800 dark:shadow"]:
           variant == "default",
-        "bg-gradient-to-r from-warning-lightest to-warning-lighter":
-          variant == "warning",
+        "bg-gradient-to-r from-warning-lightest to-warning-lighter": variant == "warning",
       })}
     >
       <ContextMenu.Root>
@@ -87,7 +87,9 @@ export const LinkButton = ({
             <Icon id={link.icon} className="flex-none text-sm"></Icon>
 
             <div>
-              <div className="font-semibold text-sm text-gray dark:text-gray-light">{link.name}</div>
+              <div className="font-semibold text-sm text-gray dark:text-gray-light">
+                {link.name}
+              </div>
               {showDescription && (
                 <>
                   <Spacer size="xs"></Spacer>
@@ -129,14 +131,18 @@ export const LinkButton = ({
 interface LinkButtonGridProps {
   links: Link[];
   showDescription?: boolean;
+  animate?: boolean;
 }
 
 export const LinkButtonGrid = ({
   links,
   showDescription = false,
+  animate = false,
 }: LinkButtonGridProps) => {
+  const [parent] = useAutoAnimate<HTMLDivElement>();
   return (
     <div
+      ref={animate ? parent : null}
       className="grid grid-cols-2 lg:grid-cols-3 gap-md"
       style={{ minWidth: 0, minHeight: 0 }}
     >

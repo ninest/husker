@@ -1,6 +1,7 @@
 import { LinkButton } from "@/components/link/LinkButton";
 import { search } from "@/lib/search";
 import { Link } from "@/types/category";
+import { useAutoAnimate } from "@formkit/auto-animate/react";
 import { useEffect, useRef, useState } from "react";
 import { Icon } from "../Icon";
 import { Spacer } from "../util/Spacer";
@@ -28,9 +29,7 @@ export const Search = () => {
   const [focused, setFocused] = useState(false);
 
   const onKeyPress = (e: KeyboardEvent) => {
-    const textInputFocused = ["INPUT", "TEXTAREA"].includes(
-      document.activeElement?.tagName ?? ""
-    );
+    const textInputFocused = ["INPUT", "TEXTAREA"].includes(document.activeElement?.tagName ?? "");
     if (textInputFocused) return;
 
     if (e.key === "/") {
@@ -86,9 +85,7 @@ export const Search = () => {
 
       {focused && !shouldSearch() && (
         <div className="mt-base px-md">
-          <p className="text-sm text-gray">
-            Try searching for pages, courses, and professors.
-          </p>
+          <p className="text-sm text-gray">Try searching for pages, courses, and professors.</p>
         </div>
       )}
 
@@ -97,17 +94,11 @@ export const Search = () => {
           {searchResults.length > 0 || courseResults.length > 0 ? (
             <>
               <Spacer></Spacer>
-              <div className="px-md pb-sm text-sm text-gray">
-                Search results
-              </div>
+              <div className="px-md pb-sm text-sm text-gray">Search results</div>
               <div className="px-md flex flex-col space-y-sm">
                 {[...searchResults, ...courseResults].map((link) => {
                   return (
-                    <LinkButton
-                      key={link.href}
-                      link={link}
-                      showDescription={!!link.description}
-                    ></LinkButton>
+                    <LinkButton key={link.href} link={link} showDescription={!!link.description} />
                   );
                 })}
               </div>
