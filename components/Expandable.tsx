@@ -1,5 +1,6 @@
 import { useTheme } from "@/hooks/settings";
 import { IconId } from "@/types/icon";
+import { useAutoAnimate } from "@formkit/auto-animate/react";
 import { Disclosure } from "@headlessui/react";
 import clsx from "clsx";
 import { HTMLAttributes } from "react";
@@ -20,6 +21,7 @@ export const Expandable = ({
   open = false,
   children,
 }: ExpandableProps) => {
+  const [parent] = useAutoAnimate<HTMLDivElement>();
   return (
     <div
       className={clsx(
@@ -31,6 +33,7 @@ export const Expandable = ({
         },
         "rounded-md"
       )}
+      ref={parent}
     >
       <Disclosure defaultOpen={open}>
         {({ open }) => (
@@ -47,10 +50,7 @@ export const Expandable = ({
               <div className="flex items-center">
                 <Icon
                   id={icon}
-                  className={clsx(
-                    "mr-base flex-none",
-                    "text-gray-darkest dark:text-gray-light"
-                  )}
+                  className={clsx("mr-base flex-none", "text-gray-darkest dark:text-gray-light")}
                 ></Icon>
                 <div
                   className={clsx(
