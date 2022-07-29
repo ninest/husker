@@ -61,6 +61,8 @@ module.exports = {
           light: colors.orange[300],
           DEFAULT: colors.orange[500],
           dark: colors.orange[700],
+          darker: colors.orange[800],
+          darkest: colors.orange[900],
         },
       },
     },

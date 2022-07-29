@@ -27,7 +27,7 @@ export const MutedButton = ({
 }: MutedButtonProps) => {
   const className = clsx(
     props.className,
-    "rounded-md font-semibold text-gray-light -m-xs p-xs hover:bg-gray-50 dark:hover:bg-gray-900 hover:underline",
+    "rounded-md font-semibold text-gray-dark dark:text-gray-light -m-xs p-xs hover:bg-gray-50 dark:hover:bg-gray-900 hover:underline",
     {
       "text-sm": size === "sm" || size === "xs",
       "text-base ": size === "base",
@@ -41,7 +41,7 @@ export const MutedButton = ({
       {icon ? (
         <Icon
           id={icon}
-          className={clsx("text-gray-lighter text-xs", { "mr-sm": children })}
+          className={clsx("text-gray dark:text-gray-lighter text-xs", { "mr-sm": children })}
         />
       ) : null}
       {children && <div>{children}</div>}

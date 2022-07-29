@@ -72,7 +72,7 @@ export const LinkButton = ({
   return (
     <div
       className={clsx("rounded-md transition-colors", {
-        ["bg-gray-50 hover:bg-gray-100 border border-gray-50 dark:border-gray-800 dark:bg-gray-900 dark:hover:bg-gray-800 dark:shadow"]:
+        ["bg-gray-50 hover:bg-gray-100 border border-gray-100 dark:border-gray-800 dark:bg-gray-900 dark:hover:bg-gray-800 dark:shadow"]:
           variant == "default",
         "bg-gradient-to-r from-warning-lightest to-warning-lighter": variant == "warning",
       })}
