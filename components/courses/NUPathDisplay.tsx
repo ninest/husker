@@ -1,5 +1,5 @@
 import { nuPath, NUPath } from "@/types/courses";
-import { Icon } from "./Icon";
+import { Icon } from "../Icon";
 
 interface NUPathDisplayProps {
   path: NUPath[];

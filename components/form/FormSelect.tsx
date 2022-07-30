@@ -1,7 +1,7 @@
 import { IconId } from "@/types/icon";
 import { Listbox } from "@headlessui/react";
 import clsx from "clsx";
-import { SelectHTMLAttributes, useState } from "react";
+import { SelectHTMLAttributes } from "react";
 import { useController } from "react-hook-form";
 import { Icon } from "../Icon";
 import { Spacer } from "../util/Spacer";
@@ -9,8 +9,7 @@ import { FormDescription } from "./FormDescription";
 import { FormError } from "./FormError";
 import { FormLabel } from "./FormLabel";
 
-export interface FormSelectProps
-  extends SelectHTMLAttributes<HTMLSelectElement> {
+export interface FormSelectProps extends SelectHTMLAttributes<HTMLSelectElement> {
   control: any;
   name: string;
   label?: string;
@@ -37,9 +36,7 @@ export const FormSelect = ({
     fieldState: { error },
   } = useController({ name, control });
 
-  const valueSelectedLabel = options.find(
-    (option) => option.value == field.value
-  )?.label;
+  const valueSelectedLabel = options.find((option) => option.value == field.value)?.label;
 
   return (
     <fieldset className={clsx(wrapperClassName, "relative")}>
@@ -59,10 +56,7 @@ export const FormSelect = ({
 
       <Listbox value={field.value} onChange={field.onChange}>
         <Listbox.Button
-          className={clsx(
-            className,
-            "flex form-input justify-between items-center"
-          )}
+          className={clsx(className, "flex form-input justify-between items-center")}
         >
           <div>{valueSelectedLabel}</div>
           <div>
