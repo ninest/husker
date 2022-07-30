@@ -21,7 +21,7 @@ export const Expandable = ({
   open = false,
   children,
 }: ExpandableProps) => {
-  const [parent] = useAutoAnimate<HTMLDivElement>();
+  const [parent] = useAutoAnimate<HTMLDivElement>({ duration: 100 });
   return (
     <div
       className={clsx(

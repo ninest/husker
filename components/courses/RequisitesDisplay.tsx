@@ -11,11 +11,14 @@ export const RequisitesDisplay = ({ title, reqs }: RequisiteProps) => {
     <div className="flex items-center space-x-base">
       <p className="font-bold">{title}</p>
       <div>
-        {reqs.map((req) => (
-          <Button size="xs" href={`/courses/${req.subject}/${req.number}`}>
-            {req.subject} {req.number}
-          </Button>
-        ))}
+        {reqs.map((req) => {
+          const href = `/courses/${req.subject}/${req.number}`;
+          return (
+            <Button key={href} size="xs" href={href}>
+              {req.subject} {req.number}
+            </Button>
+          );
+        })}
       </div>
     </div>
   );
