@@ -8,6 +8,7 @@ import { favoritesToLinks } from "@/lib/favorites";
 import { MarkdocLinkButtonGrid } from "@/components/markdoc/MarkdocLinkButtonGrid";
 import { Icon } from "@/components/Icon";
 import { SmartLink } from "@/components/SmartLink";
+import { useAutoAnimate } from "@formkit/auto-animate/react";
 
 const IndexPage = () => {
   const {
@@ -15,6 +16,8 @@ const IndexPage = () => {
   } = useSettings();
 
   const favoriteLinks = favoritesToLinks(favorites);
+
+  const [parent] = useAutoAnimate<HTMLDivElement>();
 
   return (
     <>
@@ -37,7 +40,7 @@ const IndexPage = () => {
           </div>
         </Expandable> */}
 
-        <div className="space-y-xl" suppressHydrationWarning>
+        <div ref={parent} className="space-y-xl" suppressHydrationWarning>
           <ClientOnly>
             {favoritesEnabled && (
               <div>
