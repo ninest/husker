@@ -2,6 +2,7 @@ import { Button } from "@/components/button/Button";
 import { hrefPrefix } from "@/content/contacts";
 import { Contact } from "@/types/contact";
 import { copy } from "@/utils/copy";
+import { useAutoAnimate } from "@formkit/auto-animate/react";
 import { Disclosure } from "@headlessui/react";
 import clsx from "clsx";
 import { useState } from "react";
@@ -13,13 +14,14 @@ interface ContactDetailProps {
 
 export const ContactDetail = ({ contact }: ContactDetailProps) => {
   const [justCopied, setJustCopied] = useState<string>("");
+  const [parent] = useAutoAnimate<HTMLDivElement>();
 
   return (
     <>
       <Disclosure>
         {({ open }) => (
           <>
-            <div className="bg-gray-50 dark:bg-gray-900 rounded-md">
+            <div ref={parent} className="bg-gray-50 dark:bg-gray-900 rounded-md">
               <Disclosure.Button className="p-md w-full hover:bg-gray-100 dark:hover:bg-gray-darkest rounded-md">
                 <div className="flex items-center justify-between">
                   <div className="text-left font-semibold text-lg text-gray-dark dark:text-gray-light">
