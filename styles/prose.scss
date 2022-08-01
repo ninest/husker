@@ -1,7 +1,7 @@
 @layer utilities {
   .prose,
   .prose > article {
-    @apply space-y-base leading-8 text-gray-darker dark:text-gray-lighter;
+    @apply space-y-base leading-8 text-gray-darker dark:text-gray-light;
 
     p {
       @apply break-words;
