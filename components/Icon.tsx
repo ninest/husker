@@ -28,6 +28,7 @@ import {
   FaFirefox,
   FaGithub,
   FaGooglePlay,
+  FaGraduationCap,
   FaGripLines,
   FaHandPaper,
   FaHeart,
@@ -214,6 +215,8 @@ export const Icon = ({ id = "filealt", ...props }: IconProps) => {
       return <FaCheck className={className} />;
     case "checkcircle":
       return <FaCheckCircle className={className} />;
+    case "graduationcap":
+      return <FaGraduationCap className={className} />;
 
     default:
       return <FaRegFileAlt className={className} />;

@@ -273,6 +273,13 @@ export const contentMap: Category[] = [
         description: "View total financial aid received",
       },
     ],
+    pages: [
+      {
+        name: "Book appointment",
+        href: "https://service.northeastern.edu/appointments",
+        description: "Book appointment with SFS",
+      },
+    ],
   },
   {
     title: "Housing",
