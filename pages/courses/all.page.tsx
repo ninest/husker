@@ -2,9 +2,8 @@ import { ArticleHead } from "@/components/ArticleHead";
 import { Block } from "@/components/Block";
 import { Debug } from "@/components/util/Debug";
 import { Grid } from "@/components/util/Grid";
-import { readFile } from "@/lib/file/read";
-import { Course, Subject } from "@/types/courses";
-import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from "next";
+import { Subject } from "@/types/courses";
+import { GetStaticProps } from "next";
 import { NextSeo } from "next-seo";
 import subjects from "../../.raw/subjects.json";
 

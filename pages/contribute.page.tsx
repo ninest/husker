@@ -6,7 +6,6 @@ import { SmartLink } from "@/components/SmartLink";
 import { Spacer } from "@/components/util/Spacer";
 import { showToast } from "@/components/util/Toast";
 import { celebrate } from "@/lib/confetti";
-import { submitToContributeForm } from "@/lib/google/form";
 import { server } from "@/lib/trpc";
 import { ContributeForm, contributeFormSchema } from "@/schema/contribute";
 import { zodResolver } from "@hookform/resolvers/zod";

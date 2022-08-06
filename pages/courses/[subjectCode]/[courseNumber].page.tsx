@@ -1,7 +1,10 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { MenuDropdown } from "@/components/button/MenuButton";
-import { Expandable } from "@/components/Expandable";
 import { NUPathDisplay } from "@/components/courses/NUPathDisplay";
+import { PreRequisiteDisplay } from "@/components/courses/PreRequisitesDisplay";
+import { RequisitesDisplay } from "@/components/courses/RequisitesDisplay";
+import { Expandable } from "@/components/Expandable";
+import { QuickContribute } from "@/components/QuickContribute";
 import { Debug } from "@/components/util/Debug";
 import { Spacer } from "@/components/util/Spacer";
 import { showToast } from "@/components/util/Toast";
@@ -15,12 +18,8 @@ import { Frontmatter } from "@/types/page";
 import Markdoc from "@markdoc/markdoc";
 import { GetStaticPaths, GetStaticProps } from "next";
 import { NextSeo } from "next-seo";
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import subjects from "../../../.raw/subjects.json";
-import { RequisitesDisplay } from "@/components/courses/RequisitesDisplay";
-import { PreRequisiteDisplay } from "@/components/courses/PreRequisitesDisplay";
-import { QuickContribute } from "@/components/QuickContribute";
 
 interface Path {
   params: {

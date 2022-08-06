@@ -7,7 +7,6 @@ import { Spacer } from "@/components/util/Spacer";
 import { showToast } from "@/components/util/Toast";
 import { useFavorites, useSettings } from "@/hooks/settings";
 import { favoritesToLinks } from "@/lib/favorites";
-
 import { NextSeo } from "next-seo";
 import { useRouter } from "next/router";
 import { useEffect } from "react";

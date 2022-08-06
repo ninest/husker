@@ -1,13 +1,10 @@
-import { ClientOnly } from "@/components/util/ClientOnly";
 import { LinkSet } from "@/components/link/LinkSet";
 import { NoFavorites } from "@/components/ui/NoFavorites";
+import { ClientOnly } from "@/components/util/ClientOnly";
 import { Spacer } from "@/components/util/Spacer";
 import { contentMap } from "@/content/map";
 import { useSettings } from "@/hooks/settings";
 import { favoritesToLinks } from "@/lib/favorites";
-import { MarkdocLinkButtonGrid } from "@/components/markdoc/MarkdocLinkButtonGrid";
-import { Icon } from "@/components/Icon";
-import { SmartLink } from "@/components/SmartLink";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 
 const IndexPage = () => {

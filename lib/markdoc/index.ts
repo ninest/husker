@@ -1,5 +1,4 @@
-import { Title } from "@/components/Title";
-import { readFile, readMarkdownFile } from "@/lib/file/read";
+import { readMarkdownFile } from "@/lib/file/read";
 import { headingNode } from "@/lib/markdoc/nodes/heading";
 import { imageNode } from "@/lib/markdoc/nodes/img";
 import { blockTag } from "@/lib/markdoc/tags/block";
