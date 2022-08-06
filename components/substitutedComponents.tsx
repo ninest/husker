@@ -38,6 +38,7 @@ export const substitutedComponents = {
       <div className="flex justify-center mobile-full-bleed">
         <Image
           {...props}
+          alt={props.alt}
           src={src}
           className="md:rounded bg-gray-lightest"
         ></Image>

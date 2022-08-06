@@ -241,9 +241,9 @@ const CoursePage = ({ subject, course, frontmatter, content, errors }: CoursePag
             )}
 
             <div className="prose">{renderedContent}</div>
-            <Spacer size="xl"></Spacer>
           </>
         )}
+        <Spacer size="xl"></Spacer>
 
         <QuickContribute
           editHref={{

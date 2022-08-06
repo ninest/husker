@@ -12,11 +12,12 @@ export const PreRequisiteDisplay = ({ title, reqItems }: PreRequisiteProps) => {
     <div className="flex items-baseline space-x-base">
       <p className="flex-none font-bold">{title}</p>
       <div className="-mt-xs flex flex-wrap items-baseline">
-        {reqItems.map((reqItem) => {
+        {reqItems.map((reqItem, index) => {
           const marginClassNames = "mr-1 mt-xs";
           if (typeof reqItem === "object")
             return (
               <CourseButton
+                key={index}
                 subject={reqItem.subject}
                 number={reqItem.number}
                 className={marginClassNames}
@@ -25,11 +26,12 @@ export const PreRequisiteDisplay = ({ title, reqItems }: PreRequisiteProps) => {
 
           return (
             <div
+              key={index}
               className={clsx(
                 "font-medium",
                 {
                   // Non course pre-reqs
-                  italic: !["And", "Or"].includes(reqItem),
+                  italic: !["And", "Or", "(", ")"].includes(reqItem),
                   // Show and/or in lower case
                   lowercase: ["And", "Or"].includes(reqItem),
                   // Make brackets bolder
