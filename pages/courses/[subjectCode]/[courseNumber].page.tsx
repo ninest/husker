@@ -19,6 +19,7 @@ import React from "react";
 import { useState } from "react";
 import subjects from "../../../.raw/subjects.json";
 import { RequisitesDisplay } from "@/components/courses/RequisitesDisplay";
+import { PreRequisiteDisplay } from "@/components/courses/PreRequisitesDisplay";
 
 interface Path {
   params: {
@@ -212,6 +213,10 @@ const CoursePage = ({ subject, course, frontmatter, content, errors }: CoursePag
 
           {course.coreqs && course.coreqs.length > 0 && (
             <RequisitesDisplay title="Co-requisites" reqs={course.coreqs ?? []} />
+          )}
+
+          {course.prereqs && course.prereqs.length > 0 && (
+            <PreRequisiteDisplay title="Pre-Requisites" reqItems={course.prereqs ?? []} />
           )}
         </section>
 
