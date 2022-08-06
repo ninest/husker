@@ -1,5 +1,5 @@
 import { ArticleHead } from "@/components/ArticleHead";
-import { MutedButton } from "@/components/button/MutedButton";
+import { QuickContribute } from "@/components/QuickContribute";
 import { Spacer } from "@/components/util/Spacer";
 import { JSDOM } from "jsdom";
 import { NextSeo } from "next-seo";
@@ -16,8 +16,7 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const html = data.parse.text["*"];
 
   const dom = new JSDOM(html);
-  const content =
-    dom.window.document.getElementsByClassName("mw-parser-output")[0];
+  const content = dom.window.document.getElementsByClassName("mw-parser-output")[0];
 
   // Remove all edit tags
   const editTags = content.querySelectorAll(".mw-editsection");
@@ -78,14 +77,7 @@ const WikiPage = ({ pageId, title, html }: WikiPageProps) => {
         <div className="prose" dangerouslySetInnerHTML={{ __html: html }}></div>
 
         <Spacer size="xl" />
-        <div className="flex flex-col items-start justify-center space-y-xs md:space-y-sm">
-          <MutedButton href={editHref} icon="pen" size="sm">
-            Edit
-          </MutedButton>
-          <MutedButton href={editHref} icon="bug" size="sm">
-            Links broken?
-          </MutedButton>
-        </div>
+        <QuickContribute editHref={editHref} fixLinksHref={editHref} />
       </article>
     </>
   );

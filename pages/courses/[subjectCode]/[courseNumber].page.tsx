@@ -20,6 +20,7 @@ import { useState } from "react";
 import subjects from "../../../.raw/subjects.json";
 import { RequisitesDisplay } from "@/components/courses/RequisitesDisplay";
 import { PreRequisiteDisplay } from "@/components/courses/PreRequisitesDisplay";
+import { QuickContribute } from "@/components/QuickContribute";
 
 interface Path {
   params: {
@@ -184,31 +185,34 @@ const CoursePage = ({ subject, course, frontmatter, content, errors }: CoursePag
           <NUPathDisplay path={course.nuPath} />
 
           {showDescription && (
-            <div
-              className="text-gray text-sm"
-              onClick={() => setShowFullDescription(!showFullDescription)}
-            >
-              {showFullDescription ? (
-                <ul className="list-outside list-disc ml-lg">
-                  {descriptionList.map((sentence, index) => (
-                    <li key={index}>{sentence}</li>
-                  ))}
-                </ul>
-              ) : (
-                <>
-                  {descriptionList.slice(0, 1).map((sentence, index) => (
-                    <span key={index}>{sentence}</span>
-                  ))}
-                  {/* Only show "show all" if the description has more than 1 line */}
-                  {descriptionList.length > 1 && (
-                    <span>
-                      {" "}
-                      <i>Show more.</i>
-                    </span>
-                  )}
-                </>
-              )}
-            </div>
+            <>
+              <div
+                className="text-gray text-sm"
+                onClick={() => setShowFullDescription(!showFullDescription)}
+              >
+                {showFullDescription ? (
+                  <ul className="list-outside list-disc ml-lg">
+                    {descriptionList.map((sentence, index) => (
+                      <li key={index}>{sentence}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <>
+                    {descriptionList.slice(0, 1).map((sentence, index) => (
+                      <span key={index}>{sentence}</span>
+                    ))}
+                    {/* Only show "show all" if the description has more than 1 line */}
+                    {descriptionList.length > 1 && (
+                      <span>
+                        {" "}
+                        <i>Show more.</i>
+                      </span>
+                    )}
+                  </>
+                )}
+              </div>
+              <Spacer />
+            </>
           )}
 
           {course.coreqs && course.coreqs.length > 0 && (
@@ -241,6 +245,17 @@ const CoursePage = ({ subject, course, frontmatter, content, errors }: CoursePag
             <Spacer size="xl"></Spacer>
           </>
         )}
+
+        <QuickContribute
+          editHref={{
+            pathname: "/contribute",
+            query: { name: shortName },
+          }}
+          fixLinksHref={{
+            pathname: "/contribute",
+            query: { name: shortName, fixLinks: true },
+          }}
+        />
 
         <Debug data={course} />
       </div>

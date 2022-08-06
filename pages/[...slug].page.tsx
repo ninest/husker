@@ -1,7 +1,7 @@
 import { ArticleHead } from "@/components/ArticleHead";
-import { MutedButton } from "@/components/button/MutedButton";
 import { Expandable } from "@/components/Expandable";
 import { LinkSet } from "@/components/link/LinkSet";
+import { QuickContribute } from "@/components/QuickContribute";
 import { Debug } from "@/components/util/Debug";
 import { Spacer } from "@/components/util/Spacer";
 import { dorms } from "@/content/housing";
@@ -134,28 +134,16 @@ const ContentPage = ({
           </>
         )}
 
-        <div className="flex flex-col items-start justify-center space-y-xs md:space-y-sm">
-          <MutedButton
-            href={{
-              pathname: "/contribute",
-              query: { name: frontmatter.title },
-            }}
-            icon="pen"
-            size="sm"
-          >
-            Edit
-          </MutedButton>
-          <MutedButton
-            href={{
-              pathname: "/contribute",
-              query: { name: frontmatter.title, fixLinks: true },
-            }}
-            icon="bug"
-            size="sm"
-          >
-            Links broken?
-          </MutedButton>
-        </div>
+        <QuickContribute
+          editHref={{
+            pathname: "/contribute",
+            query: { name: frontmatter.title },
+          }}
+          fixLinksHref={{
+            pathname: "/contribute",
+            query: { name: frontmatter.title, fixLinks: true },
+          }}
+        />
       </div>
     </>
   );

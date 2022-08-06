@@ -26,7 +26,7 @@ const themeColors: Record<ButtonVariant, string> = {
 const fontSizes: Record<Size, string> = {
   0.5: "",
   1: "",
-  xs: "text-sm",
+  xs: "text-xs",
   sm: "text-sm",
   base: "text-base",
   md: "text-lg",
@@ -82,7 +82,7 @@ export const Button = ({
     // Use negative margin + margin for ghost button
     {
       [clsx(padding[size])]: variant != "ghost",
-      "-m-xs p-xs hover:bg-gray-900": variant == "ghost",
+      "-m-xs p-xs hover:bg-gray-50 dark:hover:bg-gray-900 hover:underline": variant == "ghost",
     },
     "flex items-center justify-center space-x-base"
   );

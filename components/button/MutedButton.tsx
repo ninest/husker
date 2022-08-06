@@ -1,10 +1,9 @@
-import { useTheme } from "@/hooks/settings";
+import { Icon } from "@/components/Icon";
+import { SmartLink, SmartLinkProps } from "@/components/SmartLink";
 import { IconId } from "@/types/icon";
 import { Size } from "@/types/size";
 import clsx from "clsx";
 import { HTMLAttributes, ReactNode } from "react";
-import { Icon } from "@/components/Icon";
-import { SmartLink, SmartLinkProps } from "@/components/SmartLink";
 
 interface MutedButtonProps extends HTMLAttributes<HTMLButtonElement> {
   icon?: IconId;

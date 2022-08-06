@@ -1,8 +1,8 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { Button } from "@/components/button/Button";
-import { ClientOnly } from "@/components/util/ClientOnly";
 import { LinkSet } from "@/components/link/LinkSet";
 import { NoFavorites } from "@/components/ui/NoFavorites";
+import { ClientOnly } from "@/components/util/ClientOnly";
 import { Spacer } from "@/components/util/Spacer";
 import { showToast } from "@/components/util/Toast";
 import { useFavorites, useSettings } from "@/hooks/settings";
@@ -11,7 +11,6 @@ import { favoritesToLinks } from "@/lib/favorites";
 import { NextSeo } from "next-seo";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
-import { MutedButton } from "@/components/button/MutedButton";
 
 const FavoritesPage = () => {
   const {
@@ -47,9 +46,9 @@ const FavoritesPage = () => {
             </>
           )}
           <div className="flex flex-col items-start justify-center space-y-xs md:space-y-sm">
-            <MutedButton href={"/settings"} icon="pen" size="sm">
+            <Button href={"/settings"} iconLeft="pen" size="sm" variant="ghost">
               Edit
-            </MutedButton>
+            </Button>
           </div>
           <Spacer size="md" />
           <LinkSet showTitle={false} showFull links={favoriteLinks} />
