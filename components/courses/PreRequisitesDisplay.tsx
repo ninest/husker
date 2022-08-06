@@ -1,6 +1,6 @@
 import { PrerequisiteItem } from "@/types/courses";
 import clsx from "clsx";
-import { Button } from "../button/Button";
+import { CourseButton } from "../button/CourseButton";
 
 interface PreRequisiteProps {
   title: string;
@@ -14,14 +14,14 @@ export const PreRequisiteDisplay = ({ title, reqItems }: PreRequisiteProps) => {
       <div className="-mt-xs flex flex-wrap items-baseline">
         {reqItems.map((reqItem) => {
           const marginClassNames = "mr-1 mt-xs";
-          if (typeof reqItem === "object") {
-            const href = `/courses/${reqItem.subject}/${reqItem.number}`;
+          if (typeof reqItem === "object")
             return (
-              <Button key={href} size="xs" href={href} className={marginClassNames}>
-                {reqItem.subject} {reqItem.number}
-              </Button>
+              <CourseButton
+                subject={reqItem.subject}
+                number={reqItem.number}
+                className={marginClassNames}
+              />
             );
-          }
 
           return (
             <div
@@ -29,7 +29,7 @@ export const PreRequisiteDisplay = ({ title, reqItems }: PreRequisiteProps) => {
                 "font-medium",
                 {
                   // Non course pre-reqs
-                  "italic": !["And", "Or"].includes(reqItem),
+                  italic: !["And", "Or"].includes(reqItem),
                   // Show and/or in lower case
                   lowercase: ["And", "Or"].includes(reqItem),
                   // Make brackets bolder
