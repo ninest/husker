@@ -1,7 +1,7 @@
 /* 
 !! KEEP IN SYNC WITH !!
-https://github.com/ninest/nu-course/blob/main/banner/types.ts
- */
+https://github.com/ninest/nu-course/blob/main/types.ts
+*/
 
 export const campuses = ["nu", "cps", "law"] as const;
 export type Campus = typeof campuses[number];
@@ -27,6 +27,7 @@ export interface Course {
 
   description?: string;
   coreqs?: Requisite[];
+  prereqs?: PrerequisiteItem[];
 
   // This can change during the semester if a section is added
   sections: {
@@ -35,6 +36,7 @@ export interface Course {
   }[];
 }
 export type Requisite = Pick<Course, "subject" | "number">;
+export type PrerequisiteItem = "Or" | "And" | "(" | ")" | Requisite | string;
 
 // To be used in combine courses, only containing required data
 export type MinimizedCourse = Pick<Course, "subject" | "number" | "title">;
