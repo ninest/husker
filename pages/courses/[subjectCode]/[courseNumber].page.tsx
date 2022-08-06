@@ -211,7 +211,7 @@ const CoursePage = ({ subject, course, frontmatter, content, errors }: CoursePag
                   </>
                 )}
               </div>
-              <Spacer />
+              {/* <Spacer /> */}
             </>
           )}
 
