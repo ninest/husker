@@ -9,7 +9,7 @@ interface RequisiteProps {
 export const RequisitesDisplay = ({ title, reqs }: RequisiteProps) => {
   return (
     <div className="flex items-center space-x-base">
-      <p className="font-bold">{title}</p>
+      <p className="font-medium">{title}</p>
       <div>
         {reqs.map((req, index) => (
           <CourseButton key={index} subject={req.subject} number={req.number} />

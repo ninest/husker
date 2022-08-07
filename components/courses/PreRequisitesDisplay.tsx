@@ -10,7 +10,7 @@ interface PreRequisiteProps {
 export const PreRequisiteDisplay = ({ title, reqItems }: PreRequisiteProps) => {
   return (
     <div className="flex items-baseline space-x-base">
-      <p className="flex-none font-bold">{title}</p>
+      <p className="flex-none font-medium">{title}</p>
       <div className="-mt-xs flex flex-wrap items-baseline">
         {reqItems.map((reqItem, index) => {
           const marginClassNames = "mr-1 mt-xs";
