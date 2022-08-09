@@ -1,4 +1,5 @@
 import { SectionsResponse } from "@/api/sections";
+import { stringTimeToTime } from "@/lib/courses";
 import { DayTable } from "./DayTable";
 
 interface SectionProps {
@@ -14,7 +15,14 @@ export const Section = ({ section }: SectionProps) => {
         </h4>
         <p className="font-mono text-sm">{section.crn}</p>
       </div>
-      <DayTable days={section.facultyMeetTime.meetingTime.days} />
+      <div className="flex items-center space-x-base">
+        <DayTable days={section.facultyMeetTime.meetingTime.days} />
+
+        <div className="font-mono text-sm">
+          {stringTimeToTime(section.facultyMeetTime.meetingTime.time.start)}-
+          {stringTimeToTime(section.facultyMeetTime.meetingTime.time.end)}
+        </div>
+      </div>
     </div>
   );
 };
