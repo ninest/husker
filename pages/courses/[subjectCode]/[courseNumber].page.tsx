@@ -6,6 +6,7 @@ import { QuickContribute } from "@/components/QuickContribute";
 import { Debug } from "@/components/util/Debug";
 import { Spacer } from "@/components/util/Spacer";
 import { showToast } from "@/components/util/Toast";
+import { useSections } from "@/hooks/sections";
 import { fileExists } from "@/lib/file/exists";
 import { readFile } from "@/lib/file/read";
 import { getMarkdocPage } from "@/lib/markdoc";
@@ -88,9 +89,7 @@ interface CoursePageProps {
 
 const CoursePage = ({ subject, course, frontmatter, content, errors }: CoursePageProps) => {
   const shortName = `${subject.code} ${course.number}`;
-
   const creditsDisplay = `${course.credits} credit${course.credits == 1 ? "" : "s"}`;
-
   const addOptions = [
     {
       icon: "checkcircle",
@@ -128,6 +127,8 @@ const CoursePage = ({ subject, course, frontmatter, content, errors }: CoursePag
       })
     : null;
   const parsedErrors = errors ? JSON.parse(errors) : null;
+
+  const { sections } = useSections(course.sections);
 
   return (
     <>
@@ -207,7 +208,7 @@ const CoursePage = ({ subject, course, frontmatter, content, errors }: CoursePag
           }}
         />
 
-        <Debug data={course} />
+        <Debug data={{ sections, course }} />
       </div>
     </>
   );
