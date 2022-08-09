@@ -79,9 +79,8 @@ export interface SectionInfo {
 }
 
 // Contains professor and meeting times for a particular section
-export interface FacultyMeetingTime {
+export interface FacultyMeetingTime extends MeetingTime {
   faculty: Professor[];
-  meetingTime: MeetingTime;
 }
 
 export interface Professor {
@@ -100,20 +99,16 @@ export const daysOfWeek = [
 export type DayOfWeek = typeof daysOfWeek[number];
 
 export interface MeetingTime {
-  time: {
-    start: string;
-    end: string;
+  startTime: string;
+  endTime: string;
+  campus: {
+    code: string;
+    description: string;
   };
-  location: {
-    campus: {
-      code: string;
-      description: string;
-    };
-    building: {
-      code: string;
-      description: string;
-      room: string;
-    };
+  building: {
+    code: string;
+    description: string;
+    room: string;
   };
   online: boolean;
   days: DayOfWeek[];
