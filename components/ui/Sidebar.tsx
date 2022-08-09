@@ -61,8 +61,8 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
         </SmartLink>
       </div>
 
-      <Spacer></Spacer>
-      <Search></Search>
+      <Spacer />
+      <Search />
       <Spacer size="md"></Spacer>
       <Divider />
       <Spacer size="md"></Spacer>
