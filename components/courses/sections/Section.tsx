@@ -1,8 +1,6 @@
-import { SectionsResponse } from "@/api/sections";
-import { Spacer } from "@/components/util/Spacer";
 import { useSection } from "@/hooks/sections";
 import { stringTimeToTime } from "@/lib/courses";
-import { Course, SectionInfo } from "@/types/courses";
+import { SectionInfo } from "@/types/courses";
 import clsx from "clsx";
 import { DayTable } from "./DayTable";
 
