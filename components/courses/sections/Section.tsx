@@ -9,9 +9,8 @@ interface SectionProps {
 }
 
 export const Section = ({ section }: SectionProps) => {
-  const showTime =
-    section.facultyMeetTime.meetingTime.time.start && section.facultyMeetTime.meetingTime.time.end;
-  const showCampus = section.facultyMeetTime.meetingTime.location.campus.description !== "Boston";
+  const showTime = section.startTime && section.endTime;
+  const showCampus = section.campus.description !== "Boston";
   const showWaitlist =
     section.seats.waitlist.available !== 0 && section.seats.waitlist.capacity !== 0;
 
@@ -19,32 +18,28 @@ export const Section = ({ section }: SectionProps) => {
     <div className="p-base rounded-lg bg-gray-100 dark:bg-gray-900 space-y-xs">
       <div className="flex items-center justify-between">
         <h4 className="font-medium">
-          {section.facultyMeetTime.faculty.map((professor) => professor.name).join("; ")}
+          {section.faculty.map((professor) => professor.name).join("; ")}
         </h4>
         <p className="font-mono text-sm">{section.crn}</p>
       </div>
 
       <div className="flex flex-col space-y-xs items-start md:items-center md:space-y-0 md:flex-row md:justify-between">
         <div className="flex items-center space-x-base">
-          <DayTable days={section.facultyMeetTime.meetingTime.days} />
+          <DayTable days={section.days} />
 
           {showTime && (
             <div className="font-mono text-sm">
-              {stringTimeToTime(section.facultyMeetTime.meetingTime.time.start)}-
-              {stringTimeToTime(section.facultyMeetTime.meetingTime.time.end)}
+              {stringTimeToTime(section.startTime)}-{stringTimeToTime(section.endTime)}
             </div>
           )}
         </div>
         <div className="text-sm">
-          {section.facultyMeetTime.meetingTime.online ? (
+          {section.online ? (
             "Online"
           ) : (
             <>
-              {section.facultyMeetTime.meetingTime.location.building.description}{" "}
-              {section.facultyMeetTime.meetingTime.location.building.room}
-              {showCampus && (
-                <>, {section.facultyMeetTime.meetingTime.location.campus.description}</>
-              )}
+              {section.building.description} {section.building.room}
+              {showCampus && <>, {section.campus.description}</>}
             </>
           )}
         </div>
