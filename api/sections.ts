@@ -1,6 +1,7 @@
 import { FacultyMeetingTime, Seats, SectionInfo } from "@/types/courses";
 
-interface SectionsResponse {
+// https://github.com/ninest/nu-courses/blob/main/api/types.ts
+export interface SectionsResponse extends SectionInfo {
   facultyMeetTime: FacultyMeetingTime;
   seats: Seats;
 }
