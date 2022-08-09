@@ -1,3 +1,4 @@
+import { Empty } from "@/components/Empty";
 import { useSection } from "@/hooks/sections";
 import { stringTimeToTime } from "@/lib/courses";
 import { SectionInfo } from "@/types/courses";
@@ -78,7 +79,12 @@ export const Section = ({ sectionInfo }: SectionProps) => {
         </>
       ) : (
         <>
-          <div>Loading ...</div>
+          <Empty className="p-base rounded-lg flex items-center justify-center font-medium text-gray h-32">
+            <div className="flex items-center space-x-xs">
+              <span>Loading section</span>
+              <span className="text-sm font-mono">{sectionInfo.crn}</span>
+            </div>
+          </Empty>
         </>
       )}
     </>
