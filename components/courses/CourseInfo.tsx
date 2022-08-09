@@ -3,7 +3,7 @@ import { Course } from "@/types/courses";
 import { useState } from "react";
 import { NUPathDisplay } from "./NUPathDisplay";
 import { RequisiteDisplay } from "./RequisiteDisplay";
-import { SectionsList } from "./SectionsDisplay";
+import { SectionsList } from "./sections/SectionsList";
 
 interface CourseInfoProps {
   course: Course;
