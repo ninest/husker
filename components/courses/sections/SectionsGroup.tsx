@@ -16,7 +16,7 @@ export const SectionsGroup = ({ term, course }: SectionsGroupProps) => {
   const results = useSections(course.sections);
   const totalSections = results.length;
   const totalSectionsWithSeats = results.filter(
-    (result) => result.data?.seats.available ?? 0 > 0
+    (result) => result.data?.seats.available ?? 0 >= 1
   ).length;
 
   const [parent] = useAutoAnimate<HTMLDivElement>({ duration: 100 });
@@ -26,10 +26,10 @@ export const SectionsGroup = ({ term, course }: SectionsGroupProps) => {
       <Disclosure>
         {({ open }) => (
           <>
-            <Disclosure.Button className="w-full flex items-center justify-between bg-primary p-xs rounded-md sticky top-20 md:top-0">
+            <Disclosure.Button className="w-full flex items-center justify-between bg-light dark:bg-dark p-xs border dark:border-gray-800 rounded-lg sticky top-20 md:top-5">
               <div className="flex items-baseline space-x-base">
-                <h3 className="font-bold text-lg text-gray-200">{term.description}</h3>
-                <div className="text-gray-300">
+                <h3 className="font-bold text-lg ">{term.description}</h3>
+                <div className="">
                   <span className="font-mono text-sm">{totalSections}</span>{" "}
                   {pluralize(totalSections, "section")},{" "}
                   <span className="font-mono text-sm">{totalSectionsWithSeats}</span>{" "}
@@ -37,7 +37,7 @@ export const SectionsGroup = ({ term, course }: SectionsGroupProps) => {
                 </div>
               </div>
 
-              <div className="p-0.5 rounded-md bg-primary-darker dark:bg-gray-900 text-gray-400 dark:text-gray-600">
+              <div className="p-0.5 rounded-md bg-gray-100 dark:bg-gray-900 text-gray-400 dark:text-gray-600">
                 <Icon id={open ? "caretup" : "caretdown"} />
               </div>
             </Disclosure.Button>

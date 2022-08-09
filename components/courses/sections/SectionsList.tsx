@@ -9,7 +9,7 @@ interface SectionsListProps {
 export const SectionsList = ({ course }: SectionsListProps) => {
   return (
     <div className="space-y-md">
-      {[...activeTerms, ...activeTerms, ...activeTerms].map((term) => {
+      {activeTerms.map((term) => {
         return <SectionsGroup key={term.code} term={term} course={course} />;
       })}
     </div>
