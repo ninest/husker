@@ -1,5 +1,6 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { MenuDropdown } from "@/components/button/MenuButton";
+import { CourseInfo } from "@/components/courses/CourseInfo";
 import { NUPathDisplay } from "@/components/courses/NUPathDisplay";
 import { PreRequisiteDisplay } from "@/components/courses/PreRequisitesDisplay";
 import { RequisitesDisplay } from "@/components/courses/RequisitesDisplay";
@@ -89,8 +90,6 @@ interface CoursePageProps {
   errors?: string;
 }
 
-/* TODO: add links to reddit, searchneu, course catalog, rate my courses, rate my professor */
-
 const CoursePage = ({ subject, course, frontmatter, content, errors }: CoursePageProps) => {
   const shortName = `${subject.code} ${course.number}`;
 
@@ -125,11 +124,6 @@ const CoursePage = ({ subject, course, frontmatter, content, errors }: CoursePag
       href: `https://searchneu.com/NEU/202310/search/${shortName}`,
     },
   ];
-
-  const [showFullDescription, setShowFullDescription] = useState(false);
-
-  const descriptionList = descriptionToList(course.description ?? "");
-  const showDescription = descriptionList.length > 0;
 
   const containsProse = !!content;
   const renderedContent = content
@@ -181,46 +175,7 @@ const CoursePage = ({ subject, course, frontmatter, content, errors }: CoursePag
             </div>
           </div>
 
-          <NUPathDisplay path={course.nuPath} />
-
-          {showDescription && (
-            <>
-              <div
-                className="text-gray text-sm"
-                onClick={() => setShowFullDescription(!showFullDescription)}
-              >
-                {showFullDescription ? (
-                  <ul className="list-outside list-disc ml-lg">
-                    {descriptionList.map((sentence, index) => (
-                      <li key={index}>{sentence}</li>
-                    ))}
-                  </ul>
-                ) : (
-                  <>
-                    {descriptionList.slice(0, 1).map((sentence, index) => (
-                      <span key={index}>{sentence}</span>
-                    ))}
-                    {/* Only show "show all" if the description has more than 1 line */}
-                    {descriptionList.length > 1 && (
-                      <span>
-                        {" "}
-                        <i>Show more.</i>
-                      </span>
-                    )}
-                  </>
-                )}
-              </div>
-              {/* <Spacer /> */}
-            </>
-          )}
-
-          {course.coreqs && course.coreqs.length > 0 && (
-            <RequisitesDisplay title="Co-requisites" reqs={course.coreqs ?? []} />
-          )}
-
-          {course.prereqs && course.prereqs.length > 0 && (
-            <PreRequisiteDisplay title="Pre-Requisites" reqItems={course.prereqs ?? []} />
-          )}
+          <CourseInfo course={course} />
         </section>
 
         {containsProse && (
