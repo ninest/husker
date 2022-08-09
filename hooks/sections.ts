@@ -1,14 +1,19 @@
-import { getSection, getSections } from "@/api/sections";
+import { getSection } from "@/api/sections";
 import { SectionInfo } from "@/types/courses";
-import { useQuery } from "react-query";
+import { useQueries, useQuery } from "react-query";
 
 export const useSections = (sections: SectionInfo[]) => {
-  // Use `useQueries`?
-  const { data, isLoading, error } = useQuery(["sections", sections], () => getSections(sections));
-  return { sections: data, isLoading, error };
+  const results = useQueries(
+    sections.map((section) => ({
+      queryKey: ["section", section],
+      queryFn: () => getSection(section),
+    }))
+  );
+
+  return results;
 };
 
 export const useSection = (section: SectionInfo) => {
-  const { data, isLoading, error } = useQuery(["sections", section], () => getSection(section));
+  const { data, isLoading, error } = useQuery(["section", section], () => getSection(section));
   return { section: data, isLoading, error };
 };

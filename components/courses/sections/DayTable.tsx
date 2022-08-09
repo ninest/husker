@@ -21,9 +21,8 @@ export const DayTable = ({ days }: DayTableProps) => {
       {daysOfWeek.map((day, index) => {
         const highlighted = days.includes(day);
         return (
-          <div>
+          <div key={index}>
             <div
-              key={index}
               className={clsx("px-xs py-1 font-semibold text-xs md:text-sm", {
                 "rounded bg-gray-300 dark:bg-primary-darker text-gray-600 dark:text-primary-lighter":
                   highlighted,

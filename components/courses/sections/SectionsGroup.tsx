@@ -15,12 +15,11 @@ interface SectionsGroupProps {
 }
 
 export const SectionsGroup = ({ term, course }: SectionsGroupProps) => {
-  const { sections, isLoading } = useSections(course.sections);
-  const sectionsForTerm = sections?.filter((section) => section.term === term.code);
-
-  const totalSections = sectionsForTerm?.length ?? 0;
-  const totalSectionsWithSeats =
-    sectionsForTerm?.filter((section) => section.seats.available > 0).length ?? 0;
+  const results = useSections(course.sections);
+  const totalSections = results.length;
+  const totalSectionsWithSeats = results.filter(
+    (result) => result.data?.seats.available ?? 0 > 0
+  ).length;
 
   const [parent] = useAutoAnimate<HTMLDivElement>({ duration: 100 });
 
@@ -32,36 +31,28 @@ export const SectionsGroup = ({ term, course }: SectionsGroupProps) => {
             <Disclosure.Button className="w-full flex items-center justify-between">
               <div className="flex items-baseline space-x-base">
                 <h3 className="font-bold text-lg">{term.description}</h3>
-                {isLoading ? (
-                  <div>
-                    <span className="font-mono text-sm">{course.sections.length}</span>{" "}
-                    {pluralize(course.sections.length, "section")}, loading ...
-                  </div>
-                ) : (
-                  <div>
-                    <span className="font-mono text-sm">{totalSections}</span>{" "}
-                    {pluralize(totalSections, "section")},{" "}
-                    <span className="font-mono text-sm">{totalSectionsWithSeats}</span>{" "}
-                    {pluralize(totalSectionsWithSeats, "section")} with seats
-                  </div>
-                )}
+                <div>
+                  <span className="font-mono text-sm">{totalSections}</span>{" "}
+                  {pluralize(totalSections, "section")},{" "}
+                  <span className="font-mono text-sm">{totalSectionsWithSeats}</span>{" "}
+                  {pluralize(totalSectionsWithSeats, "section")} with seats
+                </div>
               </div>
               <div className="p-0.5 rounded-md bg-gray-50 dark:bg-gray-900 text-gray-400 dark:text-gray-600">
                 <Icon id={open ? "caretup" : "caretdown"} />
               </div>
             </Disclosure.Button>
-            <div className={clsx({ hidden: !open })}>
-              {!isLoading && (
-                <>
-                  <Spacer size="sm" />
-                  <div className="space-y-sm">
-                    {sectionsForTerm?.map((section, index) => (
-                      <Section key={index} section={section} />
-                    ))}
-                  </div>
-                </>
-              )}
-            </div>
+            {/* <div className={clsx({ hidden: !open })}> */}
+            {open && (
+              <div>
+                <Spacer size="sm" />
+                <div className="space-y-sm">
+                  {course.sections?.map((sectionInfo, index) => (
+                    <Section key={index} sectionInfo={sectionInfo} />
+                  ))}
+                </div>
+              </div>
+            )}
           </>
         )}
       </Disclosure>
