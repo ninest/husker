@@ -21,7 +21,7 @@ export const ArticleHead = ({
           <BackButton href={backButtonHref}>{backButtonText}</BackButton>
           <Spacer size="sm" />
           <Title weightClassName="font-black">{title}</Title>
-          <Spacer></Spacer>
+          <Spacer/>
         </div>
       </div>
     </>

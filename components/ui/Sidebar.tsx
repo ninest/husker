@@ -20,6 +20,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
   const router = useRouter();
   useEffect(() => {
     onCloseClick();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router.asPath]);
 
   const { toggleTheme, isLightTheme, isDarkTheme } = useTheme();
@@ -33,6 +34,7 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
       setSecretSettingsEnabled(!secretSettingsEnabled);
       setSettingsClicked(0);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [settingsClicked]);
 
   return (
@@ -59,8 +61,8 @@ export const Sidebar = ({ onCloseClick }: SidebarProps) => {
         </SmartLink>
       </div>
 
-      <Spacer></Spacer>
-      <Search></Search>
+      <Spacer />
+      <Search />
       <Spacer size="md"></Spacer>
       <Divider />
       <Spacer size="md"></Spacer>

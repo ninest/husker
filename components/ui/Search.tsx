@@ -93,7 +93,7 @@ export const Search = () => {
         <div>
           {searchResults.length > 0 || courseResults.length > 0 ? (
             <>
-              <Spacer></Spacer>
+              <Spacer/>
               <div className="px-md pb-sm text-sm text-gray">Search results</div>
               <div className="px-md flex flex-col space-y-sm">
                 {[...searchResults, ...courseResults].map((link) => {
