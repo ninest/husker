@@ -29,11 +29,10 @@ export const SectionsGroup = ({ term, course }: SectionsGroupProps) => {
             <Disclosure.Button className="w-full flex items-center justify-between bg-light dark:bg-dark p-xs border dark:border-gray-800 rounded-lg sticky top-20 md:top-5">
               <div className="flex items-baseline space-x-base">
                 <h3 className="font-bold text-lg ">{term.description}</h3>
-                <div className="">
-                  <span className="font-mono text-sm">{totalSections}</span>{" "}
+                <div className="text-sm">
+                  <span className="font-mono">{totalSections}</span>{" "}
                   {pluralize(totalSections, "section")},{" "}
-                  <span className="font-mono text-sm">{totalSectionsWithSeats}</span>{" "}
-                  {pluralize(totalSectionsWithSeats, "section")} with seats
+                  <span className="font-mono">{totalSectionsWithSeats}</span> with seats
                 </div>
               </div>
 

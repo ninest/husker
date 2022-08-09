@@ -12,8 +12,8 @@ export const RequisiteDisplay = ({ coreqs, prereqs }: RequisiteDisplayProps) => 
     <div className="grid gap-base grid-cols-[2fr_5fr] lg:grid-cols-[1fr_5fr]">
       {coreqs.length > 0 && (
         <>
-          <div>Co-requisites</div>
-
+          {/* Center vertically */}
+          <div className="flex items-center">Co-requisites</div>
           <div className="flex">
             {coreqs.map((req, index) => (
               <CourseButton key={index} subject={req.subject} number={req.number} />
@@ -24,7 +24,7 @@ export const RequisiteDisplay = ({ coreqs, prereqs }: RequisiteDisplayProps) => 
 
       {prereqs.length > 0 && (
         <>
-          <div>Pre-requisites</div>
+          <div className="flex md:items-center">Pre-requisites</div>
           <div className="-mt-xs flex flex-wrap items-baseline">
             {prereqs.map((reqItem, index) => {
               const marginClassNames = "mr-1 mt-xs";
