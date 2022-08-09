@@ -47,7 +47,9 @@ export const CourseInfo = ({ course }: CourseInfoProps) => {
         </>
       )}
 
-      <RequisiteDisplay coreqs={course.coreqs!} prereqs={course.prereqs!} />
+      {((course?.coreqs ?? []).length > 0 || (course?.prereqs ?? []).length > 0) && (
+        <RequisiteDisplay coreqs={course.coreqs!} prereqs={course.prereqs!} />
+      )}
     </div>
   );
 };
