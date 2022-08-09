@@ -1,5 +1,6 @@
 import { activeTerms } from "@/content/terms";
 import { useSections } from "@/hooks/sections";
+import { pluralize } from "@/lib/string";
 import { Course } from "@/types/courses";
 import { Debug } from "../../util/Debug";
 import { Spacer } from "../../util/Spacer";
@@ -12,8 +13,9 @@ interface SectionsListProps {
 export const SectionsList = ({ course }: SectionsListProps) => {
   const { sections, isLoading } = useSections(course.sections);
 
-  const totalSections = sections?.length;
-  const totalSectionsWithSeats = sections?.filter((section) => section.seats.available > 0).length;
+  const totalSections = sections?.length ?? 0;
+  const totalSectionsWithSeats =
+    sections?.filter((section) => section.seats.available > 0).length ?? 0;
 
   return (
     <div>
@@ -25,9 +27,10 @@ export const SectionsList = ({ course }: SectionsListProps) => {
               <h3 className="font-bold text-lg">{term.description}</h3>
               {!isLoading && (
                 <div>
-                  <span className="font-mono text-sm">{totalSections}</span> sections,{" "}
-                  <span className="font-mono text-sm">{totalSectionsWithSeats}</span> sections with
-                  seats
+                  <span className="font-mono text-sm">{totalSections}</span>{" "}
+                  {pluralize(totalSections, "section")},{" "}
+                  <span className="font-mono text-sm">{totalSectionsWithSeats}</span>{" "}
+                  {pluralize(totalSectionsWithSeats, "section")} with seats
                 </div>
               )}
             </div>
