@@ -128,8 +128,6 @@ const CoursePage = ({ subject, course, frontmatter, content, errors }: CoursePag
     : null;
   const parsedErrors = errors ? JSON.parse(errors) : null;
 
-  const { sections } = useSections(course.sections);
-
   return (
     <>
       <NextSeo title={shortName} description={`Information on ${shortName}: ${course.title}`} />
@@ -208,7 +206,7 @@ const CoursePage = ({ subject, course, frontmatter, content, errors }: CoursePag
           }}
         />
 
-        <Debug data={{ sections, course }} />
+        <Debug data={{ course }} />
       </div>
     </>
   );

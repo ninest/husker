@@ -16,7 +16,5 @@ export const getSection: GetSection = async (section) => {
 
 type GetSections = (sections: SectionInfo[]) => Promise<SectionsResponse[]>;
 export const getSections: GetSections = async (sections) => {
-  console.log("Fetching all sections");
-
   return await Promise.all(sections.map(getSection));
 };
