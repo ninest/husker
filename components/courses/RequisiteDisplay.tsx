@@ -9,7 +9,7 @@ interface RequisiteDisplayProps {
 
 export const RequisiteDisplay = ({ coreqs, prereqs }: RequisiteDisplayProps) => {
   return (
-    <div className="grid gap-base grid-cols-[2fr_5fr] md:grid-cols-[1fr_5fr]">
+    <div className="grid gap-base grid-cols-[2fr_5fr] lg:grid-cols-[1fr_5fr]">
       <div>Co-requisites</div>
 
       <div className="flex">
