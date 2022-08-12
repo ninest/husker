@@ -3,6 +3,7 @@ import { Course } from "@/types/courses";
 import { useState } from "react";
 import { NUPathDisplay } from "./NUPathDisplay";
 import { RequisiteDisplay } from "./RequisiteDisplay";
+import { SectionsList } from "./sections/SectionsList";
 
 interface CourseInfoProps {
   course: Course;
@@ -47,7 +48,11 @@ export const CourseInfo = ({ course }: CourseInfoProps) => {
         </>
       )}
 
-      <RequisiteDisplay coreqs={course.coreqs!} prereqs={course.prereqs!} />
+      {((course?.coreqs ?? []).length > 0 || (course?.prereqs ?? []).length > 0) && (
+        <RequisiteDisplay coreqs={course.coreqs!} prereqs={course.prereqs!} />
+      )}
+
+      {course.sections && <SectionsList course={course} />}
     </div>
   );
 };
