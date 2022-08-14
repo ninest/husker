@@ -69,6 +69,7 @@ import {
   FaVirus,
   FaVirusSlash,
   FaWrench,
+  FaLock
 } from "react-icons/fa";
 
 export interface IconProps extends HTMLAttributes<HTMLDivElement> {
@@ -217,6 +218,8 @@ export const Icon = ({ id = "filealt", ...props }: IconProps) => {
       return <FaCheckCircle className={className} />;
     case "graduationcap":
       return <FaGraduationCap className={className} />;
+    case "locked":
+      return <FaLock className={className} />;
 
     default:
       return <FaRegFileAlt className={className} />;
