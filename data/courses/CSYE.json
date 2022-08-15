@@ -1,0 +1,230 @@
+[
+  {
+    "subject": "CSYE",
+    "number": "6200",
+    "title": "Concepts of Object-Oriented Design",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12890" },
+      { "term": "202310", "crn": "13268" },
+      { "term": "202310", "crn": "13768" },
+      { "term": "202310", "crn": "20844" },
+      { "term": "202310", "crn": "20845" },
+      { "term": "202260", "crn": "61487" }
+    ],
+    "description": "Introduces object-oriented design and programming via the Java programming language; the use of inheritance, composition, and interface classes in software design; development of Java applets and applications; study of the Java class libraries, including the swing tool kit for building human computer interfaces, the network package for development of client-server systems, and the collections&amp;#8217; package for data structures and sorting algorithms. Requires a course project. Requires knowledge of C programming.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CSYE",
+    "number": "6205",
+    "title": "Concepts of Object-Oriented Design with C++",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12435" },
+      { "term": "202310", "crn": "18035" },
+      { "term": "202310", "crn": "18036" }
+    ],
+    "description": "Introduces object-oriented design and programming via the C++ programming language. Covers the use of inheritance and composition in software design and development of complex C++ applications. Topics include classes, overloading, data abstraction, information hiding, encapsulation, inheritance, polymorphism, file processing, templates, exceptions, container classes, and low-level language features. Requires a course project.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CSYE",
+    "number": "6220",
+    "title": "Enterprise Software Design",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11339" }],
+    "description": "Designed to build on previous experience in concepts of object-oriented design courses with equal focus in the three areas of architecture, design, and implementation. Instruction and hands-on exercises cover both server-side and client-side web programming. Offers students an opportunity to build a conceptual understanding and to gain practical experience with popular frameworks (Spring MVC, Hibernate, and Dojo or jQuery) that increase productivity, empower developers, and greatly simplify web development. The goal is to be able to build the server side and client side of substantial web-based, client-server, database-intensive, multitier applications.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CSYE",
+    "number": "6225",
+    "title": "Network Structures and Cloud Computing",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13757" },
+      { "term": "202310", "crn": "14389" },
+      { "term": "202310", "crn": "13635" },
+      { "term": "202310", "crn": "13791" }
+    ],
+    "description": "Offers a practical foundation in cloud computing and hands-on experience with the tools used in cloud computing. Designed as a foundation course for cloud-aware, adept professionals. Focuses on the fundamentals of cloud computing, the principal areas of cloud architectures, cloud security, cloud governance, cloud storage, cloud virtualization, and cloud capacity. Discusses the Internet evolution that led to cloud and how cloud applications revolutionized Web applications.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CSYE", "number": "6200" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" }
+    ]
+  },
+  {
+    "subject": "CSYE",
+    "number": "6305",
+    "title": "Introduction to Quantum Computing with Applications",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14617" },
+      { "term": "202310", "crn": "21002" }
+    ],
+    "description": "Addresses how scientists and engineers can use quantum computers to simulate large quantum mechanical systems easily, which is crucial in discovery of new lifesaving drugs and new efficient materials. Quantum computers maintain an abstract state where both 0 and 1 states exist simultaneously with some probability. The course delves deeper into how such an abstract state can be realized physically and used as a computing tool to simplify algorithm implementation and execution. Offers students an opportunity to learn about the latest breakthroughs in cryptography systems (RSA), as well as fast database search; accurate weather forecasting; ultrasecure communication; and fast image recognition.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CSYE",
+    "number": "7105",
+    "title": "High-Performance Parallel Machine Learning and AI",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15390" },
+      { "term": "202260", "crn": "61418" }
+    ],
+    "description": "Explores the parallelization of machine learning and deep learning code that leads to high performance on heterogeneous cluster architectures. Includes the applications to a variety of domains, including image classification, speech recognition, and natural language processing, etc. Covers a brief overview of the emerging parallel computing applications. Analyzes system architectures for different kinds of parallel computing systems (shared-memory system, distributed-memory system, accelerator system, and hybrid). Offers students an opportunity to practice the principles and the practice of the emerging parallelism-based machine-learning paradigm.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CSYE",
+    "number": "7125",
+    "title": "Advanced Cloud Computing",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15391" }],
+    "description": "Examines a collection of repeatable, generic software design patterns such as sidecar pattern, ambassador pattern, adapter pattern, event driven, stream and batch processing, containers and container orchestration with Kubernetes, replication, partitioning, transactions, consistency, and consensus to help make the development of reliable distributed systems more approachable and efficient. Microservices, containers, and container orchestration have fundamentally changed how distributed systems are developed. Offers students an opportunity to determine which kind of technology is appropriate for which purpose and to understand how these patterns can be combined to form the foundation of a good application architecture.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CSYE", "number": "6225" }]
+  },
+  {
+    "subject": "CSYE",
+    "number": "7200",
+    "title": "Big-Data System Engineering Using Scala",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12519" }],
+    "description": "Covers the fundamentals of functional programming with Scala and seeks to provide a basic, practical foundation for students who want to use it as a language for working with big-data platforms. Scala is one of a new breed of general-purpose functional programming languages that is strongly typed and is object oriented. It runs on the Java virtual machine and is able to share libraries from the vast collection of open-source projects written in Java. For these reasons it is readily accessible by programmers of Java, C++, and similar languages.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CSYE",
+    "number": "7220",
+    "title": "Deployment and Operation of Software Applications",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14263" }],
+    "description": "Introduces the four most popular infrastructure languages&mdash;Chef, Puppet, Ansible, and Salt&mdash; and codes with them in the same way that we code with Java, Python, C#, and Javascript. IT infrastructure languages and their underlying methods and tools, referred to as DevOps, bridge the gap between software development and software administration. Instead of recruiting CPU cycles on our laptops, we create and manage virtual IT infrastructures on a public cloud. Offers students an opportunity to learn how to manipulate virtual machines, containers, and lambdas and set up assembly lines on public clouds in the fashion of a Model T assembly line.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CSYE",
+    "number": "7270",
+    "title": "Building Virtual Environments",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14327" }],
+    "description": "Covers the basics of three-dimensional graphics programming using the Unity game engine. Includes a built-in terrain editor; a shader development facility; built-in physics; and advanced lighting, shadows, and audio to build 3D virtual environments and serious games. Javascript and C# can be used for scripting. Assets from various 3D modeling programs can be imported. Facilities to publish to the PC, Mac, iPhone and Wii and support for real-time multiplayer games are available. Requires a final project.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CSYE",
+    "number": "7280",
+    "title": "User Experience Design and Testing",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13269" },
+      { "term": "202310", "crn": "14167" },
+      { "term": "202310", "crn": "14618" },
+      { "term": "202310", "crn": "21035" }
+    ],
+    "description": "Introduces user experience concepts while working on Web design projects. Offers students an opportunity to build the necessary skill sets to make better decisions when designing contemporary websites that cater to customer needs. Students practice interview techniques to understand user requirements while keeping user experience central to the effort. Uses wireframes and user scenarios to drive the creative design process. Various case studies are introduced and discussed in team settings to emphasize user perspectives. Uses quality assurance and usability testing to drive validation and user-acceptance testing and approvals.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CSYE", "number": "6200" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" }
+    ]
+  },
+  {
+    "subject": "CSYE",
+    "number": "7370",
+    "title": "Deep Learning and Reinforcement Learning in Game Engineering",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15392" }],
+    "description": "Introduces a deep learning and reinforcement learning framework for games called ML-Agents, which enable games and simulations to serve as environments for training intelligent agents. Studies and reviews classical game artificial intelligence (game AI), primarily search and decision trees. Uses game AI to generate responsive, adaptive, or intelligent behaviors primarily in nonplayer characters (NPCs) similar to human-like intelligence. Game AI includes everything from simple chasing and evading to pattern movement, to create opponents with complex tactical and strategic decisions.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "CSYE", "number": "6200" }
+    ]
+  },
+  {
+    "subject": "CSYE",
+    "number": "7374",
+    "title": "Cryptography",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20877" }],
+    "description": "Offers topics of current interest in computer systems engineering. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "INFO", "number": "6205" }]
+  },
+  {
+    "subject": "CSYE",
+    "number": "7978",
+    "title": "Independent Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "20819" },
+      { "term": "202310", "crn": "21063" }
+    ],
+    "description": "Offers theoretical or experimental work under individual faculty supervision. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CSYE",
+    "number": "7990",
+    "title": "Thesis",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18538" }],
+    "description": "Offers analytical and/or experimental work conducted under the direction of the faculty in fulfillment of the requirements for the degree. Requires first-year students to attend a graduate seminar program that introduces students to the methods of choosing a research topic, conducting research, and preparing a thesis. Requires successful completion of the seminar program. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

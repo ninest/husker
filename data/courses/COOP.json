@@ -1,0 +1,43 @@
+[
+  {
+    "subject": "COOP",
+    "number": "3945",
+    "title": "Co-op Work Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "61600" }],
+    "description": "Provides students an opportunity for work experience. Requires sophomore standing or above. May be repeated up to five times.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COOP",
+    "number": "3947",
+    "title": "Co-op Work Experience Abroad--Half Time",
+    "scheduleType": "Off-campus instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "18098" },
+      { "term": "202310", "crn": "18099" },
+      { "term": "202310", "crn": "18271" },
+      { "term": "202310", "crn": "18163" }
+    ],
+    "description": "Provides students with an opportunity for work experience abroad. Requires sophomore standing or above. May be repeated up to five times.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COOP",
+    "number": "3948",
+    "title": "Co-op Work Experience Abroad",
+    "scheduleType": "Off-campus instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13873" }],
+    "description": "Provides students with an opportunity for work experience abroad. Requires sophomore standing or above. May be repeated up to five times.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

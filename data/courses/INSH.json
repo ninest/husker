@@ -1,0 +1,196 @@
+[
+  {
+    "subject": "INSH",
+    "number": "1300",
+    "title": "Introduction to Health and Humanities",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC"],
+    "sections": [{ "term": "202310", "crn": "16631" }],
+    "description": "Explores the ways in which narrative and other forms of creative and cultural expression help shape conceptions of illness, healing, and the body. Offers students opportunities to consider the health and humanities through a variety of interdisciplinary perspectives and genres. Includes small-group and classwide experiential field outings. Culminates in the composition of reflective responses, a medical ethics/medical journalism piece, and a team-based experiential e-portfolio project. Course objectives include differentiating between healing and curing; knowing how to elicit, listen to, and analyze stories to determine how participants in the healthcare system experience illness and healing; being able to articulate the ways health is a cultural construct; and using this analysis to identify an empathic response as a future professional.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INSH",
+    "number": "2964",
+    "title": "Experiential Project",
+    "scheduleType": "Seminar",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202260", "crn": "61008" },
+      { "term": "202260", "crn": "61009" }
+    ],
+    "description": "Offers students an applied project setting in which to apply their curricular learning. Working with a sponsor, students refine an applied research topic, perform research, develop recommendations that are shared with a partner sponsor, and create a plan for implementing their recommendations. Seeks to benefit students with a curriculum that supports the development of key business communication skills, project and client management skills, and frameworks for business analysis. Offers students an opportunity to learn from sponsor feedback, review &#39;lessons learned,&#39; and incorporate suggestions from this review to improve and further develop their career development and professional plan.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INSH",
+    "number": "3101",
+    "title": "Research Methods in the Social Sciences",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "19517" },
+      { "term": "202310", "crn": "20792" }
+    ],
+    "description": "Introduces the basic concepts involved in conducting research in the social sciences. Familiarizes students with the scientific methods that are necessary for systematic analysis of social behavior, societal trends, program effectiveness, and public attitudes through readings, lectures, group discussions, and research assignments. Offers students an opportunity to learn how to formulate a research question, investigate and critique how questions are researched, develop a research design, and obtain the critical thinking skills necessary to consume interdisciplinary research across the social sciences.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INSH",
+    "number": "3102",
+    "title": "Introduction to Statistics in the Social Sciences",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD", "FQ"],
+    "sections": [{ "term": "202310", "crn": "19518" }],
+    "description": "Presents a foundation in different statistical techniques that may be utilized to answer research questions in the social sciences. Examines a range of computational social science techniques across data platforms to address societal problems. Emphasizes existing databases that may inform questions in the social sciences. Also introduces students to different ways to display or visualize quantitative data. Offers students an opportunity to learn how to produce and consume quantitative information.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INSH",
+    "number": "5301",
+    "title": "Introduction to Computational Statistics",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13892" }],
+    "description": "Introduces the fundamental techniques of quantitative data analysis, ranging from foundational skills&mdash;such as data description and visualization, probability, and statistics&mdash;to the workhorse of data analysis and regression, to more advanced topics&mdash;such as machine learning and networks. Emphasizes real-world data and applications using the R statistical computing language. Analyzing and understanding complex data has become an essential component of numerous fields: business and economics, health and medicine, marketing, public policy, computer science, engineering, and many more. Offers students an opportunity to finish the course ready to apply a wide variety of analytic methods to data problems, present their results to nonexperts, and progress to more advanced course work delving into the many topics introduced here.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INSH",
+    "number": "5302",
+    "title": "Information Design and Visual Analytics",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13891" },
+      { "term": "202260", "crn": "61238" }
+    ],
+    "description": "Introduces the systematic use of visualization techniques for supporting the discovery of new information as well as the effective presentation of known facts. Based on principles from art, graphic design, perceptual psychology, and rhetoric, offers students an opportunity to learn how to successfully choose appropriate visual languages for representing various kinds of data to support insights relevant to the user&rsquo;s goals. Covers visual data mining techniques and algorithms for supporting the knowledge-discovery process; principles of visual perception and color theory for revealing patterns in data, semiotics, and the epistemology of visual representation; narrative strategies for communicating and presenting information and evidence; and the critical evaluation and critique of data visualizations. Requires proficiency in R.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INSH",
+    "number": "6300",
+    "title": "Research Methods in the Social Sciences",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13928" },
+      { "term": "202310", "crn": "14872" },
+      { "term": "202310", "crn": "17197" },
+      { "term": "202310", "crn": "20774" },
+      { "term": "202240", "crn": "40686" }
+    ],
+    "description": "Surveys methods of social research, including field study and participant observation techniques, survey techniques, interviewing and questionnaire construction, sampling procedures, experimental design, content analysis, and use of available data.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INSH",
+    "number": "6302",
+    "title": "Qualitative Methods",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16448" }],
+    "description": "Introduces the principles and use of common qualitative methods with a particular focus on their application in the social sciences. Offers students an opportunity to engage in primary data collection and to learn how to use a variety of analytic techniques, including transcription, field-note preparation, memos, development of coding schemes and conceptual frameworks, and data-verifying techniques.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INSH",
+    "number": "6500",
+    "title": "Statistical Analysis",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14873" },
+      { "term": "202310", "crn": "14887" },
+      { "term": "202310", "crn": "17198" },
+      { "term": "202310", "crn": "20776" }
+    ],
+    "description": "Studies the use of social science quantitative techniques, emphasizing applications of value to public-sector analysts and scholars alike. Introduces probability and statistical analysis. Topics include measures of central tendency and dispersion, probability and probability distributions, sampling distributions and hypothesis testing, bivariate correlation, regression, and forecasting. Examines how to generate and interpret statistical analyses.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INSH",
+    "number": "6864",
+    "title": "Experiential Integration",
+    "scheduleType": "Seminar",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13634" },
+      { "term": "202260", "crn": "60421" }
+    ],
+    "description": "Offers an integration course providing an opportunity for students on experiential placement to connect conceptual course material to experiential components. Students are expected to: interact with students from other disciplines, apply knowledge and skills across educational and experiential contexts; connect experiential components to different disciplines and domains of knowledge; and situate experiential components in the context of their own field and beyond.  Requires department signature.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INSH",
+    "number": "6964",
+    "title": "Co-op Work Experience",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202260", "crn": "61518" },
+      { "term": "202240", "crn": "41976" }
+    ],
+    "description": "Provides eligible students with an opportunity for work experience. May be repeated once.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INSH",
+    "number": "7400",
+    "title": "Quantitative Analysis",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13929" }],
+    "description": "Studies the use of social science quantitative techniques and how to generate and interpret statistical analyses. Topics include measures of central tendency and dispersion, probability and probability distributions, sampling distributions and hypothesis testing, bivariate correlation, regression, and forecasting. Builds upon the concepts of correlation and inference to present analytic procedures involving several variables (including multiple regression, logistic regression, causal analysis, and multiway ANOVA) and introduces more advanced multivariate analytic methods.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INSH",
+    "number": "7910",
+    "title": "NULab Project Seminar",
+    "scheduleType": "Seminar",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12538" }],
+    "description": "Offers students an opportunity to learn and use digital humanities methods with others in groups and across disciplines in the collaborative space of the NULab seminar. May be repeated up to three times.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INSH",
+    "number": "9980",
+    "title": "Experiential PhD Research Residency",
+    "scheduleType": "Off-campus instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15458" }],
+    "description": "Comprises a research residency experience in an organization whose mission and activities are aligned with the College of Social Sciences and Humanities PhD programs. The research residency is designed to help develop dissertation ideas or research papers or to obtain access to resources helpful to dissertation development or research. A faculty member serves as an advisor for the residency experience, but individuals within the organization in which the student is working are asked to serve as formal mentors for the student residency experience.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "subject": "EMGT",
+    "number": "5220",
+    "title": "Engineering Project Management",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12318" },
+      { "term": "202310", "crn": "12184" },
+      { "term": "202310", "crn": "11901" },
+      { "term": "202310", "crn": "20561" },
+      { "term": "202260", "crn": "60240" },
+      { "term": "202260", "crn": "60617" },
+      { "term": "202240", "crn": "41746" },
+      { "term": "202240", "crn": "40405" },
+      { "term": "202240", "crn": "41857" }
+    ],
+    "description": "Examines the theory and practice of managing projects. Explores human, mathematical, entrepreneurial, managerial, and engineering aspects of project management. The systems development life cycle is the framework for the course. Addresses needs analysis, requirements definition, design, and implementation in the context of project management. Introduces mathematical and software tools for planning, monitoring, and controlling projects.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "EMGT",
+    "number": "5300",
+    "title": "Engineering/Organizational Psychology",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11856" },
+      { "term": "202310", "crn": "10848" }
+    ],
+    "description": "Offers an analysis of the purpose and functioning of organizations as the basic networks for achieving goals through coordination of effort, communication, and responsibility. Studies the role and function of engineering organizations based on modern behavioral science concepts as well as the application of psychology to industry relative to human relations, group dynamics, tests and measurements, personnel practices, training, and motivation. Examines the evolution of the learning organization and its role in the management of R&amp;amp;D and technology, the influence of the rapid changes in technology, and the globalization of the marketplace through group-oriented case studies.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "EMGT",
+    "number": "6225",
+    "title": "Economic Decision Making",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11794" },
+      { "term": "202310", "crn": "12339" },
+      { "term": "202310", "crn": "12187" },
+      { "term": "202310", "crn": "12189" },
+      { "term": "202260", "crn": "60327" },
+      { "term": "202240", "crn": "40417" },
+      { "term": "202240", "crn": "41856" }
+    ],
+    "description": "Explores economic modeling and analysis techniques for selecting alternatives from potential solutions to an engineering problem. Considers measures of merit, such as present worth, annual worth, rate of return, and benefit/cost techniques. Examines recent techniques of economic analysis, especially the tools of decision making. Explores decisions under uncertainty. Studies the causes of risk and uncertainty, and examines ways to change and influence the degree of risk and uncertainty through sensitivity analysis, expectation-variance criterion, decision tree analysis, statistical decision techniques, and multiple attribute decision making through group case studies.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "EMGT",
+    "number": "6305",
+    "title": "Financial Management for Engineers",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12860" },
+      { "term": "202310", "crn": "10640" },
+      { "term": "202310", "crn": "16692" },
+      { "term": "202240", "crn": "41779" },
+      { "term": "202240", "crn": "40096" }
+    ],
+    "description": "Examines the issues and processes of short-term financing on industrial firms, financial analysis of cases, supplemented by readings to develop familiarity with sources and uses of working capital as well as the goals and problems involved in its management. Also covers the analysis necessary for such long-term financial decisions as issuance of stock or bonds; contracting of leases or loans, and financing of a new enterprise; mergers, capital budgeting, the cost of capital, and the valuation of a business. Examines financial statement ratio analysis along with the use of the capital asset pricing model as it relates to risk and return. Explores leverage and capital structure and international managerial finance in the examination of the overall financial policy decision-making process.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "EMGT",
+    "number": "7374",
+    "title": "ST:Advanced Product Management",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "18274" },
+      { "term": "202310", "crn": "20172" }
+    ],
+    "description": "Offers topics of interest to the staff member conducting this class for advanced study. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

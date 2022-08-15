@@ -1,0 +1,34 @@
+[
+  {
+    "subject": "ECNM",
+    "number": "1115",
+    "title": "Principles of Macroeconomics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14273" },
+      { "term": "202310", "crn": "11576" },
+      { "term": "202310", "crn": "21025" }
+    ],
+    "description": "Introduces macroeconomic analysis. Topics include the flow of national income, economics growth and fluctuation, the role of money and banking, and monetary and fiscal policies. Emphasizes the development of conceptual tools to analyze the economic problems facing modern society.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ECNM",
+    "number": "1116",
+    "title": "Principles of Microeconomics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13965" },
+      { "term": "202310", "crn": "13966" },
+      { "term": "202310", "crn": "18119" }
+    ],
+    "description": "Focuses on development of basic theory of demand, supply, and market price. Explores applications to selected microeconomic problems, such as basic monopoly and competition, and other issues that relate to the role of the pricing system in resource allocation and income distribution.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

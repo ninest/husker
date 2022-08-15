@@ -1,0 +1,41 @@
+[
+  {
+    "subject": "ABRC",
+    "number": "5005",
+    "title": "Intl Study: England NUBound",
+    "scheduleType": "Off-campus instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "17567" }],
+    "description": "Offers an opportunity to study in England.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ABRC",
+    "number": "5009",
+    "title": "Intl Study: Spain, Bilbao",
+    "scheduleType": "Off-campus instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "20954" },
+      { "term": "202310", "crn": "20955" }
+    ],
+    "description": "Offers an opportunity to study in Spain.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ABRC",
+    "number": "5046",
+    "title": "International Study: Scotland",
+    "scheduleType": "Off-campus instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20953" }],
+    "description": "Offers an opportunity to study in Scotland.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

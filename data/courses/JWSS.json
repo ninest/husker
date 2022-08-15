@@ -1,0 +1,17 @@
+[
+  {
+    "subject": "JWSS",
+    "number": "2282",
+    "title": "The Holocaust and Comparative Genocide",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "19520" },
+      { "term": "202240", "crn": "41548" }
+    ],
+    "description": "Examines the origins of the Holocaust, perpetrators and victims, and changing efforts to come to terms with this genocide. The Holocaust, the murder of 6 million Jews by Germans in Nazi-occupied Europe during World War II, is one of the crucial events of modern history. Investigates the uniqueness of the Holocaust relative to other acts of ethnic cleansing or genocide, including mass death in the New World and mass murder in Armenia, Bosnia, and Rwanda.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

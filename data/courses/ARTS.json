@@ -1,0 +1,33 @@
+[
+  {
+    "subject": "ARTS",
+    "number": "2340",
+    "title": "Painting Basics",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "12766" },
+      { "term": "202310", "crn": "18070" },
+      { "term": "202240", "crn": "40382" }
+    ],
+    "description": "Presents an introductory studio course in the fundamental techniques of painting. Formal problems in the study of color, light, space systems, form, and composition establish the foundation for more individual creative expression. Uses critiques and slide lectures as needed.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTS",
+    "number": "2341",
+    "title": "Figure Drawing",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "10520" },
+      { "term": "202310", "crn": "20708" }
+    ],
+    "description": "Focuses on developing the student&amp;#8217;s awareness of the structure of the figure as well as the emotive qualities of  &amp;#8220;figuration.&amp;#8221; Students draw from a model in each class. They also develop drawings based on the political and social concerns of contemporary culture and the role of gender as seen through &amp;#8220;image.&amp;#8221;",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

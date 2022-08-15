@@ -1,0 +1,241 @@
+[
+  {
+    "subject": "GE",
+    "number": "1000",
+    "title": "First-Year Seminar",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10390" },
+      { "term": "202310", "crn": "11003" },
+      { "term": "202310", "crn": "11004" },
+      { "term": "202310", "crn": "10384" },
+      { "term": "202310", "crn": "10383" },
+      { "term": "202310", "crn": "10382" },
+      { "term": "202310", "crn": "10381" },
+      { "term": "202310", "crn": "10018" },
+      { "term": "202310", "crn": "11005" },
+      { "term": "202310", "crn": "10013" },
+      { "term": "202310", "crn": "10002" },
+      { "term": "202310", "crn": "10863" },
+      { "term": "202310", "crn": "11369" },
+      { "term": "202310", "crn": "11370" },
+      { "term": "202310", "crn": "11371" },
+      { "term": "202310", "crn": "11372" },
+      { "term": "202310", "crn": "12092" },
+      { "term": "202310", "crn": "11373" },
+      { "term": "202310", "crn": "12093" },
+      { "term": "202310", "crn": "13259" },
+      { "term": "202310", "crn": "14558" },
+      { "term": "202310", "crn": "14561" },
+      { "term": "202310", "crn": "14562" },
+      { "term": "202310", "crn": "16331" },
+      { "term": "202310", "crn": "16332" },
+      { "term": "202310", "crn": "16333" },
+      { "term": "202310", "crn": "16334" },
+      { "term": "202310", "crn": "16335" },
+      { "term": "202310", "crn": "16336" },
+      { "term": "202310", "crn": "17221" },
+      { "term": "202310", "crn": "17248" },
+      { "term": "202310", "crn": "17249" }
+    ],
+    "description": "Seeks to support students in their transition to Northeastern and in their development as they become members of the college and university communities. Through classroom discussion and self-reflection activities, students are introduced to campus partners and opportunities, institutional policies and procedures, and academic support resources. Students are expected to attend activities that include major exploration events, diversity discussions, and student organization meetings.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GE",
+    "number": "1110",
+    "title": "Engineering Design",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER"],
+    "sections": [
+      { "term": "202310", "crn": "19086" },
+      { "term": "202240", "crn": "40161" }
+    ],
+    "description": "Seeks to develop problem-solving skills used in engineering design, using case studies for a variety of engineering disciplines. Introduces students to the use of spreadsheet tools to solve engineering problems, including data reduction and visualization of data and functions. Design topics include problem formulation and specification, creativity, evaluation tools, patents, ergonomics, system design, manufacturing, ethics in engineering, and presentation techniques. Presents engineering graphics focusing on developing 3D visualization skills and computer-aided design (CAD) application. Students develop an original design solution to a technical problem as a term project. Requires students to have a laptop computer that meets the specifications of the College of Engineering.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GE",
+    "number": "1111",
+    "title": "Engineering Problem Solving and Computation",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10362" },
+      { "term": "202240", "crn": "40041" }
+    ],
+    "description": "Uses a structured approach to solve engineering problems. Draws applications from a variety of engineering disciplines, which serve as a tool for introducing students to engineering analysis and design. Introduces a math application package for matrix applications and various real-life engineering problems. Includes the design of problem-solving algorithms using a high-level programming language. Topics include the use of programmable microcontrollers, as well as various electronic components.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GE",
+    "number": "1501",
+    "title": "Cornerstone of Engineering 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EX"],
+    "sections": [
+      { "term": "202310", "crn": "12741" },
+      { "term": "202310", "crn": "12742" },
+      { "term": "202310", "crn": "12743" },
+      { "term": "202310", "crn": "12744" },
+      { "term": "202310", "crn": "12745" },
+      { "term": "202310", "crn": "12746" },
+      { "term": "202310", "crn": "12747" },
+      { "term": "202310", "crn": "12749" },
+      { "term": "202310", "crn": "12750" },
+      { "term": "202310", "crn": "12752" },
+      { "term": "202310", "crn": "12754" },
+      { "term": "202310", "crn": "15293" },
+      { "term": "202310", "crn": "12756" },
+      { "term": "202310", "crn": "12757" },
+      { "term": "202310", "crn": "15294" },
+      { "term": "202310", "crn": "12758" },
+      { "term": "202310", "crn": "12759" },
+      { "term": "202310", "crn": "12760" },
+      { "term": "202310", "crn": "13767" },
+      { "term": "202310", "crn": "17232" },
+      { "term": "202310", "crn": "19087" }
+    ],
+    "description": "Introduces students to the engineering design process and algorithmic thinking using a combination of lectures and hands-on projects and labs while encouraging critical thinking. Offers students an opportunity to develop creative problem-solving skills used in engineering design, to structure software, and to cultivate effective written and oral communication skills. Topics include the use of design and graphics communication software, spreadsheets, a high-level programming language, programmable microcontrollers as well as various electronic components, and 3-D printing. Requires students to develop an original design solution to a technical problem as a final term project. Requires students to have a laptop computer that meets the specifications of the College of Engineering.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GE",
+    "number": "1502",
+    "title": "Cornerstone Engineering 2 HON",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "EX"],
+    "sections": [
+      { "term": "202310", "crn": "12761" },
+      { "term": "202310", "crn": "12763" },
+      { "term": "202310", "crn": "12764" },
+      { "term": "202310", "crn": "13766" }
+    ],
+    "description": "Continues GE 1501 using a project-based approach under a unifying theme. Covers topics that introduce students to engineering analysis and design. Uses a math application package for matrix applications along with various real-life engineering problems solved using programming. Considers ethical reasoning in design and analysis, including ethical theories, professional codes, and emerging micro/macro issues in engineering. Introduces quantitative tools and ethical topics separately and weaves them into all design and problem-solving stages of the student projects. Covers 3-D assembly drawings and modeling, along with review and further work in design. Students work on open-ended design problems, developing working models and prototypes to demonstrate and present their designs. Requires students to have a laptop computer that meets the specifications of the College of Engineering.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "GE", "number": "1501" }]
+  },
+  {
+    "subject": "GE",
+    "number": "2500",
+    "title": "Design Analysis and Innovation",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19089" }],
+    "description": "Introduces various analytical and computational techniques. Course content is delivered through a series of modeling and analysis projects, design innovations and improvements, and design testing&mdash;including not only the technical performance but also commercialization potential by developing and presenting a business plan. Offers students an opportunity to design a representative model, implement the model through their design, verify and validate using analysis techniques, develop a business plan, report on the design and modelling, and suggest improvements for a revised design and model. Design projects and topics are expanded or reduced depending on class interest.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "GE", "number": "1501" },
+      "And",
+      { "subject": "GE", "number": "1502" },
+      ")",
+      "Or",
+      "(",
+      { "subject": "GE", "number": "1110" },
+      "And",
+      { "subject": "GE", "number": "1111" },
+      ")"
+    ]
+  },
+  {
+    "subject": "GE",
+    "number": "3300",
+    "title": "Energy Systems: Science, Technology, and Sustainability",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12514" },
+      { "term": "202240", "crn": "40476" }
+    ],
+    "description": "Offers students an opportunity to obtain a sound scientific, technological, and economic understanding of our modern energy system and the challenge of energy sustainability. Covers principles of energy, work, and thermodynamics; technologies from supply and demand side, including extraction of primary energy, conversion into fuels and electricity, important energy end-uses, and energy losses; fossil, nuclear power plants, and renewable energy technologies (wind, solar, wave, hydro, geothermal, biofuels); transmission and distribution for electricity and fossil fuels; energy demand by buildings, transportation, and industry, emphasizing efficient technologies; sustainability concepts, including net energy/exergy analysis and life-cycle assessment, energy-related emissions, decentralized generation, smart grids, district heating, and net-zero energy facilities.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GE",
+    "number": "4900",
+    "title": "Career Management",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10227" }],
+    "description": "Provides an interactive course designed to enhance an engineering student&amp;#8217;s professional and career-related education through a series of classes taught by managers, engineers, and other professionals with industry experience. Topics include career services resources, developing skills to be an effective manager, the balance between personal and professional life, mentors, making career choices, time management vs. energy management, and others. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GE",
+    "number": "5010",
+    "title": "Customer-Driven Technical Innovation for Engineers",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19090" },
+      { "term": "202240", "crn": "41409" }
+    ],
+    "description": "Studies the role of engineering innovation in addressing customer needs in early start-ups and the need to conceive successful innovative engineering design as part of a commercialization strategy. Emphasizes understanding how engineering innovation can meet real technical market needs and how to gather the necessary, relevant technical information early in the innovation process to produce a successful engineering design. Uses a series of practical engineering design projects to demonstrate how students can assess the technical capabilities of the start-up in producing an innovative design, how to communicate with customers in an iterative engineering design process, and how to correspondingly design and innovate to meet customer technical requirements.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GE",
+    "number": "5020",
+    "title": "Engineering Product Design Methodology",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12858" },
+      { "term": "202240", "crn": "41410" }
+    ],
+    "description": "Explores the iterative product development process, with a focus on user-centered design techniques. Employs generative and evaluative user research methods to set product requirements and end-user technical specifications and inform the product development decision-making process. Expects students to develop a simple product, device, or tool in a team-based workshop environment, through a project spanning opportunity recognition, concept generation, prototyping and testing, concept selection, and engineering design, all informed by the needs of the intended user population. Includes discussions of industrial design, sketching, design thinking, prototyping and manufacturing processes, and product development consulting.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GE",
+    "number": "5030",
+    "title": "Iterative Product Prototyping for Engineers",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19093" },
+      { "term": "202240", "crn": "40387" }
+    ],
+    "description": "Seeks to develop in-depth knowledge and experience in prototyping by focusing on engineering processes and instrumentation that are used in different industries. Studies the prototyping cycle, from initial process flow and sketching to prototype development to testing and analysis, with an emphasis on iteration. Analyzes how different kinds of engineering prototypes can address design and user-interface needs vs. functional needs, such as looks-like and works-like prototypes. Offers students an opportunity to obtain operating knowledge of methods including 3D printing, SolidWorks, off-the-shelf hardware-software interfaces, simulation, embedded systems, product testing, prototype analysis, and prototype iteration.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GE",
+    "number": "5100",
+    "title": "Product Development for Engineers",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12085" },
+      { "term": "202310", "crn": "13489" },
+      { "term": "202260", "crn": "61237" },
+      { "term": "202240", "crn": "41411" }
+    ],
+    "description": "Focuses on the main processes needed to develop a complex, high-technology product. Emphasizes the most important techniques and approaches used in a startup environment. Seeks to benefit students of all engineering disciplines including computer science and biomedical, industrial, electrical, mechanical, computer, and chemical engineering. Includes a running practical project in which a new product is designed and executed through a series of small projects for each phase of the product development process. Topics include the product life cycle, new product development processes, project planning and management, new product idea generation, the systems approach to product development, design for manufacturing, market testing and launch, and escalation to manufacturing.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

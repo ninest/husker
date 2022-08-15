@@ -1,0 +1,157 @@
+[
+  {
+    "subject": "TELE",
+    "number": "5330",
+    "title": "Data Networking",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13833" }],
+    "description": "Provides the basics of data networking protocols and architectures. Topics include protocol architecture of the internet; application protocols such as FTP, SMTP and HTTP, web caching, DNS, CDNs, and P2P applications; use of TCP and UDP socket programming to develop network applications in Python; transport protocols, including TCP, UDP, and TCP congestion control; IP protocol, addressing, IPv4 and v6, NATs, ICMP, and tunnels; routing algorithms and OSPF; data link protocols, encoding, framing, error control, and PPP; switched LANs, ARP, Ethernet, and VLANs; wireless LANs and 802.11 protocols; and network security&amp;#8212;encryption, message integrity, authentication protocols, key management, SSL/TLS, IPsec, and 802.11i.",
+    "coreqs": [{ "subject": "TELE", "number": "5331" }],
+    "prereqs": []
+  },
+  {
+    "subject": "TELE",
+    "number": "5331",
+    "title": "Lab for TELE 5330",
+    "scheduleType": "Lab",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12166" }],
+    "description": "Addresses a range of networking components, including routers, switches, and Linux servers, and how they are configured to create a virtual environment. Covers the installation and configuration of networking concepts such as DNS, DHCP, and firewalls and the creation of virtual environments. Requires students, working in teams, to configure one or more components; the teams then must interconnect the components to form a small network. In the process of configuration and integration, students are exposed to troubleshooting at various protocol layers and have an opportunity to become familiarized with different operating systems and networking tools.",
+    "coreqs": [{ "subject": "TELE", "number": "5330" }],
+    "prereqs": []
+  },
+  {
+    "subject": "TELE",
+    "number": "5340",
+    "title": "Telecommunications Public Policy and Business Management",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12034" }],
+    "description": "Introduces students to business management issues, such as basic accounting, finance, marketing, and operations in the telecommunications field, and also topics such as the time value of money and decision making. Also includes issues of human relations, organizational behavior, and business strategy. Provides an understanding of the regulatory environment of the telecommunications industry. Topics include universal service, service quality tariffs, the Modified Final Judgment and Telecom Act of 1996, market restrictions and segmentation, the current competitive environment in the United States and internationally, interconnection including unbundling, collocation, economic issues, and global trends in market reform.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "TELE",
+    "number": "5350",
+    "title": "Telecom and Network Infrastructure",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13577" }],
+    "description": "Provides in-depth treatment of the wireline and wireless infrastructure of the network supporting all telecommunication, internet, and enterprise applications. Covers the basics of communications&amp;#8212;source coding, baseband and broadband modulation and transmission, channel coding, spread-spectrum, multiuser radio communications, radio link analysis, and propagation. Also covers the wireline core network&amp;#8212;digital and optical transmission, framing, network synchronization, asynchronous and synchronous multiplexing, cross connects, SONET/SDH, DWDM, OTN, protection switching, and network availability. Addresses wireline (DSL, digital cable, FTTx, PONs) and wireless access (cellular, Wi-Fi), frequency reuse, and handoff. Also addresses support of data transport (switched Ethernet, VLAN, IP, MPLS) and application networks (PSTN, mobile core, internet, IPTV, and virtual networks).",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "TELE",
+    "number": "5360",
+    "title": "Internet Protocols and Architecture",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13598" }],
+    "description": "Offers in-depth treatment of protocols used in the internet, wireless access, and enterprise networks. Topics include protocols for network layer QoS (including DiffServ, ECN, RSVP, MPLS); protocols for security, including both access control and network-level security (e.g., X.509, SSL/TLS, IPsec, IKE, EAP); protocols for interdomain routing (BGP); protocols to support multicast, broadcast, and streaming applications; protocols to support host mobility, large server deployments, content distribution, and enterprise networks (VLANs, etc); and protocols to support IPv6 (e.g., address assignment) and its interoperability with IPv4. Also covers network design architectures for cloud computing, data centers, content distribution, layer-2 networks, etc. Discusses general scaling issues for large networks.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "TELE", "number": "5330" },
+      "Or",
+      { "subject": "TELE", "number": "5330" }
+    ]
+  },
+  {
+    "subject": "TELE",
+    "number": "5600",
+    "title": "Linux/UNIX Systems Management for Network Engineers",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12120" }],
+    "description": "Introduces UNIX/Linux in a networking/Internet environment. Covers operating system concepts, tools, and utilities; networking and security issues; and data and text processing using scripts and filters. Addresses basic administrative tasks such as managing users, file systems, security, and software. Covers networking topics such as network configuration, daemon processes, SSH, DNS, DHCP, diagnostic tools, and the use of scripts and automation to manage applications and systems, as well as security topics such as name and authentication services, access control lists, file modification protections, and firewalls.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "TELE", "number": "5330" },
+      "Or",
+      { "subject": "TELE", "number": "5330" }
+    ]
+  },
+  {
+    "subject": "TELE",
+    "number": "6400",
+    "title": "Software-Defined Networking",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12961" }],
+    "description": "Introduces the foundational theories and technologies of software-defined networking (SDN), a new paradigm in computer networking that allows a logically centralized software program to control the behavior of an entire physical network. Discusses SDN technologies, such as the OpenFlow specification and OpenDaylight controller, and introduces students to SDN applications and network function virtualization (NFV). Offers hands-on exposure to popular open-source software and technologies through student projects. Requires good knowledge of Java or Python.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "TELE",
+    "number": "6510",
+    "title": "Fundamentals of the Internet of Things",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "16994" },
+      { "term": "202310", "crn": "16973" }
+    ],
+    "description": "Explores the foundations of and technologies involved in the Internet of Things (IoT). Topics include machine-to-machine (M2M) communications and its relationship with IoT. Examines fundamental components of the IoT architecture reviewing industry standards. Presents a large array of case studies. Discusses the fundamentals of data networks with a focus on different wireless technologies relevant to IoT, including the latest developments in IEEE 802.11, IEEE 802.15.4, and BLE, as well as network layer protocols such as 6LoWPAN that are critical to the deployment of wireless IoT networks. Discusses a range of IoT application protocols, especially MQTT, CoAP, and AMQP. Also explores IoT security and privacy considerations and identification mechanisms for IoT devices. Introduces wireless sensor networks and routing protocols for wireless networks.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "TELE",
+    "number": "6530",
+    "title": "Connected Devices",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "16938" },
+      { "term": "202310", "crn": "19104" }
+    ],
+    "description": "Offers an in-depth, software-intensive exploration of the Internet of Things (IoT)&mdash;from device to cloud&mdash;culminating in a semester-long project where each student designs, builds, and presents an end-to-end, integrated IoT solution. Covers IoT concepts and architectures, and incorporates significant software development activities through weekly modules. Includes testing, DevOps, and messaging protocols specific to the IoT; device integration; and cloud services designed for IoT ecosystems.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CSYE", "number": "6200" },
+      "And",
+      "(",
+      { "subject": "TELE", "number": "6510" },
+      "Or",
+      { "subject": "CSYE", "number": "6510" },
+      ")",
+      "And",
+      "(",
+      { "subject": "TELE", "number": "5330" },
+      "Or",
+      { "subject": "INFO", "number": "6105" },
+      ")"
+    ]
+  },
+  {
+    "subject": "TELE",
+    "number": "6550",
+    "title": "IoT Embedded System Design",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15292" },
+      { "term": "202310", "crn": "20014" }
+    ],
+    "description": "Explores the technologies and techniques behind the field of design and development of modern embedded devices in IoT systems. Specifically, focuses on a hands-on approach to software development on an embedded hardware platform. Through a final project, students have an opportunity to build and deploy an industrial-grade state-of-the-art embedded IoT solution. Presents C coding, but also reviews the ARM ISA as well as C++ development and debugging. Applies theoretical concepts to practical issues including pipelining, parallelism, concurrency, memory architectures, and I/O (GPIO, I2C, UART, SPI). Introduces bare-metal and OS-based development focusing on multitasking, scheduling, interrupts, threads, processes, tasks, IPC, drivers, contention resolution, and shared memory. Introduces state-of-the-art Google Cloud IoT and FreeRTOS APIs.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CSYE", "number": "6510" },
+      "Or",
+      { "subject": "TELE", "number": "6510" }
+    ]
+  }
+]

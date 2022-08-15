@@ -1,0 +1,65 @@
+[
+  {
+    "subject": "EXSC",
+    "number": "1120",
+    "title": "Introduction to Exercise, Fitness, and Health",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11717" }],
+    "description": "Explores the fundamental role of exercise and fitness in health. Introduces principles of exercise and various components of fitness and wellness. Discusses the development of basic exercise prescription for cardiorespiratory endurance, muscular strength, and endurance and flexibility and provides hands-on experiences of measuring these components. Includes discussions on a wide range of topics, including advances and innovations in health and fitness and practices that lead to more healthful living.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "EXSC",
+    "number": "5200",
+    "title": "Cardiopulmonary Physiology",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12265" }],
+    "description": "Offers students an opportunity to gain an understanding of physiological principles of the cardiopulmonary system. This advanced course covers (1) the structure and functional operation and regulation of the cardiopulmonary system; (2) disease-associated physiological changes and cardiopulmonary dysfunction; (3) exercise-induced acute responses and physiological adaptations of the system and their applications to chronic cardiopulmonary diseases. Encourages students to integrate their knowledge of exercise and physical activity with cardiopulmonary health and fitness, as well as cardiopulmonary disease prevention and treatment. Restricted to graduate students in exercise science and undergraduate students minoring in exercise science.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "EXSC",
+    "number": "5210",
+    "title": "Physical Activity and Exercise: Prescription, Measurement, and Testing",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11956" }],
+    "description": "Studies the general principles of physical activity and exercise prescription, measurement, and testing. Offers students an opportunity to learn the fundamental concepts and techniques to measure physical activity, exercise, and related testing procedures through a hands-on approach. Topics include the use of questionnaires and activity monitors to measure physical activity; measurement of body composition, fitness, muscular strength, and endurance; and clinical exercise testing. The fundamental concepts of exercise prescription and use of measurement techniques taught in this course are applicable to careers in physical therapy, exercise physiology, and as a physician assistant. Requires prior completion of EXSC 4500 or equivalent undergraduate course or permission of instructor.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "EXSC",
+    "number": "5230",
+    "title": "Physical Activity and Exercise: Effects on Musculoskeletal Health and Disease",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11841" }],
+    "description": "Seeks to provide a foundation for understanding the benefits of physical activity and exercise and the detrimental effects of physical inactivity and sedentary behavior on musculoskeletal health. Studies the function/dysfunction of the musculoskeletal systems resulting in common/uncommon disorders and the prevalence, etiology, and benefits of physical activity/exercise. Students apply previously learned exercise physiology principles, such as exercise prescription and neural and motor control adaptations, to physical activity and exercise. Discusses key physiological mechanisms underlying common/uncommon musculoskeletal disorders. Examines the preventive and beneficial effects of physical activity and exercise endorsed by the American College of Sports Medicine. Restricted to graduate students in exercise science and to undergraduate students minoring in exercise science.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "EXSC",
+    "number": "6300",
+    "title": "Internship in Exercise Science",
+    "scheduleType": "Off-campus instruction w/ lec",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13844" },
+      { "term": "202260", "crn": "60468" }
+    ],
+    "description": "Offers students an opportunity to obtain practical experience and to synthesize, integrate, and apply skills and knowledge learned in the exercise science curriculum in a professional environment. Field experiences are an important part of graduate education programs in exercise science. The student is expected to complete a minimum of 300 hours of supervised experience in a research or practice setting. May be repeated once.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

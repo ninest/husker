@@ -1,0 +1,118 @@
+[
+  {
+    "subject": "NETS",
+    "number": "5116",
+    "title": "Network Science 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ND"],
+    "sections": [{ "term": "202310", "crn": "20083" }],
+    "description": "Introduces network science and the set of analytical, numerical, and modeling tools used to understand complex networks emerging in nature and technology. Focuses on the empirical study of real networks, with examples coming from biology (metabolic, protein interaction networks), computer science (World Wide Web, Internet), or social systems (e-mail, friendship networks). Shows the organizing principles that govern the emergence of networks and the set of tools necessary to characterize and model them. Covers elements of graph theory, statistical physics, biology, and social science as they pertain to the understanding of complex systems.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "NETS",
+    "number": "7334",
+    "title": "Social Networks",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19919" }],
+    "description": "Offers an overview of the literature on social networks, with literature from political science, sociology, economics, and physics. Analyzes the underlying topology of networks and how we visualize and analyze network data. Key topics include small-world literature and the spread of information and disease. Students who do not meet course prerequisites may seek permission of instructor.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "NETS",
+    "number": "7335",
+    "title": "Dynamical Processes in Complex Networks",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19899" }],
+    "description": "Immerses students in the modeling of dynamical processes (contagion, diffusion, routing, consensus formation, etc.) in complex networks. Includes guest lectures from local and national experts working in process modeling on networks. Dynamical processes in complex networks provide a rationale for understanding the emerging tipping points and nonlinear properties that often underpin the most interesting characteristics of sociotechnical systems. Reviews the recent progress in modeling dynamical processes that integrates the complex features and heterogeneities of real-world systems.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "NETS", "number": "5116" },
+      "Or",
+      { "subject": "PHYS", "number": "5116" }
+    ]
+  },
+  {
+    "subject": "NETS",
+    "number": "7976",
+    "title": "Directed Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "18326" },
+      { "term": "202310", "crn": "18555" }
+    ],
+    "description": "Offers independent work under the direction of a member of the program on a chosen topic. Course content depends on instructor. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "NETS",
+    "number": "8986",
+    "title": "Research",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19909" },
+      { "term": "202310", "crn": "19910" },
+      { "term": "202310", "crn": "19911" },
+      { "term": "202310", "crn": "19912" },
+      { "term": "202310", "crn": "19913" },
+      { "term": "202310", "crn": "19914" },
+      { "term": "202310", "crn": "19915" }
+    ],
+    "description": "Offers an opportunity to conduct full-time research under faculty supervision. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "NETS",
+    "number": "9990",
+    "title": "Dissertation Term 1",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "17870" },
+      { "term": "202310", "crn": "18190" }
+    ],
+    "description": "Offers experimental and theoretical work for PhD candidates. Requires written dissertation and final oral exam.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "NETS",
+    "number": "9996",
+    "title": "Dissertation Continuation",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "16977" },
+      { "term": "202310", "crn": "17833" },
+      { "term": "202310", "crn": "17871" },
+      { "term": "202310", "crn": "17997" },
+      { "term": "202310", "crn": "18188" },
+      { "term": "202310", "crn": "18193" },
+      { "term": "202310", "crn": "18209" },
+      { "term": "202260", "crn": "61629" },
+      { "term": "202240", "crn": "41970" }
+    ],
+    "description": "Offers experimental and theoretical work for PhD candidates. Requires written dissertation and final oral exam.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "NETS", "number": "9991" },
+      "Or",
+      "Dissertation Check"
+    ]
+  }
+]

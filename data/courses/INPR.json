@@ -1,0 +1,59 @@
+[
+  {
+    "subject": "INPR",
+    "number": "4100",
+    "title": "Research-Visiting Student",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "18551" },
+      { "term": "202310", "crn": "18580" },
+      { "term": "202310", "crn": "18603" },
+      { "term": "202310", "crn": "18616" }
+    ],
+    "description": "Offers visiting students enrolled and in good standing at another institution an opportunity to work with a sponsoring faculty member on a topic related to current research. Detail of visit is described in the sponsoring faculty member&rsquo;s proposal approved prior to visit.  Faculty member and student negotiate a written agreement as to what topic(s) are covered and what written or laboratory work forms the basis for the grade.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INPR",
+    "number": "6100",
+    "title": "Research-Visiting Student",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "18543" },
+      { "term": "202310", "crn": "18544" },
+      { "term": "202310", "crn": "18607" },
+      { "term": "202240", "crn": "41928" },
+      { "term": "202240", "crn": "41929" },
+      { "term": "202240", "crn": "41934" }
+    ],
+    "description": "Offers visiting students enrolled and in good standing at another institution an opportunity to work with a sponsoring faculty member on a topic related to current research. Detail of visit is described in the sponsoring faculty member&rsquo;s proposal approved prior to visit.  Faculty member and student negotiate a written agreement as to what topic(s) are covered and what written or laboratory work forms the basis for the grade.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INPR",
+    "number": "9100",
+    "title": "Research-Visiting Student",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14497" },
+      { "term": "202310", "crn": "18558" },
+      { "term": "202310", "crn": "18579" },
+      { "term": "202310", "crn": "18581" },
+      { "term": "202310", "crn": "18582" },
+      { "term": "202310", "crn": "18608" },
+      { "term": "202310", "crn": "18609" },
+      { "term": "202240", "crn": "41933" }
+    ],
+    "description": "Offers visiting students enrolled and in good standing at another institution an opportunity to work with a sponsoring faculty member on a topic related to current research. Detail of visit is described in the sponsoring faculty member&rsquo;s proposal approved prior to visit.  Faculty member and student negotiate a written agreement as to what topic(s) are covered and what written or laboratory work forms the basis for the grade.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

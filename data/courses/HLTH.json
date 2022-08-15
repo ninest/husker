@@ -1,0 +1,167 @@
+[
+  {
+    "subject": "HLTH",
+    "number": "1203",
+    "title": "Basic Clinical Skills for the Healthcare Professional",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "18740" },
+      { "term": "202310", "crn": "18742" },
+      { "term": "202310", "crn": "18752" },
+      { "term": "202310", "crn": "18754" }
+    ],
+    "description": "Introduces undergraduate students to the basic knowledge and skills necessary to be successful in entry-level healthcare positions. Provides students with hands-on opportunities to learn skills in Basic Life Support, safe patient handling, determining vital signs, oxygen transport and safety, EKG prep and placement, and related clinical skills.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HLTH",
+    "number": "2100",
+    "title": "Interprofessional Ethics for Individual and Population Health",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "13488" },
+      { "term": "202260", "crn": "60591" }
+    ],
+    "description": "Provides case reviews and discussion related to basic theories, principles and contemporary issues of bioethics. Secondarily, this course is an interprofessional course that covers specific ethical guidelines for various health disciplines from nursing, pharmacy, health sciences, and others. Offers students an opportunity to develop systematic strategies and analytic frameworks for identifying and examining bioethical issues and for resolving bioethical dilemmas and problems. Students have an opportunity to apply their specific discipline&amp;#8217;s ethics code and work in multidisciplinary groups to apply ethical principles from different perspectives.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HLTH",
+    "number": "2200",
+    "title": "Emergency Medical Technician Training",
+    "scheduleType": "Lecture",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12699" },
+      { "term": "202240", "crn": "40259" }
+    ],
+    "description": "Offers students an opportunity to learn basic healthcare clinical skills and seeks to prepare students to function as emergency medical technicians (EMTs) at the basic life support level. EMTs are an essential component of prehospital emergency medical service (EMS) systems. This course seeks to establish a solid foundation in EMS, broadly including patient assessments, medical emergencies, trauma emergencies, relevant pharmacology, special populations, and EMS operations.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HLTH",
+    "number": "2302",
+    "title": "Alternative Medicine",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "60227" }],
+    "description": "Presents an objective assessment and discussion of alternative and complementary medical approaches used in the United States and their significant historical, cultural, and cross-cultural implications. The majority of alternative and complementary medical strategies were developed in a specific historical and cultural context. Some of the therapies have had an impact on human health for thousands of years. Others have become popular only recently. Many methods discussed are fused with different cultural practices, such as the concept of &amp;#8220;vitalism,&amp;#8221; a force that modern science does not recognize but is an important attribute in certain cultural practices. Some methods have long and successful histories based upon sophisticated ancient medical theories, such as &amp;#8220;Chi,&amp;#8221; found in Chinese medicine.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HLTH",
+    "number": "2992",
+    "title": "Health Equity Internship",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14473" },
+      { "term": "202260", "crn": "60571" }
+    ],
+    "description": "Offers an opportunity to document student contributions to research projects or creative endeavors.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HLTH",
+    "number": "5002",
+    "title": "Mindfulness: Theory and Practice",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13628" },
+      { "term": "202310", "crn": "20228" },
+      { "term": "202260", "crn": "60678" }
+    ],
+    "description": "Studies key aspects of theory and practical principles of mindfulness practice. Mindfulness is a particular way of paying attention to experiences that has been scientifically researched and found to decrease habitual and destructive cycles of thought and emotion. This course is highly experiential and daily homework practice consists of at least 20 minutes of mindfulness practice. Instructions for the various practices are provided throughout the course. Each class typically includes a didactic portion, a mindfulness practice, and a group discussion. The benefits of mindfulness practice include reduced stress, improved attention, reduced emotional reactivity, and greater mind-body awareness. Offers students an opportunity to develop practical skills of relational mindfulness in interactions with others and to cultivate positive emotions.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HLTH",
+    "number": "5280",
+    "title": "The (in)Visibility of (dis)Ability in Society",
+    "scheduleType": "Seminar",
+    "credits": 3,
+    "nuPath": ["DD"],
+    "sections": [{ "term": "202310", "crn": "11722" }],
+    "description": "Addresses the issues of disability relative to culture, public policy, rights, and advocacy. Focuses class discussion on the experiences of people with disabilities living in our current society as well as from a historical perspective. Explores the following topics: who is disabled, social attitudes toward people with disabilities, and images and stigma in the media. Also covers the language of disability, disability culture, and the forgotten minority. Affords students an opportunity to gain a broad understanding of the complex and dynamic issues and themes concerning people with disabilities.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HLTH",
+    "number": "5410",
+    "title": "Introduction to Statistics in Health and Behavioral Science",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "41486" }],
+    "description": "Introduces basic and intermediate concepts in research methods and quantitative analysis in health and behavioral sciences. Explores foundational considerations in research methodology and acquisition of knowledge in statistical techniques, ranging from descriptive statistics to probability and inference. Offers students an opportunity to state and test hypotheses guiding them through the analysis and interpretation of collected information and to build experience with conducting statistical analysis using common spreadsheet software (e.g., Excel).",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HLTH",
+    "number": "5600",
+    "title": "Introduction to Patient Safety",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18756" }],
+    "description": "Introduces patient safety science, which is a growing specialty in healthcare, driven by research and reporting efforts that demonstrate unacceptable levels of patient harm in care delivery. Provides a comprehensive overview of the tools and knowledge necessary for healthcare clinicians, administrators, and leaders to create safer healthcare systems. Explores the major themes of patient safety science and the concepts utilized in designing safer healthcare systems and mechanisms for healthcare delivery. Focuses on the history of patient safety, political and regulatory drivers and their impact on patient safety, the importance of robust data capture in recognizing risks, and the inherent challenges of informatics and technology for patient safety. Applying these concepts guides design of safer healthcare.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HLTH",
+    "number": "5620",
+    "title": "Leadership, Patient Safety, and Clinical Wellness",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18758" }],
+    "description": "Examines patient-safety-focused leadership that recognizes the importance of partnering with key healthcare proponents to advance the safe delivery of care. Discusses the role of leaders in advancing a culture of safety and creating a just culture approach to adverse event reviews. Identifies the importance of psychological safety in adverse event reporting and analysis. Focuses on leadership roles in promoting robust workforce wellness initiatives to prevent clinician burnout. Prior completion of HLTH 5600 is recommended but not required.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HLTH",
+    "number": "5630",
+    "title": "Quality Improvement in Patient Safety",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18759" }],
+    "description": "Introduces key components of patient safety science that promote identification of patient safety risks and effectively foster changes to reduce those risks. Examines the processes and tools employed in quality improvement efforts and recognizes the importance of risk assessment, data collection, and measurement in healthcare settings. Identifies quality improvement models and compares their effectiveness in promoting safer care delivery. Concludes with a discussion of the advantages and disadvantages of incentivizing quality improvement efforts through reimbursement strategies that utilize quality incentives. Prior completion of HLTH 5600 is recommended but not required.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HLTH",
+    "number": "7999",
+    "title": "Extended Field Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "20305" },
+      { "term": "202240", "crn": "41914" }
+    ],
+    "description": "Offers supervised field experience.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

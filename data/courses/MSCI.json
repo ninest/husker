@@ -1,0 +1,38 @@
+[
+  {
+    "subject": "MSCI",
+    "number": "6001",
+    "title": "Principles of Healthcare Advocacy",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "21077" }],
+    "description": "Seeks to prepare healthcare leaders in legislative advocacy and self-advocacy. Legislative advocacy examines relevant health policy research and analysis. Explores self-advocacy aspects within an organization, including communication, interpersonal relationships, and project leadership. Offers students an opportunity to successfully engage in political discussion and advocate for ideas as leaders.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MSCI",
+    "number": "6003",
+    "title": "Healthcare Leadership Seminar",
+    "scheduleType": "Seminar",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "21083" }],
+    "description": "Surveys general leadership theory, knowledge, and skills to gain insight into differing leadership theories. Emphasizes knowledge and skill in essential healthcare leadership practices such as vision, planning, decision making, communication, interpersonal skills, conflict resolution, motivating and developing others, mentorship, ethical practice, and culture change.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MSCI",
+    "number": "6900",
+    "title": "Research Methods and Design",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "21090" }],
+    "description": "Surveys the principles essential to conduct ethical research in medical sciences. Explores and critically evaluates the concepts, methods, and applications of research and research methods. Offers students an opportunity to propose and develop a research project to inform an important healthcare issue influencing the practice, administration, or policies of healthcare.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

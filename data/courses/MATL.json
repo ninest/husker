@@ -1,0 +1,41 @@
+[
+  {
+    "subject": "MATL",
+    "number": "6270",
+    "title": "Principles, Devices, and Materials for Energy Storage and Energy Harvesting",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15091" }],
+    "description": "Introduces students to materials, devices, and mechanisms for clean and sustainable energy while providing a broad overview of energy storage and energy harvesting. Offers examples related to materials and devices used in energy storage and harvesting and delves into the principles that underlie the performance of advanced electrochemical storage and harvesting systems, for example solar energy and mechanical energy. Also covers efficient energy usage, such as energy-efficient lighting and building. Beyond course content, assignments provide students with opportunities to practice concise writing and peer review of abstracts, deliver scientific presentations, and explore optimum ways to present technical information. Students should have some prior knowledge of materials science, electrochemistry, and/or semiconductor physics.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MATL",
+    "number": "6285",
+    "title": "Structure, Properties, and Processing of Polymeric Materials",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11493" },
+      { "term": "202310", "crn": "16888" }
+    ],
+    "description": "Provides an introduction to the organic chemistry of polymers, the effects of chemical composition on structure, melting point, and degradation, and the thermodynamics of polymers. Other topics include the mechanical properties of polymers, analysis and testing, the effects of processing on structures and properties, and the processing of industrial polymers, with applications.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MATL",
+    "number": "7355",
+    "title": "Thermodynamics of Materials",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13001" }],
+    "description": "Covers fundamentals of materials thermodynamics that encompass the first, second, and third laws, entropy, enthalpy, and free energy. Emphasis is on phase stability and equilibria, phase diagram computation with applications to phases in metals, alloys, and ionic compounds. Requires knowledge of thermodynamics course and materials science course.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

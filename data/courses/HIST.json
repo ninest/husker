@@ -1,0 +1,615 @@
+[
+  {
+    "subject": "HIST",
+    "number": "1000",
+    "title": "History at Northeastern",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13154" }],
+    "description": "Intended for first-year students in the College of Social Sciences and Humanities. Seeks to introduce first-year students to the liberal arts in general, to familiarize them with their history major, to provide grounding in the culture and values of the university community, and to help them develop interpersonal skills.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "1130",
+    "title": "Introduction to the History of the United States",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [
+      { "term": "202310", "crn": "17548" },
+      { "term": "202310", "crn": "20504" },
+      { "term": "202240", "crn": "40649" }
+    ],
+    "description": "Engages with the major issues in U.S. history. Topics include the interaction of native populations with European settlers, the American Revolution and the Constitution, slavery, the Civil War, industrialization and migration, the growth of government and rise of the welfare state, media and mass culture, struggles for civil rights and liberation, and America&amp;#8217;s role in the world from independence to the Iraq wars.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "1150",
+    "title": "East Asian Studies",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [
+      { "term": "202310", "crn": "12680" },
+      { "term": "202260", "crn": "61438" },
+      { "term": "202240", "crn": "41717" }
+    ],
+    "description": "Seeks to provide an understanding of the constituent characteristics that originally linked East Asia as a region and the nature of the transformations that have occurred in the region over the last two thousand years. Concentrates on China and Japan, and addresses Korea and Vietnam where possible. Also seeks to provide students with effective interdisciplinary analytical skills as well as historical, ethical, cultural diversity, and aesthetic perspectives. ASNS 1150 and HIST 1150 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "1170",
+    "title": "Europe: Empires, Revolutions, Wars, and Their Aftermath",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "SI"],
+    "sections": [{ "term": "202310", "crn": "12567" }],
+    "description": "Examines how empires, wars, and revolutions have influenced the development of the modern world, focusing on Europe and Europe&rsquo;s connections with the non&ndash;European world. Explores how wars and revolutions led to the emergence of modern concepts of sovereignty, the state, and citizenship and how global competition between states led to the emergence of empires. Traces the promise of allegedly liberating ideologies and the political and economic revolutions they fostered, repeated wars and their aftermaths, and the challenges of recent world developments viewed from the perspective of history. Explores how human diversity and difference have shaped modern societies through history and how human difference and multiculturalism have both fostered and posed challenges to civic sustainability. Interrogates the meanings of &ldquo;modernity,&rdquo; democracy and totalitarianism, capitalism and socialism, and globalization.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "1185",
+    "title": "Introduction to Middle Eastern History",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19259" }],
+    "description": "Relies on historical and literary sources, as well as such other cultural artifacts as architecture and photography, and focuses on interaction and changing relations and perceptions between Europe and the Middle East. Surveys the major political and economic events that have linked the trajectory of both civilizations, as well as broad patterns of human activity, such as migrations, conversions, and, cultural exchange. Emphasizes the commonality of encounters, and analyzes the construction of an &amp;#8220;other&amp;#8221; and its enduring legacy in modern times.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "1187",
+    "title": "Introduction to Latin American History",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC", "SI"],
+    "sections": [{ "term": "202310", "crn": "20161" }],
+    "description": "Surveys major themes in Latin American history from the arrival of the first human inhabitants until the present through a diversity of primary and secondary sources. Examines the social, cultural, political, and economic transformations that shaped Latin America during this period. Emphasizes how concepts of race, class, gender, and sexuality informed these changes and the people&amp;#8217;s experiences of them. Topics include migration, colonialism and postcolonialism, war and revolution, slavery and abolition, nationalism and nation building, democracy and despotism, urbanization, modernization, religion, imperialism and underdevelopment, human rights, drug policy and international relations, labor, the arts, popular culture, and the environment.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "1200",
+    "title": "Historical Research and Writing",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12151" },
+      { "term": "202310", "crn": "20781" }
+    ],
+    "description": "Offered in conjunction with HIST 1201. Introduces incoming history freshmen to the history major in the context of other disciplines within the college and University. Offers students an opportunity to learn and to practice methods and conventions of research and historical writing.",
+    "coreqs": [{ "subject": "HIST", "number": "1201" }],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "1201",
+    "title": "First-Year Seminar",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [
+      { "term": "202310", "crn": "11832" },
+      { "term": "202310", "crn": "20782" }
+    ],
+    "description": "Provides an introduction to historical methods, research, writing, and argument in which all students produce a substantial research project that passes through at least two revisions, and that is presented publicly to other members of the colloquium.",
+    "coreqs": [{ "subject": "HIST", "number": "1200" }],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "1215",
+    "title": "Origins of Today: Historical Roots of Contemporary Issues",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [
+      { "term": "202310", "crn": "16576" },
+      { "term": "202260", "crn": "60580" },
+      { "term": "202240", "crn": "41549" }
+    ],
+    "description": "Focuses on the historical roots of four pressing contemporary issues with global implications. Our world has grown increasingly complex and interconnected, and the planet&rsquo;s diverse peoples are facing common problems that have tremendous impact on the immediate future. They are (1) globalization, from its origins in the sixteenth century to the present; (2) the potential for global pandemics to alter the course of history, from bubonic plague in the fifth century to H1N1; (3) racial inequality, from religious interpretations in the early modern period to science in the modern era; and (4) gender inequality, from the agricultural revolution forward. For each issue, studies cases and locations spread across the world, examines the links between past and present, and attempts to identify ways forward.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "1218",
+    "title": "Pirates, Planters, and Patriots: Making the Americas, 1492&amp;#8211;1804",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [{ "term": "202310", "crn": "19260" }],
+    "description": "Seeks to challenge students to understand more than the outlines of American history&amp;#8212;Pilgrims, patriots, plantations&amp;#8212; in the broader contexts of events that unfolded in and around the Atlantic Ocean in the Americas, Europe, and Africa. Covers Columbus&amp;#8217;s first landing in the Caribbean to the Haitian declaration of independence in 1804 and includes the Atlantic trade, piracy, slavery and other forms of labor, cultural and ecological exchange, and independence and emancipation.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "1225",
+    "title": "Gender, Race, and Medicine",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD"],
+    "sections": [{ "term": "202310", "crn": "19066" }],
+    "description": "Examines the basic tenets of &amp;#8220;scientific objectivity&amp;#8221; and foundational scientific ideas about race, sex, and gender and what these have meant for marginalized groups in society, particularly when they seek medical care. Introduces feminist science theories ranging from linguistic metaphors of the immune system, to the medicalization of race, to critiques of the sexual binary. Emphasizes contemporary as well as historical moments to trace the evolution of &amp;#8220;scientific truth&amp;#8221; and its impact on the U.S. cultural landscape. Offers students an opportunity to develop the skills to critically question what they &amp;#8220;know&amp;#8221; about science and the scientific process and revisit their disciplinary training as a site for critical analysis. AFAM 1225, HIST 1225, and WMNS 1225 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "1232",
+    "title": "History of Boston",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC"],
+    "sections": [{ "term": "202310", "crn": "15353" }],
+    "description": "Explores the history of Boston from colonial times to the present, with attention to the topographical growth and the ethnic composition of the city. Includes visits to historical sites, museums, and archives in the area.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "1300",
+    "title": " Introduction to Health and Humanities",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC"],
+    "sections": [{ "term": "202310", "crn": "16647" }],
+    "description": "Explores the ways in which narrative and other forms of creative and cultural expression help shape conceptions of illness, healing, and the body. Offers students opportunities to consider the health and humanities through a variety of interdisciplinary perspectives and genres. Includes small-group and classwide experiential field outings. Culminates in the composition of reflective responses, a medical ethics/medical journalism piece, and a team-based experiential e-portfolio project. Course objectives include differentiating between healing and curing; knowing how to elicit, listen to, and analyze stories to determine how participants in the healthcare system experience illness and healing; being able to articulate the ways health is a cultural construct; and using this analysis to identify an empathic response as a future professional.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "1389",
+    "title": "History of Espionage 1: Antiquity to World War II",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [{ "term": "202260", "crn": "60915" }],
+    "description": "Explores the history of espionage through a series of case studies from ancient Rome, Greece, and China; the Reformation; the Age of Discovery; the French Revolution; the American Civil War; World War I and the Russian Revolution; and World War II. Commonly referred to as the world&rsquo;s &ldquo;second oldest profession,&rdquo; espionage is an intrinsic part of the relationships between communities, institutions, and states. Draws from a wide variety of published and unpublished primary and secondary sources, supplemented by modern theoretical and social science perspectives, literature, and films.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "1390",
+    "title": "History of Espionage 2: Cold War Spies",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [
+      { "term": "202310", "crn": "13900" },
+      { "term": "202240", "crn": "40573" }
+    ],
+    "description": "Explores the history of espionage during the Cold War era (1943&amp;#8211;1991) through a series of case studies. Draws from a wide variety of published and unpublished primary and secondary sources, supplemented by modern theoretical and social science perspectives, literature, and films. Students work individually and in teams to explore the history of covert operations, including the following subthemes: the origins of the Cold War in World War II, the postwar battle for German scientists, containment and rollback, Venona and code breaking, nuclear spies, defectors, proxy wars, insurgencies and counterinsurgencies, terrorism, and technology.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "2000",
+    "title": "Native American Resistance: Past and Present",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [
+      { "term": "202310", "crn": "13443" },
+      { "term": "202310", "crn": "20424" },
+      { "term": "202310", "crn": "20485" },
+      { "term": "202310", "crn": "20486" },
+      { "term": "202310", "crn": "20566" }
+    ],
+    "description": "Introduces the Indigenous peoples of North America and the academic field of Native American and Indigenous studies. Combines public history and public art, field trips, and original research to focus on the ongoing resistance to colonization and erasure and the resilience of Indian nations in New England and beyond. Covers particular themes, including the present-day impact of historical treaties and policies including land allotment, relocation, termination, boarding schools, and natural resource extraction.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "2011",
+    "title": "Capitalism and Business: A Global History",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["IC", "SI"],
+    "sections": [{ "term": "202310", "crn": "19261" }],
+    "description": "Analyzes the emergence of capitalism as a global system, from the emergence of early modern market societies to today&rsquo;s globalization and its discontents. Considers how technological and geopolitical developments changed the economic lives of people around the world and how those people responded. Examines historical debates about ethics of redistribution and economic justice. Topics include empire and slavery, industrialization and deindustrialization, moral economy and market societies, and finance and speculation, as well as the histories of money, commodities, and consumer cultures. Sources include historical scholarship, archive documents, economic philosophy, and cultural production such as novels, music, and art.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "2211",
+    "title": "The World Since 1945",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "12324" },
+      { "term": "202310", "crn": "11154" },
+      { "term": "202260", "crn": "60138" },
+      { "term": "202240", "crn": "41550" }
+    ],
+    "description": "Examines the political, economic, social, and cultural relationship between the developed and developing world since the end of World War II. Topics include the Cold War, independence and national movements in developing countries, the globalization of the world economy, scientific and technological innovations, wealth and poverty, the eradication of some diseases and the spread of others, the fall of the Soviet Union, Middle East turmoil, and the enduring conflict between Israel and Palestine.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "2217",
+    "title": "The Global Far-Right since 1945: Politics, Culture, Violence",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [{ "term": "202310", "crn": "19262" }],
+    "description": "Explores the emergence of far-right activism globally since the end of World War II. Emphasizes how radical far-right ideology developed and shifted over the course of the last 75 years by focusing on how it globalized through written culture, music, and the internet. Examines a number of case studies in which far-right cultures developed and then spread, which can include South Africa, the United States, the United Kingdom, and Russia, as well as related movements such as radical Hindu nationalism and Hindutva. Explores each case study in terms of culture, politics, and ideologies of violence.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "2220",
+    "title": "History of Technology",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "SI"],
+    "sections": [{ "term": "202310", "crn": "16455" }],
+    "description": "Offers an interdisciplinary survey of the global history of science and technology. Explores how scientific and technical knowledge, processes, and innovations developed and circulated. Examines how science and technology both shaped and responded to society, culture, ethics, and thought.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "2282",
+    "title": "The Holocaust and Comparative Genocide",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "14880" },
+      { "term": "202240", "crn": "41428" }
+    ],
+    "description": "Examines the origins of the Holocaust, perpetrators and victims, and changing efforts to come to terms with this genocide. The Holocaust, the murder of six million Jews by Germans in Nazi-occupied Europe during World War II, is one of the crucial events of modern history. Investigates the uniqueness of the Holocaust relative to other acts of ethnic cleansing or genocide, including mass death in the New World and mass murder in Armenia, Bosnia, and Rwanda.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "2301",
+    "title": "History Seminar",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10473" }],
+    "description": "Introduces history majors to advanced techniques of historical practice in research and writing. Offers students an opportunity to conduct original research and write an original research paper. Seminar themes vary; students should check with the Department of History for a list of each year&amp;#8217;s seminar offerings. May be repeated without limit.",
+    "coreqs": [{ "subject": "HIST", "number": "2302" }],
+    "prereqs": [{ "subject": "HIST", "number": "1201" }]
+  },
+  {
+    "subject": "HIST",
+    "number": "2302",
+    "title": "Historical Writing",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10393" }],
+    "description": "Covers learning and practicing methods and conventions of historical writing for publication. Adjuncted to a Seminar in History, which fulfills the Advanced Writing in the Disciplines requirement.",
+    "coreqs": [{ "subject": "HIST", "number": "2301" }],
+    "prereqs": [{ "subject": "HIST", "number": "1201" }]
+  },
+  {
+    "subject": "HIST",
+    "number": "2311",
+    "title": "Colonialism/Imperialism",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "13901" },
+      { "term": "202310", "crn": "20785" },
+      { "term": "202260", "crn": "61295" }
+    ],
+    "description": "Examines the military, economic, political, and cultural expansion of world powers since the fifteenth century, and the ways in which colonized peoples were ruled. Why did colonialist countries feel the need to conquer and dominate, how did they do it, and why did they retreat on some fronts? How did people resist and cooperate with colonialism? How did colonialism affect national and cultural identities? Colonialism is examined as a global phenomenon and from a comparative perspective that looks at particular case studies. Also examines decolonization in the twentieth century.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "2351",
+    "title": "Modern Japan",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC", "SI"],
+    "sections": [{ "term": "202310", "crn": "16456" }],
+    "description": "Examines state formation, economic growth, imperialism and colonialism, war and defeat, and contemporary culture.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "2373",
+    "title": "Gender and Sexuality in World History",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [{ "term": "202310", "crn": "19263" }],
+    "description": "Introduces key concepts in the fields of gender and identity studies as they apply to world history since about 1800. Offers students an opportunity to understand the critical significance of gender, sex, sexuality, and identity to world events and how these contentious subjects influence the contemporary world. Surveys a series of major movements in geopolitics, labor, economics, culture, and society in order to analyze how individual and group identities, as well as mass assumptions about behavior and performance, have shaped these events. Gender, sex, and sexuality are integral to class discussions of work, welfare, art, culture, violence, war, and activism. HIST 2373 and WMNS 2373 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "2375",
+    "title": "The Tudors, the Stuarts, and the Birth of Modern Britain",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19264" }],
+    "description": "Examines the history of early modern England as well as Ireland, Wales, and Scotland. Follows the development of England from a small backwater to one of the most powerful European nations by the end of the seventeenth century. Analyzes the constantly shifting relationships between the various cultural identities within Britain. Concentrates on British history not only from the perspective of the elites but also the ordinary people whose names have often been lost to history. Key themes include the growth of the British Empire, issues of gender, the interactions between England and the Celtic fringes, and participation in the political franchise.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "3330",
+    "title": "The Global Cold War",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["DD", "SI", "WI"],
+    "sections": [{ "term": "202310", "crn": "14868" }],
+    "description": "Examines the Cold War, emphasizing how the Soviet-American struggle for global preeminence intersected with decolonization and the rise of the &amp;#8220;Third World.&amp;#8221; Uses primary sources, monographs, and scholarly articles to trace the major events and developments of the Cold War&amp;#8212;ideological differences between the capitalist and socialist systems, the Cuban Missile Crisis, the construction of the Berlin Wall, the Vietnam War&amp;#8212;while also exploring how and why the Cold War came to pervade economic, cultural, and social relations globally. Examines how unexpected actors&amp;#8212;Cuban doctors and Peace Corps volunteers&amp;#8212;responded to and shaped superpower rivalry. Considers how the Cold War continues to shape the world today.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "3334",
+    "title": "Assassinations in World History",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [{ "term": "202310", "crn": "14869" }],
+    "description": "Explores the historical antecedents to the unprecedented use of assassination and targeted killing as state policy in the current war on terror: the theory, strategic use, ethics, and legality of assassination. Using film, literature, and primary and secondary readings, explores case studies in the world history of assassination, from ancient times to the current day, including case studies from the Roman Empire, early modern Europe, revolutionary Europe, and the 20th century.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "4701",
+    "title": "Capstone Seminar",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["CE", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "10474" },
+      { "term": "202310", "crn": "20966" }
+    ],
+    "description": "Offers students an opportunity to make use of advanced techniques of historical methodology to conduct original research and write a major, original research paper as the culmination of their work toward the history degree. This is a capstone research and writing seminar for history majors. Not open to students who are receiving credit for HIST 4911, HIST 4912, HIST 4970, or HIST 4971.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "HIST", "number": "2301" }]
+  },
+  {
+    "subject": "HIST",
+    "number": "5101",
+    "title": "Theory and Methodology 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10734" }],
+    "description": "Examines the following questions in the context of major issues in current historical research and debate. Where do historical questions come from, and how do we answer them? How do we produce knowledge about historical events and processes? What theoretical models guide historians work? Emphasizes interdisciplinary approaches as well as concrete techniques in historical research. Required of all first-year graduate students.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "5237",
+    "title": "Issues and Methods in Public History",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11456" }],
+    "description": "Examines and analyzes major issues and methods in public history in the United States and the world. Topics include the nature and meaning of national memory and myth, the theory and practice of historic preservation, rural and land preservation and the organizational structures and activities associated with those efforts, the interrelationship of historical museums and popular culture, the history and organization of historic house museums, historical documentary filmmaking, historical archaeology in world perspective, interpreting &amp;#8220;ordinary&amp;#8221; landscapes, and the impact of politics on public history.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "5241",
+    "title": "Exhibits and Museums",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "21042" }],
+    "description": "Considers the history of museums and exhibitions from a transnational perspective in order to examine the various roles museums have played in historical and contemporary global culture. Explores museums as cultural institutions and institutional cultures through historical and theoretical readings, museum visits, and the development of students&amp;#8217; own exhibitions. Currently among the world&amp;#8217;s most popular sites of education and leisure, museums have held a wide range of social, political, and cultural roles over the past 500 years. Offers students an opportunity to develop more acute insight into the ways museums and their exhibitions have made and reflected ideas about history, science, art, identity, and culture.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "7250",
+    "title": "Topics in Public History",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19265" }],
+    "description": "Offers readings, class work, and projects on selected themes and issues in public history.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "7251",
+    "title": "Topics in American History",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19266" }],
+    "description": "Focuses on one or more topics in the history of the United States. May be repeated up to two times.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "7314",
+    "title": "Research Seminar in World History",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16573" }],
+    "description": "Gives students the opportunity to do research and write a paper that addresses historical issues and processes significant at a global scale. Discussions focus on what it means to be significant on a global scale, how to find and utilize relevant source material, and on previous scholarship relevant in helping shape questions and issues in our own work. Students also read and critique one another&amp;#8217;s work. May be repeated up to four times.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "7370",
+    "title": "Texts, Maps, and Networks: Readings and Methods for Digital History",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12984" }],
+    "description": "Introduces the methods and practice of history in a digital age. Offers students an opportunity to see the wide variety of work being done computationally by historians and other humanists today and to obtain the background to be creative producers of new work and critical consumers of existing projects. The rise of computing technology and the Internet has the potential to reshape all parts of historical practice, from curation to research to dissemination. Examines the historian&amp;#8217;s craft in three primary domains: the creation of digital sources, the algorithmic transformations that computers can enact on cultural materials like texts, and the new ecologies of publishing and scholarly communication made possible by new media.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "7976",
+    "title": "Directed Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13392" },
+      { "term": "202310", "crn": "16934" },
+      { "term": "202310", "crn": "18009" },
+      { "term": "202310", "crn": "18018" },
+      { "term": "202310", "crn": "20223" }
+    ],
+    "description": "Offers independent work under the direction of members of the department on chosen topics. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "8409",
+    "title": "Practicum in Teaching",
+    "scheduleType": "Off-campus instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16720" }],
+    "description": "Offers students the opportunity to teach individual college-level courses within the Department of History under the general supervision of a senior faculty member. Open to doctoral students.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "8410",
+    "title": "Fieldwork in History 1",
+    "scheduleType": "Off-campus instruction",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10733" }],
+    "description": "Offers students the opportunity to get practical experience in historical agencies including historical societies, archives, museums, exhibits, restorations, preservation projects, and the like. Requires students to work in the agency ten hours a week for one semester under the direction of an agency supervisor and departmental adviser.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "8411",
+    "title": "Fieldwork in History 2",
+    "scheduleType": "Off-campus instruction",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "17063" }],
+    "description": "Gives students a second opportunity to acquire practical experience in an historical agency. Requires ten hours a week for one semester under the direction of an agency supervisor and a departmental adviser.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "8960",
+    "title": "Exam Preparation&amp;#8212;Doctoral",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15473" }],
+    "description": "Intended to show full-time status during the semester of the PhD qualifying exam.  Students are expected to carry a full load of research and/or teaching responsibilities in addition to this course.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "8986",
+    "title": "Research",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15628" },
+      { "term": "202310", "crn": "17600" }
+    ],
+    "description": "Offers an opportunity to conduct full-time research under faculty supervision. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "9990",
+    "title": "Dissertation Term 1",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19814" },
+      { "term": "202310", "crn": "19815" },
+      { "term": "202310", "crn": "19816" }
+    ],
+    "description": "Offers dissertation supervision by members of the department.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HIST",
+    "number": "9991",
+    "title": "Dissertation Term 2",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16869" }],
+    "description": "Offers dissertation supervision by members of the department.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "HIST", "number": "9990" }]
+  },
+  {
+    "subject": "HIST",
+    "number": "9996",
+    "title": "Dissertation Continuation",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "16731" },
+      { "term": "202310", "crn": "16732" },
+      { "term": "202310", "crn": "11524" },
+      { "term": "202310", "crn": "17472" },
+      { "term": "202310", "crn": "19994" }
+    ],
+    "description": "Offers dissertation supervision by members of the department.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

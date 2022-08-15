@@ -1,0 +1,612 @@
+[
+  {
+    "subject": "PHTH",
+    "number": "1260",
+    "title": "The American Healthcare System",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [
+      { "term": "202310", "crn": "13149" },
+      { "term": "202310", "crn": "14925" },
+      { "term": "202310", "crn": "14926" },
+      { "term": "202310", "crn": "17071" },
+      { "term": "202310", "crn": "17116" },
+      { "term": "202310", "crn": "20426" },
+      { "term": "202310", "crn": "20482" },
+      { "term": "202260", "crn": "60602" },
+      { "term": "202240", "crn": "41497" },
+      { "term": "202240", "crn": "41498" }
+    ],
+    "description": "Introduces the organization and dynamics of the healthcare system and the role of consumers. Explores basic elements of healthcare including financing, personal insurance, high-risk status, and patient rights within the context of the U.S. system. Central to this exploration is an analysis of healthcare issues requiring informed consent from patients: patient bill of rights, healthcare directives, and the use of a proxy for decision making. Introduces the roles and responsibilities of various healthcare workers within the framework of an interdisciplinary model of healthcare.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "1270",
+    "title": "Introduction to Global Health",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [
+      { "term": "202310", "crn": "11958" },
+      { "term": "202310", "crn": "16717" },
+      { "term": "202260", "crn": "60916" },
+      { "term": "202240", "crn": "41500" }
+    ],
+    "description": "Introduces global health in the context of an interdependent and globalized world focusing on four main areas of analysis: infrastructure of global health; diseases; populations; and terms, concepts, and theories. While the focus is on lower-income countries, the course examines issues in a broader global context, underscoring the interconnections between global health disparities and global health policy response. Applies case studies describing interventions to improve healthcare in resource-poor settings in sub-Saharan Africa and elsewhere to help illuminate the actors, diseases, populations, and principles and frameworks for the design of effective global health interventions. AFRS 1270 and PHTH 1270 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "2210",
+    "title": "Foundations of Biostatistics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD", "FQ"],
+    "sections": [
+      { "term": "202310", "crn": "16620" },
+      { "term": "202310", "crn": "19433" }
+    ],
+    "description": "Introduces the fundamental concepts of biostatistics. Offers students an opportunity to learn to apply statistical thinking to practical problems across several health disciplines. Draws examples and readings from clinical and public health literature. Introduces the Stata statistical software package.",
+    "coreqs": [{ "subject": "PHTH", "number": "2211" }],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "2211",
+    "title": "Recitation for PHTH 2210",
+    "scheduleType": "Recitation/Discussion",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "16662" },
+      { "term": "202310", "crn": "16663" },
+      { "term": "202310", "crn": "16664" },
+      { "term": "202310", "crn": "17065" },
+      { "term": "202310", "crn": "19436" },
+      { "term": "202310", "crn": "19437" },
+      { "term": "202310", "crn": "19439" }
+    ],
+    "description": "Offers small group discussion format to cover material in PHTH 2210.",
+    "coreqs": [{ "subject": "PHTH", "number": "2210" }],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "2300",
+    "title": "Communication Skills for the Health Professions",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "EI"],
+    "sections": [
+      { "term": "202310", "crn": "11452" },
+      { "term": "202310", "crn": "13426" },
+      { "term": "202310", "crn": "16298" },
+      { "term": "202310", "crn": "16299" },
+      { "term": "202310", "crn": "16300" },
+      { "term": "202310", "crn": "16301" },
+      { "term": "202310", "crn": "19450" },
+      { "term": "202310", "crn": "19452" },
+      { "term": "202310", "crn": "20700" },
+      { "term": "202240", "crn": "40958" },
+      { "term": "202240", "crn": "41507" },
+      { "term": "202240", "crn": "41511" }
+    ],
+    "description": "Offers students in the health professions an opportunity to learn how to communicate effectively with patients, colleagues, and other professionals. Covers interpersonal communication with patients and families from culturally diverse backgrounds, public speaking and presentations, and communicating as a leader. Requires students to create/prepare and deliver several presentations throughout the semester.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "2350",
+    "title": "Community and Public Health",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [
+      { "term": "202310", "crn": "10854" },
+      { "term": "202310", "crn": "13004" },
+      { "term": "202310", "crn": "16305" },
+      { "term": "202310", "crn": "16586" },
+      { "term": "202310", "crn": "16588" },
+      { "term": "202310", "crn": "19459" },
+      { "term": "202310", "crn": "19461" },
+      { "term": "202260", "crn": "60798" },
+      { "term": "202240", "crn": "40959" },
+      { "term": "202240", "crn": "41512" },
+      { "term": "202240", "crn": "41515" },
+      { "term": "202240", "crn": "41520" }
+    ],
+    "description": "Provides students with a basic familiarity with and appreciation of public health and community-based methods for improving the health of populations. Explores the purpose and structure of the U.S. public health system, contemporary public health issues such as prevention of communicable diseases, health education, social inequalities in health and healthcare, public health responses to terrorism, and control of unhealthy behaviors like smoking, drinking, drug abuse, and violence. Prior completion of PHTH 1260 is recommended but not required.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "2515",
+    "title": "Healthcare Policy and Administration",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13427" },
+      { "term": "202310", "crn": "13428" },
+      { "term": "202310", "crn": "16306" },
+      { "term": "202310", "crn": "16307" },
+      { "term": "202310", "crn": "16308" },
+      { "term": "202310", "crn": "16309" },
+      { "term": "202310", "crn": "16310" },
+      { "term": "202310", "crn": "19469" },
+      { "term": "202310", "crn": "19473" },
+      { "term": "202240", "crn": "41526" },
+      { "term": "202240", "crn": "41527" }
+    ],
+    "description": "Focuses on management and policy issues in healthcare. Discusses management and administrative structures in hospitals and other healthcare organizations, including community clinics and health organizations, both private and public. Introduces the financial systems, economic information, and payment mechanisms necessary to understand healthcare financing. Also explores the variety of factors that influence population health from a healthcare policy perspective. Offers students an opportunity to learn how to analyze, prepare, and write policy briefs based on understanding the various economic, legal, and political forces shaping healthcare in the United States.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "4120",
+    "title": "Global Perspectives on Discrimination and Health",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [
+      { "term": "202310", "crn": "12807" },
+      { "term": "202310", "crn": "14927" },
+      { "term": "202310", "crn": "16311" },
+      { "term": "202310", "crn": "20738" },
+      { "term": "202260", "crn": "60799" }
+    ],
+    "description": "Explores how discrimination can lead to population-level health disparities among marginalized groups globally. Topics include constructions of social categories, such as race and gender; differences in patterns of disease across populations, both intra- and internationally; how work from various disciplines, such as anthropology, medicine, and public health, inform understanding about how discrimination relates to health; and theoretical models from different disciplines that explain public health disparities.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "PHTH", "number": "2350" },
+      "Or",
+      { "subject": "PHTH", "number": "2351" },
+      ")",
+      "And",
+      "(",
+      { "subject": "ENGW", "number": "3302" },
+      "Or",
+      { "subject": "ENGW", "number": "3304" },
+      "Or",
+      { "subject": "ENGW", "number": "3306" },
+      "Or",
+      { "subject": "ENGW", "number": "3307" },
+      "Or",
+      { "subject": "ENGW", "number": "3308" },
+      "Or",
+      { "subject": "ENGW", "number": "3314" },
+      "Or",
+      { "subject": "ENGW", "number": "3315" },
+      ")"
+    ]
+  },
+  {
+    "subject": "PHTH",
+    "number": "4202",
+    "title": "Principles of Epidemiology in Medicine and Public Health",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ND", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "14136" },
+      { "term": "202310", "crn": "14135" },
+      { "term": "202310", "crn": "16313" },
+      { "term": "202310", "crn": "16314" },
+      { "term": "202310", "crn": "16315" }
+    ],
+    "description": "Introduces the principles of epidemiology necessary to critically evaluate the published research in medicine, public health, and related fields. Through careful reading of literature, class discussion, and lectures, familiarizes students with the study of design-related considerations that are an indispensable part of interpreting scientific literature. Offers students an opportunity to learn how to recognize critical elements of research design and execution (e.g., loss to follow-up in randomized clinical trials and other cohort designs, selection bias in case control studies, etc.); identify the strengths and limitations of different approaches to research questions; deepen their understanding of causal inference; and recognize the provisional nature of scientific knowledge. Covers issues of statistical methods and data analysis; however, there are no computational requirements.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "4511",
+    "title": "Healthcare Management",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12266" }],
+    "description": "Provides an opportunity to develop skills and abilities related to management within the context of interdisciplinary study. Students explore issues in healthcare management in small-group, case-based educational experiences or problem-solving approaches. Within the context of small groups, students explore complex problems frequently encountered in clinical practice. Group projects related to leadership, management, or administrative issues are pursued and developed as classroom or poster presentations.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "PHTH", "number": "1260" },
+      "Or",
+      { "subject": "PHTH", "number": "1261" }
+    ]
+  },
+  {
+    "subject": "PHTH",
+    "number": "4540",
+    "title": "Health Education and Program Planning",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [
+      { "term": "202310", "crn": "12848" },
+      { "term": "202310", "crn": "14071" },
+      { "term": "202310", "crn": "16318" },
+      { "term": "202310", "crn": "16319" }
+    ],
+    "description": "Offers a writing-intensive course that introduces concepts central to health education and the program-planning process. Examines current public health issues that require intervention through health education or other types of prevention programs. Studies and applies models and theories used in health education and program planning. Offers students an opportunity to conduct a needs assessment; design and plan a program for a public health issue; create a mission statement for the program as well as goals, objectives, and strategies; and design the intervention, develop an evaluation plan, and create a budget and marketing plan. Prior completion of PHTH 2300 and PHTH 2350 is recommended but not required.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "5120",
+    "title": "Race, Ethnicity, and Health in the United States",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": ["DD", "IC"],
+    "sections": [{ "term": "202260", "crn": "60238" }],
+    "description": "Explores the role of economic, social, and individual factors in explaining racial and ethnic health disparities and examines intervention approaches to eliminate them. Topics include genetic and social constructions of race and ethnicity, measuring race and ethnicity, and the differences in prevalence and patterns of disease across groups; cultural and structural factors that affect healthcare delivery, such as discrimination, racism, and health status; and public health approaches to prevention and improving healthcare delivery.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "5202",
+    "title": "Introduction to Epidemiology",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10855" }],
+    "description": "Introduces the principles, concepts, and methods of population-based epidemiologic research. Offers students an opportunity to understand and critically review epidemiologic studies. Lectures and discussions aim to serve as a foundation for training in epidemiology, quantitative methods, and population-based health research. The course is a required introductory course for students in the Master of Public Health program and is appropriate for students who are interested in epidemiologic research. Students not meeting course restrictions may seek permission of instructor.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "5210",
+    "title": "Biostatistics in Public Health",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11504" },
+      { "term": "202310", "crn": "15329" }
+    ],
+    "description": "Offers public health students an opportunity to obtain the fundamental concepts and methods of biostatistics as applied predominantly to public health problems and the skills to perform basic statistical calculations Emphasizes interpretation and comprehension of concepts. Topics include descriptive statistics, vital statistics, sampling, estimation and significance testing, sample size and power, correlation and regression, spatial and temporal trends, small area analysis, and statistical issues in policy development. Draws examples of statistical methods from the public health practice. Introduces use of computer statistical packages. Requires permission of instructor for students outside designated programs.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "5212",
+    "title": "Public Health Administration and Policy",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12561" }],
+    "description": "Offers students an opportunity to obtain practical knowledge concerning the planning, organization, administration, management, evaluation, and policy analysis of health programs. Surveys what we know and think about public health administration and policy and what we do in practice. Introduces the main components of public health policy and administration using notable conceptual frameworks and case studies. Requires permission of instructor for students outside designated programs.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "5214",
+    "title": "Environmental Health",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12267" }],
+    "description": "Introduces the field of environmental health, which encompasses concerns related to physical, built, and social environments. Discusses the tools used to study environmental exposures and diseases. Examines environmental health hazards, the routes by which humans are exposed to hazards, various media in which they are found, and disease outcomes associated with exposures. Offers students an opportunity to become familiar with methods used to conduct environmental health research and with the federal and state agencies responsible for protecting environmental health.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "5222",
+    "title": "Health Advocacy",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "40095" }],
+    "description": "Seeks to educate students about the role of advocacy in public health while providing tools and support to address current healthcare issues. Provides information and theory about advocacy, education, and community organizing in public health practice and skills geared toward direct application. Covers various techniques related to developing and conducting an advocacy project within a community setting. Offers students an opportunity to develop, communicate, and refine a community-based advocacy program. Requires permission of instructor for students outside designated programs.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "5226",
+    "title": "Strategic Management and Leadership in Healthcare",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10968" }],
+    "description": "Focuses on management challenges facing healthcare organizations, particularly community-based agencies and their role in the public healthcare delivery system. Introduces strategic thinking and leadership approaches that must be considered for managing a successful healthcare organization. Selected topics include strategic planning; organizational development and the barriers to organizational change; relationship management with key internal and external constituencies; marketing, financial management, and contract negotiation; evolving principles of health insurance and the changing role of the consumer; and the key elements for effective organizational leadership in today&amp;#8217;s evolving healthcare marketplace. When appropriate, outside experts are used to supplement readings, case studies, and lecture and discuss practical real-world challenges in leading various healthcare initiatives. Requires permission of instructor for students outside designated programs.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "5232",
+    "title": "Evaluating Healthcare Quality",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12564" }],
+    "description": "Focuses on the conceptual and methodological foundations for evaluating the quality of care of healthcare providers&amp;#8212;both individual providers and healthcare organizations. Aimed at students pursuing careers in public health, public policy, healthcare management, and the various health professions in the growing field of quality evaluation and improvement. Also designed to give healthcare providers an appreciation for how they may be evaluated. Examines scientific issues in the measurement of quality of care as well as key quality evaluation methods. Also covers the use of risk adjustment and other methodologies for comparing the quality of healthcare providers. Focuses on mechanisms that assess quality, including licensure, accreditation, and board certification.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "5234",
+    "title": "Economic Perspectives on Health Policy",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16321" }],
+    "description": "Uses basic economic concepts to illuminate the many factors that shape health, healthcare, and the healthcare system in the United States. Examines the role of these concepts in explaining the challenges faced in achieving three core goals of the healthcare system: increasing access, limiting cost, and improving quality. Explores how policy makers, market participants, and others can remedy access, cost, and quality deficiencies. Illustrates how economic concepts can be applied to the study of health and health behaviors.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "5300",
+    "title": "Project Management in Public Health",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "60414" }],
+    "description": "Presents principles of project management as applied to public health organizations and their programs. Offers students an opportunity to learn the components of the project management life cycle, including human resource components, material resources, and related components.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "5310",
+    "title": "Budget Principles in Public Health",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "60412" }],
+    "description": "Details the public health revenue and funding environment, identifies key budget development functions, and describes the importance of utilizing the budget process for sound management of the programs. Public health programs in public agencies and nonprofit organizations require managerial skills to assure that programs are implemented efficiently and effectively. Funding for public health frequently comes from governmental revenue sources&amp;#8212;federal and state budgets or grants from government or foundations. It is critical that the funds are utilized well and appropriate to the objectives of the agency and program. Advancing the environment for public health through effective budgeting and promotion of program impact is important to support the continued funding for public health. The course takes students through these topics and offers them the opportunity to gain the practical experience of developing a budget for a public health program as the central activity.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "5320",
+    "title": "Grant Writing in Public Health",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "60413" }],
+    "description": "Explores the grant funding landscape, identifies different types of funders and grants,and identifies potential funders. Offers participants an opportunity to develop their skills in grant writing and in reviewing grants, to develop a grant proposal, and to understand the submission and peer review process.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "5540",
+    "title": "Health Education and Program Planning",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": ["WI"],
+    "sections": [
+      { "term": "202310", "crn": "12354" },
+      { "term": "202240", "crn": "40304" }
+    ],
+    "description": "Focuses on underlying concepts of health education and explores current health education issues that require intervention. Covers program planning models and theories used in health education. Offers students an opportunity to develop a working knowledge of the planning process for health education through the analysis of case studies and by creating a program plan to address a health issue of their choice. Provides health science students with preparation for HSCI 4710, in which they may choose to implement and evaluate their program plan.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      "Graduate Admission"
+    ]
+  },
+  {
+    "subject": "PHTH",
+    "number": "6200",
+    "title": "Principles and History of Urban Health",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": ["CE"],
+    "sections": [
+      { "term": "202310", "crn": "12268" },
+      { "term": "202310", "crn": "16322" }
+    ],
+    "description": "Focuses on the aspects of urban development and life that impact the health and well-being of city residents. Offers students an opportunity to learn about the impact of migration patterns, built environments, occupational stratification, and other cultural and community contextual factors that impact health status and healthcare access. Examines the level of overall health and healthcare found in urban populations, particularly the urban poor, and the disproportionate impact on racial and ethnic minorities in the United States and elsewhere. Considers public policy approaches for addressing the unique health issues of urban areas. Examines urban health issues both from a national and international perspective. Requires permission of instructor for students outside designated programs.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "6204",
+    "title": "Society, Behavior, and Health",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10793" },
+      { "term": "202310", "crn": "13680" }
+    ],
+    "description": "Explores individual, interpersonal, and social influences on health. Offers students in public health an opportunity to learn the application of the social and behavioral sciences. Examines foundations of public health, including prevention and the prevention paradox, theories of disease causation, and public health ethics. In addition, multilevel influences on health are examined, including behavioral theories and social determinants of health. Throughout the semester, attention is paid to disparities in health. Finally, we examine strategies to reduce health disparities, such as education, interventions, and policy-level changes, and discuss their relative effectiveness. Requires permission of instructor for students outside designated programs.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "6208",
+    "title": "Urban Community Health Assessment",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "40292" }],
+    "description": "Offers students an opportunity to develop a basic understanding of the complex public health issues confronting urban communities across the nation. Uses a community organization and development framework for public health practice. Seeks to provide skills, tools, and experiential learning opportunities that result in community assessments that may be used in public health planning, programming, and policy. Covers key principles and methods for conducting community health assessments utilizing a range of quantitative and qualitative methods, including community epidemiology, major data sets, surveillance data, behavioral risk and other population-based surveys, as well as other primary and secondary data sources. Includes collaborative and interactive exercises, including self- and group reflection, Internet and contemporary media exploration, and in-class discussions. Requires permission of instructor for students outside designated programs.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "6224",
+    "title": "Social Epidemiology",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14110" }],
+    "description": "Focuses on social epidemiology, which is defined as the study of the distribution and determinants of health in populations as related to the social and economic determinants of health. Includes theories, patterns, and controversies, as well as programs and policies that can be applied to address health inequalities. Readings include articles that situate one dimension of social epidemiology with articles addressing the empirical patterns, address prevailing theories and controversies regarding the causes of the inequalities, as well as address interventions or policies that may be applied to address the inequalities.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "6320",
+    "title": "Qualitative Methods in Health and Illness",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16721" }],
+    "description": "Discusses qualitative inquiry in general and specifically in topics related to public health and experiences of self, health, illness, and the body. Qualitative research aims to achieve in-depth and contextual understanding of people, culture, and societies and usually employs texts, interviews, published materials, images, and focus group discussions as sources of data. The course integrates theoretical and methodological readings and discussions with designing and conducting a qualitative project. Offers students an opportunity to understand meanings of health, illness, and the body in a variety of &amp;#8220;local worlds&amp;#8221; and reflect on their importance for informing policy, public health, research, and practice. Requires prior completion of one undergraduate- or graduate-level course in research methods.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "6400",
+    "title": "Principles of Population Health 1",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13112" }],
+    "description": "Seeks to provide students with historical background and methodological and critical-thinking tools needed to perform high-quality, interdisciplinary research in population health. Using a problem-solving and interdisciplinary framework, offers students an opportunity to gain the skills to develop research hypotheses, design research strategies, analyze data to test study hypotheses, and communicate their findings both orally and in writing. Also offers students an opportunity to gain experience in research methodology and application of basic methods for population health research, including epidemiological and biostatistical concepts. Finally, students demonstrate their mastery of these skills through problem sets and through written proposals that include communication of preliminary data.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "PHTH", "number": "5210" },
+      "Or",
+      { "subject": "PHTH", "number": "5210" }
+    ]
+  },
+  {
+    "subject": "PHTH",
+    "number": "6440",
+    "title": "Advanced Methods in Biostatistics",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16324" }],
+    "description": "Explores in detail the analysis of complex survey design, including adjustments for cluster sampling, weighting, and stratification. Designs that incorporate clustering of data are common in health science research. These designs are characterized by data that capture nonindependent repeated measurements on primary sampling units or that collect data with schemes more complex than simple random sampling. The statistical analyses of these types of data need to include appropriate adjustments to provide proper estimates and accurate testing. The second part of the course investigates the use of mixed regression models to analyze repeated measurements on individuals, multilevel data, and growth models.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "PHTH", "number": "6210" }]
+  },
+  {
+    "subject": "PHTH",
+    "number": "6910",
+    "title": "Public Health Capstone",
+    "scheduleType": "Seminar",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12687" }],
+    "description": "Offers students an opportunity for scholarly work on-site in a range of diverse public health settings reflective of their particular urban health focus. Students have an opportunity to integrate their theory and practice experiences in a major research, program planning, program implementation, policy development, management, service delivery, or evaluation project. Student-led and designed in consultation with community partners and faculty advisors, seeks to support students in the implementation and completion of their projects.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "PHTH", "number": "6966" }]
+  },
+  {
+    "subject": "PHTH",
+    "number": "6966",
+    "title": "Practicum",
+    "scheduleType": "Off-campus instruction w/ lec",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14070" }],
+    "description": "Provides eligible students with an opportunity for practical experience.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "7976",
+    "title": "Directed Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18589" }],
+    "description": "Offers the student the opportunity to bring individual, concentrated attention to a particular public health topic or competency area as arranged and agreed upon in advance by a faculty member and the student. This option is generally recommended when the student desires a more intensive analysis of a particular subject. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "8986",
+    "title": "Research",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15223" },
+      { "term": "202310", "crn": "15787" },
+      { "term": "202310", "crn": "15793" },
+      { "term": "202310", "crn": "18458" },
+      { "term": "202260", "crn": "60644" },
+      { "term": "202240", "crn": "40873" }
+    ],
+    "description": "Offers an opportunity to conduct research under faculty supervision. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "9990",
+    "title": "Dissertation Term 1",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15225" },
+      { "term": "202310", "crn": "18202" },
+      { "term": "202260", "crn": "60645" }
+    ],
+    "description": "Offers doctoral students an opportunity to work with their advisors and doctoral research committees to perform their doctoral research and to write their dissertation.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "PHTH", "number": "9000" }]
+  },
+  {
+    "subject": "PHTH",
+    "number": "9991",
+    "title": "Dissertation Term 2",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15783" },
+      { "term": "202310", "crn": "17067" },
+      { "term": "202310", "crn": "18328" },
+      { "term": "202310", "crn": "21094" }
+    ],
+    "description": "Offers dissertation supervision by members of the department.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHTH",
+    "number": "9996",
+    "title": "Dissertation Continuation",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "18201" },
+      { "term": "202310", "crn": "18333" },
+      { "term": "202310", "crn": "18531" }
+    ],
+    "description": "Offers continuation of dissertation research to doctoral students.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

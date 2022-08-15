@@ -5,7 +5,7 @@ import { Grid } from "@/components/util/Grid";
 import { Subject } from "@/types/courses";
 import { GetStaticProps } from "next";
 import { NextSeo } from "next-seo";
-import subjects from "../../.raw/subjects.json";
+import subjects from "../../data/subjects.json";
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   return {

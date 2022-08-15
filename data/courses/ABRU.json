@@ -1,0 +1,14 @@
+[
+  {
+    "subject": "ABRU",
+    "number": "5100",
+    "title": "Study in the USA-Seattle",
+    "scheduleType": "Off-campus instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "41734" }],
+    "description": "This course takes place in Seattle during Summer 1 2022 term. There is an additional cost of $3,300 associated with this course that includes housing, meal plan, and program fee, that will be posted to your student account at the time of registration. Students must register for the program through the application page and pay a $100 deposit.\nFee: $3,300 ($100 deposit done separately through program form).",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

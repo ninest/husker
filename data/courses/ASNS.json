@@ -1,0 +1,26 @@
+[
+  {
+    "subject": "ASNS",
+    "number": "1150",
+    "title": "East Asian Studies",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [{ "term": "202310", "crn": "14866" }],
+    "description": "Seeks to provide an understanding of the constituent characteristics that originally linked East Asia as a region and the nature of the transformations that have occurred in the region over the last two thousand years. Concentrates on China and Japan, and addresses Korea and Vietnam where possible. Also seeks to provide students with effective interdisciplinary analytical skills as well as historical, ethical, cultural diversity, and aesthetic perspectives. ASNS 1150 and HIST 1150 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ASNS",
+    "number": "2245",
+    "title": "The Asian-American Experience",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19514" }],
+    "description": "Examines the impact of Asian immigrant communities on U.S. political, economic, social, and cultural life and their encounters with racial, political, and economic discrimination from the nineteenth century to the present.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

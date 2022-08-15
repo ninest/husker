@@ -1,0 +1,19 @@
+[
+  {
+    "subject": "PHLS",
+    "number": "1145",
+    "title": "Technology and Human Values",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14279" },
+      { "term": "202310", "crn": "14305" },
+      { "term": "202310", "crn": "15960" },
+      { "term": "202310", "crn": "18024" }
+    ],
+    "description": "Examines the changing values of the modern, technologically advanced world. Attempts to increase our understanding of the supposed breach between the literary and scientific cultures, the diverse approaches towards their reconciliation, and the human dimensions of science and technology. Topics include the neutrality of technology with respect to good or evil uses, technology as an instrument for human liberation, and the issue of proper and effective modes of controlling technology in today&amp;#8217;s world.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

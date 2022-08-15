@@ -1,0 +1,19 @@
+[
+  {
+    "subject": "HSTY",
+    "number": "1130",
+    "title": "Introduction to American History",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15949" },
+      { "term": "202310", "crn": "15950" },
+      { "term": "202310", "crn": "15951" },
+      { "term": "202310", "crn": "21039" }
+    ],
+    "description": "Introduces students to major topics in American history using some combination of primary documents, biographies, monographs, and film. Topics include the interaction of native populations with European settlers; the American Revolution and the Constitution; slavery; the Civil War; the rise of industrialism and immigration; the growth of government and rise of the welfare state; race, gender, and class in America; and America&amp;#8217;s role in the world from the emergence of imperialism to collective security.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

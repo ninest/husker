@@ -1,0 +1,14 @@
+[
+  {
+    "subject": "ARTE",
+    "number": "6976",
+    "title": "Directed Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "21008" }],
+    "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated up to four times.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

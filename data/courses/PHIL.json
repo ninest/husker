@@ -1,0 +1,474 @@
+[
+  {
+    "subject": "PHIL",
+    "number": "1000",
+    "title": "Philosophy at Northeastern",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10539" }],
+    "description": "Intended for freshmen in the College of Social Sciences and Humanities. Introduces freshmen to the liberal arts in general; familiarizes them with their major; helps them develop the academic skills necessary to succeed (analytical ability and critical thinking); provides grounding in the culture and values of the University community; and helps them develop interpersonal skills&amp;#8212;in short, familiarizes students with all skills needed to become a successful university student.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "1101",
+    "title": "Introduction to Philosophy",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "10479" },
+      { "term": "202310", "crn": "11089" }
+    ],
+    "description": "Introduces students to philosophy by acquainting them with the theories and arguments of classical and contemporary philosophers and by teaching skills of constructing and analyzing arguments. Emphasizes philosophical inquiry. Topics include the basis of morality, free will vs. determinism, the existence of God, the problem of suffering, and the nature of knowledge.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "1102",
+    "title": "Introduction to Contemporary Moral Issues",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "12913" },
+      { "term": "202260", "crn": "60370" },
+      { "term": "202260", "crn": "61440" },
+      { "term": "202240", "crn": "40391" }
+    ],
+    "description": "Focuses on current controversial issues and moral debates. Specific topics vary but include subjects like abortion, euthanasia, global poverty, economic justice, affirmative action, gender relations, animal rights, the environment, the death penalty, war, cloning, and same-sex marriage. Offers an opportunity to learn to apply both the methods of philosophical analysis and various ethical and political theories to these controversies.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "1110",
+    "title": "Introduction to Religious Studies",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [{ "term": "202310", "crn": "14881" }],
+    "description": "Examines the methods, disciplines, and theories employed in the academic study of religion. Focuses on major theories of religion employed in the discipline of religious studies, including historical, psychological, anthropological, and sociological approaches. Introduces students to the primary methods of research in the academic study of religion.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "1112",
+    "title": "Debating Ethical Controversies",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "SI"],
+    "sections": [{ "term": "202310", "crn": "15964" }],
+    "description": "Introduces students to the fundamentals of moral theory; ethical reasoning; social and political philosophy; as well as theories of social, political, and institutional change. Emphasizes in-depth ethical analysis and evaluation of the issues studied, their social and historical sources and context, as well as the way in which responses to them can and should lead to institutional and policy changes. Offers students an opportunity to be selected for an off-campus competitive debate experience. This course is modeled after the Intercollegiate Ethics Bowl debates on current social and ethical issues.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "1115",
+    "title": "Introduction to Logic",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD", "FQ"],
+    "sections": [{ "term": "202310", "crn": "10125" }],
+    "description": "Covers the fundamentals of (formal) deductive and inductive logic. Begins with a thorough treatment of Boolean (i.e., truth-functional or propositional) logic, which provides the foundation for both mathematical and statistical reasoning. Discusses various applications of Boolean logic, including the reconstruction and evaluation of (natural language) deductive arguments. Covers inductive-logical reasoning, such as the fundamentals of the probability calculus and its applications to inductive (ampliative) inference. Offers students an opportunity to understand both deductive (e.g., mathematical) and inductive (e.g., statistical) reasoning.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "1130",
+    "title": "Comparative Ethics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "ER"],
+    "sections": [{ "term": "202310", "crn": "19605" }],
+    "description": "Focuses on how traditions imagine the moral life in cross-cultural contexts. Topics may include ideals of human flourishing, notions of virtue and vice, and conceptions of self and community. Offers students an opportunity to learn methods of philosophical analysis and argumentation in cross-cultural contexts.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "1145",
+    "title": "Technology and Human Values",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "11942" },
+      { "term": "202310", "crn": "12791" },
+      { "term": "202310", "crn": "13128" },
+      { "term": "202310", "crn": "13199" },
+      { "term": "202310", "crn": "13198" },
+      { "term": "202310", "crn": "15311" },
+      { "term": "202310", "crn": "20425" },
+      { "term": "202310", "crn": "20483" },
+      { "term": "202310", "crn": "20567" },
+      { "term": "202310", "crn": "21084" },
+      { "term": "202310", "crn": "21085" },
+      { "term": "202260", "crn": "60455" },
+      { "term": "202240", "crn": "40455" },
+      { "term": "202240", "crn": "41142" }
+    ],
+    "description": "Studies philosophy of technology, as well as ethics and modern technology. Considers the relationship between technology and humanity, the social dimensions of technology, and ethical issues raised by emerging technologies. Discusses emerging technologies such as biotechnology, information technology, nanotechnology, and virtual reality.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "1160",
+    "title": "Introduction to Economic Justice",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "12208" },
+      { "term": "202310", "crn": "20800" }
+    ],
+    "description": "Explores questions of economic justice from a philosophical perspective. Examines capitalism, what it is and what its ethical virtues and limitations are; if there are changes or alternatives to capitalism that would make our economic system more just; how much economic inequality we should consider morally acceptable; and in what ways racism and gender discrimination impact the fairness of our economy. Considers these questions by reading works in the history of philosophy while also engaging with contemporary philosophers writing about current challenges to economic justice, such as racism, gender discrimination, and economic inequality.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "1165",
+    "title": "Moral and Social Problems in Healthcare",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "10138" },
+      { "term": "202310", "crn": "13593" },
+      { "term": "202310", "crn": "11876" },
+      { "term": "202310", "crn": "12179" },
+      { "term": "202310", "crn": "15967" },
+      { "term": "202260", "crn": "60209" },
+      { "term": "202240", "crn": "40199" }
+    ],
+    "description": "Introduces ethical theories and moral principles, and then uses these theories and principles to analyze the moral problems that arise in the medical context. Topics include euthanasia, medical paternalism, informed consent, patient confidentiality, the right to die, the ethics of medical research, abortion, the right to healthcare, distribution of scarce medical resources, and the ethical implications of health maintenance organizations.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "1170",
+    "title": "Business, Ethics, and Human Rights",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "SI"],
+    "sections": [{ "term": "202310", "crn": "10857" }],
+    "description": "Examines the moral, social, and human rights implications of business for individuals and communities, both globally and domestically. Topics include corporate social responsibility, stakeholder theory, advertising, and gun violence, diversity and racism, CEO activism, affirmative action in the tech sector, the gig economy and employee rights, as well as human rights violations by multinational companies, including sweatshops and environmental harms. Examines the contributions of both big and small businesses to making the world a better place and considers policy that can work to that end.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "1180",
+    "title": "Environmental Ethics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "14882" },
+      { "term": "202240", "crn": "40896" }
+    ],
+    "description": "Focuses on a current ecological crisis and addresses the values that underlie our concern over this crisis, whether the values at issue are anthropocentric or biocentric. Explores the ethical implications these ecological concerns have for our individual lifestyles, and for our role as members of communities.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "1195",
+    "title": "Research Ethics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "SI"],
+    "sections": [{ "term": "202310", "crn": "15968" }],
+    "description": "Addresses how to engage in scientific, medical, and technological research in an ethically responsible manner. Research is crucial to understanding social, environmental, and health problems, as well as to developing effective responses to them. If the paradigm of responsible research is too restrictive, the benefits of scientific progress and technological innovation can be delayed or unrealized. At the same time, researchers have a responsibility to protect research subjects, to appropriately engage with members of the community, and to avoid behaving in ways that undermine scientific research in the long run. Explores the many ethical dimensions of research, and introduces students to the ethical foundations and controversies that are central to developing appropriate ethical frameworks for engaging in research.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "1260",
+    "title": "Apocalypticism in Film",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [
+      { "term": "202310", "crn": "12560" },
+      { "term": "202310", "crn": "12562" },
+      { "term": "202260", "crn": "61227" }
+    ],
+    "description": "Begins with an investigation of biblical texts that give rise to apocalypticism, definitions of apocalypticism, and an introductory exploration of the various ways in which apocalypticism has manifested itself in Western culture. Examines the diverse and changing presentation of apocalypticism in film and includes titles such as &#39;The Book of Eli,&#39; &#39;The Day the Earth Stood Still,&#39; &#39;Independence Day,&#39; &#39;The Seventh Seal,&#39; and &#39;Blade Runner.&#39;",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "1271",
+    "title": "Sex in Judaism, Christianity, and Islam",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "ER"],
+    "sections": [
+      { "term": "202310", "crn": "20084" },
+      { "term": "202240", "crn": "40527" }
+    ],
+    "description": "Explores approaches to gender, social organization of sexuality and gender, sexual ethics, and marriage in Judaism, Christianity, and Islam. Explores various sources within each tradition that serve as normative foundations, contemporary cultural and sociological dynamics that challenge those foundations, and psychological/existential considerations for understanding the general nature of human sexuality. Addresses how these traditions understand gender and gender roles, seek to shape and control interactions between men and women, regulate sexual relations outside of and within marriage, view sexuality education, regard homosexuality, and examine historical and contemporary approaches to marriage, divorce, and parenting. PHIL 1271 and WMNS 1271 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "1280",
+    "title": "Islam: Rituals, Traditions, and Debates",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [{ "term": "202310", "crn": "19606" }],
+    "description": "Explores Islam through its foundations narrative, rituals, doctrines, and ethical teachings. Presents Islam in terms of its diversity by focusing on a series of key debates in Islamic thought and practice from its early history to the present day in cross-cultural perspectives.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "1300",
+    "title": "Knowledge in a Digital World",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "14883" },
+      { "term": "202310", "crn": "19211" }
+    ],
+    "description": "Examines the impact that information technologies (such as the internet, search engines, blogs, wikis, and smartphones); information processing techniques (such as big data analysis, machine learning, crowdsourcing, and cryptography); and information policies (such as privacy norms and speech restrictions) have on what we know and how much we know, as individuals and as a society. The digital world can enhance our ability to acquire knowledge by providing us with fast and cheap access to huge amounts of information. However, it can also undermine our cognitive abilities and provide us with inaccurate or misleading information. Studies normative frameworks from epistemology and ethics (such as epistemic value theory, the extended mind hypothesis, and moral rights) to evaluate these technologies and policies.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "1666",
+    "title": "The Problem of Evil in Film",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "ER"],
+    "sections": [
+      { "term": "202310", "crn": "20250" },
+      { "term": "202240", "crn": "41382" }
+    ],
+    "description": "Seeks to answer the question, &quot;What is evil?&quot; Uses a variety of film genres to examine the definitions of evil in relation to concepts such as power, sin, hate, greed, envy, murder, neglect, fear, terror, tragedy, and &ldquo;the Other.&rdquo; Studies the problem of evil from the perspectives of religious studies and philosophy. Examines the various explanations for evil from a variety of Western religious traditions and explores the presentation of ethical dilemmas and moral theory to assess the content of a variety of films. Studies film titles such as &lt;em&gt;The Dark Knight&lt;/em&gt;, &lt;em&gt;The Exorcist&lt;/em&gt;, &lt;em&gt;Silence of the Lambs&lt;/em&gt;, &lt;em&gt;Frankenstein&lt;/em&gt;, &lt;em&gt;Life Is Beautiful&lt;/em&gt;, &lt;em&gt;Rear Window&lt;/em&gt;, &lt;em&gt;Dr. Strangelove&lt;/em&gt;, &lt;em&gt;Phone Booth&lt;/em&gt;, &lt;em&gt;Crash&lt;/em&gt;, &lt;em&gt;Star Wars&lt;/em&gt;, and &lt;em&gt;The Wizard of Oz&lt;/em&gt;.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "2143",
+    "title": "Philosophy for Children",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [{ "term": "202310", "crn": "19607" }],
+    "description": "Explores big questions in philosophy&mdash;how should one conduct oneself, what does it mean to know something, are there object values in an aesthetic domain such as art? Offers students an opportunity to learn methodologies and tools of philosophical inquiry and apply them to works of children&rsquo;s literature in order to be able to facilitate philosophical discussions in the elementary school classroom. Emphasizes creating a community of inquiry and learning how to devise and communicate different answers to philosophical questions at the elementary level. Students develop lesson plans to help engage young children in philosophical discussion and reflection.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "2303",
+    "title": "Social and Political Philosophy",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "SI"],
+    "sections": [{ "term": "202310", "crn": "19608" }],
+    "description": "Focuses on basic questions about the nature of the state and the relationship of individuals to the state. What basis is there for individuals to obey the laws of the state? What conditions must a government meet to be legitimate? What justification can be given for democratic forms of government? Also examines what sorts of controls the state should exert over citizens, and what benefits citizens have a right to expect from the state. Includes readings from both classical and contemporary sources. Not open to freshmen students.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "2325",
+    "title": "Ancient Philosophy and Political Thought",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "IC", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "11943" },
+      { "term": "202310", "crn": "14011" },
+      { "term": "202310", "crn": "14885" },
+      { "term": "202310", "crn": "15331" },
+      { "term": "202260", "crn": "60605" },
+      { "term": "202240", "crn": "40456" }
+    ],
+    "description": "Examines the philosophers of classical Greece, primarily Socrates, Plato, and Aristotle. These philosophers examined the nature of the material world, of the city, and of the person. The course takes up both the moral and political writings as well as the metaphysical writings. Devotes considerable attention to major works such as Plato&amp;#8217;s &lt;i&gt;Republic.&lt;/i&gt; Some time is given to early Greek philosophers, to the Sophists, and to later developments. Requires written analysis of philosophical texts. PHIL 2325 and POLS 2325 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "2330",
+    "title": "Modern Philosophy",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC", "SI", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "12323" },
+      { "term": "202310", "crn": "16804" }
+    ],
+    "description": "Focuses on the hundred years between 1650 and 1750, sometimes called &amp;#8220;the century of genius.&amp;#8221; It was a period in which philosophers reacted to the new scientific discoveries of Copernicus, Kepler, and Galileo. Out of this reaction came new ways of thinking about the nature of knowledge and the nature of reality. Focuses on such major figures as the rationalists Descartes, Leibniz, and Spinoza, and the empiricists Locke, Berkeley, and Hume. Requires prior completion of one philosophy course.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
+  },
+  {
+    "subject": "PHIL",
+    "number": "2991",
+    "title": "Research Practicum",
+    "scheduleType": "Individual Instruction",
+    "credits": 2,
+    "nuPath": ["EX"],
+    "sections": [{ "term": "202310", "crn": "19609" }],
+    "description": "Involves students in collaborative research under the supervision of a faculty member. Offers students an opportunity to learn basic research methods in the discipline. Requires permission of instructor. May be repeated once for up to 4 total credits.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "3050",
+    "title": "Information and Uncertainty",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD", "FQ"],
+    "sections": [{ "term": "202310", "crn": "19610" }],
+    "description": "Introduces the foundations of probabilistic inference, information theory, and their uses for drawing conclusions from noisy data. Applications include diagnosing diseases with inconclusive medical tests, locating autonomous vehicles when sensors are imperfect, and how best to make inferences with incomplete or partial information. Central topics include distinguishing deductive and probabilistic inference, philosophical interpretations of probability, fundamental justifications for the rules of probability, and key concepts of information theory. Introduces analytic and mathematical methods of analysis in these cases and contemporary computational (i.e., programming) techniques for implementing and applying theories of information and probabilistic inference.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "3100",
+    "title": "The Religious Worlds of Boston: Faith and Devotion in Urban Life",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EX", "IC", "SI"],
+    "sections": [{ "term": "202310", "crn": "19611" }],
+    "description": "Requires prior completion of one introductory-level course in the social sciences or humanities.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "3343",
+    "title": "Existentialism",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16598" }],
+    "description": "Requires prior completion of two philosophy courses or instructor permission",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "3435",
+    "title": "Moral Philosophy",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12914" }],
+    "description": "Requires prior completion of two philosophy courses or instructor permission.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "4500",
+    "title": "Theory of Knowledge",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["CE", "WI"],
+    "sections": [{ "term": "202310", "crn": "15973" }],
+    "description": "Requires prior completion of three philosophy courses or instructor&#39;s permission.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "4535",
+    "title": "Philosophy of Mind",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["CE", "WI"],
+    "sections": [{ "term": "202310", "crn": "19612" }],
+    "description": "Requires prior completion of three philosophy courses or instructor&#39;s permission.\n\nCourse Description: What does it mean for a system&ndash;whether biological or artificial&ndash;to have a mind, to understand the world around it, or to interact intelligently with it? This course approaches these questions about understanding the mind from the perspective of designing it. During the first part of the course, we closely examine influential frameworks for understanding and designing intelligent systems, develop a concrete sense of how these frameworks work, and critically assess their successes and shortcomings from philosophical, empirical, and design perspectives. In the second part of the course, we build on this background to explore some of the implications of emerging technologies, such as deep learning and large language models, augmented and virtual reality, brain-machine interface, memory transfer, and more.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "4550",
+    "title": "Philosophy of Economics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["CE", "SI", "WI"],
+    "sections": [{ "term": "202310", "crn": "19613" }],
+    "description": "Requires prior completion of at least three philosophy and/or economics courses or instructor&#39;s permission.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "4901",
+    "title": "Topics in Philosophy Seminar",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["CE", "WI"],
+    "sections": [{ "term": "202310", "crn": "15974" }],
+    "description": "Seminar topic: Metaethics. Requires prior completion of three philosophy courses or instructor&#39;s permission.\n\nCourse description: &quot;The Earth is spherical&quot; and &quot;it is wrong to kill innocent children for fun&quot; are both true sentences. Neither of these, the empirical claim nor the ethical claim are particularly controversial. However, while there is very little (reasonable) controversy about what makes the first sentence true (and how we know it is true), there is considerable controversy about both the metaphysics and epistemology of the second claim and others like it.\n\nThis seminar will provide a broad and deep overview of central answers to metaethical questions about what makes moral claims true and how we know them. The seminar will start with a quick refresher of answers to metaethical questions that are, for the most part and for good reason, not taken seriously by contemporary metaethicists, like Cultural Relativism and Divine Command Theory.&nbsp; We will then turn to what are widely-considered the live options in contemporary Western metaethics. Some of these views deny that moral claims are true or false (Non-Cognitivism), some claim that all moral claims are false (Error Theory) or that moral language is simply a fiction where we pretend some moral claims are true (Fictionalism). On most views, there are genuine truth-makers for moral claims, but there is much disagreement about what they are. On some views, they are grounded in our subjective attitudes or desires (Subjectivism), on others they are tightly bound up with rationality (constructivism), on yet others, the moral truth-makers are entirely independent of us, either very much like the natural facts that make empirical claims true (Naturalist Realism) or some more mysterious kind of non-natural fact (Non-naturalist Realism). After a critical survey of the terrain, we&#39;ll turn our attention to book-length treatments of particular views or articles that push us to think about metaethical issues in new ways.&nbsp;",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "4903",
+    "title": "Seminar in Religion",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["CE", "WI"],
+    "sections": [{ "term": "202310", "crn": "15975" }],
+    "description": "Requires prior completion of three philosophy or religion courses or instructor&#39;s permission.\n\nDescription: We think we know cultural appropriation when we see it. Blackface, Native American headdresses, all manner of Halloween costumes&mdash;these clearly give offense. But what about Cardi B posing as the Hindu Goddess Durga in a Reebok ad, AA&rsquo;s twelve-step invocation of God, or the earnest namaste you utter at the end of yoga class?\n\nIn this class we will unpack the ethical dilemmas of a messy form of cultural appropriation: the borrowing of religious doctrines, rituals, and dress for political, educational, and therapeutic reasons. Does borrowing from another&rsquo;s religion harm believers? Who can consent to such borrowings? Religion is an especially vexing arena for appropriation debates because diversity within religious groups scrambles our sense of who is an insider and who is not. In order to understand why some appropriations are insulting and others benign, we will have to ask difficult philosophical questions about what religions really are.\n\nStudents will develop their own independent research projects and create public-facing ways to share their findings.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHIL",
+    "number": "5010",
+    "title": "AI Ethics",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19614" }],
+    "description": "Discusses artificial intelligence and the host of ethical issues it raises: decisions turned over to machine-learning algorithms can be opaque and unfair; autonomous vehicles promise to increase safety but raise challenges for assigning responsibility for accidents; diffusion of AI is likely to transform the labor market in unpredictable ways; and the data that powers machine-learning algorithms raise questions about privacy and security. In order to realize the benefits of AI while responsibly developing and implementing it, it is necessary to identify the ethical issues at stake and work to resolve them. This course takes up the philosophical and ethical questions essential to this project.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "PHIL", "number": "1145" },
+      "Or",
+      { "subject": "PHIL", "number": "1300" },
+      "Or",
+      { "subject": "IS", "number": "1300" },
+      "Or",
+      "Graduate Admission"
+    ]
+  }
+]

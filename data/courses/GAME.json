@@ -1,0 +1,148 @@
+[
+  {
+    "subject": "GAME",
+    "number": "1110",
+    "title": "Games and Society",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11117" },
+      { "term": "202310", "crn": "17185" },
+      { "term": "202240", "crn": "40693" }
+    ],
+    "description": "Provides an historical and cultural perspective on games and other forms of interactive entertainment. Examines the present state and future directions of paper, card, and board games; physical games and sports; and video games. Introduces students to current issues, experiments, and directions in the field of game design. Through weekly lectures and small-group labs, students have an opportunity to develop a critical basis for analyzing game play.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GAME",
+    "number": "1850",
+    "title": "Experimental Game Design",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12590" }],
+    "description": "Explores traditions of games, play, participation, and procedurality in twentieth-century art movements, including Dada, Surrealism, Fluxus, conceptual art, the Situationists, Happenings, participatory performance and Tactical Media, avant-garde music, and contemporary art games. Through readings, lectures, and studio assignments, offers students an opportunity to understand and apply key principles by creating a series of artworks using various strategies drawn from these traditions, including appropriation, scores, intervention, and expression.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GAME",
+    "number": "2010",
+    "title": "The Business of Games",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12374" }],
+    "description": "Surveys a wide array of game-specific industry topics, including pitching and development of talking points, business models and revenue structures, studio organization and style, intellectual property, contracts, project management expectations, project green-lighting, production pipelines, return on investment, outsourcing, and marketing. Exploring historical shifts and evolution of the video game market offers students an opportunity to obtain perspective on the status of the industry and potential growth in the economy.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GAME",
+    "number": "2355",
+    "title": "Narrative for Games",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [{ "term": "202310", "crn": "13141" }],
+    "description": "Offers students an opportunity to learn how contemporary narrative theories evolved and their uses in various media. Examines various mediated texts to understand how best to use storytelling strategies for students&#39; own narrative-forward games so as to best take advantage of designing narratives for different platforms and audiences. Uses presentations and performances to enhance students&#39; understanding of how audiences assimilate information and to critique. Students write, play, and study narrative-driven games in the context of various narrative theories and practice writing with the awareness and intention that actors and audiences will read their work and respond.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GAME",
+    "number": "2500",
+    "title": "Foundations of Game Design",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "12083" },
+      { "term": "202310", "crn": "12801" },
+      { "term": "202310", "crn": "13211" },
+      { "term": "202310", "crn": "13656" },
+      { "term": "202310", "crn": "14306" },
+      { "term": "202310", "crn": "17984" },
+      { "term": "202240", "crn": "40694" }
+    ],
+    "description": "Seeks to define the practice of game design within the larger context of playful interaction design, while constantly maintaining a player-centric approach. Unfolds the process of designing games between phases of analysis, synthesis, and evaluation. Establishes the role of game designer as an expert with a vision for determined player experiences and a vocal advocate for players. Seeks to offer students a broad methodology consisting of brainstorming methods, prototyping techniques, process management practices, and evaluation procedures to solve a wide array of design problems in an iterative manner.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GAME",
+    "number": "2950",
+    "title": "Game Studio",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13498" },
+      { "term": "202310", "crn": "20167" },
+      { "term": "202310", "crn": "20277" }
+    ],
+    "description": "Offers an experiential learning course in which students collaborate with faculty on a project for credit, which may include research, game creation, or a combination of the two. Offers students an opportunity to co-produce a publishable, distributable, or exhibitable game and/or research paper, which can become part of the student&amp;#8217;s portfolio. Course may be taught by an individual faculty member or team-taught to explore a specific topic, such as documentary games, art games, physical interfaces, installations, historical games, live-action role-playing, etc. Offers students an opportunity to gain experience working on a real-world project, as well as being credited for collaboration with an established practitioner/researcher. May be repeated once.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GAME",
+    "number": "3300",
+    "title": "Game Interface Design",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15251" },
+      { "term": "202310", "crn": "20384" }
+    ],
+    "description": "Introduces interface design for games. A game interface is the point at which the player interacts with the game system, which pertains to visual, auditory, and haptic cues; screens and graphical user interfaces; the player character; and the game controller. Analyzes successful and unsuccessful game interfaces from historical, theoretical, and cultural perspectives. Offers students an opportunity to learn to analyze, critique, and iteratively design innovative game user interfaces; learn about and practice game usability and game feel, as well as design techniques for user interfaces and user experience; and focus on designing innovative game interfaces as they iteratively develop and test a game interface from beginning to end, resulting in a portfolio-ready game interface prototype. Designed as an intermediate course for undergraduate students across disciplines.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "GAME", "number": "1110" }]
+  },
+  {
+    "subject": "GAME",
+    "number": "3400",
+    "title": "Level Design and Game Architecture",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [{ "term": "202240", "crn": "41438" }],
+    "description": "Analyzes game-level designs in a variety of genres and forms. Building upon basic drawing and design skills, students have an opportunity to develop paper prototypes and simple game &ldquo;mods&rdquo; in the context of story and game play. Students use computer-based tools to examine game-level architecture. Encourages students to take this elective in preparation for or in parallel to the Game Projects courses.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GAME",
+    "number": "3700",
+    "title": "Rapid Idea Prototyping for Games",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "11136" },
+      { "term": "202310", "crn": "12591" }
+    ],
+    "description": "Studies digital and nondigital prototyping techniques through weekly activities in which students build and critique prototypes around a variety of game design themes. Offers students an opportunity to build a portfolio of small proof-of-concept game prototypes over the course of the semester. Additionally, covers how to iterate on a single prototype through a semesterlong project in which students have an opportunity to work individually on a larger game design.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GAME",
+    "number": "4700",
+    "title": "Game Design Capstone",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["CE"],
+    "sections": [{ "term": "202310", "crn": "11428" }],
+    "description": "Offers students an opportunity to develop a fully functional game using the iterative design skills they develop in GAME 3700 and GAME 3800. Students take on individual roles in a large-group project, with the goal of creating a complete game from preproduction through implementation and testing. Focuses on developing, playtesting, and iteratively refining a multilevel game, in addition to class discussions and exercises oriented toward professional and portfolio development. This class is an opportunity to complete, polish, and potentially publish that project. Integrated into the capstone are opportunities for the students to gain exposure for their games and to practice their professional development skills.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "GAME", "number": "3700" },
+      "And",
+      { "subject": "GAME", "number": "3800" }
+    ]
+  }
+]

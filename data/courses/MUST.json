@@ -1,0 +1,69 @@
+[
+  {
+    "subject": "MUST",
+    "number": "1220",
+    "title": "Introduction to Music Technology",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD"],
+    "sections": [
+      { "term": "202310", "crn": "19680" },
+      { "term": "202310", "crn": "19681" },
+      { "term": "202310", "crn": "19682" }
+    ],
+    "description": "Provides students with instruction in the use of a computer for composing original music. Topics include MIDI sequencing, digital audio processing, and sound synthesis. Students use music hardware and software to complete a variety of projects.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUST",
+    "number": "2320",
+    "title": "Sound Design",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [{ "term": "202310", "crn": "19683" }],
+    "description": "Instructs students in the art of producing and designing musical accompaniments for a variety of media including film, TV commercials, industrial video, animation, games, theatre, and radio drama. Focuses on abstract thinking regarding sound theory and practice and includes hands-on skills. Restricted to music majors and combined majors; all other students require permission of instructor.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUST",
+    "number": "2431",
+    "title": "Computer Music Fundamentals",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD", "FQ"],
+    "sections": [
+      { "term": "202310", "crn": "13150" },
+      { "term": "202310", "crn": "20871" }
+    ],
+    "description": "Focuses on the creation and implementation of standard time-domain audio synthesis routines and effects, as well as standard frequency-domain processing routines. MaxMSP is the principal programming environment used in the course. Begins with programming protocols, as well as data structures and storage, and list processing in the MaxMSP environment before moving on to standard synthesis and audio processing routines. Examines how the techniques learned in the course can be applied using a variety of synthesis and spectral processing software applications that are standard in the field.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "MUST", "number": "1220" }]
+  },
+  {
+    "subject": "MUST",
+    "number": "3602",
+    "title": "Electronics for Music",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI", "ND"],
+    "sections": [{ "term": "202310", "crn": "19686" }],
+    "description": "Introduces analog electronics in the context of audio synthesis and control. Topics include the basics of electronics and analog audio signals; passive components, transistors, operational amplifiers, and sensors; analog audio synthesis, filters, amplification, and modulation; and the basics of hacking and circuit bending. In-class activities center on designing, building, analyzing, and testing sound-emitting circuits.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUST",
+    "number": "4610",
+    "title": "Composition for Electronic Instruments",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI", "IC"],
+    "sections": [{ "term": "202310", "crn": "16008" }],
+    "description": "Instructs students in the composition of original music for electronic and computer-based instrumentation. Students create music to accompany video, animation, and film, and study suitable methods for creating original music for the Internet. Also surveys examples of music written for similar contexts.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

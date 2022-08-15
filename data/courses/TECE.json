@@ -1,0 +1,41 @@
+[
+  {
+    "subject": "TECE",
+    "number": "6222",
+    "title": "Emerging and Disruptive Technologies",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13366" }],
+    "description": "Covers the role emerging technologies play in innovation for new ventures and established corporations. Includes a mix of theory and practical knowledge. Topics covered include technology disruption, diffusion, life cycles, and research-and-development strategy. Explores, in detail, the technical and market opportunities for current and emerging technologies across a broad spectrum of industries.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "TECE",
+    "number": "6300",
+    "title": "Managing a Technology-Based Business",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19528" },
+      { "term": "202240", "crn": "40097" }
+    ],
+    "description": "Covers topics specific to managing a business or a strategic business unit within a firm. Considers the special issues related to technology-based firms. Topics include creating a culture, operations planning, staffing for technical excellence, dealing with technology vendors, dealing with advisers, supply chain management, and writing operations plans. Open to first-year graduate students.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "TECE",
+    "number": "6340",
+    "title": "The Technical Entrepreneur as Leader",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "40244" }],
+    "description": "Focuses on the personal skills an entrepreneur needs to lead and persuade others. Students read about and complete exercises on leadership and selling ideas. In addition, students meet members of the entrepreneurship community in New England. Stresses communications skills, both written and oral, along with self-discovery of leadership style.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

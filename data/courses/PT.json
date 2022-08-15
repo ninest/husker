@@ -1,0 +1,813 @@
+[
+  {
+    "subject": "PT",
+    "number": "1880",
+    "title": "Introduction to Sports Medicine",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ND"],
+    "sections": [{ "term": "202310", "crn": "20843" }],
+    "description": "Offers an introductory course intended for students interested in sports, coaching, medicine, and exercise. Exposes students to the field of sports medicine. Emphasizes orthopedic anatomy, exercise principles, and a basic introduction to prevention of injury and illness related to athletes. Includes a cadaveric lab and lectures.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "3500",
+    "title": "Motor Control of Human Movement",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20949" }],
+    "description": "Covers two broad areas that impact the human movement system: motor control and motor learning. Examines neural, behavioral, and physical mechanisms that contribute to the control of movement in humans. Focuses on motor control in healthy persons, with some discussion of alterations associated with musculoskeletal and neural impairment. Examines factors that influence the learning of new motor skills (motor learning) as a result of practice and/or experience.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "5101",
+    "title": "Foundations of Physical Therapy",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "60563" }],
+    "description": "Designed to provide a basic practical understanding of patient care procedures used in physical therapy practice. Covers body mechanics, therapeutic positioning, patient ambulation, transfer techniques, soft tissue mobilization, and documentation. Offers the learner an opportunity to obtain the information needed to use therapeutic modalities in a variety of clinical settings. Introduces physical therapy students to professional behaviors.",
+    "coreqs": [{ "subject": "PT", "number": "5102" }],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "5102",
+    "title": "Lab for PT 5101",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202260", "crn": "60564" },
+      { "term": "202260", "crn": "60888" },
+      { "term": "202260", "crn": "60889" },
+      { "term": "202260", "crn": "60890" }
+    ],
+    "description": "Accompanies PT 5101. Covers topics from the course through various experiments.",
+    "coreqs": [{ "subject": "PT", "number": "5101" }],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "5111",
+    "title": "Professional Development for Bouv&amp;#233; Graduate Co-op",
+    "scheduleType": "Seminar",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20846" }],
+    "description": "Introduces graduate students to the Bouv&amp;#233; Cooperative Education Program and offers an opportunity to develop job-search and career-management skills. Students perform assessments of their workplace skills, interests, and values and discuss how they impact personal career decisions. Offers students an opportunity to prepare a professional-style r&amp;#233;sum&amp;#233;, learn proper interviewing techniques, and gain an understanding of the opportunities available to them for co-op. Introduces career paths, choices, and career decision making. Seeks to familiarize students with workplace issues relative to their field of study and to teach them to use myNEU COOL database in the job-search and referral process. Presents and discusses co-op policies, procedures, and expectations of the Bouv&amp;#233; Cooperative Education Program and co-op employers.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "5138",
+    "title": "Neuroscience",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "41049" }],
+    "description": "Covers the structure and physiological function of the human nervous system with emphasis on the clinical aspects of motor and somatosensory systems. Studies the anatomy of the brain, brain stem, and spinal cord in specimens and on slides and integrated with the basic physiology of motor and sensory systems. The application of neuroscience to clinical neurological cases is a foundation of this course.",
+    "coreqs": [{ "subject": "PT", "number": "5139" }],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "5139",
+    "title": "Lab for PT 5138",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202240", "crn": "41050" },
+      { "term": "202240", "crn": "41051" },
+      { "term": "202240", "crn": "41052" }
+    ],
+    "description": "Accompanies PT 5138. Covers topics from the course through various experiments.",
+    "coreqs": [{ "subject": "PT", "number": "5138" }],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "5150",
+    "title": "Motor Control, Development, and Learning",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "41053" }],
+    "description": "Covers three broad areas&amp;#8212;motor control, motor development, and motor learning. Examines neural, behavioral, and physical mechanisms that contribute to the control of movement in humans. Focuses on motor control in healthy persons, with some discussion of alterations associated with musculoskeletal and neural impairment. Addresses motor development and maturation from intrauterine life through old age (senescence). Considers the interaction of body-system development and growth on acquisition of and changes in typical skill development. Examines factors that influence the learning of new motor skills (motor learning) as a result of practice.",
+    "coreqs": [{ "subject": "PT", "number": "5151" }],
+    "prereqs": [
+      { "subject": "PT", "number": "6340" },
+      "Or",
+      "(",
+      { "subject": "PT", "number": "5133" },
+      "And",
+      { "subject": "PT", "number": "5138" },
+      ")"
+    ]
+  },
+  {
+    "subject": "PT",
+    "number": "5151",
+    "title": "Lab for PT 5150",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": ["AD"],
+    "sections": [
+      { "term": "202240", "crn": "41054" },
+      { "term": "202240", "crn": "41055" }
+    ],
+    "description": "Offers students an opportunity to apply knowledge gained in PT 5150 to activities designed to illustrate various principles and concepts related to motor control, motor development, and motor learning. Uses a series of guiding questions/activities in each laboratory and analyzes associated literature to offer students an opportunity to apply class concepts to healthy individuals and to those with clinical problems related to motor control, motor development, or motor learning.",
+    "coreqs": [{ "subject": "PT", "number": "5150" }],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "5160",
+    "title": "Psychosocial Aspects of Healthcare",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": ["ER"],
+    "sections": [
+      { "term": "202260", "crn": "60565" },
+      { "term": "202260", "crn": "60930" }
+    ],
+    "description": "Examines interpersonal relationships among patients, families, health professionals, and society, with reference to the impact of and reaction to illness and disability. Identifies personal and societal beliefs, values, and attitudes that affect the role of people with illness or disabilities in our culture and the healthcare system; how patients&amp;#8217; beliefs, values, and experiences affect their expectations and interactions with healthcare professionals; and how beliefs, values, and experiences shape professional development and affect relationships with patients.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "5165",
+    "title": "Sports Medicine: Managing the Injured Athlete",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19824" }],
+    "description": "Offers students an opportunity to obtain in-depth knowledge in sports medicine. Covers taping and bracing procedures and techniques to assess concussions with various current protocols. Exposes students to current common pathologies within the athletic population. Discusses return-to-play criteria for an athlete once an injury has occurred and has subsequently been treated and rehabilitated.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "5209",
+    "title": "Neurological Rehabilitation 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10620" }],
+    "description": "Covers the foundations of the physical therapy examination, evaluation, and intervention for persons with neurological deficits. Presents examination skills, theoretical bases, and clinical applications of integrated intervention approaches for the patient with a neurological diagnosis. Includes the etiology, pathology, medical management, and physical therapy management of common neurology disorders affecting the adult population. Accompanied by PT 5210.",
+    "coreqs": [{ "subject": "PT", "number": "5210" }],
+    "prereqs": [
+      { "subject": "PT", "number": "5150" },
+      "Or",
+      { "subject": "PT", "number": "5150" }
+    ]
+  },
+  {
+    "subject": "PT",
+    "number": "5210",
+    "title": "Lab for PT 5209",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10621" },
+      { "term": "202310", "crn": "10617" },
+      { "term": "202310", "crn": "10873" }
+    ],
+    "description": "Accompanies PT 5209. Covers the foundations of the physical therapy examination, evaluation, and intervention with patients with neurological deficits. Presents clinical procedures for examination skills, evaluation, and clinical applications of integrated intervention approaches for the patient with a neurological diagnosis.",
+    "coreqs": [{ "subject": "PT", "number": "5209" }],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "5227",
+    "title": "Physical Therapy Projct 1",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": ["CE", "EI", "FQ", "WI"],
+    "sections": [{ "term": "202310", "crn": "10619" }],
+    "description": "Provides students with the opportunity to conduct an independent project under the mentorship of physical therapy faculty in areas such as research, education, clinical practice, administration, or service learning.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "5505",
+    "title": "Musculoskeletal Management 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11738" }],
+    "description": "Discusses physical therapy examination evaluation, interventions, and outcome assessment of common musculoskeletal dysfunctions. Uses case-based learning to promote synthesis of the material.",
+    "coreqs": [{ "subject": "PT", "number": "5506" }],
+    "prereqs": [
+      "(",
+      { "subject": "PT", "number": "5515" },
+      "Or",
+      { "subject": "PT", "number": "5515" },
+      ")",
+      "And",
+      "(",
+      { "subject": "PT", "number": "5540" },
+      "Or",
+      { "subject": "PT", "number": "5540" },
+      ")"
+    ]
+  },
+  {
+    "subject": "PT",
+    "number": "5506",
+    "title": "Lab for PT 5505",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11739" },
+      { "term": "202310", "crn": "11740" },
+      { "term": "202310", "crn": "11741" }
+    ],
+    "description": "Accompanies PT 5505. Covers topics from the course through various experiments.",
+    "coreqs": [{ "subject": "PT", "number": "5505" }],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "5515",
+    "title": "Integumentary Systems",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15114" },
+      { "term": "202260", "crn": "60108" }
+    ],
+    "description": "Applies anatomy, physiology, epidemiology, and pathology to explore the issues of medical, surgical, pharmacological, and psychological and physical therapy management of individuals throughout the life span with integumentary system impairments. Offers learners an opportunity to develop examination skills to derive diagnoses, prognoses, evaluations, and effective physical therapy interventions based on relevant evidence. Includes modalities for wound care and electrophysiological testing and interpretation. Uses case studies to integrate and apply the information obtained through readings, lectures, and lab.",
+    "coreqs": [{ "subject": "PT", "number": "5516" }],
+    "prereqs": [
+      "(",
+      { "subject": "PT", "number": "5101" },
+      "Or",
+      { "subject": "PT", "number": "5101" },
+      ")",
+      "And",
+      "(",
+      { "subject": "PT", "number": "5102" },
+      "Or",
+      { "subject": "PT", "number": "5102" },
+      ")"
+    ]
+  },
+  {
+    "subject": "PT",
+    "number": "5516",
+    "title": "Lab for PT 5515",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15115" },
+      { "term": "202310", "crn": "15218" },
+      { "term": "202310", "crn": "15409" },
+      { "term": "202310", "crn": "15405" },
+      { "term": "202260", "crn": "60101" },
+      { "term": "202260", "crn": "60113" },
+      { "term": "202260", "crn": "60891" }
+    ],
+    "description": "Accompanies PT 5515. Covers topics from the course through various experiments.",
+    "coreqs": [{ "subject": "PT", "number": "5515" }],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "5540",
+    "title": "Clinical Integration 1: Evidence and Practice",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "60166" }],
+    "description": "Designed to prepare physical therapy students to integrate previous courses taught in the curriculum to safely manage patients in the acute-care setting, including the intensive-care unit, the critical-care unit, and step-down settings. Uses a combination of lecture, instruction in the simulation center, and standardized patient interactions. Follows the &amp;#8220;Guide to Physical Therapy Practice for Evaluation and Intervention&amp;#8221; in these settings. Offers students an opportunity to learn to perform an examination; to evaluate examination data to formulate a plan of care; to provide interventions; to determine a discharge plan for individuals in the acute-care environment; and to demonstrate core professional values in classroom, recitation, and standardized patient interactions.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "PT", "number": "5150" },
+      "Or",
+      { "subject": "PT", "number": "5150" },
+      ")",
+      "And",
+      "(",
+      { "subject": "PT", "number": "5500" },
+      "Or",
+      { "subject": "PT", "number": "5500" },
+      ")",
+      "And",
+      "(",
+      { "subject": "PT", "number": "5503" },
+      "Or",
+      { "subject": "PT", "number": "5503" },
+      ")"
+    ]
+  },
+  {
+    "subject": "PT",
+    "number": "6000",
+    "title": "Leadership, Administration, and Management",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11737" }],
+    "description": "Offers students an opportunity to develop the ability to analyze and evaluate changes in the healthcare system, health policy, and the impact on the delivery of services with a focus on physical therapy. Appraises key business and management concepts, including personnel, insurance, finance, marketing, productivity, and financial and legal regulations within the context of ethical practice. Emphasizes and examines leadership concepts in the areas of advocacy, legislation, and the promotion of the profession.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "6055",
+    "title": "Introduction to Sports Performance",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15627" }],
+    "description": "Introduces students to injury prevention and covers illnesses related to athletes, management of athletic injury, roles of sports medicine providers, exercise and training principles, and career options in sports for physical therapists. Includes didactic and hands-on training. Offers additional material regarding NU-related DPT coursework and sports residency. This course is designed for Doctor of Physical Therapy students interested in sports medicine, strength and conditioning, and human performance.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "6215",
+    "title": "Assistive Technology",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "60319" }],
+    "description": "Studies theory and current practice in the use of prosthetics, orthotics, and assisted-living devices.",
+    "coreqs": [{ "subject": "PT", "number": "6216" }],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "6216",
+    "title": "Lab for PT 6215",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "60320" }],
+    "description": "Acompanies PT 6215. Covers topics from the course through various experiments.",
+    "coreqs": [{ "subject": "PT", "number": "6215" }],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "6221",
+    "title": "Neurological Rehabilitation 2",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19366" }],
+    "description": "Focuses on the physical therapy management of adults with neurological dysfunctions. Concentrates on management of functional activity limitations, participation restrictions, and impairments resulting from neurological disease and/or trauma. Offers students an opportunity to learn about the etiology, pathology, clinical signs, and medical management of adults with neurological disorders; to learn to perform an examination, evaluate the examination data to formulate a plan of care, and provide interventions; and to use evidence-based decision making.",
+    "coreqs": [{ "subject": "PT", "number": "6222" }],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "6222",
+    "title": "Lab for PT 6221",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19367" },
+      { "term": "202310", "crn": "19368" }
+    ],
+    "description": "Accompanies PT 6221. Covers topics from the course through various experiments.",
+    "coreqs": [{ "subject": "PT", "number": "6221" }],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "6233",
+    "title": "Advanced Physical Therapy Topics in Orthopedics",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "60322" }],
+    "description": "Provides students with an opportunity to obtain in-depth knowledge in orthopedics and physical therapy. Course topics vary each semester offered. Topics are determined by significant events and changes in the field. This course may be taken more than once, as long as topics are different. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "6237",
+    "title": "Adv Special Topics in PT-Sport",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [
+      { "term": "202260", "crn": "60323" },
+      { "term": "202260", "crn": "60324" }
+    ],
+    "description": "Provides students with an opportunity to obtain in-depth knowledge in a specific physical therapy topic area. Course topics vary each semester offered. Topics are determined by significant events and changes in the field. This course may be taken more than once, as long as topics are different.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "6241",
+    "title": "Screening for Medical Conditions in Physical Therapy Practice",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16465" }],
+    "description": "Designed to prepare physical therapy students to recognize the signs and symptoms of medical conditions and adverse drug reactions as they relate to patient examination and to triage appropriately. Emphasizes screening for medical conditions with the goal of recognizing red, yellow, and green flags as they relate to patient care. Stresses medical referral to other healthcare practitioners in an efficient and effective manner.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "6243",
+    "title": "Health Education, Promotion, and Wellness",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": ["DD"],
+    "sections": [{ "term": "202260", "crn": "60167" }],
+    "description": "Covers health promotion, wellness, disease, impairment, functional limitations, disability, and health risks. Addresses the concept of human difference as a construct relative to behavior theories, lifestyle choices, and health and wellness. Offers learners an opportunity to develop an educational health promotion program for individuals as well as community groups, considering the impact of health disparities, epidemiology, learning styles, barriers, and resources. Offers learners an opportunity to explore a potential consultative role to business, schools, government agencies, and other organizations.",
+    "coreqs": [{ "subject": "PT", "number": "6244" }],
+    "prereqs": [
+      { "subject": "PT", "number": "5160" },
+      "Or",
+      { "subject": "PT", "number": "5160" }
+    ]
+  },
+  {
+    "subject": "PT",
+    "number": "6244",
+    "title": "Recitation for PT 6243",
+    "scheduleType": "Recitation/Discussion",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202260", "crn": "60168" },
+      { "term": "202260", "crn": "60169" },
+      { "term": "202260", "crn": "60586" }
+    ],
+    "description": "Provides small-group discussion format to cover material in PT 6243.",
+    "coreqs": [{ "subject": "PT", "number": "6243" }],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "6250",
+    "title": "Clinical Integration 2: Evidence and Practice",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19370" },
+      { "term": "202260", "crn": "60896" },
+      { "term": "202260", "crn": "60897" },
+      { "term": "202260", "crn": "61373" }
+    ],
+    "description": "Offers students an opportunity to practice demonstrating core professional values in classroom, recitation, and standardized patient interactions and to learn how to skillfully manage complex patients across the life span and across practice patterns in a variety of clinical settings. Integrates evidence-based content from previous courses in the curriculum. Introduces special topics in physical therapy, including bariatric care, home care, and hospice.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "PT", "number": "5540" },
+      "Or",
+      { "subject": "PT", "number": "5540" }
+    ]
+  },
+  {
+    "subject": "PT",
+    "number": "6251",
+    "title": "Diagnostic Imaging",
+    "scheduleType": "Off-campus instruction",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "16466" },
+      { "term": "202310", "crn": "16467" }
+    ],
+    "description": "Designed to integrate diagnostic imaging principles and techniques relevant to physical therapy practice. Reviews commonly used diagnostic imaging techniques and discusses clinical case studies in a case-based online course.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "6330",
+    "title": "Functional Anatomy 1",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "60566" }],
+    "description": "Covers the normal structure, function, and principles of biomechanics of the human body. Emphasizes the regions of the head, neck, and trunk. Also considers the basic abnormalities of structure and function.",
+    "coreqs": [{ "subject": "PT", "number": "6331" }],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "6331",
+    "title": "Lab for PT 6330",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202260", "crn": "60567" },
+      { "term": "202260", "crn": "60568" },
+      { "term": "202260", "crn": "60898" },
+      { "term": "202260", "crn": "60899" }
+    ],
+    "description": "Accompanies PT 6330. Covers the normal structure, function, and principles of biomechanics of the human body through cadaveric exploration, surface anatomy, and analysis of movement. Emphasizes the regions of the head, neck, and trunk.",
+    "coreqs": [{ "subject": "PT", "number": "6330" }],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "6340",
+    "title": "Functional Anatomy 2",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15110" }],
+    "description": "Covers the normal structure and function and principles of biomechanics of the human body, including the analysis of human movement. Emphasizes the upper and lower extremities. Considers basic abnormalities of structure and function.",
+    "coreqs": [{ "subject": "PT", "number": "6341" }],
+    "prereqs": [
+      { "subject": "PT", "number": "6330" },
+      "And",
+      { "subject": "PT", "number": "6331" }
+    ]
+  },
+  {
+    "subject": "PT",
+    "number": "6341",
+    "title": "Lab for PT 6340",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15113" },
+      { "term": "202310", "crn": "15116" },
+      { "term": "202310", "crn": "15456" },
+      { "term": "202310", "crn": "15457" }
+    ],
+    "description": "Accompanies PT 6340. Covers the normal structure, function, and principles of biomechanics of the human body through cadaveric exploration, surface anatomy, and analysis of movement. Emphasizes the skeletal, muscular, nervous, and cardiovascular systems of the upper and lower extremities.",
+    "coreqs": [{ "subject": "PT", "number": "6340" }],
+    "prereqs": [
+      { "subject": "PT", "number": "6330" },
+      "And",
+      { "subject": "PT", "number": "6331" }
+    ]
+  },
+  {
+    "subject": "PT",
+    "number": "6350",
+    "title": "Foundations of PT Examination and Therapeutic Activities",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15117" }],
+    "description": "Designed to educate the learner on how to apply, interpret, and perform introductory physical therapy tests and measures and therapeutic activity and exercise interventions. The tests and measures are components of the physical therapist examination process and examine human movement; and the introductory therapeutic activities and exercises are those that would be selected for treatment after those specific examination techniques. Provides an introductory framework to the patient/client professional relationship. Emphasizes the development of the learner&#39;s affective, psychomotor, and cognitive skills necessary to assure proper patient/client examination and intervention in the clinical environment.",
+    "coreqs": [{ "subject": "PT", "number": "6351" }],
+    "prereqs": [
+      "(",
+      { "subject": "PT", "number": "5101" },
+      "Or",
+      { "subject": "PT", "number": "5101" },
+      ")",
+      "And",
+      "(",
+      { "subject": "PT", "number": "5102" },
+      "Or",
+      { "subject": "PT", "number": "5102" },
+      ")"
+    ]
+  },
+  {
+    "subject": "PT",
+    "number": "6351",
+    "title": "Lab for PT 6350",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15118" },
+      { "term": "202310", "crn": "15453" },
+      { "term": "202310", "crn": "15454" },
+      { "term": "202310", "crn": "15455" }
+    ],
+    "description": "Accompanies PT 6350. Provides an introductory framework to the patient/client professional relationship.",
+    "coreqs": [{ "subject": "PT", "number": "6350" }],
+    "prereqs": [
+      "(",
+      { "subject": "PT", "number": "5101" },
+      "Or",
+      { "subject": "PT", "number": "5101" },
+      ")",
+      "And",
+      "(",
+      { "subject": "PT", "number": "5102" },
+      "Or",
+      { "subject": "PT", "number": "5102" },
+      ")"
+    ]
+  },
+  {
+    "subject": "PT",
+    "number": "6441",
+    "title": "Clinical Education 1",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14481" },
+      { "term": "202260", "crn": "61374" },
+      { "term": "202260", "crn": "61375" },
+      { "term": "202260", "crn": "61376" },
+      { "term": "202240", "crn": "40399" },
+      { "term": "202240", "crn": "40400" },
+      { "term": "202240", "crn": "40401" }
+    ],
+    "description": "Provides students with opportunities to practice examination, evaluation, and intervention skills previously learned in the classroom and on co-op. Students work under the supervision and guidance of a licensed physical therapist.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "6442",
+    "title": "Clinical Education 2",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10649" },
+      { "term": "202310", "crn": "11088" },
+      { "term": "202310", "crn": "11251" }
+    ],
+    "description": "Continues PT 6441. Provides students with additional opportunities to practice examination, evaluation, and intervention skills learned in the classroom and during the previous course. Students are expected to function at a higher level requiring less supervision and guidance from a licensed physical therapist than was needed during their first clinical education experience.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "6505",
+    "title": "Musculoskeletal Management 3",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20405" }],
+    "description": "Builds upon content from earlier musculoskeletal management courses to further provide students with the theoretical basis and clinical application of examination and intervention of more complex orthopedic patient presentations for the extremities, head, spine, and pelvic region. Uses an evidence-based, problem-solving approach to prioritize and plan patient care, including medical screening and identifying need for referral. Offers learners an opportunity to integrate selected topics that reflect the philosophies of various noted practitioners in the field of orthopedic physical therapy.",
+    "coreqs": [{ "subject": "PT", "number": "6506" }],
+    "prereqs": [
+      "(",
+      { "subject": "PT", "number": "6405" },
+      "And",
+      { "subject": "PT", "number": "6406" },
+      ")"
+    ]
+  },
+  {
+    "subject": "PT",
+    "number": "6506",
+    "title": "Lab for PT 6505",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "20400" },
+      { "term": "202310", "crn": "20401" }
+    ],
+    "description": "Accompanies PT 6505. Uses an evidence-based, problem-solving approach to prioritize and plan patient care, including medical screening and identifying need for referral.",
+    "coreqs": [{ "subject": "PT", "number": "6505" }],
+    "prereqs": [
+      { "subject": "PT", "number": "6405" },
+      "And",
+      { "subject": "PT", "number": "6406" }
+    ]
+  },
+  {
+    "subject": "PT",
+    "number": "6510",
+    "title": "Evidence-Based Practice and Research Design",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16470" }],
+    "description": "Offers an overview of the research process and its application in clinical arenas. Emphasizes the role of the health professional as a consumer of research, with concern for the ethical management and treatment of patients and their families. Elements of research design and their implications in clinical settings provide the framework for the analysis of research. Also emphasizes the use of research findings for evidence-based practice. Encourages interdisciplinary approaches.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "6513",
+    "title": "DPT Capstone 2",
+    "scheduleType": "Individual Instruction",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20432" }],
+    "description": "Continues PT 6512. Faculty guide students through the completion of their capstone projects. Students are expected to be motivated and self-directed to complete a high-quality project suitable for dissemination.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "PT", "number": "6512" }]
+  },
+  {
+    "subject": "PT",
+    "number": "6600",
+    "title": "Special Topics",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19375" }],
+    "description": "Offers learners an opportunity to expand upon current evidence-based topics to reflect current advancements in physical therapist practice. Topics are determined by significant events and changes in the field across areas of clinical practice and in line with accreditation and National Physical Therapist Licensure Examination. Focuses on advanced patient management and complex case analysis that involves multiple systems across the life span. Learners use clinical reasoning theory and evidence-based practice to reflect on patient diagnosis and management.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "6964",
+    "title": "Co-op Work Experience",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "16471" },
+      { "term": "202310", "crn": "18016" },
+      { "term": "202310", "crn": "18111" },
+      { "term": "202260", "crn": "61090" },
+      { "term": "202260", "crn": "61091" }
+    ],
+    "description": "Provides eligible students with an opportunity for work experience. May be repeated once.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "6978",
+    "title": "Independent Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "18505" },
+      { "term": "202310", "crn": "18527" },
+      { "term": "202310", "crn": "18532" }
+    ],
+    "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "7001",
+    "title": "Core Concepts in Rehabilitation Science and Research",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14105" }],
+    "description": "Exposes students to core concepts in rehabilitation science, including theory, experimental design, models of disablement, and knowledge transfer methods. Offers students an opportunity to develop the skills to critically evaluate models and theories used in rehabilitation science in order to apply select models/theories to their own programs of research. Students evaluate research designs and knowledge translation methods relevant to rehabilitation science and apply this information in planning the design, implementation, and dissemination of their own proposed research.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "7030",
+    "title": "Interdisciplinary Seminar in Rehabilitation Science",
+    "scheduleType": "Seminar",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15112" }],
+    "description": "Engages PhD students in discussions and presentations related to human movement and rehabilitation research in order to help them gain important skills related to critiquing and communicating scientific work. Offers students an opportunity to learn how to provide constructive feedback to colleagues about completed works and works in progress, as well as their communications regarding conference presentations and manuscripts from (or for) peer-reviewed archival journals. Works reviewed include works by students and by world-renowned leaders in the field. Presentations include students, as well as internationally established researchers.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "8986",
+    "title": "Research",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18306" }],
+    "description": "Offers an opportunity to conduct research under faculty supervision. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PT",
+    "number": "9990",
+    "title": "Dissertation Term 1",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "18310" },
+      { "term": "202310", "crn": "18311" }
+    ],
+    "description": "Offers dissertation supervision by members of the department.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "PT", "number": "9000" }]
+  }
+]

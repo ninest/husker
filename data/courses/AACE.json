@@ -1,0 +1,74 @@
+[
+  {
+    "subject": "AACE",
+    "number": "6000",
+    "title": "Arts and Culture Organizational Leadership",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13583" }],
+    "description": "Offers an overview and introduction to leadership knowledge areas, tools, and skills sets for the arts and culture sector. Key topics include issues and challenges in the management of arts-oriented organizations, leadership characteristics and techniques for arts and culture teams, balancing organizational priorities with artistic vision and values, board formation and management, audience outreach, and operational practices. Focuses on the administration of people and processes to communicate mission; realize goals; and effectively manage the creative resources, human resources, and financial challenges of nonprofit arts and cultural organizations.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "AACE",
+    "number": "6020",
+    "title": "Experiential Study in Arts Administration",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13153" }],
+    "description": "Offers students an opportunity to learn best practices in arts project management, including how to assess and scope a project, develop a timeline with clear action items and goals, relay needs and expectations to clients, research materials to assist in the process, and measure and deliver project results. Faculty coach students to cultivate professional skill sets, build competency around key areas of student interest, and bridge theory with practice. Students receive feedback from their project sponsor, review lessons learned, and incorporate suggestions to improve and further develop their career plans. Seeks to support the development of business communication skills, project and client management skills, and frameworks for analysis.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "AACE",
+    "number": "6120",
+    "title": "Advocacy and the Arts",
+    "scheduleType": "Seminar",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15988" }],
+    "description": "Seeks to equip future arts leaders with the competence, power, and commitment to act in the interest of creative resilience&mdash;and creativity&mdash;for the collective good. Offers students an opportunity to learn how to both advocate for the arts and advocate through the arts. Each module presents a specific challenge faced by artists and arts institutions and compels students to identify and articulate creative solutions to overcome this challenge. Exposes students to diverse knowledge sources&mdash;including theoretical and practical literature, organizational and project case studies, and guest presentations by arts leaders in the Boston area&mdash;to help prepare students for this important work.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "AACE",
+    "number": "6200",
+    "title": "Programming and Community Engagement for Cultural Entrepreneurs",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15989" }],
+    "description": "Examines the role and tools of the cultural entrepreneur and investigates practical and tactical approaches centered around real-world examples. Topics include how cultural entrepreneurs turn new ideas into concrete initiatives and how they communicate with and learn from their audiences and communities to assess and evaluate the implementation of cultural endeavors. Offers students an opportunity to create their own cultural initiative from the ground up. Through modules covering mission and vision, program evaluation, community engagement, and basic resource management, the successful student should finish the course with a real project &ldquo;in a box,&rdquo; ready to launch.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "AACE",
+    "number": "6210",
+    "title": "Building Value Through Cultural Enterprise",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15990" }],
+    "description": "Examines the question of value through the lens of cultural institutions big and small. Explores examples from real-world case studies. Focuses on areas of value, ways to measure impact on both qualitative and quantitative levels, and how to demonstrate that impact to a variety of audiences from our daily visitors to our federal government. Value in the cultural sector is a critical question that institutions and individuals working in this area must answer on a regular basis for themselves, their constituents, and their supporters.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "AACE",
+    "number": "6220",
+    "title": "Innovative Approaches to Audience Engagement",
+    "scheduleType": "Seminar",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "41744" }],
+    "description": "Investigates the philosophy, methods, and application of a wide spectrum of audience engagement strategies. Utilizes provided materials, inquiry-based research practices, and experiential study to introduce students to the various interpretations and outcomes of effective audience engagement, particularly as it relates to an arts organization&rsquo;s mission, vision, and values. Drawing directly from their course work and research, students are paired with an arts organization to design a creative audience engagement strategy that both aligns with the organization&rsquo;s mission and supports a new visionary initiative.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

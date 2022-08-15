@@ -1,0 +1,766 @@
+[
+  {
+    "subject": "FINA",
+    "number": "1209",
+    "title": "Personal Finance",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12600" },
+      { "term": "202310", "crn": "12601" },
+      { "term": "202310", "crn": "12602" },
+      { "term": "202310", "crn": "20345" }
+    ],
+    "description": "Emphasizes the development of individually focused financial information and a comprehensive financial plan designed to enable the individual to manage his or her financial affairs. Integrates personal goals&amp;#8212;such as buying a home, retirement, investing, and insurance needs&amp;#8212;to help assure that the financial plan incorporates the major decision stages an individual faces.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "2201",
+    "title": "Financial Management",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10413" },
+      { "term": "202310", "crn": "10412" },
+      { "term": "202310", "crn": "10411" },
+      { "term": "202310", "crn": "14090" },
+      { "term": "202310", "crn": "10410" },
+      { "term": "202310", "crn": "10409" },
+      { "term": "202310", "crn": "10408" },
+      { "term": "202310", "crn": "10131" },
+      { "term": "202310", "crn": "10132" },
+      { "term": "202310", "crn": "14091" },
+      { "term": "202310", "crn": "14237" },
+      { "term": "202310", "crn": "11874" },
+      { "term": "202310", "crn": "14941" },
+      { "term": "202260", "crn": "60031" },
+      { "term": "202260", "crn": "60030" },
+      { "term": "202240", "crn": "40027" },
+      { "term": "202240", "crn": "40026" },
+      { "term": "202240", "crn": "40017" },
+      { "term": "202240", "crn": "40275" },
+      { "term": "202240", "crn": "40700" },
+      { "term": "202240", "crn": "40790" }
+    ],
+    "description": "Designed to develop the financial skills and logical thought processes necessary to understand and discuss financial policy decisions in a global economy. Specific objectives include developing an understanding of the time value of money; using financial statements in decision making; and understanding the nature of financial markets, the cost of capital, valuation of stocks and bonds, management of short-term assets, short-term and long-term financing, capital markets, and multinational financial management. Addresses the impact of legal, social, technological, and ethical considerations on efficient economic outcomes. Requires a financial calculator and provides an opportunity to develop computer spreadsheet skills.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ACCT", "number": "1201" },
+      "Or",
+      { "subject": "ACCT", "number": "1209" },
+      "Or",
+      { "subject": "ACCT", "number": "1202" }
+    ]
+  },
+  {
+    "subject": "FINA",
+    "number": "2209",
+    "title": "Financial Management",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10900" },
+      { "term": "202310", "crn": "11795" },
+      { "term": "202240", "crn": "40274" }
+    ],
+    "description": "Does not count as credit for business majors. Counts as FINA 2201 for business minors only.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ACCT", "number": "1201" },
+      "Or",
+      { "subject": "ACCT", "number": "1209" },
+      "Or",
+      { "subject": "ACCT", "number": "1202" }
+    ]
+  },
+  {
+    "subject": "FINA",
+    "number": "2720",
+    "title": "Sustainability in the Business Environment",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11124" },
+      { "term": "202240", "crn": "41035" }
+    ],
+    "description": "Examines a variety of environmental problems, including global warming, use and disposal of toxic substances, and depletion of natural resources such as water and petroleum. Many of these problems arise because these are resources that are available to all and so their overuse is an externality that is not included in manufacturing costs. Businesses have been involved in both identifying sustainability issues in their individual organizations and providing a variety of innovative solutions. Uses a combination of readings and case analyses to assesses how both government regulations&amp;#8212;such as taxes, subsidies, building codes, prohibitions of use&amp;#8212;and business solutions&amp;#8212;including zero emissions, green design, producer take-back, life cycle assessment, and corporate environmental reporting&amp;#8212;address these problems.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "2730",
+    "title": "Fintech and Financial Innovation",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14922" },
+      { "term": "202310", "crn": "20224" },
+      { "term": "202260", "crn": "61307" }
+    ],
+    "description": "Offers a broad overview of the world of fintech, from the perspectives of both large financial institutions and small startups. Evaluates the financial services industry, forces at play that may lead to disruption in the industry, startups that have already succeeded in bringing about change, the technological tools that may be used to make changes, and how both startups and established firms might respond to the continued pace of change.",
+    "coreqs": [],
+    "prereqs": ["Or", "Or"]
+  },
+  {
+    "subject": "FINA",
+    "number": "3301",
+    "title": "Corporate Finance",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [
+      { "term": "202310", "crn": "10407" },
+      { "term": "202310", "crn": "10406" },
+      { "term": "202310", "crn": "10405" },
+      { "term": "202310", "crn": "10404" },
+      { "term": "202310", "crn": "10012" },
+      { "term": "202310", "crn": "10918" },
+      { "term": "202310", "crn": "11748" },
+      { "term": "202310", "crn": "11950" },
+      { "term": "202310", "crn": "19314" },
+      { "term": "202240", "crn": "40254" }
+    ],
+    "description": "Designed to develop the skills needed to make and implement financial policy decisions in a global economy. Specific objectives include developing an understanding of financial analysis; company valuation; capital markets; cost of capital; capital asset pricing and risk management; short- and long-term financial policies; working capital management; multinational financial management; and special topics including lease financing, debt refunding, mergers and acquisitions, and bankruptcy and restructuring. Offers opportunities to consider many broader issues including the relevance of globalization; the world economy; technological advances; and legal, social, and ethical issues related to the practice of corporate finance. Stresses written and oral communication skills and teamwork. Uses cases and spreadsheets extensively.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      "Or",
+      "Or",
+      ")",
+      "And",
+      "(",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      ")"
+    ]
+  },
+  {
+    "subject": "FINA",
+    "number": "3303",
+    "title": "Investments",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10403" },
+      { "term": "202310", "crn": "10402" },
+      { "term": "202310", "crn": "10297" },
+      { "term": "202310", "crn": "10401" },
+      { "term": "202310", "crn": "10901" },
+      { "term": "202310", "crn": "10902" },
+      { "term": "202310", "crn": "11749" },
+      { "term": "202310", "crn": "11951" },
+      { "term": "202310", "crn": "15507" },
+      { "term": "202310", "crn": "19315" },
+      { "term": "202310", "crn": "19316" },
+      { "term": "202260", "crn": "60400" },
+      { "term": "202240", "crn": "40211" }
+    ],
+    "description": "Focuses on investment management as the study of risk and return of financial securities and real assets. Students design and assess models that evaluate investments while recognizing the constraints of the real world. Explores domestic and international financial markets and the securities traded therein. Discusses techniques for valuation of financial assets. Analyzes qualitative concepts such as market efficiency, intrinsic value, and risk. Provides the ability to build unique valuation models to suit the particular investment alternative that students wish to scrutinize. Also stresses portfolio construction, management, and protection, as well as performance assessment. During the semester, students have an opportunity to create and manage a stock portfolio.",
+    "coreqs": [],
+    "prereqs": ["Or", "Or"]
+  },
+  {
+    "subject": "FINA",
+    "number": "4219",
+    "title": "Portfolio Management",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15508" },
+      { "term": "202240", "crn": "41591" }
+    ],
+    "description": "Studies the characteristics and formation of optimal portfolios by investing risky assets and fixed incomes. The discussion of theories and models is associated with the application for portfolio decision making in practice. Offers students an opportunity to obtain the ability to establish appropriate client investment objectives, gather and assess information necessary for determining the investment style and the selection of the securities and, evaluate the performance of a portfolio. Portfolio management is a critical functionality that is provided by financial institutions such as investment banks, insurance companies, and funds. This full-semester course is designed to introduce industry-grade portfolio analysis, exploring all aspects of investment evaluation from the perspective of institutional and individual investors.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "4220",
+    "title": "Behavioral Finance",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19703" },
+      { "term": "202260", "crn": "60836" }
+    ],
+    "description": "Designed to revisit neoclassical economic theory based on rational market participants, then introduce students to the theory and evidence regarding psychological heuristics and biases that are inconsistent with the underlying assumptions of these classical models. Behavioral biases can severely influence financial decision making in the investment and the corporate environments, and it is important for students to understand how and why these biases occur. The course material, born out of the fields of cognitive psychology and behavioral economics, is designed to help students understand their own biases in making personal financial decisions.",
+    "coreqs": [],
+    "prereqs": ["Or"]
+  },
+  {
+    "subject": "FINA",
+    "number": "4320",
+    "title": "International Financial Management",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10554" }],
+    "description": "Introduces international financial markets including balance of payments, history of the international monetary system, exchange-rate determination, foreign-exchange-exposure hedging strategies, and international capital markets. Examines how the financial strategies and policies of multinational corporations differ from domestic corporations and how financial management is utilized in an international setting to achieve corporate goals.",
+    "coreqs": [],
+    "prereqs": ["Or", "Or"]
+  },
+  {
+    "subject": "FINA",
+    "number": "4340",
+    "title": "Blockchain Applications in Finance",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19829" }],
+    "description": "Introduces the fundamental concepts and an overview of the blockchain and cryptocurrency space. Offers a background in fundamental concepts in blockchain technology and functionality. Explores the basics of how blockchains record and verify information, including the related definitions and terminology. Provides an in-depth overview of blockchain applications in finance. Concludes by examining the legal and regulatory framework, along with potential risks and hurdles faced by blockchain technologies.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "4350",
+    "title": "Applied Financial Econometrics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19708" },
+      { "term": "202240", "crn": "41589" }
+    ],
+    "description": "Studies how to understand and analyze data using a set of analytical tools in financial econometrics when applications such as Excel are not ideally suited for large data sets or when the analysis involves a series of iterative steps that need to be replicated. Techniques include several types of regressions (e.g., ordinary least squares, probit, logit, fixed/random effects, etc.); univariate and matched sample analyses; event studies; and, more recently, text-based methods. Discusses topics related to establishing causal relations&mdash;such as the use of instrumental variables, natural experiments, and regression discontinuity&mdash;and application of these techniques using econometric software.",
+    "coreqs": [],
+    "prereqs": ["Or"]
+  },
+  {
+    "subject": "FINA",
+    "number": "4370",
+    "title": "Financial Modeling",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14014" }],
+    "description": "Designed to develop students&rsquo; quantitative financial modeling skills and techniques using the Excel spreadsheet. Through learning how to use numerical examples and business cases, students study corporate valuation, weighted average cost of capital (WACC), pro forma statement modeling, portfolio models, and Monte Carlo simulation methods, etc. Seeks to cultivate students&rsquo; ability to make assumptions, deal with imperfect information, and real-world data issues. Offers students an opportunity to apply theoretical knowledge in advanced corporate finance, asset pricing, and option pricing in a real-world context. This course is highly quantitative in nature; while it does not derive complicated mathematical formulas, familiarity with concepts such as the capital asset pricing model (CAPM), WACC, portfolio theory, and pro forma financial statements is expected.",
+    "coreqs": [],
+    "prereqs": ["Or"]
+  },
+  {
+    "subject": "FINA",
+    "number": "4380",
+    "title": "Financial Data Analytics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14015" },
+      { "term": "202310", "crn": "14236" },
+      { "term": "202310", "crn": "19731" },
+      { "term": "202260", "crn": "60835" }
+    ],
+    "description": "Introduces Python and its use as a financial data analytics tool. Python has gradually become one of the most widely used open-source, cross-platform programming languages. Covers the basics of programming in Python and key libraries (NumPy, Pandas, Matplotlib, etc.) used in data analytics. The second part of the course focuses on implementing various financial models in Python. Topics covered include but are not limited to single and multifactor portfolio models, portfolio theory and the efficient frontier, algorithmic trading, options and futures, value at risk, etc. May employ other programming languages in addition to or as a substitute for Python as the field evolves.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "4410",
+    "title": "Valuation and Value Creation",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "41033" }],
+    "description": "Explores recent developments in financial management and financial analysis through the use of modern finance theory to make capital allocation decisions that lead to long-run value maximization for the corporation. Focuses on applications and financial model building. Examines risk analysis by building spreadsheet models for valuation and risk-analysis applications. Utilizes valuation analysis models to merge financial, corporate, and business strategies to measure and manage corporate value. Develops an understanding of the mechanics of the valuation process, along with an understanding of the drivers of value and development of strategies for value creation. Topics covered are relevant to value consultants, corporate managers, and securities analysts.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "4420",
+    "title": "Mergers and Acquisitions",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12991" }],
+    "description": "Offers a practical, planning-based approach to managing the mergers and acquisitions (M&amp;amp;A) process. Analyzes how M&amp;amp;As create or destroy value; commonly used takeover tactics and defenses; M&amp;amp;A valuation techniques; alternative deal structures; and the financial, strategic, legal, and regulatory aspects of M&amp;amp;As. The first section covers how and when to apply the appropriate tools and skills to successfully complete a transaction. The second section offers students an opportunity to apply what has been learned to solve real-world business problems. Discusses all major elements of the acquisition process in the context of a logical process.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "4512",
+    "title": "Financial Risk Management",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10555" },
+      { "term": "202310", "crn": "12285" },
+      { "term": "202240", "crn": "41036" }
+    ],
+    "description": "Explores the concepts of financial futures, options on financial futures, and listed options markets as developed to help corporations and financial institutions manage financial risk. Covers financial derivatives and standard hedging techniques first, followed by a study of market risk and strategies in managing market risk.",
+    "coreqs": [],
+    "prereqs": ["Or"]
+  },
+  {
+    "subject": "FINA",
+    "number": "4514",
+    "title": "Investment Banking",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19838" }],
+    "description": "Examines the investment banking business. Investment bankers are one of the most important conduits through which funds flow from savers to corporations needing to invest in plant and equipment. Offers an opportunity to examine the major functions of large investment banks in regard to their investment banking, market making, and asset management businesses; to determine the financing needs of domestic and international corporations, not-for-profit organizations, and government entities by using concepts learned in earlier courses; and to learn to link these financing needs with products that are available in the capital markets, usually through the investment banking houses.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "4524",
+    "title": "Credit Analysis",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16605" }],
+    "description": "Explores all aspects of credit evaluation from the perspective of banks and other institutions. Introduces industry-grade credit analysis. Credit analysis is used by all manner of banks and other institutions, such as insurance companies, hedge funds, private equity groups, and even elements of local, state, and federal governments, to evaluate clients and potential borrowers who need loans and other structured debt products.",
+    "coreqs": [],
+    "prereqs": ["Or"]
+  },
+  {
+    "subject": "FINA",
+    "number": "4526",
+    "title": "Core Topics in Alternative Investments",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14942" }],
+    "description": "Covers alternative investments, including real assets such as real estate and real estate investment trusts, hedge funds, commodities, private equity, and structured products. This course is highly quantitative and focuses on methods for understanding risk, return, and benchmarking of these investments. Offers students an opportunity to obtain a deeper understanding of each of these asset types.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "4602",
+    "title": "Turnaround Management",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10007" }],
+    "description": "Examines strategies for identifying companies likely to fail and selecting and implementing remedial actions. Topics include business turnarounds, troubled companies, workouts, bankruptcies, and liquidations, using case studies and readings. Students evaluate a turnaround plan.",
+    "coreqs": [],
+    "prereqs": ["Or", "Or"]
+  },
+  {
+    "subject": "FINA",
+    "number": "4604",
+    "title": "Fixed-Income Securities",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13510" },
+      { "term": "202240", "crn": "41590" }
+    ],
+    "description": "Exposes students to the theory, application, and evidence concerning highly sensitive interest rate products. Explores recent developments in pension fund management, asset/liability management, duration matching, &amp;#8220;gap&amp;#8221; management, and other important issues confronting domestic and international financial and corporate management. Offers students the opportunity to learn how to customize a risk management program.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "4610",
+    "title": "Entrepreneurial Finance and Private Equity",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11750" },
+      { "term": "202310", "crn": "14166" }
+    ],
+    "description": "Covers qualitative and quantitative aspects of entrepreneurial finance, such as venture capital and angel financing. Also covers private equity (i.e., buyout/leveraged-buyout firms), but in less detail. Introduces valuation in entrepreneurial finance, including valuation of startups, using real options to value innovation-intensive firms, valuation in staged financing, etc. Casework emphasizes the practical aspects of qualitative and quantitative issues related to venture capital financing, entrepreneurship, and innovation from the perspective of the financier and the startup firm. Discusses issues related to the venture capital industry, such as the limited partnership structure, term-sheets and contracts, exit of portfolio firms, and international investments. Requires a working knowledge of Excel or other spreadsheet programs.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6200",
+    "title": "Value Creation through Financial Decision Making",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10703" },
+      { "term": "202310", "crn": "10591" },
+      { "term": "202310", "crn": "11778" },
+      { "term": "202310", "crn": "11779" },
+      { "term": "202310", "crn": "11780" },
+      { "term": "202310", "crn": "12520" },
+      { "term": "202310", "crn": "12622" },
+      { "term": "202310", "crn": "12623" },
+      { "term": "202240", "crn": "40298" }
+    ],
+    "description": "Highlights the role of financial management as a source of value creation in a competitive global environment characterized by rapid technological, personal, and market changes. Offers students an opportunity to develop tools and techniques of financial analysis and valuation to support financial decision making. Presents future managers with actual business problems to learn to apply the tools of financial analysis to strategic decisions faced by the firm, such as capital budgeting and capital structure.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6202",
+    "title": "Analysis of Financial Institutions and Markets",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10702" }],
+    "description": "Introduces the domestic and international financial system and the institutions within it. Develops data and quantitative analysis tools utilized for economic and financial modeling and analysis. Emphasis is on regression analysis and its application, including how to build and interpret statistical models. Topics include the major types of financial institutions that operate within the global economy and the financial instruments employed by them; how exchange rates, interests rates, and security prices are determined and how they affect the global economy; and how governments and central banks impact economic and financial conditions.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6203",
+    "title": "Investment Analysis",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10946" },
+      { "term": "202310", "crn": "17662" },
+      { "term": "202310", "crn": "16807" },
+      { "term": "202310", "crn": "18224" },
+      { "term": "202310", "crn": "20236" }
+    ],
+    "description": "Familiarizes students with domestic and international financial markets and the securities traded therein. Discusses a variety of techniques for valuation of financial assets and relies heavily on quantitative methods. Critically analyzes such qualitative concepts as market efficiency, intrinsic value, and risk. The contents of this course, descriptive, theoretical, and applied, should provide students with the ability to build unique valuation models to suit the particular investment alternative they wish to scrutinize. Also provides students with an understanding of how investment theory and investment practice relate.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6204",
+    "title": "International Financial Management",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12995" }],
+    "description": "Develops specific concepts, policies, and techniques for the financial management of the multinational firm. Topics include operation of the foreign exchange markets, foreign exchange risk management, sources and instruments of international financing, foreign direct investment and the management of political risk, multinational capital budgeting, and financing control systems for the multinational firm.",
+    "coreqs": [],
+    "prereqs": ["Or", "Or", "Or", "(", "And", ")"]
+  },
+  {
+    "subject": "FINA",
+    "number": "6205",
+    "title": "Financial Strategy",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13586" },
+      { "term": "202310", "crn": "11162" },
+      { "term": "202310", "crn": "11163" },
+      { "term": "202310", "crn": "19526" }
+    ],
+    "description": "Develops financial, analytical, and communication skills necessary to develop and implement a financial strategy consistent with firm value creation in a dynamic environment. Stresses the impact of ethical and legal considerations, global markets, and technological innovation on efficient economic outcomes. Emphasizes written and oral communication skills. Upon completion of this course, students should be able to identify and analyze a firm&amp;#8217;s strategic opportunities and propose a suitable financial strategy that is consistent with firm value creation.",
+    "coreqs": [],
+    "prereqs": ["Or", "Or", "Or", "Or", "(", "And", ")"]
+  },
+  {
+    "subject": "FINA",
+    "number": "6206",
+    "title": "Finance Seminar",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19732" }],
+    "description": "Structures discussion of current topics in the finance literature. Students read and present the works of leading researchers. Topics are broad and may cover various areas of corporate finance, investments, and institutions. Students also complete an original project emphasizing current methodologies of analysis.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6207",
+    "title": "Financial Modeling",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14940" },
+      { "term": "202240", "crn": "41592" }
+    ],
+    "description": "Introduces financial modeling applications in the fields of risk management, statistics applied to finance, investments, and portfolio management. Financial modeling is used for performing financial analysis facilitating business decision making in virtually any business. Excel is the most widely used electronic spreadsheet program in the world. Offers students an opportunity to develop strong Excel proficiency needed to effectively and efficiently understand and implement the quantitative aspects of financial topics covered in the various financial courses taught in the MBA and MSF programs and to learn how to use a variety of spreadsheet tools and techniques to enhance their overall analytical skill set.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6211",
+    "title": "Financial Risk Management",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "16553" },
+      { "term": "202310", "crn": "16554" },
+      { "term": "202310", "crn": "16697" }
+    ],
+    "description": "Provides an overview of all of the hedging markets and hedging instruments. Explores specific hedging use of options, forwards, futures, swaps, and options on futures. Focuses on advanced financial risk management of interest rates, currency rates, equity returns, and fixed income returns. Students use readings and case problems to study when and how to use hedging instruments to alter a portfolio&amp;#8217;s risk exposure.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6212",
+    "title": "Fixed Income Securities and Risk",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13515" }],
+    "description": "Exposes students to theory, applications, and evidence concerning highly sensitive interest rate products. Discusses recent developments in pension fund management, asset/liability management, duration matching, &amp;#8220;gap&amp;#8221; management, concurrent interest rate and exchange rate management, and other important issues now confronting domestic and international financial and corporate management. Studies how to customize a risk management program.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6213",
+    "title": "Investment Banking",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13503" },
+      { "term": "202310", "crn": "11164" }
+    ],
+    "description": "Discusses policy, strategy, and administration of financial services firms. Topics include issuance of securities, the service function within financial services, pricing a negotiated issue of common stock or competitive bid issue, and meeting capital requirements of a securities firm.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6214",
+    "title": "Mergers and Acquisitions",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11282" },
+      { "term": "202310", "crn": "13567" },
+      { "term": "202310", "crn": "13504" },
+      { "term": "202310", "crn": "20235" },
+      { "term": "202240", "crn": "40297" },
+      { "term": "202240", "crn": "41776" }
+    ],
+    "description": "Explores the environments that have recently given rise to a large number of corporate mergers and the business factors underlying these corporate combinations. Examines the financial, managerial, accounting, and legal factors affecting mergers. Focuses on three aspects of the merger and acquisition process: the strategic decision to acquire, the valuation decision of how much to pay, and the financing decision on how to fund the acquisition.",
+    "coreqs": [],
+    "prereqs": ["Or", "Or", "Or", "Or", "(", "And", ")"]
+  },
+  {
+    "subject": "FINA",
+    "number": "6215",
+    "title": "Business Turnarounds",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11284" },
+      { "term": "202260", "crn": "61311" }
+    ],
+    "description": "Concentrates on the diagnosis, prescription, and implementation of actions pertinent to business turnarounds, troubled companies, workouts, bankruptcies, and liquidations. Case studies and readings guide the student through the maze of financial, ethical, legal, general business, and strategic aspects of turnarounds, culminating in the student evaluating and developing a turnaround plan.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6216",
+    "title": "Valuation and Value Creation",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19834" },
+      { "term": "202240", "crn": "41045" }
+    ],
+    "description": "Focuses on cash-flow oriented models of the valuation of the firm. Topics include enterprise value, free cash flow, economic value added, and risk/reward analysis. Explores recent developments in financial management and financial analysis through the use of modern finance theory to make capital allocation decisions that lead to long-run value maximization for the corporation. Focuses on applications and financial model building, risk analysis for valuation applications, and business strategies to measure and manage corporate value and value creation. Topics are relevant to value consultants, corporate managers, and securities analysts.",
+    "coreqs": [],
+    "prereqs": ["Or", "Or", "Or", "Or", "(", "And", ")"]
+  },
+  {
+    "subject": "FINA",
+    "number": "6217",
+    "title": "Real Estate Finance and Investment",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202260", "crn": "60562" },
+      { "term": "202260", "crn": "61400" }
+    ],
+    "description": "Provides students with a comprehensive understanding of real estate finance. Emphasizes factors affecting real estate investment. Topics include valuation (appraisal), market analysis, development, taxation, ownership types, short-term financing, mortgage markets, and investment strategies. Designed for students interested in a general overview of real estate finance, as well as those intending to pursue a career in the real-estate field.",
+    "coreqs": [],
+    "prereqs": ["Or", "Or", "Or", "(", "And", ")", "Or"]
+  },
+  {
+    "subject": "FINA",
+    "number": "6219",
+    "title": "Portfolio Management",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19857" },
+      { "term": "202260", "crn": "60241" }
+    ],
+    "description": "Develops portfolio construction, revision, and performance measurement. Highlights portfolio construction in an efficient capital market. Topics include risk-return analysis, the effects of diversification on risk reduction, and the costs of inflation, taxes, and transaction costs on fixed income and equity security portfolios. Examines financial models of capital asset pricing as the basis for the analysis of portfolios from the institutional investor&amp;#8217;s viewpoint.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6292",
+    "title": "Advanced Topics in Finance",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "61312" }],
+    "description": "Examines current, specialized, and advanced topics in the areas of corporate finance, investments, risk management, valuation, private equity, venture capital, and other areas as appropriate. Course content, pedagogy, and prerequisites vary by topic and instructor.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6318",
+    "title": "Financial Management",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13695" },
+      { "term": "202310", "crn": "13696" },
+      { "term": "202240", "crn": "41100" },
+      { "term": "202240", "crn": "41448" }
+    ],
+    "description": "Introduces time value of money calculations and applications. Building upon a basis in accounting, offers students an opportunity to learn how to extract relevant information from the accounting statements for use in financial calculations and ratio analysis. Also examines capital planning, including determining relevant cash flows, calculating decision measures, and making the correct decisions.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6331",
+    "title": "Corporate Finance",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14231" },
+      { "term": "202310", "crn": "14232" },
+      { "term": "202310", "crn": "18221" },
+      { "term": "202310", "crn": "19317" }
+    ],
+    "description": "Introduces the basic framework of corporate finance and financial decision making. Topics include capital budgeting; capital investment decisions; complex valuations; security issues; dividend policy; static and dynamic capital structure; real option analysis; restructuring; bankruptcy; corporate control and governance; and the legal, ethical, and regulatory environment of financial management.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6332",
+    "title": "Fundamentals of Financial Math and Financial Markets",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14233" },
+      { "term": "202310", "crn": "14234" },
+      { "term": "202310", "crn": "18222" },
+      { "term": "202310", "crn": "19318" }
+    ],
+    "description": "Introduces the essential fundamental mathematics needed for the study of modern finance: probability, stochastic processes, statistics, and regression analysis. Also focuses on theory and empirical evidence useful for investment decisions. Topics include financial risk factors, financial models, financial markets and equilibrium models of security prices, market efficiency, and the empirical behavior of security prices.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6336",
+    "title": "Fixed-Income Securities and Derivatives",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19733" },
+      { "term": "202240", "crn": "41696" }
+    ],
+    "description": "Exposes students to theory, applications, and evidence concerning highly sensitive interest-rate products. Designed for students seeking to develop understanding of fixed-income valuation and hedging methods and familiarity with major markets and instruments. Emphasizes tools for quantifying, edging, and speculations. Topics include duration; convexity; approaches to modeling the yield curve; interest-rate forward; futures, swaps, and options; credit risk and credit derivative; mortgages; and securitization.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6337",
+    "title": "Computational Methods in Finance",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19841" },
+      { "term": "202240", "crn": "41697" }
+    ],
+    "description": "Studies various computational methods in finance. Analyzes market data and build trading strategies. Uses interpolation, solver, and optimization methods to calibrate discount curve and volatility surfaces to market prices. Analyzes market data and applies dimension-reduction techniques such as principal component analysis (PCA). Applies time-series analysis and PCA to implement and back test trading strategies.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6338",
+    "title": "Alternative Investments",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19839" }],
+    "description": "Emphasizes assets and portfolios that fall into the category of alternative investments, which includes nontraditional assets&mdash;such as structured products and other types of derivatives&mdash;and managed portfolios&mdash;such as private equity, venture capital, and hedge funds. Offers students an opportunity to obtain a fundamental understanding of the securities and products that are traded in this space. Focuses on in-depth analyses of case studies, outside speakers, focused discussions, quantitative analyses, and current developments in the industry.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6340",
+    "title": "Financial Markets and Banking in the Postcrisis Era",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19858" },
+      { "term": "202260", "crn": "60613" }
+    ],
+    "description": "Examines the history and evolution of the ways banking has changed following the 2008 financial crisis. Changes impacting the banking industry include major changes in the regulatory environment, changes in market liquidity, negative interest rates, shifts in Fed monetary policy, LIBOR transition, and technological innovation (blockchain, digital currency, automation, and artificial intelligence). Analyzes the history and evolution of these changes and the impact on the financial services industry, with a specific focus on the banking sector. Discusses the management of various banking functions (risk management, governance, profitability, liquidity management, auditing, and regulation) in today&rsquo;s regulatory and market environment as well as the evolution of payment systems and the expected impact of technological advancements, such as blockchain and artificial intelligence, on the industry.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6360",
+    "title": "Fund Management for Analysts",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11285" }],
+    "description": "Introduces a variety of operating documents typical to an active mutual fund. Offers students an opportunity to apply lessons from investment and portfolio management classes by presenting investment recommendations to a panel and communicating with peers in a thoughtful and forceful manner. Investment decisions are made based on student analysis and recommendations that include knowledge of macroeconomic expectations, corporate financing issues, dept-repayment concerns, and employee and technological changes. May be repeated up to three times.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "FINA",
+    "number": "6361",
+    "title": "Fund Management for Managers",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11289" }],
+    "description": "Builds on FINA 6360. Designed to provide students further analytical knowledge, including exposure to and opportunity to perform managerial tasks related to the management and operation of mutual funds. Included in these tasks are reconsideration of the fund&amp;#8217;s investment policy statement and asset allocation plan as well as preparation of accounting statements, dealing with compliance issues, addressing ethical concerns, measuring and managing risk, and performing marketing and fund-raising activities. May be repeated up to three times.",
+    "coreqs": [],
+    "prereqs": ["And"]
+  }
+]

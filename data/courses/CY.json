@@ -1,0 +1,278 @@
+[
+  {
+    "subject": "CY",
+    "number": "2550",
+    "title": "Foundations of Cybersecurity",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14535" },
+      { "term": "202310", "crn": "16024" },
+      { "term": "202310", "crn": "16025" },
+      { "term": "202310", "crn": "19212" },
+      { "term": "202310", "crn": "19832" },
+      { "term": "202310", "crn": "20702" },
+      { "term": "202260", "crn": "61392" },
+      { "term": "202240", "crn": "41720" }
+    ],
+    "description": "Presents an overview of basic principles and security concepts related to information systems, including workstation security, system security, and communications security. Discusses legal, ethical, and human factors and professional issues associated with cybersecurity, including the ability to differentiate between laws and ethics. Offers students an opportunity to use a substantial variety of existing software tools to probe both computer systems and networks in order to learn how these systems function, how data moves within these systems, and how these systems might be vulnerable. Covers security methods, controls, procedures, economics of cybercrime, criminal procedure, and forensics.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CY",
+    "number": "3740",
+    "title": "Systems Security",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14006" }],
+    "description": "Introduces the fundamental principles of designing and implementing secure programs and systems. Presents and analyzes prevalent classes of attacks against systems. Discusses techniques for identifying the presence of vulnerabilities in system design and implementation, preventing the introduction of or successful completion of attacks, limiting the damage incurred by attacks, and strategies for recovering from system compromises. Offers opportunities for hands-on practice of real-world attack and defense in several domains, including systems administration, the Web, and mobile devices. Presents the ethical considerations of security research and practice.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CY",
+    "number": "4740",
+    "title": "Network Security",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14007" }],
+    "description": "Studies topics related to Internet architecture and cryptographic schemes in the context of security. Provides advanced coverage of the major Internet protocols including IP and DNS. Examines denial of service, viruses, and worms, and discusses techniques for protection. Covers cryptographic paradigms and algorithms such as RSA and Diffie-Hellman in sufficient mathematical detail. The advanced topics address the design and implementation of authentication protocols and existing standardized security protocols. Explores the security of commonly used applications like the Web and e-mail.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "3700" },
+      "Or",
+      { "subject": "CS", "number": "4700" },
+      "Or",
+      { "subject": "CS", "number": "5700" }
+    ]
+  },
+  {
+    "subject": "CY",
+    "number": "5001",
+    "title": "Cyberspace Technology and Applications",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15741" }],
+    "description": "Seeks to provide a systematic understanding of cyberspace technology and applications deployed in the global digital infrastructure. Covers topics in computer networks, server architectures, operating systems, and scripting. All the techniques and tools included in the course are oriented to serve as instruments of security administrators and cybersecurity professionals. Uses practical hands-on labs running on virtual machines and containers hosted in the cloud computing environment to train students. For that reason, a practical overview of virtualization technologies, containerization, and cloud computing models is provided.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CY",
+    "number": "5010",
+    "title": "Foundations of Information Assurance",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15064" },
+      { "term": "202310", "crn": "19812" },
+      { "term": "202310", "crn": "20154" }
+    ],
+    "description": "Presents an overview of basic principles and security concepts related to information systems, including operating system security, communications and network security, and software security. Introduces information security via concepts of confidentiality, integrity, and availability. Discusses ethical, legal, and privacy ramifications while reviewing various laws such as the Patriot Act, GLBA, and Global Data Privacy regulation. Covers security methods, controls, procedures, economics of cybercrime, criminal procedure, and forensics. Describes the use of cryptography as a tool, software development processes, and protection.Seeks to build a common cross-disciplinary understanding in the foundations of information assurance and cybersecurity.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CY",
+    "number": "5061",
+    "title": "Cloud Security",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "61366" }],
+    "description": "Introduces the fundamentals of cloud computing while segueing into understanding its various security challenges, threat models, and data privacy issues in regard to compliance and legal decisions. Examines the strategies to implement security controls, perform risk assessments, handle incident detection and response, while emphasizing maintaining a business-minded security life cycle for cloud-based environments.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CY",
+    "number": "5130",
+    "title": "Computer System Security",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13988" }],
+    "description": "Offers a practical overview of enterprise computer security, operating systems security, and related topics. Applies concepts such as authentication, access control, integrity, and audit to the modern operating system. Discusses and demonstrates system, process, memory, and file system-level defenses&mdash;and the attacks against them. Also discusses topics in data security and virtualization. Uses hands-on labs to reinforce skills and provide practical experience.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CY",
+    "number": "5150",
+    "title": "Network Security Practices",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20155" }],
+    "description": "Explores issues involved in the security of computer networks. Topics include firewalls, viruses, virtual private networks, Internet security, and wireless security. Includes case studies and laboratory exercises. Restricted to students in the College of Computer and Information Science or by permission of instructor.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CY",
+    "number": "5200",
+    "title": "Security Risk Management and Assessment",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15066" }],
+    "description": "Creates the opportunity for competency in the development of information security policies and plans including controls for physical, software, and networks. Discusses different malicious attacks, such as viruses and Trojan horses, detection strategies, countermeasures, damage assessment, and control. Covers information system risk analysis and management, audits, and log files. Uses case studies, site visits, and works with commercial products.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CY",
+    "number": "5210",
+    "title": "Information System Forensics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20156" }],
+    "description": "Designed to allow students to explore the techniques used in computer forensic examinations. Examines computer hardware, physical and logical disk structure, and computer forensic techniques. Conducts hands-on experiences on DOS, Windows operating systems, Macintosh, Novell, and Unix/Linux platforms. Builds on basic computer skills and affords hands-on experience with the tools and techniques to investigate, seize, and analyze computer-based evidence using a variety of specialized forensic software in an IBM-PC environment.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CY",
+    "number": "5250",
+    "title": "Decision Making for Critical Infrastructure",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20157" }],
+    "description": "Focuses on the art and science of security program management leadership in the context of critical infrastructure protection programs. Includes selected readings, review of decision-making models in crisis, lectures and insights from accomplished leaders in infrastructure protection, and examination of the students&rsquo; own unique background and experiences. Trains students on the interaction of vulnerabilities, threats, and countermeasures and how to apply this knowledge to the protection of critical infrastructure using research and analysis of national and global strategies, historical and current legislation, and policies. Also seeks to give students a working knowledge of federal, state, and private-sector critical infrastructure protection resources and programs.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CY",
+    "number": "5770",
+    "title": "Software Vulnerabilities and Security",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14532" }],
+    "description": "Seeks to help students to become aware of systems security issues and to gain a basic understanding of security. Presents the principal software and applications used in the Internet, discussing in detail the related vulnerabilities and how they are exploited. Also discusses programming vulnerabilities and how they are exploited. Examines protection and detection techniques. Includes a number of practical lab assignments as well as a discussion of current research in the field.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CY",
+    "number": "5984",
+    "title": "Research",
+    "scheduleType": "Individual Instruction",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "61648" }],
+    "description": "Offers an opportunity to conduct research under faculty supervision. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CY",
+    "number": "6740",
+    "title": "Network Security",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19213" }],
+    "description": "Studies the theory and practice of computer security, focusing on the security aspects of multiuser systems and the Internet. Introduces cryptographic tools, such as encryption, key exchange, hashing, and digital signatures in terms of their applicability to maintaining network security. Discusses security protocols for mobile networks. Topics include firewalls, viruses, Trojan horses, password security, biometrics, VPNs, and Internet protocols such as SSL, IPSec, PGP, SNMP, and others.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CY",
+    "number": "7790",
+    "title": "Special Topics in Security and Privacy",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19214" }],
+    "description": "Offers various topics in security and privacy. May be repeated for up to 8 total credits.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CY",
+    "number": "7900",
+    "title": "Capstone Project",
+    "scheduleType": "Individual Instruction",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15067" },
+      { "term": "202310", "crn": "20217" }
+    ],
+    "description": "Draws together candidates from diverse backgrounds (technical, legal, and/or law enforcement) in a collaborative activity to address one or more security issues from an integrated perspective. Requires a project proposal, generally industrially oriented, to be submitted and accepted prior to the semester in which the project is to be undertaken.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CY",
+    "number": "8982",
+    "title": "Readings",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "17636" },
+      { "term": "202310", "crn": "17947" },
+      { "term": "202310", "crn": "18493" },
+      { "term": "202310", "crn": "20471" },
+      { "term": "202310", "crn": "20595" },
+      { "term": "202310", "crn": "20596" },
+      { "term": "202310", "crn": "20597" },
+      { "term": "202310", "crn": "20598" },
+      { "term": "202260", "crn": "61652" }
+    ],
+    "description": "Offers selected readings under the supervision of a faculty member. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CY",
+    "number": "9990",
+    "title": "Dissertation Term 1",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18302" }],
+    "description": "Offers selected work with the agreement of a thesis supervisor.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CY",
+    "number": "9991",
+    "title": "Dissertation Term 2",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "17998" }],
+    "description": "Offers dissertation supervision by members of the department.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CY", "number": "9990" }]
+  },
+  {
+    "subject": "CY",
+    "number": "9996",
+    "title": "Dissertation Continuation",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "17215" },
+      { "term": "202310", "crn": "18411" },
+      { "term": "202310", "crn": "18445" }
+    ],
+    "description": "Continues work with the agreement of a thesis supervisor.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

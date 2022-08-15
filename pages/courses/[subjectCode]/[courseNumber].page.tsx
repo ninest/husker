@@ -17,7 +17,7 @@ import Markdoc from "@markdoc/markdoc";
 import { GetStaticPaths, GetStaticProps } from "next";
 import { NextSeo } from "next-seo";
 import React from "react";
-import subjects from "../../../.raw/subjects.json";
+import subjects from "../../../data/subjects.json";
 
 interface Path {
   params: {
@@ -31,7 +31,7 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
 
   for await (const subject of subjects) {
     try {
-      const courses: Course[] = JSON.parse(readFile(`../.raw/courses/${subject.code}.json`));
+      const courses: Course[] = JSON.parse(readFile(`../data/courses/${subject.code}.json`));
 
       courses.forEach((course) =>
         paths.push({
@@ -54,7 +54,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const { subjectCode, courseNumber } = params! as Path["params"];
 
   const subject = subjects.find((subject) => subject.code === subjectCode);
-  const courses: Course[] = JSON.parse(readFile(`../.raw/courses/${subjectCode}.json`));
+  const courses: Course[] = JSON.parse(readFile(`../data/courses/${subjectCode}.json`));
   const course = courses.find((c) => c.number === courseNumber);
 
   /* Markdoc page */

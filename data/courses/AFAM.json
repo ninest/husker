@@ -1,0 +1,82 @@
+[
+  {
+    "subject": "AFAM",
+    "number": "1101",
+    "title": "Introduction to African American and Africana Studies",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD"],
+    "sections": [{ "term": "202310", "crn": "11473" }],
+    "description": "Explores the broad interdisciplinary spectrum of African American and Africana studies. Provides an introductory overview of the field and offers an opportunity to identify areas for more specific focus.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "AFAM",
+    "number": "1104",
+    "title": "The African-American Experience through Music",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC"],
+    "sections": [{ "term": "202310", "crn": "10938" }],
+    "description": "Explores the various musical traditions of African Americans, with a specific focus on the United States. Examines the impact of African, European, and Native American traditions on African-American music as well as the role of music as an expression of African-American aesthetics, traditions, and life. Considers historical and contemporary forms of African-American music, with selected video presentations. Not open to students who have taken MUSC 1104.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "AFAM",
+    "number": "1225",
+    "title": "Gender, Race, and Medicine",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD"],
+    "sections": [{ "term": "202310", "crn": "19055" }],
+    "description": "Examines the basic tenets of &amp;#8220;scientific objectivity&amp;#8221; and foundational scientific ideas about race, sex, and gender and what these have meant for marginalized groups in society, particularly when they seek medical care. Introduces feminist science theories ranging from linguistic metaphors of the immune system, to the medicalization of race, to critiques of the sexual binary. Emphasizes contemporary as well as historical moments to trace the evolution of &amp;#8220;scientific truth&amp;#8221; and its impact on the U.S. cultural landscape. Offers students an opportunity to develop the skills to critically question what they &amp;#8220;know&amp;#8221; about science and the scientific process and revisit their disciplinary training as a site for critical analysis. AFAM 1225, HIST 1225, and WMNS 1225 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "AFAM",
+    "number": "2296",
+    "title": "Early African-American Literature",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [{ "term": "202310", "crn": "19056" }],
+    "description": "Surveys the development and range of black American writers, emphasizing poetry and prose from early colonial times to the Civil War. ENGL 2296 and AFM 2296 are cross-listed.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
+  },
+  {
+    "subject": "AFAM",
+    "number": "2355",
+    "title": "Race, Identity, Social Change, and Empowerment",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD"],
+    "sections": [{ "term": "202310", "crn": "16452" }],
+    "description": "Examines racism, racial identity, and theories of social change and racial empowerment primarily within the U.S. context. Highlights different ways in which racism and racial privilege have been experienced by different racial communities, more specifically at the micro-, meso-, and macro-levels. Offers students an opportunity to learn ways to promote racial empowerment and equity. Using theory from primarily psychology and sociology, the course investigates the impact of social systems and institutions on individual-level and group experiences of racism. Investigates students&rsquo; own racial identities, a deeper understanding of institutional inequalities and intersectionality, and practical skills in leadership and community building that can promote positive social change and racial equality.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "AFAM",
+    "number": "3404",
+    "title": "African American Rhetorical Traditions",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [{ "term": "202310", "crn": "19058" }],
+    "description": "Examines and organizes the ways that African Americans have historically maintained their humanity and negotiated freedom through discourse. Explores various discursive practices of African American discourse communities&mdash;such as the enslaved, abolitionists, feminists, nationalist/revolutionaries, and entertainers&mdash;to engage discussions about freedom, access to democracy, racial uplift, gender equity, and the discursive and recursive nature of racial identity. Studies historical contexts and current sociopolitical dynamics emphasizing the Black Jeremiad, civil rights rhetoric, the Black Power Movement, Black Feminist Thought, and Hip-Hop.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "ENGW", "number": "1111" }]
+  }
+]

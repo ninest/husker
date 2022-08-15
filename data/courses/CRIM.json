@@ -1,0 +1,599 @@
+[
+  {
+    "subject": "CRIM",
+    "number": "1000",
+    "title": "Criminal Justice at Northeastern",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10498" }],
+    "description": "Designed to help students adjust to college life and become fully acquainted with the resources and services offered by the University. Covers various campus services, studies how to access various library resources, and focuses on study skills and time management. Also explores various careers for which the criminal justice major can prepare students.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "1100",
+    "title": "Introduction to Criminal Justice",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [
+      { "term": "202310", "crn": "11109" },
+      { "term": "202310", "crn": "16726" },
+      { "term": "202310", "crn": "20276" },
+      { "term": "202310", "crn": "21044" },
+      { "term": "202310", "crn": "20506" }
+    ],
+    "description": "Surveys the contemporary criminal justice system in the United States. Examines the phases of the criminal justice system beginning with the detection of crimes by the police; the handling of the case through the courts; and, finally, disposition and sentencing. Analyzes issues and characteristics of each of the phases of the criminal justice system (police, courts, and corrections) and identifies its key actors (for example, police, judges, prosecutors, correctional officers). Traces the role of systemic racism and intersecting dimensions of oppression in the historical development of and current policies and practices in the criminal justice system. Also introduces students to the U.S. juvenile justice system.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "1110",
+    "title": "Criminal Due Process",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [
+      { "term": "202310", "crn": "16038" },
+      { "term": "202310", "crn": "16039" },
+      { "term": "202240", "crn": "41379" },
+      { "term": "202240", "crn": "41938" }
+    ],
+    "description": "Focuses on a historical evaluation of the Fourteenth Amendment of the U.S. Constitution and its use in making rights prescribed under the Bill of Rights applicable to the individual states. Examines constitutional requirements in the administration of criminal justice with a particular emphasis on the Fourth, Fifth, and Sixth Amendment requirements and their implications for police practices in the areas of arrests, searches and seizures, right to counsel, and eyewitness identification. Through discussions of recent criminal cases, exposes students to the role that bias plays in wrongful convictions. Expects students to be familiar with basic concepts and legal language as well as the courts&#39; changing interpretations of the law. Briefing of cases is required.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "1120",
+    "title": "Criminology",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [
+      { "term": "202310", "crn": "16040" },
+      { "term": "202310", "crn": "16882" },
+      { "term": "202260", "crn": "61228" }
+    ],
+    "description": "Describes the nature and extent of crime, explains its causes, and examines society&rsquo;s responses to it. Defines the field of criminology by discussing the different types of crime and discusses different theories of crime causation. Studies the connections between systemic racism, inequalities, and crime and the role of bias in the development of the field and criminological theories. To establish the extent of crime in society, addresses measurement issues in the field of criminology.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "1400",
+    "title": "Human Trafficking",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC", "SI"],
+    "sections": [{ "term": "202310", "crn": "18996" }],
+    "description": "Offers an overview of human trafficking in its various forms. Emphasizes understanding the experiences and needs of trafficking victims and the methods of operations of traffickers and their networks across various cultural contexts. The trafficking of persons for sex or labor through force, fraud, or coercion has become an increasingly serious problem in modern society. Federal, state, and local criminal justice authorities have been tasked with the responsibility of identifying and rescuing trafficking victims and prosecuting their perpetrators. Offers students an opportunity to critically evaluate the social and cultural practices that give rise to and support human trafficking in the United States and around the globe.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "1500",
+    "title": "Corruption, Integrity, and Accountability",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "SI"],
+    "sections": [{ "term": "202310", "crn": "14694" }],
+    "description": "Traces the history, nature, and current effects of corruption using concrete cases and illustrations. Covers international and national laws and standards against corruption (with special emphasis on the U.N. Convention against Corruption and the Foreign Corrupt Practices Act). Discusses efforts to measure corruption, governance, and anticorruption efforts. Focuses on the role of stakeholders from private sector to government, civil society, and individual actors. Corruption affects every aspect of our life and its quality. From bribery and illicit enrichment to obstruction of justice, from abuse of power to clientelism and favoritism, corrupt acts touch global, national, and local communities. Illustrates how fundamental are the values and practice of integrity, responsibility, and accountability.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "2310",
+    "title": "Courts: The Third Branch of Government",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EX"],
+    "sections": [{ "term": "202310", "crn": "16883" }],
+    "description": "Studies the third branch of government&mdash;the judiciary: how courts work, how they are structured, what they do, and how they do it. Examines the theoretical underpinnings of our three-branch system of government; explores the U.S. and Massachusetts constitutions; and discusses the concepts of separation of powers and of judicial review. Students visit a number of state and federal courts to observe and interact with court leaders. Explores the interplay of the judiciary with the legislative and executive branches, as well as with external entities such as business and the media. Examines the role of the courts as a critically important component of a democratic society.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "2330",
+    "title": "Punishment in the Age of Mass Incarceration",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "41380" }],
+    "description": "Examines the concept of punishment and its form, function(s), and enforcement throughout history, with an emphasis on current sentencing policies and procedures and their impact on the corrections system and correctional overcrowding. Explores the operation, structure, clientele, and issues confronting the institutions, agencies, and programs encompassing the corrections system including jails, prisons, and community-based corrections.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "2350",
+    "title": "Policing a Democratic Society",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16866" }],
+    "description": "Traces the history, evolution, and organization of the police in the United States. Examines the role of police in society, structure and culture of police organizations, function and activities of the police, and police deviance and accountability. The course objectives are to acquaint students with prior research on the police, examine critically the police as a component of the criminal justice system, explore the complex nature of the profession, and assist those who are considering a policing career to understand the realities of the job.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "2370",
+    "title": "Restorative Justice: Transforming the System",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EX"],
+    "sections": [{ "term": "202310", "crn": "18997" }],
+    "description": "Explores the roots of restorative justice and locates contemporary examples of its application in various settings in the United States and the world. Examines its utility in addressing the mass incarceration crisis and the current penal system and mode of punishment in the United States. Students practice and apply critical race and systems theories to use a systems lens to examine the impact of racism, sexism, gender discrimination, and other systems of oppression on behavior and the justice system.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "3000",
+    "title": "Co-op Integration Seminar 2",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10165" }],
+    "description": "Continues CRIM 2000. Allows students to reflect on what they learned during their first co-op, and use their journal entries as the basis from which to examine real-life issues of ethics, values, and diversity as they experienced them in the workplace.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CRIM", "number": "2000" },
+      "Or",
+      { "subject": "EESH", "number": "2000" }
+    ]
+  },
+  {
+    "subject": "CRIM",
+    "number": "3010",
+    "title": "Criminal Violence",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18998" }],
+    "description": "Surveys the trends, nature, patterns, and causes of criminal violence. Blending sociological and psychological perspectives on violent criminal behavior, focuses on serial and mass murder, sexual predators, youth and school violence, violence among intimates and family members, as well as the impact of media and entertainment violence. The effectiveness of various criminal justice responses are also examined including intervention strategies, police tactics, gun control, incarceration, and capital punishment.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "3030",
+    "title": "Global Criminology",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC", "SI"],
+    "sections": [{ "term": "202310", "crn": "16041" }],
+    "description": "Seeks to strengthen an understanding of crime and its causes from a comparative, cross-national standpoint. In doing so, it places extant definitions of crime and deviance in a cultural context. Explores existing methods of studying crime on a global scale; offers an overview of various types of criminal and deviant behavior that occur in isolated group contexts as well as those crimes that transcend country boundaries. Examines various strategies designed to address these acts of crime on a national as well as transnational level.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "3040",
+    "title": "Psychology of Crime",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11517" },
+      { "term": "202310", "crn": "15318" },
+      { "term": "202260", "crn": "61229" },
+      { "term": "202260", "crn": "61430" }
+    ],
+    "description": "Explores the inner lives of offenders including cognitive, emotional, perceptual, and physiological phenomena. Examines the ecological context of crime, individual and social risk factors for psychological attributes related to offending, how these attributes develop, how they interact with the environment to produce crime, and, most importantly, how knowledge of the psychology of crime can assist in efforts to prevent delinquency or to help offenders desist.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "3110",
+    "title": "Gender, Crime, and Justice",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "18999" },
+      { "term": "202260", "crn": "61230" }
+    ],
+    "description": "Examines the topics of femininities and masculinities and their influence on participants in the criminal justice system. Also explores topics such as gender and criminological theory; the notion of gender and offending; women and men as victims of violence; and women and men as professionals within the criminal justice system.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "3120",
+    "title": "Race, Crime, and Justice",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD"],
+    "sections": [
+      { "term": "202310", "crn": "16042" },
+      { "term": "202310", "crn": "20498" }
+    ],
+    "description": "Provides students with an overview of the role and treatment of racial/ethnic minorities in the criminal justice system. Covers historical and theoretical frameworks for understanding the relationship between race, crime, and criminal justice. In so doing, students become familiar with trends and patterns in criminal offending by racial/ethnic minorities, as well as system response to such behavior.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "3600",
+    "title": "Criminal Justice Research Methods",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD", "WI"],
+    "sections": [{ "term": "202310", "crn": "14243" }],
+    "description": "Introduces the basic concepts involved in conducting research in the areas of the criminal justice system and criminology. Through lectures, group discussions, and readings, familiarizes students with the scientific methods that are necessary for systematic analysis of crime trends, offender behavior, program effectiveness, and public attitudes about crime and justice. Critiques the historical role of racism and other biases in the development and implementation of research questions and methods. Offers students an opportunity to become capable of developing a research question, investigating and critiquing how it has been researched, developing a research design, and administering its implementation.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "3700",
+    "title": "Analyzing and Using Data on Crime and Justice",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD"],
+    "sections": [{ "term": "202310", "crn": "10546" }],
+    "description": "Offers a foundation in different statistical techniques that may be utilized to answer research questions in the social sciences. Examines a range of computational social science techniques across data platforms to address crime and criminal justice system problems. Emphasizes existing databases that may inform questions about crime and criminal justice. Also introduces students to different ways to display or visualize quantitative data. Offers students an opportunity to learn how to produce and consume quantitative information.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "4000",
+    "title": "Co-op Integration Seminar 3",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10545" }],
+    "description": "Continues CRIM 3000. Builds upon what students learned in CRIM 3600 and focuses on experiences and research journals from the second co-op. Students discuss their research activities and findings, and begin to do some critical thinking about the nature of organizations. The discussion in this seminar also prepares them for the third co-op experience, in which they keep journals on some other aspect of organizational culture or dynamics. The seminar is pass/fail.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CRIM", "number": "3000" }]
+  },
+  {
+    "subject": "CRIM",
+    "number": "4040",
+    "title": "Crime Prevention",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [{ "term": "202310", "crn": "14696" }],
+    "description": "Offers an overview of issues related to crime prevention, both from criminological and criminal justice points of view. Examines crime prevention programs that encompass both the individual and community levels, as well as the integration of such levels. Offers students an opportunity to learn current theories of and leading research on the main approaches to preventing crime, including developmental, situational, and community prevention. Focuses on assessing effectiveness of prevention programs and policies.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "4120",
+    "title": "Courts and Sentencing",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14697" }],
+    "description": "Examines the role of criminal courts in the United States, the structure and organization of the court system, and the flow of cases from arrest to conviction. Focuses on the key actors in the courtroom-prosecutors, defense attorneys, judges, and court clerks-and the decision-making processes in charging a person with a crime, setting bail, pleading guilty, going to trial, and sentencing. Addresses prospects for reforming courts.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "4949",
+    "title": "Senior Capstone Seminar",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["CE", "WI"],
+    "sections": [{ "term": "202310", "crn": "11110" }],
+    "description": "Emphasizes study of organizations and organizational change, with focus on the organizations that comprise the criminal justice system and the environmental contexts in which they operate. Various theories of the structure and processes of organizations and the behavior of groups and individuals within organizations are examined to familiarize students with the different perspectives from which organizations can be studied (the bureaucratic model, the &amp;#8220;principles of management&amp;#8221; orientation, the human-relations approach, the human-resources approach, and systems theory). Also focuses on understanding change within organizations including a study of principles of organizational change and various approaches to planned change.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "4994",
+    "title": "Internship",
+    "scheduleType": "Individual Instruction",
+    "credits": 4,
+    "nuPath": ["EX"],
+    "sections": [
+      { "term": "202310", "crn": "13385" },
+      { "term": "202260", "crn": "60555" },
+      { "term": "202240", "crn": "40574" }
+    ],
+    "description": "Offers students an opportunity for internship work. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "5264",
+    "title": "Immigration and Crime",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16044" }],
+    "description": "Focuses on crime and deviance (or lack thereof) among immigrant populations in the United States. Offers students an opportunity to develop an understanding of the historical relationship between patterns of immigration and patterns of crime, to examine the nature and extent of contemporary immigrant crime and victimization, and to assess the social and health consequences associated with crime among immigrant populations and within immigrant communities.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "5270",
+    "title": "Crime Mapping",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19000" }],
+    "description": "Offers students an opportunity to obtain an understanding of how crime mapping is used by law enforcement agencies. Designed as a practical and hands-on introduction to various crime mapping techniques. Employs a holistic approach to learning how to create and interpret maps, which seeks to provide a much deeper understanding of crime mapping and leave students with a solid foundation of skills that are transferable and scalable.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "5601",
+    "title": "Financial Crimes",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19001" }],
+    "description": "Offers an in-depth review of the extent, nature, causes, and control of the problem of financial crimes. Through readings, group discussion, and research assignments, familiarizes students with financial crimes such as terrorism financing, money laundering, fraud, corruption, and banking scandals. Examines the nature and extent of offenses committed by corporations, professionals, and public officials in the course of their occupations. Investigates the social, economic, and physical costs of such misconduct. Proposes challenges, techniques, and approaches to effective prevention, detection, investigation, regulation, and sanctioning of financial crimes.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "5900",
+    "title": "ST: Victimology",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14698" },
+      { "term": "202240", "crn": "40949" }
+    ],
+    "description": "Offers an intensive study of a topic related to criminal justice selected by the instructor. May be repeated up to four times.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "6200",
+    "title": "Criminology",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "16665" },
+      { "term": "202310", "crn": "16686" }
+    ],
+    "description": "Offers an overview of the current understanding of the causes of crime from an interdisciplinary perspective. Focuses on the historical and contemporary theories of crime and causation. Examines the connections between systemic racism, inequalities, and crime and the role of bias in the development of the field and criminological theories. Emphasizes integrating criminological theory and research, assessing the implications of this knowledge base for policies relating to crime control and prevention. Presents and discusses the most current data regarding the nature and extent of crime in the United States.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "6202",
+    "title": "The Criminal Justice Process",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "16728" },
+      { "term": "202310", "crn": "16666" }
+    ],
+    "description": "Offers an overview of the criminal justice process and the important issues confronting the administration of justice, grounding these challenges in empirical research. Focuses on theories that explain the functioning of the justice system and predict its outcomes. Identifies changes in institutional responses to crime and justice issues over time and across cultural contexts. Traces the role of systemic racism and intersecting dimensions of oppression in the historical development of and current policies and practices in the criminal justice system.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "6504",
+    "title": "Policing in U.S. Communities",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20270" }],
+    "description": "Studies the historical and contemporary issues regarding the purpose and function of police in U.S. communities. Focuses on understanding variation in crime-control strategies across ecological settings, which complicates police leaders&#39; efforts to reach balance between appropriately responding to citizen calls for service and proactive policing. Highlights effective policing efforts, which routinely involve bringing officers and community residents together in the hope of solving problems. Critically assesses the role of systemic racism and contemporary police practices that impact police-community relationships.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "6964",
+    "title": "Co-op Work Experience",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13655" },
+      { "term": "202310", "crn": "17956" },
+      { "term": "202260", "crn": "61101" }
+    ],
+    "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit.",
+    "coreqs": [{ "subject": "INSH", "number": "6864" }],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "7001",
+    "title": "PhD Pro-Seminar in Criminology and Justice Policy 1",
+    "scheduleType": "Seminar",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16898" }],
+    "description": "Introduces first-year PhD students to the research of the School of Criminology and Criminal Justice&#39;s faculty. Offers students an opportunity to practice the key components of, and tools for, scholarly production, including formulating research questions and theses, conducting literature reviews and using databases, using citation software; time management and organizational strategies; and writing and presenting scholarship in the field, such as journal articles, conference presentations, and other scholarly outlets.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "7203",
+    "title": "Theories of Criminal Justice Process",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15077" }],
+    "description": "Studies the theoretical and empirical foundations for fundamental criminal justice process theories. Organized around key theoretical frameworks that explain the activities and outputs of the criminal justice system. Identifies key elements of criminal justice process theories and examines how these components are defined, operationalized, and tested empirically. Offers students an opportunity to develop mastery of the administration of justice process by reviewing research critiquing justice system strategies, functioning, and effects. Students identify and consider changes in institutional responses to crime and justice issues that have occurred over time and across cultural contexts. Traces the role of systemic racism and intersecting dimensions of oppression in the historical development of and current policies and practices in the criminal justice system.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "7700",
+    "title": "Practicum in Teaching",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16048" }],
+    "description": "Provides weekly meetings for graduate student lecturers and faculty advisers to discuss common concerns and issues arising during the course of teaching. With input from the Center for Effective University Teaching, covers topics such as syllabus preparation, examination preparation and grading, classroom protocol, and student interaction. Required for all doctoral students teaching a class for the first time.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "7710",
+    "title": "Criminology and Public Policy 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10606" }],
+    "description": "Offers detailed coverage of theoretical criminology and its implications for public policy. Approaches the understanding of crime from an interdisciplinary perspective, focusing on recent theoretical developments. Studies the connections between systemic racism, inequalities, and crime and the role of bias in the development of the field and criminological theories. Emphasizes evaluating theory in light of empirical research, understanding the implications of theory and research for programs and policies of crime prevention and control, and evaluating current approaches to crime prevention and control.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "7976",
+    "title": "Directed Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202260", "crn": "61601" },
+      { "term": "202240", "crn": "41910" }
+    ],
+    "description": "Offers the student the opportunity to bring individual, concentrated attention to a particular topic as arranged and agreed upon in advance by a faculty member and the student. This option is generally recommended when the student desires a more intensive analysis of a particular subject. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "7983",
+    "title": "Consequences of Incarceration",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19273" },
+      { "term": "202310", "crn": "19256" }
+    ],
+    "description": "Offers intensive study of a topic related to criminal justice, selected by the instructor. May be repeated up to four times.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "8960",
+    "title": "Exam Preparation&amp;#8212;Doctoral",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18147" }],
+    "description": "Offers the student the opportunity to prepare, under faculty supervision, for the PhD qualifying examination.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "8986",
+    "title": "Research",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15590" },
+      { "term": "202310", "crn": "15766" },
+      { "term": "202310", "crn": "11617" },
+      { "term": "202310", "crn": "11618" },
+      { "term": "202310", "crn": "17534" },
+      { "term": "202310", "crn": "20669" },
+      { "term": "202310", "crn": "20672" }
+    ],
+    "description": "Offers an opportunity to conduct full-time research under faculty supervision. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "9990",
+    "title": "Dissertation Term 1",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15579" },
+      { "term": "202310", "crn": "14252" },
+      { "term": "202310", "crn": "15765" },
+      { "term": "202310", "crn": "14253" },
+      { "term": "202310", "crn": "17498" },
+      { "term": "202310", "crn": "17506" },
+      { "term": "202310", "crn": "17526" },
+      { "term": "202310", "crn": "20555" }
+    ],
+    "description": "Provides the student with the opportunity, under close faculty guidance, to conduct an original investigation of a criminal justice issue. Each student identifies a faculty chair and two additional faculty members who comprise the student&amp;#8217;s Dissertation Committee. While the student conducts research and develops a dissertation, the committee provides support and direction and, ultimately, approves the final research product.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CRIM", "number": "9000" }]
+  },
+  {
+    "subject": "CRIM",
+    "number": "9991",
+    "title": "Dissertation Term 2",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15002" },
+      { "term": "202310", "crn": "15003" },
+      { "term": "202310", "crn": "15004" },
+      { "term": "202310", "crn": "20904" }
+    ],
+    "description": "Offers dissertation supervision by members of the department.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CRIM",
+    "number": "9996",
+    "title": "Dissertation Continuation",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14247" },
+      { "term": "202310", "crn": "12536" },
+      { "term": "202310", "crn": "14254" },
+      { "term": "202310", "crn": "14255" },
+      { "term": "202310", "crn": "14256" },
+      { "term": "202310", "crn": "15474" },
+      { "term": "202310", "crn": "11619" },
+      { "term": "202310", "crn": "15606" },
+      { "term": "202310", "crn": "15684" },
+      { "term": "202310", "crn": "13514" },
+      { "term": "202310", "crn": "13272" },
+      { "term": "202310", "crn": "17499" },
+      { "term": "202310", "crn": "20848" }
+    ],
+    "description": "Offers continued thesis work conducted under the supervision of a departmental faculty.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CRIM", "number": "9991" },
+      "Or",
+      "Dissertation Check"
+    ]
+  }
+]

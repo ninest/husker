@@ -1,0 +1,151 @@
+[
+  {
+    "subject": "ARTH",
+    "number": "1001",
+    "title": "Visual Intelligence",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": ["IC"],
+    "sections": [
+      { "term": "202310", "crn": "19920" },
+      { "term": "202310", "crn": "20496" }
+    ],
+    "description": "Examines via interdisciplinary lectures how image technologies and techniques of perception endemic to visual art, popular culture and digital media shape how visual culture is understood within an expanding knowledge economy. Introduces analytical skills of observation and methods of contextual analysis (materialism, semiotics, feminisms, LGBTQ studies, queer theory, theories of decolonization and disability studies), in order for students to develop compelling interpretations of visual phenomena within a shifting global context. Visual Intelligence explains how visual studies connects to the fields of law, design, publishing, curating, conservation, and other areas of knowledge production.",
+    "coreqs": [{ "subject": "ARTH", "number": "1002" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTH",
+    "number": "1002",
+    "title": "Seminar in Visual Intelligence",
+    "scheduleType": "Seminar",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19921" },
+      { "term": "202310", "crn": "19922" },
+      { "term": "202310", "crn": "19923" },
+      { "term": "202310", "crn": "19924" },
+      { "term": "202310", "crn": "19925" },
+      { "term": "202310", "crn": "19926" },
+      { "term": "202310", "crn": "20515" }
+    ],
+    "description": "Accompanies ARTH 1001. Fosters in-depth discussion, allows for hands-on workshops and facilitates visits to area museums and cultural organizations. Emphasizes the ways digital image technologies are socially constructed and are based on earlier paradigms of classification and differentiation. Seminar meetings demonstrate how to critically read a range of images (e.g. texts, films, videogames, memes, artworks) by paying attention to the ways meaning is often shaped by identarian formations such as race, gender, sexual orientation, class, and ability. Investigates how diverse perspectives enhance the ability to create, while introducing students to creative professionals who actively use visual intelligence in their dynamic careers.",
+    "coreqs": [{ "subject": "ARTH", "number": "1001" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTH",
+    "number": "1100",
+    "title": "Interactive Media and Society",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12301" }],
+    "description": "Offers a critical historical survey of interactive media from analog to digital techniques and from physical to virtual spaces. Examines the social, ethical, and cultural impact of interactive media. Concludes with a study of current issues and directions in interactive media. Through weekly lectures, research projects, and critical analyses, offers students an opportunity to consider current and historical aspects of interactive media and design.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTH",
+    "number": "1400",
+    "title": "The Science of Art, the Art of Science",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC"],
+    "sections": [{ "term": "202310", "crn": "19252" }],
+    "description": "Explores the intersection of science and art in Renaissance Italy, and the broad themes of observation, imagination, and invention. Topics include engineering, anatomy, botany, zoology, cartography, perspective and ecology. Observation will be considered both as a historical topic and as a practical method in the course. Students have an opportunity to hone their skills in both writing and drawing through weekly visits to the Museum of Fine Arts and study of original works of art.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTH",
+    "number": "2210",
+    "title": "Modern Art and Design History",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC", "SI", "WI"],
+    "sections": [{ "term": "202310", "crn": "20707" }],
+    "description": "Surveys modernist movements from early to mid-20th century. Emphasizes the reciprocal evolution of art and design within cultural and social contexts.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTH",
+    "number": "2211",
+    "title": "Contemporary Art and Design History",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [{ "term": "202310", "crn": "17059" }],
+    "description": "Offers a study of contemporary culture in an art and design survey from mid-twentieth century to present. Presents a thematic approach to late-modern and postmodernist movements, focusing on interrelationships among media.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
+  },
+  {
+    "subject": "ARTH",
+    "number": "2212",
+    "title": "Survey of the Still and Moving Image",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14907" }],
+    "description": "Examines the history of still and moving images in relationship to other artistic, documentary, and journalistic practices.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTH",
+    "number": "2215",
+    "title": "History of Graphic Design",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12048" },
+      { "term": "202310", "crn": "14686" },
+      { "term": "202310", "crn": "17932" },
+      { "term": "202260", "crn": "61249" }
+    ],
+    "description": "Follows a chronological survey of graphic design from 4000 BC to the beginning of the 21st century, emphasizing work from 1880 to 2000, and the relationship of that work to other visual arts and design disciplines. Demonstrates how graphic design has responded to (and affected) international, social, political, and technological developments since 1450. Traces developments in the areas of typography and publication, persuasion, identity, information, and theory.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTH",
+    "number": "3000",
+    "title": "Islamic Art and Design History",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "19253" },
+      { "term": "202310", "crn": "19927" },
+      { "term": "202310", "crn": "20721" },
+      { "term": "202240", "crn": "41719" }
+    ],
+    "description": "In the Wake: Aesthetic Cartographies of the Black Atlantic - America: Students will analyze the complexities of topics concerning Blackness and Black life rendered in Western visual culture. By engaging with readings and lectures, the class will discuss how aesthetics from the African diaspora is multifaceted and influential to producing Western media and popular culture.  Approved course substitute for ARTH 2210 or 2211.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTH",
+    "number": "4000",
+    "title": "Topics in Visual Studies",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC", "WI"],
+    "sections": [{ "term": "202310", "crn": "20720" }],
+    "description": "Explores a variety of advanced topics in visual studies, including historical and cultural models. Taught by faculty according to their research interests and expertise.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

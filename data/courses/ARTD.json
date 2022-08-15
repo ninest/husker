@@ -1,0 +1,274 @@
+[
+  {
+    "subject": "ARTD",
+    "number": "2000",
+    "title": "Introduction to Immersive Media",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16596" }],
+    "description": "Introduces three forms of immersive media&mdash;augmented reality, 360 video, and virtual reality&mdash;through engagement in content creation, the fundamentals of software tools, development methodologies, and production techniques. Offers students an opportunity to produce basic immersive sequences, read literature, play games, and experience contemporary projects that highlight the uniqueness of immersive media.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTD",
+    "number": "2100",
+    "title": "Narrative Basics",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [{ "term": "202310", "crn": "12334" }],
+    "description": "Explores narrative sequence and story development in a variety of story architectures and media combinations, including text, video, music, audio, and design. Uses lectures, in-class workshops, and collaborative projects to expose students to the critical role of narrative in society and interactive media, including games. Offers students an opportunity to develop an interactive media design document over the second half of the semester.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" }
+    ]
+  },
+  {
+    "subject": "ARTD",
+    "number": "2360",
+    "title": "Introduction to Photography",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10312" },
+      { "term": "202310", "crn": "10331" },
+      { "term": "202310", "crn": "14244" },
+      { "term": "202310", "crn": "15268" },
+      { "term": "202310", "crn": "16423" },
+      { "term": "202260", "crn": "60873" },
+      { "term": "202260", "crn": "60874" },
+      { "term": "202240", "crn": "40690" },
+      { "term": "202240", "crn": "40993" }
+    ],
+    "description": "Introduces creative photography, exploring techniques and processes starting with the basic principles of camera controls, lens and lens functions, digital image presentation basics, as well as photographic seeing and visual thinking. Evaluates and expands technical and conceptual knowledge of the medium. Beyond the technical foundation of digital image making, analyzes various theories and understanding of ways of seeing photographically. Culminates in a final project and presentation designed to demonstrate the importance of technical expertise, editing, sequence, layout, and presentation of ideas.",
+    "coreqs": [{ "subject": "ARTD", "number": "2361" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTD",
+    "number": "2361",
+    "title": "Photo Tools",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11085" },
+      { "term": "202310", "crn": "16424" },
+      { "term": "202310", "crn": "16425" },
+      { "term": "202310", "crn": "20050" },
+      { "term": "202260", "crn": "60875" },
+      { "term": "202260", "crn": "60876" },
+      { "term": "202240", "crn": "40691" },
+      { "term": "202240", "crn": "40994" }
+    ],
+    "description": "Introduces students to the creative possibilities of photographic image editing and management with Adobe Bridge, Camera Raw, and Photoshop. Offers students an opportunity to establish a professional digital workflow, acquire industry-standard creative techniques for photographic image editing, and gain an understanding of the importance of high-quality postproduction output.",
+    "coreqs": [{ "subject": "ARTD", "number": "2360" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTD",
+    "number": "2370",
+    "title": "Animation Basics",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "12449" },
+      { "term": "202310", "crn": "17238" }
+    ],
+    "description": "Offers an introductory studio course that explores the creative potential of animation. Exposes students to a variety of traditional animation processes and techniques through lectures, demonstrations, and hands-on assignments. Provides an historical survey of animation art through the twentieth century. Emphasizes using the computer to develop concepts creatively while learning the fundamental skills of constructing animated images and forms.",
+    "coreqs": [{ "subject": "ARTD", "number": "2371" }],
+    "prereqs": [{ "subject": "ARTF", "number": "2220" }]
+  },
+  {
+    "subject": "ARTD",
+    "number": "2371",
+    "title": "Animation Tools",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10878" },
+      { "term": "202310", "crn": "20316" }
+    ],
+    "description": "Introduces intermediate skills and software used in creating 3D animation. Explores modeling, surfacing, lighting, key framing, and rigging in this technology workshop.",
+    "coreqs": [{ "subject": "ARTD", "number": "2370" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTD",
+    "number": "2380",
+    "title": "Video Basics",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10206" }],
+    "description": "Offers an introductory exploration into the moving image as an art form. Covers the fundamental technical and aesthetic aspects of contemporary video production. Emphasizes personal, experimental works from an individual point of view. Analysis of projects is directed toward the development of a personal voice.",
+    "coreqs": [{ "subject": "ARTD", "number": "2381" }],
+    "prereqs": [{ "subject": "ARTF", "number": "2220" }]
+  },
+  {
+    "subject": "ARTD",
+    "number": "2381",
+    "title": "Video Tools",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14491" }],
+    "description": "Introduces intermediate skills and software used in capturing, manipulating, and editing video and audio in this technology workshop.",
+    "coreqs": [{ "subject": "ARTD", "number": "2380" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTD",
+    "number": "3000",
+    "title": "Art inAge of Mass Surveillance",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19237" }],
+    "description": "Art in the Age of Mass Surveillance:  In this special studio course (only offered in Fall 2022) students will learn about and create art projects that engage with the social impact of surveillance technologies using mediums of their choice, including photography, video arts, animation, data visualization, interactive media, painting/drawing, etcetera. Students will look carefully at AI and social media, in addition to other less obvious manifestations of data collection and implementation. If you are interested and do not meet the prerequisites, please email Professor Gradecki for approval (j.gradecki@northeastern.edu). Then forward the approval email to CAMD Advising (camdadvising@northeastern.edu) for an override.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ARTD", "number": "2000" },
+      "Or",
+      { "subject": "ARTD", "number": "2360" },
+      "Or",
+      { "subject": "ARTD", "number": "2370" },
+      "Or",
+      { "subject": "ARTD", "number": "2380" }
+    ]
+  },
+  {
+    "subject": "ARTD",
+    "number": "3460",
+    "title": "Photography: Concept + Process",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [{ "term": "202310", "crn": "12338" }],
+    "description": "Explores how process informs concept and vice versa, with a focus on making and photographic practice. Emphasizes creative projects, readings on contemporary photography, and the responses and presentations on the ideas brought forth by our investigations. Constructive critiques, which include investigation of the nuances of the medium and its uses, encourage confidence of creative abilities, vision, and independent thinking. Students use photographic concepts and creative techniques for the development, coordination, and completion of a final photographic body of work. Considers the politics of representation and contextual references and seeks to answer: Who is it of? Who is it for? What does it do? Who does it serve? This is an intermediate photography seminar.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ARTD", "number": "2350" },
+      "Or",
+      { "subject": "ARTD", "number": "2360" }
+    ]
+  },
+  {
+    "subject": "ARTD",
+    "number": "3470",
+    "title": "Animation 1",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14159" }],
+    "description": "Introduces the fundamentals of three-dimensional computer animation. Class lectures and demonstrations are followed by substantial hands-on exploration. Students gain fundamental skills for modeling, surfacing, and animating. Projects progress from creating simple geometric objects to realistic organic characters. Basic systems for animating are introduced and explored.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "ARTD", "number": "2370" }]
+  },
+  {
+    "subject": "ARTD",
+    "number": "3472",
+    "title": "Character Design for Animation",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "16909" },
+      { "term": "202240", "crn": "41429" }
+    ],
+    "description": "Focuses on the development of characters as they relate to game design and animation. Explores, through treatments and synopsis, theme-based character back story, rationale, and visual design. Integrates learning objectives of both 2D and 3D, optimized rigging, movement study, and accessory and prop design.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTD",
+    "number": "3473",
+    "title": "Animation for Games",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20340" }],
+    "description": "Explores all areas of 3D game asset creation&amp;#8212;animation, modeling, shading, effects, and their integration. Working in small groups, students have an opportunity to learn how to construct animated assets that work efficiently within a game programming environment. Encourages students to specialize in at least one area of asset creation.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "ARTD", "number": "3470" }]
+  },
+  {
+    "subject": "ARTD",
+    "number": "3480",
+    "title": "Video: Sound and Image",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EX"],
+    "sections": [{ "term": "202310", "crn": "14096" }],
+    "description": "Continues the study of video as an art form. Focuses on the dynamic relationship between sound and the moving image. Begins with audio exercises exploring various aspects of sound design that are integrated into an in-depth video production. Emphasizes the production of innovative video art with powerful visual imagery, complex editing rhythms, and creative sound design.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTD",
+    "number": "4530",
+    "title": "Media Arts Degree Project",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [{ "term": "202310", "crn": "12394" }],
+    "description": "For Art, Animation, Photography, Video Arts, and Studio Art students.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
+  },
+  {
+    "subject": "ARTD",
+    "number": "4570",
+    "title": "Animation 2",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10196" }],
+    "description": "Continues ARTD 3470. Focuses on seamless integration of animated three-dimensional models with digital photographic backgrounds. Continued emphasis on building comprehensive modeling, surfacing, and animation skills. Students develop original content based on course objectives. Complex systems for creating realistic movement are introduced. Exposes students to compositing and animation processes through lectures, demonstrations, and hands-on assignments.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "ARTD", "number": "3470" }]
+  },
+  {
+    "subject": "ARTD",
+    "number": "4575",
+    "title": "Animation 3",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20341" }],
+    "description": "Continues ARTD 4570. Focuses on building comprehensive modeling, animation, and compositing skills in this advanced studio course. Students explore creating special effects through seamless mixture of computer-generated imagery and digital video footage. Advanced compositing and lighting techniques are introduced and explored. Students create original characters using organic modeling and surfacing techniques. Exposes students to animation and compositing processes through lectures, demonstrations, and hands-on assignments.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTD",
+    "number": "4661",
+    "title": "Photography: Experimental Processes",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19239" }],
+    "description": "Offers a studio/lab course in which students study the history of photographic processes and contemporary approaches of the medium while creating their own photographs in the darkroom. Explores 19-century techniques such as camera obscura, photograms, cyanotypes, tintypes, kalli-types, clich&eacute; verre, and others. Investigates the use of analog film photography and digital photography in combination with alternative processes. The structure of the course is designed to present exciting ways of thinking about technical questions, materials, subject matter, and aesthetic approaches through experimentation.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

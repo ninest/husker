@@ -1,0 +1,89 @@
+[
+  {
+    "subject": "ENGR",
+    "number": "5670",
+    "title": "Sustainable Energy: Materials, Conversion, Storage, and Usage",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12683" }],
+    "description": "Examines, in this interdisciplinary course, modern energy usage, consequences, and options to support sustainable energy development from a variety of fundamental and applied perspectives. Emphasizes both (1) physical and chemical processes in materials for the conversion of energy and (2) how to design a system with renewable energy for applications such as electricity generation and transmission. Takes a systems analysis point of view. Topics may include energy conservation; fossil fuels; and energy conversion methods for solar, geothermal, wind, hydro, bioenergy, electrochemical, and similar methods.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENGR",
+    "number": "5965",
+    "title": "Engaging with Industry Partners for Rising Professionals",
+    "scheduleType": "Seminar",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "61532" }],
+    "description": "Offers students an enhanced applied project setting in which to apply their curricular learning. Working with a partner sponsor, students refine an applied research topic, perform research, develop recommendations that are shared with the partner sponsor, and create a plan for implementing their recommendations. Curriculum supports students as they develop key business communication skills, project and client management skills, and frameworks for business analysis. Offers students an opportunity to learn from sponsor feedback, review lessons learned, and incorporate suggestions to improve and further hone their career development and professional plan. Career development opportunities through skill-building workshops, panels, and interview preparation are available. Partner-student interactions, including a culminating project presentation, allow partners to assess student potential for co-op, internship, or other employment opportunities with the partner.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENGR",
+    "number": "7978",
+    "title": "Independent Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "61215" }],
+    "description": "Offers theoretical or experimental work under individual faculty supervision. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENGR",
+    "number": "9700",
+    "title": "Dissertation Fieldwork",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "20649" },
+      { "term": "202310", "crn": "20876" },
+      { "term": "202310", "crn": "20893" },
+      { "term": "202310", "crn": "20913" },
+      { "term": "202310", "crn": "20985" },
+      { "term": "202260", "crn": "61492" },
+      { "term": "202260", "crn": "61493" },
+      { "term": "202260", "crn": "61614" },
+      { "term": "202240", "crn": "41858" },
+      { "term": "202240", "crn": "41902" },
+      { "term": "202240", "crn": "41958" }
+    ],
+    "description": "Offers students an opportunity to pursue experiential research outside the classroom and outside the university. Engineering PhD students only. May be repeated up to two times.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENGR",
+    "number": "9701",
+    "title": "Engineering Teaching Practicum",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "41965" }],
+    "description": "Offers intermediate or terminal-level doctoral candidates a teaching assignment under the guidance of a faculty member. Typical activities include preparing and teaching recitations; preparing and teaching laboratory sessions; holding office hours; preparing and grading quizzes, problem sets, and other assignments; and assisting the instructor with other activities associated with teaching a course. All nonnative English speakers should conform to the university language requirements for teaching assistants. May be repeated up to five times.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENGR",
+    "number": "9702",
+    "title": "Dissertation Fieldwork - Half-Time",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "20892" },
+      { "term": "202260", "crn": "61599" }
+    ],
+    "description": "Offers students an opportunity to pursue experiential research outside the classroom and outside the university.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

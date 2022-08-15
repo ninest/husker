@@ -1,0 +1,550 @@
+[
+  {
+    "subject": "ENVR",
+    "number": "1101",
+    "title": "Environmental Science",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD", "ND"],
+    "sections": [
+      { "term": "202310", "crn": "15486" },
+      { "term": "202310", "crn": "20412" }
+    ],
+    "description": "Focuses on the complex array of topics that collectively form the discipline of environmental science. Emphasizes the problems facing today&amp;#8217;s natural, human-managed, and coupled human/natural ecosystems and the solutions to those problems. Studies the human dimensions of environmental science, including culture, politics, worldviews, ethics, and economics, particularly within the context of global climate change. Offers students an opportunity to learn to analyze data as a means of exploring relationships among societal and ecological drivers affecting economic, ecological, and socioeconomic stability; to learn how the scientific method is used to separate fact and data from opinion; and to apply these methods to explore the causes and solutions to global climate change.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "1110",
+    "title": "Global Climate Change",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD", "ND"],
+    "sections": [
+      { "term": "202310", "crn": "19345" },
+      { "term": "202310", "crn": "20731" }
+    ],
+    "description": "Analyzes Earth&amp;#8217;s modern climate system and natural climate change over Earth&amp;#8217;s 4.5-billion-year history. Examines ongoing and future climate change. Includes expected impacts of the predicted climate changes as well as mitigation and adaptation options.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "1200",
+    "title": "Dynamic Earth",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ND"],
+    "sections": [{ "term": "202310", "crn": "19346" }],
+    "description": "Offers a systematic study of the materials and systems comprising the earth. Emphasizes the processes that form, transport, alter, and destroy rocks, as well as the nature and development of landscape. Plate tectonics theory is introduced as a guiding paradigm in geology.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "1201",
+    "title": "Lab for ENVR 1200",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19347" },
+      { "term": "202310", "crn": "19348" },
+      { "term": "202310", "crn": "20353" }
+    ],
+    "description": "Accompanies ENVR 1200. Covers exercises pertaining to mineral and rock identification and topographic and geologic map interpretation. Required for environmental geology and geology majors.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "1400",
+    "title": "Foundations in Environmental and Sustainability Sciences",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ND"],
+    "sections": [{ "term": "202310", "crn": "14579" }],
+    "description": "Presents a series of lectures and case studies focused on the problems facing today&rsquo;s natural, human-managed, and coupled human/natural ecosystems. Integrates the underlying science with the human dimensions of environmental challenges. These include an understanding of the basic chemistry, physics, and ecology of environmental change and how this science is informed and altered by culture, politics, worldviews, ethics, and economics. Examines quantitative techniques to analyze data as a means of exploring relationships among societal and ecological drivers affecting economic, ecological, and socioeconomic stability. Studies how the scientific method is used to separate facts and data from opinion and applies these methods to explore the causes and solutions to global climate change and other environmental challenges.",
+    "coreqs": [{ "number": "1401" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "1401",
+    "title": "Lab for ENVR 1400",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14580" },
+      { "term": "202310", "crn": "14581" },
+      { "term": "202310", "crn": "17390" },
+      { "term": "202310", "crn": "20677" }
+    ],
+    "description": "Accompanies ENVR 1400. Offers supervised lab/discussion sessions for students to develop the tools needed to tackle environmental problem solving at the interface of human and natural systems.",
+    "coreqs": [{ "number": "1400" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "1500",
+    "title": "Introduction to Environmental, Social, and Biological Data",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19349" },
+      { "term": "202310", "crn": "20413" }
+    ],
+    "description": "Introduces the fundamental concepts in the fields of environmental, social, and biological science. Studies the expertise needed in each discipline to organize and manage data in sustainability science. The first half of the course covers data collection relevant to pressing issues in sustainability, database organization, coding, and finding errors in data sets. The second half of the course covers basic principles in the statistical analysis of data sets used in conservation and sustainability, including simulating data, machine learning, and errors in analysis. Offers hands-on experience through students&#39; own data collection projects. Appropriate for students interested in biology, marine biology, environmental science, and ecology and evolutionary biology. Designed to prepare students for co-ops and upper-level classes in these fields.",
+    "coreqs": [{ "number": "1501" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "1501",
+    "title": "Lab for ENVR 1500",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": ["AD"],
+    "sections": [
+      { "term": "202310", "crn": "14584" },
+      { "term": "202310", "crn": "17073" },
+      { "term": "202310", "crn": "17074" },
+      { "term": "202310", "crn": "19350" },
+      { "term": "202310", "crn": "20414" }
+    ],
+    "description": "Accompanies ENVR 1500. Offers supervised lab sessions demonstrating how topics covered in the lectures can be addressed using a variety of platforms, including Excel, R, and Python.",
+    "coreqs": [{ "number": "1500" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "2200",
+    "title": "Earth&#39;s Changing Cycles",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ND"],
+    "sections": [{ "term": "202310", "crn": "20734" }],
+    "description": "Introduces the biological, chemical, and physical interactions that shape our environment and how industrial emission of gases and black carbon, the use of fertilizers and plastics, and the expansion of cities are altering Earth&rsquo;s systems at rates unprecedented in the recent geological record. Offers students an opportunity to build a fundamental understanding of major issues in environmental science, including climate change, eutrophication, loss of biodiversity, and urbanization. Considers how we might build a more sustainable future.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "2310",
+    "title": "Earth Materials",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [{ "term": "202310", "crn": "19351" }],
+    "description": "Describes the physical and chemical characteristics of common rock-forming minerals and geologic processes that form rock and soils in the igneous, sedimentary, and metamorphic environments. Focuses on commonly encountered minerals, soil, and rock types and how these are used to interpret past and present earth processes. This is a writing-intensive course with a required term paper.",
+    "coreqs": [{ "number": "2311" }],
+    "prereqs": [
+      "(",
+      "Or",
+      "Or",
+      ")",
+      "And",
+      "(",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      ")"
+    ]
+  },
+  {
+    "subject": "ENVR",
+    "number": "2311",
+    "title": "Lab for ENVR 2310",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19352" },
+      { "term": "202310", "crn": "19353" }
+    ],
+    "description": "Accompanies ENVR 2310. Cover topics from the course through various experiments.",
+    "coreqs": [{ "number": "2310" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "2401",
+    "title": "Food Justice and Community Development",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EX"],
+    "sections": [{ "term": "202260", "crn": "60934" }],
+    "description": "Uncovers and examines the key dilemmas of the food system in the United States today using readings, media, discussion, service-learning, and field trips. Working from the foundations of environmental justice and community development, covers production, access, distribution, and key stakeholders from producers to retailers, workers, and consumers. Considers what justice-related issues face stakeholders within the food system in the United States; what policies have most impacted the workforce in the American food system; and what the opportunities and leverage points are for change in improving justice outcomes in this system.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "2500",
+    "title": "Biostatistics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD", "FQ"],
+    "sections": [
+      { "term": "202310", "crn": "14002" },
+      { "term": "202260", "crn": "61300" }
+    ],
+    "description": "Offers an overview of traditional and modern statistical methods used to analyze biological data using the free and open-source R programming environment. Lectures describe core statistical approaches and discuss their suitability for understanding patterns that arise at different levels of biological organization, from cellular processes to whole ecosystems. Supervised lab sessions offer students an opportunity to develop the R programming skills required to analyze the complex datasets that often emerge when addressing cutting-edge questions in biology. Topics include basic probability and sampling theory, experimental design, null hypothesis significance testing, t-tests and ANOVA, correlation and regression, likelihood, model selection, and information theory.",
+    "coreqs": [{ "number": "2501" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "2501",
+    "title": "Lab for ENVR 2500",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12038" },
+      { "term": "202310", "crn": "12039" },
+      { "term": "202310", "crn": "19354" },
+      { "term": "202310", "crn": "12075" },
+      { "term": "202310", "crn": "12356" },
+      { "term": "202310", "crn": "15170" },
+      { "term": "202310", "crn": "15171" },
+      { "term": "202310", "crn": "15182" },
+      { "term": "202310", "crn": "20241" },
+      { "term": "202260", "crn": "61301" }
+    ],
+    "description": "Accompanies ENVR 2500. Offers supervised lab sessions demonstrating how topics covered in the lectures can be addressed in the R programming environment.",
+    "coreqs": [{ "number": "2500" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "2515",
+    "title": "Sustainable Development",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "20258" },
+      { "term": "202310", "crn": "20751" }
+    ],
+    "description": "Focuses on the principles and practice of sustainable development, both as a way of looking at the interconnected world and an overarching framework for promoting economic development, social inclusion, and environmental stewardship. Students will study decades of local and global efforts aimed at developing economies, eradicating hunger and disease, and restoring and sustaining ecosystems for a large, and growing, population living on an increasingly altered planet and facing a changing climate. Along with lectures and discussions on core concepts, students will critically dissect the toughest questions and challenges of sustainable development through an online class blog and semester-long group projects.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "3125",
+    "title": "Global Oceanic Change",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ND"],
+    "sections": [{ "term": "202310", "crn": "19356" }],
+    "description": "Explores major changes in physical, biological, and chemical properties of the ocean over geological and human timescales. Includes origin and early evolution of the oceans; sea-level change; global warming; ocean acidification; the role of plate tectonics in driving long-term oceanic change; the role of atmospheric carbon dioxide in driving short-term oceanic change; tipping points in the oceans; snowball earth theory; marine pollution; oil exploration; and social, economic, and political implications of global oceanic change. Themes include differentiating drivers of change across multiple temporal and spatial scales; evaluating change from different and sometimes conflicting perspectives (social, economic, political, environmental); differentiating local and global change; and establishing linkages between physical, chemical, and biological processes in the ocean. Requires prior completion of one laboratory science course or permission of instructor.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "3150",
+    "title": "Food Security and Sustainability",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ND", "WI"],
+    "sections": [{ "term": "202310", "crn": "20755" }],
+    "description": "Discusses the science of sustainable agriculture, fisheries, and aquaculture. Examines the issues related to nutrition and hunger, food safety, and food production in the face of a changing climate with a scientific lens. Using the FAO Global Food Security and Strategy document and other peer-reviewed literature, compares the food issues in the United States with those in the developing world, including sub-Saharan Africa and Southeast Asia. Explores the many issues related to food production and environmental sustainability&amp;#8212;including fertilizer use, GMOs, and pollution&amp;#8212;and local examples of sustainable food production. Discusses the ways in which we can potentially remedy many of the issues involved in providing food for more than 7 billion people worldwide.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "3200",
+    "title": "Water Resources",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19357" },
+      { "term": "202310", "crn": "20756" }
+    ],
+    "description": "Offers students who wish to work in the area of water resources an opportunity to understand the issues related to water&amp;#8217;s availability and behavior at the Earth&amp;#8217;s surface. Topics covered include (1) the hydrologic cycle, including global and regional patterns of water movement; (2) characteristics of surface and groundwater systems, including the linkage between streams, rivers, lakes, wetlands, groundwater, and the sea; (3) water management issues and regulations that have been enacted to control the use of water as a resource; (4) water quality measures for surface water and groundwater; and (5) examples of water use conflicts and emerging water issues. Case studies include examples from California, New England, New York, the southwestern United States, China, Africa, and the Middle East.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "3300",
+    "title": "Geographic Information Systems",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD", "EI"],
+    "sections": [{ "term": "202310", "crn": "12088" }],
+    "description": "Studies how to use a geographic information system (GIS). Explores the practical application of GIS to support scientific and social inquiry, analysis, and decision making. Topics include spatial data collection; data accuracy and uncertainty; cartographic principles and data visualization; geographic analysis; and legal, economic, and ethical issues associated with using GIS. Investigates case studies from geology, environmental science, urban planning, architecture, social studies, and engineering. Provides extensive hands-on experience with a leading commercial GIS software package. Offers students an opportunity to conceive their own research problem that can be addressed using GIS and reach conclusions that are summarized in a professional report. Students who do not meet course prerequisites may seek permission of instructor.",
+    "coreqs": [{ "number": "3301" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "3301",
+    "title": "Lab for ENVR 3300",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10323" },
+      { "term": "202310", "crn": "19358" },
+      { "term": "202310", "crn": "12089" }
+    ],
+    "description": "Accompanies ENVR 3300. Covers topics from the course through various experiments.",
+    "coreqs": [{ "number": "3300" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "3600",
+    "title": "Oceanography",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19359" }],
+    "description": "Presents an integrated overview of biological, chemical, physical, and geological processes operating in the world&#39;s oceans. Emphasizes understanding the fragility and resilience of marine systems in the face of human-driven perturbations such as habitat fragmentation, elevated sea surface temperature and acidification, non-native species, nonsustainable fishing and aquaculture, and coastal land use. Offers students an opportunity to prepare for further course work in both marine biology and in earth, oceans, and environmental change.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "3800",
+    "title": "Plants and Society",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20647" }],
+    "description": "Introduces the anatomy, physiology, ecology, diversity, and management of economically relevant plants. Applies plant biology to human nutrition, biofuels, wood, cloth, and medicines. Offers insight into cultural uses and values of plants across the globe. Also discusses traditional and new forms of plant management techniques, along with their advantages and disadvantages for sustainability.",
+    "coreqs": [{ "number": "3801" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "3801",
+    "title": "Lab for ENVR 3800",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20678" }],
+    "description": "Accompanies ENVR 3800. Offers students an opportunity to interact with plants on a weekly basis, while applying their observational, creative, identification, and technical skills. Introduces basic plant biology and physiology principles, along with their application for plant care. Focuses on the care techniques for common landscaping as well as household, edible, medicinal, and other economically important plants.",
+    "coreqs": [{ "number": "3800" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "4000",
+    "title": "Science Communication and Professional Development",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19360" }],
+    "description": "Covers professional skills such as writing cover letters, crafting resum&eacute;s, interviewing, creating a biographical sketch, and developing overall confidence by connecting to audiences. Science communication focuses on connecting with nonscientific audiences to convey complex scientific concepts and engaging diverse stakeholders to solve pressing societal problems using scientific approaches. Covers general principles of messaging, based on an understanding of how people learn and make decisions, using techniques such as narrative storytelling, visualizations, and theatrical improvisation and other art forms. Offers students an opportunity to develop tools to highlight their strengths, market their skills, explore potential jobs and career paths, and understand how to best prepare for those positions. Designed to integrate with ENVR 4050.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "4900",
+    "title": "Earth and Environmental Science Capstone",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": ["CE", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "10860" },
+      { "term": "202260", "crn": "61494" },
+      { "term": "202240", "crn": "40189" }
+    ],
+    "description": "Offers students an opportunity to reflect about what they have learned in the major, in their coursework, and experiential learning. With help from faculty, students identify topics for individual research tailored to their interests and the course content. Requires writing with revision to produce a final capstone paper.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "4993",
+    "title": "Independent Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "61628" }],
+    "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "4997",
+    "title": "Senior Thesis",
+    "scheduleType": "Individual Instruction",
+    "credits": 4,
+    "nuPath": ["CE", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "14870" },
+      { "term": "202240", "crn": "41819" }
+    ],
+    "description": "Offers students an opportunity to prepare an undergraduate thesis under faculty supervision.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "5190",
+    "title": "Soil Science",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19361" }],
+    "description": "Provides a description and evaluation of the physical, chemical, and biological properties of soils. Includes soil formation, soil types, and processes that occur in soil including the importance of these processes for the soil productivity and management of soil. Also covers sources, reactions, transports, and fates of chemical species in soils and associated water and air environments, as well as the chemical behavior of elements and compounds and the phenomena affecting natural and anthropogenic materials in soils.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "5210",
+    "title": "Environmental Planning",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [{ "term": "202310", "crn": "14896" }],
+    "description": "Examines aspects of surface runoff from geomorphic and hydrologic perspectives. Develops methods for description and calculation of major river and drainage basin processes and applies the results to the planning process. Examines human modification of these systems&amp;#8212;including urbanization, dams, and channelization&amp;#8212;and applies this information to an understanding of regulatory processes. This is a writing-intensive course.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "5260",
+    "title": "Geographical Information Systems",
+    "scheduleType": "Lab",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10611" },
+      { "term": "202240", "crn": "40296" }
+    ],
+    "description": "Examines geographical information systems (GIS), a way to input, store, analyze, and display spatial data (data with a geographic location). Introduces the major components and applications of this exciting new tool. Consists of two lectures and one laboratory period a week. Laboratory exercises introduce methods of data analysis as well as practical issues of how to manipulate various GIS software packages.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "5350",
+    "title": "Sustainable Energy and Climate Solutions",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19362" }],
+    "description": "Examines the role of sustainable energy on emissions from energy production and the resulting impacts on climate changes. Introduces current observations, predictions of future climate change, and the resulting impacts on ecological and human systems. Assesses past and current sources of U.S. energy-related and non-energy-related sources of greenhouse gases. Reviews sustainable energy alternatives and emission reduction strategies with a focus on comparing moderate and deep decarbonization strategies and the overall goal of reaching zero net emissions.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "5670",
+    "title": "Global Biogeochemistry",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ND"],
+    "sections": [{ "term": "202310", "crn": "19363" }],
+    "description": "Examines the biological, chemical, and physical interactions that shape our global environment. These interactions combine in the global biogeochemical cycles. Industrial emission of gases, use of fertilizers and plastics, and the expansion of cities are altering the biogeochemical cycling of the elements carbon, nitrogen, and phosphorus at rates unprecedented in the geological record. Uses lectures and the latest update to Chapter 6, &ldquo;Carbon and Other Biogeochemical Cycles,&rdquo; of the International Panel on Climate Change report to explore the main interactions between human activity, biogeochemical change, and climate. Discusses primary literature to delve deeper into these interactions.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "5700",
+    "title": "Streams and Watershed Ecology",
+    "scheduleType": "Off-campus instruction w/ lec",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19364" }],
+    "description": "Studies the physical, chemical, and biological processes in streams and surrounding watersheds. Explores the hydrology, structure, function, and biota of running waters and the landscape that supports them. Examines current and relevant issues in stream science and policy, including natural and anthropogenic disturbance, climate change, and management and restoration techniques in stream systems. Provides broad foundational knowledge on stream science, which offers students an opportunity to learn experimental techniques and employ them in the field. The first half of the course consists of lecture and discussion, while the second half is taught principally in the field.",
+    "coreqs": [],
+    "prereqs": ["Or"]
+  },
+  {
+    "subject": "ENVR",
+    "number": "5984",
+    "title": "Research",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20836" }],
+    "description": "Offers an opportunity to conduct research under faculty supervision. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "6000",
+    "title": "Professional Development for Co-op",
+    "scheduleType": "Lecture",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20242" }],
+    "description": "Introduces the cooperative education program. Offers students an opportunity to develop job-search and career-management skills; to assess their workplace skills, interests, and values and to discuss how they impact personal career choices; to prepare a professional r&eacute;sum&eacute;; and to learn proper interviewing techniques. Explores career paths, choices, professional behaviors, work culture, and career decision making.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "6200",
+    "title": "Water Resources",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19365" }],
+    "description": "Focuses on the hydrologic cycle, including global and regional patterns of water movement; characteristics of surface and groundwater systems, including the linkage between streams, rivers, lakes, wetlands, groundwater, and the sea; water management issues and regulations that have been enacted to control the use of water as a resource; water quality measures for surface water and groundwater; and examples of water use conflicts and emerging water issues. Case studies of specific water challenges include examples from the United States, Asia, Africa, the Middle East, and Europe.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "6500",
+    "title": "Biostatistics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13421" }],
+    "description": "Offers an in-depth overview of statistical methods used to analyze data, with a focus on the biological sciences as well as nonbiological applications. Covers probability theory, Bayes&#39; theorem, hypothesis testing, derivations of statistical distributions, models used for inference with categorical and/or continuous data, linear models, model selection, information theory, and nonparametric methods in statistics. Offers students an opportunity to learn how to apply models to data in supervised lab sessions in the R programming environment.",
+    "coreqs": [{ "number": "6501" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "6501",
+    "title": "Lab for ENVR 6500",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13422" }],
+    "description": "Accompanies ENVR 6500. Introduces the core principles for programming in R, key functions, and application to real datasets.",
+    "coreqs": [{ "number": "6500" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ENVR",
+    "number": "6964",
+    "title": "Co-op Work Experience",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "20243" },
+      { "term": "202260", "crn": "60665" },
+      { "term": "202240", "crn": "41231" }
+    ],
+    "description": "Contact department for registration approval",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

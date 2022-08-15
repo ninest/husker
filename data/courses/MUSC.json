@@ -1,0 +1,535 @@
+[
+  {
+    "subject": "MUSC",
+    "number": "1000",
+    "title": "Music at Northeastern",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10445" }],
+    "description": "Intended for freshmen in the College of Arts, Media and Design. Introduces freshmen to the liberal arts in general. Offers students an opportunity to become familiar with their major; to develop the academic skills necessary to succeed (analytical ability and critical thinking); grounding in the culture and values of the university community; and to develop interpersonal skills&amp;#8212;in short, to become familiar with all skills needed to become a successful university student.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1001",
+    "title": "Music in Everyday Life",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI", "IC"],
+    "sections": [
+      { "term": "202310", "crn": "20500" },
+      { "term": "202310", "crn": "20552" },
+      { "term": "202260", "crn": "60826" },
+      { "term": "202240", "crn": "41722" }
+    ],
+    "description": "Dedicated to exploring, expanding, and exploding traditional meanings of what music is; of what it means to be a composer, performer, and audience member; and of what it means to listen. The overarching goal is to provide students with the tools and opportunities necessary for determining for themselves what place music holds in everyday life.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1004",
+    "title": "Basics of Western Music Notation",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20346" }],
+    "description": "Prepares students to gain fluency reading and writing standard Western music notation and gain facility with singing and performing rhythms and melodies in various meters, keys, and styles.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1112",
+    "title": "Jazz",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [{ "term": "202310", "crn": "11490" }],
+    "description": "Examines the evolution of the creative improvisational musical styles commonly called jazz, from its African-American roots to its status as one of America&amp;#8217;s classical musics and an internationally valued art form. Explores the contributions of African and European musical traditions and African-American spirituals, work songs, and blues. Examines major contributors and stylistic development and change through selected audio and audio-visual presentations. Also considers the sociocultural dynamics that have affected musical evolution and acceptance.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1119",
+    "title": "Fundamentals of Western Music Theory",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "14852" },
+      { "term": "202310", "crn": "19632" },
+      { "term": "202310", "crn": "19633" },
+      { "term": "202310", "crn": "20512" },
+      { "term": "202260", "crn": "60622" },
+      { "term": "202240", "crn": "40537" }
+    ],
+    "description": "Introduces students with little or no musical experience to all the major and minor key signatures and the following scales: major, natural minor, harmonic minor, and melodic minor. Topics include how to read music in treble clef, bass clef, and various C-clefs; how to identify and construct intervals, triads, and seventh chords; how melody and harmony work together to create a piece of music; roman numeral analyses; and various small forms. Short excerpts are analyzed, and students are required to write musical compositions.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1134",
+    "title": "Guitar Class",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "10420" },
+      { "term": "202310", "crn": "11509" },
+      { "term": "202260", "crn": "60333" },
+      { "term": "202240", "crn": "40181" }
+    ],
+    "description": "Provides an introduction to the fundamentals of classical guitar playing for those with or without prior knowledge of the guitar. Covers music reading and theory. Requires students to perform alone and in ensemble with other members of the class. Augments the syllabus by live performances from outside professional and student classical guitarists. Bases final grades on several written examinations and student performance.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1136",
+    "title": "What&amp;#8217;s Playing at Symphony?",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC"],
+    "sections": [{ "term": "202310", "crn": "19900" }],
+    "description": "Offers students an opportunity to attend several performances of the Boston Symphony Orchestra (BSO) at Symphony Hall. Discusses each piece of music from a variety of perspectives, including the history of a given composer and his or her relationship to music history and the history of a given composition and its relevance to the symphonic repertoire. Analyzes program pieces in order to provide a deeper appreciation for their musical construction; however, no musical background is required to participate in this course&amp;#8212;it is designed for nonmusic majors and music majors alike. Requires students to purchase BSO College Cards (for a nominal fee) for the current BSO concert season.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1142",
+    "title": "Pop, Jazz, and Rock Singing",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [{ "term": "202310", "crn": "19634" }],
+    "description": "Focuses on singing techniques used in pop, rock, and jazz. Techniques taught, discussed, and applied in class include breathing, tone and vowel production, singing with power without strain, developing range, improvising, and creating one&amp;#8217;s own style. Offers students an opportunity to apply these techniques in class, learning through vocal demonstrations in class and through the study of recordings. Singers/songwriters are encouraged to enroll. All levels of singers are welcome; students who enroll should already have the ability to sing generally in tune.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1201",
+    "title": "Music Theory 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10414" },
+      { "term": "202310", "crn": "19635" },
+      { "term": "202310", "crn": "19636" }
+    ],
+    "description": "Introduces melodic and harmonic practices in tonal music with additional work in chord and melody construction. Develops ear training and sight-singing skills.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "MUSC", "number": "1119" }]
+  },
+  {
+    "subject": "MUSC",
+    "number": "1202",
+    "title": "Music Theory 2",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19637" }],
+    "description": "Continues MUSC 1201. Focuses on harmonic practices in tonal music. Examines the role and function of harmony through analysis of musical examples and composition of four-voice chorales. Introduces study of advanced harmony. Further develops ear training and sight-singing skills.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1205",
+    "title": "Piano Class 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20900" }],
+    "description": "Provides introductory-level study of piano designed for students with or without previous experience. Combines skills in reading music with improvisation and functional piano. Introduces some basic theory to help clarify the structure of class repertoire. Allows students to progress at their own pace. Determines grades by the amount of repertoire mastered during the semester.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1901",
+    "title": "Music Lessons 1",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13043" },
+      { "term": "202260", "crn": "60014" },
+      { "term": "202240", "crn": "40014" }
+    ],
+    "description": "Offers private instruction in voice or in an instrument. Arranges weekly lessons on a half-hour basis. Contact the music department for arrangements. Requires lab fee. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1902",
+    "title": "Music Lessons 2",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13044" },
+      { "term": "202260", "crn": "60012" },
+      { "term": "202240", "crn": "40013" }
+    ],
+    "description": "Offers private instruction in voice or in an instrument. Arranges weekly lessons on a half-hour basis. Contact the music department for arrangements. Requires lab fee. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1904",
+    "title": "Chorus",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13045" }],
+    "description": "Allows students to participate as performers in one or more ensembles under the direction of a faculty conductor. &lt;i&gt;Prereq: Audition or permission of instructor.&lt;/i&gt; May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1905",
+    "title": "Concert Band",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15996" }],
+    "description": "Allows students to participate as performers in one or more ensembles under the direction of a faculty conductor. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1906",
+    "title": "Orchestra",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13046" }],
+    "description": "Allows students to participate as performers in one or more ensembles under the direction of a faculty conductor. &lt;i&gt;Prereq: Audition or permission of instructor.&lt;/i&gt; May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1907",
+    "title": "Wind Ensemble",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13047" }],
+    "description": "Allows students to participate as performers in one or more ensembles under the direction of a faculty conductor. &lt;i&gt;Prereq: Audition or permission of instructor.&lt;/i&gt; May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1911",
+    "title": "Jazz Ensemble",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10262" }],
+    "description": "Designed to serve both music majors and nonmajors, this is a performance/theory/history offering of the varied styles and techniques of performance in the jazz tradition of African-American music. Students are drawn from all segments of the University. Repertory is taken from the standard jazz literature as well as investigations of new works. Improvisational and interpretational technique are the core content of the course. Both the NU Jazz Ensemble and the NU Jazz Combo are represented together in this course. &lt;i&gt;Prereq: Audition or permission of instructor.&lt;/i&gt; May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1912",
+    "title": "Rock Ensemble",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13048" }],
+    "description": "Allows students to participate as performers in one or more ensembles under the direction of a faculty conductor. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1913",
+    "title": "Blues/Rock Ensemble",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13133" }],
+    "description": "Allows students to participate as performers in one or more ensembles under the direction of a faculty conductor. &lt;i&gt;Prereq: Audition or permission of instructor.&lt;/i&gt; May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1914",
+    "title": "Create Your Own Music",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13049" }],
+    "description": "Allows students to participate as performers in one or more ensembles under the direction of a faculty conductor. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1915",
+    "title": "Chamber Ensemble:Treble Chorus",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13870" },
+      { "term": "202310", "crn": "14856" },
+      { "term": "202310", "crn": "19638" }
+    ],
+    "description": "Allows students to participate as performers in one or more ensembles under the direction of a faculty conductor. &lt;i&gt;Prereq: Audition or permission of instructor.&lt;/i&gt; May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1917",
+    "title": "Jazz Choir and Combo",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13051" }],
+    "description": "Designed to give students who sing jazz and blues the opportunity to rehearse and perform in a small vocal group. Offers students an opportunity to work on singing in harmony and be featured in solos. The group is also accompanied by a student jazz combo. Members of the combo may register for the course for credit. Requires audition. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1918",
+    "title": "World Music Ensemble",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13566" }],
+    "description": "Explores music-making traditions from selected world cultures through performance on percussion, voice, and other instruments. No previous music-making experience required. May be repeated up to eight times.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1919",
+    "title": "Fusion Ensemble",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13052" }],
+    "description": "Offers students an opportunity to participate as performers in one or more ensembles under the direction of a faculty conductor. Focuses on instrumental rock, blues, funk, and jazz repertoire. &lt;i&gt;Prereq: Audition or permission of instructor.&lt;/i&gt; May be repeated up to eight times.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "1920",
+    "title": "Pep Band",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13054" }],
+    "description": "Offers students an opportunity to participate as performers in one or more ensembles under the direction of a faculty supervisor. The pep band performs at sporting events and other university functions. May be repeated up to eight times.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "2101",
+    "title": "Black Popular Music",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [
+      { "term": "202310", "crn": "19639" },
+      { "term": "202260", "crn": "60486" },
+      { "term": "202240", "crn": "40214" }
+    ],
+    "description": "Surveys, investigates, and analyzes black popular music from the end of the 19th century to the present. Through critical listening habits and analytical thinking skills, offers students an opportunity to explore black popular culture as a means of expression, communication, and collective identity, attending to issues of representation, identity, values, and aesthetics through a wide range of interdisciplinary sources and methodologies. Emphasizes intersections of creativity, technology, and performance, along with the impact of music industry, audience reception, and cultural politics. Expects students to complete daily exercises and weekly discussion forums in which they must apply critical thinking to synthesize material, complete comparative analyses, relate individual lessons to key course themes, and connect the curriculum to their own experiences and musical listening practices.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "2105",
+    "title": "Songs That Made History",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI", "IC", "WI"],
+    "sections": [{ "term": "202310", "crn": "19640" }],
+    "description": "Explores the history of the genre of song through a set of examples that have had enormous impact and influence, songs that have &ldquo;made history.&rdquo; Using songs selected by the faculty based on their expertise, this course aims to identify the social, cultural, musical, and poetic threads that have woven their way through song repertories, influencing song composition from its origins to the present day. Establishes commonalities and trends in order to understand how &ldquo;song&rdquo; has taken on an important cultural status that is unique to a specific time and place and is widespread, linking various songs together.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "2150",
+    "title": "Making a Musical: Analysis, Craft, and Creation",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "19641" },
+      { "term": "202310", "crn": "20715" }
+    ],
+    "description": "Explores how great musicals are constructed and what tools are needed, focusing on how effective lyrics are built; how songs function in musicals; and how book writers, lyricists, and composers create new works and adapt existing works from other media to the musical theater stage. Offers students an opportunity to transform analytical techniques and discoveries into creative strategies, building short musicals in collaborative teams. Students need not be musicians to participate in this class. Aspiring actors, composers, lyricists, authors of all styles, technical theater artists and designers, and all those with a curiosity about the history of musicals and how musicals are made are strongly encouraged to enroll.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "2208",
+    "title": "Jazz Improvisation",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19642" }],
+    "description": "Focuses on repertory as well as performance. Examines the great improvisational artists in American music, such as Charlie Parker, Miles Davis, and John Coltrane. Approaches analysis from a theoretical as well as a practical perspective. Explores the use of rhythm, chords, scales, and modes in the creative improvisation process.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "2209",
+    "title": "Conducting",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19643" }],
+    "description": "Provides instruction in the basic gestures used in conducting vocal and instrumental ensembles. Topics include beat patterns, conveying phrasing and articulation, cueing, controlling tempo and dynamics, score study, and rehearsal techniques. Provides an opportunity for students to constitute a laboratory ensemble for regular practicum.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "2210",
+    "title": "Introduction to Songwriting",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "19644" },
+      { "term": "202240", "crn": "40538" }
+    ],
+    "description": "Offers an opportunity to learn to construct songs with forward motion and memorable &ldquo;hooks.&rdquo;Topics include time-proven song forms, melody writing, harmonic tools, lyric writing, collaboration, and production techniques. Emphasizes the craft of writing songs for use in film and television.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "2311",
+    "title": "American Roots Music",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC", "WI"],
+    "sections": [{ "term": "202310", "crn": "16453" }],
+    "description": "Explores the musical heritage of the United States through a range of instructor-selected case studies. Offers students an opportunity to learn to identify various styles of music and relate them to larger discourses on a range of topics, i.e., democracy, cultural pluralism, identity, and other themes in American musical life. Uses weekly instructor lectures, readings of both primary and secondary texts, listening/viewing of multimedia, peer discussion and feedback, and hands-on exercises to analyze and explore the varied role of music in American life.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "2350",
+    "title": "Acoustics and Psychoacoustics of Music",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ND"],
+    "sections": [
+      { "term": "202310", "crn": "19646" },
+      { "term": "202310", "crn": "20716" }
+    ],
+    "description": "Introduces students from a variety of disciplines to the fundamentals of sonic production, transmission, and reception. Topics include impedance, refraction and diffraction, wave mechanics, frequency spectrum, and resonance. Applies core concepts to the understanding of the acoustics of musical instruments and loudspeakers. Explores basic auditory psychophysics. Offers students an opportunity to investigate real-life applications in the domains of music, sonic art, sound design, instrumental design, and recording.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "2420",
+    "title": "Music Composition Seminar 1",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["EI", "IC"],
+    "sections": [{ "term": "202310", "crn": "19860" }],
+    "description": "Exposes students to the basic methods of music composition. Analyzes examples from music literature to gain an understanding of the methods employed; students complete several compositions of their own.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "3353",
+    "title": "Music and the Racial Imagination",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "SI", "WI"],
+    "sections": [{ "term": "202310", "crn": "19663" }],
+    "description": "Addresses the history of the concept of race, taken as a cultural construct and a lived reality, long used to justify social, economic, and political inequality. Examines the relationship between musical sound and processes of racialization, addressing this relationship through a series of select historical and contemporary case studies, alongside grounding texts drawn from critical race studies, gender and sexuality studies, and ethnomusicology and popular music studies. Explores how the construction and everyday lived experience of race influenced music production, performance, reception, and analysis and how categories of race have been represented and questioned through the sonic and embodied acts of performers.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
+  },
+  {
+    "subject": "MUSC",
+    "number": "3410",
+    "title": "Recital 1",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19664" },
+      { "term": "202240", "crn": "41949" }
+    ],
+    "description": "Offers preparation for and performance of a minirecital (twenty to thirty minutes of music) under the guidance of the student&amp;#8217;s primary instrumental or vocal instructor. Minirecitals are usually shared by more than one student. Students take MUSC 3410 in place of MUSC 4992.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "4510",
+    "title": "Music and the Brain Research",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD", "CE", "ND"],
+    "sections": [{ "term": "202310", "crn": "19665" }],
+    "description": "Offers an overview of the perceptual, cognitive, and neural bases of performing, composing, and listening to music. Topics include acoustics and biological processing of sound; theories and empirical research on pitch, rhythm, harmony, melody, timbre, orchestration; similarities and differences between music and language; evolution and development of musical ability; and special populations in musical functions. Meetings include laboratory demonstrations and exercises in experiment design and data analysis. Requires a final project (paper and in-class presentation).",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MUSC",
+    "number": "4622",
+    "title": "Recital 2",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19666" }],
+    "description": "Offers preparation for and performance of a senior recital (forty to sixty minutes of music) under the guidance of the student&amp;#8217;s primary instrumental or vocal instructor.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "MUSC", "number": "3410" }]
+  },
+  {
+    "subject": "MUSC",
+    "number": "6510",
+    "title": "Music and the Brain Advanced Research",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20670" }],
+    "description": "Reviews contemporary studies in cognitive neuroscience of music, specifically in speech, language, and music. Offers students an opportunity to obtain in-depth training on the methods of cognitive neuroscience of music. Students design and implement a group project, analyze the data, and write up the results in an end-of-term paper.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

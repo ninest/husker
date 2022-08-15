@@ -1,0 +1,42 @@
+[
+  {
+    "subject": "HBRW",
+    "number": "1101",
+    "title": "Elementary Hebrew 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10067" }],
+    "description": "Designed for students with little or no prior knowledge of Hebrew. Presents a lively introduction to basic oral expression, listening comprehension, and elementary reading and writing. Uses practical vocabulary drawn from realistic situations, and aims at good pronunciation and ease in response.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HBRW",
+    "number": "1102",
+    "title": "Elementary Hebrew 2",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15542" }],
+    "description": "Continues HBRW 1101. Includes continued focus on oral expression, listening comprehension, and elementary reading and writing. Expands functional and practical vocabulary base drawn from realistic situations and focuses on grammatical accuracy. Continues to focus on good pronunciation and ease of response.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HBRW",
+    "number": "2101",
+    "title": "Intermediate Hebrew 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15636" }],
+    "description": "Emphasizes further vocabulary building. Offers students an opportunity to master the fine points of grammar through written composition, prepared oral reports, and reading and discussion from contemporary Hebrew materials.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "HBRW", "number": "1102" },
+      "Or",
+      { "subject": "HBRW", "number": "1302" }
+    ]
+  }
+]

@@ -6,7 +6,7 @@ import { readFile } from "@/lib/file/read";
 import { Course, Subject } from "@/types/courses";
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from "next";
 import { NextSeo } from "next-seo";
-import subjects from "../../../.raw/subjects.json";
+import subjects from "../../../data/subjects.json";
 
 interface Path {
   params: {
@@ -32,7 +32,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
   try {
     const courses: Course[] = JSON.parse(
-      readFile(`../.raw/courses/${subjectCode}.json`)
+      readFile(`../data/courses/${subjectCode}.json`)
     );
     return {
       props: { subject, courses },

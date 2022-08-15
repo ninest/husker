@@ -1,0 +1,683 @@
+[
+  {
+    "subject": "ACCT",
+    "number": "1201",
+    "title": "Financial Accounting and Reporting",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10430" },
+      { "term": "202310", "crn": "10429" },
+      { "term": "202310", "crn": "12282" },
+      { "term": "202310", "crn": "10511" },
+      { "term": "202310", "crn": "10428" },
+      { "term": "202310", "crn": "10427" },
+      { "term": "202310", "crn": "10917" },
+      { "term": "202310", "crn": "11383" },
+      { "term": "202310", "crn": "11458" },
+      { "term": "202310", "crn": "11459" },
+      { "term": "202310", "crn": "11948" },
+      { "term": "202310", "crn": "12283" },
+      { "term": "202310", "crn": "12803" },
+      { "term": "202310", "crn": "13321" },
+      { "term": "202310", "crn": "13779" },
+      { "term": "202310", "crn": "14571" },
+      { "term": "202310", "crn": "15402" },
+      { "term": "202310", "crn": "15403" },
+      { "term": "202310", "crn": "15433" },
+      { "term": "202310", "crn": "21028" },
+      { "term": "202310", "crn": "21029" },
+      { "term": "202310", "crn": "20801" },
+      { "term": "202260", "crn": "60909" },
+      { "term": "202260", "crn": "61484" },
+      { "term": "202260", "crn": "60967" },
+      { "term": "202240", "crn": "40030" },
+      { "term": "202240", "crn": "40029" }
+    ],
+    "description": "Covers the basic concepts underlying financial statements and the accounting principles followed in the preparation of the balance sheet, the income statement, and the statement of cash flows. Offers students an opportunity to become familiar with accounting terminology and methods designed to enable them to interpret, analyze, and evaluate published corporate financial reports. Wherever appropriate, the course relates current economic, business, and global events to accounting issues. Analyzes how financial reporting concepts affect the behavior of investors, creditors, and other external users. Emphasizes the importance of ethics in financial reporting.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "1209",
+    "title": "Financial Accounting and Reporting",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10898" },
+      { "term": "202310", "crn": "10899" },
+      { "term": "202310", "crn": "11232" },
+      { "term": "202310", "crn": "11233" },
+      { "term": "202310", "crn": "11234" },
+      { "term": "202310", "crn": "15500" },
+      { "term": "202310", "crn": "20381" },
+      { "term": "202240", "crn": "40148" },
+      { "term": "202240", "crn": "40149" },
+      { "term": "202240", "crn": "40150" },
+      { "term": "202240", "crn": "40151" },
+      { "term": "202240", "crn": "41774" },
+      { "term": "202240", "crn": "41821" }
+    ],
+    "description": "Does not count as credit for business majors. Counts as ACCT 1201 for business minors only. Requires second-semester-freshman standing or above.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "2301",
+    "title": "Managerial Accounting",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10480" },
+      { "term": "202310", "crn": "10425" },
+      { "term": "202310", "crn": "10424" },
+      { "term": "202310", "crn": "10483" },
+      { "term": "202310", "crn": "10484" },
+      { "term": "202310", "crn": "10485" },
+      { "term": "202310", "crn": "10486" },
+      { "term": "202310", "crn": "10487" },
+      { "term": "202310", "crn": "10967" },
+      { "term": "202310", "crn": "11128" },
+      { "term": "202310", "crn": "11129" },
+      { "term": "202310", "crn": "11894" },
+      { "term": "202310", "crn": "12108" },
+      { "term": "202310", "crn": "12284" },
+      { "term": "202310", "crn": "14012" },
+      { "term": "202310", "crn": "19311" },
+      { "term": "202310", "crn": "20240" },
+      { "term": "202310", "crn": "21030" },
+      { "term": "202260", "crn": "60033" },
+      { "term": "202260", "crn": "60032" },
+      { "term": "202260", "crn": "60681" },
+      { "term": "202240", "crn": "40028" },
+      { "term": "202240", "crn": "40118" },
+      { "term": "202240", "crn": "40286" }
+    ],
+    "description": "Focuses on the development and use of information&amp;#8212;especially financial information&amp;#8212;for managerial decisions within the firm. Introduces managerial accounting concepts, analyses, and practices that support business decisions through class discussions, exercises, and case analysis. Topics include budgeting, cost management and behavior, cost-volume-profit analysis, relevant costs for decision making, cost allocation issues, and performance evaluation. Emphasizes the importance of ethics.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ACCT", "number": "1201" },
+      "Or",
+      { "subject": "ACCT", "number": "1209" },
+      "Or",
+      { "subject": "ACCT", "number": "1202" }
+    ]
+  },
+  {
+    "subject": "ACCT",
+    "number": "3304",
+    "title": "Business Law and Professional Ethics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10911" }],
+    "description": "Covers business law, professional code of conduct, and the importance of ethical behavior in today&amp;#8217;s business environment. Examines legal aspects of commercial transactions and business relationships. Specifically, laws relating to contracts and sale of goods under the Uniform Commercial Code, agency law, and product liability law are discussed. May not be used as an accounting concentration elective.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "3401",
+    "title": "Financial Reporting and Analysis 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [
+      { "term": "202310", "crn": "10423" },
+      { "term": "202310", "crn": "10422" },
+      { "term": "202310", "crn": "11267" },
+      { "term": "202240", "crn": "40210" }
+    ],
+    "description": "Examines financial reporting concepts, emphasizing the link between them and financial statements. Focuses on both the preparation and interpretation of financial statements, with students also being introduced to basic tools in financial statement analysis, such as ratio and accounting analysis. Gives students the opportunity to understand how management decisions can influence reported income, asset, and liability values, and the importance of ethics when making accounting choices. Offers students the tools necessary to analyze the impact of alternative reporting decisions on financial statements. In addition to accounting majors, this course is ideal for students who wish to pursue careers in corporate finance, investment banking, investment management, or consulting.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "3403",
+    "title": "Advisory Services and Emerging Accounting Systems",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10421" }],
+    "description": "Provides an understanding of accounting information systems, with an emphasis on the role of technology and risk analysis. Information is critical for the effective and efficient management of any organization. Addresses concepts and applications relating to the design, analysis, and implementation of accounting systems. Examines the role of e-commerce and Internet-based technologies, including their implications for ethics and privacy, throughout the course.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "3416",
+    "title": "Strategic Cost Analysis for Decision Making",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10419" },
+      { "term": "202240", "crn": "41676" }
+    ],
+    "description": "Develops understanding of the critical role of cost measurement and management in business decisions and in managing a firm&rsquo;s profitability. Focuses on the strategic use of cost information for planning and control, as well as costing products, services, and customers. Emphasizes the role of management accountants as integral members of decision-making teams and as consultants to senior management. Studies alternate ways of measuring costs to meet different management objectives, the role of budgeting as a planning and management tool, the use of cost analysis as a control tool to help management meet short- and long-term profit objectives, and the importance of ethics in achieving all of these objectives. In addition to accounting majors, this course is ideal for students who wish to pursue a career in finance, general management, operations management, supply chain management, or entrepreneurship.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "ACCT", "number": "2301" }]
+  },
+  {
+    "subject": "ACCT",
+    "number": "4412",
+    "title": "Auditing and Other Assurance Services",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12111" },
+      { "term": "202310", "crn": "12598" }
+    ],
+    "description": "Focuses on issues relevant to the public accounting profession and to internal auditors and managers in private or governmental organizations. Topics include legal liability and ethics, business and audit risk assessment, fraud detection and prevention procedures, planning of audit engagements, audit reports, other assurance services and reports, and the effect of information technology on the audit process. Offers students the opportunity to think critically about issues facing the auditing profession.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "4414",
+    "title": "Income Tax Determination and Planning",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10883" },
+      { "term": "202260", "crn": "60459" }
+    ],
+    "description": "Provides a basic understanding of the structure of the federal income tax system. Taxes can have a significant impact on the viability of a number of personal finance and business decisions. Focuses on the individual taxpayer but also considers the implications for other entities. Tax return projects, research cases, and planning projects help demonstrate the potential impact of taxes on decision making.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "ACCT", "number": "2301" }]
+  },
+  {
+    "subject": "ACCT",
+    "number": "4501",
+    "title": "Financial Reporting and Analysis 2",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10418" },
+      { "term": "202310", "crn": "10417" },
+      { "term": "202310", "crn": "10167" }
+    ],
+    "description": "Continues ACCT 3401 with a more extensive study of financial statements and the financial reporting rules underlying them. Advanced topics include bonds, pensions, leases, earnings per share, and earnings management. Introduces more advanced financial statement analysis tools. Offers students an opportunity to continue to gain the ethical awareness and the knowledge necessary to analyze the impact of alternative reporting decisions on financial statements.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "ACCT", "number": "3401" }]
+  },
+  {
+    "subject": "ACCT",
+    "number": "5220",
+    "title": "Data Analytics for Advisory Services",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19687" }],
+    "description": "Covers how data analytics is used to address business problems in the advisory services field. Examines how to master, test, analyze, and present data using Excel, Tableau, and SQL, among other data analytics tools. Emphasizes how to apply data analytics skills to managerial analytics, financial statement analytics, and tax analytics through advisory-type projects and labs.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "5230",
+    "title": "Federal Tax Issues and Analysis",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15467" }],
+    "description": "Gives a broad examination of tax authority as it guides action on tax issues including personal and business decisions. Examines the tax structure with a specific focus on the income and expenses for individual taxpayers. Emphasizes property transactions (including the calculation of basis, gain/loss, and the resulting tax treatment). Also incorporates tax planning and research related to these issues. Students who do not meet course prerequisites or restrictions may seek permission of instructor.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "5232",
+    "title": "Estate and Gift Taxation",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15471" }],
+    "description": "Focuses on the study of the taxes common to the transfer of property and wealth. Topics include gift tax deductions and exclusions, estate valuation, state tax deductions and exemptions, and tax rates. Also explores planning opportunities for these wealth transfer taxes. Students who do not meet course prerequisites or restrictions may seek permission of instructor.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ACCT", "number": "5230" },
+      "Or",
+      { "subject": "ACCT", "number": "5230" },
+      "Or",
+      { "subject": "ACCT", "number": "6230" }
+    ]
+  },
+  {
+    "subject": "ACCT",
+    "number": "5255",
+    "title": "Forensic Accounting",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13246" }],
+    "description": "Offers an overview of occupational fraud and the methodology of fraud examination (i.e., obtaining documentary evidence, interviewing witnesses and potential suspects, writing investigative reports, testifying to findings, and forensic document examination). Offers students an opportunity to learn how to detect the most common types of occupational fraud, determining how each type of fraud is committed, and implementing prevention strategies. Students who do not meet course prerequisites or restrictions may seek permission of instructor.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "5256",
+    "title": "Internal Auditing",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "61023" }],
+    "description": "Offers an overview of the internal audit function and explores the duties and responsibilities of the internal auditor. Offers students an opportunity to learn about the planning and organizing of an internal audit department and its coordination with an outside auditor as well as to learn to analyze how the design of an internal control auditing process can reduce risk exposure and enhance internal controls. Students who do not meet course prerequisites or restrictions may seek permission of instructor.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6200",
+    "title": "Financial Reporting and Managerial Decision Making 1",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10710" },
+      { "term": "202310", "crn": "10766" },
+      { "term": "202310", "crn": "17836" },
+      { "term": "202240", "crn": "40171" }
+    ],
+    "description": "Offers the first of a two-course sequence that focuses on the acquisition, measurement, and management of firm resources. Business managers make strategic decisions about the acquisition and use of a variety of firm resources. Helps enable students to understand and utilize critical information in corporate financial reports to improve business decision making. Offers students the opportunity to learn contemporary methods of financial reporting and analysis used by internal decision makers and external capital providers. Required course for co-op MBA/part-time MBA.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6201",
+    "title": "Financial Reporting and Managerial Decision Making 2",
+    "scheduleType": "Lecture",
+    "credits": 1.5,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11500" },
+      { "term": "202240", "crn": "40092" }
+    ],
+    "description": "Continues ACCT 6200, offering the second of a two-course sequence that focuses on the acquisition, measurement, and management of firm resources. Critical to the effective planning, implementation, and management of successful business strategies is the ability to measure and manage the commitment and utilization of entity resources. Focuses on contemporary methods and frameworks used in the process of measuring, analyzing, and allocating firm resources to achieve strategic and operating objectives. Required course for co-op MBA/part-time MBA.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6203",
+    "title": "Business Entity Taxation",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202240", "crn": "40101" },
+      { "term": "202240", "crn": "41331" }
+    ],
+    "description": "Provides an in-depth look at the structure of the federal income tax system as it relates to different taxable entitites. Emphasizes tax compliance, planning, and research as they impact the decision-making process for corporation and flow-through entities. Also examines the implications of wealth transfer taxes.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6204",
+    "title": "Financial Reporting for Integrated Multinational Enterprises",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11200" },
+      { "term": "202260", "crn": "60099" }
+    ],
+    "description": "Presents and discusses financial reporting practices for diversified, international business entities. In today&amp;#8217;s global business environment, many corporations operate diverse economic activities and often conduct those activities across geographic boundaries. Examines accounting and disclosure standards in the United States that are relevant to presenting consolidated financial statements. Also analyzes accounting and disclosure standards in other countries and those developed by international bodies with respect to their effects on reporting entities and the financial markets.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6205",
+    "title": "Auditing in a Big Data Environment",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "60110" }],
+    "description": "Intended for students with a prior course in assurance services and/or auditing. Focuses on the coverage of current significant issues in the assurance services and big data environment. Topics include the impact of technology on the audit process, client risk assessment and statistical data analysis, other assurance services and nonattestation engagements, and the use of complex decision aids. Emphasis is also on contemporary ethical and legal issues confronting the public accounting profession. Offer students the opportunity to think critically about a number of significant issues facing the auditing profession and also introduces impact of big data, the audit judgment, and decision-making process through the completion of a variety of audit cases.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6207",
+    "title": "Contemporary and Emerging Issues in Financial Reporting",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202240", "crn": "40087" },
+      { "term": "202240", "crn": "41441" }
+    ],
+    "description": "Focuses on the theoretical concepts of accounting with an examination of standards issued by various professional organizations including the FASB, SEC, and AICPA. Also examines emerging issues in corporate, governmental, and nonprofit financial reporting. Real-world cases are used to illustrate and discuss the complex financial reporting process and ethical issues confronted by the business community and accounting profession.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6216",
+    "title": "Financial Reporting for Governments and Nonprofit Entities",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11199" },
+      { "term": "202260", "crn": "60109" }
+    ],
+    "description": "Covers business issues and financial reporting standards for state and local governments within the United States, as well as for nonprofit organizations. These organizations make up a large and growing share of the economy, and so it is important to consider whether the funds entrusted to them by taxpayers and donors are being used effectively. These entities have unique ways of reporting their financial results, based on their specific business purposes and the needs of their constituents. The course discusses these reporting methods and the use of the resulting financial reports in evaluating performance within the government and nonprofit contexts.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6217",
+    "title": "Corporate Governance, Ethics, and Financial Reporting",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "17863" },
+      { "term": "202240", "crn": "41119" },
+      { "term": "202240", "crn": "41442" }
+    ],
+    "description": "Deals with issues related to corporate governance and audit committee mechanisms in preventing financial reporting disasters and in providing high-quality financial reports to global capital markets. Emphasizes the role of the board of directors and its committees, management, shareholders, external auditors, and internal auditors in developing sound ethical practices and a good corporate governance culture. Examines efforts by legislative and regulatory bodies and the accounting profession in improving financial reporting transparency and auditor independence.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6220",
+    "title": "Corporate Financial Reporting and Decision Making 1",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202240", "crn": "40091" },
+      { "term": "202240", "crn": "41443" }
+    ],
+    "description": "Examines the development of financial reports including their underlying concepts and measurement theories. Corporate financial reporting is a dynamic process in which information is provided to internal and external decision makers to assist them in the effective allocation of economic resources. Examines the legal, economic, and political processes that influence the financial reporting process.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6221",
+    "title": "Corporate Financial Reporting and Decision Making 2",
+    "scheduleType": "Lecture",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202260", "crn": "60104" },
+      { "term": "202260", "crn": "61055" }
+    ],
+    "description": "Continues ACCT 6220. Examines corporate financial reporting in the decision-making process. Emphasis is on the economic consequences of alternative financial reporting practices. Provides students with the ability to understand and utilize critical information contained in corporate financial reports to improve business decision making.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "ACCT", "number": "6220" }]
+  },
+  {
+    "subject": "ACCT",
+    "number": "6222",
+    "title": "Corporate and Governmental/Nonprofit Financial Reporting and Decision Making",
+    "scheduleType": "Lecture",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10706" }],
+    "description": "Continues the study of corporate financial reporting, covering specialized topics that assume knowledge of the accounting principles covered in the first two courses. Topics include corporate reporting as equity instruments, executive compensation, reporting of fund flows, and reporting and disclosures for corporations engaged in diverse economic activities and those operating across geographic boundaries. Examines accounting and disclosure standards in the United States and in other countries, as well as standards developed by international bodies. Covers financial reporting models used by governmental and nonprofit entities.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "ACCT", "number": "6221" }]
+  },
+  {
+    "subject": "ACCT",
+    "number": "6223",
+    "title": "Audit and Other Assurance Services",
+    "scheduleType": "Lecture",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18109" }],
+    "description": "Introduces the attest function and its application to financial statement opinion audits and other assurance services common in today&amp;#8217;s professional environment. Emphasizes a risk-based approach to audit planning, the internal control structure, and the control environment; the design of test of controls, substantive tests, and the resultant audit report. Topics include audit sampling, audit evidence, audit procedures, workpaper preparation, the impact of information technology on the audit process, and the auditor&amp;#8217;s responsibility to detect fraud. A primary focus is the auditor&amp;#8217;s legal and ethical responsibilities. Emphasis is also on operational audits, compliance audits, reviews, compilation, and other attestation services.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6224",
+    "title": "Taxation of Individuals and Business Entities",
+    "scheduleType": "Lecture",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19312" }],
+    "description": "Introduces the principles of taxation including income and expenses, tax accounting methods, and the tax implications of property transactions (including the calculation of basis as well as gains and losses). Emphasizes tax compliance, planning, and research as they impact the decision-making process for individuals, corporations, and flow-through entities.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "ACCT", "number": "6221" }]
+  },
+  {
+    "subject": "ACCT",
+    "number": "6227",
+    "title": "Accounting for Business Combinations",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202240", "crn": "40090" },
+      { "term": "202240", "crn": "41444" }
+    ],
+    "description": "Examines the conceptual and practical aspects of business combinations. Topics include mergers and acquisitions, purchase accounting, cost vs. equity method, and accounting for intercompany transactions between a parent company and its subsidiaries.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6228",
+    "title": "Contemporary Issues in Accounting Theory",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202260", "crn": "60103" },
+      { "term": "202260", "crn": "61251" }
+    ],
+    "description": "Offers a capstone course on the theoretical concepts of accounting, with a focus on standards issued by various professional organizations including the FASB, SEC, and AICPA. Examines emerging issues in financial reporting. Real-world cases are utilized to illustrate the complex financial reporting issues confronted by the business community and accounting profession.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6229",
+    "title": "Accounting for Foreign Currency Transactions",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202240", "crn": "40114" },
+      { "term": "202240", "crn": "41445" }
+    ],
+    "description": "Examines the accounting and reporting issues facing multinational enterprises operating in foreign countries. Business transactions that are denominated in foreign currency may result in risk for the entity as a result of fluctuations in exchange rates. This course evaluates risk management techniques by use of forward exchange contracts and other financial derivatives. Covers reporting issues dealing with the translation of foreign entities financial statements into U.S. dollars and appropriate remeasurement techniques.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6231",
+    "title": "Corporations and  Shareholders",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "16546" },
+      { "term": "202260", "crn": "60223" }
+    ],
+    "description": "Provides an in-depth study of the tax issues related to the corporate form and the corresponding tax implications for its shareholders. Given the importance of corporations in the federal income tax system, an understanding of the tax issues related to this type of business is essential for tax professionals. Topics include capital formation and structure, the operations of the corporation, distributions, dividends and redemptions, sales and liquidations, and taxable and tax-free reorganizations.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ACCT", "number": "6230" },
+      "Or",
+      { "subject": "ACCT", "number": "5230" },
+      "Or",
+      { "subject": "ACCT", "number": "5230" }
+    ]
+  },
+  {
+    "subject": "ACCT",
+    "number": "6235",
+    "title": "Partners and  Partnerships",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "16545" },
+      { "term": "202260", "crn": "60224" }
+    ],
+    "description": "Provides an in-depth study of the tax issues related to one of the central flow-through entities, the partnership. The increasing popularity of flow-through entities as an organizational form has made an understanding of the tax issues related to this type of entity an important area of study for tax professionals. Topics include capital formation, operations, transactions between the partner and the partnership, distributions, sales of partnership interests, and liquidation of the partnership.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6240",
+    "title": "International Taxation: Inbound Transactions",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15470" }],
+    "description": "Addresses the taxation of foreign individuals or corporations receiving income from sources, or conducting business, in the United States. With the globalization of the economy, a greater number of taxpayers must consider the impact of international taxation. Topics include the sourcing of income, taxation of passive income, taxation of income connected to a U.S. trade or business, branch-level taxes, issues of foreign-owned U.S. corporations, income tax treaties, and transfer pricing.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ACCT", "number": "6231" },
+      "And",
+      { "subject": "ACCT", "number": "6235" }
+    ]
+  },
+  {
+    "subject": "ACCT",
+    "number": "6241",
+    "title": "International Taxation: Outbound Transactions",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15468" }],
+    "description": "Examines the federal taxation of U.S. individuals receiving income from sources or conducting business in foreign jurisdictions. An increase in the number of U.S. individuals and corporations operating in other countries has enhanced the importance of an understanding of international transactions for tax professionals. Examines sourcing of income, allocation and apportionment of deductions, foreign tax credits, taxation of U.S. citizens and residents abroad, controlled federal corporations, passive foreign investment companies, foreign currency translations and transactions, and special entities.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ACCT", "number": "6231" },
+      "And",
+      { "subject": "ACCT", "number": "6235" }
+    ]
+  },
+  {
+    "subject": "ACCT",
+    "number": "6243",
+    "title": "Advanced Flow-Through Entities",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15336" }],
+    "description": "Offers an in-depth look at the tax consequences of businesses formed as flow-through entities (including partnerships, S corporations, and LLCs). Discusses allocation rules, liability sharing rules, disguised sales rules, partnership debt workouts, the S corporation election, and tax treatment of shareholders in an S corporation.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6248",
+    "title": "Income Taxation of Trusts and Estates",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16547" }],
+    "description": "Examines the general rules for the taxation of estates and trusts. Topics include trusts that distribute current income only, grantor trusts, irrevocable trusts, charitable vehicles, income in respect of a decedent, estates and trusts that may accumulate income or may distribute corpus, and treatments of excess distributions and beneficiaries.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "ACCT", "number": "6232" }]
+  },
+  {
+    "subject": "ACCT",
+    "number": "6253",
+    "title": "Ethics in the Accounting Profession",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12383" },
+      { "term": "202260", "crn": "60228" }
+    ],
+    "description": "Focuses on the roles and ethical responsibilities in the accounting, auditing, and tax professions. Also covers ethical behavior by management as well as the legal guidelines that apply in a business setting.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6254",
+    "title": "Accounting Research and Communication",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202260", "crn": "60226" },
+      { "term": "202260", "crn": "61094" }
+    ],
+    "description": "Requires students to research and analyze auditing issues by using quantitative and/or qualitative research methods. Offers students an opportunity to learn how to more effectively communicate those findings in a professional format.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6262",
+    "title": "Advanced Topics in Accounting",
+    "scheduleType": "Lecture",
+    "credits": 1.5,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "21053" }],
+    "description": "Tax Research and Practice and Procedures",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6280",
+    "title": "Planning and Budgeting for Innovation",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "40443" }],
+    "description": "Covers the fundamental methods by which the financial successes and failures of business enterprises are measured and reported to management and external capital providers. Offers students an opportunity to become proficient at analyzing financial statement information in order to assess the effects of business decision making on firm performance. Addresses analytics focusing on the identification of capital to fund innovation initiatives in conjunction with metrics to measure the potential value associated with new product and service offerings. Seeks to help students understand how management decisions and innovation initiatives affect enterprise financial statements and shareholder perceptions of value creation.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6292",
+    "title": "Tax Research, Practice, and Ethics",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15469" }],
+    "description": "Offers students an opportunity to develop and refine their tax research skills through practical exercises. Covers the creation of various sources of tax authority. Exposes students to the procedures used in dealing with the Internal Revenue Service (IRS), with an emphasis on practitioner responsibilities. Reviews the organization of the IRS, filing requirements, appeal procedures, civil/criminal statutes, assessments, and protests. Includes a study of the value and moral judgments inherent in the field of taxation, including client confidentiality, disclosure of false or misleading information, and advice counter to the law or public good.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ACCT",
+    "number": "6318",
+    "title": "Analyzing Accounting Data for Strategic Decision Making",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13693" },
+      { "term": "202310", "crn": "13694" }
+    ],
+    "description": "Highlights managerial decisions affecting a company&rsquo;s performance in generating revenues, controlling costs, and producing profits. Begins with a brief review of financial accounting, then focuses on the development and use of information, especially financial information, for managerial decisions related to the firm&rsquo;s planning&mdash;operations&mdash;control cycle.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

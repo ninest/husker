@@ -1,0 +1,132 @@
+[
+  {
+    "subject": "DAMG",
+    "number": "6105",
+    "title": "Data Science Engineering with Python",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "17519" },
+      { "term": "202310", "crn": "17528" }
+    ],
+    "description": "Studies the Python programming language with data science as the application domain. Offers students an opportunity to learn how to perform complex numerical calculations, fixed data types, space efficiency, and vector manipulations. Covers tools and techniques for manipulating tables, spreadsheets, and group and pivot tables involving extremely large data sets. Covers large multidimensional arrays and matrices and the high-level mathematical functions to operate on these arrays. Studies how to use Python to manipulate the classic math and science algorithms. Analyzes helper functions such as linear and nonlinear regression, integration, Fourier transformations, numerical optimization, etc. Includes higher-level classes for manipulating and visualizing data. Applies tools and techniques to classical data science using cases such as time series forecasting, social network analysis, text analytics, and big data processing.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "DAMG",
+    "number": "6210",
+    "title": "Data Management and Database Design",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "16149" },
+      { "term": "202310", "crn": "16150" },
+      { "term": "202310", "crn": "16151" },
+      { "term": "202310", "crn": "16152" },
+      { "term": "202310", "crn": "16153" },
+      { "term": "202310", "crn": "16154" },
+      { "term": "202310", "crn": "16156" },
+      { "term": "202310", "crn": "16157" },
+      { "term": "202310", "crn": "19097" }
+    ],
+    "description": "Studies design of information systems from a data perspective for engineering and business applications; data modeling, including entity-relationship (E-R) and object approaches; user-centric information requirements and data sharing; fundamental concepts of database management systems (DBMS) and their applications; alternative data models, with emphasis on relational design; SQL; data normalization; data-driven application design for personal computer, server-based, enterprise-wide, and Internet databases; and distributed data applications.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "DAMG",
+    "number": "7245",
+    "title": "Big-Data Systems and Intelligence Analytics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16158" }],
+    "description": "Offers students an opportunity to learn a hands-on approach to understanding how large-scale data sets are processed and how data science algorithms are adopted in the industry through case studies and labs. This project-based course builds on INFO 7390 and focuses on enabling students with tools and frameworks primarily to build end-to-end applications. The course is divided into three parts: building the data pipeline for data science, implementing data science algorithms, and scaling and deploying data science algorithms.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "INFO", "number": "6105" },
+      "Or",
+      { "subject": "DAMG", "number": "6105" }
+    ]
+  },
+  {
+    "subject": "DAMG",
+    "number": "7250",
+    "title": "Big Data Architecture and Governance",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "16159" },
+      { "term": "202260", "crn": "61417" }
+    ],
+    "description": "Focuses on creating and managing a data-driven enterprise. Geared to current IT technical professionals, data scientists, technical project managers, aspiring IT professionals, and managers who want to understand the complex nature of creating and managing data-driven projects to support the new and legacy data environments. Covers the analysis that is required to design data-driven projects and make appropriate recommendations for the target state of an organization. This analysis is used as input to create a comprehensive road map to achieve the target state and includes current and future uses of data, consumption methods, data sources and categories, and aggregation and quality requirements.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CSYE", "number": "6200" },
+      "Or",
+      { "subject": "DAMG", "number": "6105" },
+      "Or",
+      { "subject": "DAMG", "number": "6210" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "6210" }
+    ]
+  },
+  {
+    "subject": "DAMG",
+    "number": "7275",
+    "title": "Advanced Database Management Systems",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16160" }],
+    "description": "Introduces the skill set required to become a serious database applications developer. Offers an overview of the Oracle9i object-relational database system for those who have mastered the fundamental principles of database design and are competent with basic SQL. Gives students the opportunity to develop a strong understanding of the PL/SQL programming language, which is used to create triggers, user-generated functions, stored procedures, and packages for programming Oracle objects. Emphasizes advanced SQL features and Oracle-specific SQL enhancements. Covers optimization and tuning issues. Covers corresponding material for Transact-SQL (used for Microsoft SQL Server and Sybase database systems) as time and resources permit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "DAMG",
+    "number": "7350",
+    "title": "Systems and Cybersecurity Fundamentals",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16164" }],
+    "description": "Presents the principles of data and technology that define systems and cybersecurity from a socio-technical perspective. Offers students an opportunity to gain insight into the importance of systems security within cybersecurity and the integral role that information systems analysts play in developing cybersecure systems that people use. Through hands-on dynamic learning, students explore foundational cybersecurity principles, security architecture, risk management, attacks and mitigation strategies using Kali Linux, cyber incident response, and emerging IT/IS technologies.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "DAMG",
+    "number": "7370",
+    "title": "Designing Advanced Data Architectures for Business Intelligence",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "16165" },
+      { "term": "202310", "crn": "16166" },
+      { "term": "202260", "crn": "61419" }
+    ],
+    "description": "Focuses on designing advanced data architectures supporting structured, unstructured, and semistructured data sources; hybrid integration and data engineering; and analytical uses by casual information consumers, power users, and data scientists. Technologies include databases (relational, columnar, in-memory, and NoSQL); hybrid data, application, and cloud integration; data preparation; data virtualization; descriptive, diagnostic, predictive, and prescriptive analytics; and on-premise and on-cloud deployments. Topics include data structures, data models, data integration workflow and data engineering, data integration, data preparation, and data virtualization.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "DAMG",
+    "number": "7374",
+    "title": "ST: Data Integration",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18019" }],
+    "description": "Offers topics of current interest in data architecture and management. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "DAMG", "number": "7370" }]
+  }
+]

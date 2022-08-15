@@ -1,0 +1,98 @@
+[
+  {
+    "subject": "SUEN",
+    "number": "6110",
+    "title": "Graduate Studio 1: Sustainable Urban Sites",
+    "scheduleType": "Studio",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11824" }],
+    "description": "Offers a studio-based graduate-level introduction to design and management of sustainable urban sites. Core topics include fundamental site analysis, formal organization, spatial definition, and site operations. Emphasizes the contextual, programmatic, performative, aesthetic, and experiential aspects of waterfront and brownfield revitalization, with a focus on urban and landscape ecology best management practices (BMPs). Key tools and media are introduced and practiced in increasingly complex applications, including basic drawing, modeling, and design software.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "SUEN",
+    "number": "6210",
+    "title": "Implementation and Visualization for Urban Environments 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11825" }],
+    "description": "Offers an intensive introduction to site analysis and manipulation of earthworks, water, and vegetation, with a focus on disturbance regimes within waterfront and brownfield zones. Core topics emphasize the ecological services promoted by the urban environment, including urban soil structure; contouring the urban surface; regional plant communities; and storm water, surge, and tidal flux management. Supports development of implementation skills by training in vector, raster, and 3D modeling software. Constitutes the first half of a two-part sequence and provides the foundation for SUEN 6220.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "SUEN",
+    "number": "6310",
+    "title": "Cities, Nature, and Design in Contemporary History and Theory",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14262" }],
+    "description": "Offers a lecture course presenting a historical overview of evolving cultural, environmental, and technological influences on societal attitudes toward the relationship of cities, nature, and design. Core topics include the emergence of critical theories, aesthetic philosophies, and design typologies in the modern era of industrialization and the subsequent impact of information, participation, and globalization trends on twenty-first-century-designed urban environments.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "SUEN",
+    "number": "6340",
+    "title": "Topics in Urban Environmental Design",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14150" }],
+    "description": "Offers a lecture- and discussion-based course focusing on research themes relevant to the MDes-SUEN graduate program curriculum. Topics are developed based upon instructor&amp;#8217;s research relative to particular urban, ecological, sociological, landscape architectural, or technical subjects. Exposes students to cutting-edge methods of research and practice in designed urban environments. May be repeated up to two times.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "SUEN",
+    "number": "7130",
+    "title": "Master&amp;#8217;s Research Studio: Design and the Resilient City",
+    "scheduleType": "Studio",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11939" }],
+    "description": "Offers an advanced graduate studio focusing on contemporary landscape and urbanism research strategies. Themes include ecological, economic, and social resiliency in urban environments. Offers students an opportunity to formulate original approaches to design research. Uses integrated analysis, visualization, and conceptualization skills to progress through group and individual exercises with a focus on design thinking for climate change, water rise, public health and security, and other issues of global relevance. Requires the formulation of a design thesis for resilient urban environments, presented and defended in written, oral, and digital formats, which provides the basis for development of individual design proposals in SUEN 7140. Requires permission of the Urban Landscape program for students without a BARCH, BLA, MARCH, MCP, MLA, MRP, MUD, or equivalent. May be repeated once.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "SUEN",
+    "number": "7230",
+    "title": "Urban Ecologies and Technologies 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11940" }],
+    "description": "Offers a workshop-based course as the first in a two-part sequence. Lectures, in-class exercises, and site-based investigation use case-study methods to document ecotechnologies operating in the built environment, with a focus on design and implementation metrics, material life cycle management, funding models, and aesthetic and cultural aspects. Potential topics include green roofs, green walls, bioswales, pervious pavements, constructed wetlands, &amp;#8220;complete streets&amp;#8221; elements, geosensor networks, alternative waste management, water detention and energy generation methods, and living infrastructure for coastal environments.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "SUEN",
+    "number": "7320",
+    "title": "Pro-Seminar: Issues in Designed Urban Environments",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14673" }],
+    "description": "Offers an advanced graduate seminar examining the forces shaping designed urban environments in contemporary global culture. A diverse range of material from published design criticism to open source social media engagement provides basis for discussion and written and oral presentations. Course themes determined by the instructor parallel the studio sequence SUEN 7130 and SUEN 7140, although discussion topics are broadly presented to engage graduate students from any background. May be repeated up to three times.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "SUEN",
+    "number": "7978",
+    "title": "Independent Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "41972" }],
+    "description": "Offers independent work under the direction of members of the department and/or interdisciplinary faculty. Course content is defined and approved by instructor. May be repeated up to 11 times for up to 12 total credits.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

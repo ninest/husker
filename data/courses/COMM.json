@@ -1,0 +1,933 @@
+[
+  {
+    "subject": "COMM",
+    "number": "1000",
+    "title": "Communication Studies at Northeastern",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10499" },
+      { "term": "202310", "crn": "11861" },
+      { "term": "202310", "crn": "10837" }
+    ],
+    "description": "Designed to provide a unique opportunity to engage faculty, professional staff, and peer mentors in small group discussions. Introduces students to the College of Arts, Media and Design. Offers students an opportunity to learn about the communication studies major and to explore the different areas of emphasis offered by the department. As part of the course, students are expected to prepare a detailed plan of study and are introduced to the co-op program and meet their academic co-op advisor.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "1101",
+    "title": "Introduction to Communication Studies",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "10246" },
+      { "term": "202310", "crn": "20508" },
+      { "term": "202260", "crn": "60887" },
+      { "term": "202240", "crn": "40235" },
+      { "term": "202240", "crn": "41709" }
+    ],
+    "description": "Surveys the field of communication studies. Covers major theories and methodological approaches in communication studies and situates communication within larger social, political, and economic institutions. Exposes students to ways of ethical reasoning across communication contexts, including organizational communication, social media, intercultural communication, mass media, and interpersonal communication.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "1112",
+    "title": "Public Speaking",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "10341" },
+      { "term": "202310", "crn": "10340" },
+      { "term": "202310", "crn": "10339" },
+      { "term": "202310", "crn": "17111" },
+      { "term": "202310", "crn": "19576" },
+      { "term": "202310", "crn": "11300" },
+      { "term": "202310", "crn": "12330" },
+      { "term": "202310", "crn": "13200" },
+      { "term": "202310", "crn": "14640" },
+      { "term": "202310", "crn": "14641" },
+      { "term": "202310", "crn": "15096" },
+      { "term": "202310", "crn": "15356" },
+      { "term": "202310", "crn": "15383" },
+      { "term": "202310", "crn": "20709" },
+      { "term": "202260", "crn": "60207" },
+      { "term": "202260", "crn": "61413" },
+      { "term": "202260", "crn": "61489" },
+      { "term": "202240", "crn": "40031" },
+      { "term": "202240", "crn": "40197" },
+      { "term": "202240", "crn": "40971" },
+      { "term": "202240", "crn": "41771" },
+      { "term": "202240", "crn": "41788" }
+    ],
+    "description": "Develops skills in public communication. Topics include choosing and researching a topic, organizing and delivering a speech, handling speech anxiety, listening critically, and adapting language to an audience. Offers the opportunity for students to present a series of speeches and receive advice and criticism from an audience.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "1113",
+    "title": "Business and Professional Speaking",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "12321" },
+      { "term": "202310", "crn": "19577" },
+      { "term": "202310", "crn": "13201" },
+      { "term": "202310", "crn": "13202" },
+      { "term": "202310", "crn": "15267" },
+      { "term": "202260", "crn": "60904" },
+      { "term": "202260", "crn": "61420" },
+      { "term": "202240", "crn": "40461" },
+      { "term": "202240", "crn": "40972" }
+    ],
+    "description": "Designed to assist students in developing advanced public speaking and presentational skills for professional and leadership positions. Covers fundamentals such as audience, speech objectives and structure, and effective delivery. Emphasizes the production and successful interaction with electronic and traditional supportive media. Offers students an opportunity to develop their presentational skills in a variety of settings and realistic business tasks.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "1120",
+    "title": "Principles of Argumentation",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["FQ"],
+    "sections": [{ "term": "202310", "crn": "19578" }],
+    "description": "Considers how the theories and techniques of argumentation can be used to understand and promote differing points of view, explore ideas and alternatives, and convince others of the need to change or act. Starts with the principles of formal logic and introduces students to truth tables and diagramming techniques. Continues to discuss informal logic and modern argumentation theory, including argumentative reconstruction, argument structures, argument schemes and critical questions, as well as informal fallacies. Concludes with a discussion of the effective use of reasoning in society from a logical, dialectical, and rhetorical point of view.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "1131",
+    "title": "Sex, Relationships, and Communication",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [
+      { "term": "202310", "crn": "11944" },
+      { "term": "202310", "crn": "20710" },
+      { "term": "202260", "crn": "60225" },
+      { "term": "202240", "crn": "40236" }
+    ],
+    "description": "Focuses on communication within the context of close relationships. Topics covered include the role of communication in interpersonal attraction, relationship development, relationship maintenance, and relationship dissolution. Examines how communication impacts relationship quality and commitment. Offers students an opportunity to apply what they learn in the course to their personal and professional lives.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "1210",
+    "title": "Persuasion and Rhetoric",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC"],
+    "sections": [
+      { "term": "202310", "crn": "11480" },
+      { "term": "202310", "crn": "12331" },
+      { "term": "202240", "crn": "40462" }
+    ],
+    "description": "Seeks to teach students to be more astute receivers and producers of persuasive messages by learning how to dissect them. Examines both classical and contemporary theories of persuasion, after which students consider &amp;#8220;persuasion in action&amp;#8221;&amp;#8212;how persuasion is used in everyday language, nonverbal communication, sales techniques, politics, and propaganda. Ethical issues in persuasion are addressed throughout the course.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "1225",
+    "title": "Communication Theory",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC"],
+    "sections": [
+      { "term": "202310", "crn": "11945" },
+      { "term": "202310", "crn": "20711" },
+      { "term": "202260", "crn": "60546" },
+      { "term": "202240", "crn": "40669" }
+    ],
+    "description": "Explores communicative and cultural practice from a wide variety of theoretical perspectives. Considers a wide range of cultural practices, texts, and artifacts, including popular culture (television shows, movies, and video games); social media and online content; as well as organizational communication (press releases) and interpersonal interactions (conversations between romantic partners). Communication theory is based on two premises: Our cultural assumptions inform and shape our ability to communicate; and communication is the process through which culture is created, modified, and challenged.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "1231",
+    "title": "Principles of Organizational Communication",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC"],
+    "sections": [
+      { "term": "202260", "crn": "60376" },
+      { "term": "202240", "crn": "40394" }
+    ],
+    "description": "Surveys the communication process in complex organizations. Topics include the evolution of organizational communication, communication networks, information management, and communication climate. Analyzes case studies and teaches how to improve the quality of communication in an organization.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "1255",
+    "title": "Communication in a Digital Age",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "16392" },
+      { "term": "202310", "crn": "20712" }
+    ],
+    "description": "Covers digital communication&amp;#8217;s history, technical basis (&amp;#8220;protocol&amp;#8221; and the &amp;#8220;Web&amp;#8221; ), communicative effects, commercial applications, culture, and societal interactions. Digital communication is central to contemporary life and is (consequently) often taken for granted, which this course seeks to remedy. Applies practical skills relative to theories about collaboration and cultural production and engagement with and analyses of online cultures. Offers students an opportunity to become effective online communicators&amp;#8212;using practical exercises such as email filtering, online collaboration, and writing in a Web markup format&amp;#8212;and to make use of critical thinking to understand and engage with issues such as online privacy, gender and racial bias, and marketplace credibility and fraud.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "1331",
+    "title": "Legal Argumentation, Advocacy, and Citizenship",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["ER", "IC"],
+    "sections": [{ "term": "202310", "crn": "11353" }],
+    "description": "Seeks to train students in effective civic engagement by studying legal argumentation, while preparing students for careers in which persuasive skills are critical to success. Offers students an opportunity to study historical documents to understand the processes of argumentation and to develop arguments by performing detailed research about contemporary issues.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "1412",
+    "title": "Social Movement Communication",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "11430" },
+      { "term": "202310", "crn": "14642" }
+    ],
+    "description": "Examines the communication strategies (including rhetorical messaging, public advocacy, grassroots organizing, fund-raising, and media outreach) of historical and contemporary social movement and activist organizations. Social movements considered may include immigration protests, AIDS activism, environmental advocacy, disability movements, racial justice, and feminism.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "1450",
+    "title": "Sound Production for Digital Media",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "14157" },
+      { "term": "202260", "crn": "60805" },
+      { "term": "202240", "crn": "40742" }
+    ],
+    "description": "Designed to prepare students to work with audio in modern media settings. Introduces the process of planning, preparing, producing, and evaluating audio production styles and techniques. Through a series of discussions, screenings, homework, and in-class exercises, offers students an opportunity to gain the skills needed to produce successful audio recordings. Exposes students to the elements and terminology of audio production as they record, mix, and produce their own original projects.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "1511",
+    "title": "Communication and Storytelling",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "11946" },
+      { "term": "202310", "crn": "12574" }
+    ],
+    "description": "Engages students in the discovery of varied and culturally diverse texts in the literary genres of poetry, prose, and drama. Students focus on analyzing an author&amp;#8217;s meaning and communicating that meaning to an audience through interpretive performance.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2100",
+    "title": "Elements of Debate",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [{ "term": "202310", "crn": "13554" }],
+    "description": "Introduces the principles and skills of effective argument. Topics include the process of advocacy, how to develop an argument through reasoning, the psychology of argument, and motivational techniques of argumentation. Combines theory and practice in argument through individual presentations and team debates.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2105",
+    "title": "Social Networks",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD", "ND"],
+    "sections": [{ "term": "202310", "crn": "14040" }],
+    "description": "Applies network science theories and methods to understand the connectivity and complexity in the world around us on different scales, ranging from small groups to whole societies. Applies network theories, data collection methods, and visual-analytic analyses to map, measure, understand, and influence a wide range of online and offline social phenomena, including friendships and romantic relationships, professional networks, social media, social influence and marketing, diffusion and viral media, recommender systems, and collective action. Offers students an opportunity to learn to use computational tools to gather and analyze network data, derive data-supported insights, and develop effective network interventions.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2110",
+    "title": "Sports, Media, and Communication",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "ER"],
+    "sections": [
+      { "term": "202310", "crn": "13432" },
+      { "term": "202310", "crn": "15483" },
+      { "term": "202310", "crn": "15484" },
+      { "term": "202240", "crn": "40973" }
+    ],
+    "description": "Addresses the interdependent links between sports and communication. Sports communication is an emerging area within communication studies and journalism programs. Examines the symbiotic relationship between sports and media, as well as how communication affects team culture, player-coach dynamics, crises in sport, race and gender issues, international relationships, and fandom. Requires students to analyze cases and address both pragmatic and ethical factors related to these cases.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2131",
+    "title": "Dark Side of Interpersonal Communication",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD"],
+    "sections": [
+      { "term": "202260", "crn": "60347" },
+      { "term": "202240", "crn": "40432" }
+    ],
+    "description": "Offers students an opportunity to learn about some of the communicative challenges people face in starting, maintaining, and terminating close relationships. The &amp;#8220;dark side&amp;#8221; is a metaphor used to describe areas of interpersonal and relational communication that are underexplored or &amp;#8220;lying in the shadows&amp;#8221;; destructive or dysfunctional; and/or poorly understood or often misinterpreted. The dark side perspective acknowledges that while relationships are often a source of joy and satisfaction, they can also elicit feelings of uncertainty, frustration, and pain. Studies the ways in which communication can influence (and possibly resolve) turmoil in close relationships.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2135",
+    "title": "Sex and Interpersonal Communication",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD"],
+    "sections": [{ "term": "202310", "crn": "14643" }],
+    "description": "Explores communication theories and concepts as they relate to the interpersonal study of sex, sexuality, and romance. Offers students an opportunity to understand and articulate individual values, assumptions, and paradigms regarding sexuality and how these fit into current research and theory (as demonstrated through in-class discussions, activities, and the opinion paper assignment). Considers how competing communication perspectives can be contrasted, compared, and/or synthesized for a stronger literacy related to sex, sexuality, and sexual identities in an effort to procure an understanding of how communication research and theory can be utilized in academic, personal, and professional settings. Also focuses on sexual health.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2200",
+    "title": "Visual Communication",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC"],
+    "sections": [
+      { "term": "202310", "crn": "14042" },
+      { "term": "202260", "crn": "60547" },
+      { "term": "202240", "crn": "40670" }
+    ],
+    "description": "Analyzes the ways that visual materials impact our daily lives using readings, examples, and discussion. Visual material floods our daily lives, whether we are actively consuming it or it is thrust upon us. As consumers of these images, and especially as communication scholars, we need to think critically about these visual materials and how they shape our perceptions of ourselves and the world around us. Focuses on several methods for critically researching visuals and applies these methods to examine and discuss several kinds of visuals, including photography, film/television, advertisements, arts, and urban spaces. Designed to improve students&#39; critical understanding of the visual, in its various forms, for communication.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2301",
+    "title": "Communication Research Methods",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD"],
+    "sections": [
+      { "term": "202310", "crn": "12704" },
+      { "term": "202310", "crn": "11091" },
+      { "term": "202310", "crn": "11173" },
+      { "term": "202310", "crn": "20713" },
+      { "term": "202260", "crn": "60235" },
+      { "term": "202240", "crn": "40227" }
+    ],
+    "description": "Offers an overview of the concepts, methods, tools, and ethics of communication research. Introduces students to the basic statistical concepts used by communication researchers. Designed to help students become knowledgeable consumers and limited producers of communication research. Offers students an opportunity to learn to read, interpret, and critically evaluate research reports. Exposes students to basic social science concepts and research designs and the fundamentals of conducting and analyzing research using surveys, experiments, and content analyses. Students conduct their own empirical research study as a final project, which entails research design, data collection, data analysis, and a written presentation.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2303",
+    "title": "Global and Intercultural Communication",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "12575" },
+      { "term": "202310", "crn": "11429" },
+      { "term": "202310", "crn": "12929" },
+      { "term": "202260", "crn": "60328" },
+      { "term": "202240", "crn": "40281" }
+    ],
+    "description": "Focuses on theories of and approaches to the study of intercultural communication. Emphasizes the importance of being able to negotiate cultural differences and of understanding intercultural contact in societies and institutions. Stresses the benefits and complexities of cultural diversity in global, local, and organizational contexts.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2304",
+    "title": "Communication and Gender",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "11614" },
+      { "term": "202310", "crn": "11615" },
+      { "term": "202310", "crn": "13176" },
+      { "term": "202310", "crn": "13433" },
+      { "term": "202310", "crn": "14644" },
+      { "term": "202260", "crn": "60375" },
+      { "term": "202240", "crn": "40198" }
+    ],
+    "description": "Presents a theoretical and practical examination of the ways in which communication is gendered in a variety of contexts. Integrates into this analysis how different institutions and interpersonal situations affect our understanding of gender roles. COMM 2304 and WMNS 2304 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2350",
+    "title": "Producing for the Entertainment Industry",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "11092" },
+      { "term": "202310", "crn": "11093" },
+      { "term": "202240", "crn": "40102" }
+    ],
+    "description": "Investigates the role of the producer in the production of content for traditional and new media venues. Explores a variety of distribution systems, including online channels, mobile video, terrestrial/satellite radio, documentary film, and independent films, among other platforms. Examines the producer&amp;#8217;s role in story conceptualization, budget planning, preproduction, and marketing. Through a series of discussions, screenings, homework writing assignments, and in-class writing workshops, offers students an opportunity to gain the skills to produce commercially viable content.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2451",
+    "title": "Sports Broadcasting",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15485" }],
+    "description": "Develops and refines skills in the art of sportscasting. Students are given an historical perspective and a state-of-the-art analysis. Emphasis is on practical development of skills and evaluation of talent and potential. Areas of study include play-by-play announcing, interviewing, reporting, writing, and anchoring.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2500",
+    "title": "Analyzing Conversations in Everyday Life",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19863" }],
+    "description": "Considers aspects of talk, such as turn taking, sequence organization, and repair for handling breakdowns, in speaking or understanding. Studies the full range of things people do, such as making requests, blaming others, apologizing, complaining, etc. Having conversations with others is among the things that humans do most. Since talk is a locus of sociality and a site for examining language in use, offers students an opportunity to learn how to make discoveries about the orderliness of social life. By the end of the course, successful students recognize what people are doing with their talk, how to identify communication breakdowns, and learn methods for increasing communication efficiency in everyday and organizational encounters.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2501",
+    "title": "Communication Law",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER"],
+    "sections": [{ "term": "202310", "crn": "19580" }],
+    "description": "Introduces the fundamental principles of communication law and ethics. Explores the complex interplay between law (the First Amendment) and ethics (personal and professional responsibilities). Topics covered include blasphemy, commercial speech, copyright, defamation, fighting words, free press/fair trial, hate speech, heresy, incitement, obscenity, political speech, pornography, prior restraint, public forums, special settings (such as schools, prisons, and the military), symbolic speech, threats, and time-place-manner restrictions. Emphasizes ethical issues involving privacy, accuracy, property, and accessibility. The transcendent question in communication law and ethics is whether it is right to exercise the rights granted communication professionals under the First Amendment.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2510",
+    "title": "Social Media Analytics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD"],
+    "sections": [{ "term": "202310", "crn": "19581" }],
+    "description": "Introduces concepts and professional best practices in social media analytics. Offers hands-on instruction in analytic techniques for Facebook, Twitter, and other social media platforms, including experiments and observational analyses.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2534",
+    "title": "Group Communication",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [{ "term": "202310", "crn": "16395" }],
+    "description": "Covers small group decision-making processes, problem solving, and the interpersonal dynamics of groups. Offers students an opportunity to study and increase their level of proficiency in group interaction and to develop skills in working with and in a variety of small groups. Topics include communication dynamics, systems thinking, dialogue, conflict management, leadership, power, and teams within different institutions, including government, higher education, and corporate America.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2550",
+    "title": "Television Field Production",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "14158" },
+      { "term": "202310", "crn": "16396" },
+      { "term": "202240", "crn": "41551" }
+    ],
+    "description": "Offers advanced training in video production techniques, emphasizing remote location shooting. Includes location scouting, production budgets, writing techniques, equipment location, postproduction editing, and content analysis. Covers the fundamentals of single-camera field production and the nonlinear editing process. Offers students an opportunity to work in teams to produce and direct television using remote video equipment.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2551",
+    "title": "Free Speech in Cyberspace",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [{ "term": "202310", "crn": "19582" }],
+    "description": "Examines the intersection of law, policy, and new (or relatively new) information and communication technologies. New technologies offer the possibility of new forms of creativity, political engagement, and social life; they also, however, offer very real opportunities to cause serious reputational harm, promote damaging malicious speech, create new controls on creativity, and violate privacy. Uses readings and in-class activities to consider how values and principles that have historically been deemed important apply to the world of new information and communication technologies. Examines how law and policy shape the development and use of new technologies and, at the same time, investigates how new technologies challenge, undermine, and reconfigure existing law and policy.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2650",
+    "title": "The Business of Entertainment",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "12210" },
+      { "term": "202240", "crn": "40534" }
+    ],
+    "description": "Examines business issues associated with the entertainment industry. One dozen award-winning media industry guest speakers deliver lectures on the vital topics reshaping the entertainment landscape. Through lectures and case studies, introduces students to financing contracts, intellectual property issues, licensing, product placement, marketing and publicity, ratings, the impact of piracy, understanding and leveraging new technologies, and distribution. Offers students an opportunity to master these concepts by organizing into teams and developing an original entertainment industry business product or services. Requires each team to develop a formal business plan that includes a market analysis, a budget, and a marketing plan.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2655",
+    "title": "Television Studio Production",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [{ "term": "202310", "crn": "16397" }],
+    "description": "Introduces the process of planning, preparing, producing, and evaluating studio productions. Exposes students to the elements and terminology of studio production using multiple cameras, live switching, audio mixing, and studio lighting. Through a series of discussions, screenings, homework, and in-class exercises, offers students an opportunity to obtain skills in the basics of directing creative and technical talent and the skills needed to produce successful television studio productions.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2800",
+    "title": "Sport and Spectacle",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC"],
+    "sections": [
+      { "term": "202260", "crn": "60489" },
+      { "term": "202240", "crn": "40587" }
+    ],
+    "description": "Introduces students to the lens of performance studies, the world of sports, and the intersection of the two in the field of communication studies. Addresses performance as a cultural and communicative process that enables us to constitute our identities and our lives. Explores how our lives and identities are performed in space and time, while applying those same concepts to athletes and athletic competition. Offers students an opportunity to understand key concepts in performance studies such as ritual, play, performativity, performing, and performance processes.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "2912",
+    "title": "ST: Black Twitter&amp;Digitl Cultu",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19583" }],
+    "description": "Offers a special topics course in communication studies. Course content may vary from term to term. May be repeated once.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "3200",
+    "title": "Mobile Communication",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI", "WI"],
+    "sections": [{ "term": "202310", "crn": "19586" }],
+    "description": "Introduces students to the landscape of mobile communication technologies. Takes a broad view of what &amp;#8220;mobile,&amp;#8221; &amp;#8220;communication,&amp;#8221; and &amp;#8220;technology&amp;#8221; mean in the past, present, and future, encompassing a range of digital and nondigital objects as well as technological and communicative practices. Covers core concepts and theories in mobile communication, focusing on the impact that mobile hardware and software have on society, culture, and politics.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "3201",
+    "title": "Health Communication",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [
+      { "term": "202310", "crn": "16399" },
+      { "term": "202310", "crn": "11947" },
+      { "term": "202240", "crn": "40974" }
+    ],
+    "description": "Explores various topics as they relate to health communication including interpersonal aspects, cultural issues, and political complexities of health. Subject matter includes patient-provider communication, organizational systems, advertising in the health industry, and the role of media in the formation of expectations about health and the use of media to promote social change.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "3230",
+    "title": "Interpersonal Communication",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["WI", "EX"],
+    "sections": [
+      { "term": "202310", "crn": "19587" },
+      { "term": "202310", "crn": "13434" },
+      { "term": "202260", "crn": "60409" },
+      { "term": "202260", "crn": "61429" },
+      { "term": "202240", "crn": "40152" },
+      { "term": "202240", "crn": "41753" }
+    ],
+    "description": "Offers an overview of the theory and practice of interpersonal communication with the goal of developing the knowledge and skills to create dialogue in conversation, work through conflict, adapt to change, and establish/maintain relationships. Topics include definitions of the communication process, identity, self-disclosure, verbal and nonverbal language, listening, management of interpersonal conflict, and relational and dialogic communication.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "3304",
+    "title": "Communication and Inclusion",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "WI"],
+    "sections": [{ "term": "202310", "crn": "14043" }],
+    "description": "Explores the relationships between communication, social identity, and social inclusion. Focuses on how communication shapes perceptions and positions of social identity categories and how individuals and groups resist and transform identity and promote inclusion through communication. Examines communication and inclusion in the contexts of gender, race, sexual identity, social class, ability, and age. Course topics cover a range of theoretical and practical issues, including diversity in organizational settings and the social construction of identity. COMM 3304 and WMNS 3304 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "3320",
+    "title": "Political Communication",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "16401" },
+      { "term": "202310", "crn": "20714" }
+    ],
+    "description": "Reviews the construction and influence of rhetoric in political campaigns, particularly contemporary presidential campaigns. Also studies the impact of mass communication on the outcome of elections. Offers students an opportunity to analyze artifacts from recent political campaigns such as stump speeches, campaign debates, campaign advertising, and formal campaign speeches such as nomination acceptance addresses, concession and victory speeches, and inaugural addresses.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" }
+    ]
+  },
+  {
+    "subject": "COMM",
+    "number": "3409",
+    "title": "Advocacy Writing",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13435" },
+      { "term": "202310", "crn": "16940" },
+      { "term": "202260", "crn": "60461" },
+      { "term": "202240", "crn": "40413" },
+      { "term": "202240", "crn": "41772" }
+    ],
+    "description": "Offers an Advanced Writing in the Disciplines (AWD) course. Dedicated to teaching students to write scholarly arguments in the discipline of public advocacy and rhetoric and to translate that work for a general audience. Features both an academic approach to writing in the field of rhetoric and a practical approach to writing persuasively for general audiences.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "3415",
+    "title": "Communication Criticism",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [
+      { "term": "202310", "crn": "15097" },
+      { "term": "202260", "crn": "61412" }
+    ],
+    "description": "Offers students an opportunity to deepen their abilities to think critically about texts in a variety of forms such as orations, advertisements, music, and art. Studies methods that may range from close textual analysis to deconstruction to theories of performance. Students are required to write a lengthy research paper that carefully analyzes a rhetorical object.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
+  },
+  {
+    "subject": "COMM",
+    "number": "3445",
+    "title": "Public Relations Principles",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "WI"],
+    "sections": [{ "term": "202310", "crn": "13544" }],
+    "description": "Presents the principles, history, and methods of public relations; processes of influencing public opinion; responsibilities of the public relations practitioner; and analyses of public relations programs. Through case studies and class discussions, offers students an opportunity to confront real-life ethical dilemmas and learn to apply ethical frameworks to evaluate and resolve them. COMM 3445 and JRNL 3425 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "3450",
+    "title": "Voice-Over Artist",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [{ "term": "202310", "crn": "12211" }],
+    "description": "Introduces voice-over acting techniques for TV commercials, radio, multimedia, and various styles of presentation for both audio and video projects. Offers students an opportunity to uncover and develop their vocal range as narrator, announcer, character, and spokesperson with effectiveness and emotional authenticity. Covers both the &amp;#8220;business&amp;#8221; and the technical aspects of being a voice talent. Includes the use of microphones, headphones, and recording equipment while in our audio lab. Studies the essentials of vocal techniques, studio etiquette, and working with direction during a studio session.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "3500",
+    "title": "Environmental Issues, Communication, and the Media",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["SI", "WI"],
+    "sections": [{ "term": "202310", "crn": "16403" }],
+    "description": "Analyzes major debates over the environment, climate change, and related technologies such as nuclear energy, wind power, natural gas &ldquo;fracking,&rdquo; and food biotechnology. Studies the relevant scientific, political, and ethical dimensions of each case; the generalizable theories, frameworks, and methods that scholars use to analyze them; and the implications for effective public communication, policymaker engagement, and personal decision making. Offers students an opportunity to gain an integrated understanding of their different roles as professionals, advocates, and consumers and to improve their ability to find and use expert sources of information; assess competing media claims and narratives; write persuasive essays, analyses, and commentaries; and author evidence-based research papers.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "3501",
+    "title": "Free Speech: Law and Practice",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [{ "term": "202310", "crn": "19588" }],
+    "description": "Provides students with an opportunity to better understand freedom and limits to freedom, particularly in the realm of speech and expression. Materials covered range from the philosophy of freedom to historical legal cases about free speech and the press to political correctness and the repression of dissent.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" }
+    ]
+  },
+  {
+    "subject": "COMM",
+    "number": "3530",
+    "title": "Communication and Sexualities",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "WI"],
+    "sections": [
+      { "term": "202260", "crn": "61490" },
+      { "term": "202240", "crn": "40282" },
+      { "term": "202240", "crn": "41794" }
+    ],
+    "description": "Analyzes the ways in which sexualities intersect with issues relating to interpersonal communication, mediated communication, popular culture, identity, and social movements. Discusses outing, media representations, queer identity development, and the HIV/AIDS epidemic. Covers theoretical perspectives from communication and other social science disciplines, gender and sexuality studies, and cultural studies. Students work with a variety of materials, contemporary and historical, theoretical and empirical, fiction and nonfiction. Offers students an opportunity to design, conduct, and write their own original empirical research paper relating to sexualities and communication using class content as a theoretical framework.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "4102",
+    "title": "Health Communication Campaigns",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD", "CE"],
+    "sections": [{ "term": "202310", "crn": "14645" }],
+    "description": "Offers an in-depth look at how persuasive health campaigns are designed and executed. Discusses how campaigns are designed to intentionally influence awareness, knowledge gain, and attitude/behavior change. Offers students an opportunity to obtain skills to design and evaluate campaigns through the completion of their own campaign projects and to learn about visual and verbal arguments and the unique ethical and other considerations of health campaigns.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "COMM", "number": "2301" }]
+  },
+  {
+    "subject": "COMM",
+    "number": "4530",
+    "title": "Communication and Quality of Life",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["CE", "ER"],
+    "sections": [{ "term": "202310", "crn": "12930" }],
+    "description": "Seeks to further develop an understanding of the function of communication in life and how that relates to quality of life. Examines the communicative experiences of organizations and relationships using both theoretical approaches and practical experience. Students participate in activities designed to develop knowledge and skills necessary to successfully analyze and address ethical and interpersonal communication issues. Offers students an opportunity to be able to reflect on and assess one&amp;#8217;s own competence in communication and how one&amp;#8217;s communication affects one&amp;#8217;s quality of life and to respectfully consider the ethical complexities of quality-of-life issues in both organizational and interpersonal settings.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "4535",
+    "title": "Nonverbal Social Interaction",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [{ "term": "202310", "crn": "14994" }],
+    "description": "Offers analytic insight on methods people use to communicate different types of social action through body language. Much of our communication is nonverbal, as it is through our body language that we initiate new relationships (both personal and professional) and communicate anger, frustration, happiness, and grief. Offers students an opportunity to develop an understanding of the tools needed to examine the role nonverbal behaviors (body orientation, gaze direction, gesture, laughter, etc.) have in conveying meaning and constructing and negotiating interpersonal relationships. This course incorporates materials from communication, psychology, anthropology, and sociology.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
+  },
+  {
+    "subject": "COMM",
+    "number": "4602",
+    "title": "Contemporary Rhetorical Theory",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["CE", "IC"],
+    "sections": [{ "term": "202310", "crn": "16404" }],
+    "description": "Exposes students to contemporary perspectives on rhetorical theory and its use in society. &#39;Contemporary&#39; refers to the models and  theorists from the second halves  of the 20th and the 21st centuries.  &#39;Rhetoric&#39; refers to strategic communication employed to reach the persuasive goal of an agent. &#39;Theory&#39; is used in the holistic sense as the interested observation and careful scrutiny of an object. As a capstone course, the course also provides a transition for students from the role of receptive learners to independent researchers who can identify, answer, and defend research questions at the intersection of rhetorical theory and its neighbors (theories of argumentation, humor, style, politeness, courtship, and the like).",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "4605",
+    "title": "Youth and Communication Technology",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "SI", "WI"],
+    "sections": [{ "term": "202310", "crn": "19589" }],
+    "description": "Examines how meanings of &amp;#8220;youth&amp;#8221; and &amp;#8220;communication technology&amp;#8221; shift in relation to one another and to broader changes in society, culture, politics, and the economy over time. Analyzes how communication technologies (and the content they deliver) positively and negatively affect the social, emotional, and cognitive development of young people and how these changes are influenced by the particular family, school, community, and institutional contexts in which children grow up. Examines how young people differ individually across the life span as well as collectively by class, race, ethnicity, nationality, gender, sexuality, and disability. Requires a final paper at the end of the term in which students articulate and defend positions about youth and communication technology.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" }
+    ]
+  },
+  {
+    "subject": "COMM",
+    "number": "4625",
+    "title": "Online Communities",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["CE"],
+    "sections": [{ "term": "202310", "crn": "13436" }],
+    "description": "Considers online community dynamics, including formation, governance, conflict, and exit. Offers students an opportunity to understand and engage with online community and how this relates to topics such as human behavior, identity, and communication online. Reviews contemporary issues and concerns. Engages the question and practice of what it means to develop and maintain a successful online community.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "4755",
+    "title": "Production Capstone",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["CE"],
+    "sections": [{ "term": "202310", "crn": "16894" }],
+    "description": "Offers advanced training in video production techniques, allowing students an opportunity to develop a deeper theoretical understanding of cohesive marketing strategies. Through case study assessments and hands-on exercises, explores the process of marketing video techniques from designing, building, and executing marketing ideas to evaluating effectiveness and exploring online corporate identities. Offers students an opportunity to hone their skills in all aspects of the production process by incorporating the knowledge they have acquired from previous production courses&mdash;from the preproduction process of intensive research and development of story ideas and scriptwriting; producing; to the technical aspects of filming, lighting, green screen, sound recording, digital editing, and graphics.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "4901",
+    "title": "Seminar in Communications",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["CE"],
+    "sections": [{ "term": "202310", "crn": "20967" }],
+    "description": "Integrates students&rsquo; experiences in cooperative education with classroom concepts and theories. Topics include integrative learning, the field of communication, pathways and careers in communication, and the professional communicator. Offers students the opportunity to demonstrate competency in communication skills such as oral reporting, conducting research in communication, and writing.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "4994",
+    "title": "Internship in Communication",
+    "scheduleType": "Off-campus instruction",
+    "credits": 4,
+    "nuPath": ["EX"],
+    "sections": [{ "term": "202260", "crn": "61637" }],
+    "description": "Offers students the opportunity to gain hands-on experience in the communications industry. Further internship details are available in the department office. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "6102",
+    "title": "Health Communication Campaigns",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15108" }],
+    "description": "Offers an in-depth look at how persuasive health campaigns are designed and executed. Discusses how campaigns are intentionally designed to influence awareness, knowledge gain, and attitude/behavior change. Offers students an opportunity to obtain skills to design and evaluate campaigns through the completion of their own campaign projects and to learn about visual and verbal arguments and the unique ethical and other considerations of health campaigns.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "6304",
+    "title": "Communication and Inclusion",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15119" }],
+    "description": "Explores the relationships between communication, social identity, and social inclusion. Focuses on how communication shapes perceptions and positions of social identity categories and how individuals and groups resist and transform identity and promote inclusion through communication. Examines communication and inclusion in the contexts of gender, race, sexual identity, social class, ability, and age. Course topics cover a range of theoretical and practical issues, including diversity in organizational settings and the social construction of identity.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "6320",
+    "title": "Political Communication",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16969" }],
+    "description": "Covers the major theories about the role of communication in U.S. politics, public opinion, and public policy. Discusses how to formulate and evaluate your own theory-based hypotheses on the influence of media in American democracy. Emphasizes the role and place of the media in a democratic system devoted to the proposition that the government should be responsive to the &quot;will of the people.&quot; The course is organized around five subjects that are central to the study of political communication: communication systems and practices; communication effects: media, politics, and society; the politics of entertainment and the changing political information environment; elections, accountability, and the mass media; and media and political institutions.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "6500",
+    "title": "Environmental Issues, Communication, and Media",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16405" }],
+    "description": "Analyzes major debates over the environment, climate change, and related technologies such as nuclear energy, wind power, natural gas &ldquo;fracking,&rdquo; and food biotechnology. Studies the relevant scientific, political, and ethical dimensions of each case; the generalizable theories, frameworks, and methods that scholars use to analyze them; and the implications for effective public communication, policymaker engagement, and personal decision making. Offers students an opportunity to gain an integrated understanding of their different roles as professionals, advocates, and consumers and to improve their ability to find and use expert sources of information; assess competing media claims and narratives; write persuasive essays, analyses, and commentaries; and author evidence-based research papers.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "6501",
+    "title": "Free Speech: Law and Practice",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19590" }],
+    "description": "Offers students an opportunity to better understand freedom and limits to freedom, particularly in the realm of speech and expression. Topics covered range from the philosophy of freedom to historical legal cases about free speech and the press to political correctness and the repression of dissent.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "COMM",
+    "number": "6605",
+    "title": "Youth and Communication Technology",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19591" }],
+    "description": "Examines how meanings of &ldquo;youth&rdquo; and &ldquo;communication technology&rdquo; shift in relation to one another and to broader changes in society, culture, politics, and the economy over time. Analyzes how communication technologies (and the content they deliver) positively and negatively affect the social, emotional, and cognitive development of young people and how these changes are influenced by the particular family, school, community, and institutional contexts in which children grow up. Examines how young people differ individually across the life span as well as collectively by class, race, ethnicity, nationality, gender, sexuality, and disability. Requires a final paper at the end of the term in which students articulate and defend positions about youth and communication technology.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

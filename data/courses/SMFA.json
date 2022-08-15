@@ -1,0 +1,29 @@
+[
+  {
+    "subject": "SMFA",
+    "number": "3000",
+    "title": "Museum of Fine Arts Studio",
+    "scheduleType": "Studio",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11080" },
+      { "term": "202310", "crn": "11081" }
+    ],
+    "description": "Offers course work at the School of the Museum of Fine Arts. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "SMFA",
+    "number": "4000",
+    "title": "Museum of Fine Arts Capstone",
+    "scheduleType": "Studio",
+    "credits": 2,
+    "nuPath": ["CE"],
+    "sections": [{ "term": "202310", "crn": "11556" }],
+    "description": "Offers capstone course work at the School of the Museum of Fine Arts. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

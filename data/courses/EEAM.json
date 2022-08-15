@@ -1,0 +1,88 @@
+[
+  {
+    "subject": "EEAM",
+    "number": "2000",
+    "title": "Professional Development for Co-op",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11148" },
+      { "term": "202310", "crn": "13690" },
+      { "term": "202310", "crn": "11149" },
+      { "term": "202310", "crn": "11150" },
+      { "term": "202310", "crn": "11152" },
+      { "term": "202310", "crn": "11505" },
+      { "term": "202310", "crn": "20527" }
+    ],
+    "description": "Introduces students to the Cooperative Education Program and provides them with an opportunity to develop job-search and career-management skills. Offers students an opportunity to perform assessments of their workplace skills, interests, and values and discuss how they impact personal career choices. Students also have an opportunity to prepare a professional-style r&amp;#233;sum&amp;#233;, learn proper interviewing techniques, and gain an understanding of the opportunities available to them for co-op. Introduces career paths, choices, professional behaviors, work culture, and career decision making. Familiarizes students with workplace issues relative to their field of study and teaches them to use myNEU in the job-search and referral process. Presents co-op policies, procedures, and expectations of the Department of Cooperative Education and co-op employers.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "EEAM",
+    "number": "2010",
+    "title": "Internship for Career Decision Making",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "61578" }],
+    "description": "Offers students an opportunity to gain experience in a field they would like to explore and receive internship credit. Students complete a one-hundred-hour internship during the semester, which they obtain prior to the course. Students attend group meetings and individual appointments with the instructor, maintain a weekly journal, and complete an evaluation of their internship experience.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "EEAM",
+    "number": "6954",
+    "title": "Co-op Work Experience - Half-Time",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15878" },
+      { "term": "202310", "crn": "13718" },
+      { "term": "202260", "crn": "61550" },
+      { "term": "202260", "crn": "61102" },
+      { "term": "202260", "crn": "61564" },
+      { "term": "202260", "crn": "61608" }
+    ],
+    "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "EEAM",
+    "number": "6964",
+    "title": "Co-op Work Experience",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13562" },
+      { "term": "202310", "crn": "17953" },
+      { "term": "202310", "crn": "13564" },
+      { "term": "202310", "crn": "13563" },
+      { "term": "202260", "crn": "61498" },
+      { "term": "202260", "crn": "61499" },
+      { "term": "202260", "crn": "60418" },
+      { "term": "202260", "crn": "61089" },
+      { "term": "202260", "crn": "61500" },
+      { "term": "202240", "crn": "41833" }
+    ],
+    "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "EEAM",
+    "number": "6965",
+    "title": "Co-op Work Experience Abroad",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15523" }],
+    "description": "Provides eligible students with an opportunity for work experience abroad. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

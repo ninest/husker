@@ -1,0 +1,47 @@
+[
+  {
+    "subject": "NNMD",
+    "number": "5270",
+    "title": "Introduction to Nanomedicine",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": ["ND", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "12178" },
+      { "term": "202310", "crn": "14661" }
+    ],
+    "description": "Provides an overview of the distinctive features of nanotechnology and its applications in medicine. Examines cutting-edge research in disease screening, diagnosis, treatment, and prevention. Includes active participation of students through in-depth discussions about clinical and emerging technologies. Taught by Northeastern faculty and guest speakers.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "NNMD",
+    "number": "5272",
+    "title": "Nanomedicine Seminar 1",
+    "scheduleType": "Seminar",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12664" },
+      { "term": "202310", "crn": "14662" }
+    ],
+    "description": "Presents scientific findings and innovations in the field of nanomedicine by leading researchers and clinicians, with a focus on emerging technologies for public health. Offers students an opportunity to learn about unmet needs and career opportunities in nanomedicine. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "NNMD",
+    "number": "5370",
+    "title": "Nanomedicine Research Techniques",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202260", "crn": "61428" },
+      { "term": "202260", "crn": "61427" }
+    ],
+    "description": "Offers an in-depth look at laboratory methods and tools for studying nanomaterials used in biology and medicine. Includes hands-on sessions with experts in nanoparticle synthesis, electron microscopy, optical microscopy, magnetic resonance imaging, high-performance liquid chromatography, in vitro measurements of nanoparticle bioactivity and cytotoxicity, and in vivo measurements of treatment efficacy.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

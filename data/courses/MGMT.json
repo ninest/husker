@@ -1,0 +1,135 @@
+[
+  {
+    "subject": "MGMT",
+    "number": "3302",
+    "title": "Negotiating in Business",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11460" },
+      { "term": "202310", "crn": "14920" },
+      { "term": "202310", "crn": "15488" }
+    ],
+    "description": "Focuses on the nature of conflict, conflict resolution, and the structure and process of negotiations, negotiation ethics, as well as skills to deal with &amp;#8220;difficult&amp;#8221; negotiators. Negotiation is a lifelong skill that we use every day, not just a tactic to get a higher salary or a better deal. No matter what direction one&amp;#8217;s professional life takes, negotiation is an essential part of one&amp;#8217;s job and one&amp;#8217;s life. To be effective, one must be a skillful negotiator. While some of us are naturally gifted negotiators, most of us are not; the concepts and techniques of skillful negotiations can be learned and practiced in the classroom. Offers students numerous opportunities to develop and practice negotiating skills.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MGMT",
+    "number": "3305",
+    "title": "Power and Influence",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19617" }],
+    "description": "Offers students an opportunity to learn how to use power and influence as effective tools for understanding their work surroundings, working with and managing people, and achieving their own professional goals. Studies conceptual models, tactical approaches, and practical tools to help make sense of on-the-job learning experiences. Seeks to equip students with basic diagnostic and action-planning skills that can be used to understand power dynamics unfolding in any organization, as well as how best to leverage these dynamics. Previous work experience (e.g., part-time job or co-op) is recommended but not required for enrollment in the course.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MGMT",
+    "number": "3340",
+    "title": "Healthcare Management, Innovation, and Design",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11751" }],
+    "description": "Offers an overview of key U.S. health system components and imperatives and how to manage and innovate within the system to improve performance and the customer experience. Designed for students interested in healthcare careers that may have meaningful managerial, analytical, or consulting-type responsibilities. Covers essential elements of how healthcare delivery is organized and delivered; how to implement change and innovation in healthcare organizations such as hospitals and physician offices; and the interrelationships between facets of the business such as the drive for value and efficiency, promoting high-quality care, and enhancing the patient experience. Analyzes and critiques cutting-edge changes in the industry. Offers students an opportunity to learn about and use skills in process improvement, performance management, talent management, quality improvement, and work redesign.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MGMT",
+    "number": "3420",
+    "title": "Managing Human Capital",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12658" }],
+    "description": "Offers an overview of the human resources management (HRM) function, including recruiting and hiring new employees, overseeing compensation and benefits, improving employee relations, and ensuring compliance with labor laws. Focuses on what a (non-HRM) manager needs to know about HRM and also seeks to provide a foundation for the HRM professional.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MGMT",
+    "number": "3530",
+    "title": "Project Management",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "41593" }],
+    "description": "Discusses why good project management skills are essential to a wide variety of business careers. Covers why many important business projects fail due to poor planning, poor time management, going over budget, and/or ineffective communication. Includes a balance of strategic, technical, and behavioral issues in project management.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MGMT",
+    "number": "4310",
+    "title": "The Management Practices of Great Organizations",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16614" }],
+    "description": "Focuses on a wide range of management practices, many of which are &ldquo;radical&rdquo; and represent organizations that &ldquo;dare to be different.&rdquo; The course uses many teaching approaches, including case studies, class exercises, and &ldquo;competitions&rdquo; that require students&mdash;and seek to increase their ability&mdash;to debate, present, think on their feet, and ask tough questions. Some organizations seem &ldquo;to work&rdquo;; they provide high-quality products and services, they treat their employees with respect, they behave ethically, they are strong financially, and the like. Students study and debate the criteria for a great organization in order to answer the key question of this course: how do they do it; i.e., why do they work so well?",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MGMT",
+    "number": "4410",
+    "title": "Workforce Analytics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14921" }],
+    "description": "Introduces workforce analytics, including identifying the strategic work that is truly necessary to execute strategy, investing in differentiated management systems that support that work, and designing and implementing targeted measurement systems for strategic talent. Emphasizes shifting from levels or metrics (e.g., what is our cost per hire?) to analytics and impact (e.g., how might an increase in the quality of our project managers affect new product cycle time?). Relevant for students specializing in corporate finance, management, marketing, and international business. Many firms spend over 50 percent of their revenues on the workforce, but these investments are rarely well measured or managed.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MGMT",
+    "number": "4550",
+    "title": "Management Consulting in Organizations",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EX"],
+    "sections": [
+      { "term": "202310", "crn": "14017" },
+      { "term": "202310", "crn": "14018" }
+    ],
+    "description": "Offers students an opportunity to gain practical experience in finding appropriate solutions for complex and dynamic client organizational issues using a structured curriculum and frequent in-class coaching sessions. Students work as pro bono consultants both onsite and virtually with organizations to help solve real client challenges in the managing and leading of an organization. Students employ management consulting as a framework in demonstrating proficiency in a wide range of knowledge and skill areas in both management and consulting. Structures course deliverables as challenging goals to be achieved within a set time frame by working with students&#39; chosen consulting (Pod) group and through individual assignments.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MGMT",
+    "number": "6211",
+    "title": "Business Law and Professional Ethics",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [
+      { "term": "202260", "crn": "60100" },
+      { "term": "202260", "crn": "61256" }
+    ],
+    "description": "Examines the critical aspects of business essential in understanding the business and legal environment. Examines contract law and areas of the law that relate directly to the accountancy profession. Develops knowledge of the Uniform Commercial Code as it relates to the law of sales, commercial paper, and secured transactions. Also explores the importance of ethics in the business and accounting environment, and considers potential ethical dilemmas.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MGMT",
+    "number": "6214",
+    "title": "Negotiations",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10622" },
+      { "term": "202260", "crn": "60107" }
+    ],
+    "description": "Designed to improve students&amp;#8217; understanding of the negotiations process and their ability to plan and conduct negotiations effectively. Includes such class activities as readings, lectures, and discussions as well as case discussions and role-playing negotiation exercises.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

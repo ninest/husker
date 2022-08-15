@@ -1,0 +1,103 @@
+[
+  {
+    "subject": "IS",
+    "number": "1300",
+    "title": "Knowledge in a Digital World",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "14536" },
+      { "term": "202310", "crn": "19208" }
+    ],
+    "description": "Examines the impact that information technologies (such as the internet, search engines, blogs, wikis, and smartphones); information processing techniques (such as big data analysis, machine learning, crowdsourcing, and cryptography); and information policies (such as privacy norms and speech restrictions) have on what we know and how much we know, as individuals and as a society. The digital world can enhance our ability to acquire knowledge by providing us with fast and cheap access to huge amounts of information. However, it can also undermine our cognitive abilities and provide us with inaccurate or misleading information. Studies normative frameworks from epistemology and ethics (such as epistemic value theory, the extended mind hypothesis, and moral rights) to evaluate these technologies and policies.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "IS",
+    "number": "2000",
+    "title": "Principles of Information Science",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD"],
+    "sections": [{ "term": "202310", "crn": "10338" }],
+    "description": "Introduces information science. Examines how information is used to solve problems both for individuals and organizations and how information systems interface with their users. Considers the technical, economic, social, and ethical issues that arise when working with information. Discusses how to collect, manage, classify, store, encode, transmit, retrieve, and evaluate data and information with appropriate security and privacy. Storage models include lists, tables, and trees (hierarchies). Examines applications of information: visualization, presentation, categorization, decision making, and predictive modeling. Introduces key concepts in probability. Explains Bayesian analysis for information classification and modeling. Teaches intensive programming in Excel, including VBA macro development. Introduces programming in R.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "IS",
+    "number": "4200",
+    "title": "Information Retrieval",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14009" }],
+    "description": "Introduces information retrieval (IR) systems and different approaches to IR. Topics covered include evaluation of IR systems; retrieval, language, and indexing models; file organization; compression; relevance feedback; clustering; distributed retrieval and metasearch; probabilistic approaches to IR; Web retrieval; filtering, collaborative filtering, and recommendation systems; cross-language IR; multimedia IR; and machine learning for IR.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "CS", "number": "3500" },
+      "Or",
+      { "subject": "DS", "number": "3500" },
+      ")",
+      "And",
+      "(",
+      { "subject": "CS", "number": "2810" },
+      "Or",
+      { "subject": "ECON", "number": "2350" },
+      "Or",
+      { "subject": "MATH", "number": "2280" },
+      "Or",
+      { "subject": "MATH", "number": "3081" },
+      "Or",
+      { "subject": "MGSC", "number": "2301" },
+      "Or",
+      { "subject": "PSYC", "number": "2320" },
+      ")"
+    ]
+  },
+  {
+    "subject": "IS",
+    "number": "4300",
+    "title": "Human Computer Interaction",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10079" },
+      { "term": "202310", "crn": "19209" }
+    ],
+    "description": "Studies the principles of human-computer interaction and the practice of user interface design. Discusses the major human information processing subsystems (perception, memory, attention, and problem solving), and how the properties of these systems influence the design of interactive systems. Reviews guidelines and specification languages for designing user interfaces, with an emphasis on tool kits of standard graphical user interface (GUI) objects. Introduces usability metrics and evaluation methods. Additional topics may include World Wide Web design principles and tools; wireless/mobile device interfaces; computer-supported cooperative work; information visualization; and virtual reality. Course work includes designing user interfaces, creating working prototypes using a GUI tool kit, and evaluating existing interfaces using the methods studied.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "IS",
+    "number": "4800",
+    "title": "Empirical Research Methods",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19210" }],
+    "description": "Evaluates and conducts empirical research, focusing on students&rsquo; use of empirical methods to study the effectiveness and organizational/social impact of information systems and technologies. Empirical research involves a number of broad steps including identifying problems; developing specific hypotheses; collecting data relevant to the hypotheses; analyzing the data; and considering alternative explanations for the empirical findings. Some of the most commonly used research techniques, such as surveys, experiments, and ethnographic methods, are discussed. Additional topics include the ethics of data collection and experimentation in behavioral science. Although the course focuses primarily on the relationship between formulating research questions and implementing the appropriate methods to answer them, students can expect to apply the statistical techniques learned in the course prerequisites.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "2810" },
+      "Or",
+      { "subject": "ECON", "number": "2350" },
+      "Or",
+      "Or",
+      { "subject": "MATH", "number": "2280" },
+      "Or",
+      { "subject": "MATH", "number": "3081" },
+      "Or",
+      { "subject": "MGSC", "number": "2301" },
+      "Or",
+      { "subject": "PHTH", "number": "2210" },
+      "Or",
+      { "subject": "PSYC", "number": "2320" }
+    ]
+  }
+]

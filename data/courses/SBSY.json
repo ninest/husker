@@ -1,0 +1,50 @@
+[
+  {
+    "subject": "SBSY",
+    "number": "5100",
+    "title": "Sustainable Design and Technologies in Construction",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11975" }],
+    "description": "Covers theory of sustainability and green building procedures; sustainable design and construction practices; use of appropriate materials and systems with low environmental impact for creating energy-efficient buildings; green construction practices, including reducing pollution, emissions, and construction waste; and U.S. Green Building Council&amp;#8217;s LEED rating system. May be helpful to students preparing for the LEED Green Associate examination.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "SBSY",
+    "number": "5250",
+    "title": "Building Performance Simulation",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19078" }],
+    "description": "Studies principles of building performance simulations and the application of these tools to improve the design and operation of buildings. Covers the basic principles of simulation and uses a spectrum of available tools for early stage modeling, daylight estimation, analysis of comfort, and whole building validation. Introduces interpretation and validation of results and code-mandated protocols.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "SBSY",
+    "number": "5400",
+    "title": "Sustainable Building Systems Seminar",
+    "scheduleType": "Seminar",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12546" }],
+    "description": "Features prominent speakers from the sustainable building design and construction industry to showcase new building technologies, tools, and projects and to discuss national and international trends in the industry. Offers students an opportunity to meet innovators and key players advancing the field of sustainable building systems. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "SBSY",
+    "number": "7990",
+    "title": "Thesis",
+    "scheduleType": "Individual Instruction",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20952" }],
+    "description": "Offers analytical and/or experimental research conducted by arrangement with and under the supervision of the department. May be repeated up to a maximum of 8 SH.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

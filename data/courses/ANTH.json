@@ -1,0 +1,129 @@
+[
+  {
+    "subject": "ANTH",
+    "number": "1000",
+    "title": "Anthropology at Northeastern",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14112" }],
+    "description": "Intended for first-year students in the College of Social Sciences and Humanities. Introduces students to liberal arts; familiarizes them with their major; develops the academic skills necessary to succeed (analytical ability and critical thinking); provides grounding in the culture and values of the University community; and helps to develop interpersonal skills&amp;#8212;in short, familiarizes students with all skills needed to become a successful university student.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ANTH",
+    "number": "1101",
+    "title": "Peoples and Cultures",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC"],
+    "sections": [
+      { "term": "202310", "crn": "15351" },
+      { "term": "202310", "crn": "16279" },
+      { "term": "202260", "crn": "61223" }
+    ],
+    "description": "Surveys basic concepts in cultural anthropology by looking at a range of societies and the issues they face in a globalizing world. Examines the manner in which cultures adapt to, reject, or modify all of the changes they face. These changes impact everything from traditional family structure, to religion, gender, all the way to patterns of joking and concepts of beauty the world over.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ANTH",
+    "number": "2305",
+    "title": "Global Markets and Local Culture",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC"],
+    "sections": [{ "term": "202310", "crn": "10541" }],
+    "description": "Examines selected topics in the socioeconomic transformation of other cultures, including urbanization, industrialization, globalization, commodity production, and international labor migration. Focuses on the impact of global capitalist development on contemporary developing and postcolonial societies as well as local responses and/or resistances to those changes.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ANTH",
+    "number": "2315",
+    "title": "Religion and Modernity",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC", "SI"],
+    "sections": [{ "term": "202310", "crn": "19529" }],
+    "description": "Introduces a cross-cultural, comparative perspective on religious practice and belief. Explores theoretical definitions of and methodological approaches to the study of religion, as well as more specific concepts of ritual, myth, healing, and identity. Select case studies allow for an in-depth look at the unique formations of a few religious practices and groups.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ANTH",
+    "number": "2485",
+    "title": "Environment, Technology, and Society",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [{ "term": "202310", "crn": "19726" }],
+    "description": "Focuses on the connections between the development of modern nation-states and the control of nature. Explores the role human societies play in such events as climate change, tsunamis, and droughts. Studies how industrialization and the process of science and technology development are related to our transforming environmental conditions, as well as how the social sciences, the sciences, and engineering are transforming to address these issues. Draws on social theory, environmental history, anthropology, sociology, art, design, and open-source technologies to investigate theoretically and methodologically the sources, experiences of, and solutions for environmental health questions.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ANTH",
+    "number": "3417",
+    "title": "Political Anthropology",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19530" }],
+    "description": "Examines the anthropology of politics, focusing on the anthropology of the state. Studies the history of political anthropology with its roots in British structural-formalism and contextualizes it within the anthropology of Africa and witchcraft. Explores the linkages between the nation and the state, using classic works of Benedict Anderson on nationalism, before commencing an in-depth study of the problems of the state, classical theories of the state and statecraft, and how these ideas are traced to contemporary ethnographies of politics. Students interested in the study of resistance, displacement, social exclusion, citizenship, state violence, and communities may find this course relevant to their interests.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "SOCL", "number": "1101" },
+      "Or",
+      { "subject": "ANTH", "number": "1101" },
+      "Or",
+      { "subject": "HUSV", "number": "1101" },
+      "Or",
+      { "subject": "CRIM", "number": "1100" },
+      "Or",
+      { "subject": "INTL", "number": "1101" },
+      "Or",
+      "Or",
+      { "subject": "POLS", "number": "1140" },
+      "Or",
+      { "subject": "POLS", "number": "1160" }
+    ]
+  },
+  {
+    "subject": "ANTH",
+    "number": "3421",
+    "title": "Foundations of Anthropological Theory",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19985" }],
+    "description": "Introduces the foundations of anthropological theory. Examines recurring themes surrounding structure and agency, culture and power, and the tension between the individual and society. Addresses these questions by returning to anthropology&amp;#8217;s Enlightenment roots, early evolutionary thought, classic and contemporary theories, as well as ongoing critiques of the discipline. Explores different schools of thought, including functionalism, structural functionalism, symbolism, interpretivism, and more recent theoretical developments that address history, political economy, reflexivity, poststructuralism, and feminism, as well as transnational/global and activist approaches. Requires prior completion of two ANTH courses numbered 1000 or above.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ANTH",
+    "number": "4100",
+    "title": "Making Anthropology Public",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EI", "EX"],
+    "sections": [{ "term": "202310", "crn": "19725" }],
+    "description": "Reflects on the social, economic, ecological, and cultural value of anthropology as a field, as well as an experiential learning space for transforming anthropological research into material understandable by the general public. Offers students an opportunity to learn methodologies across visual, collaborative, and engaged anthropologies, as well as to study the ethical considerations and specific skills necessary to communicate effectively in a variety of modalities.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ANTH",
+    "number": "4520",
+    "title": "Chinese Society and Culture",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [{ "term": "202310", "crn": "20320" }],
+    "description": "Introduces students to changes in society and economy in contemporary China. Examines changes in family, gender relations, rural life, work, and international relations. Draws on literature from a range of disciplines including sociology, political science, anthropology, and economics.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "subject": "LPSC",
+    "number": "1101",
+    "title": "Introduction to Law",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11336" },
+      { "term": "202310", "crn": "20660" }
+    ],
+    "description": "Examines the role of law and society from a regulatory, constitutional, and judicial perspective, noting the role each of these has played in shaping the current legal framework in the United States. Introduces students to the relationship between law, societal organizations (both nongovernmental organizations and not-for-profit organizations), the private sector, and the separate branches of government (the judiciary, congressional, and executive branches). Provides students with the opportunity to learn to legally analyze judicial opinions,  prepare legal memoranda, and present an oral argument before a &amp;#8220;judge.&amp;#8221;",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "LPSC",
+    "number": "2301",
+    "title": "Introduction to Law, Policy, and Society",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10542" },
+      { "term": "202310", "crn": "21021" }
+    ],
+    "description": "Examines the relationship of society to its laws: how society creates changes in law or policy via societal pressure and social movements (such as the environmental, women&amp;#8217;s rights, and corporate accountability movements); how law and policy affect individual rights and behavior; whether a society needs laws in order to function; the relationship between some branches of our government in effectuating social change; and some of the fundamental differences between societies governed by seemingly similar but pragmatically different laws, such as the right to a jury trial.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "LPSC",
+    "number": "3310",
+    "title": "Law and Policy in the Nation&#39;s Capital",
+    "scheduleType": "Off-campus instruction w/ lec",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16077" }],
+    "description": "The meeting dates for the class will be November 14th, 15th, and 16th.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "LPSC", "number": "1101" }]
+  },
+  {
+    "subject": "LPSC",
+    "number": "5201",
+    "title": "Law and the City",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13984" }],
+    "description": "Examines key legal structures, court decisions, and social research to consider the ability of cities to make and implement public policies that directly affect the everyday lives of millions of people. American cities and their residents are frequently faced with similar legal and political questions. Topics include federalism, land-use planning and development, business regulation, gun control, school choice, public health, and climate adaptation initiatives.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "LPSC",
+    "number": "7311",
+    "title": "Strategizing Public Policy",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14847" },
+      { "term": "202310", "crn": "20775" }
+    ],
+    "description": "Provides a practical overview to crafting effective strategies for advancing public policy changes at the federal, state, and local level using a range of legislative, litigation, and other policy tools.  Uses a series of case studies on a wide range of policy topics to understand and evaluate how different policy strategies evolve in the interplay between branches and levels of government.  Takes an interbranch perspective on how policy is made and places particular emphasis on the role litigation and the courts play in policy making, an aspect of public policy formulation that is often downplayed or overlooked.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

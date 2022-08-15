@@ -1,0 +1,128 @@
+[
+  {
+    "subject": "LING",
+    "number": "1150",
+    "title": "Introduction to Language and Linguistics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ND", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "11926" },
+      { "term": "202310", "crn": "18906" },
+      { "term": "202310", "crn": "18908" },
+      { "term": "202310", "crn": "18905" },
+      { "term": "202310", "crn": "18907" },
+      { "term": "202310", "crn": "18909" },
+      { "term": "202310", "crn": "20415" },
+      { "term": "202260", "crn": "60243" },
+      { "term": "202240", "crn": "41538" }
+    ],
+    "description": "Explores linguistics, the scientific study of language. Major topics include phonetics (production of speech sounds), phonology (sound systems in languages), morphology (structure of words), syntax (grammatical relationships between words and sentences), and semantics (meaning of words and sentences). Other topics may be surveyed such as the relationship between language and culture, language use within speech communities, languages in contact, the study of language change, language and brain, animal communication, and first language acquisition.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "LING",
+    "number": "1449",
+    "title": "English Now and Then",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC", "ND"],
+    "sections": [{ "term": "202310", "crn": "18910" }],
+    "description": "Introduces the field of linguistics from current and historical perspectives. Covers the scientific study of language: phonetics (production of speech sounds), phonology (sound systems in languages), morphology (structure of words), syntax (grammatical relationships between words and sentences), and semantics (meaning of words and sentences). These linguistic structures provide the basis for exploring the origins and development of the English language. Emphasizes both the major structural changes English has experienced over time, as well as the sociohistorical contexts that gave rise to these changes.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "LING",
+    "number": "2350",
+    "title": "Linguistic Analysis",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18911" }],
+    "description": "Builds on the foundations of linguistic analysis developed in LING 1150. Offers students an opportunity to obtain a foundational basis for future study by focusing on four core areas of linguistics: phonetics, phonology, morphology, and syntax. Students hone their analytic abilities as they work with increasingly complex datasets. Adopting a descriptive, nontheoretical approach, students conduct linguistic research through a semester-long analysis of a world language.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "LING", "number": "1449" },
+      "Or",
+      { "subject": "LING", "number": "1150" }
+    ]
+  },
+  {
+    "subject": "LING",
+    "number": "3412",
+    "title": "Language and Culture",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC", "WI"],
+    "sections": [{ "term": "202310", "crn": "18912" }],
+    "description": "Explores the complex, often inexplicit relationship between language and culture, using a variety of methods drawn from the fields of anthropological linguistics and sociolinguistics. Questions may include: How do language and thought interact? How is language used to create and maintain social institutions and individual personae? How is language used differently by and across gender, ethnicity, and social class?",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "LING", "number": "1150" },
+      "Or",
+      { "subject": "ENGL", "number": "1150" },
+      ")",
+      "And",
+      "(",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      ")"
+    ]
+  },
+  {
+    "subject": "LING",
+    "number": "3422",
+    "title": "Phonology",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD", "FQ"],
+    "sections": [{ "term": "202310", "crn": "18913" }],
+    "description": "Examines phonology, the study of the mental representation, organization, and patterning of sounds in human language. Major topics include phonological typology, phonemes, underlying and surface representations, phonological rules and alternations, natural classes of sounds, syllables and prosody, autosegmental phonology, rule-based vs. constraint-based approaches, morphophonology, diachronic phonology, and current theoretic models of sound systems.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "LING",
+    "number": "3424",
+    "title": "Morphology",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD", "FQ"],
+    "sections": [{ "term": "202310", "crn": "18914" }],
+    "description": "Introduces morphology, the study of the structure, distributional behavior, and use of words. Covers descriptive methods of analysis, hierarchical word structure, morphological processes and rules, productivity, morphological change, and the interaction of morphology with phonology and syntax. Introduces major contemporary theories, including split morphology and single-component architecture.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "LING", "number": "2350" }]
+  },
+  {
+    "subject": "LING",
+    "number": "3450",
+    "title": "Syntax",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD", "FQ"],
+    "sections": [{ "term": "202310", "crn": "18915" }],
+    "description": "Introduces syntax, the theory of sentence structure. Explores how to do syntactic analysis using linguistic evidence and argumentation. Focuses primarily on English, with some discussion on the syntax of other languages. Other topics include syntactic universals and the relation between syntax and semantics.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "LING",
+    "number": "3454",
+    "title": "History of English",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18916" }],
+    "description": "Surveys the linguistic and social history of the English language from its Indo-European beginnings to the present. Examines the changes that have occurred in the sound system, word and sentence structures, vocabulary, semantics, and spelling from a formal linguistic perspective. Considers issues in language change&amp;#8212;the influence of foreign invasion and migration, differences in dialect, and the emergence of English as a &amp;#8220;world&amp;#8221; language.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "LING", "number": "1150" }]
+  }
+]

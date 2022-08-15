@@ -1,0 +1,128 @@
+[
+  {
+    "subject": "ENSY",
+    "number": "5000",
+    "title": "Fundamentals of Energy System Integration",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11804" },
+      { "term": "202310", "crn": "10988" }
+    ],
+    "description": "Presents fundamental issues of successfully integrating and implementing energy systems. Exposes students to combined heat and power strategies (cogeneration system), strategies of incorporating renewable with nonrenewable energy sources, thermoeconomics, and carbon sequesteration techniques. Includes energy, exergy, and thermoeconomic cost factors in the presented case studies. Explores the effects of public policy, regulations, and financial operations on selecting energy technology. Students are given case studies to illustrate the complexity of implementing energy systems and are expected to complete a major project involving proposing an energy system. Emphasizes that successful implementation of energy systems requires both a technical and an economic solution. Requires calculus-based physics and chemistry.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENSY",
+    "number": "5050",
+    "title": "Fundamentals of Thermal Science 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13356" }],
+    "description": "Introduces and reviews thermodynamic properties such as temperature, pressure, energy, enthalpy, and entropy. Defines work and heat interactions and calculates the amount of energy transferred during thermodynamic processes. Introduces the first and second laws of thermodynamics and concepts of thermodynamic equilibrium. Discusses mass, energy, and entropy balance relations as well as conversion devices, such as turbine, compressors, pumps, valves, and energy exchangers. Studies simple power plants, refrigeration, heat (energy) pumps, and stationary gas turbine systems. Presents and reviews fundamentals of calculus, such as limit, differentiation, integration, power series, vector spaces, and multivariable functions needed for thermodynamic analysis.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENSY",
+    "number": "5200",
+    "title": "Energy Storage Systems",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202240", "crn": "40709" },
+      { "term": "202240", "crn": "41085" }
+    ],
+    "description": "Explores the various energy storage technologies, their working, and their practical applications. Focuses on the state-of-the-art review of current and most recent technologies. Offers students an opportunity to explore various innovations in the field of energy storage that can be helpful for fulfilling our current energy storage needs. Covers many different energy storage systems such as mechanical, chemical, electrochemical, thermal, thermochemical, etc.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENSY",
+    "number": "5400",
+    "title": "Power Plant Design and Analysis",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13355" },
+      { "term": "202310", "crn": "16693" }
+    ],
+    "description": "Reviews the fundamental laws of thermodynamics and balance equations for mass, energy, exergy, and entropy. Studies thermochemistry, chemical equilibrium, fuels and combustion, steam power plant cycle, gas turbine systems, thermo-economics, nuclear power plants, and energy recovery.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENSY",
+    "number": "5500",
+    "title": "Smart Grid",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13673" },
+      { "term": "202310", "crn": "16694" }
+    ],
+    "description": "Covers fundamentals of smart electric power grid. Covers definition, design criteria, and technology. Smart grid can be defined as the application of information processing and communications to the power grid. Seeks to motivate development of the smart grid, evaluating options for adding sensing, communications, computation, intelligence, control, and automation to various parts of the electric system. Topics include automation, or lack thereof, in existing power systems; generation; transmission; distribution; and smart grid definition.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENSY",
+    "number": "5585",
+    "title": "Wind Energy Systems",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12526" },
+      { "term": "202310", "crn": "16695" }
+    ],
+    "description": "Introduces wind energy and its applications. Integrates aerodynamics of wind turbine design with the structures needed to support them. Covers types of wind turbines, their components, and related analyses; airfoil aerodynamics; concepts of lift, drag, pitching moment, circulation, angle of attack, and stall; laminar and turbulent boundary layers and separation concepts; fundamental conservation equations; Bernoulli&amp;#8217;s, Euler&amp;#8217;s, and Navier-Stokes equations and their applications; Betz limit; computational fluid dynamics and its application for flow over typical airfoils; compressibility and elements of one-dimensional gas dynamics; wind resource; wind climatology and meteorological data; turbine tower and structural engineering aspects of turbines; vibration problems; aeroelastic phenomena in turbines; small wind turbines and vertical axis wind turbines; and introduces environmental and societal impacts and economic aspects.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENSY",
+    "number": "5700",
+    "title": "Renewable Energy Development",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15489" }],
+    "description": "Examines a unique blend of technological and commercial aspects of renewable energy development focused on solar and storage projects with a strong focus on distributed projects. Topics include an introduction to the Independent System Operator New England and generation markets; site selection and layout development; tilt and orientation calculations; shading analysis and interrow spacing requirements; energy production modeling; solar string designs; DC/AC ratios; National Electrical Code requirements/compliances; and wind load analysis. Introduces battery energy storage system sizing analysis and requirements for behind-the-meter and front-of-meter projects, as well as renewable portfolio standards and carbon analysis. Offers an overview of financial modeling and basic tax equity structures. Discusses case studies requiring substantial class participation to uncover practical aspects of project development.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENSY",
+    "number": "5800",
+    "title": "Applications of Artificial Intelligence in Energy Systems",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "15155" },
+      { "term": "202310", "crn": "16696" }
+    ],
+    "description": "Covers fundamentals of artificial intelligence (AI) used in engineering applications for energy systems. Introduces a brief treatment of AI methods. Examines several AI methods, including search algorithms, decision making under uncertainty, graphical methods, and machine learning. Discusses a more thorough treatment for how AI is used for engineering applications in energy systems. Application areas include power generation, electric grid, renewables, and energy storage. Focuses on practical considerations, including economic opportunity, verification and validation, risks, and nontechnical challenges.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ENSY",
+    "number": "7440",
+    "title": "Energy Systems Engineering Leadership Challenge Project 1",
+    "scheduleType": "Individual Instruction",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13360" }],
+    "description": "Offers students an opportunity to develop and present a plan for the demonstration of a marketable technology product or prototype with an energy systems focus. Constitutes the first half of a thesis-scale project in technology commercialization. Requires work/training with a sponsoring organization or employer to improve a process or develop a project that is of significant value to the organization and demonstrates a quantifiable market impact while enhancing the student&amp;#8217;s technological and engineering depth and fostering the student&amp;#8217;s leadership development.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

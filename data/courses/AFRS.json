@@ -1,0 +1,42 @@
+[
+  {
+    "subject": "AFRS",
+    "number": "1270",
+    "title": "Introduction to Global Health",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [
+      { "term": "202310", "crn": "16650" },
+      { "term": "202310", "crn": "20382" },
+      { "term": "202260", "crn": "60917" }
+    ],
+    "description": "Introduces global health in the context of an interdependent and globalized world focusing on four main areas of analysis: infrastructure of global health; diseases; populations; and terms, concepts, and theories. While the focus is on lower-income countries, the course examines issues in a broader global context, underscoring the interconnections between global health disparities and global health policy response. Applies case studies describing interventions to improve healthcare in resource-poor settings in sub-Saharan Africa and elsewhere to help illuminate the actors, diseases, populations, and principles and frameworks for the design of effective global health interventions. AFRS 1270 and PHTH 1270 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "AFRS",
+    "number": "2325",
+    "title": "Black Feminist Studies",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "SI"],
+    "sections": [{ "term": "202310", "crn": "19059" }],
+    "description": "Invites students to study the history and contemporary landscape of Black feminist scholarship. Covers a range of disciplines and historical periods to introduce students to important texts and theoretical developments in this vast and interdisciplinary field.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "AFRS",
+    "number": "3424",
+    "title": "Epidemiology of Pandemic Diseases and Health Disparities in the African Diaspora",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "SI"],
+    "sections": [{ "term": "202310", "crn": "16653" }],
+    "description": "Examines the epidemiology and determinants of diseases and the public health practice among continental African peoples and African-derived populations in the Americas and elsewhere in the African Diaspora. Emphasizes such epidemic diseases as malaria, yellow fever, tuberculosis, smallpox, the current AIDS pandemic, obesity, and cancer. The course also aims to critically address the breadth of factors behind these pandemics, such as socioeconomic, political, health system, behavioral, and genetic. A cross-cutting theme throughout the course is the entrenched health disparities in society.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

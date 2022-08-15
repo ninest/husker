@@ -1,0 +1,347 @@
+[
+  {
+    "subject": "THTR",
+    "number": "1000",
+    "title": "Theatre at Northeastern",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12314" }],
+    "description": "Introduces new students to the communities and procedures of Northeastern University; the College of Arts, Media and Design; and the Department of Theatre. Offers insights into the study of the liberal arts in general and the creative facets of theatre study, including the rehearsal and production process. Emphasizes the departmental values of generosity, respect, and rigor and seeks to familiarize students with the arts and culture of Greater Boston.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "1100",
+    "title": "Production Experience 1",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12716" }],
+    "description": "Offers lab practice in technical production. May be repeated once.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "1101",
+    "title": "Introduction to Theatre",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI", "IC"],
+    "sections": [
+      { "term": "202310", "crn": "10324" },
+      { "term": "202310", "crn": "20503" }
+    ],
+    "description": "Reveals the dynamic world of theatre by exploring the artistry, ideas, and techniques of actors, designers, directors, and playwrights. Goes behind the scenes in the study of theory and literature with both in-depth discussions and in-class performances. Includes a survey of significant movements in theatre history and analysis of diverse plays from contemporary drama. No theatre experience required.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "1120",
+    "title": "Acting 1",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "10226" },
+      { "term": "202310", "crn": "20489" }
+    ],
+    "description": "Focuses on the development of fundamental performance techniques and various significant acting methodologies needed by an actor to develop stage presence, strengthen the imagination, and increase freedom of expression. Studies, analyzes, and interprets contemporary texts through the performance of monologues and scenes.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "1125",
+    "title": "Improvisation",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "11941" },
+      { "term": "202310", "crn": "13920" },
+      { "term": "202310", "crn": "14908" },
+      { "term": "202310", "crn": "18668" },
+      { "term": "202240", "crn": "40888" }
+    ],
+    "description": "Introduces theatre improvisation principles through games, exercises, and readings. Offers a playful and rigorous environment for students to respond to unexpected situations with confidence and agility. In this experiential studio course, students participate in group and individual exercises that explore and practice creative impulses, adaptability, risk taking, intuition, and teamwork. Culminates in a self-reflection paper.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "1130",
+    "title": "Introduction to Acting",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EI", "IC"],
+    "sections": [
+      { "term": "202310", "crn": "10224" },
+      { "term": "202310", "crn": "13923" },
+      { "term": "202310", "crn": "11220" },
+      { "term": "202310", "crn": "18669" },
+      { "term": "202260", "crn": "60236" },
+      { "term": "202240", "crn": "40289" }
+    ],
+    "description": "Introduces techniques that awaken the creative mind, body, and spirit of the actor. Through theatre games and voice/movement exercises, offers students an opportunity to explore and develop skills used by actors in preparation for a role. Students rehearse and perform scenes from contemporary plays. Designed for nontheatre majors; previous stage experience welcome but not required.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "1131",
+    "title": "Introduction to Technical Theatre",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "13922" },
+      { "term": "202310", "crn": "20717" }
+    ],
+    "description": "Surveys the technical and stagecraft skills that are essential knowledge for all theatre professionals. Offers students an opportunity to develop a hands-on understanding of the areas of scenery and costume construction, stage management, props, and lighting. Covers the practical skills needed to participate in the creation, evaluation, and revision of a theatrical production. Coursework includes laboratory-based classes in the department scene shop and costume shop.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "1170",
+    "title": "The Eloquent Presenter",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19628" },
+      { "term": "202310", "crn": "19629" },
+      { "term": "202310", "crn": "19630" },
+      { "term": "202310", "crn": "20296" },
+      { "term": "202260", "crn": "60381" },
+      { "term": "202260", "crn": "60382" },
+      { "term": "202240", "crn": "40470" },
+      { "term": "202240", "crn": "40501" },
+      { "term": "202240", "crn": "40711" }
+    ],
+    "description": "Designed to help students to enhance the effectiveness with which they present themselves in front of an audience. Uses the application of theatre training exercises and practical tools to offer students an opportunity to improve the quality of their spoken voice, the clarity with which they articulate their ideas, and their ability to command the attention of audiences in diverse interpersonal and professional interactions.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "1180",
+    "title": "The Dynamic On-Screen Presenter",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [{ "term": "202310", "crn": "18671" }],
+    "description": "Offers students across disciplines the opportunity to enhance the quality of their spoken voice and improve clarity of expression, with specific emphasis on being a dynamic presenter across digital platforms. Focuses on physical and vocal exercises drawn from theatre training and practice, providing tools to release tensions that inhibit the clear communication of thoughts and ideas in professional and interpersonal interactions across in-person and digital modalities. Offers students an opportunity to apply these skills directly to various texts, circumstances, and settings through active participation in spoken, written, and performative work.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "1220",
+    "title": "Race, Power, and Performance",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [{ "term": "202310", "crn": "18673" }],
+    "description": "Examines race, power, and privilege in global and national contexts by analyzing plays and theatrical performances as spaces of cultural representation. Analyzes performance as a communicative process for understanding and constituting identity. Students explore how they perform their own lives and racial identities and apply those theories to contemporary drama and performance texts that are read, watched, and created.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "1236",
+    "title": "Introduction to Global Fashion Studies: History, Theory, and Contemporary Practice",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14144" }],
+    "description": "Offers students an overview of the most significant and relevant theories on fashion, focusing on the cultural significance of clothing and style. Examines the intersection of fashion and other areas of study including the arts, history, economics, business, sociology, and anthropology. Explores global issues of gender, race, class, identity, image, style, material culture, and sustainability. Examines how populations from several postindustrial nations think about fashion, how globalization impacts their cultures and identities, and how designers and trendsetters are emerging from the new capitals of fashion.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "1270",
+    "title": "Introduction to Theatrical Design",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI", "IC"],
+    "sections": [
+      { "term": "202310", "crn": "10220" },
+      { "term": "202310", "crn": "20718" }
+    ],
+    "description": "Introduces the principles of contemporary theatrical design and how to apply the creative process to scenery, costumes, and lighting. Offers students an opportunity to discover how design concepts are developed and relate to each other through research, script analysis, color theory, and visual composition. Seeks to develop the student&amp;#8217;s capacity for collaboration and techniques for conceptualizing a play into a multidisciplinary work of art. No theatre experience required.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "2000",
+    "title": "Production Experience 2",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12795" }],
+    "description": "Offers lab practice in rehearsal and performance for production. May be repeated once.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "2242",
+    "title": "Fashion Retailing",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13159" },
+      { "term": "202310", "crn": "20272" },
+      { "term": "202240", "crn": "41419" }
+    ],
+    "description": "Introduces fashion retailing. Analyzes the different types and sizes of fashion retail operations; physical site location, including omnichannel; store layout and design; advertising and display; relation of the store to its intended target market; and store organization.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "2310",
+    "title": "History of Musical Theatre",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC"],
+    "sections": [{ "term": "202310", "crn": "18674" }],
+    "description": "Traces the creative evolution of the stage musical from its 19th-century origins to current Broadway hits; from popular entertainment to an important theatrical art. Offers students an opportunity to examine this unique and original art form from multiple perspectives&amp;#8212;historical, cultural, political, and aesthetic&amp;#8212;and to develop insights into the concepts and methods of such pioneering composers, lyricists, and theatre artists as Gilbert and Sullivan, Cole Porter, Rodgers and Hammerstein, Leonard Bernstein, and Stephen Sondheim.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "2325",
+    "title": "Dramaturgical Inquiry",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI", "IC", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "11090" },
+      { "term": "202310", "crn": "20748" }
+    ],
+    "description": "Designed to develop the analytical skills needed to prepare a play for production. Seeks to help the actor, director, designer, playwright, or dramaturg to communicate what they learn through both artistic processes and discipline-specific writing conventions to make intellectual contributions to the field of theatre and performance studies. The creative practice research process develops the dramaturgical ability to mine a script with an enhanced understanding of its context. Offers students an opportunity to hone the writing skills that communicate research findings for multiple academic, professional, and public audiences.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "2335",
+    "title": "Boston Theatre Experience",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC"],
+    "sections": [{ "term": "202310", "crn": "16719" }],
+    "description": "Offers a comprehensive experiential survey of professional theatre today. Students attend Boston-area productions that reflect a diverse range of styles and aesthetics, with special emphasis on the creation of new plays. Through preparatory readings and lectures, combined with postplay critical assessments (oral and in writing) and interactions with theatre artists (playwrights, actors, directors), offers students an opportunity to examine and discover how to interpret the art of contemporary theatre in the United States, from fringe companies to Broadway, as audience members and aspiring artists. Requires attendance at plays outside of class time.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "2342",
+    "title": "Acting 2",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12316" }],
+    "description": "Continues THTR 1120. Focuses on developing the actor&amp;#8217;s sense of truth and emotional freedom. Emphasizes creating, developing, and sustaining character and developing ensemble. Includes monologues and scenes performed for classroom analysis.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "THTR", "number": "1120" }]
+  },
+  {
+    "subject": "THTR",
+    "number": "2345",
+    "title": "Acting for the Camera",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12572" }],
+    "description": "Explores the craft and methods used by actors while working in front of the camera through monologues, scenes, and group projects. Provides students with techniques to identify and free their performance energy with a foundation on relaxation and authenticity. Includes the study and analysis of acting styles in diverse genres of film and television from situation comedies to dramas. Offers students an opportunity to explore a range of on-camera skills and acting techniques and apply them in filmed final projects. Previous acting experience suggested but not required.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "2370",
+    "title": "Lighting Design",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EI", "FQ"],
+    "sections": [
+      { "term": "202310", "crn": "18675" },
+      { "term": "202240", "crn": "41420" }
+    ],
+    "description": "Examines basic principles and practices of stage lighting, including the qualities and functions of light, lighting instruments and controls, use of color and directionality, and script analysis for lighting design elements. Offers students an opportunity to develop foundational skills and practice systematic reasoning in the programming and operation of lighting computer equipment. Through group projects and individual lab work, students create and execute lighting designs. Includes work on electrics crews for university productions.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "2385",
+    "title": "Fashion Construction and Pattern Making",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18676" }],
+    "description": "This class will meet in EL 131B.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "3100",
+    "title": "Creative Storytelling for Social Engagement",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [{ "term": "202310", "crn": "18678" }],
+    "description": "Explores the immersive learning process of creating a contemporary living newspaper play by critically examining important social issues or questions; identifying, synthesizing, applying, and revising ideas; and engaging in team-building performative activities. Explores innovative ways to address civic engagement through a culminating workshop production of a treatment for the play.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "3400",
+    "title": "Stage Combat",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [{ "term": "202310", "crn": "14899" }],
+    "description": "Studies basic techniques of unarmed and armed combat and employs these techniques to choreograph exciting fight sequences that are safe for actor combatants to perform and in line with the storytelling of the play. Analyzes the value of specific targeting and strategies to control time and space in a way that maximizes onstage storytelling, as well as how actors can participate in their own safety and the safety of their scene partners. Makes connections to the work done in class with the overarching principles of acting and storytelling. Offers students an opportunity to design, develop, notate, and film their own fight scenes. May culminate in a public sharing.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "3702",
+    "title": "Rehearsal and Production",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": ["EX"],
+    "sections": [{ "term": "202310", "crn": "15178" }],
+    "description": "Offers students an opportunity to develop the experimental skills associated with dramatic interpretation and theatrical production by working on Department of Theatre productions under the supervision of faculty and staff. Most students enrolled in this course engage in the practices associated with one of the following areas: acting, design, stage management, or production crew head. Fulfills the experiential education requirement for theatre majors.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "THTR",
+    "number": "6100",
+    "title": "Advanced Creative Storytelling for Social Engagement",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18681" }],
+    "description": "Examines the ways people use creative storytelling to forge human connection in digital environments. Includes theoretical readings and critical analysis of digital performances in social and historical context, alongside experiential projects in which students create digital performance projects and curate collections of digital performances for particular audiences and purposes. This creative practice research course is open to advanced students with established storytelling skills in any discipline.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

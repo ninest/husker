@@ -1,0 +1,393 @@
+[
+  {
+    "subject": "JRNL",
+    "number": "1000",
+    "title": "Journalism at Northeastern",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10446" },
+      { "term": "202310", "crn": "10443" }
+    ],
+    "description": "Intended for first-year students in the College of Arts, Media and Design. Introduces students to liberal arts; familiarizes them with their major; develops the academic skills necessary to succeed (analytical ability and critical thinking); provides grounding in the culture and values of the University community; and helps to develop interpersonal skills&amp;#8212;in short, familiarizes students with all skills needed to become a successful university student.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "1101",
+    "title": "Journalism 1: Fundamentals of Reporting",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI", "SI", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "10440" },
+      { "term": "202310", "crn": "14687" }
+    ],
+    "description": "Covers foundations of news writing for print media, including leads, story structure, objective tone, and attribution. Introduces fundamental reporting skills such as interviewing, researching, and observation. It then asks students, in their reporting, to step back and analyze the institutions they are writing about and the media itself in order to understand how societies and its institutions function and the validity of theories that explain these processes.",
+    "coreqs": [{ "subject": "JRNL", "number": "1102" }],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "1102",
+    "title": "Journalist&amp;#8217;s Toolbox",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13542" },
+      { "term": "202310", "crn": "13543" },
+      { "term": "202310", "crn": "13585" }
+    ],
+    "description": "Introduces the tools journalists use to tell stories that will be utilized in Journalism 1 and beyond. Covers introductory photo, audio, video, and data visualization skills. Exposes students to other journalistic tools including social media and blogging. Offers students an opportunity to become familiar with composition of photos, recording and editing audio and video on nonlinear software, and how data visualizations can enhance journalistic storytelling.",
+    "coreqs": [{ "subject": "JRNL", "number": "1101" }],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "1150",
+    "title": "Understanding Today&amp;#8217;s News",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "10439" },
+      { "term": "202310", "crn": "10509" },
+      { "term": "202310", "crn": "10433" },
+      { "term": "202310", "crn": "13204" },
+      { "term": "202310", "crn": "20625" },
+      { "term": "202260", "crn": "61339" },
+      { "term": "202240", "crn": "41456" }
+    ],
+    "description": "Examines the media institutions that shape the news and how the challenges of economics, politics, diversity, and globalization change the function of the website, newspaper, news magazine, and news broadcasts. Examines stories and news decisions from different perspectives to evaluate national, political, local, foreign, sports, and science news in the U.S. media. Topics include responsibilities of the press and the changing ways news is gathered, processed, and disseminated. Explores how other societies in different parts of the world view the news; freedom of the press; and the role of reporters, producers, and editors.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "2201",
+    "title": "Journalism 2: Intermediate Reporting",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10432" },
+      { "term": "202310", "crn": "15259" },
+      { "term": "202310", "crn": "19376" },
+      { "term": "202310", "crn": "19378" }
+    ],
+    "description": "Continues JRNL 1101. This is the second writing course for undergraduate journalism students with an emphasis on learning how to report news stories. Offers students the opportunity to find sources and interview them, do background research, and use public records. Developing story ideas using computer-assisted reporting will be covered. Examines how to develop a story idea and then focus and organize it. Covers basic principles of online journalism including writing, design, and integration of visuals and text for the Web. Introduces elements of design and layout.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "2301",
+    "title": "Visual Storytelling in Journalism",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "10278" },
+      { "term": "202260", "crn": "60558" }
+    ],
+    "description": "Continues JRNL 2201. Covers basic principles of journalistic storytelling with video, sound, and still images. Introduces students to the foundations of writing with audio and video, and explores the concept of &amp;#8220;convergence,&amp;#8221; preparing stories for presentation in different formats. Fulfills the Advanced Writing in the Disciplines requirement for journalism majors.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
+  },
+  {
+    "subject": "JRNL",
+    "number": "2350",
+    "title": "The History of Journalism: How the News Became the News",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC", "SI", "WI"],
+    "sections": [{ "term": "202310", "crn": "10277" }],
+    "description": "Traces the development of American journalism from its European and English beginnings. Topics include the colonial press, the great personal journalists of the nineteenth century, and the impact of major technological changes in mass communications media in the twentieth century.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "3305",
+    "title": "Sports Media &amp; Digital Strytel",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19379" },
+      { "term": "202310", "crn": "19381" },
+      { "term": "202310", "crn": "19382" },
+      { "term": "202240", "crn": "41580" }
+    ],
+    "description": "This course gives advanced video students hands-on experience producing long-form and magazine-style video news segments with an emphasis on comprehensive coverage of timely, relevant issues impacting society. Students will build upon prior video experience to report and produce in-depth video news stories for dissemination across multiple platforms. Students will hone their researching, reporting, writing, video shooting and editing skills while also examining the ethical dilemmas facing video journalists as they pursue long-form storytelling. Experience in shooting and editing required.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "3370",
+    "title": "Podcast and Radio Journalism",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [{ "term": "202310", "crn": "19383" }],
+    "description": "Covers the fundamentals of audio journalism in a hands-on environment. Offers students an opportunity to learn how to record and edit audio, write for the ear, interview for broadcast, and experiment with a wide range of radio and podcast formats and narrative techniques. Listening sessions and assignments explore the different requirements of spot news, radio features, reporter debriefs, host interviews, and longer-form audio storytelling, including documentary and serial-style podcasts. Emphasizes journalistic principles and ethical considerations.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "3425",
+    "title": "Public Relations Principles",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "WI"],
+    "sections": [{ "term": "202310", "crn": "10270" }],
+    "description": "Presents the principles, history, and methods of public relations; processes of influencing public opinion; responsibilities of the public relations practitioner; and analyses of public relations programs. Through case studies and class discussions, offers students an opportunity to confront real-life ethical dilemmas and learn to apply ethical frameworks to evaluate and resolve them. COMM 3445 and JRNL 3425 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "3550",
+    "title": "The First Amendment and the Media",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["CE", "ER", "SI", "WI"],
+    "sections": [{ "term": "202310", "crn": "10268" }],
+    "description": "Examines legal problems of libel, invasion of privacy, and access to government information; discusses the balance between private rights and the public&amp;#8217;s &amp;#8220;need to know.&amp;#8221;",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "3610",
+    "title": "Digital Storytelling and Social Media",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI", "EX", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "12660" },
+      { "term": "202310", "crn": "19384" }
+    ],
+    "description": "Offers students an opportunity to learn the fundamentals of digital journalism. Emphasizes hands-on instruction in multimedia skills. Topics may include blogging, photography, video and audio production, use of social media as a reporting tool, and mapping and data visualization. Guest speakers and a consideration of the future of news may also be part of the course. Requires students to produce a final project that consists of storytelling across a range of platforms&amp;#8212;for example, a written article, a photo story, and a video.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "3650",
+    "title": "Science Writing",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [{ "term": "202310", "crn": "19385" }],
+    "description": "Explores the role of journalism in delivering science news and information to a general audience through print and digital media. Through readings and analysis of a variety of news media, offers students an opportunity to learn how political debates intersect with and shape scientific developments and how scientific developments can be sensationalized or misunderstood. Students also have an opportunity to learn and apply best journalistic practices to communicate effectively in the media about science, health, environmental, and technology issues whether headed to a newsroom, corporate press office, or scientific institution.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "3680",
+    "title": "Advanced Reporting",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["AD", "ER"],
+    "sections": [{ "term": "202310", "crn": "19386" }],
+    "description": "Offers students an opportunity to learn and apply advanced reporting techniques of the kind that editors and producers expect of their best reporters, especially those who cover demanding beats such as politics, government, healthcare, education, science, and business. Studies how to see and apply data and data visualization techniques, to develop and interview sources, to locate and decipher public records, to identify and conceptualize important stories, and to discuss and apply ethical theories to reporting to justify choices that may inflame or antagonize sources or readers. An assignment to do substantial enterprise stories for publication in major media outlets is part of the course.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "4650",
+    "title": "Ethics and Issues in Journalism",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["CE", "ER", "WI"],
+    "sections": [{ "term": "202310", "crn": "10267" }],
+    "description": "Discusses the responsibilities of news media and ethical problems confronting decision makers in various journalistic fields and the principles found in codes of various professional societies. Requires students to write a paper on an ethical problem they faced while working in the media and place it in a framework of at least two ethical theories, for example, utilitarianism and deontology.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "5250",
+    "title": "Gender in the Newsroom",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD"],
+    "sections": [{ "term": "202310", "crn": "19387" }],
+    "description": "Explores the obstacles women in journalism face and examines how a lack of diversity can damage news organizations&rsquo; credibility. Studies the historical underpinnings of journalism&rsquo;s gender gap and practical strategies to navigate identity politics in a modern newsroom. For decades, women have represented the majority of journalism and mass communication students, but they remain the minority at most U.S. news organizations. This gender gap is, of course, not unique to journalism, but the paucity of women in newsrooms negatively impacts society. When news narratives are constructed primarily by men, those narratives often perpetuate &ldquo;symbolic annihilation&rdquo;&mdash;a term commonly used by feminist and queer scholars to describe the ways the media overlooks or stereotypes women and other marginalized identities.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "5310",
+    "title": "Photojournalism",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["EI", "ER"],
+    "sections": [
+      { "term": "202310", "crn": "19388" },
+      { "term": "202310", "crn": "19389" }
+    ],
+    "description": "Covers camera procedures along with cropping, assignment techniques, theory, and photo-caption methods. Engages students in the ethical choices photojournalists face in covering wars, disasters, and vulnerable people in societies&amp;#8212;both historically and in the new media environment.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "5314",
+    "title": "Video News Reporting and Producing",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["EI", "ER"],
+    "sections": [{ "term": "202310", "crn": "19390" }],
+    "description": "Engages students in the ethical challenges facing journalists historically and in the new media age. Students experiment with techniques used by TV and electronic news producers, including reporting, writing, videotaping, and editing on nonlinear digital editing equipment. Offers students an opportunity to create and produce news stories and upload them to their websites with a variety of software programs for dissemination across video and several multimedia platforms, in line with journalistic and ethical standards.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "5400",
+    "title": "Media and Advocacy in Theory and Practice",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13639" }],
+    "description": "Examines time-tested and cutting-edge methods for shaping and presenting messages across multimedia platforms to effectively disseminate an organization&rsquo;s message, change a public conversation, or shift public opinion. Examines case studies in mainstream media, public advocacy, and strategic communications to explore the motivations and methods of the organizations as well as the tools and techniques used. Examines the practice of digital advocacy by exploring and applying pertinent findings from politics, advertising, and behavioral science that are increasingly employed by professionals looking to &ldquo;micro-target&rdquo; voters, &ldquo;convert&rdquo; customers, or &ldquo;nudge&rdquo; the public. One major component of the course is hands-on workshops through which students are offered an opportunity to learn how to leverage the latest digital tools for communicating across social media and online platforms.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "5420",
+    "title": "Public Relations Strategies for Managing Scandal in Business and Politics",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [{ "term": "202310", "crn": "20358" }],
+    "description": "Studies public relations strategy and tactics for predicting, preparing for, and responding to a variety of crisis scenarios, building on a foundation of basic crisis management principles. Focuses on how to provide sound counsel before, during, and after a crisis and on the tools available to mount an effective crisis response. More than ever, individuals and organizations&mdash;politicians, executives, corporations, nonprofits, and government agencies, among others&mdash;are facing serious issues and crises that threaten their reputations.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "6100",
+    "title": "Reporting and Writing Fundamentals",
+    "scheduleType": "Seminar",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10732" }],
+    "description": "Introduces the basics of news reporting and writing.  Runs for three weeks beginning in mid-August.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "6200",
+    "title": "Enterprise Reporting 1",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10821" }],
+    "description": "Defines and sharpens research, interviewing, and analytical skills necessary for good reporting. Focuses on learning to develop story ideas and conduct primary and secondary research for a major enterprise article. Skills are developed through an analysis of outstanding reportage, in-class discussion and exercises, and out-of-class assignments.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "6305",
+    "title": "Sports Media &amp; Digital Strytel",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19391" },
+      { "term": "202310", "crn": "19392" },
+      { "term": "202310", "crn": "19393" },
+      { "term": "202310", "crn": "19395" },
+      { "term": "202310", "crn": "19396" },
+      { "term": "202240", "crn": "41581" }
+    ],
+    "description": "Explores the role of journalism in delivering science news and information to a general audience through print and digital media. Through readings and analysis of a variety of news media, offers students an opportunity to learn how political debates intersect with and shape scientific developments and how scientific developments can be sensationalized or misunderstood. Students also have an opportunity to learn and apply best journalistic practices to communicate effectively in the media about science, health, environmental, and technology issues whether headed to a newsroom, corporate press office, or scientific institution.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "6307",
+    "title": "Media Innovation Studio 2",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12921" }],
+    "description": "Offers students an opportunity to integrate knowledge and skills derived from foundation courses to develop a master&amp;#8217;s project. Creates a newsroom environment in which each student project is advanced through a journalistic collaborative process that features critiques from instructors and peers and integrates expertise from guest lecturers. Following the &amp;#8220;teaching hospital&amp;#8221; model, students work with the instructor, each other, and partnered media innovation visitors to develop their work.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "6340",
+    "title": "Fundamentals of Digital Journalism",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12050" },
+      { "term": "202310", "crn": "12767" }
+    ],
+    "description": "Offers students an opportunity to learn the fundamentals of digital journalism and to place those skills within the context of a changing media environment. Studies multimedia tools within an intellectual framework&amp;#8212;i.e., offers students an opportunity to learn hands-on skills and also to study best practices and theory. May include guest speakers and a consideration of the future of news. Requires students to produce a final project that consists of storytelling across a range of digital platforms.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "6341",
+    "title": "Telling Your Story with Data",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13148" }],
+    "description": "Explores select topics in data journalism and support data-driven storytelling projects of various kinds. Offers students an opportunity to learn how to navigate the often-competing demands of rigorous analysis and accessible narrative and storytelling. Course units are designed to foster moderate technical learning of applications and software, incorporate theories from relevant fields in data visualization and data science, and emphasize storytelling for broad public audiences.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "6355",
+    "title": "Seminar in Investigative Reporting",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20231" }],
+    "description": "Introduces students to the world of investigative reporting as it is practiced at major metropolitan newspapers. Asks students to work as members of investigative reporting teams and introduces them to advanced reporting techniques and standards in the classroom. Provides an opportunity to learn how ideas for investigative reporting projects are developed; how to identify and interpret public records and online databases; and how to do interviews and write investigative stories. Working in small teams, the students are given an opportunity to develop and write investigative stories for publication.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "JRNL",
+    "number": "7976",
+    "title": "Directed Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "41942" }],
+    "description": "Offers students work on individual projects under the supervision of an instructor. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

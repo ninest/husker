@@ -1,0 +1,189 @@
+[
+  {
+    "subject": "GSND",
+    "number": "5110",
+    "title": "Game Design and Analysis",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12366" },
+      { "term": "202310", "crn": "17138" }
+    ],
+    "description": "Provides theoretical background and foundation for analyzing and designing games. Examines fundamental domains that are necessary to understand what games are and how they affect players, including but not limited to interface design, level design, narrative, learning, and culture. Presents relevant concepts and frameworks from a wide variety of disciplines&amp;#8212;psychology, phenomenology, sociology, anthropology, media studies, affect theories, learning theories, and theories of motivation&amp;#8212;for each domain. Explains the core elements of game design, introduces students to formal abstract design tools, explores several models of design process and iteration, and offers students an opportunity to practice game design in groups.",
+    "coreqs": [
+      { "subject": "GSND", "number": "5111" },
+      { "subject": "GSND", "number": "5112" }
+    ],
+    "prereqs": []
+  },
+  {
+    "subject": "GSND",
+    "number": "5111",
+    "title": "Seminar for GSND 5110",
+    "scheduleType": "Seminar",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12369" },
+      { "term": "202310", "crn": "13500" },
+      { "term": "202310", "crn": "17139" },
+      { "term": "202310", "crn": "17140" }
+    ],
+    "description": "Offers students an opportunity to discuss and analyze selected games, applying concepts from GSND 5110. Exposes students to a varied mix of AAA and indie titles and demonstrates how to analyze and appreciate them. Open to seniors; restricted to students in selected colleges.",
+    "coreqs": [{ "subject": "GSND", "number": "5110" }],
+    "prereqs": []
+  },
+  {
+    "subject": "GSND",
+    "number": "5112",
+    "title": "Recitation for GSND 5110",
+    "scheduleType": "Recitation/Discussion",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16437" }],
+    "description": "Requires students to familiarize themselves with industry-standard game development tools and to demonstrate their familiarity by developing a simple game. Participation in the recitation is integral to success in GSND 5110.",
+    "coreqs": [{ "subject": "GSND", "number": "5110" }],
+    "prereqs": []
+  },
+  {
+    "subject": "GSND",
+    "number": "5122",
+    "title": "Business Models in the Game Industry",
+    "scheduleType": "Seminar",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12592" },
+      { "term": "202310", "crn": "15278" }
+    ],
+    "description": "Examines the underlying business structure of the interactive digital entertainment industry and the characteristics of the various participants, notably developers and publishers. Seeks to deliver insight into key business models within the game industry and how the economic challenges interact. Explores the game business landscape across the industry spectrum, ranging from AAA, mobile, casual to indie development. Examines market strategies currently in practice and how they are linked with game analytics. Topics range from retail vs. online, free-to-play modes vs. pay-to-play, as well as basic monetization and distribution channels. Designed to serve as an overview of the various stakeholders in the industry and how they interact.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GSND",
+    "number": "5130",
+    "title": "Mixed Research Methods for Games",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12661" },
+      { "term": "202310", "crn": "13501" },
+      { "term": "202310", "crn": "17143" }
+    ],
+    "description": "Focuses on methods and methodologies from human-computer interaction (HCI) and their use in different applications, including apps, web  applications, games, and virtual worlds. Covers the basics of user-oriented evaluation, associated topics, and usability methods. Introduces the design process, usability heuristics, HCI paradigms, task models, and cognitive models. Examines quantitative and qualitative analysis of data. Offers students an opportunity to delve into experimental design, institutional review board  approvals, ethics, research subject recruitment, and experiment implementations. Applies concepts through concrete projects, case examples, and exercises. Expects students to be running assignments continually and trying out different evaluation methods and methodologies.",
+    "coreqs": [{ "subject": "GSND", "number": "5131" }],
+    "prereqs": []
+  },
+  {
+    "subject": "GSND",
+    "number": "5131",
+    "title": "Recitation for GSND 5130",
+    "scheduleType": "Recitation/Discussion",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16899" }],
+    "description": "Requires students to familiarize themselves with statistical analysis software and to demonstrate their ability to use the software and statistics by analyzing an existing data set retrieved from a game study. Participation in the recitation is integral to success in GSND 5130.",
+    "coreqs": [{ "subject": "GSND", "number": "5130" }],
+    "prereqs": []
+  },
+  {
+    "subject": "GSND",
+    "number": "6250",
+    "title": "Spatial and Temporal Design",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14102" }],
+    "description": "Explores the development and understanding of spaces used by people in 3D and 2D virtual environments. Uses an iterative process of making, criticizing, experiencing, and analyzing spatial form; compositional ideas for form making; and critical thinking. Offers students an opportunity to develop the arbitrary, yet necessary, mind-set needed to make assumptions about aesthetic spatial values and expected player behaviors. Analyzes the connection between spatial-aesthetic elements and their effects on players&amp;#8217; psyches. Experiments with how spaces, textures, shapes, and colors can support different synchronous moods. Explores how to shape spaces that fit the rational, emotional, and behavioral profile of different types of players. Applies concepts learned from architecture and game-level design to extend students&amp;#8217; creative and critical abilities.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GSND",
+    "number": "6330",
+    "title": "Player Experience",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14103" },
+      { "term": "202310", "crn": "14104" }
+    ],
+    "description": "Focuses on topics of player psychology&mdash;cognition; memory; emotions; attention; and game-focused theories such as engagement, fun, user experience, player-need-satisfaction model, and flow. The development cycle of any game relies on the understanding of the players, the target market of the game product. Covers game usability engineering and game-specific evaluation methods, such as play testing, rapid iterative testing and evaluation (RITE), play-heuristic evaluation, and retrospective play reviews. Offers students an opportunity to learn how to analyze qualitative and quantitative data and to apply parametric and nonparametric statistical evaluation methods, qualitative data coding and analysis, and descriptive statistics. Requires students to apply visualization techniques of data and reporting.",
+    "coreqs": [{ "subject": "GSND", "number": "6331" }],
+    "prereqs": [
+      { "subject": "GSND", "number": "5130" },
+      "Or",
+      { "subject": "GSND", "number": "5130" },
+      "Or",
+      "(",
+      { "subject": "CS", "number": "5340" },
+      "And",
+      { "subject": "CS", "number": "6350" },
+      ")"
+    ]
+  },
+  {
+    "subject": "GSND",
+    "number": "6331",
+    "title": "Recitation for GSND 6330",
+    "scheduleType": "Recitation/Discussion",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16900" }],
+    "description": "Requires students to familiarize themselves with survey instruments and data visualization techniques. Participation in the recitation is integral to success in GSND 6330.",
+    "coreqs": [{ "subject": "GSND", "number": "6330" }],
+    "prereqs": []
+  },
+  {
+    "subject": "GSND",
+    "number": "6340",
+    "title": "Biometrics for Design",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20455" }],
+    "description": "Covers the domain of psychophysiological testing. Introduces theory and research in major areas of human psychology, including cognition, emotions, and attention. Studies the principles, theory, and applications of psychophysiological assessment inside and outside interactive digital entertainment. Offers students an opportunity to understand the basics of eye tracking&mdash;eye movements, fixations, saccades. Applies methods of data collection, clearning, and analysis for both physiological and eye-tracking data. Covers all issues of using such measurements, including validity of conclusions and confounding variables. Covers the process of triangulation and repotting in-depth along the entire process of the game production life cycle.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "GSND", "number": "5130" }]
+  },
+  {
+    "subject": "GSND",
+    "number": "7976",
+    "title": "Directed Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20302" }],
+    "description": "Offers independent work under the direction of members of the department on chosen topics. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GSND",
+    "number": "7990",
+    "title": "Thesis",
+    "scheduleType": "Individual Instruction",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13802" }],
+    "description": "Focuses on preparing a master&amp;#8217;s thesis under faculty supervision.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "GSND",
+    "number": "7996",
+    "title": "Thesis Continuation",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13842" }],
+    "description": "Offers continued work on the thesis project.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "GSND", "number": "7990" }]
+  }
+]

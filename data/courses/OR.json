@@ -1,0 +1,75 @@
+[
+  {
+    "subject": "OR",
+    "number": "6205",
+    "title": "Deterministic Operations Research",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11382" },
+      { "term": "202310", "crn": "15074" },
+      { "term": "202310", "crn": "12777" },
+      { "term": "202310", "crn": "12516" },
+      { "term": "202310", "crn": "12891" },
+      { "term": "202310", "crn": "12069" },
+      { "term": "202310", "crn": "17856" },
+      { "term": "202310", "crn": "12389" },
+      { "term": "202310", "crn": "17576" },
+      { "term": "202310", "crn": "20847" },
+      { "term": "202310", "crn": "15073" },
+      { "term": "202310", "crn": "21095" },
+      { "term": "202240", "crn": "41481" }
+    ],
+    "description": "Introduces the theory, computation, and application of deterministic models to represent industrial operations. Includes linear programming formulation and solution using spreadsheet and algebraic languages software; simplex, big-M, two-phase, revised simplex, and dual simplex algorithms for solving linear programs; introduction to the theory of simplex, fundamental insight, duality, and sensitivity analysis; transportation, assignment, and transshipment problems; shortest path, minimum spanning tree, maximum flow, minimum cost network flow problems and project networks; and discrete-state and continuous-state dynamic programming models and applications. Requires knowledge of linear algebra.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "OR",
+    "number": "6500",
+    "title": "Metaheuristics and Applications",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "21045" }],
+    "description": "Focuses on solving large combinatorial optimization problems. Metaheuristic search aims to find a &quot;very good&quot; solution that satisfies the problem constraints. Describes multiple metaheuristic search methods such as simulated annealing (SA), tabu search (TS), genetic algorithms (GA), particle swarm optimization (PSO), and multiobjective methods. Uses algorithms to find values of discrete and/or continuous variables that optimize a system&rsquo;s performance. Discusses the application of metaheuristics to a variety of different problems, including hub location allocation, parallel machine scheduling, travelling salesman problem (TSP), curve fitting, clustering, n-queen, min one, etc. Incorporates practical experiments to demonstrate the advantages and disadvantages of metaheuristic search methods for different applications.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "OR", "number": "6205" }]
+  },
+  {
+    "subject": "OR",
+    "number": "7245",
+    "title": "Network Analysis and Advanced Optimization",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13572" }],
+    "description": "Previously captured",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "OR",
+    "number": "7310",
+    "title": "Logistics, Warehousing, and Scheduling",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12070" },
+      { "term": "202310", "crn": "16707" }
+    ],
+    "description": "Explores the determination of needs and requirements for logistics within large-scale manufacturing and business environments. Examines warehousing and scheduling in the context of a business logistics system. Introduces managerial, mathematical, and software tools and techniques for modeling and optimizing various aspects of the business supply chain. Considers approaches to examining warehousing operations and the associated algorithms.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "IE", "number": "6200" },
+      "Or",
+      { "subject": "MATH", "number": "7241" },
+      ")",
+      "And",
+      { "subject": "OR", "number": "6205" }
+    ]
+  }
+]

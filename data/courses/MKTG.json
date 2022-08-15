@@ -1,0 +1,479 @@
+[
+  {
+    "subject": "MKTG",
+    "number": "2201",
+    "title": "Introduction to Marketing",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10377" },
+      { "term": "202310", "crn": "10376" },
+      { "term": "202310", "crn": "10375" },
+      { "term": "202310", "crn": "10374" },
+      { "term": "202310", "crn": "10373" },
+      { "term": "202310", "crn": "10372" },
+      { "term": "202310", "crn": "10371" },
+      { "term": "202310", "crn": "10370" },
+      { "term": "202310", "crn": "10369" },
+      { "term": "202310", "crn": "11873" },
+      { "term": "202310", "crn": "11875" },
+      { "term": "202310", "crn": "11953" },
+      { "term": "202310", "crn": "12104" },
+      { "term": "202310", "crn": "12290" },
+      { "term": "202310", "crn": "15359" },
+      { "term": "202310", "crn": "17637" },
+      { "term": "202310", "crn": "17639" },
+      { "term": "202310", "crn": "19309" },
+      { "term": "202310", "crn": "20049" },
+      { "term": "202310", "crn": "20906" },
+      { "term": "202310", "crn": "20505" },
+      { "term": "202310", "crn": "21080" },
+      { "term": "202260", "crn": "60024" },
+      { "term": "202260", "crn": "60023" },
+      { "term": "202240", "crn": "40020" },
+      { "term": "202240", "crn": "40019" },
+      { "term": "202240", "crn": "40018" },
+      { "term": "202240", "crn": "40424" },
+      { "term": "202240", "crn": "40446" },
+      { "term": "202240", "crn": "40519" },
+      { "term": "202240", "crn": "40728" },
+      { "term": "202240", "crn": "41778" },
+      { "term": "202240", "crn": "41823" }
+    ],
+    "description": "Provides an overview of the role of marketing in business and society. Considers the planning, implementation, and evaluation of marketing efforts in consumer and business-to-business companies, in service and goods companies, and in for-profit and nonprofit organizations. Also examines contemporary issues in marketing that can affect organizational success. A term project is used to enable students to apply their learning about the fundamentals of marketing.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MKTG",
+    "number": "2209",
+    "title": "Introduction to Marketing",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10912" },
+      { "term": "202310", "crn": "10913" },
+      { "term": "202310", "crn": "10914" },
+      { "term": "202310", "crn": "11170" },
+      { "term": "202310", "crn": "11273" },
+      { "term": "202310", "crn": "11274" },
+      { "term": "202310", "crn": "11291" }
+    ],
+    "description": "Does not count as credit for business majors. Counts as MKTG 2201 for business minors only.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MKTG",
+    "number": "2602",
+    "title": "Quantitative Analysis of Consumer Data",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19310" }],
+    "description": "Introduces the fundamental techniques of quantitative data analysis and visualization in the marketing context. Emphasizes real-world consumer data and applications using R. Offers students an opportunity to learn a wide variety of foundational data-driven inference methods and progress to more advanced coursework delving into analyzing and understanding complex behavioral data. No previous experience in data analysis or programming required.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MKTG",
+    "number": "3301",
+    "title": "Marketing Management",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [
+      { "term": "202310", "crn": "10368" },
+      { "term": "202310", "crn": "10367" },
+      { "term": "202310", "crn": "10366" },
+      { "term": "202310", "crn": "11755" },
+      { "term": "202310", "crn": "12433" },
+      { "term": "202260", "crn": "61304" }
+    ],
+    "description": "Focuses on the marketing process through the use of case studies simulating actual business settings and marketing challenges. Develops skill in marketing decision making, critical analysis, and communication. Topics include techniques for undertaking market analysis, marketing strategy (segmentation and positioning), and marketing implementation (4 Ps). A marketing plan project is used to enable students to apply their understanding about the marketing process.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MKTG",
+    "number": "3401",
+    "title": "Marketing Research",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10365" },
+      { "term": "202310", "crn": "10364" },
+      { "term": "202310", "crn": "10363" },
+      { "term": "202310", "crn": "11756" },
+      { "term": "202310", "crn": "13512" },
+      { "term": "202310", "crn": "15589" },
+      { "term": "202240", "crn": "40730" }
+    ],
+    "description": "Offers students an opportunity to gain experience in the marketing research process, while working on a client-based project. Topics include problem definition, secondary research, exploratory research, experimental design, questionnaire design, sampling and recruitment, and data analysis and visualization. Exercises skills of project management, teamwork, and client relationship management. Seeks to prepare students for careers that utilize consumer insights to inform managerial decisions.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MKTG",
+    "number": "3402",
+    "title": "Gaining Insights from Consumer Data",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20174" }],
+    "description": "Examines how to capture, manage, analyze, and apply consumer data to gain a better understanding of consumer attitudes, preferences, and thought processes with the goal of helping organizations improve customer experience. Focuses on defining, designing, and solving marketing problems through data analysis and experimental design.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "CS", "number": "2500" },
+      "Or",
+      { "subject": "DS", "number": "2000" },
+      "Or",
+      { "subject": "MKTG", "number": "2601" },
+      ")",
+      "And",
+      { "subject": "MKTG", "number": "2602" }
+    ]
+  },
+  {
+    "subject": "MKTG",
+    "number": "3501",
+    "title": "Marketing Analytics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12612" },
+      { "term": "202240", "crn": "41585" }
+    ],
+    "description": "Examines a wide range of analytical approaches to support marketing decision making and performance measuring in organizations. Offers students an opportunity to learn how to implement such approaches in practice. Focuses on identifying and acquiring relevant data to address different marketing challenges, conducting relevant quantitative analyses, and communicating obtained insights across the organization to make better marketing decisions.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "MKTG", "number": "3401" },
+      "Or",
+      { "subject": "MKTG", "number": "3402" }
+    ]
+  },
+  {
+    "subject": "MKTG",
+    "number": "3720",
+    "title": "Brand Management",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16651" }],
+    "description": "Introduces students to the multifaceted responsibilities of a brand manager, including understanding market trends and the competitive landscape; developing the brand story; conducting and analyzing consumer research to identify brand opportunities; creating and maintaining a brand budget; establishing and implementing cross-platform brand communication strategy; measuring brand performance; and executing marketing and advertising campaigns. Brand managers in technology, consumer packaged goods (CPG), and service organizations shape the trajectories of global brands and products.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MKTG",
+    "number": "4504",
+    "title": "Advertising and Brand Promotion",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10919" },
+      { "term": "202310", "crn": "16606" },
+      { "term": "202240", "crn": "40486" }
+    ],
+    "description": "Focuses on developing a creative advertising strategy and brand plan that aligns with a company&rsquo;s overall marketing objectives. Topics include the business of brands, marketing strategy, ethical and legal considerations in advertising, advertising strategy development, media planning and buying, creative development and testing, identifying and measuring success on key performance indicators, historical foundations of advertising, and what&rsquo;s next in the industry. Students apply course concepts to develop a creative advertising strategy to address campaign objectives.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MKTG",
+    "number": "4506",
+    "title": "Consumer Behavior",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EX"],
+    "sections": [
+      { "term": "202310", "crn": "11275" },
+      { "term": "202310", "crn": "13513" },
+      { "term": "202260", "crn": "60561" }
+    ],
+    "description": "Incorporates the latest research in marketing, psychology, and other behavioral sciences to help students develop evidence-based strategies for predicting and influencing consumer behavior. Consumers are at the center of the business value creation process; therefore, an understanding of consumer thoughts, feelings, and actions is critical for business success. Offers students an opportunity to learn how to successfully target the right audience by conducting and interpreting market research; shape thoughts by getting consumers&rsquo; attention and making a lasting impression; influence attitudes by applying principles of persuasion and social influence; and impact consumer decisions by harnessing motivations and drivers of behavior.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MKTG",
+    "number": "4508",
+    "title": "Digital Marketing",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15166" }],
+    "description": "Examines the impact of technology on the marketing of goods and services. Focuses on the Internet and the World Wide Web. Investigates recent trends in e-business and identifies marketing strategies that work in this new environment. Introduces students to frameworks that help explain current issues in electronic marketing. Although the focus is on Internet marketing strategy, phenomena such as television home shopping and database marketing are also explored. Readings, cases, discussions, lectures, guest speakers, student reports, and exercises on the World Wide Web are all utilized.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "MKTG", "number": "2201" },
+      "Or",
+      { "subject": "MKTG", "number": "2202" },
+      "Or",
+      { "subject": "MKTG", "number": "2209" }
+    ]
+  },
+  {
+    "subject": "MKTG",
+    "number": "4510",
+    "title": "New Product Development",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "41586" }],
+    "description": "Provides an overview of the new-product-development process, with an emphasis on customer involvement in this process. Detailed insights are provided on such topics as new-product strategy, idea generation, idea selection and evaluation, concept development and testing, product development and testing, and market testing and product launch.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "MKTG", "number": "3401" }]
+  },
+  {
+    "subject": "MKTG",
+    "number": "4512",
+    "title": "International Marketing",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19688" },
+      { "term": "202260", "crn": "60588" }
+    ],
+    "description": "Introduces those aspects of marketing that are unique to international business within the framework of traditional functional areas of marketing. Focuses on the environment and the modifications of marketing concepts and practices necessitated by environmental differences. Topics include cultural dynamics in international markets, political and legal environmental constraints, educational and economic constraints, international marketing research, international marketing institutions, and marketing practices abroad.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MKTG",
+    "number": "4604",
+    "title": "Creating Business Value with Data and AI Technologies",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20175" }],
+    "description": "Designed to prepare students for careers that demand an understanding of the intersection between the growing data-driven and technology-enabled possibilities and various ways in which they can be creatively leveraged for designing better digital products and markets. Rapidly emerging new digital ecosystems, platforms, products, and services have been fundamentally transforming business practices and market landscapes in almost every industry. Using real-life case studies and projects, students examine and apply fundamental economic principles and conceptual business frameworks that are essential for understanding how emerging data opportunities and new computing technologies can be used for value creation. Considers various approaches for establishing fair and appropriate rules, regulations, and policies to mitigate potential biases, ethical challenges, and discrimination arising due to the digital transformation.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MKTG",
+    "number": "6200",
+    "title": "Creating and Sustaining Customer Markets",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10698" },
+      { "term": "202310", "crn": "10697" },
+      { "term": "202310", "crn": "10964" },
+      { "term": "202310", "crn": "11165" },
+      { "term": "202310", "crn": "11317" },
+      { "term": "202310", "crn": "11318" },
+      { "term": "202310", "crn": "19695" },
+      { "term": "202310", "crn": "19696" },
+      { "term": "202240", "crn": "41724" }
+    ],
+    "description": "Focuses on marketing analysis and planning. Emphasizes analysis of customer needs and company and competitor capabilities. This analysis forms the basis of a sound marketing strategy that provides value to customers in a way superior to competitors. Discusses how to deliver this strategy through the development of an intergrated marketing program covering product offerings, pricing, promotion, and distribution. Includes professional accounting students.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MKTG",
+    "number": "6212",
+    "title": "International Marketing",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14916" }],
+    "description": "Develops understanding of the opportunities and challenges facing the international marketing executive, the decision-making process in marketing goods abroad, and the environmental forces&amp;#8212;economic, cultural, and political&amp;#8212;affecting the marketing process in the international marketplace.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "MKTG", "number": "6200" },
+      "Or",
+      { "subject": "MKTG", "number": "6208" },
+      "Or",
+      { "subject": "MKTG", "number": "6318" }
+    ]
+  },
+  {
+    "subject": "MKTG",
+    "number": "6214",
+    "title": "New Product Development",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "41587" }],
+    "description": "Focuses on the challenges and decisions new-product managers face as they take ideas through the new-product-development process. Companies need to create, develop, and market new products and services continually to compete effectively in a rapidly changing environment. Provides an overview of the new-product-development process, with an emphasis on customer involvement in this process. Provides detailed insights on such topics as new-product strategy, idea generation, idea selection and evaluation, concept development and testing, product development and testing, and market testing.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MKTG",
+    "number": "6216",
+    "title": "Market Focused Strategy",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "40689" }],
+    "description": "Offers an advanced course in defining and managing an organization&amp;#8217;s product-market strategy. Intended for marketing specialists and nonspecialists interested in incorporating a market focus from a general management or consulting perspective. Emphasizes using market information to choose and manage the company&amp;#8217;s relationships with customers and competitors in a complex, changing environment, as well as the practical concerns of implementing and evaluating marketing strategy.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "MKTG", "number": "6200" },
+      "Or",
+      { "subject": "MKTG", "number": "6208" },
+      "Or",
+      { "subject": "MKTG", "number": "6318" }
+    ]
+  },
+  {
+    "subject": "MKTG",
+    "number": "6218",
+    "title": "Managing Customer Engagement in a Service World",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "61305" }],
+    "description": "Examines how both service organizations and product organizations require a distinctive approach to marketing strategy in a world where all organizations increasingly depend on service excellence and customer engagement for competitive advantage. The world economy is dominated by services; in the United States, a large percentage of the labor force and the GDP is accounted for by services. Covers why people are essential to success, why expectations are important to consumers, and how physical and virtual environments influence delivery of value to customers. This practice-oriented course focuses on active skill building and tool development that is quickly and directly applicable to students&rsquo; future careers.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "MKTG", "number": "6200" },
+      "Or",
+      { "subject": "MKTG", "number": "6208" },
+      "Or",
+      { "subject": "MKTG", "number": "6318" }
+    ]
+  },
+  {
+    "subject": "MKTG",
+    "number": "6223",
+    "title": "Brand and Advertising Management",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "40215" }],
+    "description": "Offers students an opportunity to obtain an in-depth understanding of the brand-building process amid radical changes in today&amp;#8217;s marketing communications platforms. Exposes students to concepts, frameworks, and theories critical to developing branding and advertising strategy in the twenty-first century, including brand positioning, target audiences definition, creative advertising, integrated marketing communications, the influence of social media, and assessing marketing and media effectiveness.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "MKTG", "number": "6200" },
+      "Or",
+      { "subject": "MKTG", "number": "6208" },
+      "Or",
+      { "subject": "MKTG", "number": "6318" }
+    ]
+  },
+  {
+    "subject": "MKTG",
+    "number": "6224",
+    "title": "B2B and Strategic Sales",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "61393" }],
+    "description": "Covers business-to-business marketing and the key roles of managing relationships with large buyers, going to market, and the sales organization. Begins with an understanding of why and how firms, institutions, and organizations purchase products and services and the importance of the multifunctional buying center. Covers a proven selling process and presents compelling solutions to customers. Going-to-market topics include managing value-added resellers and distributors. Intended for all interested in marketing: future product managers who must rely on the sales force and distributors to introduce new products and promotions, future sales managers, and marketing executives who must manage the marketing-sales interface.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MKTG",
+    "number": "6226",
+    "title": "Consumer Behavior",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13516" }],
+    "description": "Focuses on the consumer as the key element of marketing strategy and application. Explores demographic, lifestyle, social, and cultural trends and their impact on consumer attitudes, motivations, and behavior. Other topics include group dynamics, family, learning, personality, and emotions and their impact on the business world. Offers an in-depth look at the consumer decision process as a model to guide the planning and evaluation of marketing strategies.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "MKTG", "number": "6200" },
+      "Or",
+      { "subject": "MKTG", "number": "6208" },
+      "Or",
+      { "subject": "MKTG", "number": "6318" }
+    ]
+  },
+  {
+    "subject": "MKTG",
+    "number": "6234",
+    "title": "Marketing Analytics",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "16607" },
+      { "term": "202310", "crn": "17646" },
+      { "term": "202240", "crn": "41032" }
+    ],
+    "description": "Offers students an opportunity to understand the importance of using an analytical approach to support marketing decision making in organizations and approaches to implementation practice. Focuses on identifying and acquiring the right data for addressing different marketing challenges; building skills necessary for conducting relevant quantitative analyses; and using insights to make better marketing decisions. Topics may include product innovation, market identification and segmentation, customer valuation, media attribution models, and assessment of digital and social media. Students are expected to apply statistical concepts and have the opportunity to use SPSS, Python, and/or R for analyzing marketing data sets.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MKTG",
+    "number": "6283",
+    "title": "Marketing and Selling Innovation",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13192" }],
+    "description": "Reviews the product portfolio concept, examining the need for balanced portfolios and focusing on issues related to product proliferation and simplification. Discusses market-based pricing strategies, sales efforts, distribution, and communication in the context of enhancing the firm&amp;#8217;s product position in the marketplace. Focuses on developing and executing sales. Explores business-to-business and business-to-customer strategies.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MKTG",
+    "number": "6294",
+    "title": "Customer-Centric Research Methods for Marketing",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "60403" }],
+    "description": "Focuses on the marketing research process and the analysis of data using software applications. Marketing research helps businesses know their customers and aids in business decision making. Covers topics such as problem definition, research design, sampling, attitude measurement, survey design, data collection, and data analysis. Students apply course topics to their organizations and analyze real company customer satisfaction data to provide managerial insights for a decision maker. Cases highlight the research process, mobile qualitative methods, and practical decision-making skills. SPSS, Qualtrics, and IBM Watson Analytics may be used to develop and analyze the project components.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MKTG",
+    "number": "6295",
+    "title": "Customer Performance Modeling",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13672" }],
+    "description": "Addresses the question of how you know if and when your company&rsquo;s marketing initiatives are impacting customers and creating profit. Covers customer performance measurement, modeling, and feedback systems managers can use to take smarter risks by assessing the marketing initiatives and forecasting profit potentials. Offers students an opportunity to learn how to develop marketing dashboards, through which marketing productivity and profits can be assessed and evaluated. Also covers strategy and tactics that can be developed and communicated, with accountability in mind.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MKTG",
+    "number": "6318",
+    "title": "Customer Value and the Enterprise",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13721" },
+      { "term": "202310", "crn": "13722" }
+    ],
+    "description": "Examines the role of marketing as an organizational function and a set of processes to manage offerings that provide superior value to customers. Focuses on developing student skill in analyzing the customer and business environment and using that analysis to build an effective marketing strategy. Emphasizes methods for the identification, acquisition, and retention of customers in a way that provides mutual value to the customer and the organization.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MKTG",
+    "number": "7976",
+    "title": "Directed Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202260", "crn": "61630" },
+      { "term": "202240", "crn": "41743" }
+    ],
+    "description": "Offers independent work under the direction of members of the department on chosen topics. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "subject": "NULL",
+    "number": "0001",
+    "title": "Administrative Non-CEU",
+    "scheduleType": "Lecture",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12727" },
+      { "term": "202310", "crn": "12390" },
+      { "term": "202310", "crn": "11823" },
+      { "term": "202310", "crn": "20811" },
+      { "term": "202260", "crn": "60230" },
+      { "term": "202260", "crn": "60246" },
+      { "term": "202260", "crn": "60152" },
+      { "term": "202240", "crn": "40747" }
+    ],
+    "description": "Intended for administrative use only.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

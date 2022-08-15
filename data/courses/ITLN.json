@@ -1,0 +1,73 @@
+[
+  {
+    "subject": "ITLN",
+    "number": "1101",
+    "title": "Elementary Italian 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11777" },
+      { "term": "202310", "crn": "10021" }
+    ],
+    "description": "Designed for students with very little or no prior knowledge of Italian. Provides a lively introduction to basic oral expression, listening comprehension, and elementary reading and writing. Each lesson incorporates helpful information about daily life in Italy and the varied cultures within the world of Italian speakers. Laboratory practice complements class work, enables students to work aloud at their own speed, reinforces their acquisition of essential structures, and acquaints them with a vast library of audio-visual resources.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ITLN",
+    "number": "1102",
+    "title": "Elementary Italian 2",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10906" }],
+    "description": "Continues ITLN 1101. Reviews and continues the study of grammar and basic language skills. Offers progressively more intensive practice in oral and written communication. Laboratory practice complements class work, enables students to work aloud at their own speed, reinforces their acquisition of essential structures, and acquaints them with a vast library of audio-visual resources.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ITLN", "number": "1101" },
+      "Or",
+      { "subject": "ITLN", "number": "1301" }
+    ]
+  },
+  {
+    "subject": "ITLN",
+    "number": "2101",
+    "title": "Intermediate Italian 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10061" }],
+    "description": "Emphasizes further vocabulary building and mastery of fine points of grammar through written composition, prepared oral reports, and reading and discussion from current Italian periodicals.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ITLN", "number": "1102" },
+      "Or",
+      { "subject": "ITLN", "number": "1302" }
+    ]
+  },
+  {
+    "subject": "ITLN",
+    "number": "2102",
+    "title": "Intermediate Italian 2",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10047" }],
+    "description": "Continues ITLN 2101. Emphasizes further vocabulary building and mastery of fine points of grammar through written composition, prepared oral reports, and reading and discussion from current Italian periodicals.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ITLN",
+    "number": "3101",
+    "title": "Advanced Italian 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12922" }],
+    "description": "Stresses the fundamentals of Italian to promote effective self-expression through speaking and writing and to explore the idiomatic aspects of the language. Through progressive class discussions and oral and written commentaries, students analyze a contemporary Italian novel or a Italian cultural reader, screenplay, or collection of short stories. The course strives, first, to help students read and comprehend modern Italian writing with confidence and to be able to talk and write about it in good Italian; and second, to provide preparation for advanced courses.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

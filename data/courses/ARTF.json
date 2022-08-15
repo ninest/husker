@@ -1,0 +1,228 @@
+[
+  {
+    "subject": "ARTF",
+    "number": "1000",
+    "title": "Art and Design at Northeastern",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13717" },
+      { "term": "202310", "crn": "16428" }
+    ],
+    "description": "Introduces students to the intellectual and extracurricular opportunities within the Department of Art + Design and the College of Arts, Media and Design. Exposes students to the cultural vibrancy of Boston with the goal of building networks that facilitate a supportive learning community. Familiarizes students with their major and introduces them to the resources at the university and across the city to help them succeed academically. Provides grounding in the culture and values of the university community and seeks to help students develop interpersonal skills.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTF",
+    "number": "1120",
+    "title": "Observational Drawing",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "10337" },
+      { "term": "202310", "crn": "10322" },
+      { "term": "202310", "crn": "10045" },
+      { "term": "202310", "crn": "12696" },
+      { "term": "202310", "crn": "17105" },
+      { "term": "202310", "crn": "20376" },
+      { "term": "202310", "crn": "20703" },
+      { "term": "202260", "crn": "60114" },
+      { "term": "202240", "crn": "40187" }
+    ],
+    "description": "Focuses on developing an understanding of the structure of object and figure through freehand drawing. Offers students an opportunity to explore a wide range of materials, including wash, charcoal, and pencil.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTF",
+    "number": "1121",
+    "title": "Conceptual Drawing",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "10034" },
+      { "term": "202310", "crn": "19240" },
+      { "term": "202310", "crn": "19241" },
+      { "term": "202260", "crn": "60877" }
+    ],
+    "description": "Seeks to expand the student&amp;#8217;s knowledge and skills through a mark-making process. Offers students an opportunity to begin to understand the relationship between form and meaning while relating the drawing process to broader concepts of communication.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTF",
+    "number": "1122",
+    "title": "Color and Composition",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "11106" },
+      { "term": "202310", "crn": "11107" },
+      { "term": "202310", "crn": "12026" },
+      { "term": "202310", "crn": "21009" },
+      { "term": "202310", "crn": "15384" },
+      { "term": "202310", "crn": "17112" },
+      { "term": "202310", "crn": "13565" },
+      { "term": "202310", "crn": "13549" },
+      { "term": "202310", "crn": "14097" },
+      { "term": "202310", "crn": "21010" },
+      { "term": "202310", "crn": "15296" },
+      { "term": "202310", "crn": "17478" },
+      { "term": "202310", "crn": "17479" },
+      { "term": "202310", "crn": "17443" },
+      { "term": "202310", "crn": "20494" },
+      { "term": "202260", "crn": "60196" },
+      { "term": "202260", "crn": "60878" },
+      { "term": "202260", "crn": "61478" },
+      { "term": "202240", "crn": "40153" },
+      { "term": "202240", "crn": "40377" },
+      { "term": "202240", "crn": "41150" },
+      { "term": "202240", "crn": "41243" }
+    ],
+    "description": "Offers an opportunity to discover and research basic principles, language, and concepts inherent in two-dimensional visual systems. Offers students an opportunity to learn to think critically, analyze, and apply basic principles to design and art projects. In a studio workshop setting, three primary phases explore art, design, and photography.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTF",
+    "number": "1123",
+    "title": "Color and Composition Tools",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11082" },
+      { "term": "202310", "crn": "11083" },
+      { "term": "202310", "crn": "20048" },
+      { "term": "202260", "crn": "61390" },
+      { "term": "202240", "crn": "40995" },
+      { "term": "202240", "crn": "41255" }
+    ],
+    "description": "Introduces skills and software, such as Adobe Photoshop and Illustrator, used in creating and manipulating pixel- and vector-based images, in a technology workshop format.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTF",
+    "number": "1124",
+    "title": "Form and Structure",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10313" },
+      { "term": "202310", "crn": "10333" },
+      { "term": "202310", "crn": "10557" },
+      { "term": "202310", "crn": "14098" },
+      { "term": "202310", "crn": "17106" },
+      { "term": "202240", "crn": "41430" }
+    ],
+    "description": "Explores three-dimensional form. Examines principles including mass, volume, line, plane, and texture. Introduces basic materials and structure through constructing models and prototypes. Presents sequential exercises with simple eye/hand skills and form recognition. Explores complex projects that require an understanding of context, content, and developing original forms.",
+    "coreqs": [{ "subject": "ARTF", "number": "1125" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTF",
+    "number": "1125",
+    "title": "Form and Structure Tools",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10017" },
+      { "term": "202310", "crn": "10016" },
+      { "term": "202310", "crn": "17631" },
+      { "term": "202310", "crn": "17128" },
+      { "term": "202310", "crn": "17632" },
+      { "term": "202240", "crn": "41797" }
+    ],
+    "description": "Introduces skills and software used in creating 3D forms with the computer. Explores basics of 3D modeling, surfacing, lighting, and rendering in this technology workshop.",
+    "coreqs": [{ "subject": "ARTF", "number": "1124" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTF",
+    "number": "2220",
+    "title": "Movement and Time",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "10205" },
+      { "term": "202310", "crn": "10575" },
+      { "term": "202310", "crn": "14677" },
+      { "term": "202310", "crn": "15269" },
+      { "term": "202310", "crn": "17256" },
+      { "term": "202310", "crn": "20704" },
+      { "term": "202260", "crn": "60559" },
+      { "term": "202240", "crn": "40996" },
+      { "term": "202240", "crn": "41798" }
+    ],
+    "description": "Explores time-based art and design in an introductory lecture/studio format. Introduces formal, narrative, and alternative concepts for creative time-based communication. Assignments investigate video, animation, and a mixture of media in a screen based context.",
+    "coreqs": [{ "subject": "ARTF", "number": "2221" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTF",
+    "number": "2221",
+    "title": "Movement and Time Tools",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10201" },
+      { "term": "202310", "crn": "16430" },
+      { "term": "202260", "crn": "60560" },
+      { "term": "202240", "crn": "40997" }
+    ],
+    "description": "Introduces skills and software used in animating 2D and 3D images, graphics, and forms. Explores the basics of key framing, layering, parenting, 3D modeling, surfacing, and rigging in this technology workshop.",
+    "coreqs": [{ "subject": "ARTF", "number": "2220" }],
+    "prereqs": [{ "subject": "ARTF", "number": "2220" }]
+  },
+  {
+    "subject": "ARTF",
+    "number": "2223",
+    "title": "Experience and Interaction",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [
+      { "term": "202310", "crn": "10516" },
+      { "term": "202310", "crn": "10198" },
+      { "term": "202310", "crn": "10518" },
+      { "term": "202310", "crn": "13171" },
+      { "term": "202310", "crn": "13496" },
+      { "term": "202310", "crn": "21000" },
+      { "term": "202310", "crn": "14678" },
+      { "term": "202310", "crn": "20705" },
+      { "term": "202310", "crn": "20997" },
+      { "term": "202260", "crn": "60609" },
+      { "term": "202240", "crn": "40488" },
+      { "term": "202240", "crn": "41128" }
+    ],
+    "description": "Explores the language of interactive experience as a compelling medium to communicate meaning. Examines how variables within the environment can change how we inhabit an experience physically, conceptually, and emotionally. Studies historical and contemporary examples of art and design projects designed as exchanges or experiences. Incorporates drawing as a means to understand the present and project potential future experiences.",
+    "coreqs": [{ "subject": "ARTF", "number": "2224" }],
+    "prereqs": []
+  },
+  {
+    "subject": "ARTF",
+    "number": "2224",
+    "title": "Experience and Interaction Tools",
+    "scheduleType": "Studio",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12738" },
+      { "term": "202310", "crn": "16431" },
+      { "term": "202240", "crn": "40489" }
+    ],
+    "description": "Introduces skills and software used in creating basic Web-based content. This technology workshop introduces software using HTML and style sheets such as Adobe Dreamweaver.",
+    "coreqs": [{ "subject": "ARTF", "number": "2223" }],
+    "prereqs": [{ "subject": "ARTF", "number": "2223" }]
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "subject": "LARC",
+    "number": "2130",
+    "title": "Sustainable Urban Site Design",
+    "scheduleType": "Studio",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11491" }],
+    "description": "Focuses on site planning and design with an emphasis on parks and open-space systems in the adaptive reuse of urban sites. Projects focus on the creation and cultivation of public space, transformation of site conditions, and development of sustainable site materials. Emphasizes site analysis, development of an individual design process, and design communication strategies. This studio course introduces students to urban design precedents, site research, and remediation methods through case studies, lectures, site visits, and workshops.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ARCH", "number": "1110" },
+      "And",
+      { "subject": "ARCH", "number": "1120" }
+    ]
+  },
+  {
+    "subject": "LARC",
+    "number": "2230",
+    "title": "Introduction to Sustainable Site Planning and Design",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ND"],
+    "sections": [{ "term": "202310", "crn": "11523" }],
+    "description": "Addresses fundamental techniques of sustainable site design in the built environment, including earthworks, water, and soils, using current-day storm events. Primary topics include topography, site grading, study models, universal accessibility, and storm water considerations in urban and other built environments. Introduces students to urban tree planting techniques, graphic communications, basic site materials, and construction details.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "LARC",
+    "number": "2330",
+    "title": "Cities, Landscape, and Modern Culture",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "SI", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "11492" },
+      { "term": "202310", "crn": "19713" }
+    ],
+    "description": "Seeks to instill basic landscape literacy enabling students to read urban landscapes and recognize different ways of knowing landscapes, including everyday landscapes. Presents key concepts, ethical debates, and iconic works that gave shape to modernism in landscape architecture and urbanism. Focusing on eighteenth-century through mid-twentieth-century projects and designers, examines contextual factors and resulting formal, spatial, organizational, and material characteristics of built works. Using case studies, challenges students to analyze the entangled histories of landscape preservation and urban segregation and to apply theories of environmental ethics and environmental justice to questions about the built environment and the relationship between natural and social systems. Offers students an opportunity to practice formulation of a critical design perspective and landscape interpretation via reading responses, project analysis, written work, podcasts, and StoryMaps.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
+  },
+  {
+    "subject": "LARC",
+    "number": "2430",
+    "title": "Plants, People, and Landscape Change",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ND"],
+    "sections": [
+      { "term": "202310", "crn": "11526" },
+      { "term": "202310", "crn": "20522" }
+    ],
+    "description": "Uses the study of New England&rsquo;s plant communities and plant identification as a framework to consider the evolution of the New England landscape from European colonization to the present. Combines field study with lectures and class discussion. Human activity, land use, and settlement patterns all influence the development of landscape, and our cultural history is expressed in the species demographics, land forms, and ecosystem dynamics of our environment.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "LARC",
+    "number": "3170",
+    "title": "Landscape Planning and Urbanism Studio",
+    "scheduleType": "Studio",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12530" }],
+    "description": "Introduces sustainable landscape planning techniques with an emphasis on adaptive urbanism. Key topics include the designed and managed relationship of cities to their regional ecologies, such as sub/urbanized watersheds and coastal zones, as well as the spatial, material, and programmatic roles of environmental infrastructures in the civic landscape. Particularly emphasizes the market-based integration of recreation, transit, food, housing, and industrial networks with living systems such as urban forests, riparian corridors, managed habitats, and constructed wetlands.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "LARC",
+    "number": "5110",
+    "title": "Advanced Design for Urban Environments Studio",
+    "scheduleType": "Studio",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13442" }],
+    "description": "Focuses on ecological, economic, and social resiliency of designed urban environments in response to globalization. Contemporary case studies of urban change provide the basis for design investigation into issues such as the impact of shifting industries on Detroit (deurbanization) or Shenzhen (rapid densification); shifting weather and water patterns in densely populated regions; societal shifts, from generational demographics to political upheavals and militarization/demilitarization of the urban landscape. Emphasizes the integration of interdisciplinary perspectives and advanced design analysis, conceptualization, and visualization skills into development of a global perspective on managing change in the built environment.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ARCH", "number": "3170" },
+      "Or",
+      { "subject": "LARC", "number": "3170" },
+      "Or",
+      { "subject": "SUEN", "number": "6110" }
+    ]
+  },
+  {
+    "subject": "LARC",
+    "number": "5210",
+    "title": "Landscape Ecology",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ND"],
+    "sections": [{ "term": "202310", "crn": "12531" }],
+    "description": "Introduces fundamental-to-advanced concepts in the field of landscape and urban ecology. Focuses on the landscape-scale spatial structure, temporal patterns, and geographic ranges produced by the intersection of large-scale environmental and human processes. Emphasizes spatial taxonomies (patch, corridor, mosaic, granularity, edge, ecotone) produced across diverse landscape types influenced by human development and landscape dynamics in the built environment (disturbance, fragmentation, accumulation, and succession). Incorporates basic techniques in geographic-information-system software.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "LARC",
+    "number": "5220",
+    "title": "Sustainable Landscape Practices",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12532" }],
+    "description": "Offers a lecture/workshop/field-based course that builds upon landscape technology skills introduced in LARC 2230 and LARC 2240, with a focus on ecotechnologies operating in the built environment. Core topics include design and implementation metrics, material life-cycle management, funding models, and aesthetic and cultural aspects. Potential topics include green roofs, green walls, bioswales, pervious pavements, constructed wetlands, &amp;#8220;complete street&amp;#8221; elements, geosensor networks, alternative waste management, water detention and energy generation methods, and living infrastructures for coastal environments.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "LARC",
+    "number": "5310",
+    "title": "Urban Landscape Seminar",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["IC"],
+    "sections": [{ "term": "202310", "crn": "12533" }],
+    "description": "Offers a discussion-based seminar focusing on case studies of influential works in contemporary landscape, urbanism, and sustainable environmental design. Encourages students to seek interdisciplinary perspectives toward development of critical-thinking skills in relation to forces shaping urban environments in contemporary global culture. A diverse range of material from published design criticism to open-source social media engagement provides basis for discussion and written and oral presentations.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

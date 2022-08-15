@@ -1,0 +1,236 @@
+[
+  {
+    "subject": "INTL",
+    "number": "1000",
+    "title": "International Affairs at Northeastern",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11822" }],
+    "description": "For INTL, HCL, and CSGS majors",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INTL",
+    "number": "1101",
+    "title": "Globalization and International Affairs",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [
+      { "term": "202310", "crn": "10954" },
+      { "term": "202310", "crn": "11384" },
+      { "term": "202310", "crn": "12206" },
+      { "term": "202310", "crn": "16075" },
+      { "term": "202310", "crn": "20511" },
+      { "term": "202240", "crn": "40120" }
+    ],
+    "description": "Offers an interdisciplinary approach to analyzing global/international affairs. Examines the politics, economics, culture, and history of current international issues through lectures, guest lectures, film, case studies, and readings across the disciplines.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INTL",
+    "number": "1160",
+    "title": "Middle East Studies",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "SI"],
+    "sections": [{ "term": "202310", "crn": "18660" }],
+    "description": "Concentrates on the history, politics, cultures, and economics of the Middle East and North Africa (MENA) countries in the 20th and 21st centuries. Explores topics such as empire, colonialism, revolutions, state-building, development, and social movements. Offers students an opportunity to obtain interdisciplinary skills to analyze dynamics of gender, class, race/ethnicity, and religion in MENA countries.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INTL",
+    "number": "2200",
+    "title": "America and the Middle East",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [{ "term": "202310", "crn": "18661" }],
+    "description": "Focuses on U.S. engagement with the Middle East, primarily with Muslim societies, and with the Christian and Jewish communities across the region. Emphasizes Egypt, Syria, Iran, Iraq, Turkey, Israel/Palestine, and Lebanon. From America&amp;#8217;s first proselytizing adventure to the Ottoman Empire in 1820 to the embrace of Saudi Arabia in the 1940s to the overthrow of the democratically elected prime minister in Iran in 1953 to the attacks of September 11, 2001, to the invasion and occupation of Iraq in 2003 to America&amp;#8217;s response to the &amp;#8220;Arab Awakening&amp;#8221; in 2011 and beyond, the course covers history, politics, oil, war, and peacemaking within the framework of U.S. involvement in the Middle East.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INTL",
+    "number": "2480",
+    "title": "Women and World Politics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "SI"],
+    "sections": [{ "term": "202310", "crn": "18662" }],
+    "description": "Introduces a variety of issues facing women across the globe. Focuses on the gender dynamics of key issues in international affairs. These could include economic policy, conflict and war, human rights/women&amp;#8217;s rights, political power, and collective action. Draws on examples from various world regions since the twentieth century to analyze similarities and differences across cases around the globe. INTL 2480 and WMNS 2480 are cross-listed.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "INTL", "number": "1101" }]
+  },
+  {
+    "subject": "INTL",
+    "number": "2500",
+    "title": "Race and Global Human Mobility",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "SI"],
+    "sections": [{ "term": "202310", "crn": "16733" }],
+    "description": "Examines the relationship between race and the movement of people around the globe. Offers students an opportunity to acquire a concrete understanding of how race and ethnicity (as social constructions) have developed as people have migrated (under free will or forced circumstances) within and across geopolitical territories (i.e., colonies, countries) in the past (1400s) and through the present. Ethnoracial-related conflicts connected to migration (i.e., rebellions by the enslaved during the Atlantic slave trade, Rwandan genocide, Syrian civil war) may also be explored.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INTL",
+    "number": "2718",
+    "title": "Research Methods in International Affairs",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "13986" }],
+    "description": "Introduces a range of research methods employed in the study of international affairs. Offers students an opportunity to develop competency in the most commonly used quantitative and qualitative research tools in the social sciences and related humanities. Topics include empirical and normative research traditions, generalizability, historical analyses, hypothesis testing, literature reviews, qualitative and quantitative approaches, research ethics, survey research, units of analysis, and more.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INTL",
+    "number": "3200",
+    "title": "Cities in a Global Context",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18663" }],
+    "description": "Examines the roots of the urbanization process, major ways of thinking about it, and the development of world cities and megacities. The twenty-first century will be a century in which urbanism is a central problem and opportunity. Considers the economic, political, cultural, and environmental dimensions of urbanism across the globe. Includes specific case studies from around the world. Encourages students to develop a knowledge of particular cities in order to examine the key themes of the course. INTL 3200, ANTH 3200, and SOCL 3200 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INTL",
+    "number": "3250",
+    "title": "Democracy and Development in North Africa and the Mediterranean",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18664" }],
+    "description": "Examines regional and national developments over the last several decades. Explores the persistence of authoritarian rule and the prospects for democratization, the role of Islamic movements in society and politics, the causes and consequences of neoliberal economic policies, the goals and strategies of North African women&amp;#8217;s movements, and the role the region plays in the international system.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INTL",
+    "number": "3400",
+    "title": "International Conflict and Negotiation",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "10392" },
+      { "term": "202310", "crn": "14184" }
+    ],
+    "description": "Offers an interdisciplinary approach to analyzing international conflict and negotiations: how conflicts evolve, are managed, and/or resolved. In dealing with different types of regional and international conflicts, students focus on historical, ethnic, religious, geographic, and political aspects of a variety of conflicts and the consequences these conflicts hold for regional and international actors.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "INTL", "number": "1101" },
+      "And",
+      { "subject": "POLS", "number": "1160" },
+      "And",
+      "(",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      ")"
+    ]
+  },
+  {
+    "subject": "INTL",
+    "number": "3406",
+    "title": "International Law",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20215" }],
+    "description": "Introduces international law and how it redefines and shapes world politics. Offers students an opportunity to learn about the cornerstones of this area of the law: the state, organizations and their legal personality, diplomatic relations, treaties, extraterritorial jurisdiction, extradition, human rights and humanitarian law, the law of the sea trade/economic law, and international criminal law with a focus on the world courts. Considers the degree to which international law is pervasive in the life of individuals and states alike.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INTL",
+    "number": "4100",
+    "title": "Forced Migration: Refugees, Exiles, and Displaced Persons",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19236" }],
+    "description": "Analyzes the history and politics of forced migration, concentrating on the negative &ldquo;push&rdquo; factors that force people to migrate and the positive &ldquo;pull&rdquo; factors that motivate them to seek sanctuary in particular places. While millons of people worldwide are displaced by war and other forms of violence, the history of forced migration and processes of seeking and granting refuge are often poorly understood. Investigates the development of legal and institutional frameworks that govern forced migration and assesses its political and humanitarian implications. Rejecting dominant views of displaced people as &ldquo;victims&rdquo; or as &ldquo;problems&rdquo; to &ldquo;solve,&rdquo; the course addresses displaced people as complex historical actors whose experiences are tied to legacies and processes of imperialism, state violence, war, and globalization.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INTL",
+    "number": "4520",
+    "title": "Chinese Society and Culture",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [{ "term": "202310", "crn": "20331" }],
+    "description": "Introduces students to changes in society and economy in contemporary China. Examines changes in family, gender relations, rural life, work, and international relations. Draws on literature from a range of disciplines including sociology, political science, anthropology, and economics. Cross-listed with ANTH 4520.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INTL",
+    "number": "4700",
+    "title": "Senior Capstone Seminar in International Affairs",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["CE", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "15173" },
+      { "term": "202310", "crn": "18665" }
+    ],
+    "description": "Offers a senior research and writing seminar that integrates and assesses the knowledge and skills developed by students participating in the international affairs curriculum, including both experiential (co-op, Dialogue of Civilizations, study abroad, internship, or other approved international experience) and classroom-based components. Requires student self-reflection as well as new research, analysis, and writing, which culminate in a final paper and presentation. Topics include contemporary global issues and draw on relevant literature in the disciplines relating to international affairs.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INTL",
+    "number": "4992",
+    "title": "Directed Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202240", "crn": "41939" }],
+    "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INTL",
+    "number": "5268",
+    "title": "International Environmental Policy",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19714" },
+      { "term": "202310", "crn": "20998" }
+    ],
+    "description": "Explores key environmental challenges and policy solutions from an international perspective. Emphasizes the complexity of human-natural systems for policy design, provides a history of international environmental politics, and discusses contemporary policy issues. Presents key paradigms for understanding environmental challenges and the analytical tools to look critically at important debates, understand the role of different actors, identify equity and justice considerations, and assess policy options from multiple perspectives. Focuses on global environmental governance and sustainable development diplomacy, natural resource management, and climate change policy. Addresses the role of science in policymaking, tensions between environment and development, the scale and complexity of international environmental governance, and equity and justice.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "INTL",
+    "number": "7996",
+    "title": "Thesis Continuation",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "61198" }],
+    "description": "Offers continued thesis supervision by individual members of the program.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

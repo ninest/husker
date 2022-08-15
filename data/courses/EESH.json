@@ -1,0 +1,53 @@
+[
+  {
+    "subject": "EESH",
+    "number": "2000",
+    "title": "Professional Development for Co-op",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11137" },
+      { "term": "202310", "crn": "13649" },
+      { "term": "202310", "crn": "11138" },
+      { "term": "202310", "crn": "11139" },
+      { "term": "202310", "crn": "11140" },
+      { "term": "202310", "crn": "11141" },
+      { "term": "202310", "crn": "11142" },
+      { "term": "202310", "crn": "11144" },
+      { "term": "202310", "crn": "11159" },
+      { "term": "202310", "crn": "11296" },
+      { "term": "202310", "crn": "11411" },
+      { "term": "202310", "crn": "11431" },
+      { "term": "202310", "crn": "11884" },
+      { "term": "202310", "crn": "11936" },
+      { "term": "202310", "crn": "13650" },
+      { "term": "202310", "crn": "12031" },
+      { "term": "202310", "crn": "13651" },
+      { "term": "202310", "crn": "17490" },
+      { "term": "202310", "crn": "19728" },
+      { "term": "202310", "crn": "19729" }
+    ],
+    "description": "Introduces students to the Cooperative Education Program and provides them with an opportunity to develop job-search and career-management skills. Offers students an opportunity to perform assessments of their workplace skills, interests, and values and discuss how they impact personal career choices. Students also have an opportunity to prepare a professional-style r&amp;#233;sum&amp;#233;, learn proper interviewing techniques, and gain an understanding of the opportunities available to them for co-op. Introduces career paths, choices, professional behaviors, work culture, and career decision making. Familiarizes students with workplace issues relative to their field of study and teaches them to use myNEU in the job-search and referral process. Presents co-op policies, procedures, and expectations of the Department of Cooperative Education and co-op employers.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "EESH",
+    "number": "2994",
+    "title": "Internship",
+    "scheduleType": "Off-campus instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "16090" },
+      { "term": "202310", "crn": "16091" },
+      { "term": "202260", "crn": "60913" },
+      { "term": "202260", "crn": "60914" },
+      { "term": "202240", "crn": "41078" }
+    ],
+    "description": "Offers an opportunity to document internship work. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

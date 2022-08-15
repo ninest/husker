@@ -1,0 +1,612 @@
+[
+  {
+    "subject": "PHMD",
+    "number": "1000",
+    "title": "College: An Introduction",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10893" },
+      { "term": "202310", "crn": "10894" },
+      { "term": "202310", "crn": "10895" }
+    ],
+    "description": "Introduces the University, college, and health professions to enhance students&amp;#8217; understanding of self and the decisions they make academically and socially as members of the University&amp;#8217;s diverse, multicultural community. Offers students an opportunity to engage in group activities and individual assignments along with active participation in a learning community to help them adjust to life on an urban campus, develop a better understanding of the learning process, acquire essential academic skills, and make connections with the faculty and students in the college.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "1201",
+    "title": "Introduction to Pharmacy Practice",
+    "scheduleType": "Lecture",
+    "credits": 2.5,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "17418" },
+      { "term": "202310", "crn": "17196" }
+    ],
+    "description": "Seeks to prepare pharmacy students for their first introductory pharmacy practice experience (IPPE)/co-op. Introduces students to the policies, procedures, and expectations of the Cooperative Education Program. Offers students an opportunity to develop the skills needed to be successful in the preparation, activity, and reflection components of the pharmacy co-op program; to prepare their first r&amp;#233;sum&amp;#233;s; and to learn proper interviewing techniques. Exposes students to the various co-op opportunities available to them as well as potential career paths within the pharmacy profession. Covers workplace issues including diversity, sexual harassment, ethics, and confidence of information. Introduces students to the technical knowledge and skills required for their first pharmacy experiences in both community and institutional pharmacy practice and to drug information resources. Offers students an opportunity to develop basic communication skills to aid them in successful completion of their first IPPE.",
+    "coreqs": [{ "subject": "PHMD", "number": "1202" }],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "1202",
+    "title": "Lab for PHMD 1201",
+    "scheduleType": "Lab",
+    "credits": 0.5,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "17152" },
+      { "term": "202310", "crn": "17153" }
+    ],
+    "description": "Offers students an opportunity to learn several skills needed for future patient-care experiences. Supplements lecture content and provides practical reinforcement of concepts. Students apply knowledge learned in the classroom related to the appropriate and effective use of communication strategies and basic sterile techniques/manipulations. Labs related to the learning of communication skills support a patient-centered approach in assessing, adapting, and evaluating patient medication use needs.",
+    "coreqs": [{ "subject": "PHMD", "number": "1201" }],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "2100",
+    "title": "Entrepreneurship in Health Sciences",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18917" }],
+    "description": "Addresses principles and applications of entrepreneurship in the healthcare industry, focusing on healthcare ventures and technology. Explores different business organizations, including sole proprietorships, partnerships, corporations, joint ventures and not-for-profit enterprises. Such explorations offer students an opportunity to identify and evaluate business skills and commitment necessary to successfully operate an entrepreneurial venture and address the challenges and rewards of entrepreneurship. Considers the requirements, costs, and benefits of various forms of financial options open to entrepreneurs. Presentations and discussions are led by accomplished entrepreneurs and practitioners engaged in healthcare teaching, research, and business. Case studies identify the challenges and rewards of successful entrepreneurial ventures that set positive examples for budding entrepreneurs in leading change and innovation.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "2350",
+    "title": "Healthcare Systems",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12662" }],
+    "description": "Examines the evolution of the American healthcare delivery system from the early forms of organized institutional healthcare through the dynamic, and increasingly integrated, delivery systems of the present. Explores the interactions of regulatory, economic, political, and social aspects of the healthcare system with particular emphasis on pharmacy practices. Compares current policies and proposals for health reform and pharmacy benefit coverage. Analyzes the impact and consequences of national and international actions in one era on the structure, function, and outcomes of healthcare and professional pharmacy practice in later years. Major emphases include factors affecting American population health, health disparities, and strategies, including pharmacy/pharmacists, to improve the nation&rsquo;s health.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "2550",
+    "title": "Innovation, Entrepreneurship, and Drug and Medical Device Development",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "17078" }],
+    "description": "Introduces the process of innovation and entrepreneurship within drug and medical device development. Explores the perspectives of the pharmaceutical industry and medical device industry, as well as regulatory agencies, within the United States. Presents drug/device discovery, development, deployment, and life cycle as it pertains to business development and planning. Examines the roles of individuals in innovation and entrepreneurship across the industry.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "4350",
+    "title": "Exploring Academic Careers",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11342" }],
+    "description": "Designed to prepare students to become more confident and effective as educators for many audiences, including peers, colleagues, clients, and patients. Offers students an opportunity to increase their awareness of teaching and learning principles and related roles and responsibilities as they apply to academic careers and faculty in the classroom, in experiential settings, and in university units. Discusses and explores knowledge, skills, and attitudes that are applicable across professions.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "4585",
+    "title": "Research Methods in Health Systems",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15328" }],
+    "description": "Exposes students to research skills and methods used by health system pharmacists when planning and conducting research. Builds on content from prior courses. Designed for students planning to pursue a career in a health system or the pharmaceutical industry. Focuses on discussion and application; taught by healthcare-system-based pharmacists actively involved in clinical research. Emphasizes the process used to generate robust research questions and research plans throughout. Uses practice statements/guidelines, published studies, patient databases, and faculty&#39;s current research projects to illustrate course topics.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "PHMD", "number": "3450" },
+      "Or",
+      { "subject": "PHMD", "number": "3450" }
+    ]
+  },
+  {
+    "subject": "PHMD",
+    "number": "4631",
+    "title": "Comprehensive Disease Management 3",
+    "scheduleType": "Lecture",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11960" }],
+    "description": "Covers the pathophysiology and clinical management of infectious diseases, solid organ transplant, dermatology, and otic/ophthalmic disorders. Reinforces foundational concepts of pharmacy practice and diseases covered in PHMD 4611 and PHMD 4612, while completing a system-by-system review of the mechanisms of infectious diseases and their evidence-based prevention and treatment strategies. Offers students an opportunity to design rational therapeutic strategies to provide care to patients with these disease states in inpatient, ambulatory, and community settings. Emphasizes pathophysiology, self-care, patient education, assessment, medication administration, management, monitoring, and preventative health and population-based health outcomes.",
+    "coreqs": [
+      { "subject": "PHMD", "number": "4632" },
+      { "subject": "PHMD", "number": "4633" }
+    ],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "4632",
+    "title": "Comprehensive Disease Management 3 Seminar",
+    "scheduleType": "Seminar",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11966" },
+      { "term": "202310", "crn": "11967" },
+      { "term": "202310", "crn": "11968" },
+      { "term": "202310", "crn": "11970" },
+      { "term": "202310", "crn": "11971" },
+      { "term": "202310", "crn": "11972" },
+      { "term": "202310", "crn": "13160" }
+    ],
+    "description": "Designed to provide students with opportunities to apply concepts from PHMD 4631 to patient cases, special projects, and other medication-related issues focusing on foundational aspects of pharmacy practice, identification of drug-related problems, and management of the infectious diseases and dermatologic and oral/otic disorders. Accompanies PHMD 4631 and seeks to facilitate accomplishment of course objectives using an active-learning format. While completing seminar work, students are expected to review, discuss, integrate, and apply information presented in comprehensive disease management lectures and readings as well as previous and concurrent course work. Activities in seminar are reinforced by laboratory skill-building exercises in PHMD 4633.",
+    "coreqs": [
+      { "subject": "PHMD", "number": "4631" },
+      { "subject": "PHMD", "number": "4633" }
+    ],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "4633",
+    "title": "Comprehensive Disease Management 3 Skills Lab",
+    "scheduleType": "Lab",
+    "credits": 0.5,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12028" },
+      { "term": "202310", "crn": "12029" },
+      { "term": "202310", "crn": "12030" },
+      { "term": "202310", "crn": "15252" },
+      { "term": "202310", "crn": "19323" }
+    ],
+    "description": "Teaches and assesses various skills, including interpretation, processing, and verification of medication orders; detection and resolution of drug-related problems; use of current pharmacy software programs; and patient education and counseling in the community pharmacy setting. Uses discussions, videos, podcasts, simulations, and hands-on learning activities in the lab. While completing laboratory work, students are expected to review, discuss, integrate, and apply information presented in the closely aligned PHMD 4631 and PHMD 4632 as well as previous and concurrent course work.",
+    "coreqs": [
+      { "subject": "PHMD", "number": "4631" },
+      { "subject": "PHMD", "number": "4632" }
+    ],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "4890",
+    "title": "Contemporary Issues in Geriatric Pharmacy",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12926" }],
+    "description": "Focuses on the physiological and practical aspects of medication use in the elderly; healthcare delivery systems; the role of healthcare professionals in providing geriatric care; and the management of geriatric syndromes. Caring for the aging population requires a patient-centered approach that encompasses the patient&rsquo;s health goals, a complex psychosocial landscape, as well as the physiologic changes associated with aging. It is imperative for healthcare professionals to understand the interplay of these factors in order to appropriately assess, treat, and improve outcomes for the older adult population. Offers students an opportunity to utilize problem-based learning (PBL), where students work in groups to analyze patient cases, identify problems, and develop action plans to resolve problems.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "5560",
+    "title": "Applied Drug Information",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": ["WI"],
+    "sections": [
+      { "term": "202310", "crn": "15247" },
+      { "term": "202310", "crn": "16996" },
+      { "term": "202310", "crn": "16997" },
+      { "term": "202310", "crn": "18151" }
+    ],
+    "description": "Offers students an opportunity to obtain the skills necessary to become effective providers of drug information. An effective provider assesses drug information needs and evaluates, applies, and communicates data from the published literature and other sources to optimize patient care. Designed to help students develop applied drug information skills important to the pharmacist in areas of formulary support, health informatics, medication error and adverse event reporting, and quality assurance. Students complete a variety of active learning exercises, including multiple evidence-based written drug information responses and a current events analysis. Emphasizes writing for a variety of audiences, including pharmacists, other healthcare providers, and the lay public, as well as use of peer review.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "PHMD", "number": "3450" },
+      "And",
+      "(",
+      { "subject": "ENGW", "number": "3306" },
+      "Or",
+      "Graduate Admission",
+      ")"
+    ]
+  },
+  {
+    "subject": "PHMD",
+    "number": "5600",
+    "title": "Pharmacy Capstone",
+    "scheduleType": "Individual Instruction",
+    "credits": 4,
+    "nuPath": ["CE", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "15735" },
+      { "term": "202310", "crn": "13322" },
+      { "term": "202310", "crn": "12889" },
+      { "term": "202310", "crn": "13354" },
+      { "term": "202310", "crn": "14386" },
+      { "term": "202310", "crn": "17574" },
+      { "term": "202310", "crn": "17575" },
+      { "term": "202310", "crn": "17642" },
+      { "term": "202310", "crn": "18140" },
+      { "term": "202310", "crn": "18153" },
+      { "term": "202310", "crn": "18154" },
+      { "term": "202310", "crn": "18155" },
+      { "term": "202310", "crn": "18156" },
+      { "term": "202310", "crn": "18918" },
+      { "term": "202310", "crn": "20245" },
+      { "term": "202310", "crn": "20398" }
+    ],
+    "description": "Acts as a final integrator of the major, general education, and experiential aspects of the student&amp;#8217;s education. Expects students to demonstrate motivation and initiative and to work cooperatively with their faculty mentor, community partners, and fellow students (where applicable) in order to complete a comprehensive, high-quality scholarly work (e.g., a research project, educational project, administrative project, business plan, case report, or community-service learning project or professional manuscript) appropriate for dissemination to the university and professional community. The timeline for completion is set by the faculty mentor and agreed to by the individual or all members of the student group. May be repeated once.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "5976",
+    "title": "Directed Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14401" }],
+    "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated for up to 4 total credits.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6440",
+    "title": "Internal Medicine Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10661" },
+      { "term": "202310", "crn": "10995" }
+    ],
+    "description": "Applies principles of pathophysiology, therapeutics, and communication to the pharmacy-care management of individual patients in the hospital setting. In collaboration with other members of the healthcare team, and under the supervision of a clinical preceptor, offers identification of appropriate drug therapy and monitoring requirements for common pathophysiologic processes, and, when indicated, modification of population-based treatment strategies based on the unique characteristics of individual patients.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6441",
+    "title": "Acute Care Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10660" },
+      { "term": "202310", "crn": "13599" }
+    ],
+    "description": "Applies principles of pathophysiology, therapeutics, and communication to the pharmacy-care management of individual patients. In collaboration with other members of the healthcare team, and under the supervision of a clinical preceptor, offers identification of appropriate drug therapy and monitoring requirements for common pathophysiologic processes, and, when indicated, modification of population-based treatment strategies based on the unique characteristics of individual patients.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6442",
+    "title": "Ambulatory Care Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10659" },
+      { "term": "202310", "crn": "10996" }
+    ],
+    "description": "Applies principles of pathophysiology, therapeutics, and communication to the pharmacy-care management of individual patients in an ambulatory clinic environment. In collaboration with other members of the healthcare team, and under the supervision of a clinical preceptor, offers identification of appropriate drug therapy and monitoring requirements for common pathophysiologic processes, and, when indicated, modification of population-based treatment strategies based on the unique characteristics of individual patients.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6443",
+    "title": "Community Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10658" },
+      { "term": "202310", "crn": "10997" }
+    ],
+    "description": "Applies principles of pathophysiology, therapeutics, and communication to the pharmacy-care management of individual patients in a community setting. In collaboration with other members of the healthcare team, and under the supervision of a clinical preceptor, offers identification of appropriate drug therapy and monitoring requirements for common pathophysiologic processes, and, when indicated, modification of population-based treatment strategies based on the unique characteristics of individual patients.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6444",
+    "title": "Internal Medicine Elective Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20385" }],
+    "description": "Applies principles of pathophysiology, therapeutics, and communication to the pharmacy-care management of individual patients in the hospital setting. In collaboration with other members of the healthcare team, and under the supervision of a clinical preceptor, offers identification of appropriate drug therapy and monitoring requirements for common pathophysiologic processes, and, when indicated, modification of population-based treatment strategies based on the unique characteristics of individual patients.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6445",
+    "title": "Ambulatory Care Elective Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15265" }],
+    "description": "Applies principles of pathophysiology, therapeutics, and communication to the pharmacy-care management of individual patients in an ambulatory clinic environment. In collaboration with other members of the healthcare team, and under the supervision of a clinical preceptor, offers identification of appropriate drug therapy and monitoring requirements for common pathophysiologic processes, and, when indicated, modification of population-based treatment strategies based on the unique characteristics of individual patients. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6446",
+    "title": "Psychiatry Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14219" },
+      { "term": "202310", "crn": "13600" }
+    ],
+    "description": "Applies principles of pathophysiology, therapeutics, and communication to the pharmacy-care management of individual patients under psychiatric care. In collaboration with other members of the healthcare team, and under the supervision of a clinical preceptor, offers identification of appropriate drug therapy and monitoring requirements for common pathophysiologic processes, and, when indicated, modification of population-based treatment strategies based on the unique characteristics of individual patients. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6447",
+    "title": "Community Elective Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10657" },
+      { "term": "202310", "crn": "13711" }
+    ],
+    "description": "Applies principles of pathophysiology, therapeutics, and communication to the pharmacy-care management of individual patients in a community setting. In collaboration with other members of the healthcare team, and under the supervision of a clinical preceptor, offers identification of appropriate drug therapy and monitoring requirements for common pathophysiologic processes, and, when indicated, modification of population-based treatment strategies based on the unique characteristics of individual patients. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6449",
+    "title": "Geriatrics Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10825" },
+      { "term": "202310", "crn": "13601" }
+    ],
+    "description": "Applies principles of pathophysiology, therapeutics, and communication to the pharmacy-care management of individual patients in a geriatric practice setting. Under the supervision of a clinical preceptor, and, when appropriate, in conjunction with other members of the healthcare team, offers identification of appropriate drug therapy and monitoring requirements for common pathophysiologic processes, and, when indicated, modification of population-based treatment strategies based on the unique characteristics of individual patients. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6450",
+    "title": "Pediatrics Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10656" },
+      { "term": "202310", "crn": "13602" }
+    ],
+    "description": "Applies principles of pathophysiology, therapeutics, and communication to the pharmacy-care management of individual patients in a pediatric practice setting. Under the supervision of a clinical preceptor, and, when appropriate, in conjunction with other members of the healthcare team, offers identification of appropriate drug therapy and monitoring requirements for common pathophysiologic processes, and, when indicated, modification of population-based treatment strategies based on the unique characteristics of individual patients. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6451",
+    "title": "Neonatology Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13603" },
+      { "term": "202310", "crn": "17370" }
+    ],
+    "description": "Applies principles of pathophysiology, therapeutics, and communication to the pharmacy-care management of individual patients in a neonatal practice setting. Under the supervision of a clinical preceptor, and, when appropriate, in conjunction with other members of the healthcare team, offers identification of appropriate drug therapy and monitoring requirements for common pathophysiologic processes, and, when indicated, modification of population-based treatment strategies based on the unique characteristics of individual patients. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6452",
+    "title": "Critical Care Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13604" },
+      { "term": "202310", "crn": "15264" }
+    ],
+    "description": "Applies principles of pathophysiology, therapeutics, and communication to the pharmacy-care management of individual patients in a critical-care practice setting. Under the supervision of a clinical preceptor, and, when appropriate, in conjunction with other members of the healthcare team, offers identification of appropriate drug therapy and monitoring requirements for common pathophysiologic processes, and, when indicated, modification of population-based treatment strategies based on the unique characteristics of individual patients. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6453",
+    "title": "Surgery Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10654" }],
+    "description": "Applies principles of pathophysiology, therapeutics, and communication to the pharmacy-care management of individual patients in a surgical practice setting. Under the supervision of a clinical preceptor, and, when appropriate, in conjunction with other members of the healthcare team, offers identification of appropriate drug therapy and monitoring requirements for common pathophysiologic processes, and, when indicated, modification of population-based treatment strategies based on the unique characteristics of individual patients. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6454",
+    "title": "Cardiology Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10653" },
+      { "term": "202310", "crn": "13605" }
+    ],
+    "description": "Applies principles of pathophysiology, therapeutics, and communication to the pharmacy-care management of individual patients in a cardiology practice setting. Under the supervision of a clinical preceptor, and, when appropriate, in conjunction with other members of the healthcare team, offers identification of appropriate drug therapy and monitoring requirements for common pathophysiologic processes, and, when indicated, modification of population-based treatment strategies based on the unique characteristics of individual patients. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6456",
+    "title": "Drug Information Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14217" },
+      { "term": "202310", "crn": "20454" }
+    ],
+    "description": "Applies drug information skills to site-specific drug information requests under the supervision of a clinical preceptor, and, when appropriate, in conjunction with other members of the site team. Using appropriate sources, the student analyzes drug information findings, such as dosing, monitoring, indications, efficacy, and adverse drug reactions. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6457",
+    "title": "Oncology Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10792" },
+      { "term": "202310", "crn": "13606" }
+    ],
+    "description": "Applies principles of pathophysiology, therapeutics, and communication to the pharmacy-care management of individual patients in an oncology practice setting. Under the supervision of a clinical preceptor, and, when appropriate, in conjunction with other members of the healthcare team, offers identification of appropriate drug therapy and monitoring requirements for common pathophysiologic processes, and, when indicated, modification of population-based treatment strategies based on the unique characteristics of individual patients. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6461",
+    "title": "Infectious Disease Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10651" },
+      { "term": "202310", "crn": "13607" }
+    ],
+    "description": "Applies principles of pathophysiology, therapeutics, and communication to the pharmacy-care management of individual patients on an infectious disease consult service. Under the supervision of a clinical preceptor, and, when appropriate, in conjunction with other members of the healthcare team, offers identification of appropriate drug therapy and monitoring requirements for common pathophysiologic processes, and, when indicated, modification of population-based treatment strategies based on the unique characteristics of individual patients. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6462",
+    "title": "Pharmacy Industry Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10824" },
+      { "term": "202310", "crn": "14218" }
+    ],
+    "description": "Focuses on the application of regulatory affairs and healthcare principles in the pharmaceutical industry. Under the supervision of a preceptor, and, when appropriate, in conjunction with other members of the site team, participates in appropriate activities, such as drug research and development, marketing, medical affairs, regulatory affairs, and information service. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6463",
+    "title": "Pharmacy Administration Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10650" }],
+    "description": "Applies healthcare and management principles, with emphasis on pharmacy administration, under the supervision of a preceptor, and, when appropriate, in conjunction with other members of the site team. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6465",
+    "title": "Managed Care Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13609" },
+      { "term": "202310", "crn": "17364" }
+    ],
+    "description": "Applies principles of pathophysiology, therapeutics, and communication to the pharmacy-care management of individual patients in a managed-care practice setting. Under the supervision of a clinical preceptor, and, when appropriate, in conjunction with other members of the healthcare team, offers identification of appropriate drug therapy and monitoring requirements for common pathophysiologic processes, and, when indicated, modification of population-based treatment strategies based on the unique characteristics of individual patients. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6466",
+    "title": "Transplantation Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10823" },
+      { "term": "202310", "crn": "13610" }
+    ],
+    "description": "Applies principles of pathophysiology, therapeutics, and communication to the pharmacy-care management of individual patients in a transplantation unit. Under the supervision of a clinical preceptor, and, when appropriate, in conjunction with other members of the healthcare team, offers identification of appropriate drug therapy and monitoring requirements for common pathophysiologic processes, and, when indicated, modification of population-based treatment strategies based on the unique characteristics of individual patients. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6467",
+    "title": "Directed Practice Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10791" },
+      { "term": "202310", "crn": "13611" }
+    ],
+    "description": "Offers nontraditional experience with an approved preceptor at an appropriate site. Based on availability. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6470",
+    "title": "Education Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10989" },
+      { "term": "202310", "crn": "13612" },
+      { "term": "202310", "crn": "17360" },
+      { "term": "202310", "crn": "17361" }
+    ],
+    "description": "Offers students an opportunity to teach in the pharmacy curriculum under the supervision of a faculty member. Students have an opportunity to examine how teachers use experience-based and problem-based approaches to engage the range of student learners (third- through fifth-year pharmacy students) to attain their learning goals. May be repeated up to two times.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6471",
+    "title": "Research 1 Advanced Pharmacy Practice Experience",
+    "scheduleType": "Off-campus instruction",
+    "credits": 6,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "13613" },
+      { "term": "202310", "crn": "17367" },
+      { "term": "202310", "crn": "20392" }
+    ],
+    "description": "Offers students interested in gaining basic or clinical research experience an opportunity to work under the direction of an experienced researcher at an appropriate site. Students can elect either a basic science (lab-based) preceptor or a clinical (patient-based) preceptor. Students can expect to be an active participant in a variety of different research activities and experiences that are deemed appropriate by the preceptor. The research efforts of the student may result in a peer-reviewed research abstract and/or presentation. May be repeated up to two times.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "PHMD",
+    "number": "6964",
+    "title": "Co-op Work Experience",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18169" }],
+    "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

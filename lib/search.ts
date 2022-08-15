@@ -5,8 +5,8 @@ import { SearchableItem } from "@/types/search";
 import { isCourse } from "@/utils/course";
 import Fuse from "fuse.js";
 import MiniSearch from "minisearch";
-import allCourses from "../.raw/all-courses.json";
-import subjects from "../.raw/subjects.json";
+import allCourses from "../data/all-courses.json";
+import subjects from "../data/subjects.json";
 
 const searchableItems: SearchableItem[] = [
   ...contentMap

@@ -1,0 +1,823 @@
+[
+  {
+    "subject": "CIVE",
+    "number": "1200",
+    "title": "How Cities Work: Experiencing Urban Infrastructure",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ND"],
+    "sections": [{ "term": "202310", "crn": "19067" }],
+    "description": "Explores the networks that underpin the very existence of cities: our urban infrastructure. Designed as a grand tour of the engineering marvels that exist beneath our feet but whose operation is critical to urban dwellers, using Boston as our guide. Offers students an opportunity to study a new infrastructure system, first by learning and discussing the engineering principles behind its design and operation, and then by experiencing our local infrastructure through visits to local operation centers, city officials, and private contractors that manage and maintain them. Topics include transportation, energy, telecommunications, water and wastewater, food processing and distribution, and waste management. Explores how our infrastructure is interconnected and how this leads both to resilience and to fragility in the face of natural and anthropogenic disruptions.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "2221",
+    "title": "Statics and Solid Mechanics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10090" },
+      { "term": "202310", "crn": "12618" },
+      { "term": "202240", "crn": "40237" }
+    ],
+    "description": "Connects fundamentals of Newtonian physics to the stresses and deformations in solids. Introduces properties of areas and volumes (centroidal axes, moments of inertia); equilibrium of particles and rigid bodies in two and three dimensions; analysis of internal forces in trusses and simple frames; shear and moment diagrams in beams; computation of stresses induced by axial force, moment, shear, and torque; and mechanical properties of materials.",
+    "coreqs": [{ "number": "2222" }],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "2222",
+    "title": "Recitation for CIVE 2221",
+    "scheduleType": "Recitation/Discussion",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10178" },
+      { "term": "202310", "crn": "10005" },
+      { "term": "202310", "crn": "12619" },
+      { "term": "202310", "crn": "12620" },
+      { "term": "202240", "crn": "41301" }
+    ],
+    "description": "Accompanies CIVE 2221. Covers problem solving and topics related to the course.",
+    "coreqs": [{ "number": "2221" }],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "2260",
+    "title": "Materials for the Built Environment",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10306" }],
+    "description": "Introduces the physical, mechanical, and chemical properties of materials of importance to civil engineers. Offers an overview of the ways in which these properties affect the material selection process, material behavior, and the design process.",
+    "coreqs": [{ "number": "2261" }],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "2261",
+    "title": "Lab for CIVE 2260",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": ["AD"],
+    "sections": [
+      { "term": "202310", "crn": "10305" },
+      { "term": "202310", "crn": "10304" },
+      { "term": "202310", "crn": "10064" },
+      { "term": "202310", "crn": "11374" }
+    ],
+    "description": "Involves the use of standard lab test methods and equipment to determine properties of materials common to civil engineering practice. Also introduces students to land surveying, site layout, and the measurement of distance, elevation, and direction.",
+    "coreqs": [{ "number": "2260" }],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "2320",
+    "title": "Structural Analysis",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10303" },
+      { "term": "202310", "crn": "19068" }
+    ],
+    "description": "Connects fundamentals from CIVE 2221 to analyze stresses, strains, strength, forces, and displacements in regular structures and structural members such as trusses, beams, frames, and arches. Covers shear stresses in beams; combined stress analysis (bars with axial load plus shear and bending); introduction to buckling; influence lines (application to statically determinate systems); computation of deflections (statically determinate systems); and analysis of indeterminate structures using virtual work and the flexibility method. Introduces applications to sensing and monitoring of civil structures using the flexibility method and moment distribution.",
+    "coreqs": [{ "number": "2321" }],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "2321",
+    "title": "Recitation for CIVE 2320",
+    "scheduleType": "Recitation/Discussion",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10538" },
+      { "term": "202310", "crn": "19069" }
+    ],
+    "description": "Accompanies CIVE 2320. Covers problem solving and topics related to the course.",
+    "coreqs": [{ "number": "2320" }],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "2324",
+    "title": "Concrete Structure Design",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10320" },
+      { "term": "202240", "crn": "40044" }
+    ],
+    "description": "Presents the mechanical properties of concrete and steel reinforcement. Discusses the design of reinforced concrete structures for various loading conditions and covers the design of common reinforced concrete structural elements. Examines behavior and design of reinforced concrete beams, one-way slab systems, footings, and short columns based on latest ACI-318 code.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "2331",
+    "title": "Fluid Mechanics and Hydraulics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10512" }],
+    "description": "Introduces the principles of fluid mechanics and the applications in basic hydraulic engineering systems. Topics include properties of fluids; pressure and force on surfaces and submerged bodies; continuity, momentum, and energy conservation principles; dimensional analysis and hydraulic similitude; flow in closed conduits; steady flow in pipe networks; unsteady flow in pipes; flow in open channels; hydraulic machines; and hydraulic structures. The laboratory component includes demonstrations and experiments to show the applicability of fluid mechanics and hydraulics principles.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "2334",
+    "title": "Environmental Engineering: Principles, Technology, and Sustainability",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10302" },
+      { "term": "202310", "crn": "11236" }
+    ],
+    "description": "Focuses on the protection and management of the environment and the engineering methods to control environmental quality problems. Topics include assessment of environmental quality, introduction to water and wastewater treatment technologies, air pollution control technologies, solid waste management, and global atmospheric change.",
+    "coreqs": [],
+    "prereqs": ["Or", "Or"]
+  },
+  {
+    "subject": "CIVE",
+    "number": "2335",
+    "title": "Environmental Engineering Chemistry",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14565" }],
+    "description": "Covers chemistry principles required for describing chemical processing of elements in natural systems, the distribution of pollutants in the environment, and chemical use in engineered treatment systems. Focuses on equilibrium thermodynamics and equilibria for acid-base, gas-water, precipitation-dissolution, metal complexation, oxidation-reduction, and sorption reactions. Discusses specific applications to pollutant reactions in surface waters, ground waters, soils, drinking water treatment, wastewater treatment, and the atmosphere.",
+    "coreqs": [],
+    "prereqs": ["Or", "Or"]
+  },
+  {
+    "subject": "CIVE",
+    "number": "2340",
+    "title": "Geotechnical Engineering",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "60045" }],
+    "description": "Focuses on the formation, composition, and classification of soil for engineering purposes; soil-water phase relations; water in soil; seepage; stresses in soil; consolidation theory; strength properties of soils; and the basics of geoenvironmental engineering.",
+    "coreqs": [{ "number": "2341" }],
+    "prereqs": ["Or"]
+  },
+  {
+    "subject": "CIVE",
+    "number": "2341",
+    "title": "Lab for CIVE 2340",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202260", "crn": "60044" },
+      { "term": "202260", "crn": "60601" },
+      { "term": "202260", "crn": "60377" }
+    ],
+    "description": "Accompanies CIVE 2340. Introduces standard laboratory procedures for characterizing the physical, hydraulic, and mechanical properties of soils as well as data reduction and analysis methods for various test methods. Laboratory methods and determinations include moisture content, Atterberg limits, permeability, compaction, consolidation, and direct shear. Includes the use of computer-based data acquisition systems and measurement transducers.",
+    "coreqs": [{ "number": "2340" }],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "3425",
+    "title": "Steel Structure Design",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11974" }],
+    "description": "Presents the design of steel structures for various loading conditions, including design of different types of frame structures that include steel members subjected to tension, compression, bending, and combinations of loading, and design of connections. Establishes the fundamentals of the behavior and the principles of creative design of steel structures using the latest load and resistance factor design (LRFD) specification of the American Institute for Steel Construction.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "3435",
+    "title": "Environmental Pollution Fate and Transport",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14566" }],
+    "description": "Provides a systematic approach to analyzing the fate and transport of pollutants within natural systems. Equilibrium modeling and reactive transport modeling are used to assess the predominant processes that control the movement and persistence of pollutants in water, soil, and air. Topics include mass transfer across multiple phases; physical, chemical, and biological transformations of substances; transport processes (diffusion, dispersion, advection, interphase mass transport); eutrophication of lakes; conventional pollutants in rivers and estuaries; groundwater contamination; and atmospheric deposition.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "3464",
+    "title": "Probability and Engineering Economy for Civil Engineering",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10301" }],
+    "description": "Introduces engineering probability and statistics, as well as engineering economic analysis for project or design evaluation. Case studies are used to illustrate the integration of these areas in the design/system analysis process. Topics in engineering probability and statistics include descriptive statistics, expected value of random variables, and hypotheses testing. Statistical process control and sampling methods are introduced. Reliability methods for the analysis and improvement of system/design performance are discussed. Also covers fundamental concepts of time value of money and economic evaluation of alternatives, including the effects of depreciation and taxes.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "MATH", "number": "2321" }]
+  },
+  {
+    "subject": "CIVE",
+    "number": "4534",
+    "title": "Water Treatment Systems Design",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": ["WI"],
+    "sections": [{ "term": "202310", "crn": "14567" }],
+    "description": "Continues CIVE 2334. Concentrates on unit operations; unit processes; and related fundamental design of physical, chemical, and biological water and wastewater treatment systems, using both lectures and laboratory instruction. Topics include aeration systems, activated sludge, fixed-film biological treatment, gas transfer, reaction kinetics, reactor modeling, coagulation, flocculation, sedimentation, filtration, and subsurface disposal system design. Includes project component.",
+    "coreqs": [{ "number": "4535" }],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "4535",
+    "title": "Lab for CIVE 4534",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "14568" }],
+    "description": "Accompanies CIVE 4534. Covers topics from the course through various experiments.",
+    "coreqs": [{ "number": "4534" }],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "4542",
+    "title": "Foundation Engineering and Design",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [{ "term": "202310", "crn": "12621" }],
+    "description": "Focuses on subsurface field investigation, soil-bearing capacity determination, settlement estimation, design of shallow foundations and pile foundations, and design of retaining walls. Includes project component.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "4554",
+    "title": "Highway Design",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [
+      { "term": "202310", "crn": "10011" },
+      { "term": "202240", "crn": "41736" }
+    ],
+    "description": "Concentrates on highway design including route selection, geometric design, foundation and pavement design, drainage design, and construction issues. Analyzes highway traffic including traffic flow fundamentals and capacity and level of service analysis for freeways and rural highways. Covers the environmental impact and public review process for highway construction. Includes project component.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "4575",
+    "title": "Construction Management",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "60022" }],
+    "description": "Surveys the construction industry and tasks that must be addressed by construction management including resource allocation, construction environment, organization, contracts, funding, cash flow, productivity, conceptual and detailed cost estimating, labor relations, network planning and scheduling, construction accounting, and project control.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "5261",
+    "title": "Dynamic Modeling for Environmental Investment and Policymaking",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19070" }],
+    "description": "Introduces the theory, methods, and tools of dynamic modeling for policy and investment decision making, emphasizing environmental issues. Makes use of state-of-the-art computing methods to translate theory and concepts into executable models and offers extensive hands-on modeling experience. Topics include management of discrete flows (e.g., models of traffic systems); discounting, intertemporal optimization (e.g., models of resource extraction); dynamic games (e.g., models for adaptive management); and treatment of risk, uncertainty, novelty, and complexity (e.g., for investment and policymaking).",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "5281",
+    "title": "Coastal Dynamics and Design",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19072" }],
+    "description": "Introduces the basic theory of the forcing and response of the built and natural coastal environment, including hurricanes and extratropical storms, wind waves, astronomical tides, storm surges, currents, fluid-structure interactions, sediment transport, and morphological changes. Seeks to provide an overview of the physical processes and the functional design of coastal works, including anthropogenic and natural and nature-based features. Uses examples and case studies to illustrate the theory and the interdependence of water motion and coastal morphology. Emphasizes the challenges of extreme events and natural hazards in the coastal environment. Requires prior completion of one semester of fluid mechanics or equivalent.",
+    "coreqs": [],
+    "prereqs": ["Or", "Or", "Graduate Admission"]
+  },
+  {
+    "subject": "CIVE",
+    "number": "5300",
+    "title": "Environmental Sampling and Analysis",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16014" }],
+    "description": "Introduces the theory, application, methodology, and instrumentation used in planning, sampling, and analyzing the environmental contaminants in air, water, and soils. Emphasizes instrument selection and quality control, including documentation, calibration, data analysis and interpretation, and sample management.",
+    "coreqs": [{ "number": "5301" }],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "5301",
+    "title": "Lab for CIVE 5300",
+    "scheduleType": "Lab",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "15258" }],
+    "description": "Accompanies CIVE 5300. Covers topics from the course through various experiments. Includes a team project.",
+    "coreqs": [{ "number": "5300" }],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "5376",
+    "title": "Traffic Engineering and Sustainable Urban Street Design",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19073" }],
+    "description": "Covers street and intersection design for meeting societal needs related to traffic capacity, level of service, safety, walkability, bikeability, and the quality of public space. Intersection analysis and design topics include traffic flow theory and measurement; capacity; queuing and delay for both vehicles and pedestrians; and signal timing plan design, including design for pedestrian crossings. Street design topics include street functions; speed control; street and intersection layout; bicycling facilities, including bike lanes and separated bike paths; and pedestrian facilities, including sidewalks and crossings. Offers students an opportunity to practice with standard design manuals and intersection analysis software.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "5522",
+    "title": "Structural Systems Modeling",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11375" },
+      { "term": "202310", "crn": "16923" }
+    ],
+    "description": "Continues CIVE 2320. Covers analysis of indeterminate structural systems using matrix methods. Studies how to implement matrix analysis of indeterminate structures using both flexibility and stiffness approaches. Serves as an introduction to the finite element method.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      "And",
+      { "subject": "MATH", "number": "2341" },
+      ")",
+      "Or",
+      "Graduate Admission"
+    ]
+  },
+  {
+    "subject": "CIVE",
+    "number": "5670",
+    "title": "Global Biogeochemistry",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ND"],
+    "sections": [{ "term": "202310", "crn": "19228" }],
+    "description": "Examines the biological, chemical, and physical interactions that shape our global environment. These interactions combine in the global biogeochemical cycles. Industrial emission of gases, use of fertilizers and plastics, and the expansion of cities are altering the biogeochemical cycling of the elements carbon, nitrogen, and phosphorus at rates unprecedented in the geological record. Uses lectures and the latest update to Chapter 6, &ldquo;Carbon and Other Biogeochemical Cycles,&rdquo; of the International Panel on Climate Change report to explore the main interactions between human activity, biogeochemical change, and climate. Discusses primary literature to delve deeper into these interactions.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "5699",
+    "title": "ST: Engineering &amp; Pub. Policy",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16019" }],
+    "description": "Offered when the need for a special topic is evident to faculty and students. Topics are initiated by appropriate faculty members and discipline committee and approved by the department. May be repeated up to two times for up to 12 total credits.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "5978",
+    "title": "Independent Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "18522" },
+      { "term": "202310", "crn": "18619" }
+    ],
+    "description": "Offers theoretical or experimental work under individual faculty supervision. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "5984",
+    "title": "Research",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18425" }],
+    "description": "Offers an opportunity to conduct research under faculty supervision. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "7110",
+    "title": "Critical Infrastructure Resilience",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14569" },
+      { "term": "202310", "crn": "16926" }
+    ],
+    "description": "Introduces the concept of resilience by exploring engineering concepts and perspectives to offer students an opportunity to develop the ability to be prepared for and adapt to challenging situations and scenarios&mdash;e.g., globalization, climate change, security threats, and natural disasters&mdash;on critical infrastructures and key resources. Topics include application of tools for infrastructure modeling and risk assessment; identification of natural and man-made hazards; management of disaster risks and communications; resilience design; and future challenges, policy, and novel approaches to advance resilience. Explores application to real-life examples through group projects. Requires one semester of undergraduate statistics.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "7220",
+    "title": "Construction Management",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10713" },
+      { "term": "202310", "crn": "16927" }
+    ],
+    "description": "Presents all aspects of construction management, with emphasis on cost and schedule. Provides conceptual and detailed cost estimates and network-based scheduling techniques (CPM and PERT). Covers project cash flow and finances. Requires one semester of undergraduate probability and statistics.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "7230",
+    "title": "Legal Aspects of Civil Engineering",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10712" },
+      { "term": "202310", "crn": "16928" }
+    ],
+    "description": "Overviews the U.S. legal system and the theories necessary for the comprehension of business and contractual liabilities. Discusses various types of contracts, forms of business ownership, claims and disputes, and environmental law.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "7250",
+    "title": "Environmental Chemistry",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "12983" }],
+    "description": "Examines applications of chemistry to environmental engineering. Covers properties of water and pollutants, acid-base reactions, pH, alkalinity, equilibrium chemistry, chemical kinetics, chemical thermodynamics, coordination chemistry, precipitation-dissolution reactions, surface chemistry, adsorption-desorption, redox reactions, and organic chemistry as it relates to the environment. Includes relevant laboratory exercises such as colorimetry, gravimetric, and electrochemical methods; atomic absorption spectrophotometry; and ion and gas chromatography. Requires one semester of undergraduate chemistry.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "7251",
+    "title": "Environmental Biological Processes",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16897" }],
+    "description": "Examines microbiology with emphasis on biological processes in environmental engineering applications. Topics include cell structure, morphology, cell nutrition and growth, energy transfer and utilization, aerobic and anaerobic microbial metabolism, biological wastewater process theory and modeling, biological nutrients removal, and disinfection of relevant microorganisms. Includes relevant laboratory exercises of treatment parameters used to monitor the biological processes, such as BOD, TOC, COD, gravimetric methods, and dissolved oxygen. Also covers enzyme kinetics and evaluation of kinetic coefficients for biotreatment. Requires one semester of undergraduate chemistry or one semester of undergraduate biology.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "7260",
+    "title": "Hydrologic Modeling",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19075" },
+      { "term": "202310", "crn": "20032" }
+    ],
+    "description": "Covers the vertical and lateral fluxes and stores of water within the terrestrial hydrologic cycle such as precipitation (rain and snow); infiltration; runoff; snowmelt; evapotranspiration; streamflow; groundwater recharge/discharge; and surface (snowpack, lakes, rivers) and subsurface (soil moisture and groundwater) storages. Individual simulation models are developed to represent key processes within the hydrologic cycle. Process models are then integrated to approximate the hydrologic cycle of a watershed. Covers model parameterization, calibration, validation, and uncertainty (model parameters and forcings). Knowledge of geographic information systems and programming is recommended.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "7279",
+    "title": "Advanced Air Quality",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20818" }],
+    "description": "Describes in detail the sources, formation, distribution, dynamics, transport, and removal of air pollutants, the interaction of atmospheric chemistry and climate, the radiative and climatic effects of gases and particles, and the formulation of chemical transport models for the atmosphere. Reviews important publications in leading journals.",
+    "coreqs": [],
+    "prereqs": ["And"]
+  },
+  {
+    "subject": "CIVE",
+    "number": "7311",
+    "title": "Soil and Foundation Dynamics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19076" }],
+    "description": "Considers dynamic loads, blast vibrations and monitoring, dynamic response of single-mass, multi degree-of-freedom systems, design of machine foundations, dynamic soil properties, ground response analysis, liquefaction, and seismic analysis of slopes and dams. Requires one semester of undergraduate statics.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "7313",
+    "title": "Ground Improvement",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19077" }],
+    "description": "Addresses how problematic groundwater conditions, low shear strength, high compressibility, and the need for remediation can be resolved through ground improvement, which is the application of innovative technologies and construction techniques designed to improve the engineering properties of the existing soil and rock at a site. Emphasizes specific, well-established, and emerging ground improvement technologies, including their applications, design, construction/implementation, and quality control. Requires one semester of soil mechanics.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "7330",
+    "title": "Advanced Structural Analysis",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10711" },
+      { "term": "202310", "crn": "16929" }
+    ],
+    "description": "Explores modern methods of structural analysis, matrix formulation of flexibility and stiffness methods, and analysis of structures with material and geometric nonlinearities. Also introduces energy methods. Requires CIVE 5522 or one semester undergraduate matrix structural analysis.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "7331",
+    "title": "Structural Dynamics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11277" },
+      { "term": "202310", "crn": "17860" }
+    ],
+    "description": "Examines single and multi degree-of-freedom systems subjected to arbitrary dynamic loads. Topics include convolution and frequency domain solutions, introduction to analytical dynamics, damping models, modal analysis of classically damped systems, and state-space formulation. Requires one semester of undergraduate structural analysis.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "7351",
+    "title": "Behavior of Steel Structures",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11098" }],
+    "description": "Studies the behavior and design of steel structural systems, including structural stability; advanced topics in mechanics and design of structural steel members, including combined axial, flexure, and shear loads; composite steel/concrete beam and column behavior and design; plate girders; and advanced topics in connection design. Requires one semester of undergraduate steel design.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "7354",
+    "title": "Wind Engineering",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "19886" },
+      { "term": "202310", "crn": "20033" }
+    ],
+    "description": "Covers atmospheric circulation, atmospheric boundary layer winds, bluff-body aerodynamics, introduction to random vibration theory, response of structures to fluctuating wind loads, aeroelastic phenomena, wind-tunnel and full-scale testing, nonsynoptic winds (hurricanes, tornadoes, etc.), wind-load standards, and design applications.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "7381",
+    "title": "Transportation Demand Forecasting and Model Estimation",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "19935" }],
+    "description": "Studies methods used for model estimation, model building, and interpretation of results. Emphasizes travel demand forecasting, including trip generation, distribution, model choice, and route choice. Topics include aggregate and disaggregate models, including discrete choice (binary and multinomial logit and extensions), model building and statistical testing, aggregation, sampling, and sample design. Demonstrates the applicability and underlying principles of the various models through case studies with focus on practical aspects and interpretation. Bases main methodological approaches on econometric methods, mainly on regression modeling and maximum likelihood estimation. Uses general and specialized software tools for data analysis and model estimation. While the focus is on estimating transportation demand models, the methods are applicable to a broad class of applications in engineering, marketing, etc.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "7382",
+    "title": "Advanced Traffic Control and Simulation",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14570" },
+      { "term": "202310", "crn": "16931" }
+    ],
+    "description": "Covers analysis and design of traffic signal control, including actuated control, coordinated control, transit signal priority, and signal control schemes for better accommodating pedestrians and bicycles. Includes the study of traffic microsimulation for urban street networks, including modeling techniques and simulation-based evaluation, and intersection performance models. Offers students an opportunity to practice with standard microsimulation software, including coding traffic signal control logic.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "7392",
+    "title": "Adv. Air Quality",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "16023" }],
+    "description": "Offered when the need for a special topic is evident to faculty and students. The course is initiated by the appropriate faculty members and discipline committee and approved by the department. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "7400",
+    "title": "CIV &amp; Eviron Enginrg Seminar",
+    "scheduleType": "Seminar",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "11238" }],
+    "description": "Presents topics of an advanced nature by staff, outside speakers, and students in the graduate program. This course must be attended every semester by all full-time graduate students in the Department of Civil and Environmental Engineering. Environmental engineering students permitted. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "7978",
+    "title": "Independent Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "18347" },
+      { "term": "202310", "crn": "18071" },
+      { "term": "202310", "crn": "18499" },
+      { "term": "202310", "crn": "20641" },
+      { "term": "202310", "crn": "20951" }
+    ],
+    "description": "Offers an individual effort in an area selected by student and adviser and approved by the Department Discipline Committee resulting in a definitive report. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "7990",
+    "title": "Thesis",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "18489" },
+      { "term": "202310", "crn": "21062" },
+      { "term": "202310", "crn": "20987" },
+      { "term": "202310", "crn": "12373" },
+      { "term": "202310", "crn": "17886" },
+      { "term": "202310", "crn": "18215" },
+      { "term": "202310", "crn": "18344" },
+      { "term": "202240", "crn": "41151" }
+    ],
+    "description": "Offers analytical and/or experimental research conducted by arrangement with and under the supervision of the department. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "8674",
+    "title": "Master&amp;#8217;s Report",
+    "scheduleType": "Individual Instruction",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "18492" },
+      { "term": "202310", "crn": "15817" },
+      { "term": "202310", "crn": "18381" }
+    ],
+    "description": "Offers an individual effort consisting of laboratory and/or literature investigation and analysis of advanced design of a project in an area of civil engineering selected by student and adviser resulting in a definitive report. Requires a completed report seven years from the start of the master&amp;#8217;s program.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "8960",
+    "title": "Exam Preparation&amp;#8212;Doctoral",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "17944" },
+      { "term": "202310", "crn": "18204" },
+      { "term": "202310", "crn": "18348" },
+      { "term": "202310", "crn": "18273" }
+    ],
+    "description": "Offers students an opportunity to prepare for the PhD qualifying exam under faculty supervision. Intended for students who have completed all required PhD course work and have not yet achieved PhD candidacy; students who have not completed all required PhD course work are not allowed to register for this course. May be repeated once.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "8984",
+    "title": "Research",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18367" }],
+    "description": "Offers an opportunity to conduct research under faculty supervision. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "9986",
+    "title": "Research",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14479" },
+      { "term": "202310", "crn": "17542" },
+      { "term": "202310", "crn": "15310" },
+      { "term": "202310", "crn": "15752" },
+      { "term": "202310", "crn": "18189" },
+      { "term": "202310", "crn": "15833" },
+      { "term": "202310", "crn": "17661" },
+      { "term": "202260", "crn": "61641" },
+      { "term": "202260", "crn": "60670" },
+      { "term": "202260", "crn": "61131" }
+    ],
+    "description": "Offers an opportunity to conduct full-time research under faculty supervision. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "9990",
+    "title": "Dissertation Term 1",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "18230" }],
+    "description": "Offers analytical and/or experimental research conducted by arrangement with and under the supervision of the department. Open to full-time students only. Requires PhD candidacy in civil engineering or in interdisciplinary engineering.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "9991",
+    "title": "Dissertation Term 2",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14998" },
+      { "term": "202310", "crn": "18588" },
+      { "term": "202310", "crn": "14999" },
+      { "term": "202310", "crn": "18216" }
+    ],
+    "description": "Offers dissertation supervision by members of the department.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "CIVE",
+    "number": "9996",
+    "title": "Dissertation Continuation",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "14424" },
+      { "term": "202310", "crn": "11893" },
+      { "term": "202310", "crn": "12195" },
+      { "term": "202310", "crn": "14440" },
+      { "term": "202310", "crn": "15209" },
+      { "term": "202310", "crn": "17869" },
+      { "term": "202310", "crn": "15464" },
+      { "term": "202310", "crn": "11099" },
+      { "term": "202310", "crn": "13846" },
+      { "term": "202310", "crn": "15525" },
+      { "term": "202310", "crn": "15661" },
+      { "term": "202310", "crn": "17177" },
+      { "term": "202310", "crn": "17943" },
+      { "term": "202310", "crn": "18107" },
+      { "term": "202310", "crn": "18349" },
+      { "term": "202310", "crn": "10959" },
+      { "term": "202310", "crn": "10960" },
+      { "term": "202310", "crn": "12444" },
+      { "term": "202310", "crn": "12527" },
+      { "term": "202310", "crn": "12545" },
+      { "term": "202310", "crn": "14429" },
+      { "term": "202260", "crn": "61025" },
+      { "term": "202260", "crn": "61469" },
+      { "term": "202260", "crn": "61626" },
+      { "term": "202240", "crn": "41854" }
+    ],
+    "description": "Offers continued thesis work conducted under the supervision of a departmental faculty.",
+    "coreqs": [],
+    "prereqs": ["Or", "Dissertation Check"]
+  }
+]

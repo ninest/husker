@@ -1,0 +1,40 @@
+[
+  {
+    "subject": "MECN",
+    "number": "6200",
+    "title": "Global Competition and Market Dominance",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "10700" },
+      { "term": "202310", "crn": "10699" },
+      { "term": "202310", "crn": "10586" },
+      { "term": "202310", "crn": "11309" },
+      { "term": "202310", "crn": "11310" },
+      { "term": "202310", "crn": "11311" },
+      { "term": "202310", "crn": "11312" },
+      { "term": "202310", "crn": "12625" },
+      { "term": "202240", "crn": "40705" }
+    ],
+    "description": "Trains managers to understand the competitive implications of global economic policies, the business effects of technological change, and the commercial imperatives of alternative political systems at a macro level. At a micro level, it creates a framework for industry analysis in a global setting that combines economic analysis, competitive analysis, and business decision-making skills.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "MECN",
+    "number": "6205",
+    "title": "Sustainability and the Economics of Markets",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "11450" },
+      { "term": "202310", "crn": "12626" },
+      { "term": "202310", "crn": "19689" }
+    ],
+    "description": "Examines the idea that building a sustainable business enterprise often involves correcting market failures. Examines the responsibilities of the business enterprise to society at large. Also explores the causes of and remedies for market failures, such as immigration, education, healthcare, climate change, and finance, and what these mean for governments, businesses, and individuals.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

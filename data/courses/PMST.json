@@ -1,0 +1,14 @@
+[
+  {
+    "subject": "PMST",
+    "number": "6254",
+    "title": "Advanced Drug Delivery Systems",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10789" }],
+    "description": "Examines in-depth the role of sustained, controlled, and site-specific delivery systems for drugs and genetic materials using polymeric systems, colloidal drug delivery systems, and vectors for gene therapy.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

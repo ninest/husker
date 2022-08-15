@@ -1,0 +1,20 @@
+[
+  {
+    "subject": "GENS",
+    "number": "1101",
+    "title": "Transitioning, Learning, and Connecting  Seminar",
+    "scheduleType": "Seminar",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "12378" },
+      { "term": "202310", "crn": "10852" },
+      { "term": "202310", "crn": "10851" },
+      { "term": "202310", "crn": "10850" },
+      { "term": "202310", "crn": "10849" }
+    ],
+    "description": "Designed to enhance academic success and help students transition to university life and academics. Uses a multimedia approach, diverse perspectives, and collaborative learning to challenge students to examine their assumptions and values by analyzing, synthesizing, and evaluating contemporary social issues and trends in popular culture. Emphasizes exploration of academic and career interests for student life-long success.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]

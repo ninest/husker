@@ -1,0 +1,189 @@
+[
+  {
+    "subject": "HUSV",
+    "number": "1000",
+    "title": "Human Services at Northeastern",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "10182" }],
+    "description": "Intended for first-year students in the College of Social Sciences and Humanities. Introduces students to liberal arts; familiarizes them with their major; develops the academic skills necessary to succeed (analytical ability and critical thinking); provides grounding in the culture and values of the University community; and helps to develop interpersonal skills&amp;#8212;in short, familiarizes students with all skills needed to become a successful university student.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HUSV",
+    "number": "1101",
+    "title": "Social Change and Human Services",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EX", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "10181" },
+      { "term": "202310", "crn": "10937" },
+      { "term": "202310", "crn": "20497" }
+    ],
+    "description": "Offers students an opportunity to obtain a foundation for understanding social inequality and for practicing in the human services field. Introduces students to a range of specializations in the area of human services through lectures, service-learning, group work, individual projects, papers, debates, and presentations. Analyzes and applies ethical frames for practice using case studies and service-learning experiences. Additionally, students are expected to develop an understanding of the history of nonprofit and government responses to inequality and the social, political, and economic forces that influence social professionals.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HUSV",
+    "number": "2300",
+    "title": "Counseling in Human Services",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "WI"],
+    "sections": [
+      { "term": "202310", "crn": "10180" },
+      { "term": "202310", "crn": "16444" },
+      { "term": "202310", "crn": "20797" }
+    ],
+    "description": "Presents an overview of the major theoretical approaches to counseling and therapeutic interventions. Focuses on developing clinical skills and competency in intentional interviewing. Combines systemic group exercises and experiential activities to practice interviewing techniques. Cross-cultural issues in counseling are integrated throughout the course.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
+  },
+  {
+    "subject": "HUSV",
+    "number": "2320",
+    "title": "Techniques in Individual and Group Counseling",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD"],
+    "sections": [{ "term": "202310", "crn": "19515" }],
+    "description": "Provides in-depth understanding of clinical practice with individuals, groups, and families. Focuses on developing practice skills through presentations, case studies, and self-reflection journals. Examines the role of spirituality within one&amp;#8217;s clinical practice. Explores theoretical techniques and their applications in a variety of settings, with particular attention to populations at risk.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HUSV",
+    "number": "2340",
+    "title": "Mindfulness in Mental Health",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC"],
+    "sections": [{ "term": "202310", "crn": "14871" }],
+    "description": "Explores mindfulness and its relationship to human services. Mindfulness is practiced in myriad human services settings, including schools, mental health facilities, medical settings, and prisons. Traces the development of mindfulness from its origins in Buddhism, to early adoption and integration with Western mental health ideologies, to the ways it is currently being integrated in social service organizations. Explores the inherent tensions in adopting a practice embedded in ancient non-Western cultures to Western thinking, healing, and psychotherapy. Examines the ways culture, identity, and power have shaped the presentation and proliferation of mindfulness.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HUSV",
+    "number": "2355",
+    "title": "Race, Identity, Social Change, and Empowerment",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD"],
+    "sections": [{ "term": "202310", "crn": "16445" }],
+    "description": "Cross-listed with SOCL &amp; AFAM 2355.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HUSV",
+    "number": "2370",
+    "title": "Restorative Justice: Transforming the System",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EX"],
+    "sections": [{ "term": "202310", "crn": "19005" }],
+    "description": "Explores the roots of restorative justice and locates contemporary examples of its application in various settings in the United States and the world. Examines its utility in addressing the mass incarceration crisis and the current penal system and mode of punishment in the United States. Students practice and apply critical race and systems theories to use a systems lens to examine the impact of racism, sexism, gender discrimination, and other systems of oppression on behavior and the justice system.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HUSV",
+    "number": "2401",
+    "title": "Food Justice and Community Development",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EX"],
+    "sections": [{ "term": "202260", "crn": "60931" }],
+    "description": "Uncovers and examines the key dilemmas of the food system in the United States today using readings, media, discussion, service-learning, and field trips. Working from the foundations of environmental justice and community development, covers production, access, distribution, and key stakeholders from producers to retailers, workers, and consumers. Considers what justice-related issues face stakeholders within the food system in the United States; what policies have most impacted the workforce in the American food system; and what the opportunities and leverage points are for change in improving justice outcomes in this system.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HUSV",
+    "number": "2800",
+    "title": "Sexual Orientation and Gender Expression",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD"],
+    "sections": [{ "term": "202310", "crn": "12912" }],
+    "description": "Introduces students to efforts among social and nonprofit organizations working to reduce heterosexism, homophobia, and transphobia in institutions, communities, and the society as a whole. Discusses practice across the life span for social professionals (social workers, counselors, advocates, and educators) in varied settings such as criminal justice, mental health, adoption, adult day health, and residential programs. Applying theories and current scholarship on LGBTQQ identity development, social movements, media, and advocacy, offers students an opportunity to evaluate contemporary issues of controversy for institutions, social practitioners, and policy. HUSV 2800 and WMNS 2800 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HUSV",
+    "number": "3520",
+    "title": "Child Intervention and Treatment",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["DD", "SI"],
+    "sections": [{ "term": "202310", "crn": "16447" }],
+    "description": "Compares and contrasts primary, secondary, and tertiary levels of intervention as they pertain to child welfare systems. Examines specifically the effectiveness and efficiency of home-visiting-based interventions, school-based interventions, child welfare interventions, and programs and practices targeted to reduce and eliminate juvenile delinquency. Considers the availability, distribution, and effectiveness of these prevention, intervention, and treatment programs as they apply to children and their families. Hands-on service learning in the field of child intervention is designed to link the course work on research and theory to human service practice.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HUSV",
+    "number": "3570",
+    "title": "The Nonprofit Sector, Philanthropy, and Social Change",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "EX", "SI"],
+    "sections": [
+      { "term": "202310", "crn": "10127" },
+      { "term": "202310", "crn": "20798" }
+    ],
+    "description": "Offers students an opportunity to explore the nonprofit sector&amp;#8217;s multifaceted role in U.S. society and its relationship to democracy and social change. Introduces theoretical and practical frameworks for examining contemporary models of nonprofit and philanthropic practice and examines the ethical implications of engaging in and funding activities designed to effect social change. Offers students an opportunity to apply these concepts by mapping the complex systems within which social challenges emerge and by making real dollar grants to local nonprofit organizations.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HUSV",
+    "number": "3900",
+    "title": "Social Policy",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [{ "term": "202310", "crn": "20799" }],
+    "description": "Examines how social policy influences child, family, and community development. Provides a historical overview and a contemporary examination of many social problems, including poverty, health and mental health issues, child welfare, educational inequality, and consequences of juvenile and adult crime. Examines the policies and programs that help or hinder positive individual, family, and community development and considers the role of human service values and ethics on the American response to social policy. Offers students an opportunity to examine and critique the implementation or lack of implementation of formal social policies at the local, state, and federal level and to suggest initiatives to meet the needs of intergenerational families.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HUSV",
+    "number": "4700",
+    "title": "Senior Seminar in Human Services",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["CE", "WI"],
+    "sections": [{ "term": "202310", "crn": "14420" }],
+    "description": "Examines emerging roles and career options within the human services field. Focuses on self-examination of attitudes and values affecting delivery of services, exploration of ethical issues and dilemmas relevant to human services, grant and funding issues, staff supervision and development within human services agencies, and refinement of group leadership skills.",
+    "coreqs": [],
+    "prereqs": []
+  },
+  {
+    "subject": "HUSV",
+    "number": "4994",
+    "title": "Human Services Internship",
+    "scheduleType": "Off-campus instruction w/ lec",
+    "credits": 6,
+    "nuPath": ["EX"],
+    "sections": [{ "term": "202310", "crn": "12639" }],
+    "description": "Requires students to fulfill one internship placement during the last two years of the program. Consists of required field site hours and varies according to the students&rsquo; interests. Examples of placement sites include community centers, nursing homes, vocational workshops, state and federal agencies for children, and recreational facilities. Experiences are supervised by internship supervisor to maximize the student&rsquo;s learning opportunities. Fulfills the experiential education requirement. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
+  }
+]
