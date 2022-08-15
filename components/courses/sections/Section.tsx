@@ -1,4 +1,5 @@
 import { Empty } from "@/components/Empty";
+import { Spacer } from "@/components/util/Spacer";
 import { useSection } from "@/hooks/sections";
 import { stringTimeToTime } from "@/lib/courses";
 import { SectionInfo } from "@/types/courses";
@@ -21,14 +22,17 @@ export const Section = ({ sectionInfo }: SectionProps) => {
     <>
       {section && !isLoading ? (
         <>
-          <div className="p-base rounded-lg bg-gray-100 dark:bg-gray-900 space-y-xs">
+          <div className="p-base rounded-lg bg-gray-100 dark:bg-gray-900 space-y-sm">
             <div className="flex items-center justify-between">
               <h4 className="font-medium">
-                {section?.faculty.map((professor) => professor.name).join("; ")}
+                {section.faculty.length > 0 ? (
+                  section?.faculty.map((professor) => professor.name).join("; ")
+                ) : (
+                  <i>Professors to be announced</i>
+                )}
               </h4>
               <p className="font-mono text-sm">{section.crn}</p>
             </div>
-
             <div className="flex flex-col space-y-xs items-start md:items-center md:space-y-0 md:flex-row md:justify-between">
               <div className="flex items-center space-x-base">
                 <DayTable days={section.days} />
@@ -39,7 +43,8 @@ export const Section = ({ sectionInfo }: SectionProps) => {
                   </div>
                 )}
               </div>
-              <div className="text-sm">
+
+              <div className="pt-1 md:pt-0 text-sm">
                 {section.online ? (
                   "Online"
                 ) : (
@@ -51,7 +56,7 @@ export const Section = ({ sectionInfo }: SectionProps) => {
               </div>
             </div>
 
-            <div className="pt-xs flex space-x-base">
+            <div className="pt-0.5 flex space-x-base">
               <div className="flex items-center space-x-1 text-lg font-mono font-bold">
                 <span
                   className={clsx({
