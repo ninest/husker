@@ -404,6 +404,12 @@ export const contentMap: Category[] = [
         description: "Spring 2022 COVID FAQ",
         icon: "virusslash",
       },
+      {
+        name: "VPN Portal",
+        href: "https://vpn.northeastern.edu/global-protect/getsoftwarepage.esp",
+        description: "Connect to VPN and access more services",
+        icon: "locked",
+      },
     ],
   },
 ];
