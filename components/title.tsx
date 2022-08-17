@@ -21,7 +21,7 @@ interface TitleProps extends HTMLAttributes<HTMLDivElement> {
 export const Title = ({
   level = 1,
   children,
-  weightClassName = "font-bold",
+  weightClassName = "",
   hash = false,
   ...props
 }: TitleProps) => {
@@ -43,9 +43,9 @@ export const Title = ({
         weightClassName,
         {
           "text-4xl": level == 1,
-          "text-3xl": level == 2,
-          "text-2xl": level == 3,
-          "text-base": level == 4,
+          "text-2xl": level == 2,
+          "text-xl": level == 3,
+          "text-lg": level == 4,
         },
         props.className
       )}

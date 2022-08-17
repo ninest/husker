@@ -417,6 +417,22 @@ export const contentMap: Category[] = [
       },
     ],
   },
+  {
+    title: "Programs",
+    slug: "programs",
+    links: [
+      {
+        name: "NUin",
+        href: "/programs/nuin",
+        description: "What is the NUin program?",
+      },
+      {
+        name: "NU Accelerate",
+        href: "/programs/nuaccelerate",
+        description: "What is the NU Accelerate program?",
+      },
+    ],
+  },
 ];
 
 // Add I am here at the start of a semester
@@ -441,6 +457,8 @@ export const pages = [
   "/changelog",
   "/house/furniture",
   "/house/checklist",
+  "/programs/nuin",
+  "/programs/nuaccelerate",
 
   ...dorms.map((dorm): string => `/house/${dorm.slug}`),
 ];
