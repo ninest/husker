@@ -4,9 +4,16 @@ description: More information about housing
 lastUpdated: 2021-08-31
 ---
 
+- [Dorms](/house#dorms)
+  - [Traditional dorms](/house#traditional)
+  - [Suite dorms](/house#suite)
+  - [Apartments](/house#apartment)
+  - [Leased properties](/house#leased-properties)
+- [FAQ](/house#faq)
+
 ## Dorms
 
-{% dorms / %}
+{% dorms /%}
 
 ## FAQ
 

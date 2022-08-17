@@ -7,11 +7,16 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
-{% expandable variant="gray" title="Dorm Information" %}
+{% expandable variant="gray" title="Dorm Information" open=true %}
 
 - 1-, 2-, 3-, 4-person rooms
+  - Quads are usually larger corner rooms
+  - Thin walls
 - Lounges on the first floor
-- {% icon id="utensils" /%} Shared kitchen
+- {% icon id="utensils" /%} Shared kitchen on the first floor
+- Usually for Khoury (computer science) LLC
+- Good central location, but above Qdoba, *might* see rats
+- Heater makes it hot, fan recommended
 
 {% /expandable %}
 

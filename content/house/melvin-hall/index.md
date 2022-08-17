@@ -7,6 +7,15 @@ updatedAt: 2022-01-04
 pageType: dorm
 ---
 
+{% expandable variant="gray" title="Dorm Information" open=true %}
+
+- 1-, 2-, 3-person bedrooms (standard and economy singles, doubles, triples)
+- 5 single occupancy bathrooms on every floor (not like communal), provides extra privacy
+- Only common area is the basement
+- Gets hot in the summer, bring fan   
+
+{% /expandable %}
+
 {% expandable variant="gray" title="Floor Plans" %}
 {% grid %}
 

@@ -100,13 +100,7 @@ export const dorms: Dorm[] = [
         href: "https://northeastern.edu/housing/melvin-hall",
       },
     ],
-    pages: [
-      {
-        name: "NEUDorms",
-        description: "Images and videos from NEUDorms",
-        href: "https://sites.google.com/view/neudorms/first-year/traditional/melvin-hall",
-      },
-    ],
+    pages: [],
   },
   {
     type: traditional,

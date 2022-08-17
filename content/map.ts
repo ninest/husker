@@ -323,6 +323,11 @@ export const contentMap: Category[] = [
         href: "/housing/furniture",
         description: "Measurements and specifications",
       },
+      {
+        name: "Checklist",
+        href: "/housing/checklist",
+        description: "Things to take",
+      },
     ],
   },
   {
@@ -435,6 +440,7 @@ export const pages = [
   "/resources/download-books",
   "/changelog",
   "/house/furniture",
+  "/house/checklist",
 
   ...dorms.map((dorm): string => `/house/${dorm.slug}`),
 ];
