@@ -1,4 +1,5 @@
 import { ValidateError } from "@markdoc/markdoc";
+import { BreadCrumbJsonLdProps } from "next-seo";
 
 export interface Page {
   slug: string;
@@ -15,6 +16,9 @@ export interface Frontmatter {
 
   /* Some pages, like housing pages, are *special* */
   pageType?: "dorm" | "other";
+
+  /* JSON LD data for SEO */
+  seo?: {};
 }
 
 export interface MarkdocPage {

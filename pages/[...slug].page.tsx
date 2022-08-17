@@ -11,11 +11,11 @@ import { getMarkdocPage } from "@/lib/markdoc";
 import { markdocComponents } from "@/lib/markdoc/components";
 import { objectEmpty } from "@/utils/object";
 import Markdoc from "@markdoc/markdoc";
-import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from "next";
-import { NextSeo } from "next-seo";
+import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
+import { BreadcrumbJsonLd, NextSeo } from "next-seo";
 import React from "react";
 
-export const getStaticPaths: GetStaticPaths = async () => {
+export const getStaticPaths = async () => {
   const categoryPaths = contentMap.map((category) => `/${category.slug}`);
   const otherPagePaths = pages.map((page) => `${page}`);
 
@@ -25,7 +25,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   };
 };
 
-export const getStaticProps: GetStaticProps = async ({ params }) => {
+export const getStaticProps = async ({ params }: GetStaticPropsContext) => {
   const slugList = params?.slug! as string[]; // [services, free]
   const slug = listToFilepath(slugList); // "services/free"
 
@@ -97,9 +97,28 @@ const ContentPage = ({
   // @ts-ignore
   const containsProse = !objectEmpty(renderedContent.props);
 
+  console.log(category);
+
   return (
     <>
       <NextSeo title={frontmatter.title} description={frontmatter.description} />
+      <BreadcrumbJsonLd
+        itemListElements={
+          [
+            // {
+            //   position: 1,
+            //   name: category.title,
+            //   item: `https://husker.vercel.app/${category.slug}`,
+            // },
+            // // !
+            // {
+            //   position: 2,
+            //   name: frontmatter.title,
+            //   item: `https://husker.vercel.app/${category.slug}/${}`,
+            // },
+          ]
+        }
+      />
 
       <ArticleHead
         backButtonHref={back.href}
