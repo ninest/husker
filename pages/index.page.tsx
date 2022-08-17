@@ -1,4 +1,5 @@
 import { LinkSet } from "@/components/link/LinkSet";
+import { MiniAlert } from "@/components/MiniAlert";
 import { NoFavorites } from "@/components/ui/NoFavorites";
 import { ClientOnly } from "@/components/util/ClientOnly";
 import { Spacer } from "@/components/util/Spacer";
@@ -18,25 +19,11 @@ const IndexPage = () => {
 
   return (
     <>
-      <article className=" mt-base wrapper">
-        {/* <Expandable
-          title="Would you like to contribute to Husker?"
-          containsProse
-        >
-          <p>
-            We are looking to add more content to Husker! Would you like to
-            write guides? Do you think your knowledge on the school can help
-            others? Click the button below to contribute!
-          </p>
-
-          <div className="flex gap-base">
-            <Button href="/contribute">Contribute</Button>
-            <Button href="https://discord.gg/j7WkFct2rY" icon="discord">
-              Discord
-            </Button>
-          </div>
-        </Expandable> */}
-
+      <article className="mt-base wrapper">
+        <MiniAlert title="Moving in or out?" href="/contribute">
+          Share images of your dorm!
+        </MiniAlert>
+        <Spacer size="md" />
         <div ref={parent} className="space-y-xl" suppressHydrationWarning>
           <ClientOnly>
             {favoritesEnabled && (
