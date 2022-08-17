@@ -36,6 +36,7 @@ export const Title = ({
 
   return (
     <HeadingTag
+      id={slugify(children as string)}
       className={clsx(
         "font-display tracking-normal",
         "text-dark dark:text-gray-lighter",
