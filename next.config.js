@@ -57,7 +57,22 @@ module.exports = {
       {
         source: "/house/west-village",
         destination: "/house/west-village-a",
-        permanent: false,
+        permanent: true,
+      },
+      {
+        source: "/house/116-st-stephen-street",
+        destination: "/house/st-stephen-street",
+        permanent: true,
+      },
+      {
+        source: "/house/110-st-stephen-street",
+        destination: "/house/st-stephen-street",
+        permanent: true,
+      },
+      {
+        source: "/house/122-st-stephen-street-levine-hall",
+        destination: "/house/st-stephen-street",
+        permanent: true,
       },
     ];
   },

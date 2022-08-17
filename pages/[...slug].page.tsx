@@ -129,7 +129,7 @@ const ContentPage = ({
       <div className="wrapper">
         {showLinkSet && (
           <>
-            <LinkSet showFull links={links} pages={pages} />
+            <LinkSet showFull links={links??[]} pages={pages??[]} />
             <Spacer size="xl" />
           </>
         )}
