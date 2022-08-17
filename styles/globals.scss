@@ -20,3 +20,15 @@
 body {
   -webkit-tap-highlight-color: transparent;
 }
+
+a,
+area,
+button,
+[role="button"],
+input,
+label,
+select,
+summary,
+textarea {
+  touch-action: manipulation;
+}
