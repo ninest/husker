@@ -1,11 +1,11 @@
 @layer utilities {
   .form {
     &-input {
-      @apply border-2 dark:border-gray-darker font-medium rounded-lg outline-none;
-      @apply bg-gray-50 dark:bg-gray-900;
+      @apply border-2 dark:border-gray-900 font-medium rounded-lg outline-none;
+      @apply bg-gray-50 dark:bg-gray-900/50;
       @apply p-xs;
       @apply text-gray dark:text-gray-light placeholder:text-gray-lighter dark:placeholder:text-gray-darker;
-      @apply focus:border-gray;
+      @apply focus:border-gray dark:focus:border-primary-darker;
     }
   }
 }

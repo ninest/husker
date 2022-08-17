@@ -83,11 +83,11 @@ export const Search = () => {
         />
       </label>
 
-      {focused && !shouldSearch() && (
+      {/* {focused && !shouldSearch() && (
         <div className="mt-base px-md">
           <p className="text-sm text-gray">Try searching for pages, courses, and professors.</p>
         </div>
-      )}
+      )} */}
 
       {shouldSearch() && (
         <div>
