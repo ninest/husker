@@ -16,3 +16,7 @@
 .katex {
   @apply text-lg;
 }
+
+body {
+  -webkit-tap-highlight-color: transparent;
+}
