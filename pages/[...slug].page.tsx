@@ -100,23 +100,23 @@ const ContentPage = ({
   return (
     <>
       <NextSeo title={frontmatter.title} description={frontmatter.description} />
-      <BreadcrumbJsonLd
+      {/* <BreadcrumbJsonLd
         itemListElements={
           [
-            // {
-            //   position: 1,
-            //   name: category.title,
-            //   item: `https://husker.vercel.app/${category.slug}`,
-            // },
-            // // !
-            // {
-            //   position: 2,
-            //   name: frontmatter.title,
-            //   item: `https://husker.vercel.app/${category.slug}/${}`,
-            // },
+            {
+              position: 1,
+              name: category.title,
+              item: `https://husker.vercel.app/${category.slug}`,
+            },
+            // !
+            {
+              position: 2,
+              name: frontmatter.title,
+              item: `https://husker.vercel.app/${category.slug}/${}`,
+            },
           ]
         }
-      />
+      /> */}
 
       <ArticleHead
         backButtonHref={back.href}
