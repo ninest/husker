@@ -2,6 +2,10 @@
 title: Courses
 description: More information about course
 lastUpdated: 2021-08-31
+seo:
+  faq:
+    - questionName: How do I view my exam schedule?
+      acceptedAnswerText: Open Student Hub and wait for it to load. The exam schedule should show up under the tab bar.
 ---
 
 ## FAQ

@@ -12,7 +12,7 @@ import { markdocComponents } from "@/lib/markdoc/components";
 import { objectEmpty } from "@/utils/object";
 import Markdoc from "@markdoc/markdoc";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
-import { BreadcrumbJsonLd, NextSeo } from "next-seo";
+import { BreadcrumbJsonLd, FAQPageJsonLd, NextSeo } from "next-seo";
 import React from "react";
 
 export const getStaticPaths = async () => {
@@ -100,23 +100,7 @@ const ContentPage = ({
   return (
     <>
       <NextSeo title={frontmatter.title} description={frontmatter.description} />
-      {/* <BreadcrumbJsonLd
-        itemListElements={
-          [
-            {
-              position: 1,
-              name: category.title,
-              item: `https://husker.vercel.app/${category.slug}`,
-            },
-            // !
-            {
-              position: 2,
-              name: frontmatter.title,
-              item: `https://husker.vercel.app/${category.slug}/${}`,
-            },
-          ]
-        }
-      /> */}
+      {frontmatter?.seo?.faq && <FAQPageJsonLd mainEntity={frontmatter.seo.faq} />}
 
       <ArticleHead
         backButtonHref={back.href}

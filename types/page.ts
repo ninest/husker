@@ -1,5 +1,5 @@
 import { ValidateError } from "@markdoc/markdoc";
-import { BreadCrumbJsonLdProps } from "next-seo";
+import { BreadCrumbJsonLdProps, FAQPageJsonLdProps } from "next-seo";
 
 export interface Page {
   slug: string;
@@ -18,7 +18,9 @@ export interface Frontmatter {
   pageType?: "dorm" | "other";
 
   /* JSON LD data for SEO */
-  seo?: {};
+  seo?: {
+    faq: FAQPageJsonLdProps["mainEntity"];
+  };
 }
 
 export interface MarkdocPage {
