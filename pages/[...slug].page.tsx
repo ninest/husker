@@ -71,6 +71,7 @@ export const getStaticProps = async ({ params }: GetStaticPropsContext) => {
       containsLinkSet,
       links,
       pages,
+      isHousePage,
       frontmatter: JSON.parse(JSON.stringify(frontmatter)), //TODO: fix date serialization
       content: JSON.stringify(content),
       errors: JSON.stringify(errors),
@@ -83,6 +84,7 @@ const ContentPage = ({
   category,
   links,
   pages,
+  isHousePage,
   frontmatter,
   content,
   errors,
@@ -99,7 +101,14 @@ const ContentPage = ({
 
   return (
     <>
-      <NextSeo title={frontmatter.title} description={frontmatter.description} />
+      <NextSeo
+        title={frontmatter.title}
+        description={
+          isHousePage
+            ? `Information on ${frontmatter.title} at Northeastern University including dorm descriptions, images, videos, articles, and packing lists`
+            : frontmatter.description
+        }
+      />
       {frontmatter?.seo?.faq && <FAQPageJsonLd mainEntity={frontmatter.seo.faq} />}
 
       <ArticleHead
