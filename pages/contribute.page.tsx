@@ -48,14 +48,16 @@ const ContactPage = () => {
 
   const onSubmit = handleSubmit(async (data) => {
     try {
-      const issue = await mutation.mutateAsync(data);
+      //const issue = await mutation.mutateAsync(data);
       // await submitToContributeForm(data);
+      const formUrl = `https://docs.google.com/forms/d/e/1FAIpQLSdQ8vhyic8Z5lxnBw9643UnqPxN2MIfssLYz32OBW_Vhn_X9A/formResponse?usp=pp_url&entry.770504043=${data.name}&entry.1613298240=${data.content}&entry.1321358172=${data.credit}`;
+      await fetch(`https://api.codetabs.com/v1/proxy?quest=${formUrl}`);
       setSubmitted(true);
       showToast({ text: "Thank you for your contribution!" });
-      showToast({
-        text: "Click here to view the suggestion on GitHub",
-        href: issue.data.html_url,
-      });
+      //showToast({
+      //  text: "Click here to view the suggestion on GitHub",
+      //  href: issue.data.html_url,
+      //});
       celebrate();
       reset();
     } catch {
