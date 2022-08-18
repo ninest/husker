@@ -42,7 +42,6 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
     // Show link in red if
     if (a.href.includes("/w/index.php")) {
       const pageId = a.href.split("title=")[1].split("&")[0];
-      console.log(pageId);
       a.className += " text-error";
       a.href = `/contribute?name=${pageId}`;
     }

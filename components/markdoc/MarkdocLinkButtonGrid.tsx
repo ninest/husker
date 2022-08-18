@@ -52,7 +52,6 @@ export const MarkdocLinkButtonGrid = ({
       name = a.props.children;
       description = b.split(": ")[1];
     }
-    console.log();
     return {
       icon: iconId,
       href,

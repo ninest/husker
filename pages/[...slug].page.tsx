@@ -97,8 +97,6 @@ const ContentPage = ({
   // @ts-ignore
   const containsProse = !objectEmpty(renderedContent.props);
 
-  console.log(category);
-
   return (
     <>
       <NextSeo title={frontmatter.title} description={frontmatter.description} />
@@ -129,7 +127,7 @@ const ContentPage = ({
       <div className="wrapper">
         {showLinkSet && (
           <>
-            <LinkSet showFull links={links??[]} pages={pages??[]} />
+            <LinkSet showFull links={links ?? []} pages={pages ?? []} />
             <Spacer size="xl" />
           </>
         )}
