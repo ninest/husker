@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://husker.vercel.app/">🐾 Husker</a></h1>
+<h1 align="center"><a href="https://husker.vercel.app/">Husker</a></h1>
 
 <p align="center">Useful Northeastern resources and links</p>
 
