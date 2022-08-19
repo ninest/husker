@@ -12,6 +12,7 @@ pageType: dorm
 - 1-, 2-, 3-person suites (singles, doubles, forced doubles, forced triples)
 - Lounges on every floor
 - {% icon id="printer" / %} Printer on first-floor lobby
+- Gym
 
 {% /expandable %}
 

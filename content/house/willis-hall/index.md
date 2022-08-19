@@ -7,6 +7,13 @@ updatedAt: 2022-01-14
 pageType: dorm
 ---
 
+{% expandable variant="gray" title="Dorm Information" open=true %}
+
+- 2-, 4-, and 5-person standard rooms
+- **Odd-numbered** apartments have AC
+
+{% /expandable %}
+
 ## Images
 
 {% expandable icon="image" title="Double: four-person apartment" %}

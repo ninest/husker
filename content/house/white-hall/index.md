@@ -11,7 +11,7 @@ pageType: dorm
 
 - 1-, 2-, 3-, 4-person rooms
   - Quads are usually larger corner rooms
-  - Thin walls
+  - Carpeted floors
 - Lounges on the first floor
 - {% icon id="utensils" /%} Shared kitchen on the first floor
 - Usually for Khoury (computer science) LLC

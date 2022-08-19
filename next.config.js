@@ -74,6 +74,16 @@ module.exports = {
         destination: "/house/st-stephen-street",
         permanent: true,
       },
+      {
+        source: "/house/furniture",
+        destination: "/house/dorms",
+        permanent: true,
+      },
+      {
+        source: "/house/checklist",
+        destination: "/house/dorms",
+        permanent: true,
+      },
     ];
   },
 };

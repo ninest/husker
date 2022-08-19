@@ -8,7 +8,7 @@ lastUpdated: 2022-08-17
 
 {% links %}
 
-- {% icon id="file" /%} [NU Accelerate website](https://precollegeprograms.northeastern.edu/nuaccelerate/): Official NU Accelerate program website
+- {% icon id="file" /%} [Website](https://precollegeprograms.northeastern.edu/nuaccelerate/): Official NU Accelerate program website
 
 {% /links %}
 

@@ -294,6 +294,11 @@ export const contentMap: Category[] = [
         icon: "home",
       },
       {
+        name: "Dorms Info",
+        href: "/housing/dorms",
+        description: "Information on dorms",
+      },
+      {
         name: "Room Rates",
         href: "/housing/room-rates",
         description: "Housing costs",
@@ -317,16 +322,6 @@ export const contentMap: Category[] = [
         name: "Floor plans",
         href: "https://www.northeastern.edu/housing/dnaesantoelrihtriseertn/",
         description: "Layouts and floor plans of dorms",
-      },
-      {
-        name: "Furniture",
-        href: "/housing/furniture",
-        description: "Measurements and specifications",
-      },
-      {
-        name: "Checklist",
-        href: "/housing/checklist",
-        description: "Things to take",
       },
     ],
   },
@@ -455,8 +450,7 @@ export const pages = [
   "/social/instagram",
   "/resources/download-books",
   "/changelog",
-  "/house/furniture",
-  "/house/checklist",
+  "/house/dorms",
   "/programs/nuin",
   "/programs/nuaccelerate",
 

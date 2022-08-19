@@ -8,7 +8,7 @@ lastUpdated: 2022-08-17
 
 {% links %}
 
-- {% icon id="file" /%} [NUin website](https://nuin.northeastern.edu/): Official NUin program website
+- {% icon id="file" /%} [Website](https://nuin.northeastern.edu/): Official NUin program website
 
 {% /links %}
 
