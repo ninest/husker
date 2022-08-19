@@ -108,6 +108,14 @@ const ContentPage = ({
             ? `Information on ${frontmatter.title} at Northeastern University including dorm descriptions, images, videos, articles, and packing lists`
             : frontmatter.description
         }
+        openGraph={{
+          images: [
+            {
+              // TODO: use env var
+              url: `https://husker.vercel.app/api/og-image?name=${frontmatter.title}`,
+            },
+          ],
+        }}
       />
       {frontmatter?.seo?.faq && <FAQPageJsonLd mainEntity={frontmatter.seo.faq} />}
 
