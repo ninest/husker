@@ -7,20 +7,27 @@ import { NextSeo } from "next-seo";
 import { GetServerSideProps } from "next/types";
 
 export const getStaticPaths = async () => {
+  if (process.env.SKIP_BUILD) {
+    return { paths: [], fallback: "blocking" };
+  }
+
   const wikiPages = await getAllWikiPages();
 
   return {
     paths: wikiPages.map((wikiPage) => wikiPage.href),
-    fallback: false,
+    fallback: "blocking",
   };
 };
 
 export const getStaticProps: GetServerSideProps = async ({ params }) => {
+  console.log("Pre-rendering page");
+
   const pageId = params?.slug![0];
+  console.log(`pageId ${pageId}\n\n`);
   const url = `https://huskypedia.miraheze.org/w/api.php?action=parse&page=${pageId}&format=json`;
 
   const res = await fetch(url);
-  const data = await res.json();
+  const data = JSON.parse(await res.text());
 
   const title = data.parse.title;
   const html = data.parse.text["*"];
@@ -65,7 +72,7 @@ export const getStaticProps: GetServerSideProps = async ({ params }) => {
   const rightContent = content.querySelectorAll(".tright");
   rightContent.forEach((element) => element.remove());
 
-  return { props: { pageId, title, html: content.innerHTML } };
+  return { revalidate: 100, props: { pageId, title, html: content.innerHTML } };
 };
 
 interface WikiPageProps {
