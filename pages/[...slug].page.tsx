@@ -99,6 +99,11 @@ const ContentPage = ({
   // @ts-ignore
   const containsProse = !objectEmpty(renderedContent.props);
 
+  const editHref = {
+    pathname: "/contribute",
+    query: { name: frontmatter.title },
+  };
+
   return (
     <>
       <NextSeo
@@ -126,6 +131,8 @@ const ContentPage = ({
       />
 
       <div className="wrapper">
+        <QuickContribute editHref={editHref} />
+        <Spacer size="md" />
         {showLinkSet && (
           <>
             <LinkSet showFull links={links ?? []} pages={pages ?? []} />
@@ -153,10 +160,7 @@ const ContentPage = ({
         )}
 
         <QuickContribute
-          editHref={{
-            pathname: "/contribute",
-            query: { name: frontmatter.title },
-          }}
+          editHref={editHref}
           fixLinksHref={{
             pathname: "/contribute",
             query: { name: frontmatter.title, fixLinks: true },

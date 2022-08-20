@@ -17,7 +17,7 @@
     h2,
     h3,
     h4 {
-      @apply font-display text-gray-800;
+      @apply font-display text-dark dark:text-gray-lighter;
       // Extra spacing above and below headings
       @apply pt-0.5 pb-0.5;
     }

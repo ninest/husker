@@ -90,7 +90,7 @@ export const LinkButton = ({
               <div className="font-semibold text-sm text-gray dark:text-gray-light">
                 {link.name}
               </div>
-              {showDescription && (
+              {showDescription && link.description && (
                 <>
                   <Spacer size="xs"></Spacer>
                   <div className="text-gray-light dark:text-gray font-normal text-xs">
@@ -153,7 +153,7 @@ export const LinkButtonGrid = ({
             link={link}
             showDescription={showDescription}
             variant={link.variant}
-          ></LinkButton>
+          />
         );
       })}
     </div>

@@ -1,11 +1,21 @@
 import { ArticleHead } from "@/components/ArticleHead";
 import { QuickContribute } from "@/components/QuickContribute";
 import { Spacer } from "@/components/util/Spacer";
+import { getAllWikiPages } from "@/lib/wiki";
 import { JSDOM } from "jsdom";
 import { NextSeo } from "next-seo";
 import { GetServerSideProps } from "next/types";
 
-export const getServerSideProps: GetServerSideProps = async ({ params }) => {
+export const getStaticPaths = async () => {
+  const wikiPages = await getAllWikiPages();
+
+  return {
+    paths: wikiPages.map((wikiPage) => wikiPage.href),
+    fallback: false,
+  };
+};
+
+export const getStaticProps: GetServerSideProps = async ({ params }) => {
   const pageId = params?.slug![0];
   const url = `https://huskypedia.miraheze.org/w/api.php?action=parse&page=${pageId}&format=json`;
 
@@ -73,6 +83,9 @@ const WikiPage = ({ pageId, title, html }: WikiPageProps) => {
       <ArticleHead backButtonHref="/wiki" backButtonText="Wiki" title={title} />
 
       <article className="wrapper">
+        <QuickContribute editHref={editHref} />
+        <Spacer size="md" />
+
         <div className="prose" dangerouslySetInnerHTML={{ __html: html }}></div>
 
         <Spacer size="xl" />

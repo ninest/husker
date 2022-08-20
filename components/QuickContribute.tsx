@@ -3,7 +3,7 @@ import { SmartLinkProps } from "./SmartLink";
 
 interface QuickContributeProps {
   editHref: SmartLinkProps["href"];
-  fixLinksHref: SmartLinkProps["href"];
+  fixLinksHref?: SmartLinkProps["href"];
 }
 
 export const QuickContribute = ({ editHref, fixLinksHref }: QuickContributeProps) => {
@@ -13,9 +13,11 @@ export const QuickContribute = ({ editHref, fixLinksHref }: QuickContributeProps
         Edit
       </Button>
 
-      <Button variant="ghost" href={fixLinksHref} iconLeft="bug" size="xs">
-        Links broken?
-      </Button>
+      {fixLinksHref && (
+        <Button variant="ghost" href={fixLinksHref} iconLeft="bug" size="xs">
+          Links broken?
+        </Button>
+      )}
     </div>
   );
 };

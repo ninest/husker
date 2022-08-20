@@ -130,7 +130,18 @@ const CoursePage = ({ subject, course, frontmatter, content, errors }: CoursePag
 
   return (
     <>
-      <NextSeo title={shortName} description={`Information on ${shortName}: ${course.title}`} />
+      <NextSeo
+        title={shortName}
+        description={`Information on ${shortName}: ${course.title}`}
+        openGraph={{
+          images: [
+            {
+              // TODO: use env var
+              url: `https://husker.vercel.app/api/og-image?name=${shortName}: ${course.title}`,
+            },
+          ],
+        }}
+      />
 
       <ArticleHead
         backButtonHref={`/courses/${subject.code}`}
