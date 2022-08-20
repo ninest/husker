@@ -85,7 +85,18 @@ const WikiPage = ({ pageId, title, html }: WikiPageProps) => {
   const editHref = `https://huskypedia.miraheze.org/w/index.php?title=${pageId}&action=edit`;
   return (
     <>
-      <NextSeo title={title} description={title} />
+      <NextSeo
+        title={title}
+        description={`${title} from the Huskypedia wiki`}
+        openGraph={{
+          images: [
+            {
+              // TODO: use env var
+              url: `https://husker.vercel.app/api/og-image?name=${title}`,
+            },
+          ],
+        }}
+      />
 
       <ArticleHead backButtonHref="/wiki" backButtonText="Wiki" title={title} />
 

@@ -17,7 +17,18 @@ interface Props {
 const WikiIndexPage = ({ wikiPages }: Props) => {
   return (
     <>
-      <NextSeo title={"Wiki"} description={"Map of Huskypedia"} />
+      <NextSeo
+        title={"Huskypedia Wiki"}
+        description={"Map of Huskypedia"}
+        openGraph={{
+          images: [
+            {
+              // TODO: use env var
+              url: `https://husker.vercel.app/api/og-image?name=Wiki`,
+            },
+          ],
+        }}
+      />
 
       <ArticleHead backButtonHref="/" backButtonText="Links" title="Wiki" />
 
