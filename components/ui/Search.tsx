@@ -1,12 +1,15 @@
 import { LinkButton } from "@/components/link/LinkButton";
 import { search } from "@/lib/search";
 import { Link } from "@/types/category";
-import { useAutoAnimate } from "@formkit/auto-animate/react";
+import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 import { Icon } from "../Icon";
 import { Spacer } from "../util/Spacer";
 
 export const Search = () => {
+  const router = useRouter();
+  const { q } = router.query as { q: string };
+
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResults, setSearchResults] = useState<Link[]>([]);
   const [courseResults, setCourseResults] = useState<Link[]>([]);
@@ -22,6 +25,11 @@ export const Search = () => {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchTerm]);
+
+  /* If there's a valid string query, set the initial search term */
+  useEffect(() => {
+    if (q) setSearchTerm(q);
+  }, [router]);
 
   /* Listen for keyboard "/" to focus on search */
   const inputRef = useRef<HTMLInputElement>(null);
@@ -93,7 +101,7 @@ export const Search = () => {
         <div>
           {searchResults.length > 0 || courseResults.length > 0 ? (
             <>
-              <Spacer/>
+              <Spacer />
               <div className="px-md pb-sm text-sm text-gray">Search results</div>
               <div className="px-md flex flex-col space-y-sm">
                 {[...searchResults, ...courseResults].map((link) => {

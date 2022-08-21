@@ -7,6 +7,7 @@ import { contentMap } from "@/content/map";
 import { useSettings } from "@/hooks/settings";
 import { favoritesToLinks } from "@/lib/favorites";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
+import { SiteLinksSearchBoxJsonLd } from "next-seo";
 
 const IndexPage = () => {
   const {
@@ -19,6 +20,16 @@ const IndexPage = () => {
 
   return (
     <>
+      <SiteLinksSearchBoxJsonLd
+        url="https://husker.vercel.app"
+        potentialActions={[
+          {
+            target: "https://husker.vercel.app/?q",
+            queryInput: "search_term_string",
+          },
+        ]}
+      />
+
       <article className="mt-base wrapper">
         <MiniAlert title="Moving in or out?" href="/contribute">
           Share images of your dorm!
