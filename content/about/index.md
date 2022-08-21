@@ -1,6 +1,6 @@
 ---
 title: About
-description: About this website
+description: About this Husker Northeastern, how to use the website, where to get started, how to contribute, and vision
 lastUpdated: 2021-08-20
 ---
 
