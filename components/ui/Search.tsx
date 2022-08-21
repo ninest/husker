@@ -1,7 +1,6 @@
 import { LinkButton } from "@/components/link/LinkButton";
 import { search } from "@/lib/search";
 import { Link } from "@/types/category";
-import { useAutoAnimate } from "@formkit/auto-animate/react";
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 import { Icon } from "../Icon";
