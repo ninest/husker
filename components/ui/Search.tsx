@@ -19,8 +19,6 @@ export const Search = () => {
   characters are typed */
   const shouldSearch = () => searchTerm.length > 1;
   useEffect(() => {
-    console.log(q);
-
     if (shouldSearch()) {
       const { searchResults: sr, courseResults: cr } = search(searchTerm);
       setSearchResults(sr);
@@ -29,6 +27,7 @@ export const Search = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchTerm]);
 
+  /* If there's a valid string query, set the initial search term */
   useEffect(() => {
     if (q) setSearchTerm(q);
   }, [router]);

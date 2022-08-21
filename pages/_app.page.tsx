@@ -39,6 +39,13 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, [router]);
 
   const [showSidebar, setShowSidebar] = useState(false);
+
+  // On mobile, show the sidebar if there is a search query
+  const { q } = router.query as { q: string };
+  useEffect(() => {
+    if (q) setShowSidebar(true);
+  }, [router]);
+
   return (
     <>
       <DefaultSeo
@@ -50,8 +57,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       {/* Top padding to the toast on mobile so it doesn't block the navbar */}
       <Toaster position="top-right" containerClassName="mt-16 md:mt-0" />
 
-      {/* <ThemeProvider> */}
-      {/* <SettingsProvider> */}
       {!showSidebar && (
         <div className={clsx("block md:hidden sticky top-0 z-50")}>
           <MobileNavbar
