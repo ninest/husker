@@ -28,23 +28,18 @@ class MyDocument extends Document {
           <meta name="theme-color" content="#111111" />
 
           {/* Icons */}
-          <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="/icons/apple-touch-icon.png"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="/icons/favicon-32x32.png"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="/icons/favicon-16x16.png"
-          />
+          <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
+
+          {/* Goat counter */}
+          {process.env.NODE_ENV === "production" && (
+            <script
+              data-goatcounter="https://husker.goatcounter.com/count"
+              async
+              src="//gc.zgo.at/count.js"
+            ></script>
+          )}
         </Head>
 
         <body className="bg-light text-gray dark:bg-dark">
