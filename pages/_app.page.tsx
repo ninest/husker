@@ -26,7 +26,11 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, []);
 
   useEffect(() => {
-    if (process.env.NODE_ENV === "production" && typeof window !== "undefined") {
+    if (
+      process.env.NODE_ENV === "production" &&
+      typeof window !== "undefined" &&
+      "goatcounter" in window
+    ) {
       // @ts-ignore
       window.goatcounter.count({
         path: router.asPath,
