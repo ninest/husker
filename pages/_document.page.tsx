@@ -33,12 +33,15 @@ class MyDocument extends Document {
           <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
 
           {/* Goat counter */}
+
           {process.env.NODE_ENV === "production" && (
-            <script
-              data-goatcounter="https://husker.goatcounter.com/count"
-              async
-              src="//gc.zgo.at/count.js"
-            ></script>
+            <>
+              <script
+                data-goatcounter="https://husker.goatcounter.com/count"
+                async
+                src="//gc.zgo.at/count.js"
+              ></script>
+            </>
           )}
         </Head>
 

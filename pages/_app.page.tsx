@@ -8,13 +8,14 @@ import { withTRPC } from "@trpc/next";
 import clsx from "clsx";
 import { DefaultSeo } from "next-seo";
 import type { AppProps } from "next/app";
+import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { Toaster } from "react-hot-toast";
 import type { AppRouter } from "../server/router";
 import "../styles/globals.scss";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  // TODO: Set initial theme
+  const router = useRouter();
   const { settings } = useSettings();
   const { setTheme } = useTheme();
   useEffect(() => {
@@ -23,6 +24,15 @@ function MyApp({ Component, pageProps }: AppProps) {
     document.body.dataset.theme = currentTheme;
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  useEffect(() => {
+    if (process.env.NODE_ENV === "production" && typeof window !== "undefined") {
+      // @ts-ignore
+      window.goatcounter.count({
+        path: router.asPath,
+      });
+    }
+  }, [router]);
 
   const [showSidebar, setShowSidebar] = useState(false);
   return (
@@ -56,10 +66,7 @@ function MyApp({ Component, pageProps }: AppProps) {
               But it causes an issue with the sidebar
             */}
         <div
-          className={clsx(
-            { hidden: !showSidebar },
-            "md:block sticky z-50 top-0 bottom-0 left-0"
-          )}
+          className={clsx({ hidden: !showSidebar }, "md:block sticky z-50 top-0 bottom-0 left-0")}
         >
           <Sidebar onCloseClick={() => setShowSidebar(false)}></Sidebar>
         </div>
