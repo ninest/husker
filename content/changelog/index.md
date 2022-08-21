@@ -4,15 +4,26 @@ description: How has this site improved?
 lastUpdated: 2022-03-27
 ---
 
+This changelog only includes major updates. Check out the [GitHub repository](https://github.com/ninest/husker) to see a history of everything.
+
+## 2022-08-11
+
+- Add section information to [courses page](/courses/all)
+
+## 2022-08-01
+
+- Add [course and subjects page](/courses/all)
+
 ## 2022-07-20
 
 - Switch from MDX to Markdoc
 - Add more housing pages
-- Testing courses pages
+- Testing [courses pages](/courses/all)
 
 ## 2022-06-11
 
-- Add favorites!
+- Add [favorites](/favorites)
+- Add [programs page](/programs)
 
 ## 2022-04-28
 
