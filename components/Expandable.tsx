@@ -28,7 +28,7 @@ export const Expandable = ({
         "expandable transition-colors",
         {
           "bg-primary-lightest dark:bg-primary-darkest": variant == "primary",
-          "bg-gray-100 dark:bg-gray-900": variant == "gray",
+          "bg-gray-100 dark:bg-gray-900/70": variant == "gray",
           "bg-error-light": variant == "error",
         },
         "rounded-md"
@@ -40,7 +40,7 @@ export const Expandable = ({
           <>
             <Disclosure.Button
               className={clsx(
-                "flex justify-between items-center w-full p-base font-semibold  rounded-lg transition-colors",
+                "flex justify-between items-center w-full p-base md:p-sm font-semibold  rounded-lg transition-colors",
                 {
                   "hover:bg-primary-lighter dark:hover:bg-primary-darker": variant == "primary",
                   "hover:bg-gray-200 dark:hover:bg-gray-800": variant == "gray",
@@ -67,13 +67,13 @@ export const Expandable = ({
                 className={clsx("text-gray-light", { "rotate-180": open })}
               ></Icon>
             </Disclosure.Button>
-            <Disclosure.Panel
-              className={clsx("px-base pdt-sm pb-base", {
+            <div
+              className={clsx({ block: open, hidden: !open }, "px-base md:x-sm pt-xs pb-base", {
                 prose: containsProse,
               })}
             >
               {children}
-            </Disclosure.Panel>
+            </div>
           </>
         )}
       </Disclosure>
