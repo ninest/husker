@@ -20,9 +20,35 @@ If you would like to contribute through Discord, join the [Husker Discord Server
 
 If you know how to code, you may also open an issue or pull request on the [GitHub repository](https://github.com/ninest/huskinfo).
 
+## Site Map
+
+This is a **very rough** map of Husker:
+
+- [Services](/services)
+  - [Free stuff](/services/free)
+  - [Apps](/services/apps)
+- [Courses](/courses)
+  - [All Courses](/courses/all)
+- [Husky Card](/husky-card)
+  - [Dining info](/husky-card/dining)
+- [Financial](/financial)
+- [Housing](/house)
+  - [Dorms info](/house/dorms)
+  - [Dorms list](/house#dorms)
+- [Social](/social)
+  - [Group chats](/social/chats)
+  - [Instagram pages](/social/instagram)
+- [Resources](/resources)
+  - [Download books](/resources/download-books)
+- [Miscellaneous](/miscellaneous)
+  - [Contacts](/contacts)
+- [Programs](/programs)
+  - [NUin program](/programs/nuin)
+  - [NU accelerate](/programs/nuaccelerate)
+
 ## Storage
 
-All content is saved in markdown files in the [GitHub repository](https://github.com/ninest/husker). While keeping it this way does make it easy for me to own my data, update content, and add rich elements into content, it does make it difficult for other users to freely edit content.
+All content is saved in markdown files in the [GitHub repository](https://github.com/ninest/husker). While keeping it this way does make it easy to own the data, update content, and add rich elements into content, it does make it difficult for other users to freely edit content.
 
 ## Reddit posts
 

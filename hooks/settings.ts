@@ -81,7 +81,7 @@ export const useFavorites = () => {
   };
 
   const isFavorited = (favorite: Pick<Favorite, "href">) =>
-    !!settings.favorites.find(
+    !!settings?.favorites?.find(
       (existingFavorite) => existingFavorite.href === favorite.href
     );
 
