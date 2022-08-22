@@ -1,5 +1,6 @@
 import { descriptionToList } from "@/lib/courses";
 import { Course } from "@/types/courses";
+import clsx from "clsx";
 import { useState } from "react";
 import { NUPathDisplay } from "./NUPathDisplay";
 import { RequisiteDisplay } from "./RequisiteDisplay";
@@ -24,26 +25,29 @@ export const CourseInfo = ({ course }: CourseInfoProps) => {
             className="text-gray text-sm"
             onClick={() => setShowFullDescription(!showFullDescription)}
           >
-            {showFullDescription ? (
-              <ul className="list-outside list-disc ml-lg">
-                {descriptionList.map((sentence, index) => (
-                  <li key={index}>{sentence}</li>
-                ))}
-              </ul>
-            ) : (
-              <>
-                {descriptionList.slice(0, 1).map((sentence, index) => (
-                  <span key={index}>{sentence}</span>
-                ))}
-                {/* Only show "show all" if the description has more than 1 line */}
-                {descriptionList.length > 1 && (
-                  <span>
-                    {" "}
-                    <i>Show more.</i>
-                  </span>
-                )}
-              </>
-            )}
+            <ul
+              className={clsx(
+                { open: showFullDescription, hidden: !showFullDescription },
+                "list-outside list-disc ml-lg"
+              )}
+            >
+              {descriptionList.map((sentence, index) => (
+                <li key={index}>{sentence}</li>
+              ))}
+            </ul>
+
+            <div className={clsx({ hidden: showFullDescription, open: !showFullDescription })}>
+              {descriptionList.slice(0, 1).map((sentence, index) => (
+                <span key={index}>{sentence}</span>
+              ))}
+              {/* Only show "show all" if the description has more than 1 line */}
+              {descriptionList.length > 1 && (
+                <span>
+                  {" "}
+                  <i>Show more.</i>
+                </span>
+              )}
+            </div>
           </div>
         </>
       )}
