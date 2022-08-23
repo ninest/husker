@@ -53,7 +53,7 @@ const SubjectPage = ({ subject, courses }: SubjectPageProps) => {
     <>
       <NextSeo
         title={subject.description}
-        description={`Courses list of ${subject.description}`}
+        description={`List of ${subject.description} from Northeastern University`}
       />
 
       <ArticleHead

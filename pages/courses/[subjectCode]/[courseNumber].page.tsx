@@ -132,7 +132,7 @@ const CoursePage = ({ subject, course, frontmatter, content, errors }: CoursePag
     <>
       <NextSeo
         title={shortName}
-        description={`Information on ${shortName}: ${course.title}`}
+        description={`Information on ${shortName}: ${course.title} including textbooks, resources, advise, and FAQs`}
         openGraph={{
           images: [
             {
