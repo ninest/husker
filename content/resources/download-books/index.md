@@ -1,6 +1,6 @@
 ---
 title: Download eBooks
-description: Websites to download books for free
+description: Websites to download or pirates books and textbooks for free
 lastUpdated: 2021-08-19
 toc: false
 ---

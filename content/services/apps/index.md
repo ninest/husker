@@ -1,6 +1,6 @@
 ---
 title: Apps
-description: Useful apps to download
+description: Useful iOS and Android apps to download as a Northeastern University student
 lastUpdated: 2021-08-18
 ---
 

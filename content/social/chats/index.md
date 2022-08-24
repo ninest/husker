@@ -1,6 +1,6 @@
 ---
 title: Group Chats
-description: Communities to join
+description: Communities and chat groups to join as a Northeastern University student including Patio, Discord, and GroupMe
 lastUpdated: 2021-08-19
 ---
 

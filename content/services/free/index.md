@@ -1,6 +1,6 @@
 ---
 title: Free Stuff
-description: Free or discounted things to get as a college student
+description: Free or discounted things to get as a Northeastern University student including entertainment, transport, attractions, subscriptions, and more
 lastUpdated: 2021-08-27
 ---
 

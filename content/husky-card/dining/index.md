@@ -1,6 +1,6 @@
 ---
 title: Dining Information
-description: Information related to dining and meals
+description: Information related to dining and meals at Northeastern University including meal plans, restaurants, and meal exchange
 lastUpdated: 2021-09-08
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Instagram
-description: Pages to follow
+description: Instagram pages to follow as a Northeastern student including official and student-run pages
 lastUpdated: 2021-08-19
 ---
 
