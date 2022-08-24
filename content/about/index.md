@@ -45,6 +45,7 @@ This is a **very rough** map of Husker:
 - [Programs](/programs)
   - [NUin program](/programs/nuin)
   - [NU accelerate](/programs/nuaccelerate)
+- [Gym](/gym)
 
 ## Storage
 

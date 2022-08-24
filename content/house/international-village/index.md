@@ -3,7 +3,6 @@ title: International Village
 description: Information on International Village
 createdAt: 2022-01-04
 updatedAt: 2022-01-04
-
 pageType: dorm
 ---
 
@@ -25,13 +24,6 @@ pageType: dorm
 
 ## Images
 
-{% expandable icon="image" title="Double" %}
-{% grid className="grid-cols-1 md:grid-cols-2" %}
-![Double](/housing/international-village/double1.jpg)
-
-{% /grid %}
-{% /expandable %}
-
 {% expandable icon="image" title="Single" %}
 {% grid className="grid-cols-1 md:grid-cols-3 lg:grid-cols-2" %}
 ![Single](/housing/international-village/single2.png)
@@ -41,6 +33,27 @@ pageType: dorm
 ![Single](/housing/international-village/single1.jpg)
 
 {% /grid %}
+{% /expandable %}
+
+{% expandable icon="image" title="Double" %}
+{% grid className="grid-cols-1 md:grid-cols-2" %}
+![Double](/housing/international-village/double1.jpg)
+
+{% /grid %}
+{% /expandable %}
+
+{% expandable icon="image" title="Forced triple" %}
+{% grid className="grid-cols-1 md:grid-cols-2" %}
+![Forced triple](/housing/international-village/forced-triple-4.jpeg)
+
+![Forced triple](/housing/international-village/forced-triple-1.jpeg)
+
+![Forced triple](/housing/international-village/forced-triple-3.jpeg)
+
+![Forced triple](/housing/international-village/forced-triple-5.jpeg)
+
+{% /grid %}
+
 {% /expandable %}
 
 {% expandable icon="image" title="Bathroom" %}
@@ -55,6 +68,8 @@ pageType: dorm
 {% youtube videoId="xNI5kKrLsyw" / %}
 {% youtube videoId="5XV07tNnICw" / %}
 {% youtube videoId="yd7RlBdA4ac" / %}
+{% youtube videoId="ujpvDkuiMTM" / %}
+{% youtube videoId="vsXSb6vUolE" / %}
 {% /grid %}
 {% /expandable %}
 

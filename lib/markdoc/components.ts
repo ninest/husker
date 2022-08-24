@@ -1,5 +1,6 @@
 import { Block } from "@/components/Block";
 import { ButtonSet } from "@/components/button/ButtonSet";
+import { IFrame } from "@/components/embed/IFrame";
 import { Video } from "@/components/embed/Video";
 import { YoutubeEmbed } from "@/components/embed/YoutubeEmbed";
 import { Expandable } from "@/components/Expandable";
@@ -32,4 +33,5 @@ export const markdocComponents = {
   ButtonSet,
   SmartLink,
   MarkdocLinkButtonGrid,
+  IFrame
 };

@@ -453,6 +453,7 @@ export const pages = [
   "/house/dorms",
   "/programs/nuin",
   "/programs/nuaccelerate",
+  "/gym",
 
   ...dorms.map((dorm): string => `/house/${dorm.slug}`),
 ];
