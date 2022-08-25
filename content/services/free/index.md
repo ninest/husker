@@ -33,7 +33,7 @@ https://www.instagram.com/p/CL46HQoFswY/
 
 - {% icon id="husky" /%} [Wall Street Journal](https://wsj.com/northeastern)
 - [Washington Post](https://subscribe.washingtonpost.com/acqlite/edu-offer/): $5 per month (50% discount).
-- [New York Times](https://www.nytimes.com/subscription/education/student?campaignId=6WYWY)
+- [New York Times](https://nytimesineducation.com/access-nyt/northeastern-university-boston-ma/): Free access to NYT. If you already pay, cancel the subscription by emailing [customercare@nytimes.com](mailto:customercare@nytimes.com) or calling 800-591-9233
 
 ## Shopping
 
