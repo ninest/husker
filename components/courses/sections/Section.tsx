@@ -19,7 +19,7 @@ export const Section = ({ sectionInfo }: SectionProps) => {
     section?.seats.waitlist.available !== 0 && section?.seats.waitlist.capacity !== 0;
 
   return (
-    <>
+    <div id={sectionInfo.crn}>
       {section && !isLoading ? (
         <>
           <div className="p-base rounded-lg bg-gray-100 dark:bg-gray-900 space-y-sm">
@@ -92,6 +92,6 @@ export const Section = ({ sectionInfo }: SectionProps) => {
           </Empty>
         </>
       )}
-    </>
+    </div>
   );
 };

@@ -5,6 +5,8 @@ import { pluralize } from "@/lib/string";
 import { Course, Term } from "@/types/courses";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 import { Disclosure } from "@headlessui/react";
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 import { Section } from "./Section";
 
 interface SectionsGroupProps {
@@ -21,9 +23,13 @@ export const SectionsGroup = ({ term, course }: SectionsGroupProps) => {
 
   const [parent] = useAutoAnimate<HTMLDivElement>({ duration: 100 });
 
+  const router = useRouter();
+  const crn = router.asPath.split("#")[1];
+  const containsCrn = course.sections.some((section) => section.crn == crn);
+
   return (
     <section key={term.code} ref={parent} className="relative">
-      <Disclosure>
+      <Disclosure defaultOpen={containsCrn}>
         {({ open }) => (
           <>
             <Disclosure.Button className="w-full flex items-center justify-between bg-light dark:bg-dark p-xs border dark:border-gray-800 rounded-lg sticky top-20 md:top-5">
