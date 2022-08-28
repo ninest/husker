@@ -4,6 +4,7 @@ import { useSection } from "@/hooks/sections";
 import { stringTimeToTime } from "@/lib/courses";
 import { SectionInfo } from "@/types/courses";
 import clsx from "clsx";
+import { useRouter } from "next/router";
 import { DayTable } from "./DayTable";
 
 interface SectionProps {
@@ -18,11 +19,19 @@ export const Section = ({ sectionInfo }: SectionProps) => {
   const showWaitlist =
     section?.seats.waitlist.available !== 0 && section?.seats.waitlist.capacity !== 0;
 
+  const router = useRouter();
+  const crn = router.asPath.split("#")[1];
+  const highlighted = crn === sectionInfo.crn;
+
   return (
     <div id={sectionInfo.crn}>
       {section && !isLoading ? (
         <>
-          <div className="p-base rounded-lg bg-gray-100 dark:bg-gray-900 space-y-sm">
+          <div
+            className={clsx("p-base rounded-lg bg-gray-100 dark:bg-gray-900 space-y-sm", {
+              "border-2 border-primary": highlighted,
+            })}
+          >
             <div className="flex items-center justify-between">
               <h4 className="font-medium">
                 {section.faculty.length > 0 ? (
@@ -84,7 +93,14 @@ export const Section = ({ sectionInfo }: SectionProps) => {
         </>
       ) : (
         <>
-          <Empty className="p-base rounded-lg flex items-center justify-center font-medium text-gray h-32">
+          <Empty
+            className={clsx(
+              "p-base rounded-lg flex items-center justify-center font-medium text-gray h-32",
+              {
+                "border-primary dark:border-primary": highlighted,
+              }
+            )}
+          >
             <div className="flex items-center space-x-xs">
               <span>Loading section</span>
               <span className="text-sm font-mono">{sectionInfo.crn}</span>
