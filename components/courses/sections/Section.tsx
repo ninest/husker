@@ -27,7 +27,9 @@ export const Section = ({ sectionInfo }: SectionProps) => {
   const highlighted = crn === sectionInfo.crn;
 
   return (
-    <div id={sectionInfo.crn}>
+    <div>
+      {/* Ancrhor */}
+      <a id={sectionInfo.crn} className="invisible block relative -top-40" />
       {section && !isLoading ? (
         <>
           <div
