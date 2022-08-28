@@ -26,11 +26,17 @@ pageType: dorm
 
 ## Images
 
-{% expandable  icon="image" title="Standard double" %}
+{% expandable icon="image" title="Standard double" %}
 {% grid %}
 ![Melvin hall double](/housing/melvin-hall/double1.png)
 
 ![Melvin hall double](/housing/melvin-hall/double2.png)
+{% /grid %}
+{% /expandable %}
+
+{% expandable icon="video" title="Standard double" %}
+{% grid className="grid-cols-1 md:grid-cols-2" %}
+{% video src="/housing/melvin-hall/double.mp4" /%}
 {% /grid %}
 {% /expandable %}
 

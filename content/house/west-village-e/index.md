@@ -38,6 +38,8 @@ pageType: dorm
 ![Studio single](/housing/west-village-e/studio-single1.png)
 
 ![Studio single](/housing/west-village-e/studio-single2.png)
+
+![Studio single kitchen](/housing/west-village-e/single-kitchen1.jpeg)
 {% /grid %}
 {% /expandable %}
 
