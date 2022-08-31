@@ -1,9 +1,13 @@
+import { Button } from "@/components/button/Button";
 import { Empty } from "@/components/Empty";
 import { Spacer } from "@/components/util/Spacer";
 import { useSection } from "@/hooks/sections";
 import { stringTimeToTime } from "@/lib/courses";
+import { shareLink } from "@/lib/share";
 import { SectionInfo } from "@/types/courses";
 import clsx from "clsx";
+import { useRouter } from "next/router";
+import { FaShareAlt } from "react-icons/fa";
 import { DayTable } from "./DayTable";
 
 interface SectionProps {
@@ -18,11 +22,21 @@ export const Section = ({ sectionInfo }: SectionProps) => {
   const showWaitlist =
     section?.seats.waitlist.available !== 0 && section?.seats.waitlist.capacity !== 0;
 
+  const router = useRouter();
+  const crn = router.asPath.split("#")[1];
+  const highlighted = crn === sectionInfo.crn;
+
   return (
-    <>
+    <div>
+      {/* Ancrhor */}
+      <a id={sectionInfo.crn} className="invisible block relative -top-40" />
       {section && !isLoading ? (
         <>
-          <div className="p-base rounded-lg bg-gray-100 dark:bg-gray-900 space-y-sm">
+          <div
+            className={clsx("p-base rounded-lg bg-gray-100 dark:bg-gray-900 space-y-sm", {
+              "border-2 border-primary": highlighted,
+            })}
+          >
             <div className="flex items-center justify-between">
               <h4 className="font-medium">
                 {section.faculty.length > 0 ? (
@@ -56,35 +70,59 @@ export const Section = ({ sectionInfo }: SectionProps) => {
               </div>
             </div>
 
-            <div className="pt-0.5 flex space-x-base">
-              <div className="flex items-center space-x-1 text-lg font-mono font-bold">
-                <span
-                  className={clsx({
-                    "text-yellow-600":
-                      section.seats.available >= 5 && section.seats.available < 10,
-                    "text-red-600": section.seats.available < 5,
-                  })}
-                >
-                  {section.seats.available}
-                </span>
-                <span>/</span>
-                <span>{section.seats.total}</span>
+            <div className="pt-0.5 flex items-center justify-between">
+              <div className="flex space-x-base">
+                <div className="flex items-center space-x-1 text-lg font-mono font-bold">
+                  <span
+                    className={clsx({
+                      "text-yellow-600":
+                        section.seats.available >= 5 && section.seats.available < 10,
+                      "text-red-600": section.seats.available < 5,
+                    })}
+                  >
+                    {section.seats.available}
+                  </span>
+                  <span>/</span>
+                  <span>{section.seats.total}</span>
+                </div>
+
+                {showWaitlist && (
+                  <div className="flex items-center space-x-1 text-sm">
+                    <span>{section.seats.waitlist.available}</span>
+                    <span>/</span>
+                    <span>{section.seats.waitlist.capacity}</span>
+                    <span>waitlist</span>
+                  </div>
+                )}
               </div>
 
-              {showWaitlist && (
-                <div className="flex items-center space-x-1 text-sm">
-                  <span>{section.seats.waitlist.available}</span>
-                  <span>/</span>
-                  <span>{section.seats.waitlist.capacity}</span>
-                  <span>waitlist</span>
-                </div>
-              )}
+              <div>
+                <Button
+                  variant="ghost"
+                  size="xs"
+                  iconLeft="sharealt"
+                  onClick={async () => {
+                    await shareLink({
+                      text: `CRN ${section.crn}`,
+                      url: window.location.href + `#${section.crn}`,
+                    });
+                    router.push(`#${section.crn}`);
+                  }}
+                />
+              </div>
             </div>
           </div>
         </>
       ) : (
         <>
-          <Empty className="p-base rounded-lg flex items-center justify-center font-medium text-gray h-32">
+          <Empty
+            className={clsx(
+              "p-base rounded-lg flex items-center justify-center font-medium text-gray h-32",
+              {
+                "border-primary dark:border-primary": highlighted,
+              }
+            )}
+          >
             <div className="flex items-center space-x-xs">
               <span>Loading section</span>
               <span className="text-sm font-mono">{sectionInfo.crn}</span>
@@ -92,6 +130,6 @@ export const Section = ({ sectionInfo }: SectionProps) => {
           </Empty>
         </>
       )}
-    </>
+    </div>
   );
 };
