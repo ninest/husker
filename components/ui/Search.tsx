@@ -29,6 +29,7 @@ export const Search = () => {
   /* If there's a valid string query, set the initial search term */
   useEffect(() => {
     if (q) setSearchTerm(q);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router]);
 
   /* Listen for keyboard "/" to focus on search */

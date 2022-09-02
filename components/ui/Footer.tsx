@@ -1,5 +1,4 @@
 import { IconId } from "@/types/icon";
-import { Button } from "@/components/button/Button";
 import { Icon } from "../Icon";
 import { SmartLink } from "../SmartLink";
 
@@ -30,10 +29,9 @@ export const Footer = () => {
     <div className="wrapper py-md flex md:items-center flex-col space-y-base md:space-y-0 md:flex-row md:space-x-lg">
       {links.map((link) => {
         return (
-          <div>
+          <div key={link.href}>
             <SmartLink
               href={link.href}
-              key={link.href}
               className="text-sm flex items-center space-x-base -m-xs p-xs hover:bg-gray-50 dark:hover:bg-gray-900 rounded"
             >
               <Icon id={link.icon as IconId} />
