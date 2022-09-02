@@ -15,11 +15,11 @@ export const Footer = () => {
       icon: "outlineheart",
       href: "/contribute",
     },
-    {
-      title: "Contact",
-      icon: "phone",
-      href: "/contact",
-    },
+    // {
+    //   title: "Status",
+    //   icon: "exclamationtriangle",
+    //   href: "https://northeastern.statuspage.io/",
+    // },
     {
       title: "Discord",
       icon: "discord",
@@ -27,19 +27,17 @@ export const Footer = () => {
     },
   ];
   return (
-    <div className="wrapper py-md flex md:items-center flex-col space-y-base md:space-y-0 md:flex-row md:space-x-lg">
+    <div className="wrapper py-md flex items-center space-x-lg">
       {links.map((link) => {
         return (
-          <div>
-            <SmartLink
-              href={link.href}
-              key={link.href}
-              className="text-sm flex items-center space-x-base -m-xs p-xs hover:bg-gray-50 dark:hover:bg-gray-900 rounded"
-            >
-              <Icon id={link.icon as IconId} />
-              <div className="text-gray font-semibold text-sm">{link.title}</div>
-            </SmartLink>
-          </div>
+          <SmartLink
+            href={link.href}
+            key={link.href}
+            className="text-sm flex items-center space-x-base -m-xs p-xs hover:bg-gray-50 dark:hover:bg-gray-900 rounded"
+          >
+            <Icon id={link.icon as IconId} />
+            <div className="text-gray font-semibold text-sm">{link.title}</div>
+          </SmartLink>
         );
       })}
     </div>

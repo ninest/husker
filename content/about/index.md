@@ -20,8 +20,6 @@ If you would like to contribute through Discord, join the [Husker Discord Server
 
 If you know how to code, you may also open an issue or pull request on the [GitHub repository](https://github.com/ninest/huskinfo).
 
-Also see the [contact page](/contact).
-
 ## Site Map
 
 This is a **very rough** map of Husker:
@@ -47,9 +45,7 @@ This is a **very rough** map of Husker:
 - [Programs](/programs)
   - [NUin program](/programs/nuin)
   - [NU accelerate](/programs/nuaccelerate)
-- [Contacts](/contacts)
 - [Gym](/gym)
-- [Contact us](/contact)
 
 ## Storage
 
