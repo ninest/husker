@@ -12,7 +12,7 @@ export interface Link {
   href: string;
   description: string;
   icon?: string;
-  variant?: "default" | "highlighted" | "warning";
+  variant?: "default" | "warning";
 }
 export interface LinkWithCategory extends Link {
   categoryTitle: string;

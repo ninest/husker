@@ -80,7 +80,12 @@ export const contentMap: Category[] = [
         description: "View COVID test results",
         icon: "virus",
       },
-
+      {
+        name: "I'm Here",
+        href: "https://nu.outsystemsenterprise.com/studentinfo/IAmHere",
+        description: "Confirm that you are indeed here",
+        icon: "hand",
+      },
       {
         name: "Apps",
         description: "A list of Northeastern-related apps to download",
@@ -443,6 +448,7 @@ if (isStartOfSemester()) {
 
 export const pages = [
   "/about",
+  "/contact",
   "/services/apps",
   "/services/free",
   "/husky-card/dining",

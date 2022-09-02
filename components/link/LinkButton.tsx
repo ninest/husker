@@ -12,8 +12,7 @@ import { showToast } from "../util/Toast";
 
 interface LinkButtonProps {
   link: Link;
-
-  variant?: "default" | "highlighted" | "warning";
+  variant?: "default" | "warning";
   showDescription?: boolean;
 }
 
@@ -74,7 +73,7 @@ export const LinkButton = ({
       className={clsx("rounded-md transition-colors", {
         ["bg-gray-50 hover:bg-gray-100 border border-gray-100 dark:border-gray-800 dark:bg-gray-900 dark:hover:bg-gray-800 dark:shadow"]:
           variant == "default",
-        "bg-gradient-to-r from-warning-lightest to-warning-lighterf": variant == "warning",
+        "bg-gradient-to-r from-warning-lightest to-warning-lighter": variant == "warning",
       })}
     >
       <ContextMenu.Root>
