@@ -44,6 +44,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   const { q } = router.query as { q: string };
   useEffect(() => {
     if (q) setShowSidebar(true);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router]);
 
   return (
