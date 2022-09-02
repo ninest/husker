@@ -443,6 +443,7 @@ if (isStartOfSemester()) {
 
 export const pages = [
   "/about",
+  "/contact",
   "/services/apps",
   "/services/free",
   "/husky-card/dining",
