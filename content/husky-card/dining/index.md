@@ -60,9 +60,7 @@ At Stetson West, you can use your unused meal swipes to get "grocery food items"
 
 ## Off-campus vendors
 
-These restaurants/shops accept dining dollars and husky dollars. Click on the below vendors to locate them on Google Maps.
-
-{% offCampusDining / %}
+[Off-campus vendors list](https://www.northeastern.edu/huskycard/vendors/off-campus-vendors/)
 
 ## On-campus vendors
 
