@@ -1,10 +1,12 @@
 import { Button } from "@/components/button/Button";
 import { Empty } from "@/components/Empty";
 import { Spacer } from "@/components/util/Spacer";
+import { showToast } from "@/components/util/Toast";
 import { useSection } from "@/hooks/sections";
 import { stringTimeToTime } from "@/lib/courses";
 import { shareLink } from "@/lib/share";
 import { SectionInfo } from "@/types/courses";
+import { copy } from "@/utils/copy";
 import clsx from "clsx";
 import { useRouter } from "next/router";
 import { FaShareAlt } from "react-icons/fa";
@@ -26,9 +28,14 @@ export const Section = ({ sectionInfo }: SectionProps) => {
   const crn = router.asPath.split("#")[1];
   const highlighted = crn === sectionInfo.crn;
 
+  const copyCRN = () => {
+    copy(section?.crn ?? "", `Course CRN`);
+    showToast({ text: "Copied CRN" });
+  };
+
   return (
     <div>
-      {/* Ancrhor */}
+      {/* Anchor */}
       <a id={sectionInfo.crn} className="invisible block relative -top-40" />
       {section && !isLoading ? (
         <>
@@ -45,7 +52,9 @@ export const Section = ({ sectionInfo }: SectionProps) => {
                   <i>Professors to be announced</i>
                 )}
               </h4>
-              <p className="font-mono text-sm">{section.crn}</p>
+              <p className="font-mono text-sm" onClick={copyCRN}>
+                {section.crn}
+              </p>
             </div>
             <div className="flex flex-col space-y-xs items-start md:items-center md:space-y-0 md:flex-row md:justify-between">
               <div className="flex items-center space-x-base">
