@@ -117,7 +117,7 @@ const ContactPage = () => {
                   <SmartLink href="https://imgur.com/upload" className="underline">
                     Upload images on Imgur
                   </SmartLink>
-                  .
+                  . Make sure the link never expires!
                 </>
               )
             }
