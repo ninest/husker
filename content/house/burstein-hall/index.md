@@ -60,3 +60,9 @@ pageType: dorm
 ![Bathroom](/housing/burstein-hall/bathroom1.jpg)
 {% /grid %}
 {% /expandable %}
+
+{% expandable icon="image" title="Dorm common area" %}
+![Dorm common](/housing/burstein-hall/dorm-common-1.jpeg)
+{% grid %}
+{% /grid %}
+{% /expandable %}

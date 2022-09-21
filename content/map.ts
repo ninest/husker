@@ -101,6 +101,11 @@ export const contentMap: Category[] = [
         description: "Enrollment and degree",
         href: "https://registrar.northeastern.edu/article/student-enrollment-degree-verification/",
       },
+      {
+        name: "CRN2Cal",
+        description: "Convert your course schedule to a calendar",
+        href: "https://crn2cal.vercel.app/",
+      },
     ],
   },
 
@@ -183,6 +188,11 @@ export const contentMap: Category[] = [
         href: "https://ratemycourses.io/NEU",
         description: "Course ratings",
         icon: "starhalf",
+      },
+      {
+        name: "CRN2Cal",
+        description: "Convert your course schedule to a calendar",
+        href: "https://crn2cal.vercel.app/",
       },
     ],
   },

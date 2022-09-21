@@ -14,5 +14,6 @@ pageType: dorm
 {% youtube videoId="QMInG6S9OE0" / %}
 {% youtube videoId="5qQtFco5uH0" / %}
 {% youtube videoId="N4ukmUFR_bo" / %}
+{% youtube videoId="-gtvuEaTWa4" / %}
 {% /grid %}
 {% /expandable %}
