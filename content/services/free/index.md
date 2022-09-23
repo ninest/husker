@@ -50,7 +50,6 @@ https://www.instagram.com/p/CL46HQoFswY/
 - {% icon id="husky" /%} [Bluebikes](https://www.northeastern.edu/commutingservices/bicycling/discounted-blue-bike-sharing-program/): Use the program code `HUSKY`.
 - {% icon id="husky" /%} [Zipcar](https://www.zipcar.com/universities/northeastern-university)
 - [AVIS Car Rentals](https://www.avis.com/en/association/A672012): Up to 25% off a rental. Link already includes code (`A672012`).
-- [Dollar Flight Club](https://dollarflightclub.com/student-and-teachers-discount/)
 
 ## Video, music, and streaming
 
