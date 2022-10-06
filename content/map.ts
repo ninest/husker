@@ -143,7 +143,7 @@ export const contentMap: Category[] = [
       },
       {
         name: "Degree Audit",
-        href: "https://prod-web.neu.edu/wasapp/DARSStudent/RequestAuditServlet",
+        href: "https://neu.uachieve.com/selfservice",
         description: "View undergraduate degree audit",
         icon: "invoice",
       },
