@@ -74,6 +74,7 @@ import {
   FaMouse,
   FaShare,
   FaShareAlt,
+  FaCar,
 } from "react-icons/fa";
 
 export interface IconProps extends HTMLAttributes<HTMLDivElement> {
@@ -231,6 +232,8 @@ export const Icon = ({ id = "filealt", ...props }: IconProps) => {
       return <FaMouse className={className} />;
     case "sharealt":
       return <FaShareAlt className={className} />;
+    case "car":
+      return <FaCar className={className} />;
     default:
       return <FaRegFileAlt className={className} />;
   }

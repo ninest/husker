@@ -425,6 +425,12 @@ export const contentMap: Category[] = [
         description: "Connect to VPN and access more services",
         icon: "locked",
       },
+      {
+        name: "Parking",
+        href: "https://www.masparc.com/wheretopark/",
+        description: "Where to park?",
+        icon: "car",
+      },
     ],
   },
   {
