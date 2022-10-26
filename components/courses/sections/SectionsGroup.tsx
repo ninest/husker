@@ -15,17 +15,21 @@ interface SectionsGroupProps {
 }
 
 export const SectionsGroup = ({ term, course }: SectionsGroupProps) => {
-  const results = useSections(course.sections);
-  const totalSections = results.length;
-  const totalSectionsWithSeats = results.filter(
-    (result) => result.data?.seats.available ?? 0 >= 1
-  ).length;
+  const results = useSections(course.sections.filter((section) => section.term === term.code));
+
+  const totalSections = results.filter((result) => result.data?.term === term.code).length;
+  const totalSectionsWithSeats = results
+    .filter((result) => result.data?.term === term.code)
+    .filter((result) => result.data?.seats.available ?? 0 >= 1).length;
 
   const [parent] = useAutoAnimate<HTMLDivElement>({ duration: 100 });
 
   const router = useRouter();
   const crn = router.asPath.split("#")[1];
   const containsCrn = course.sections.some((section) => section.crn == crn);
+
+  // const sections = course.sections.filter((section) => section.term === term.code);
+  // console.log();
 
   return (
     <section key={term.code} ref={parent} className="relative">
@@ -50,9 +54,11 @@ export const SectionsGroup = ({ term, course }: SectionsGroupProps) => {
               <div>
                 <Spacer size="sm" />
                 <div className="space-y-sm">
-                  {course.sections?.map((sectionInfo, index) => (
-                    <Section key={index} sectionInfo={sectionInfo} />
-                  ))}
+                  {course.sections
+                    ?.filter((course) => course.term === term.code)
+                    .map((sectionInfo, index) => (
+                      <Section key={index} sectionInfo={sectionInfo} />
+                    ))}
                 </div>
               </div>
             )}

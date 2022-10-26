@@ -33,6 +33,12 @@
       { "subject": "ARAB", "number": "1301" },
       { "subject": "ARAB", "number": "1101" },
       "Or",
+      { "subject": "ARAB", "number": "1301" },
+      { "subject": "ARAB", "number": "1101" },
+      "Or",
+      { "subject": "ARAB", "number": "1301" },
+      { "subject": "ARAB", "number": "1101" },
+      "Or",
       { "subject": "ARAB", "number": "1301" }
     ]
   },
@@ -50,6 +56,12 @@
     "description": "Emphasizes further vocabulary building. Offers students an opportunity to master the fine points of grammar through written composition, prepared oral reports, and reading and discussion from current standard Arabic materials.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "ARAB", "number": "1102" },
+      "Or",
+      { "subject": "ARAB", "number": "1302" },
+      { "subject": "ARAB", "number": "1102" },
+      "Or",
+      { "subject": "ARAB", "number": "1302" },
       { "subject": "ARAB", "number": "1102" },
       "Or",
       { "subject": "ARAB", "number": "1302" },

@@ -18,6 +18,12 @@
       { "subject": "MUSC", "number": "1201" },
       { "subject": "MUSI", "number": "1203" },
       "Or",
+      { "subject": "MUSC", "number": "1201" },
+      { "subject": "MUSI", "number": "1203" },
+      "Or",
+      { "subject": "MUSC", "number": "1201" },
+      { "subject": "MUSI", "number": "1203" },
+      "Or",
       { "subject": "MUSC", "number": "1201" }
     ]
   },
@@ -192,6 +198,8 @@
     "coreqs": [],
     "prereqs": [
       { "subject": "MUSI", "number": "2331" },
+      { "subject": "MUSI", "number": "2331" },
+      { "subject": "MUSI", "number": "2331" },
       { "subject": "MUSI", "number": "2331" }
     ]
   },
@@ -257,6 +265,8 @@
     "description": "Presents a capstone course for music industry students. Offers advanced students the opportunity to explore contemporary events and issues in the music industry. Allows students to reflect upon, distill, and apply knowledge accumulated in prior courses and previous experiential learning. This reflection and application occurs through substantial writing assignments and classroom discussion. Fulfills the college's experiential education requirement for music industry majors.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "MUSI", "number": "1230" },
+      { "subject": "MUSI", "number": "1230" },
       { "subject": "MUSI", "number": "1230" },
       { "subject": "MUSI", "number": "1230" }
     ]

@@ -45,6 +45,12 @@
       { "subject": "LING", "number": "1150" },
       { "subject": "LING", "number": "1449" },
       "Or",
+      { "subject": "LING", "number": "1150" },
+      { "subject": "LING", "number": "1449" },
+      "Or",
+      { "subject": "LING", "number": "1150" },
+      { "subject": "LING", "number": "1449" },
+      "Or",
       { "subject": "LING", "number": "1150" }
     ]
   },

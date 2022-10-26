@@ -59,6 +59,12 @@
       { "subject": "JPNS", "number": "1302" },
       { "subject": "JPNS", "number": "1102" },
       "Or",
+      { "subject": "JPNS", "number": "1302" },
+      { "subject": "JPNS", "number": "1102" },
+      "Or",
+      { "subject": "JPNS", "number": "1302" },
+      { "subject": "JPNS", "number": "1102" },
+      "Or",
       { "subject": "JPNS", "number": "1302" }
     ]
   },
@@ -76,6 +82,12 @@
     "description": "Builds on JPNS 2101 and focuses on further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through written composition, prepared oral reports, and reading and discussion from contemporary Japanese materials.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "JPNS", "number": "2101" },
+      "Or",
+      { "subject": "JPNS", "number": "2301" },
+      { "subject": "JPNS", "number": "2101" },
+      "Or",
+      { "subject": "JPNS", "number": "2301" },
       { "subject": "JPNS", "number": "2101" },
       "Or",
       { "subject": "JPNS", "number": "2301" },

@@ -31,6 +31,12 @@
     "prereqs": [
       { "subject": "PHDL", "number": "7600" },
       { "subject": "PHDL", "number": "7600" },
+      { "subject": "PHDL", "number": "7600" },
+      { "subject": "PHDL", "number": "7600" },
+      { "subject": "PHDL", "number": "7600" },
+      { "subject": "PHDL", "number": "7600" },
+      { "subject": "PHDL", "number": "7600" },
+      { "subject": "PHDL", "number": "7600" },
       { "subject": "PHDL", "number": "7600" }
     ]
   },
@@ -48,6 +54,8 @@
     "description": "Continues PHDL 7660. Offers an authentic experience in an authentic setting to develop and present a plan for the demonstration of an organizational challenge and produce a written documentary report on the project to the satisfaction of an advising committee. Requires engagement and training with a sponsoring organization to improve a process and assess opportunity or a proposal solution that is of significant value to the organization and demonstrates a measurable impact while enhancing the PhD student’s PhD education and intellectual agility while fostering leadership development. Requires acceptance into the Experiential PhD Leadership Certificate program.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "PHDL", "number": "7660" },
+      { "subject": "PHDL", "number": "7660" },
       { "subject": "PHDL", "number": "7660" },
       { "subject": "PHDL", "number": "7660" }
     ]

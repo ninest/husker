@@ -15,6 +15,10 @@
       { "subject": "GSND", "number": "5111" },
       { "subject": "GSND", "number": "5112" },
       { "subject": "GSND", "number": "5111" },
+      { "subject": "GSND", "number": "5112" },
+      { "subject": "GSND", "number": "5111" },
+      { "subject": "GSND", "number": "5112" },
+      { "subject": "GSND", "number": "5111" },
       { "subject": "GSND", "number": "5112" }
     ],
     "prereqs": []
@@ -34,6 +38,12 @@
     ],
     "description": "Offers students an opportunity to discuss and analyze selected games, applying concepts from GSND 5110. Exposes students to a varied mix of AAA and indie titles and demonstrates how to analyze and appreciate them. Open to seniors; restricted to students in selected colleges.",
     "coreqs": [
+      { "subject": "GSND", "number": "5110" },
+      { "subject": "GSND", "number": "5110" },
+      { "subject": "GSND", "number": "5110" },
+      { "subject": "GSND", "number": "5110" },
+      { "subject": "GSND", "number": "5110" },
+      { "subject": "GSND", "number": "5110" },
       { "subject": "GSND", "number": "5110" },
       { "subject": "GSND", "number": "5110" },
       { "subject": "GSND", "number": "5110" }
@@ -83,6 +93,12 @@
     ],
     "description": "Focuses on methods and methodologies from human-computer interaction (HCI) and their use in different applications, including apps, web  applications, games, and virtual worlds. Covers the basics of user-oriented evaluation, associated topics, and usability methods. Introduces the design process, usability heuristics, HCI paradigms, task models, and cognitive models. Examines quantitative and qualitative analysis of data. Offers students an opportunity to delve into experimental design, institutional review board  approvals, ethics, research subject recruitment, and experiment implementations. Applies concepts through concrete projects, case examples, and exercises. Expects students to be running assignments continually and trying out different evaluation methods and methodologies.",
     "coreqs": [
+      { "subject": "GSND", "number": "5131" },
+      { "subject": "GSND", "number": "5131" },
+      { "subject": "GSND", "number": "5131" },
+      { "subject": "GSND", "number": "5131" },
+      { "subject": "GSND", "number": "5131" },
+      { "subject": "GSND", "number": "5131" },
       { "subject": "GSND", "number": "5131" },
       { "subject": "GSND", "number": "5131" },
       { "subject": "GSND", "number": "5131" }
@@ -153,9 +169,29 @@
     "description": "Focuses on topics of player psychology—cognition; memory; emotions; attention; and game-focused theories such as engagement, fun, user experience, player-need-satisfaction model, and flow. The development cycle of any game relies on the understanding of the players, the target market of the game product. Covers game usability engineering and game-specific evaluation methods, such as play testing, rapid iterative testing and evaluation (RITE), play-heuristic evaluation, and retrospective play reviews. Offers students an opportunity to learn how to analyze qualitative and quantitative data and to apply parametric and nonparametric statistical evaluation methods, qualitative data coding and analysis, and descriptive statistics. Requires students to apply visualization techniques of data and reporting.",
     "coreqs": [
       { "subject": "GSND", "number": "6331" },
+      { "subject": "GSND", "number": "6331" },
+      { "subject": "GSND", "number": "6331" },
       { "subject": "GSND", "number": "6331" }
     ],
     "prereqs": [
+      { "subject": "GSND", "number": "5130" },
+      "Or",
+      { "subject": "GSND", "number": "5130" },
+      "Or",
+      "(",
+      { "subject": "CS", "number": "5340" },
+      "And",
+      { "subject": "CS", "number": "6350" },
+      ")",
+      { "subject": "GSND", "number": "5130" },
+      "Or",
+      { "subject": "GSND", "number": "5130" },
+      "Or",
+      "(",
+      { "subject": "CS", "number": "5340" },
+      "And",
+      { "subject": "CS", "number": "6350" },
+      ")",
       { "subject": "GSND", "number": "5130" },
       "Or",
       { "subject": "GSND", "number": "5130" },

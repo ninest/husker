@@ -19,8 +19,14 @@ interface SectionProps {
 export const Section = ({ sectionInfo }: SectionProps) => {
   const { section, isLoading } = useSection(sectionInfo);
 
+  console.log();
+  console.log(sectionInfo);
+  console.log(section);
+
   const showTime = section?.startTime && section.endTime;
-  const showCampus = section?.campus.description !== "Boston";
+  const showCampus = section?.campus?.description
+    ? section?.campus.description !== "Boston"
+    : false;
   const showWaitlist =
     section?.seats.waitlist.available !== 0 && section?.seats.waitlist.capacity !== 0;
 
@@ -46,7 +52,7 @@ export const Section = ({ sectionInfo }: SectionProps) => {
           >
             <div className="flex items-center justify-between">
               <h4 className="font-medium">
-                {section.faculty.length > 0 ? (
+                {section.faculty && section.faculty.length > 0 ? (
                   section?.faculty.map((professor) => professor.name).join("; ")
                 ) : (
                   <i>Professors to be announced</i>
@@ -58,7 +64,7 @@ export const Section = ({ sectionInfo }: SectionProps) => {
             </div>
             <div className="flex flex-col space-y-xs items-start md:items-center md:space-y-0 md:flex-row md:justify-between">
               <div className="flex items-center space-x-base">
-                <DayTable days={section.days} />
+                {section.days && <DayTable days={section.days} />}
 
                 {showTime && (
                   <div className="font-mono text-sm">
@@ -72,7 +78,11 @@ export const Section = ({ sectionInfo }: SectionProps) => {
                   "Online"
                 ) : (
                   <>
-                    {section.building.description} {section.building.room}
+                    {section.building && (
+                      <>
+                        {section.building.description} {section.building.room}
+                      </>
+                    )}
                     {showCampus && <>, {section.campus.description}</>}
                   </>
                 )}

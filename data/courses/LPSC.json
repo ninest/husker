@@ -57,6 +57,8 @@
     "coreqs": [],
     "prereqs": [
       { "subject": "LPSC", "number": "1101" },
+      { "subject": "LPSC", "number": "1101" },
+      { "subject": "LPSC", "number": "1101" },
       { "subject": "LPSC", "number": "1101" }
     ]
   },

@@ -48,6 +48,12 @@
       { "subject": "HBRW", "number": "1302" },
       { "subject": "HBRW", "number": "1102" },
       "Or",
+      { "subject": "HBRW", "number": "1302" },
+      { "subject": "HBRW", "number": "1102" },
+      "Or",
+      { "subject": "HBRW", "number": "1302" },
+      { "subject": "HBRW", "number": "1102" },
+      "Or",
       { "subject": "HBRW", "number": "1302" }
     ]
   }

@@ -141,6 +141,8 @@
     "coreqs": [],
     "prereqs": [
       { "subject": "GAME", "number": "1110" },
+      { "subject": "GAME", "number": "1110" },
+      { "subject": "GAME", "number": "1110" },
       { "subject": "GAME", "number": "1110" }
     ]
   },
@@ -220,6 +222,12 @@
     "description": "Offers students an opportunity to develop a fully functional game using the iterative design skills they develop in GAME 3700 and GAME 3800. Students take on individual roles in a large-group project, with the goal of creating a complete game from preproduction through implementation and testing. Focuses on developing, playtesting, and iteratively refining a multilevel game, in addition to class discussions and exercises oriented toward professional and portfolio development. This class is an opportunity to complete, polish, and potentially publish that project. Integrated into the capstone are opportunities for the students to gain exposure for their games and to practice their professional development skills.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "GAME", "number": "3700" },
+      "And",
+      { "subject": "GAME", "number": "3800" },
+      { "subject": "GAME", "number": "3700" },
+      "And",
+      { "subject": "GAME", "number": "3800" },
       { "subject": "GAME", "number": "3700" },
       "And",
       { "subject": "GAME", "number": "3800" },

@@ -67,6 +67,18 @@
       { "subject": "PHSC", "number": "2301" },
       { "subject": "PHSC", "number": "2301" },
       { "subject": "PHSC", "number": "2301" },
+      { "subject": "PHSC", "number": "2301" },
+      { "subject": "PHSC", "number": "2301" },
+      { "subject": "PHSC", "number": "2301" },
+      { "subject": "PHSC", "number": "2301" },
+      { "subject": "PHSC", "number": "2301" },
+      { "subject": "PHSC", "number": "2301" },
+      { "subject": "PHSC", "number": "2301" },
+      { "subject": "PHSC", "number": "2301" },
+      { "subject": "PHSC", "number": "2301" },
+      { "subject": "PHSC", "number": "2301" },
+      { "subject": "PHSC", "number": "2301" },
+      { "subject": "PHSC", "number": "2301" },
       { "subject": "PHSC", "number": "2301" }
     ],
     "prereqs": []
@@ -575,6 +587,8 @@
     "coreqs": [],
     "prereqs": [
       { "subject": "PHSC", "number": "8940" },
+      { "subject": "PHSC", "number": "8940" },
+      { "subject": "PHSC", "number": "8940" },
       { "subject": "PHSC", "number": "8940" }
     ]
   },
@@ -622,6 +636,12 @@
     "description": "Offers continuation of PhD dissertation research.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "PHSC", "number": "9991" },
+      "Or",
+      "Dissertation Check",
+      { "subject": "PHSC", "number": "9991" },
+      "Or",
+      "Dissertation Check",
       { "subject": "PHSC", "number": "9991" },
       "Or",
       "Dissertation Check",

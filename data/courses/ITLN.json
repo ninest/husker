@@ -35,6 +35,12 @@
       { "subject": "ITLN", "number": "1301" },
       { "subject": "ITLN", "number": "1101" },
       "Or",
+      { "subject": "ITLN", "number": "1301" },
+      { "subject": "ITLN", "number": "1101" },
+      "Or",
+      { "subject": "ITLN", "number": "1301" },
+      { "subject": "ITLN", "number": "1101" },
+      "Or",
       { "subject": "ITLN", "number": "1301" }
     ]
   },
@@ -52,6 +58,12 @@
     "description": "Emphasizes further vocabulary building and mastery of fine points of grammar through written composition, prepared oral reports, and reading and discussion from current Italian periodicals.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "ITLN", "number": "1102" },
+      "Or",
+      { "subject": "ITLN", "number": "1302" },
+      { "subject": "ITLN", "number": "1102" },
+      "Or",
+      { "subject": "ITLN", "number": "1302" },
       { "subject": "ITLN", "number": "1102" },
       "Or",
       { "subject": "ITLN", "number": "1302" },

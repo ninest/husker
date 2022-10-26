@@ -698,6 +698,8 @@
     "coreqs": [],
     "prereqs": [
       { "subject": "CAEP", "number": "6399" },
+      { "subject": "CAEP", "number": "6399" },
+      { "subject": "CAEP", "number": "6399" },
       { "subject": "CAEP", "number": "6399" }
     ]
   },
@@ -861,6 +863,16 @@
     "description": "Continues CAEP 7742. May be taken by students who elect to do additional fieldwork to develop better, or deeper, skills or new skill areas. Requires students to practice in the clinical setting a minimum of twenty hours per week. May be repeated once for up to 2 total credits.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "CAEP", "number": "7742" },
+      "Or",
+      { "subject": "CAEP", "number": "7742" },
+      "Or",
+      { "subject": "CAEP", "number": "6355" },
+      { "subject": "CAEP", "number": "7742" },
+      "Or",
+      { "subject": "CAEP", "number": "7742" },
+      "Or",
+      { "subject": "CAEP", "number": "6355" },
       { "subject": "CAEP", "number": "7742" },
       "Or",
       { "subject": "CAEP", "number": "7742" },
@@ -1154,6 +1166,8 @@
     "coreqs": [],
     "prereqs": [
       { "subject": "CAEP", "number": "9000" },
+      { "subject": "CAEP", "number": "9000" },
+      { "subject": "CAEP", "number": "9000" },
       { "subject": "CAEP", "number": "9000" }
     ]
   },
@@ -1189,6 +1203,12 @@
     "description": "Supports the continued development of the dissertation.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "CAEP", "number": "9991" },
+      "Or",
+      "Dissertation Check",
+      { "subject": "CAEP", "number": "9991" },
+      "Or",
+      "Dissertation Check",
       { "subject": "CAEP", "number": "9991" },
       "Or",
       "Dissertation Check",

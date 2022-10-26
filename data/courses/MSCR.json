@@ -127,6 +127,8 @@
     "coreqs": [],
     "prereqs": [
       { "subject": "MSCR", "number": "1220" },
+      { "subject": "MSCR", "number": "1220" },
+      { "subject": "MSCR", "number": "1220" },
       { "subject": "MSCR", "number": "1220" }
     ]
   },

@@ -450,7 +450,7 @@
     ],
     "description": "Offers students an opportunity to obtain foundational skills needed to work with frequently referred adults with acquired neurologic cognitive-communicative impairments across clinical settings. Speech, language, and cognitive-communication disorders are typical consequences of acquired central and peripheral nervous system adult impairments. Emphasizes the anatomy, etiology, neurology, and physiology of different types of cognitive-communicative impairments, characteristics of these, and intervention approaches (diagnostic and therapeutic). Addresses prevention, outcome, efficacy, and service-delivery considerations.",
     "coreqs": [],
-    "prereqs": ["Or", "Or"]
+    "prereqs": ["Or", "Or", "Or", "Or"]
   },
   {
     "subject": "SLPA",
@@ -510,7 +510,7 @@
     ],
     "description": "Offers supervised clinical experience in speech-language management pathology for advanced graduate students, placing them in settings such as the Northeastern University Speech, Language, and Hearing Center, medical settings, educational settings, and rehabilitation centers. Uses practical experience to emphasize problem-solving techniques relevant to case management and continues to integrate theory and practice. Requires students to be available a minimum of twenty hours per week during the academic year. May be repeated without limit.",
     "coreqs": [],
-    "prereqs": ["Or", "Or", "Or"]
+    "prereqs": ["Or", "Or", "Or", "Or", "Or", "Or", "Or", "Or", "Or"]
   },
   {
     "subject": "SLPA",

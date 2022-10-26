@@ -58,6 +58,12 @@
     "prereqs": [
       { "subject": "MUST", "number": "1220" },
       { "subject": "MUST", "number": "1220" },
+      { "subject": "MUST", "number": "1220" },
+      { "subject": "MUST", "number": "1220" },
+      { "subject": "MUST", "number": "1220" },
+      { "subject": "MUST", "number": "1220" },
+      { "subject": "MUST", "number": "1220" },
+      { "subject": "MUST", "number": "1220" },
       { "subject": "MUST", "number": "1220" }
     ]
   },

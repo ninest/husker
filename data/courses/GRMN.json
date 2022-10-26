@@ -52,6 +52,16 @@
       "Or",
       { "subject": "GRMN", "number": "1302" },
       "Or",
+      "German Placement Test",
+      { "subject": "GRMN", "number": "1102" },
+      "Or",
+      { "subject": "GRMN", "number": "1302" },
+      "Or",
+      "German Placement Test",
+      { "subject": "GRMN", "number": "1102" },
+      "Or",
+      { "subject": "GRMN", "number": "1302" },
+      "Or",
       "German Placement Test"
     ]
   },

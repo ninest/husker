@@ -122,6 +122,8 @@
     "description": "Offered in conjunction with HIST 1201. Introduces incoming history freshmen to the history major in the context of other disciplines within the college and University. Offers students an opportunity to learn and to practice methods and conventions of research and historical writing.",
     "coreqs": [
       { "subject": "HIST", "number": "1201" },
+      { "subject": "HIST", "number": "1201" },
+      { "subject": "HIST", "number": "1201" },
       { "subject": "HIST", "number": "1201" }
     ],
     "prereqs": []
@@ -140,6 +142,8 @@
     ],
     "description": "Provides an introduction to historical methods, research, writing, and argument in which all students produce a substantial research project that passes through at least two revisions, and that is presented publicly to other members of the colloquium.",
     "coreqs": [
+      { "subject": "HIST", "number": "1200" },
+      { "subject": "HIST", "number": "1200" },
       { "subject": "HIST", "number": "1200" },
       { "subject": "HIST", "number": "1200" }
     ],
@@ -413,9 +417,13 @@
     "description": "Introduces history majors to advanced techniques of historical practice in research and writing. Offers students an opportunity to conduct original research and write an original research paper. Seminar themes vary; students should check with the Department of History for a list of each year's seminar offerings. May be repeated without limit.",
     "coreqs": [
       { "subject": "HIST", "number": "2302" },
+      { "subject": "HIST", "number": "2302" },
+      { "subject": "HIST", "number": "2302" },
       { "subject": "HIST", "number": "2302" }
     ],
     "prereqs": [
+      { "subject": "HIST", "number": "1201" },
+      { "subject": "HIST", "number": "1201" },
       { "subject": "HIST", "number": "1201" },
       { "subject": "HIST", "number": "1201" }
     ]
@@ -434,9 +442,13 @@
     "description": "Covers learning and practicing methods and conventions of historical writing for publication. Adjuncted to a Seminar in History, which fulfills the Advanced Writing in the Disciplines requirement.",
     "coreqs": [
       { "subject": "HIST", "number": "2301" },
+      { "subject": "HIST", "number": "2301" },
+      { "subject": "HIST", "number": "2301" },
       { "subject": "HIST", "number": "2301" }
     ],
     "prereqs": [
+      { "subject": "HIST", "number": "1201" },
+      { "subject": "HIST", "number": "1201" },
       { "subject": "HIST", "number": "1201" },
       { "subject": "HIST", "number": "1201" }
     ]
@@ -597,6 +609,18 @@
     "description": "Offers students an opportunity to make use of advanced techniques of historical methodology to conduct original research and write a major, original research paper as the culmination of their work toward the history degree. This is a capstone research and writing seminar for history majors. Not open to students who are receiving credit for HIST 4911, HIST 4912, HIST 4970, or HIST 4971.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "HIST", "number": "2301" },
+      { "subject": "HIST", "number": "2301" },
+      { "subject": "HIST", "number": "2301" },
+      { "subject": "HIST", "number": "2301" },
+      { "subject": "HIST", "number": "2301" },
+      { "subject": "HIST", "number": "2301" },
+      { "subject": "HIST", "number": "2301" },
+      { "subject": "HIST", "number": "2301" },
+      { "subject": "HIST", "number": "2301" },
+      { "subject": "HIST", "number": "2301" },
+      { "subject": "HIST", "number": "2301" },
+      { "subject": "HIST", "number": "2301" },
       { "subject": "HIST", "number": "2301" },
       { "subject": "HIST", "number": "2301" },
       { "subject": "HIST", "number": "2301" },
