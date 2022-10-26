@@ -9,11 +9,25 @@
     "sections": [
       { "term": "202310", "crn": "19680" },
       { "term": "202310", "crn": "19681" },
-      { "term": "202310", "crn": "19682" }
+      { "term": "202310", "crn": "19682" },
+      { "term": "202330", "crn": "34745" },
+      { "term": "202330", "crn": "37363" },
+      { "term": "202330", "crn": "39022" },
+      { "term": "202330", "crn": "39277" }
     ],
     "description": "Provides students with instruction in the use of a computer for composing original music. Topics include MIDI sequencing, digital audio processing, and sound synthesis. Students use music hardware and software to complete a variety of projects.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "MUST",
+    "number": "2102",
+    "title": "Composing with Digital Technologies",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [{ "term": "202330", "crn": "36558" }],
+    "description": "Offers students an opportunity to create compositions using a digital audio workstation (DAW) as the principal tool. Standard Western music notation may be used in examples of certain techniques but will not be necessary for the creation of work in the course. Explores various composition topics such as periodicity, form, texture, timbre, and contour in the digital domain. Consists of a number of short composition and listening assignments culminating in the creation of compositions of moderate duration."
   },
   {
     "subject": "MUST",
@@ -36,11 +50,36 @@
     "nuPath": ["AD", "FQ"],
     "sections": [
       { "term": "202310", "crn": "13150" },
-      { "term": "202310", "crn": "20871" }
+      { "term": "202310", "crn": "20871" },
+      { "term": "202330", "crn": "34648" }
     ],
     "description": "Focuses on the creation and implementation of standard time-domain audio synthesis routines and effects, as well as standard frequency-domain processing routines. MaxMSP is the principal programming environment used in the course. Begins with programming protocols, as well as data structures and storage, and list processing in the MaxMSP environment before moving on to standard synthesis and audio processing routines. Examines how the techniques learned in the course can be applied using a variety of synthesis and spectral processing software applications that are standard in the field.",
     "coreqs": [],
-    "prereqs": [{ "subject": "MUST", "number": "1220" }]
+    "prereqs": [
+      { "subject": "MUST", "number": "1220" },
+      { "subject": "MUST", "number": "1220" },
+      { "subject": "MUST", "number": "1220" }
+    ]
+  },
+  {
+    "subject": "MUST",
+    "number": "3540",
+    "title": "NewInterfacesForMusicalExprsn",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "39023" }],
+    "description": "Explores various fields, skills and considerations when designing novel musical interfaces, including design, fabrication, basic hardware & software, network communication, affordances, mapping, ergonomics, best practices for instrument augmentation, human-computer interactions, etc.  Explores designing musical systems for various populations (including professional musicians, children, people with various abilities, participating audiences, and non-human animals) and designed for various sites (concert venues, installation, outdoors, etc.)  Using an Arduino-based platform and Max, students will prototype using microcontrollers to create novel interactive musical interactions and interfaces."
+  },
+  {
+    "subject": "MUST",
+    "number": "3601",
+    "title": "Digital Audio Signal Processing",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "36559" }],
+    "description": "Introduces students to digital signal processing as it relates to offline or non-real-time audio processing. Covers fundamental engineering concepts and mathematics. Examines implementation details of common digital audio processing routines using the C programming language, the industry standard for audio software engineering."
   },
   {
     "subject": "MUST",
@@ -56,6 +95,16 @@
   },
   {
     "subject": "MUST",
+    "number": "3603",
+    "title": "Embedded Audio Programming",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI", "ND"],
+    "sections": [{ "term": "202330", "crn": "39024" }],
+    "description": "Explores embedded computers and their employment for the design of interactive audio applications. Studies how to program audio applications that take advantage of the unique features of these systems, which is accomplished by transferring the coding skills acquired on general-purpose computers to the languages and the programming rationales of embedded hardware. Primarily covers low-latency, real-time audio synthesis/processing, but also offers an in-depth introduction to physical computing, sensors, and simple electronics. Offers students an opportunity to gain experience with the full design-development-test cycle of software and hardware interactive audio technologies through a final project."
+  },
+  {
+    "subject": "MUST",
     "number": "4610",
     "title": "Composition for Electronic Instruments",
     "scheduleType": "Lecture",
@@ -65,5 +114,15 @@
     "description": "Instructs students in the composition of original music for electronic and computer-based instrumentation. Students create music to accompany video, animation, and film, and study suitable methods for creating original music for the Internet. Also surveys examples of music written for similar contexts.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "MUST",
+    "number": "4611",
+    "title": "Music Technology Capstone/Senior Recital",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["CE", "WI"],
+    "sections": [{ "term": "202330", "crn": "32704" }],
+    "description": "Instructs students in the preparation and presentation of their senior recital. Fulfills the college’s experiential education requirement for music technology concentrators."
   }
 ]

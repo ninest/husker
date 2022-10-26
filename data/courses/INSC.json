@@ -20,11 +20,36 @@
       { "term": "202310", "crn": "16271" },
       { "term": "202310", "crn": "16275" },
       { "term": "202310", "crn": "16277" },
-      { "term": "202310", "crn": "17427" }
+      { "term": "202310", "crn": "17427" },
+      { "term": "202330", "crn": "32032" },
+      { "term": "202330", "crn": "31275" },
+      { "term": "202330", "crn": "31480" },
+      { "term": "202330", "crn": "32656" },
+      { "term": "202330", "crn": "32984" },
+      { "term": "202330", "crn": "33757" },
+      { "term": "202330", "crn": "33758" },
+      { "term": "202330", "crn": "36819" },
+      { "term": "202330", "crn": "36917" },
+      { "term": "202330", "crn": "36820" }
     ],
-    "description": "Introduces first-year students with majors in the College of Science to the liberal arts in general. Offers students an opportunity to become familiar with their college and majors; to develop the academic skills necessary to succeed (analytical ability and critical thinking); to become grounded in the culture and values of the University community; and to develop interpersonal skills&amp;#8212;in short, presents students with the skills needed to become a successful university student.",
+    "description": "Introduces first-year students with majors in the College of Science to the liberal arts in general. Offers students an opportunity to become familiar with their college and majors; to develop the academic skills necessary to succeed (analytical ability and critical thinking); to become grounded in the culture and values of the University community; and to develop interpersonal skills—in short, presents students with the skills needed to become a successful university student.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "INSC",
+    "number": "1200",
+    "title": "First-Year Research Project",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "34070" },
+      { "term": "202330", "crn": "34071" },
+      { "term": "202330", "crn": "34072" },
+      { "term": "202330", "crn": "35271" }
+    ],
+    "description": "Offers an opportunity for students to engage in supervised, project-based, group research."
   },
   {
     "subject": "INSC",
@@ -33,7 +58,10 @@
     "scheduleType": "Seminar",
     "credits": 0,
     "nuPath": [],
-    "sections": [{ "term": "202260", "crn": "61530" }],
+    "sections": [
+      { "term": "202260", "crn": "61530" },
+      { "term": "202330", "crn": "37640" }
+    ],
     "description": "Offers students an enhanced applied project setting in which to apply their curricular learning. Working with a partner sponsor, students refine an applied research topic, perform research, develop recommendations that are shared with the partner sponsor, and create a plan for implementing their recommendations. Curriculum supports students as they develop key business communication skills, project and client management skills, and frameworks for business analysis. Offers students an opportunity to learn from sponsor feedback, review lessons learned, and incorporate suggestions to improve and further hone their career development and professional plan. Career development opportunities through skill-building workshops, panels, and interview preparation are available. Partner-student interactions, including a culminating project presentation, allow partners to assess student potential for co-op, internship, or other employment opportunities with the partner.",
     "coreqs": [],
     "prereqs": []

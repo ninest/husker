@@ -1,12 +1,25 @@
 [
   {
     "subject": "PPUA",
+    "number": "5100",
+    "title": "Climate and Development",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [{ "term": "202330", "crn": "33985" }],
+    "description": "Serves as an introduction to climate change and development processes in developing countries. Exposes students to key debates in the fields of climate change and international development. Offers students an opportunity to learn about the approaches to climate adaptation, the relationship between adaptation and development, and concepts of resilience and transformation. Using a comparative case study approach, explores the importance of the local context; the intersections of politics, economics, and culture; ecology and human-environment relationships; and the role (and challenges) of finance and development assistance. Climate impacts threaten to reverse many of the development gains of the last century, and the most vulnerable are likely to be the most impacted by climate change. At the same time, opportunities exist to ensure climate-compatible development pathways. Cross-listed with INTL 5100."
+  },
+  {
+    "subject": "PPUA",
     "number": "5225",
     "title": "The Open Classroom: Public Debates on Public Policy",
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "19698" }],
+    "sections": [
+      { "term": "202310", "crn": "19698" },
+      { "term": "202330", "crn": "35871" }
+    ],
     "description": "Offers special topics built around a series of public debates on selected issues of public policy. May be repeated without limit.",
     "coreqs": [],
     "prereqs": []
@@ -18,10 +31,26 @@
     "scheduleType": "Recitation/Discussion",
     "credits": 0,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "13983" }],
+    "sections": [
+      { "term": "202310", "crn": "13983" },
+      { "term": "202330", "crn": "33614" }
+    ],
     "description": "Accompanies PPUA 5225. Provides a small-group discussion format. May be repeated without limit.",
-    "coreqs": [{ "subject": "PPUA", "number": "5225" }],
+    "coreqs": [
+      { "subject": "PPUA", "number": "5225" },
+      { "subject": "PPUA", "number": "5225" }
+    ],
     "prereqs": []
+  },
+  {
+    "subject": "PPUA",
+    "number": "5230",
+    "title": "Housing Policy",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "35872" }],
+    "description": "Examines the economic, social, and legal underpinnings of housing policy in the United States across a variety of topics, including housing finance and production, public and affordable housing, home ownership, and fair housing. Housing is both an essential human need and a critical sector of the U.S. economy. Presents the complicated and evolving roles of all of those involved in housing policy, including federal, state, and local government, and the private and profit sectors. Guest speakers provide real-world insights into current housing policy challenges."
   },
   {
     "subject": "PPUA",
@@ -55,19 +84,7 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "19699" }],
-    "description": "Examines the role of the participant as a fundamental aspect of most urban planning processes. Studies the range of strategies that contemporary urban planners employ to ensure buy-in from a project&rsquo;s stakeholders. Utilizes historical precedents to locate gaps between the &ldquo;plan then present&rdquo; model used in many planning processes and &quot;co-design&quot; processes that seek to redefine the role of the &ldquo;technical expert.&rdquo; Offers students an opportunity to develop a toolkit of engagement methods from varied models of participatory planning processes. Engages in project-based work that enlists these methods. Assesses the efficacy of these methods when identifying the right stakeholders and when determining when/how to bring stakeholder participation into a planning process.",
-    "coreqs": [],
-    "prereqs": []
-  },
-  {
-    "subject": "PPUA",
-    "number": "5236",
-    "title": "Introduction to Real Estate Development for Urban Policy Makers",
-    "scheduleType": "Lecture",
-    "credits": 4,
-    "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "19918" }],
-    "description": "Introduces the basic skills and knowledge of real estate development used within public-private partnerships to address policy and planning issues. Through a series of problem sets, offers students an opportunity to learn basic real estate finance and computation, including the fundamentals of pro forma modeling. Covers the entire real estate development process, from preliminary market and financial analysis through to construction management and property management using case studies and guest lecturers. Explores how public-private partnerships shape the outcomes of urban redevelopment within specific topics that may include affordable housing provision, brownfield redevelopment, transit-oriented development, sustainable urban development, and others.",
+    "description": "Examines the role of the participant as a fundamental aspect of most urban planning processes. Studies the range of strategies that contemporary urban planners employ to ensure buy-in from a project’s stakeholders. Utilizes historical precedents to locate gaps between the “plan then present” model used in many planning processes and \"co-design\" processes that seek to redefine the role of the “technical expert.” Offers students an opportunity to develop a toolkit of engagement methods from varied models of participatory planning processes. Engages in project-based work that enlists these methods. Assesses the efficacy of these methods when identifying the right stakeholders and when determining when/how to bring stakeholder participation into a planning process.",
     "coreqs": [],
     "prereqs": []
   },
@@ -94,6 +111,16 @@
     "description": "Examines the broad challenges that confront metropolitan areas-defined as including the center city, its immediate suburbs, and the broader periphery-including economic development, land use, transportation, housing, and the provision of basic services. Considers the array of tools available to policymakers, including planning, tax policy, pooling of services, and zoning.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "PPUA",
+    "number": "5240",
+    "title": "Health Policy and Politics",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "35874" }],
+    "description": "Examines contemporary healthcare policies, programs, and politics. Discusses the structure of the healthcare system and its costs, efforts to develop universal health coverage, the spread of managed care, and related topics."
   },
   {
     "subject": "PPUA",
@@ -126,7 +153,10 @@
     "scheduleType": "Seminar",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202240", "crn": "40657" }],
+    "sections": [
+      { "term": "202240", "crn": "40657" },
+      { "term": "202330", "crn": "35875" }
+    ],
     "description": "Introduces methods and tools of ecological economics, an interdisciplinary field that draws on theories, concepts, and tools from the physical, life, and social sciences; unites the relevant aspects of different disciplines; and generates new knowledge that can serve as a basis for investment and policymaking that is responsive to biophysical constraints on economic processes. Illustrates the use of ecological economics with empirical applications. Offers students an opportunity to apply ecological economics to a variety of environmental issues.",
     "coreqs": [],
     "prereqs": []
@@ -150,7 +180,10 @@
     "scheduleType": "Seminar",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "12863" }],
+    "sections": [
+      { "term": "202310", "crn": "12863" },
+      { "term": "202330", "crn": "33148" }
+    ],
     "description": "Investigates the city and its spatial, social, and economic dynamics through the lens of data and visual analytics. Utilizes large public datasets to develop knowledge about visual methods for analyzing data and communicating results. Offers students an opportunity to develop a critical understanding of data structures, collection methodologies, and their inherent biases.",
     "coreqs": [],
     "prereqs": []
@@ -165,7 +198,9 @@
     "sections": [
       { "term": "202310", "crn": "12053" },
       { "term": "202310", "crn": "17641" },
-      { "term": "202310", "crn": "20897" }
+      { "term": "202310", "crn": "20897" },
+      { "term": "202330", "crn": "32714" },
+      { "term": "202330", "crn": "37216" }
     ],
     "description": "Studies basic skills in spatial analytic methods. Introduces students to some of the urban social scientific and policy questions that have been answered with these methods. Covers introductory concepts and tools in geographic information systems (GIS). Offers students an opportunity to obtain the skills to develop and write an original policy-oriented spatial research project with an urban social science focus.",
     "coreqs": [],
@@ -191,7 +226,7 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "12931" }],
-    "description": "Studies the evolution of urban science, looking at some seminal theories that seeded the field and the subsequent work they inspired, including the methodologies developed to examine them. For over a century, social scientists and policymakers have sought to better understand cities, asking important theoretical questions, such as: What is a neighborhood? How does a city grow? What is a city in the first place? Culminates in an examination of urban science in the digital age, exploring how modern technological trends, including &amp;#8220;big data,&amp;#8221; are posing new questions and offering new ways to answer them.",
+    "description": "Studies the evolution of urban science, looking at some seminal theories that seeded the field and the subsequent work they inspired, including the methodologies developed to examine them. For over a century, social scientists and policymakers have sought to better understand cities, asking important theoretical questions, such as: What is a neighborhood? How does a city grow? What is a city in the first place? Culminates in an examination of urban science in the digital age, exploring how modern technological trends, including “big data,” are posing new questions and offering new ways to answer them.",
     "coreqs": [],
     "prereqs": []
   },
@@ -216,7 +251,8 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "17971" },
-      { "term": "202310", "crn": "20994" }
+      { "term": "202310", "crn": "20994" },
+      { "term": "202330", "crn": "38736" }
     ],
     "description": "Explores key environmental challenges and policy solutions from an international perspective. Emphasizes the complexity of human-natural systems for policy design, provides a history of international environmental politics, and discusses contemporary policy issues. Presents key paradigms for understanding environmental challenges and the analytical tools to look critically at important debates, understand the role of different actors, identify equity and justice considerations, and assess policy options from multiple perspectives. Focuses on global environmental governance and sustainable development diplomacy, natural resource management, and climate change policy. Addresses the role of science in policymaking, tensions between environment and development, the scale and complexity of international environmental governance, and equity and justice.",
     "coreqs": [],
@@ -241,7 +277,10 @@
     "scheduleType": "Seminar",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "16600" }],
+    "sections": [
+      { "term": "202310", "crn": "16600" },
+      { "term": "202330", "crn": "35876" }
+    ],
     "description": "Covers special topics in public policy and urban affairs. Topics are selected by the instructor and vary from semester to semester. May be repeated up to three times for up to 12 total credits.",
     "coreqs": [],
     "prereqs": []
@@ -343,7 +382,10 @@
     "scheduleType": "Individual Instruction",
     "credits": 1,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "13123" }],
+    "sections": [
+      { "term": "202310", "crn": "13123" },
+      { "term": "202330", "crn": "32652" }
+    ],
     "description": "Guides urban informatics students through the process of developing a portfolio of professional-quality work. Requires students to submit a three-project portfolio developed from projects completed within courses taken as part of fulfilling the degree requirements. The projects must be presented in high-quality and concise visualizations and text.",
     "coreqs": [],
     "prereqs": []
@@ -357,9 +399,11 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "17865" },
-      { "term": "202310", "crn": "13985" }
+      { "term": "202310", "crn": "13985" },
+      { "term": "202330", "crn": "34619" },
+      { "term": "202330", "crn": "35879" }
     ],
-    "description": "Introduces students to concepts and approaches to analyzing significant factors and relationships in government agencies and public-oriented nongovernmental organizations as they function in their environments. Examines the legal and constitutional foundations of public administration, bureaucratic structure and administrative power, managerial accountability and ethics, human resource management, economics of organization, decision making, budgeting, implementation and &ldquo;street-level&rdquo; bureaucrats, and more recent developments in public administration such as performance management and public management networks.",
+    "description": "Introduces students to concepts and approaches to analyzing significant factors and relationships in government agencies and public-oriented nongovernmental organizations as they function in their environments. Examines the legal and constitutional foundations of public administration, bureaucratic structure and administrative power, managerial accountability and ethics, human resource management, economics of organization, decision making, budgeting, implementation and “street-level” bureaucrats, and more recent developments in public administration such as performance management and public management networks.",
     "coreqs": [],
     "prereqs": []
   },
@@ -374,9 +418,11 @@
       { "term": "202310", "crn": "12404" },
       { "term": "202310", "crn": "16082" },
       { "term": "202310", "crn": "20812" },
-      { "term": "202310", "crn": "20773" }
+      { "term": "202310", "crn": "20773" },
+      { "term": "202330", "crn": "32065" },
+      { "term": "202330", "crn": "36781" }
     ],
-    "description": "Introduces the fundamentals of macroeconomics and microeconomics as well as the role of key economic institutions, such as the Federal Reserve. Includes analysis of government&amp;#8217;s role in a market economy and introduces methods of economic analysis.",
+    "description": "Introduces the fundamentals of macroeconomics and microeconomics as well as the role of key economic institutions, such as the Federal Reserve. Includes analysis of government's role in a market economy and introduces methods of economic analysis.",
     "coreqs": [],
     "prereqs": []
   },
@@ -401,7 +447,8 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "12403" },
-      { "term": "202310", "crn": "17156" }
+      { "term": "202310", "crn": "17156" },
+      { "term": "202330", "crn": "32066" }
     ],
     "description": "Surveys governmental budgeting at the federal, state, and local levels. Surveys major revenue sources and expenditure responsibilities. Discusses budgetary processes and politics, as well as resulting policies. Considers both proposed and implemented reforms. Also introduces financial management practices including cash management, fund accounting, debt financing, endowment spending and control, cost allocation procedures, and tax expenditures.",
     "coreqs": [],
@@ -417,7 +464,9 @@
     "sections": [
       { "term": "202310", "crn": "12402" },
       { "term": "202310", "crn": "17866" },
-      { "term": "202310", "crn": "20820" }
+      { "term": "202310", "crn": "20820" },
+      { "term": "202330", "crn": "32063" },
+      { "term": "202330", "crn": "35012" }
     ],
     "description": "Provides a systematic approach to understanding the origins, formulation, implementation, and impact of government outputs. Reviews key analytical concepts and competing theoretical perspectives. Considers both the political dimensions of public policymaking and the technical aspects of program design within the natural history of the policymaking process. Draws on case materials from a spectrum of policy areas.",
     "coreqs": [],
@@ -430,7 +479,10 @@
     "scheduleType": "Seminar",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "12405" }],
+    "sections": [
+      { "term": "202310", "crn": "12405" },
+      { "term": "202330", "crn": "32067" }
+    ],
     "description": "Examines the problems and techniques relevant to effective management of a public agency in a complicated and often turbulent political environment. Topics include legislative relations, media relations, role of the courts, unions and advocacy groups, policy implementation and evaluation, and setting and working with high standards of integrity.",
     "coreqs": [],
     "prereqs": []
@@ -442,7 +494,10 @@
     "scheduleType": "Seminar",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "12407" }],
+    "sections": [
+      { "term": "202310", "crn": "12407" },
+      { "term": "202330", "crn": "33147" }
+    ],
     "description": "Reviews methodologies for assessing the impact of public policy. Includes experimental and quasi-experimental research design, the value and limits of case studies, political and organizational barriers to evaluation research, report writing, and procedures for instituting change.",
     "coreqs": [],
     "prereqs": []
@@ -461,15 +516,48 @@
   },
   {
     "subject": "PPUA",
+    "number": "6530",
+    "title": "State and Local Public Finance",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "39344" }],
+    "description": "Analyzes the fiscal dimensions of state and local governments in the United States. Examines the types and ranges of tax and nontax revenues available to local and state governments and factors shaping the types of revenue sources utilized. Also assesses local and state government spending trends, use of public funds for economic development and other goals, impacts of federal mandates on local and state budgets, distinctions between operating and capital budgets, and the overall legal and political factors shaping public finance."
+  },
+  {
+    "subject": "PPUA",
+    "number": "6532",
+    "title": "Building Resilience into Local Government",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "34620" }],
+    "description": "Focuses on often-overlooked management challenges facing local governments: preparing for, responding to, and recovering from disasters, whether natural or human-caused. While disaster planning typically focuses on first responders in fire and police departments, or on federal government agencies like FEMA, much less attention is paid to those local government leaders, from town managers to elected mayors and councilors, who are responsible for how their municipalities handle disaster. Considers what public leaders need to know about building their own capabilities and draws on cases and lessons from local government to build resilience into local communities."
+  },
+  {
+    "subject": "PPUA",
     "number": "6551",
     "title": "Nonprofit Organizations and Social Change",
     "scheduleType": "Seminar",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "12406" }],
+    "sections": [
+      { "term": "202310", "crn": "12406" },
+      { "term": "202310", "crn": "21201" }
+    ],
     "description": "Offers an overview of fundamental principles and practice in the nonprofit sector as they relate to social change. Topics include systems change and stakeholder identification, design thinking and human-centered design, theory of change and logic models, program design and evaluation, strategic and business planning, organizational structure and capacity building, governance, and communications and social media.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "PPUA",
+    "number": "6552",
+    "title": "The Nonprofit Sector in Civil Society and Public Affairs",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "32064" }],
+    "description": "Examines the challenges facing the nonprofit sector, particularly as it relates to civil society and public policy concerns. Emphasizes current controversies in which the nonprofit sector is involved, such as the impact of changes in government spending and tax policy, the nature and legitimacy of nonprofit advocacy, the role of faith-based organizations in providing public services, accountability and oversight of nonprofit organizations, the growth of social entrepreneurship, and the work of nonprofits in fostering social capital and supporting civic engagement."
   },
   {
     "subject": "PPUA",
@@ -478,10 +566,23 @@
     "scheduleType": "Off-campus instruction w/ lec",
     "credits": 0,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "13244" }],
+    "sections": [
+      { "term": "202310", "crn": "13244" },
+      { "term": "202330", "crn": "33146" }
+    ],
     "description": "Offers students an approved public- or nonprofit-sector internship that fulfills academic degree requirements. Students must complete minimum internship work hours as defined by academic program. Supervising faculty assign a final integrative or reflective project. May be repeated up to two times.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "PPUA",
+    "number": "6862",
+    "title": "Internship with Research",
+    "scheduleType": "Off-campus instruction",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "21537" }],
+    "description": "Offers students who wish to pursue additional directed reading and independent research related to the internship placement an approved public- or nonprofit-sector internship. Students must complete minimum internship work hours as defined by academic program. Research project is determined in consultation with faculty. Supervising faculty assign a final integrative or reflective project. May be repeated once for up to 6 total credits."
   },
   {
     "subject": "PPUA",
@@ -494,7 +595,10 @@
       { "term": "202310", "crn": "17982" },
       { "term": "202260", "crn": "61104" },
       { "term": "202260", "crn": "61553" },
-      { "term": "202240", "crn": "41989" }
+      { "term": "202240", "crn": "41989" },
+      { "term": "202330", "crn": "35484" },
+      { "term": "202330", "crn": "37616" },
+      { "term": "202310", "crn": "21255" }
     ],
     "description": "Provides eligible students with the opportunity for work experience. May be repeated without limit.",
     "coreqs": [],
@@ -524,10 +628,46 @@
       { "term": "202240", "crn": "40797" },
       { "term": "202240", "crn": "41235" },
       { "term": "202240", "crn": "41236" },
-      { "term": "202240", "crn": "41836" }
+      { "term": "202240", "crn": "41836" },
+      { "term": "202330", "crn": "35065" },
+      { "term": "202330", "crn": "35214" },
+      { "term": "202330", "crn": "37266" },
+      { "term": "202330", "crn": "37529" },
+      { "term": "202330", "crn": "35414" },
+      { "term": "202330", "crn": "37267" },
+      { "term": "202330", "crn": "37268" },
+      { "term": "202310", "crn": "21242" },
+      { "term": "202310", "crn": "21245" }
     ],
     "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit.",
-    "coreqs": [{ "subject": "INSH", "number": "6864" }],
+    "coreqs": [
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" },
+      { "subject": "INSH", "number": "6864" }
+    ],
     "prereqs": []
   },
   {
@@ -539,7 +679,9 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "15524" },
-      { "term": "202260", "crn": "60711" }
+      { "term": "202260", "crn": "60711" },
+      { "term": "202330", "crn": "35069" },
+      { "term": "202310", "crn": "21261" }
     ],
     "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit.",
     "coreqs": [],
@@ -552,10 +694,45 @@
     "scheduleType": "Individual Instruction",
     "credits": 1,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "14347" }],
+    "sections": [
+      { "term": "202310", "crn": "14347" },
+      { "term": "202330", "crn": "33974" },
+      { "term": "202330", "crn": "37549" },
+      { "term": "202330", "crn": "37802" }
+    ],
     "description": "Provides eligible students with an opportunity for practical experience. May be repeated without limit.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "PPUA",
+    "number": "7237",
+    "title": "Advanced Spatial Analysis of Urban Systems",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "35881" }],
+    "description": "Builds on skills covered in PPUA 5263. Offers students an opportunity to obtain greater depth in the analysis of urban spatial data focused on several urban systems (including social, built, and natural systems). Focuses on understanding the spatial relationships between various new and large urban datasets relevant to current policy challenges within cities. This is a project-based class."
+  },
+  {
+    "subject": "PPUA",
+    "number": "7346",
+    "title": "Resilient Cities",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "32245" }],
+    "description": "Examines the characteristics of resilient cities, especially those located in coastal regions. Investigates the capacity of cities to respond to major disruptions to their social and ecological systems. Includes extensive use of case studies, such as the 2004 Indian Ocean tsunami and Hurricane Katrina in 2005, as well as readings on cities and social systems. Offers students an opportunity to analyze an urban area and provide recommendations for improving its resilience. POLS 7346 and PPUA 7346 are cross-listed."
+  },
+  {
+    "subject": "PPUA",
+    "number": "7521",
+    "title": "Seminar in Urban Theory",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "39240" }],
+    "description": "Introduces students to foundational debates in the study of cities, urbanization, and urban planning and policy. Presents a broad interdisciplinary understanding of cities and urbanization, addressing questions related to the spatial development of cities and regions, governance and politics, economics, and social change. Offers students an opportunity to understand the connections between urban policy research and social theory, including concepts from human geography, sociology, urban planning, economics, and political science. Students read and discuss seminal texts, including classical concepts in social theory and contemporary debates on topics such as globalization, segregation, gentrification, sustainability, inequality, and questions of race and gender in urban policy."
   },
   {
     "subject": "PPUA",
@@ -568,7 +745,10 @@
       { "term": "202310", "crn": "12596" },
       { "term": "202310", "crn": "17688" },
       { "term": "202310", "crn": "19622" },
-      { "term": "202310", "crn": "20896" }
+      { "term": "202310", "crn": "20896" },
+      { "term": "202330", "crn": "32062" },
+      { "term": "202330", "crn": "35105" },
+      { "term": "202330", "crn": "37316" }
     ],
     "description": "Offers an opportunity for student teams, in partnership with a local, state, or federal agency or nonprofit institution, to assess an urban or regional problem, produce a thorough policy analysis, and present it and recommended solutions to the agency or institution. Course readings focus on materials needed to assess the problem and provide solutions. This is a faculty-guided team project for students completing course work in urban and regional policy studies. May be repeated without limit.",
     "coreqs": [],
@@ -581,7 +761,15 @@
     "scheduleType": "Individual Instruction",
     "credits": 1,
     "nuPath": [],
-    "sections": [{ "term": "202260", "crn": "61132" }],
+    "sections": [
+      { "term": "202260", "crn": "61132" },
+      { "term": "202330", "crn": "37368" },
+      { "term": "202330", "crn": "37914" },
+      { "term": "202330", "crn": "39100" },
+      { "term": "202330", "crn": "39192" },
+      { "term": "202310", "crn": "21133" },
+      { "term": "202310", "crn": "21436" }
+    ],
     "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
     "coreqs": [],
     "prereqs": []
@@ -593,7 +781,10 @@
     "scheduleType": "Individual Instruction",
     "credits": 1,
     "nuPath": [],
-    "sections": [{ "term": "202260", "crn": "60987" }],
+    "sections": [
+      { "term": "202260", "crn": "60987" },
+      { "term": "202310", "crn": "21761" }
+    ],
     "description": "Provides eligible students with an opportunity for practical experience. May be repeated without limit.",
     "coreqs": [],
     "prereqs": []
@@ -611,7 +802,17 @@
       { "term": "202310", "crn": "16084" },
       { "term": "202310", "crn": "16085" },
       { "term": "202310", "crn": "16086" },
-      { "term": "202310", "crn": "16087" }
+      { "term": "202310", "crn": "16087" },
+      { "term": "202330", "crn": "35882" },
+      { "term": "202330", "crn": "35883" },
+      { "term": "202330", "crn": "34621" },
+      { "term": "202330", "crn": "35884" },
+      { "term": "202330", "crn": "35885" },
+      { "term": "202330", "crn": "37015" },
+      { "term": "202330", "crn": "37519" },
+      { "term": "202310", "crn": "21455" },
+      { "term": "202310", "crn": "21507" },
+      { "term": "202310", "crn": "21713" }
     ],
     "description": "Offers an opportunity to conduct full-time research under faculty supervision. May be repeated without limit.",
     "coreqs": [],
@@ -624,10 +825,26 @@
     "scheduleType": "Individual Instruction",
     "credits": 0,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "20813" }],
+    "sections": [
+      { "term": "202310", "crn": "20813" },
+      { "term": "202330", "crn": "36618" }
+    ],
     "description": "Offers dissertation supervision by individual members of the department.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "PPUA",
+    "number": "9991",
+    "title": "Dissertation Term 2",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "35888" },
+      { "term": "202330", "crn": "35889" }
+    ],
+    "description": "Offers dissertation supervision by members of the department."
   },
   {
     "subject": "PPUA",
@@ -641,7 +858,13 @@
       { "term": "202310", "crn": "17321" },
       { "term": "202310", "crn": "17322" },
       { "term": "202310", "crn": "17323" },
-      { "term": "202310", "crn": "19623" }
+      { "term": "202310", "crn": "19623" },
+      { "term": "202330", "crn": "34865" },
+      { "term": "202330", "crn": "35890" },
+      { "term": "202330", "crn": "35891" },
+      { "term": "202330", "crn": "35892" },
+      { "term": "202330", "crn": "35893" },
+      { "term": "202310", "crn": "21797" }
     ],
     "description": "Offers continued dissertation supervision by individual members of the department.",
     "coreqs": [],

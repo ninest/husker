@@ -1,12 +1,27 @@
 [
   {
     "subject": "ARTE",
+    "number": "4901",
+    "title": "Anim Pre-Production",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20229" }],
+    "description": "This course is only available to Animation seniors. To request registration approval, please contact Jason Donati and Alison Ottaviano."
+  },
+  {
+    "subject": "ARTE",
     "number": "6976",
     "title": "Directed Study",
     "scheduleType": "Individual Instruction",
     "credits": 1,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "21008" }],
+    "sections": [
+      { "term": "202310", "crn": "21008" },
+      { "term": "202310", "crn": "21182" },
+      { "term": "202310", "crn": "21443" },
+      { "term": "202310", "crn": "21698" }
+    ],
     "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated up to four times.",
     "coreqs": [],
     "prereqs": []

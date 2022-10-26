@@ -10,7 +10,10 @@
       { "term": "202310", "crn": "11134" },
       { "term": "202310", "crn": "14845" },
       { "term": "202310", "crn": "20581" },
-      { "term": "202240", "crn": "41424" }
+      { "term": "202240", "crn": "41424" },
+      { "term": "202330", "crn": "30074" },
+      { "term": "202330", "crn": "31063" },
+      { "term": "202330", "crn": "37123" }
     ],
     "description": "Designed for students who have very little or no prior knowledge of Chinese. Provides a lively introduction to basic oral expression, listening comprehension, and elementary reading and writing. Each lesson incorporates helpful information about daily life in China and the varied cultures within the world of Chinese speakers. Laboratory practice complements class work, enables students to work aloud at their own speed, reinforces their acquisition of essential structures, and acquaints them with a vast library of audio-visual resources. Focuses on Mandarin Chinese; students who wish to speak another dialect of Chinese should consult instructor for proper placement.",
     "coreqs": [],
@@ -25,7 +28,9 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "15983" },
-      { "term": "202310", "crn": "19817" }
+      { "term": "202310", "crn": "19817" },
+      { "term": "202330", "crn": "33287" },
+      { "term": "202330", "crn": "38259" }
     ],
     "description": "Continues CHNS 1101. Reviews and continues the study of grammar and basic language skills. Offers progressively more intensive practice in oral and written communication. Laboratory practice complements class work, enables students to work aloud at their own speed, reinforces their acquisition of essential structures, and acquaints them with a vast library of audio-visual resources.",
     "coreqs": [],
@@ -40,11 +45,15 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "10044" },
-      { "term": "202310", "crn": "20582" }
+      { "term": "202310", "crn": "20582" },
+      { "term": "202330", "crn": "31080" }
     ],
     "description": "Seeks to consolidate the foundation built in elementary Chinese courses. Offers students an opportunity to develop higher oral proficiency, as well as reading and writing skills. Requires students to perform various tasks, such as describing, comparing, and narrating, in culturally appropriate ways.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "CHNS", "number": "1102" },
+      "Or",
+      { "subject": "CHNS", "number": "1302" },
       { "subject": "CHNS", "number": "1102" },
       "Or",
       { "subject": "CHNS", "number": "1302" }
@@ -57,10 +66,18 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "11753" }],
+    "sections": [
+      { "term": "202310", "crn": "11753" },
+      { "term": "202330", "crn": "32867" }
+    ],
     "description": "Emphasizes vocabulary building and mastery of fine points of grammar through written compositions, prepared oral reports, and reading and discussions of material from everyday life to situate language learning in authentic contexts.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "CHNS", "number": "2101" },
+      "Or",
+      { "subject": "CHNS", "number": "2301" },
+      "Or",
+      { "subject": "CHNS", "number": "1502" },
       { "subject": "CHNS", "number": "2101" },
       "Or",
       { "subject": "CHNS", "number": "2301" },
@@ -89,7 +106,8 @@
     "nuPath": ["EX"],
     "sections": [
       { "term": "202310", "crn": "12793" },
-      { "term": "202310", "crn": "20583" }
+      { "term": "202310", "crn": "20583" },
+      { "term": "202330", "crn": "30018" }
     ],
     "description": "Stresses the fundamentals of Chinese to promote effective self-expression through speaking and writing and to explore the idiomatic aspects of the language. Through progressive class discussions and oral and written commentaries, students analyze a contemporary Chinese novel or a Chinese cultural reader, screenplay, or collection of short stories. The course strives, first, to help students read and comprehend modern Chinese writing with confidence and to be able to talk and write about it in good Chinese; and second, to provide preparation for advanced courses.",
     "coreqs": [],
@@ -102,10 +120,16 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["EX"],
-    "sections": [{ "term": "202310", "crn": "14242" }],
+    "sections": [
+      { "term": "202310", "crn": "14242" },
+      { "term": "202330", "crn": "33340" }
+    ],
     "description": "Continues CHNS 3101. Designed to enhance and reinforce the practical language and communication skills that students employ when they are abroad. Offers students an opportunity to participate in service-learning experiences.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "CHNS", "number": "3101" },
+      "Or",
+      { "subject": "CHNS", "number": "3301" },
       { "subject": "CHNS", "number": "3101" },
       "Or",
       { "subject": "CHNS", "number": "3301" }
@@ -117,7 +141,7 @@
     "title": "Chinese Culture through Film",
     "scheduleType": "Lecture",
     "credits": 1,
-    "nuPath": [],
+    "nuPath": ["EX"],
     "sections": [
       { "term": "202310", "crn": "13155" },
       { "term": "202240", "crn": "41735" }
@@ -125,5 +149,25 @@
     "description": "Focuses on a unique aspect of the Chinese language. The specific topics are chosen to reflect current developments in the language and expressed student interests. Focuses on the use of the language for specific purposes or its use in specialized settings (e.g., media, business, health). Requires at least an intermediate level of skill in the language. May be repeated up to three times.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "CHNS",
+    "number": "4800",
+    "title": "ST:Health and Food in Chinese",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": ["EX"],
+    "sections": [{ "term": "202330", "crn": "34750" }],
+    "description": "Focuses on a unique aspect of the Chinese language. The specific topics are chosen to reflect current developments in the language and expressed student interests. Topics focus on the use of the language for specific purposes or its use in specialized settings (e.g., media, business, health). Requires at least an advanced level of skill in the language. May be repeated up to four times."
+  },
+  {
+    "subject": "CHNS",
+    "number": "5976",
+    "title": "Directed Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "21529" }],
+    "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit."
   }
 ]

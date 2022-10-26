@@ -8,7 +8,8 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "13717" },
-      { "term": "202310", "crn": "16428" }
+      { "term": "202310", "crn": "16428" },
+      { "term": "202330", "crn": "31690" }
     ],
     "description": "Introduces students to the intellectual and extracurricular opportunities within the Department of Art + Design and the College of Arts, Media and Design. Exposes students to the cultural vibrancy of Boston with the goal of building networks that facilitate a supportive learning community. Familiarizes students with their major and introduces them to the resources at the university and across the city to help them succeed academically. Provides grounding in the culture and values of the university community and seeks to help students develop interpersonal skills.",
     "coreqs": [],
@@ -30,7 +31,13 @@
       { "term": "202310", "crn": "20376" },
       { "term": "202310", "crn": "20703" },
       { "term": "202260", "crn": "60114" },
-      { "term": "202240", "crn": "40187" }
+      { "term": "202240", "crn": "40187" },
+      { "term": "202330", "crn": "30388" },
+      { "term": "202330", "crn": "30186" },
+      { "term": "202330", "crn": "30530" },
+      { "term": "202330", "crn": "32013" },
+      { "term": "202330", "crn": "33948" },
+      { "term": "202330", "crn": "37455" }
     ],
     "description": "Focuses on developing an understanding of the structure of object and figure through freehand drawing. Offers students an opportunity to explore a wide range of materials, including wash, charcoal, and pencil.",
     "coreqs": [],
@@ -47,9 +54,12 @@
       { "term": "202310", "crn": "10034" },
       { "term": "202310", "crn": "19240" },
       { "term": "202310", "crn": "19241" },
-      { "term": "202260", "crn": "60877" }
+      { "term": "202260", "crn": "60877" },
+      { "term": "202330", "crn": "39132" },
+      { "term": "202330", "crn": "33773" },
+      { "term": "202330", "crn": "37456" }
     ],
-    "description": "Seeks to expand the student&amp;#8217;s knowledge and skills through a mark-making process. Offers students an opportunity to begin to understand the relationship between form and meaning while relating the drawing process to broader concepts of communication.",
+    "description": "Seeks to expand the student's knowledge and skills through a mark-making process. Offers students an opportunity to begin to understand the relationship between form and meaning while relating the drawing process to broader concepts of communication.",
     "coreqs": [],
     "prereqs": []
   },
@@ -82,7 +92,21 @@
       { "term": "202240", "crn": "40153" },
       { "term": "202240", "crn": "40377" },
       { "term": "202240", "crn": "41150" },
-      { "term": "202240", "crn": "41243" }
+      { "term": "202240", "crn": "41243" },
+      { "term": "202330", "crn": "34773" },
+      { "term": "202330", "crn": "32534" },
+      { "term": "202330", "crn": "30913" },
+      { "term": "202330", "crn": "36062" },
+      { "term": "202330", "crn": "32003" },
+      { "term": "202330", "crn": "32010" },
+      { "term": "202330", "crn": "32252" },
+      { "term": "202330", "crn": "32527" },
+      { "term": "202330", "crn": "32528" },
+      { "term": "202330", "crn": "34762" },
+      { "term": "202330", "crn": "34764" },
+      { "term": "202330", "crn": "34765" },
+      { "term": "202330", "crn": "36064" },
+      { "term": "202330", "crn": "36065" }
     ],
     "description": "Offers an opportunity to discover and research basic principles, language, and concepts inherent in two-dimensional visual systems. Offers students an opportunity to learn to think critically, analyze, and apply basic principles to design and art projects. In a studio workshop setting, three primary phases explore art, design, and photography.",
     "coreqs": [],
@@ -101,7 +125,11 @@
       { "term": "202310", "crn": "20048" },
       { "term": "202260", "crn": "61390" },
       { "term": "202240", "crn": "40995" },
-      { "term": "202240", "crn": "41255" }
+      { "term": "202240", "crn": "41255" },
+      { "term": "202330", "crn": "36869" },
+      { "term": "202330", "crn": "31753" },
+      { "term": "202330", "crn": "32004" },
+      { "term": "202330", "crn": "34777" }
     ],
     "description": "Introduces skills and software, such as Adobe Photoshop and Illustrator, used in creating and manipulating pixel- and vector-based images, in a technology workshop format.",
     "coreqs": [],
@@ -120,10 +148,27 @@
       { "term": "202310", "crn": "10557" },
       { "term": "202310", "crn": "14098" },
       { "term": "202310", "crn": "17106" },
-      { "term": "202240", "crn": "41430" }
+      { "term": "202240", "crn": "41430" },
+      { "term": "202330", "crn": "30387" },
+      { "term": "202330", "crn": "35102" },
+      { "term": "202330", "crn": "33774" },
+      { "term": "202330", "crn": "30185" },
+      { "term": "202330", "crn": "35081" }
     ],
     "description": "Explores three-dimensional form. Examines principles including mass, volume, line, plane, and texture. Introduces basic materials and structure through constructing models and prototypes. Presents sequential exercises with simple eye/hand skills and form recognition. Explores complex projects that require an understanding of context, content, and developing original forms.",
-    "coreqs": [{ "subject": "ARTF", "number": "1125" }],
+    "coreqs": [
+      { "subject": "ARTF", "number": "1125" },
+      { "subject": "ARTF", "number": "1125" },
+      { "subject": "ARTF", "number": "1125" },
+      { "subject": "ARTF", "number": "1125" },
+      { "subject": "ARTF", "number": "1125" },
+      { "subject": "ARTF", "number": "1125" },
+      { "subject": "ARTF", "number": "1125" },
+      { "subject": "ARTF", "number": "1125" },
+      { "subject": "ARTF", "number": "1125" },
+      { "subject": "ARTF", "number": "1125" },
+      { "subject": "ARTF", "number": "1125" }
+    ],
     "prereqs": []
   },
   {
@@ -139,10 +184,27 @@
       { "term": "202310", "crn": "17631" },
       { "term": "202310", "crn": "17128" },
       { "term": "202310", "crn": "17632" },
-      { "term": "202240", "crn": "41797" }
+      { "term": "202240", "crn": "41797" },
+      { "term": "202330", "crn": "35077" },
+      { "term": "202330", "crn": "33189" },
+      { "term": "202330", "crn": "35082" },
+      { "term": "202330", "crn": "35083" },
+      { "term": "202330", "crn": "36066" }
     ],
     "description": "Introduces skills and software used in creating 3D forms with the computer. Explores basics of 3D modeling, surfacing, lighting, and rendering in this technology workshop.",
-    "coreqs": [{ "subject": "ARTF", "number": "1124" }],
+    "coreqs": [
+      { "subject": "ARTF", "number": "1124" },
+      { "subject": "ARTF", "number": "1124" },
+      { "subject": "ARTF", "number": "1124" },
+      { "subject": "ARTF", "number": "1124" },
+      { "subject": "ARTF", "number": "1124" },
+      { "subject": "ARTF", "number": "1124" },
+      { "subject": "ARTF", "number": "1124" },
+      { "subject": "ARTF", "number": "1124" },
+      { "subject": "ARTF", "number": "1124" },
+      { "subject": "ARTF", "number": "1124" },
+      { "subject": "ARTF", "number": "1124" }
+    ],
     "prereqs": []
   },
   {
@@ -161,10 +223,34 @@
       { "term": "202310", "crn": "20704" },
       { "term": "202260", "crn": "60559" },
       { "term": "202240", "crn": "40996" },
-      { "term": "202240", "crn": "41798" }
+      { "term": "202240", "crn": "41798" },
+      { "term": "202330", "crn": "31041" },
+      { "term": "202330", "crn": "32005" },
+      { "term": "202330", "crn": "34258" },
+      { "term": "202330", "crn": "34259" },
+      { "term": "202330", "crn": "35018" },
+      { "term": "202330", "crn": "36067" },
+      { "term": "202330", "crn": "37301" }
     ],
     "description": "Explores time-based art and design in an introductory lecture/studio format. Introduces formal, narrative, and alternative concepts for creative time-based communication. Assignments investigate video, animation, and a mixture of media in a screen based context.",
-    "coreqs": [{ "subject": "ARTF", "number": "2221" }],
+    "coreqs": [
+      { "subject": "ARTF", "number": "2221" },
+      { "subject": "ARTF", "number": "2221" },
+      { "subject": "ARTF", "number": "2221" },
+      { "subject": "ARTF", "number": "2221" },
+      { "subject": "ARTF", "number": "2221" },
+      { "subject": "ARTF", "number": "2221" },
+      { "subject": "ARTF", "number": "2221" },
+      { "subject": "ARTF", "number": "2221" },
+      { "subject": "ARTF", "number": "2221" },
+      { "subject": "ARTF", "number": "2221" },
+      { "subject": "ARTF", "number": "2221" },
+      { "subject": "ARTF", "number": "2221" },
+      { "subject": "ARTF", "number": "2221" },
+      { "subject": "ARTF", "number": "2221" },
+      { "subject": "ARTF", "number": "2221" },
+      { "subject": "ARTF", "number": "2221" }
+    ],
     "prereqs": []
   },
   {
@@ -178,11 +264,27 @@
       { "term": "202310", "crn": "10201" },
       { "term": "202310", "crn": "16430" },
       { "term": "202260", "crn": "60560" },
-      { "term": "202240", "crn": "40997" }
+      { "term": "202240", "crn": "40997" },
+      { "term": "202330", "crn": "32006" },
+      { "term": "202330", "crn": "36068" }
     ],
     "description": "Introduces skills and software used in animating 2D and 3D images, graphics, and forms. Explores the basics of key framing, layering, parenting, 3D modeling, surfacing, and rigging in this technology workshop.",
-    "coreqs": [{ "subject": "ARTF", "number": "2220" }],
-    "prereqs": [{ "subject": "ARTF", "number": "2220" }]
+    "coreqs": [
+      { "subject": "ARTF", "number": "2220" },
+      { "subject": "ARTF", "number": "2220" },
+      { "subject": "ARTF", "number": "2220" },
+      { "subject": "ARTF", "number": "2220" },
+      { "subject": "ARTF", "number": "2220" },
+      { "subject": "ARTF", "number": "2220" }
+    ],
+    "prereqs": [
+      { "subject": "ARTF", "number": "2220" },
+      { "subject": "ARTF", "number": "2220" },
+      { "subject": "ARTF", "number": "2220" },
+      { "subject": "ARTF", "number": "2220" },
+      { "subject": "ARTF", "number": "2220" },
+      { "subject": "ARTF", "number": "2220" }
+    ]
   },
   {
     "subject": "ARTF",
@@ -203,10 +305,36 @@
       { "term": "202310", "crn": "20997" },
       { "term": "202260", "crn": "60609" },
       { "term": "202240", "crn": "40488" },
-      { "term": "202240", "crn": "41128" }
+      { "term": "202240", "crn": "41128" },
+      { "term": "202330", "crn": "30191" },
+      { "term": "202330", "crn": "31042" },
+      { "term": "202330", "crn": "36069" },
+      { "term": "202330", "crn": "32515" },
+      { "term": "202330", "crn": "36070" },
+      { "term": "202330", "crn": "33457" },
+      { "term": "202330", "crn": "34766" }
     ],
     "description": "Explores the language of interactive experience as a compelling medium to communicate meaning. Examines how variables within the environment can change how we inhabit an experience physically, conceptually, and emotionally. Studies historical and contemporary examples of art and design projects designed as exchanges or experiences. Incorporates drawing as a means to understand the present and project potential future experiences.",
-    "coreqs": [{ "subject": "ARTF", "number": "2224" }],
+    "coreqs": [
+      { "subject": "ARTF", "number": "2224" },
+      { "subject": "ARTF", "number": "2224" },
+      { "subject": "ARTF", "number": "2224" },
+      { "subject": "ARTF", "number": "2224" },
+      { "subject": "ARTF", "number": "2224" },
+      { "subject": "ARTF", "number": "2224" },
+      { "subject": "ARTF", "number": "2224" },
+      { "subject": "ARTF", "number": "2224" },
+      { "subject": "ARTF", "number": "2224" },
+      { "subject": "ARTF", "number": "2224" },
+      { "subject": "ARTF", "number": "2224" },
+      { "subject": "ARTF", "number": "2224" },
+      { "subject": "ARTF", "number": "2224" },
+      { "subject": "ARTF", "number": "2224" },
+      { "subject": "ARTF", "number": "2224" },
+      { "subject": "ARTF", "number": "2224" },
+      { "subject": "ARTF", "number": "2224" },
+      { "subject": "ARTF", "number": "2224" }
+    ],
     "prereqs": []
   },
   {
@@ -219,10 +347,27 @@
     "sections": [
       { "term": "202310", "crn": "12738" },
       { "term": "202310", "crn": "16431" },
-      { "term": "202240", "crn": "40489" }
+      { "term": "202240", "crn": "40489" },
+      { "term": "202330", "crn": "36071" },
+      { "term": "202330", "crn": "31043" },
+      { "term": "202310", "crn": "20996" }
     ],
     "description": "Introduces skills and software used in creating basic Web-based content. This technology workshop introduces software using HTML and style sheets such as Adobe Dreamweaver.",
-    "coreqs": [{ "subject": "ARTF", "number": "2223" }],
-    "prereqs": [{ "subject": "ARTF", "number": "2223" }]
+    "coreqs": [
+      { "subject": "ARTF", "number": "2223" },
+      { "subject": "ARTF", "number": "2223" },
+      { "subject": "ARTF", "number": "2223" },
+      { "subject": "ARTF", "number": "2223" },
+      { "subject": "ARTF", "number": "2223" },
+      { "subject": "ARTF", "number": "2223" }
+    ],
+    "prereqs": [
+      { "subject": "ARTF", "number": "2223" },
+      { "subject": "ARTF", "number": "2223" },
+      { "subject": "ARTF", "number": "2223" },
+      { "subject": "ARTF", "number": "2223" },
+      { "subject": "ARTF", "number": "2223" },
+      { "subject": "ARTF", "number": "2223" }
+    ]
   }
 ]

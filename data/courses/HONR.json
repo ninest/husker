@@ -48,7 +48,7 @@
     "title": "Green Chemistry",
     "scheduleType": "Seminar",
     "credits": 4,
-    "nuPath": ["IC", "EI", "DD"],
+    "nuPath": ["IC", "EI", "DD", "EX"],
     "sections": [
       { "term": "202310", "crn": "13962" },
       { "term": "202310", "crn": "13927" },
@@ -58,7 +58,10 @@
       { "term": "202310", "crn": "14179" },
       { "term": "202310", "crn": "16548" },
       { "term": "202310", "crn": "19893" },
-      { "term": "202310", "crn": "19319" }
+      { "term": "202310", "crn": "19319" },
+      { "term": "202330", "crn": "39032" },
+      { "term": "202330", "crn": "39045" },
+      { "term": "202330", "crn": "39241" }
     ],
     "description": "Designed to provide an honors introductory-level experience. Draws upon an interdisciplinary perspective to expand individual knowledge and facilitate a deeper understanding of issues. Similar to a topics course, each section of the course offers a new and unique academic experience. May be repeated without limit.",
     "coreqs": [],
@@ -70,7 +73,7 @@
     "title": "The Reality of Illusions",
     "scheduleType": "Seminar",
     "credits": 4,
-    "nuPath": ["EX", "SI", "ER", "EI", "IC", "ND"],
+    "nuPath": ["EX", "SI", "ER", "EI", "IC", "ND", "WI"],
     "sections": [
       { "term": "202310", "crn": "16069" },
       { "term": "202310", "crn": "16328" },
@@ -86,7 +89,20 @@
       { "term": "202310", "crn": "19320" },
       { "term": "202310", "crn": "20291" },
       { "term": "202240", "crn": "41537" },
-      { "term": "202240", "crn": "41572" }
+      { "term": "202240", "crn": "41572" },
+      { "term": "202330", "crn": "33983" },
+      { "term": "202330", "crn": "36563" },
+      { "term": "202330", "crn": "39028" },
+      { "term": "202330", "crn": "33563" },
+      { "term": "202330", "crn": "33289" },
+      { "term": "202330", "crn": "33290" },
+      { "term": "202330", "crn": "39033" },
+      { "term": "202330", "crn": "33291" },
+      { "term": "202330", "crn": "39237" },
+      { "term": "202330", "crn": "39251" },
+      { "term": "202330", "crn": "36568" },
+      { "term": "202330", "crn": "36569" },
+      { "term": "202330", "crn": "38967" }
     ],
     "description": "Designed to provide an honors intermediate-level experience. Draws upon an interdisciplinary perspective to expand individual knowledge and facilitate a more advanced understanding of issues. Emphasizes research and inquiry of urban, historical, or contemporary themes. May be repeated up to nine times.",
     "coreqs": [],

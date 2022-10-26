@@ -6,8 +6,11 @@
     "scheduleType": "Lecture",
     "credits": 1,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "10182" }],
-    "description": "Intended for first-year students in the College of Social Sciences and Humanities. Introduces students to liberal arts; familiarizes them with their major; develops the academic skills necessary to succeed (analytical ability and critical thinking); provides grounding in the culture and values of the University community; and helps to develop interpersonal skills&amp;#8212;in short, familiarizes students with all skills needed to become a successful university student.",
+    "sections": [
+      { "term": "202310", "crn": "10182" },
+      { "term": "202330", "crn": "35008" }
+    ],
+    "description": "Intended for first-year students in the College of Social Sciences and Humanities. Introduces students to liberal arts; familiarizes them with their major; develops the academic skills necessary to succeed (analytical ability and critical thinking); provides grounding in the culture and values of the University community; and helps to develop interpersonal skills—in short, familiarizes students with all skills needed to become a successful university student.",
     "coreqs": [],
     "prereqs": []
   },
@@ -21,7 +24,9 @@
     "sections": [
       { "term": "202310", "crn": "10181" },
       { "term": "202310", "crn": "10937" },
-      { "term": "202310", "crn": "20497" }
+      { "term": "202310", "crn": "20497" },
+      { "term": "202330", "crn": "30350" },
+      { "term": "202330", "crn": "33082" }
     ],
     "description": "Offers students an opportunity to obtain a foundation for understanding social inequality and for practicing in the human services field. Introduces students to a range of specializations in the area of human services through lectures, service-learning, group work, individual projects, papers, debates, and presentations. Analyzes and applies ethical frames for practice using case studies and service-learning experiences. Additionally, students are expected to develop an understanding of the history of nonprofit and government responses to inequality and the social, political, and economic forces that influence social professionals.",
     "coreqs": [],
@@ -37,11 +42,41 @@
     "sections": [
       { "term": "202310", "crn": "10180" },
       { "term": "202310", "crn": "16444" },
-      { "term": "202310", "crn": "20797" }
+      { "term": "202310", "crn": "20797" },
+      { "term": "202330", "crn": "32347" },
+      { "term": "202330", "crn": "34731" }
     ],
     "description": "Presents an overview of the major theoretical approaches to counseling and therapeutic interventions. Focuses on developing clinical skills and competency in intentional interviewing. Combines systemic group exercises and experiential activities to practice interviewing techniques. Cross-cultural issues in counseling are integrated throughout the course.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
       { "subject": "ENGL", "number": "1111" },
       "Or",
       { "subject": "ENGL", "number": "1102" },
@@ -59,7 +94,7 @@
     "credits": 4,
     "nuPath": ["DD"],
     "sections": [{ "term": "202310", "crn": "19515" }],
-    "description": "Provides in-depth understanding of clinical practice with individuals, groups, and families. Focuses on developing practice skills through presentations, case studies, and self-reflection journals. Examines the role of spirituality within one&amp;#8217;s clinical practice. Explores theoretical techniques and their applications in a variety of settings, with particular attention to populations at risk.",
+    "description": "Provides in-depth understanding of clinical practice with individuals, groups, and families. Focuses on developing practice skills through presentations, case studies, and self-reflection journals. Examines the role of spirituality within one's clinical practice. Explores theoretical techniques and their applications in a variety of settings, with particular attention to populations at risk.",
     "coreqs": [],
     "prereqs": []
   },
@@ -70,7 +105,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["IC"],
-    "sections": [{ "term": "202310", "crn": "14871" }],
+    "sections": [
+      { "term": "202310", "crn": "14871" },
+      { "term": "202330", "crn": "38743" }
+    ],
     "description": "Explores mindfulness and its relationship to human services. Mindfulness is practiced in myriad human services settings, including schools, mental health facilities, medical settings, and prisons. Traces the development of mindfulness from its origins in Buddhism, to early adoption and integration with Western mental health ideologies, to the ways it is currently being integrated in social service organizations. Explores the inherent tensions in adopting a practice embedded in ancient non-Western cultures to Western thinking, healing, and psychotherapy. Examines the ways culture, identity, and power have shaped the presentation and proliferation of mindfulness.",
     "coreqs": [],
     "prereqs": []
@@ -82,8 +120,12 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["DD"],
-    "sections": [{ "term": "202310", "crn": "16445" }],
-    "description": "Cross-listed with SOCL &amp; AFAM 2355.",
+    "sections": [
+      { "term": "202310", "crn": "16445" },
+      { "term": "202330", "crn": "35149" },
+      { "term": "202330", "crn": "39291" }
+    ],
+    "description": "Cross-listed with SOCL & AFAM 2355.",
     "coreqs": [],
     "prereqs": []
   },
@@ -118,10 +160,23 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["DD"],
-    "sections": [{ "term": "202310", "crn": "12912" }],
+    "sections": [
+      { "term": "202310", "crn": "12912" },
+      { "term": "202330", "crn": "34218" }
+    ],
     "description": "Introduces students to efforts among social and nonprofit organizations working to reduce heterosexism, homophobia, and transphobia in institutions, communities, and the society as a whole. Discusses practice across the life span for social professionals (social workers, counselors, advocates, and educators) in varied settings such as criminal justice, mental health, adoption, adult day health, and residential programs. Applying theories and current scholarship on LGBTQQ identity development, social movements, media, and advocacy, offers students an opportunity to evaluate contemporary issues of controversy for institutions, social practitioners, and policy. HUSV 2800 and WMNS 2800 are cross-listed.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "HUSV",
+    "number": "2970",
+    "title": "Research Methods for Human Services",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["AD"],
+    "sections": [{ "term": "202330", "crn": "39327" }],
+    "description": "Offers an introduction to social science research that examines the theoretical and ethical foundations of social research methods. Highlights foundation knowledge and skills in hypothesis testing, research design, sampling strategies, measurement techniques, and basic data analysis and interpretation. Focuses on program evaluation to provide an opportunity for students to link social science research methods to direct human service practice."
   },
   {
     "subject": "HUSV",
@@ -129,8 +184,11 @@
     "title": "Child Intervention and Treatment",
     "scheduleType": "Seminar",
     "credits": 4,
-    "nuPath": ["DD", "SI"],
-    "sections": [{ "term": "202310", "crn": "16447" }],
+    "nuPath": ["DD", "SI", "EX"],
+    "sections": [
+      { "term": "202310", "crn": "16447" },
+      { "term": "202330", "crn": "33616" }
+    ],
     "description": "Compares and contrasts primary, secondary, and tertiary levels of intervention as they pertain to child welfare systems. Examines specifically the effectiveness and efficiency of home-visiting-based interventions, school-based interventions, child welfare interventions, and programs and practices targeted to reduce and eliminate juvenile delinquency. Considers the availability, distribution, and effectiveness of these prevention, intervention, and treatment programs as they apply to children and their families. Hands-on service learning in the field of child intervention is designed to link the course work on research and theory to human service practice.",
     "coreqs": [],
     "prereqs": []
@@ -144,9 +202,11 @@
     "nuPath": ["ER", "EX", "SI"],
     "sections": [
       { "term": "202310", "crn": "10127" },
-      { "term": "202310", "crn": "20798" }
+      { "term": "202310", "crn": "20798" },
+      { "term": "202330", "crn": "30041" },
+      { "term": "202330", "crn": "39328" }
     ],
-    "description": "Offers students an opportunity to explore the nonprofit sector&amp;#8217;s multifaceted role in U.S. society and its relationship to democracy and social change. Introduces theoretical and practical frameworks for examining contemporary models of nonprofit and philanthropic practice and examines the ethical implications of engaging in and funding activities designed to effect social change. Offers students an opportunity to apply these concepts by mapping the complex systems within which social challenges emerge and by making real dollar grants to local nonprofit organizations.",
+    "description": "Offers students an opportunity to explore the nonprofit sector's multifaceted role in U.S. society and its relationship to democracy and social change. Introduces theoretical and practical frameworks for examining contemporary models of nonprofit and philanthropic practice and examines the ethical implications of engaging in and funding activities designed to effect social change. Offers students an opportunity to apply these concepts by mapping the complex systems within which social challenges emerge and by making real dollar grants to local nonprofit organizations.",
     "coreqs": [],
     "prereqs": []
   },
@@ -157,7 +217,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["SI"],
-    "sections": [{ "term": "202310", "crn": "20799" }],
+    "sections": [
+      { "term": "202310", "crn": "20799" },
+      { "term": "202330", "crn": "31003" }
+    ],
     "description": "Examines how social policy influences child, family, and community development. Provides a historical overview and a contemporary examination of many social problems, including poverty, health and mental health issues, child welfare, educational inequality, and consequences of juvenile and adult crime. Examines the policies and programs that help or hinder positive individual, family, and community development and considers the role of human service values and ethics on the American response to social policy. Offers students an opportunity to examine and critique the implementation or lack of implementation of formal social policies at the local, state, and federal level and to suggest initiatives to meet the needs of intergenerational families.",
     "coreqs": [],
     "prereqs": []
@@ -169,7 +232,11 @@
     "scheduleType": "Seminar",
     "credits": 4,
     "nuPath": ["CE", "WI"],
-    "sections": [{ "term": "202310", "crn": "14420" }],
+    "sections": [
+      { "term": "202310", "crn": "14420" },
+      { "term": "202330", "crn": "30349" },
+      { "term": "202330", "crn": "39329" }
+    ],
     "description": "Examines emerging roles and career options within the human services field. Focuses on self-examination of attitudes and values affecting delivery of services, exploration of ethical issues and dilemmas relevant to human services, grant and funding issues, staff supervision and development within human services agencies, and refinement of group leadership skills.",
     "coreqs": [],
     "prereqs": []
@@ -181,8 +248,12 @@
     "scheduleType": "Off-campus instruction w/ lec",
     "credits": 6,
     "nuPath": ["EX"],
-    "sections": [{ "term": "202310", "crn": "12639" }],
-    "description": "Requires students to fulfill one internship placement during the last two years of the program. Consists of required field site hours and varies according to the students&rsquo; interests. Examples of placement sites include community centers, nursing homes, vocational workshops, state and federal agencies for children, and recreational facilities. Experiences are supervised by internship supervisor to maximize the student&rsquo;s learning opportunities. Fulfills the experiential education requirement. May be repeated without limit.",
+    "sections": [
+      { "term": "202310", "crn": "12639" },
+      { "term": "202330", "crn": "31246" },
+      { "term": "202330", "crn": "39330" }
+    ],
+    "description": "Requires students to fulfill one internship placement during the last two years of the program. Consists of required field site hours and varies according to the students’ interests. Examples of placement sites include community centers, nursing homes, vocational workshops, state and federal agencies for children, and recreational facilities. Experiences are supervised by internship supervisor to maximize the student’s learning opportunities. Fulfills the experiential education requirement. May be repeated without limit.",
     "coreqs": [],
     "prereqs": []
   }

@@ -6,7 +6,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "10057" }],
+    "sections": [
+      { "term": "202310", "crn": "10057" },
+      { "term": "202330", "crn": "32540" }
+    ],
     "description": "Explores the essentials of grammar, practice in pronunciation, acquisition of basic vocabulary, and idiomatic expressions of everyday Russian.",
     "coreqs": [],
     "prereqs": []
@@ -18,10 +21,16 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "10056" }],
+    "sections": [
+      { "term": "202310", "crn": "10056" },
+      { "term": "202330", "crn": "34759" }
+    ],
     "description": "Continues RSSN 1101. Studies grammar and spoken and written forms of the language. Covers more advanced features of the language.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "RSSN", "number": "1101" },
+      "Or",
+      { "subject": "RSSN", "number": "1301" },
       { "subject": "RSSN", "number": "1101" },
       "Or",
       { "subject": "RSSN", "number": "1301" }
@@ -38,6 +47,16 @@
     "description": "Emphasizes further vocabulary building. Offers students an opportunity to master the fine points of grammar through written composition, prepared oral reports, and reading and discussion from contemporary Russian materials.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "RSSN",
+    "number": "2102",
+    "title": "Intermediate Russian 2",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [{ "term": "202330", "crn": "36897" }],
+    "description": "Builds on RSSN 2101 and focuses on further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through written composition, prepared oral reports, and reading and discussion from contemporary Russian materials."
   },
   {
     "subject": "RSSN",

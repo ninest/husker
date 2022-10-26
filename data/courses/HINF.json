@@ -22,10 +22,28 @@
     "scheduleType": "Seminar",
     "credits": 3,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "12114" }],
+    "sections": [
+      { "term": "202310", "crn": "12114" },
+      { "term": "202330", "crn": "30942" },
+      { "term": "202330", "crn": "33056" }
+    ],
     "description": "Explores issues of data representation in healthcare systems, including patient and provider identification, audit trails, authentication, and reconciliation. Discusses underlying design of repositories for electronic health records (EHRs) and computerized provider order entry (CPOE) systems. Includes an overview of privacy issues, legislation, regulations, and accreditation standards unique to healthcare.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "HINF",
+    "number": "5105",
+    "title": "The American Healthcare System",
+    "scheduleType": "Seminar",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "30944" },
+      { "term": "202330", "crn": "31060" },
+      { "term": "202330", "crn": "38601" }
+    ],
+    "description": "Covers the organization, financing, and outcomes of the U.S. healthcare system. Studies opportunities and challenges to improve the cost and quality of healthcare and expand adequate coverage to all. Non&#8211;health informatics students may be able to take the course with permission of the program director."
   },
   {
     "subject": "HINF",
@@ -35,7 +53,7 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "12523" }],
-    "description": "Studies the challenges of managing health information systems in the United States, Canada, India, China, the United Kingdom, Saudi Arabia, Singapore, Taiwan, Ghana, and Malawi. Differences in healthcare systems and national regulations make the process slightly different in each country. By exploring environments with varying degrees of regulation, students have an opportunity to think critically about the impact that a nation&amp;#8217;s environment has on health information management. Discusses case studies to encourage students to think about health informatics from a managerial perspective across private companies, government, and nongovernment organizations.",
+    "description": "Studies the challenges of managing health information systems in the United States, Canada, India, China, the United Kingdom, Saudi Arabia, Singapore, Taiwan, Ghana, and Malawi. Differences in healthcare systems and national regulations make the process slightly different in each country. By exploring environments with varying degrees of regulation, students have an opportunity to think critically about the impact that a nation's environment has on health information management. Discusses case studies to encourage students to think about health informatics from a managerial perspective across private companies, government, and nongovernment organizations.",
     "coreqs": [],
     "prereqs": []
   },
@@ -65,13 +83,36 @@
   },
   {
     "subject": "HINF",
+    "number": "5301",
+    "title": "Evaluating Health Technologies",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38875" }],
+    "description": "Explores the deployment and evaluation of innovative health technologies. In this project-based course, students work in teams to deploy and evaluate a health technology. Offers students an opportunity to develop a research plan to measure the effectiveness, usability, and/or feasibility of the technology; recruit study participants; deploy the technology; and analyze the data collected. Also offers students an opportunity to learn about each of these steps and work toward producing a publishable-quality research paper on the technology and results of the efficacy study, as well as to prepare a grant application that extends the technology and research methodology. Additional topics include technology transfer and implications on health policy."
+  },
+  {
+    "subject": "HINF",
+    "number": "5407",
+    "title": "Business Application of Decision Support in Healthcare",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "33711" }],
+    "description": "Explores the business of healthcare and the practical application of decision support needed to improve access to care, improve health outcomes, and reduce the cost of care. Discusses the impact of consumerism, risk-based purchasing (including ACOs), the migration from facility to home and community-based care (including medical home models), the implied broadening of the healthcare supply chain, and emerging technology trends such as blockchain."
+  },
+  {
+    "subject": "HINF",
     "number": "6201",
     "title": "Organizational Behavior, Work Flow Design, and Change Management",
     "scheduleType": "Seminar",
     "credits": 3,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "10610" }],
-    "description": "Reviews the concepts, issues, and practices of organizational behavior at the individual, group, and organizational levels. Offers an opportunity to learn how to gather information from users and understand the users&amp;#8217; point of view and problems. Examines processes and work flow in healthcare environments. Seeks to explain organizational structures and analyze business processes and how they are translated into specifications to build a RFP for vendors. Also examines fundamentals of organizational behavior and change management.",
+    "sections": [
+      { "term": "202310", "crn": "10610" },
+      { "term": "202330", "crn": "31474" }
+    ],
+    "description": "Reviews the concepts, issues, and practices of organizational behavior at the individual, group, and organizational levels. Offers an opportunity to learn how to gather information from users and understand the users' point of view and problems. Examines processes and work flow in healthcare environments. Seeks to explain organizational structures and analyze business processes and how they are translated into specifications to build a RFP for vendors. Also examines fundamentals of organizational behavior and change management.",
     "coreqs": [],
     "prereqs": []
   },
@@ -82,7 +123,10 @@
     "scheduleType": "Seminar",
     "credits": 3,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "13553" }],
+    "sections": [
+      { "term": "202310", "crn": "13553" },
+      { "term": "202330", "crn": "32861" }
+    ],
     "description": "Focuses on the business practices relating to health information technology. Includes departmental design and management, capital and operating budgets, the budget planning process, and infrastructure design and strategic planning. Other topics include evaluation of vendors, vendor selection, clinical administration systems, and the design and management of integrated delivery networks.",
     "coreqs": [],
     "prereqs": []
@@ -106,7 +150,10 @@
     "scheduleType": "Seminar",
     "credits": 3,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "19487" }],
+    "sections": [
+      { "term": "202310", "crn": "19487" },
+      { "term": "202330", "crn": "30943" }
+    ],
     "description": "Introduces students to managing healthcare informatics projects, including the tools and techniques used to manage small, medium, and large software and systems projects. Topics include project planning, project management tools, estimating, budgeting, human resource management, and the like. All phases of a project are discussed, and students are required to develop a project plan for a health informatics project as part of the course.",
     "coreqs": [],
     "prereqs": []
@@ -118,10 +165,33 @@
     "scheduleType": "Seminar",
     "credits": 3,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "11174" }],
+    "sections": [
+      { "term": "202310", "crn": "11174" },
+      { "term": "202330", "crn": "33075" }
+    ],
     "description": "Designed to provide an introduction to the theory and application of database management systems.  Topics covered include the relational model, basic and intermediate query formulation using structured query language, database design using the entity relational model, and database normalization and optimization.  In addition to these traditional topics, this course covers a sample of emerging topics relevant to the healthcare professional, including personal health information, privacy and security considerations, XML as a data model, and clinical data warehousing and mining.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "HINF",
+    "number": "6335",
+    "title": "Management Issues in Healthcare Information Technology",
+    "scheduleType": "Seminar",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "31245" }],
+    "description": "Uses case studies to identify typical issues confronting chief information officers in healthcare organizations, including human resource management, strategic planning, project management, vendor contract negotiations, budgeting, service levels, etc. Requires prior completion of HINF 5101."
+  },
+  {
+    "subject": "HINF",
+    "number": "6355",
+    "title": "Interoperability Key Standards in Health Informatics",
+    "scheduleType": "Seminar",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "30941" }],
+    "description": "Reviews the different healthcare informatics standards for storing and exchanging data in healthcare technology systems. Covers where and how they are used, where and why they are not used, and an overview of some of the types of products available to facilitate their use. Seeks to demystify the details behind the standards. Offers students an opportunity to work through examples in small groups in class and discuss issues involving the standards' adoption and use. Non&#8211;health informatics students may be able to take the course with permission of the program director."
   },
   {
     "subject": "HINF",
@@ -134,6 +204,19 @@
     "description": "Introduces the field of health data analytics. Topics include understanding stakeholder needs; the variety of types of health data; software tools; as well as case studies from pharma, public health, electronic health records, claims data, and home-monitoring data. Emphasizes the importance of understanding the complexity and potential biases in how health data (direct or indirect) is collected and represented. Presents all data-analytic discussions within a context of health data and stakeholder information needs. Offers students an opportunity to practice presenting the results of analyses. Requires a basic knowledge of statistics.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "HINF",
+    "number": "6404",
+    "title": "Patient Engagement Informatics and Analytics",
+    "scheduleType": "Seminar",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "32862" },
+      { "term": "202330", "crn": "39094" }
+    ],
+    "description": "Studies patient engagement and health informatics systems and analyses of data collected from these systems. Patient engagement is the ability and willingness of patients to manage their own health and care combined with interventions to increase patient involvement in their own health and care, as well as other positive health behaviors. In these interventions, health informatics systems and analyses of data are used. Offers students an opportunity to engage in data analytic exercises to investigate the underlying design and implementation of health informatics systems used in patient engagement initiatives. Presents an overview of the current state, new technologies, and other areas (health reform, legal, privacy, quantified self) influencing the future direction of patient engagement."
   },
   {
     "subject": "HINF",
@@ -154,7 +237,10 @@
     "scheduleType": "Individual Instruction",
     "credits": 3,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "10972" }],
+    "sections": [
+      { "term": "202310", "crn": "10972" },
+      { "term": "202330", "crn": "34037" }
+    ],
     "description": "Offers students an opportunity to integrate knowledge gained in the classroom with real-world problems. Consists of practical work and research in a major area of health informatics. Potential areas of work include design or analysis of health informatics systems, programs, or applications; program planning; and policy development. Encourages community-based participatory projects. To the extent possible, capstone projects have as a goal an active contribution to the health informatics field. Students initiate and design capstone projects in consultation with working professionals. Faculty members provide guidance and mentoring. Requires prior completion of at least three semesters of graduate study in health informatics.",
     "coreqs": [],
     "prereqs": []
@@ -168,9 +254,15 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "12732" },
-      { "term": "202310", "crn": "18289" }
+      { "term": "202310", "crn": "18289" },
+      { "term": "202330", "crn": "33499" },
+      { "term": "202330", "crn": "33552" },
+      { "term": "202330", "crn": "34042" },
+      { "term": "202330", "crn": "34074" },
+      { "term": "202330", "crn": "34075" },
+      { "term": "202330", "crn": "34079" }
     ],
-    "description": "Offers selected readings under the supervision of a faculty member. &lt;i&gt;Personal health informatics PhD students only.&lt;/i&gt;",
+    "description": "Offers selected readings under the supervision of a faculty member. Personal health informatics PhD students only.",
     "coreqs": [],
     "prereqs": []
   },
@@ -181,10 +273,35 @@
     "scheduleType": "Individual Instruction",
     "credits": 0,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "17975" }],
+    "sections": [
+      { "term": "202310", "crn": "17975" },
+      { "term": "202330", "crn": "33030" },
+      { "term": "202330", "crn": "34080" },
+      { "term": "202330", "crn": "34081" },
+      { "term": "202330", "crn": "34082" },
+      { "term": "202330", "crn": "34083" },
+      { "term": "202330", "crn": "34084" }
+    ],
     "description": "Offers selected work with the agreement of a dissertation supervisor.",
     "coreqs": [],
-    "prereqs": [{ "subject": "HINF", "number": "9000" }]
+    "prereqs": [
+      { "subject": "HINF", "number": "9000" },
+      { "subject": "HINF", "number": "9000" },
+      { "subject": "HINF", "number": "9000" },
+      { "subject": "HINF", "number": "9000" },
+      { "subject": "HINF", "number": "9000" },
+      { "subject": "HINF", "number": "9000" }
+    ]
+  },
+  {
+    "subject": "HINF",
+    "number": "9991",
+    "title": "Dissertation Term 2",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "37515" }],
+    "description": "Offers dissertation supervision by members of the department."
   },
   {
     "subject": "HINF",
@@ -196,26 +313,44 @@
     "sections": [
       { "term": "202310", "crn": "15479" },
       { "term": "202310", "crn": "12862" },
-      { "term": "202310", "crn": "15519" }
+      { "term": "202310", "crn": "15519" },
+      { "term": "202330", "crn": "32635" },
+      { "term": "202330", "crn": "33550" },
+      { "term": "202330", "crn": "34091" },
+      { "term": "202330", "crn": "34092" },
+      { "term": "202330", "crn": "34093" },
+      { "term": "202330", "crn": "34094" }
     ],
     "description": "Continues work with the agreement of a dissertation supervisor.",
     "coreqs": [],
     "prereqs": [
       { "subject": "HINF", "number": "9991" },
       "Or",
+      "Dissertation Check",
+      { "subject": "HINF", "number": "9991" },
+      "Or",
+      "Dissertation Check",
+      { "subject": "HINF", "number": "9991" },
+      "Or",
+      "Dissertation Check",
+      { "subject": "HINF", "number": "9991" },
+      "Or",
+      "Dissertation Check",
+      { "subject": "HINF", "number": "9991" },
+      "Or",
+      "Dissertation Check",
+      { "subject": "HINF", "number": "9991" },
+      "Or",
+      "Dissertation Check",
+      { "subject": "HINF", "number": "9991" },
+      "Or",
+      "Dissertation Check",
+      { "subject": "HINF", "number": "9991" },
+      "Or",
+      "Dissertation Check",
+      { "subject": "HINF", "number": "9991" },
+      "Or",
       "Dissertation Check"
     ]
-  },
-  {
-    "subject": "HINF",
-    "number": "0200",
-    "title": "Health and Medicine for Nonclinicians",
-    "scheduleType": "Seminar",
-    "credits": 3,
-    "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "11175" }],
-    "description": "Examines the social organization of healthcare in the United States, including discussion of the settings in which healthcare is provided and the role of public and private organizations in funding and regulating healthcare. Provides an overview of how the biological aspects of the body integrate with the psychological and social aspects of the mind to influence both health behavior and healthcare delivery. Offers an opportunity to gain an understanding of how individuals, healthy and ill, access the healthcare system and move within the system to secure the appropriate level of care. Introduces basic healthcare terminology.",
-    "coreqs": [],
-    "prereqs": []
   }
 ]

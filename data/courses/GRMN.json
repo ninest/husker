@@ -6,7 +6,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "13214" }],
+    "sections": [
+      { "term": "202310", "crn": "13214" },
+      { "term": "202330", "crn": "30035" }
+    ],
     "description": "Designed for students with very little or no prior knowledge of German. Provides a lively introduction to basic oral expression, listening comprehension, and elementary reading and writing. Each lesson incorporates helpful information about daily life in German. Laboratory practice complements class work, enables students to work aloud at their own speed, reinforces their acquisition of essential structures, and acquaints them with a vast library of audio-visual resources.",
     "coreqs": [],
     "prereqs": []
@@ -18,7 +21,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "11350" }],
+    "sections": [
+      { "term": "202310", "crn": "11350" },
+      { "term": "202330", "crn": "30068" }
+    ],
     "description": "Continues GRMN 1101. Includes completion of basic grammatical usage, reading of contemporary German material, and increased stress on oral and aural skills.",
     "coreqs": [],
     "prereqs": []
@@ -30,10 +36,18 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["EX"],
-    "sections": [{ "term": "202310", "crn": "10842" }],
+    "sections": [
+      { "term": "202310", "crn": "10842" },
+      { "term": "202330", "crn": "33847" }
+    ],
     "description": "Emphasizes further vocabulary building. Offers students an opportunity to master the fine points of grammar through written composition, prepared oral reports, and reading and discussion from contemporary German materials.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "GRMN", "number": "1102" },
+      "Or",
+      { "subject": "GRMN", "number": "1302" },
+      "Or",
+      "German Placement Test",
       { "subject": "GRMN", "number": "1102" },
       "Or",
       { "subject": "GRMN", "number": "1302" },
@@ -48,10 +62,23 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["EX", "WI"],
-    "sections": [{ "term": "202310", "crn": "15984" }],
+    "sections": [
+      { "term": "202310", "crn": "15984" },
+      { "term": "202330", "crn": "33564" }
+    ],
     "description": "Builds on GRMN 2101 and focuses on further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through written composition, prepared oral reports, and reading and discussion from contemporary German materials.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "GRMN",
+    "number": "3101",
+    "title": "Advanced German 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "39077" }],
+    "description": "Continues further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through advanced reading, composition, grammar review, and listening skills. Whenever possible, offers students an opportunity to engage in local community activities to enhance communication skills and cultural knowledge."
   },
   {
     "subject": "GRMN",
@@ -59,10 +86,11 @@
     "title": "Germany Today: Current Topics",
     "scheduleType": "Lecture",
     "credits": 1,
-    "nuPath": [],
+    "nuPath": ["EX"],
     "sections": [
       { "term": "202310", "crn": "15985" },
-      { "term": "202240", "crn": "40706" }
+      { "term": "202240", "crn": "40706" },
+      { "term": "202330", "crn": "34754" }
     ],
     "description": "Focuses on a unique aspect of the German language. The specific topics are chosen to reflect current developments in the language and expressed student interests. Focuses on the use of the language for specific purposes or its use in specialized settings (e.g., media, business, health). Requires at least an intermediate level of skill in the language. May be repeated up to three times.",
     "coreqs": [],
@@ -75,7 +103,10 @@
     "scheduleType": "Individual Instruction",
     "credits": 1,
     "nuPath": [],
-    "sections": [{ "term": "202240", "crn": "41775" }],
+    "sections": [
+      { "term": "202240", "crn": "41775" },
+      { "term": "202310", "crn": "21649" }
+    ],
     "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
     "coreqs": [],
     "prereqs": []

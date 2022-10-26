@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "subject": "CMMN",
+    "number": "1102",
+    "title": "Public Speaking",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "33479" },
+      { "term": "202330", "crn": "33226" },
+      { "term": "202330", "crn": "33227" },
+      { "term": "202330", "crn": "36144" },
+      { "term": "202330", "crn": "36145" },
+      { "term": "202330", "crn": "36146" },
+      { "term": "202330", "crn": "36147" },
+      { "term": "202330", "crn": "36148" },
+      { "term": "202330", "crn": "36149" },
+      { "term": "202330", "crn": "36150" },
+      { "term": "202330", "crn": "36151" },
+      { "term": "202330", "crn": "36152" },
+      { "term": "202330", "crn": "36153" },
+      { "term": "202330", "crn": "36154" },
+      { "term": "202330", "crn": "36155" },
+      { "term": "202330", "crn": "36156" },
+      { "term": "202330", "crn": "36157" },
+      { "term": "202330", "crn": "38476" },
+      { "term": "202330", "crn": "38477" },
+      { "term": "202330", "crn": "38478" },
+      { "term": "202330", "crn": "38479" },
+      { "term": "202330", "crn": "38480" }
+    ],
+    "description": "Seeks to provide students with the tools necessary to plan and deliver a professional speech and with opportunities to practice and perfect their own presentation styles. Discusses common issues in public speaking, such as anxiety, audience analysis, and selecting a topic. Covers organizing a speech and developing effective introductions and conclusions. Explores methods of delivery and presentation aids. Exposes students to different types of speeches, both inside and outside of academia."
+  }
+]

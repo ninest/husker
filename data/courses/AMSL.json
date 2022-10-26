@@ -11,7 +11,10 @@
       { "term": "202310", "crn": "13407" },
       { "term": "202310", "crn": "10903" },
       { "term": "202310", "crn": "19741" },
-      { "term": "202240", "crn": "41482" }
+      { "term": "202240", "crn": "41482" },
+      { "term": "202330", "crn": "34626" },
+      { "term": "202330", "crn": "30057" },
+      { "term": "202330", "crn": "37451" }
     ],
     "description": "Introduces students to American Sign Language (ASL). Students develop expressive and receptive competence in using ASL to fulfill various social functions (such as introductions, explanations of personal history, and descriptions of simple narratives). Additional topics include the use of signing space and further use of nonmanual components including facial expression and body postures.",
     "coreqs": [],
@@ -26,11 +29,28 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "13597" },
-      { "term": "202310", "crn": "10076" }
+      { "term": "202310", "crn": "10076" },
+      { "term": "202330", "crn": "30056" },
+      { "term": "202330", "crn": "33149" }
     ],
     "description": "Continues AMSL 1101. Continues development of expressive and receptive competence in using American Sign Language to fulfill various social functions (such as introductions, explanations of personal history, and descriptions of simple narratives). Emphasizes further development of receptive and expressive skills, finger spelling, vocabulary building, grammatical structures; encourages more extensive use of nonmanual behaviors, classifiers, body postures, and signing space. Students are also introduced to regional and ethnic sign variations and political and educational institutions of the Deaf community.",
     "coreqs": [],
-    "prereqs": [{ "subject": "AMSL", "number": "1101" }]
+    "prereqs": [
+      { "subject": "AMSL", "number": "1101" },
+      { "subject": "AMSL", "number": "1101" },
+      { "subject": "AMSL", "number": "1101" },
+      { "subject": "AMSL", "number": "1101" }
+    ]
+  },
+  {
+    "subject": "AMSL",
+    "number": "1511",
+    "title": "ASL Classifiers",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "36924" }],
+    "description": "This course focuses on classifier /depicting signs, and includes ASL vocabulary related to medical /body systems."
   },
   {
     "subject": "AMSL",
@@ -39,8 +59,11 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "14068" }],
-    "description": "Continues the student&amp;#8217;s development of expressive and receptive competence in using American Sign Language to fulfill various communicative functions, such as making and responding to inquiries, constructing and comprehending narratives, and engaging in debates. Students also continue to expand their ASL lexicon.",
+    "sections": [
+      { "term": "202310", "crn": "14068" },
+      { "term": "202330", "crn": "36572" }
+    ],
+    "description": "Continues the student's development of expressive and receptive competence in using American Sign Language to fulfill various communicative functions, such as making and responding to inquiries, constructing and comprehending narratives, and engaging in debates. Students also continue to expand their ASL lexicon.",
     "coreqs": [],
     "prereqs": []
   },
@@ -51,7 +74,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "14842" }],
+    "sections": [
+      { "term": "202310", "crn": "14842" },
+      { "term": "202330", "crn": "30055" }
+    ],
     "description": "Continues AMSL 2101. Emphasizes further development of receptive and expressive skills, finger spelling, vocabulary building, grammatical structures; encourages more extensive use of nonmanual behaviors, classifiers, body postures, and signing space. Continues exposure to regional and ethnic sign variations and political and educational institutions of Deaf people. Offers intensive practice involving expressive and receptive skills in storytelling and dialogue. Introduces language forms used in American Sign Language poetry and the features of culture as they are displayed in art.",
     "coreqs": [],
     "prereqs": []
@@ -70,6 +96,16 @@
   },
   {
     "subject": "AMSL",
+    "number": "3102",
+    "title": "Advanced ASL 2",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "30008" }],
+    "description": "Continues AMSL 3101. Focuses on further development and refinement of American Sign Language competence in various discourse settings, predominantly formal and consultative. Continues development of lexical semantics and uses individual diagnostic assessment of ASL competence to determine individual competency goals."
+  },
+  {
+    "subject": "AMSL",
     "number": "4992",
     "title": "Directed Study",
     "scheduleType": "Individual Instruction",
@@ -79,5 +115,15 @@
     "description": "Offers students a way of going beyond work given in the regular curriculum; may also enable students to complete major requirements in certain situations. Priority is given to American Sign Language majors and to juniors and seniors. May be repeated without limit.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "AMSL",
+    "number": "5901",
+    "title": "Gallaudet University Program",
+    "scheduleType": "Off-campus instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38658" }],
+    "description": "Offers students an opportunity to study at an officially bilingual university, with American Sign Language and English used for instruction and by the university."
   }
 ]

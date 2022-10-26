@@ -9,9 +9,11 @@
     "sections": [
       { "term": "202310", "crn": "11460" },
       { "term": "202310", "crn": "14920" },
-      { "term": "202310", "crn": "15488" }
+      { "term": "202310", "crn": "15488" },
+      { "term": "202330", "crn": "33252" },
+      { "term": "202330", "crn": "33253" }
     ],
-    "description": "Focuses on the nature of conflict, conflict resolution, and the structure and process of negotiations, negotiation ethics, as well as skills to deal with &amp;#8220;difficult&amp;#8221; negotiators. Negotiation is a lifelong skill that we use every day, not just a tactic to get a higher salary or a better deal. No matter what direction one&amp;#8217;s professional life takes, negotiation is an essential part of one&amp;#8217;s job and one&amp;#8217;s life. To be effective, one must be a skillful negotiator. While some of us are naturally gifted negotiators, most of us are not; the concepts and techniques of skillful negotiations can be learned and practiced in the classroom. Offers students numerous opportunities to develop and practice negotiating skills.",
+    "description": "Focuses on the nature of conflict, conflict resolution, and the structure and process of negotiations, negotiation ethics, as well as skills to deal with “difficult” negotiators. Negotiation is a lifelong skill that we use every day, not just a tactic to get a higher salary or a better deal. No matter what direction one's professional life takes, negotiation is an essential part of one's job and one's life. To be effective, one must be a skillful negotiator. While some of us are naturally gifted negotiators, most of us are not; the concepts and techniques of skillful negotiations can be learned and practiced in the classroom. Offers students numerous opportunities to develop and practice negotiating skills.",
     "coreqs": [],
     "prereqs": []
   },
@@ -29,15 +31,48 @@
   },
   {
     "subject": "MGMT",
+    "number": "3315",
+    "title": "Managing Organizational Change and Disruption",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38143" }],
+    "description": "Covers fundamentals of change leadership as a set of integrated skills, focusing on examples of both proactive change (leveraging opportunities to grow and improve), as well as reactive change (leading in times of crisis). Uses case studies, media coverage, simulations, and guest speakers to examine some of the most dramatic changes encountered by business leaders in recent times and to evaluate different approaches to managing change at all levels of the organization. Examines the psychology of change, including overcoming fear of and resistance to change, and introduces practical frameworks that students can leverage in their own change efforts. Requires a student-led change project."
+  },
+  {
+    "subject": "MGMT",
     "number": "3340",
     "title": "Healthcare Management, Innovation, and Design",
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "11751" }],
+    "sections": [
+      { "term": "202310", "crn": "11751" },
+      { "term": "202330", "crn": "33677" }
+    ],
     "description": "Offers an overview of key U.S. health system components and imperatives and how to manage and innovate within the system to improve performance and the customer experience. Designed for students interested in healthcare careers that may have meaningful managerial, analytical, or consulting-type responsibilities. Covers essential elements of how healthcare delivery is organized and delivered; how to implement change and innovation in healthcare organizations such as hospitals and physician offices; and the interrelationships between facets of the business such as the drive for value and efficiency, promoting high-quality care, and enhancing the patient experience. Analyzes and critiques cutting-edge changes in the industry. Offers students an opportunity to learn about and use skills in process improvement, performance management, talent management, quality improvement, and work redesign.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "MGMT",
+    "number": "3350",
+    "title": "Managing a Diverse Workforce",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38144" }],
+    "description": "Examines issues related to managing oneself and others in an increasingly diverse workforce. Organizations need to address diversity issues in some manner if they are to compete effectively in a global economy. Covers diversity-related issues with management implications including religion, social identity, socialization, employment decisions by applicants and organizations, team dynamics, leadership, sexual harassment, workplace romance, career development, work and family, accommodation of people with disabilities, and organizational strategies for promoting equal opportunity and a multicultural approach toward diversity. Offers students an opportunity to conduct self-assessments to monitor their own workforce needs as they relate to issues of diversity, careers, and work-life integration."
+  },
+  {
+    "subject": "MGMT",
+    "number": "3380",
+    "title": "Leading with Character",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "35616" }],
+    "description": "Designed to help develop students’ leadership skills and prepare themselves to lead with integrity. Uses discussion, case studies, exercises, and video/audio to explore both the science and the art of leadership. Topics include leadership theories, power and politics, counseling, communication, and followership. Additionally, this class includes a heavy focus on ethical philosophy and its application to leadership."
   },
   {
     "subject": "MGMT",
@@ -46,10 +81,23 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "12658" }],
+    "sections": [
+      { "term": "202310", "crn": "12658" },
+      { "term": "202330", "crn": "35617" }
+    ],
     "description": "Offers an overview of the human resources management (HRM) function, including recruiting and hiring new employees, overseeing compensation and benefits, improving employee relations, and ensuring compliance with labor laws. Focuses on what a (non-HRM) manager needs to know about HRM and also seeks to provide a foundation for the HRM professional.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "MGMT",
+    "number": "3435",
+    "title": "Social Networks and Organizations",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "34277" }],
+    "description": "Introduces students to social network analysis. Identifies and evaluates key elements of an individual's social network—including students' own networks—and familiarizes students with some tools and techniques for managing organizational networks. Examines different types and combinations of social relations, network structures of these relations, and institutional environments that impact them. The course combines lectures, case-based class discussions, and personal/organizational network analysis applications."
   },
   {
     "subject": "MGMT",
@@ -58,7 +106,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202240", "crn": "41593" }],
+    "sections": [
+      { "term": "202240", "crn": "41593" },
+      { "term": "202330", "crn": "38145" }
+    ],
     "description": "Discusses why good project management skills are essential to a wide variety of business careers. Covers why many important business projects fail due to poor planning, poor time management, going over budget, and/or ineffective communication. Includes a balance of strategic, technical, and behavioral issues in project management.",
     "coreqs": [],
     "prereqs": []
@@ -71,7 +122,7 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "16614" }],
-    "description": "Focuses on a wide range of management practices, many of which are &ldquo;radical&rdquo; and represent organizations that &ldquo;dare to be different.&rdquo; The course uses many teaching approaches, including case studies, class exercises, and &ldquo;competitions&rdquo; that require students&mdash;and seek to increase their ability&mdash;to debate, present, think on their feet, and ask tough questions. Some organizations seem &ldquo;to work&rdquo;; they provide high-quality products and services, they treat their employees with respect, they behave ethically, they are strong financially, and the like. Students study and debate the criteria for a great organization in order to answer the key question of this course: how do they do it; i.e., why do they work so well?",
+    "description": "Focuses on a wide range of management practices, many of which are “radical” and represent organizations that “dare to be different.” The course uses many teaching approaches, including case studies, class exercises, and “competitions” that require students—and seek to increase their ability—to debate, present, think on their feet, and ask tough questions. Some organizations seem “to work”; they provide high-quality products and services, they treat their employees with respect, they behave ethically, they are strong financially, and the like. Students study and debate the criteria for a great organization in order to answer the key question of this course: how do they do it; i.e., why do they work so well?",
     "coreqs": [],
     "prereqs": []
   },
@@ -96,9 +147,11 @@
     "nuPath": ["EX"],
     "sections": [
       { "term": "202310", "crn": "14017" },
-      { "term": "202310", "crn": "14018" }
+      { "term": "202310", "crn": "14018" },
+      { "term": "202330", "crn": "33678" },
+      { "term": "202330", "crn": "33679" }
     ],
-    "description": "Offers students an opportunity to gain practical experience in finding appropriate solutions for complex and dynamic client organizational issues using a structured curriculum and frequent in-class coaching sessions. Students work as pro bono consultants both onsite and virtually with organizations to help solve real client challenges in the managing and leading of an organization. Students employ management consulting as a framework in demonstrating proficiency in a wide range of knowledge and skill areas in both management and consulting. Structures course deliverables as challenging goals to be achieved within a set time frame by working with students&#39; chosen consulting (Pod) group and through individual assignments.",
+    "description": "Offers students an opportunity to gain practical experience in finding appropriate solutions for complex and dynamic client organizational issues using a structured curriculum and frequent in-class coaching sessions. Students work as pro bono consultants both onsite and virtually with organizations to help solve real client challenges in the managing and leading of an organization. Students employ management consulting as a framework in demonstrating proficiency in a wide range of knowledge and skill areas in both management and consulting. Structures course deliverables as challenging goals to be achieved within a set time frame by working with students' chosen consulting (Pod) group and through individual assignments.",
     "coreqs": [],
     "prereqs": []
   },
@@ -128,8 +181,44 @@
       { "term": "202310", "crn": "10622" },
       { "term": "202260", "crn": "60107" }
     ],
-    "description": "Designed to improve students&amp;#8217; understanding of the negotiations process and their ability to plan and conduct negotiations effectively. Includes such class activities as readings, lectures, and discussions as well as case discussions and role-playing negotiation exercises.",
+    "description": "Designed to improve students' understanding of the negotiations process and their ability to plan and conduct negotiations effectively. Includes such class activities as readings, lectures, and discussions as well as case discussions and role-playing negotiation exercises.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "MGMT",
+    "number": "6225",
+    "title": "Sustainability and Leadership",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "31170" },
+      { "term": "202330", "crn": "31171" }
+    ],
+    "description": "Examines how organizational leaders influence decisions to advance an environmental agenda. Studies the scientific knowledge that organizational leaders must have to make effective sustainability decisions. Analyzes how a variety of organizations, including businesses, governments, government-sponsored enterprises, and nongovernment organizations, interact on environmental issues."
+  },
+  {
+    "subject": "MGMT",
+    "number": "6226",
+    "title": "Sustainability and the Business Environment",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "31483" },
+      { "term": "202330", "crn": "32042" }
+    ],
+    "description": "Examines how the environment affects corporate strategy, public policy, and individual decision making. Exposes students to the skills and knowledge needed to help organizations understand and act upon the principles of sustainability. Examines a variety of environmental problems, including global warming, use and disposal of toxic substances, and depletion of natural resources. Also studies how companies solve these problems by reducing their impact on the environment through solutions such as zero emissions, green design, and corporate environmental reporting."
+  },
+  {
+    "subject": "MGMT",
+    "number": "6280",
+    "title": "Innovation for Next-Generation Products and Systems",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "32499" }],
+    "description": "Focuses on next-generation products, systems, and services with an integrated framework that applies market innovation, user-centered design, architectural and platform innovation, and business model innovation. Offers students an opportunity to apply these concepts to new product/service/business process innovation opportunities in their own organization with executive sponsorship and faculty guidance."
   }
 ]

@@ -6,7 +6,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "10074" }],
+    "sections": [
+      { "term": "202310", "crn": "10074" },
+      { "term": "202330", "crn": "30077" }
+    ],
     "description": "Designed for students with very little or no prior knowledge of Modern Standard Arabic. Provides a lively introduction to basic oral expression, listening comprehension, and elementary reading and writing. Uses practical vocabulary drawn from realistic situations, and aims at good pronunciation and ease in response. Laboratory practice complements class work, enables students to work aloud at their own speed, reinforces their acquisition of essential structures, and acquaints them with various audio-visual resources.",
     "coreqs": [],
     "prereqs": []
@@ -18,10 +21,16 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "10073" }],
+    "sections": [
+      { "term": "202310", "crn": "10073" },
+      { "term": "202330", "crn": "30076" }
+    ],
     "description": "Continues ARAB 1101. Reviews and continues the study of grammar and basic language skills. Offers progressively more intensive practice in oral and written communication. Laboratory practice complements class work, enables students to work aloud at their own speed, reinforces their acquisition of essential structures, and acquaints them with various audio-visual resources.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "ARAB", "number": "1101" },
+      "Or",
+      { "subject": "ARAB", "number": "1301" },
       { "subject": "ARAB", "number": "1101" },
       "Or",
       { "subject": "ARAB", "number": "1301" }
@@ -34,10 +43,16 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "10838" }],
+    "sections": [
+      { "term": "202310", "crn": "10838" },
+      { "term": "202330", "crn": "30075" }
+    ],
     "description": "Emphasizes further vocabulary building. Offers students an opportunity to master the fine points of grammar through written composition, prepared oral reports, and reading and discussion from current standard Arabic materials.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "ARAB", "number": "1102" },
+      "Or",
+      { "subject": "ARAB", "number": "1302" },
       { "subject": "ARAB", "number": "1102" },
       "Or",
       { "subject": "ARAB", "number": "1302" }
@@ -50,7 +65,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["WI"],
-    "sections": [{ "term": "202310", "crn": "10907" }],
+    "sections": [
+      { "term": "202310", "crn": "10907" },
+      { "term": "202330", "crn": "30001" }
+    ],
     "description": "Builds on ARAB 2101 and focuses on further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through written composition, prepared oral reports, and reading and discussion from current standard Arabic materials.",
     "coreqs": [],
     "prereqs": []
@@ -62,7 +80,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "15228" }],
+    "sections": [
+      { "term": "202310", "crn": "15228" },
+      { "term": "202330", "crn": "39303" }
+    ],
     "description": "Continues development of vocabulary. Offers students an opportunity to further develop grammar and conversation through advanced reading, composition, grammar review, and listening skills. Whenever possible, offers students an opportunity to engage in local community activities to enhance communication skills and cultural knowledge.",
     "coreqs": [],
     "prereqs": [

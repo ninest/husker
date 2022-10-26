@@ -1,6 +1,26 @@
 [
   {
     "subject": "JWSS",
+    "number": "1294",
+    "title": "History of the Jews in the Modern World",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "SI"],
+    "sections": [{ "term": "202330", "crn": "38529" }],
+    "description": "Surveys the history of the Jews in the modern world, with an emphasis on global cultural exchange. Examines Jewish interaction with non-Jewish society from Europe to North Africa, the Middle East, the Soviet Union, Israel, and the United States and explores this relationship’s creative and destructive consequences. Focuses on how Jewish society, culture, religious practice, and political definition changed in relation to a variety of processes now associated with modernity, such as urbanization, industrialization, state centralization, and the development of nationalism and secularism."
+  },
+  {
+    "subject": "JWSS",
+    "number": "2259",
+    "title": "Sex, Gender, and Judaism",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [{ "term": "202330", "crn": "38747" }],
+    "description": "Introduces the representation of sex and gender in Jewish culture and religion. Explores varied representations of masculinity and femininity over time and place within Jewish communities; the role of biblical texts in the construction of Western conceptions of gender and sexuality; and how contemporary feminist, queer, and other sexual identities have influenced Jewish practices. Readings draw from a range of primary sources (memoirs, fiction, religious texts, etc.) and critical literature."
+  },
+  {
+    "subject": "JWSS",
     "number": "2282",
     "title": "The Holocaust and Comparative Genocide",
     "scheduleType": "Lecture",
@@ -13,5 +33,25 @@
     "description": "Examines the origins of the Holocaust, perpetrators and victims, and changing efforts to come to terms with this genocide. The Holocaust, the murder of 6 million Jews by Germans in Nazi-occupied Europe during World War II, is one of the crucial events of modern history. Investigates the uniqueness of the Holocaust relative to other acts of ethnic cleansing or genocide, including mass death in the New World and mass murder in Armenia, Bosnia, and Rwanda.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "JWSS",
+    "number": "2285",
+    "title": "America and the Holocaust",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "SI"],
+    "sections": [{ "term": "202330", "crn": "38748" }],
+    "description": "Examines the American response to the Holocaust, in terms of both contemporaneous knowledge and actions and the lasting impact on policy and culture. Starts with early twentieth-century events, such as the Armenian genocide, that shaped later attitudes. Explores the prewar period, particularly U.S. immigration and isolationist policies. Assesses Americans' knowledge of European events as the extermination campaign unfolded and fights ensued over rescue possibilities. Examines changing depictions of the Holocaust that emerged in the postwar period as a result of critical events such as the Eichmann trial and popular television and film portrayals. Finally, considers how perceptions of the Holocaust have shaped subsequent U.S. responses to genocide. HIST 2285, JRNL 2285, and JWSS 2285 are cross-listed."
+  },
+  {
+    "subject": "JWSS",
+    "number": "4660",
+    "title": "Jewish Studies Module",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "31142" }],
+    "description": "Permits specialized Jewish studies topics to be studied as part of more general courses. May be repeated without limit."
   }
 ]

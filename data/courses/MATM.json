@@ -26,7 +26,11 @@
     "sections": [
       { "term": "202310", "crn": "12411" },
       { "term": "202310", "crn": "15953" },
-      { "term": "202310", "crn": "15954" }
+      { "term": "202310", "crn": "15954" },
+      { "term": "202330", "crn": "33228" },
+      { "term": "202330", "crn": "33890" },
+      { "term": "202330", "crn": "35024" },
+      { "term": "202330", "crn": "35101" }
     ],
     "description": "Provides an overview of differential calculus including derivatives of power; exponential, logarithmic, logistic functions; and functions built from these. Derivatives are used to model rates of change, to estimate change, to optimize functions, and in marginal analysis. The integral calculus is applied to accumulation functions and future value. Emphasizes realistic business and economics problems, the development of mathematical models from raw business data, and the translation of mathematical results into verbal expression appropriate for the business setting. Also features a semester-long marketing project in which students gather raw data, model it, and use calculus to make business decisions; each student is responsible for a ten-minute presentation.",
     "coreqs": [],
@@ -42,7 +46,11 @@
     "sections": [
       { "term": "202310", "crn": "11201" },
       { "term": "202310", "crn": "15955" },
-      { "term": "202310", "crn": "15956" }
+      { "term": "202310", "crn": "15956" },
+      { "term": "202330", "crn": "33229" },
+      { "term": "202330", "crn": "34434" },
+      { "term": "202330", "crn": "35025" },
+      { "term": "202330", "crn": "35204" }
     ],
     "description": "Covers definition, calculation, and major uses of the derivative, as well as an introduction to integration. Topics include limits; the derivative as a limit; rules for differentiation; and formulas for the derivatives of algebraic, trigonometric, and exponential/logarithmic functions. Also discusses applications of derivatives to motion, density, optimization, linear approximations, and related rates. Topics on integration include the definition of the integral as a limit of sums, antidifferentiation, the fundamental theorem of calculus, and integration by substitution.",
     "coreqs": [],
@@ -55,7 +63,12 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "13964" }],
+    "sections": [
+      { "term": "202310", "crn": "13964" },
+      { "term": "202330", "crn": "33230" },
+      { "term": "202330", "crn": "33231" },
+      { "term": "202330", "crn": "35026" }
+    ],
     "description": "Covers further techniques and applications of integration, infinite series, and introduction to vectors. Topics include integration by parts; numerical integration; improper integrals; separable differential equations; and areas, volumes, and work as integrals. Also discusses convergence of sequences and series of numbers, power series representations and approximations, 3D coordinates, parameterizations, vectors and dot products, tangent and normal vectors, velocity, and acceleration in space.",
     "coreqs": [],
     "prereqs": []

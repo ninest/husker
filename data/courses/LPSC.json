@@ -8,9 +8,11 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "11336" },
-      { "term": "202310", "crn": "20660" }
+      { "term": "202310", "crn": "20660" },
+      { "term": "202330", "crn": "31420" },
+      { "term": "202330", "crn": "38735" }
     ],
-    "description": "Examines the role of law and society from a regulatory, constitutional, and judicial perspective, noting the role each of these has played in shaping the current legal framework in the United States. Introduces students to the relationship between law, societal organizations (both nongovernmental organizations and not-for-profit organizations), the private sector, and the separate branches of government (the judiciary, congressional, and executive branches). Provides students with the opportunity to learn to legally analyze judicial opinions,  prepare legal memoranda, and present an oral argument before a &amp;#8220;judge.&amp;#8221;",
+    "description": "Examines the role of law and society from a regulatory, constitutional, and judicial perspective, noting the role each of these has played in shaping the current legal framework in the United States. Introduces students to the relationship between law, societal organizations (both nongovernmental organizations and not-for-profit organizations), the private sector, and the separate branches of government (the judiciary, congressional, and executive branches). Provides students with the opportunity to learn to legally analyze judicial opinions,  prepare legal memoranda, and present an oral argument before a “judge.”",
     "coreqs": [],
     "prereqs": []
   },
@@ -23,23 +25,40 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "10542" },
-      { "term": "202310", "crn": "21021" }
+      { "term": "202310", "crn": "21021" },
+      { "term": "202330", "crn": "30176" }
     ],
-    "description": "Examines the relationship of society to its laws: how society creates changes in law or policy via societal pressure and social movements (such as the environmental, women&amp;#8217;s rights, and corporate accountability movements); how law and policy affect individual rights and behavior; whether a society needs laws in order to function; the relationship between some branches of our government in effectuating social change; and some of the fundamental differences between societies governed by seemingly similar but pragmatically different laws, such as the right to a jury trial.",
+    "description": "Examines the relationship of society to its laws: how society creates changes in law or policy via societal pressure and social movements (such as the environmental, women's rights, and corporate accountability movements); how law and policy affect individual rights and behavior; whether a society needs laws in order to function; the relationship between some branches of our government in effectuating social change; and some of the fundamental differences between societies governed by seemingly similar but pragmatically different laws, such as the right to a jury trial.",
     "coreqs": [],
     "prereqs": []
   },
   {
     "subject": "LPSC",
+    "number": "3307",
+    "title": "Understanding the Modern Supreme Court",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["SI"],
+    "sections": [{ "term": "202330", "crn": "33145" }],
+    "description": "Offers a historical overview of the Supreme Court's role in American life, focusing on the 20th century. As a legal, political, and policymaking institution, the Supreme Court plays a central role in U.S. legal, political, and policy disputes. The justices possess a wide range of social, cultural, political, and economic views."
+  },
+  {
+    "subject": "LPSC",
     "number": "3310",
-    "title": "Law and Policy in the Nation&#39;s Capital",
+    "title": "Law and Policy in the Nation's Capital",
     "scheduleType": "Off-campus instruction w/ lec",
     "credits": 1,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "16077" }],
+    "sections": [
+      { "term": "202310", "crn": "16077" },
+      { "term": "202330", "crn": "36600" }
+    ],
     "description": "The meeting dates for the class will be November 14th, 15th, and 16th.",
     "coreqs": [],
-    "prereqs": [{ "subject": "LPSC", "number": "1101" }]
+    "prereqs": [
+      { "subject": "LPSC", "number": "1101" },
+      { "subject": "LPSC", "number": "1101" }
+    ]
   },
   {
     "subject": "LPSC",
@@ -62,10 +81,21 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "14847" },
-      { "term": "202310", "crn": "20775" }
+      { "term": "202310", "crn": "20775" },
+      { "term": "202330", "crn": "30585" }
     ],
     "description": "Provides a practical overview to crafting effective strategies for advancing public policy changes at the federal, state, and local level using a range of legislative, litigation, and other policy tools.  Uses a series of case studies on a wide range of policy topics to understand and evaluate how different policy strategies evolve in the interplay between branches and levels of government.  Takes an interbranch perspective on how policy is made and places particular emphasis on the role litigation and the courts play in policy making, an aspect of public policy formulation that is often downplayed or overlooked.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "LPSC",
+    "number": "7312",
+    "title": "Cities, Sustainability, and Climate Change",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "32061" }],
+    "description": "Provides an overview of the various aspects of urban sustainability planning. Examines sustainability as an urban planning approach with both ecological and social justice goals. Covers sustainable planning and offers students an opportunity to understand it within the context of smart growth and the new urbanism. Focuses on the two areas in which cities can reduce energy consumption and greenhouse gas emissions&#8212;the built environment and transportation. From there, the course examines planning efforts to reduce demand on water and sewer systems and to create employment in renewable energy and other &#8220;clean-tech&#8221; occupations. The course ends by placing urban initiatives in the context of state and national policy."
   }
 ]

@@ -13,6 +13,16 @@
   },
   {
     "subject": "ENGR",
+    "number": "5964",
+    "title": "Projects for Professionals",
+    "scheduleType": "Seminar",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202260", "crn": "61662" }],
+    "description": "Offers students an applied project setting in which to apply their curricular learning. Working with a sponsor, students refine an applied research topic, perform research, develop recommendations that are shared with a partner sponsor, and create a plan for implementing their recommendations. Seeks to benefit students with a curriculum that supports the development of key business communication skills, project and client management skills, and frameworks for business analysis. Offers students an opportunity to learn from sponsor feedback, review 'lessons learned,' and incorporate suggestions from this review to improve and further develop their career development and professional plan."
+  },
+  {
+    "subject": "ENGR",
     "number": "5965",
     "title": "Engaging with Industry Partners for Rising Professionals",
     "scheduleType": "Seminar",
@@ -30,7 +40,10 @@
     "scheduleType": "Individual Instruction",
     "credits": 1,
     "nuPath": [],
-    "sections": [{ "term": "202260", "crn": "61215" }],
+    "sections": [
+      { "term": "202260", "crn": "61215" },
+      { "term": "202310", "crn": "21846" }
+    ],
     "description": "Offers theoretical or experimental work under individual faculty supervision. May be repeated without limit.",
     "coreqs": [],
     "prereqs": []
@@ -53,7 +66,28 @@
       { "term": "202260", "crn": "61614" },
       { "term": "202240", "crn": "41858" },
       { "term": "202240", "crn": "41902" },
-      { "term": "202240", "crn": "41958" }
+      { "term": "202240", "crn": "41958" },
+      { "term": "202330", "crn": "37158" },
+      { "term": "202330", "crn": "37195" },
+      { "term": "202330", "crn": "37448" },
+      { "term": "202330", "crn": "37449" },
+      { "term": "202330", "crn": "37544" },
+      { "term": "202330", "crn": "37570" },
+      { "term": "202330", "crn": "37690" },
+      { "term": "202330", "crn": "37732" },
+      { "term": "202330", "crn": "37697" },
+      { "term": "202330", "crn": "37734" },
+      { "term": "202330", "crn": "37782" },
+      { "term": "202330", "crn": "37849" },
+      { "term": "202330", "crn": "37886" },
+      { "term": "202330", "crn": "37903" },
+      { "term": "202330", "crn": "37904" },
+      { "term": "202330", "crn": "37930" },
+      { "term": "202310", "crn": "21200" },
+      { "term": "202310", "crn": "21391" },
+      { "term": "202310", "crn": "21592" },
+      { "term": "202310", "crn": "21581" },
+      { "term": "202310", "crn": "21777" }
     ],
     "description": "Offers students an opportunity to pursue experiential research outside the classroom and outside the university. Engineering PhD students only. May be repeated up to two times.",
     "coreqs": [],
@@ -80,7 +114,15 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "20892" },
-      { "term": "202260", "crn": "61599" }
+      { "term": "202260", "crn": "61599" },
+      { "term": "202330", "crn": "37973" },
+      { "term": "202330", "crn": "37975" },
+      { "term": "202330", "crn": "37976" },
+      { "term": "202310", "crn": "21219" },
+      { "term": "202310", "crn": "21402" },
+      { "term": "202310", "crn": "21532" },
+      { "term": "202310", "crn": "21601" },
+      { "term": "202310", "crn": "21672" }
     ],
     "description": "Offers students an opportunity to pursue experiential research outside the classroom and outside the university.",
     "coreqs": [],

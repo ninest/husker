@@ -8,10 +8,17 @@
     "nuPath": ["IC"],
     "sections": [
       { "term": "202310", "crn": "19920" },
-      { "term": "202310", "crn": "20496" }
+      { "term": "202310", "crn": "20496" },
+      { "term": "202330", "crn": "38397" },
+      { "term": "202330", "crn": "39259" }
     ],
     "description": "Examines via interdisciplinary lectures how image technologies and techniques of perception endemic to visual art, popular culture and digital media shape how visual culture is understood within an expanding knowledge economy. Introduces analytical skills of observation and methods of contextual analysis (materialism, semiotics, feminisms, LGBTQ studies, queer theory, theories of decolonization and disability studies), in order for students to develop compelling interpretations of visual phenomena within a shifting global context. Visual Intelligence explains how visual studies connects to the fields of law, design, publishing, curating, conservation, and other areas of knowledge production.",
-    "coreqs": [{ "subject": "ARTH", "number": "1002" }],
+    "coreqs": [
+      { "subject": "ARTH", "number": "1002" },
+      { "subject": "ARTH", "number": "1002" },
+      { "subject": "ARTH", "number": "1002" },
+      { "subject": "ARTH", "number": "1002" }
+    ],
     "prereqs": []
   },
   {
@@ -28,10 +35,32 @@
       { "term": "202310", "crn": "19924" },
       { "term": "202310", "crn": "19925" },
       { "term": "202310", "crn": "19926" },
-      { "term": "202310", "crn": "20515" }
+      { "term": "202310", "crn": "20515" },
+      { "term": "202330", "crn": "38398" },
+      { "term": "202330", "crn": "38399" },
+      { "term": "202330", "crn": "38400" },
+      { "term": "202330", "crn": "38401" },
+      { "term": "202330", "crn": "38402" },
+      { "term": "202330", "crn": "38403" },
+      { "term": "202330", "crn": "39260" }
     ],
     "description": "Accompanies ARTH 1001. Fosters in-depth discussion, allows for hands-on workshops and facilitates visits to area museums and cultural organizations. Emphasizes the ways digital image technologies are socially constructed and are based on earlier paradigms of classification and differentiation. Seminar meetings demonstrate how to critically read a range of images (e.g. texts, films, videogames, memes, artworks) by paying attention to the ways meaning is often shaped by identarian formations such as race, gender, sexual orientation, class, and ability. Investigates how diverse perspectives enhance the ability to create, while introducing students to creative professionals who actively use visual intelligence in their dynamic careers.",
-    "coreqs": [{ "subject": "ARTH", "number": "1001" }],
+    "coreqs": [
+      { "subject": "ARTH", "number": "1001" },
+      { "subject": "ARTH", "number": "1001" },
+      { "subject": "ARTH", "number": "1001" },
+      { "subject": "ARTH", "number": "1001" },
+      { "subject": "ARTH", "number": "1001" },
+      { "subject": "ARTH", "number": "1001" },
+      { "subject": "ARTH", "number": "1001" },
+      { "subject": "ARTH", "number": "1001" },
+      { "subject": "ARTH", "number": "1001" },
+      { "subject": "ARTH", "number": "1001" },
+      { "subject": "ARTH", "number": "1001" },
+      { "subject": "ARTH", "number": "1001" },
+      { "subject": "ARTH", "number": "1001" },
+      { "subject": "ARTH", "number": "1001" }
+    ],
     "prereqs": []
   },
   {
@@ -41,7 +70,10 @@
     "scheduleType": "Seminar",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "12301" }],
+    "sections": [
+      { "term": "202310", "crn": "12301" },
+      { "term": "202330", "crn": "32267" }
+    ],
     "description": "Offers a critical historical survey of interactive media from analog to digital techniques and from physical to virtual spaces. Examines the social, ethical, and cultural impact of interactive media. Concludes with a study of current issues and directions in interactive media. Through weekly lectures, research projects, and critical analyses, offers students an opportunity to consider current and historical aspects of interactive media and design.",
     "coreqs": [],
     "prereqs": []
@@ -65,7 +97,14 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["IC", "SI", "WI"],
-    "sections": [{ "term": "202310", "crn": "20707" }],
+    "sections": [
+      { "term": "202310", "crn": "20707" },
+      { "term": "202330", "crn": "30492" },
+      { "term": "202330", "crn": "38991" },
+      { "term": "202330", "crn": "39129" },
+      { "term": "202310", "crn": "21093" },
+      { "term": "202310", "crn": "21246" }
+    ],
     "description": "Surveys modernist movements from early to mid-20th century. Emphasizes the reciprocal evolution of art and design within cultural and social contexts.",
     "coreqs": [],
     "prereqs": []
@@ -77,10 +116,36 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["WI"],
-    "sections": [{ "term": "202310", "crn": "17059" }],
+    "sections": [
+      { "term": "202310", "crn": "17059" },
+      { "term": "202330", "crn": "30003" },
+      { "term": "202330", "crn": "38992" },
+      { "term": "202310", "crn": "21495" }
+    ],
     "description": "Offers a study of contemporary culture in an art and design survey from mid-twentieth century to present. Presents a thematic approach to late-modern and postmodernist movements, focusing on interrelationships among media.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
       { "subject": "ENGL", "number": "1111" },
       "Or",
       { "subject": "ENGL", "number": "1102" },
@@ -97,7 +162,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "14907" }],
+    "sections": [
+      { "term": "202310", "crn": "14907" },
+      { "term": "202330", "crn": "30085" }
+    ],
     "description": "Examines the history of still and moving images in relationship to other artistic, documentary, and journalistic practices.",
     "coreqs": [],
     "prereqs": []
@@ -113,7 +181,10 @@
       { "term": "202310", "crn": "12048" },
       { "term": "202310", "crn": "14686" },
       { "term": "202310", "crn": "17932" },
-      { "term": "202260", "crn": "61249" }
+      { "term": "202260", "crn": "61249" },
+      { "term": "202330", "crn": "31748" },
+      { "term": "202330", "crn": "34269" },
+      { "term": "202330", "crn": "36078" }
     ],
     "description": "Follows a chronological survey of graphic design from 4000 BC to the beginning of the 21st century, emphasizing work from 1880 to 2000, and the relationship of that work to other visual arts and design disciplines. Demonstrates how graphic design has responded to (and affected) international, social, political, and technological developments since 1450. Traces developments in the areas of typography and publication, persuasion, identity, information, and theory.",
     "coreqs": [],

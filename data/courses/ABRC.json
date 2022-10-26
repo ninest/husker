@@ -6,7 +6,10 @@
     "scheduleType": "Off-campus instruction",
     "credits": 0,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "17567" }],
+    "sections": [
+      { "term": "202310", "crn": "17567" },
+      { "term": "202330", "crn": "37510" }
+    ],
     "description": "Offers an opportunity to study in England.",
     "coreqs": [],
     "prereqs": []

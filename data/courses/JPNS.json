@@ -12,7 +12,11 @@
       { "term": "202310", "crn": "11298" },
       { "term": "202310", "crn": "10261" },
       { "term": "202240", "crn": "40220" },
-      { "term": "202240", "crn": "41807" }
+      { "term": "202240", "crn": "41807" },
+      { "term": "202330", "crn": "32434" },
+      { "term": "202330", "crn": "30034" },
+      { "term": "202330", "crn": "31777" },
+      { "term": "202330", "crn": "33000" }
     ],
     "description": "Introduces basic grammar, sentence patterns, and vocabulary of Japanese with emphasis on spoken Japanese. Includes an introduction to the hiragana and katakana syllabaries in the written component. Designed for students with no previous knowledge of Japanese.",
     "coreqs": [],
@@ -28,7 +32,9 @@
     "sections": [
       { "term": "202310", "crn": "12032" },
       { "term": "202310", "crn": "15986" },
-      { "term": "202240", "crn": "40221" }
+      { "term": "202240", "crn": "40221" },
+      { "term": "202330", "crn": "30065" },
+      { "term": "202330", "crn": "31051" }
     ],
     "description": "Continues JPNS 1101. Emphasizes the development of oral skills; secondary emphasis is on reading. Offers students the opportunity to learn basic grammatical patterns, expand vocabulary, and improve communication skills in modern Japanese. Includes the introduction to kanji characters in the written component.",
     "coreqs": [],
@@ -41,10 +47,16 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "10058" }],
+    "sections": [
+      { "term": "202310", "crn": "10058" },
+      { "term": "202330", "crn": "30064" }
+    ],
     "description": "Emphasizes further vocabulary building. Offers students an opportunity to master the fine points of grammar through written composition, prepared oral reports, and reading and discussion from contemporary Japanese materials.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "JPNS", "number": "1102" },
+      "Or",
+      { "subject": "JPNS", "number": "1302" },
       { "subject": "JPNS", "number": "1102" },
       "Or",
       { "subject": "JPNS", "number": "1302" }
@@ -57,10 +69,16 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "10040" }],
+    "sections": [
+      { "term": "202310", "crn": "10040" },
+      { "term": "202330", "crn": "31450" }
+    ],
     "description": "Builds on JPNS 2101 and focuses on further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through written composition, prepared oral reports, and reading and discussion from contemporary Japanese materials.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "JPNS", "number": "2101" },
+      "Or",
+      { "subject": "JPNS", "number": "2301" },
       { "subject": "JPNS", "number": "2101" },
       "Or",
       { "subject": "JPNS", "number": "2301" }
@@ -73,7 +91,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "11793" }],
+    "sections": [
+      { "term": "202310", "crn": "11793" },
+      { "term": "202330", "crn": "32912" }
+    ],
     "description": "Continues further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through advanced reading, composition, grammar review, and listening skills. Whenever possible, offers students an opportunity to engage in local community activities to enhance communication skills and cultural knowledge.",
     "coreqs": [],
     "prereqs": []
@@ -85,7 +106,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "16878" }],
+    "sections": [
+      { "term": "202310", "crn": "16878" },
+      { "term": "202330", "crn": "31444" }
+    ],
     "description": "Builds on JPNS 3101 and continues further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through advanced reading, composition, grammar review, and listening skills. Whenever possible, offers students an opportunity to engage in local community activities to enhance communication skills and cultural knowledge.",
     "coreqs": [],
     "prereqs": [

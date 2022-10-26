@@ -19,7 +19,7 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "10327" }],
-    "description": "Presents an overview of the ASL&ndash;English interpreting profession. Discusses the emergence of sign language interpretation and translation; the responsibilities, ethics, and aptitudes of interpreters; professional associations; the bilingual and bicultural context; basic translation and interpretation; environments where interpreters work; special populations; and professional interpreter certifications.",
+    "description": "Presents an overview of the ASL–English interpreting profession. Discusses the emergence of sign language interpretation and translation; the responsibilities, ethics, and aptitudes of interpreters; professional associations; the bilingual and bicultural context; basic translation and interpretation; environments where interpreters work; special populations; and professional interpreter certifications.",
     "coreqs": [],
     "prereqs": [{ "subject": "AMSL", "number": "2101" }]
   },
@@ -31,9 +31,19 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "10569" }],
-    "description": "Focuses on the practical skills required for effective translation and interpretation in dialogue-type inquiry texts (job interviews, case histories, and applications). Presents an overview of linguistic and sociolinguistic features and situational aspects of inquiry texts. Introduces theoretical models of interpretation to students&rsquo; development of analytic and cognitive skills, in order that they may effectively identify message meaning and manage the cognitive processes of message transfer. Introduces intralingual translation and text analysis techniques. Offers students an opportunity to develop skills in translation, consecutive interpretation, and simultaneous interpretation and to gain decision-making skills and strategies to achieve cross-culturally effective and appropriate message mediation in contexts where interactive inquiry texts occur.",
+    "description": "Focuses on the practical skills required for effective translation and interpretation in dialogue-type inquiry texts (job interviews, case histories, and applications). Presents an overview of linguistic and sociolinguistic features and situational aspects of inquiry texts. Introduces theoretical models of interpretation to students’ development of analytic and cognitive skills, in order that they may effectively identify message meaning and manage the cognitive processes of message transfer. Introduces intralingual translation and text analysis techniques. Offers students an opportunity to develop skills in translation, consecutive interpretation, and simultaneous interpretation and to gain decision-making skills and strategies to achieve cross-culturally effective and appropriate message mediation in contexts where interactive inquiry texts occur.",
     "coreqs": [],
     "prereqs": [{ "subject": "AMSL", "number": "2102" }]
+  },
+  {
+    "subject": "INTP",
+    "number": "3515",
+    "title": "Interpreting Narrative Texts",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "30508" }],
+    "description": "Focuses on the translation and interpretation of narrative texts (personal narratives, storytelling) and the development of strategic decision-making skills within the context of narrative texts. Presents an overview of linguistic and sociolinguistic features and situational aspects of narrative texts. Guides students in building cognitive processes and skills in translation, consecutive interpretation, simultaneous interpretation, and team interpretation. Offers students an opportunity to develop the decision-making skills needed for achieving cross-cultural, cross-linguistic message mediation in these settings."
   },
   {
     "subject": "INTP",
@@ -43,56 +53,18 @@
     "credits": 4,
     "nuPath": ["WI"],
     "sections": [{ "term": "202310", "crn": "19744" }],
-    "description": "Guides students through the process of analyzing and interpreting frozen texts (plays, poems, and ceremonial scripts), from first read-through to final interpreted rendering of the performed text. Interpreting for theatrical or otherwise scripted communication is markedly different from other forms of interpreting. The availability of a script, ample time to rehearse, and the possibility of feedback makes this a hybrid practice&mdash;part interpreting, part translation, and part performance. Offers students an opportunity to learn how to analyze scripts for both content and interpreting issues; how to solve production problems of logistics, placement, and lighting; and how to interpret a series of performances for the Deaf Community. This course is offered in conjunction with or in advance of a theatre department production or other performed text.",
+    "description": "Guides students through the process of analyzing and interpreting frozen texts (plays, poems, and ceremonial scripts), from first read-through to final interpreted rendering of the performed text. Interpreting for theatrical or otherwise scripted communication is markedly different from other forms of interpreting. The availability of a script, ample time to rehearse, and the possibility of feedback makes this a hybrid practice—part interpreting, part translation, and part performance. Offers students an opportunity to learn how to analyze scripts for both content and interpreting issues; how to solve production problems of logistics, placement, and lighting; and how to interpret a series of performances for the Deaf Community. This course is offered in conjunction with or in advance of a theatre department production or other performed text.",
     "coreqs": [],
     "prereqs": []
   },
   {
     "subject": "INTP",
-    "number": "3970",
-    "title": "Research Methods for Interpreting and Translation",
-    "scheduleType": "Seminar",
+    "number": "4940",
+    "title": "Interpreting Research Capstone",
+    "scheduleType": "Off-campus instruction",
     "credits": 4,
-    "nuPath": ["AD", "WI"],
-    "sections": [{ "term": "202310", "crn": "17034" }],
-    "description": "Offers an overview of research methodologies in interpreting and translation studies for students preparing for research capstone projects. Focuses on foundational theoretical knowledge and skills in research design, hypothesis testing, sampling and measurement, research ethics with deaf populations, as well as basic data analysis and interpretation. Offers students an opportunity to evaluate current literature in the discipline, write a project proposal to plan a research study or community-based project, and link social science research methods to sign language interpreting and translation practice.",
-    "coreqs": [],
-    "prereqs": [{ "subject": "INTP", "number": "3500" }]
-  },
-  {
-    "subject": "INTP",
-    "number": "4510",
-    "title": "Interpreting Expository Texts",
-    "scheduleType": "Lecture",
-    "credits": 4,
-    "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "14843" }],
-    "description": "Focuses on the interpretation of expository texts (lectures, procedural texts) and the development of strategic decision-making skills within the context of expository texts. Presents an overview of linguistic and sociolinguistic features and situational aspects of expository texts. Reinforces models of interpretation in students&rsquo; practical development of analytic and cognitive skills, in order that they may effectively identify and transfer message meaning. Offers students an opportunity to further develop the cognitive processes and team interpretation skills to manage temporal constraints of simultaneous interpretation and to develop and apply the decision-making skills needed for achieving cross-cultural, cross-linguistic message mediation in these settings.",
-    "coreqs": [],
-    "prereqs": []
-  },
-  {
-    "subject": "INTP",
-    "number": "4650",
-    "title": "Ethical Decision Making",
-    "scheduleType": "Seminar",
-    "credits": 4,
-    "nuPath": ["ER"],
-    "sections": [{ "term": "202310", "crn": "14069" }],
-    "description": "Explores ethical standards and dilemmas in American Sign Language-English interpreting and other professions through discussions, hypothetical situations, and role-playing. Topics include culturally objective standards, ethics and professional principles, power relations within groups, and the Registry of Interpreters for the Deaf (RID) code of ethics. Compares various alternatives (i.e., consequence-based ethics) to a duty-based approach to the RID code and draws upon ethical fieldwork experience to analyze the principles that guide ethical decision making among professional interpreters.",
-    "coreqs": [{ "subject": "INTP", "number": "4651" }],
-    "prereqs": []
-  },
-  {
-    "subject": "INTP",
-    "number": "4651",
-    "title": "Ethical Fieldwork",
-    "scheduleType": "Lecture",
-    "credits": 2,
-    "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "10326" }],
-    "description": "Comprises the fieldwork component of INTP 4650. Places students in practical interpreting experiences in educational settings, agencies serving Deaf people, and with freelance interpreters. Focuses on ethical questions and dilemmas and decision making in a bi-weekly seminar format. Requires students to maintain a log and participate in online discussions. Fulfills the experiential education requirement for ASL majors.",
-    "coreqs": [{ "subject": "INTP", "number": "4650" }],
-    "prereqs": [{ "subject": "INTP", "number": "3515" }]
+    "nuPath": ["CE", "WI"],
+    "sections": [{ "term": "202330", "crn": "30051" }],
+    "description": "Requires students to undertake a research project focused on some aspect of American Sign Language-English interpretation. Students work individually or in research teams (with approval). In consultation with a faculty advisor, students select a research question, design and implement the data collection component of the project, analyze results, and write up their research findings. In addition to a written report, students also present their research results to ASL majors and community stakeholders at an annual ASL research symposium."
   }
 ]

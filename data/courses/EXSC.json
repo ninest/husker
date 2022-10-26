@@ -6,10 +6,33 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "11717" }],
+    "sections": [
+      { "term": "202310", "crn": "11717" },
+      { "term": "202330", "crn": "31429" }
+    ],
     "description": "Explores the fundamental role of exercise and fitness in health. Introduces principles of exercise and various components of fitness and wellness. Discusses the development of basic exercise prescription for cardiorespiratory endurance, muscular strength, and endurance and flexibility and provides hands-on experiences of measuring these components. Includes discussions on a wide range of topics, including advances and innovations in health and fitness and practices that lead to more healthful living.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "EXSC",
+    "number": "4500",
+    "title": "Exercise Physiology 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "30300" }],
+    "description": "Introduces exercise physiology. Covers the muscular, neuromuscular, cardiovascular, ventilatory, endocrine, and metabolic responses to acute exercise and the physiological adaptations to chronic exercise and physical activity. Basic concepts related to physical fitness, body composition, weight control, and training principles are discussed."
+  },
+  {
+    "subject": "EXSC",
+    "number": "4501",
+    "title": "Lab for EXSC 4500",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "30274" }],
+    "description": "Accompanies EXSC 4500. Offers experiments in the exercise physiology laboratory that introduce concepts related to the lecture content of the course and include techniques such as strength testing, ergometry, graded exercise testing, indirect calorimetry, and body composition assessment."
   },
   {
     "subject": "EXSC",
@@ -37,6 +60,16 @@
   },
   {
     "subject": "EXSC",
+    "number": "5220",
+    "title": "Advanced Exercise Physiology",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "32176" }],
+    "description": "Covers the advanced study of concepts, principles, and research in the field of exercise physiology. Discusses advanced concepts in the muscular/neuromuscular, cardiovascular, ventilatory, endocrine, and metabolic responses to exercise and exercise training. Specific study of the physiological control mechanisms regulating these systems are also addressed during periods of rest, acute exercise, and following chronic exercise training."
+  },
+  {
+    "subject": "EXSC",
     "number": "5230",
     "title": "Physical Activity and Exercise: Effects on Musculoskeletal Health and Disease",
     "scheduleType": "Lecture",
@@ -49,6 +82,16 @@
   },
   {
     "subject": "EXSC",
+    "number": "6202",
+    "title": "Electrocardiography, Clinical Assessment, and Prescription",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "31855" }],
+    "description": "Focuses on the identification and management of chronic diseases. Offers students an opportunity to learn skills to interpret EKGs. Topics include cardiac electrophysiology, lead systems, dysrhythmia recognition and treatment, axis, infarction, ischemia, hypertrophy, and the effects of cardiovascular drugs and exercise on the EKG. Through case studies, students interpret exercise test results, prescribe exercise, and evaluate exercise programs for clinical conditions such as cardiovascular disease, pulmonary conditions, and metabolic diseases."
+  },
+  {
+    "subject": "EXSC",
     "number": "6300",
     "title": "Internship in Exercise Science",
     "scheduleType": "Off-campus instruction w/ lec",
@@ -56,10 +99,21 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "13844" },
-      { "term": "202260", "crn": "60468" }
+      { "term": "202260", "crn": "60468" },
+      { "term": "202330", "crn": "31763" }
     ],
     "description": "Offers students an opportunity to obtain practical experience and to synthesize, integrate, and apply skills and knowledge learned in the exercise science curriculum in a professional environment. Field experiences are an important part of graduate education programs in exercise science. The student is expected to complete a minimum of 300 hours of supervised experience in a research or practice setting. May be repeated once.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "EXSC",
+    "number": "6400",
+    "title": "Applied Research Methods",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "31764" }],
+    "description": "Studies how to conduct scientific research in exercise science. Offers students an opportunity to propose a research project and design appropriate methodology to complete the project. Includes discussions on developing research hypotheses, comparing study designs, selecting appropriate statistical analyses, and managing data collection. Incorporates interpretation of published research to support the proposed research. Students present their own research plans through scientific writing."
   }
 ]

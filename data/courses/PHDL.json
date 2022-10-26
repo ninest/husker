@@ -6,7 +6,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "15275" }],
+    "sections": [
+      { "term": "202310", "crn": "15275" },
+      { "term": "202330", "crn": "34805" }
+    ],
     "description": "Inculcates students with knowledge, self-awareness, skills, and attitudes to effectively influence others, to lead teams, and to be productive team members by leading from the middle. Requires engagement with an outside organization to scope a project with organizational value that is complementary to the PhD dissertation requiring the PhD student to move out of their comfort zones. At completion of this course, successful students should demonstrate the ability to Influence others in leading teams and producing reliable and practical value to a sponsoring organization; appropriately apply methods in defining clear objectives, desired outcomes, and identifying and addressing customer needs in solving problems requiring breadth and depth in scientific and technical realms; and articulate the purpose, goals, and milestones of their Experiential PhD Leadership Challenge project. Requires acceptance into the Experiential PhD Leadership Certificate program.",
     "coreqs": [],
     "prereqs": []
@@ -20,11 +23,16 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "15270" },
-      { "term": "202260", "crn": "61631" }
+      { "term": "202260", "crn": "61631" },
+      { "term": "202330", "crn": "34051" }
     ],
-    "description": "Offers PhD students an opportunity to use research expertise in an authentic setting and with authentic consequences to develop and present a plan for the demonstration of an organizational challenge. This challenge can consist of a technology solution, a policy analysis with recommendations, or a review of organizational processes that involve higher-order critical thinking. Requires engagement and training with a sponsoring organization to improve a process, assess opportunity, or propose a solution that is of significant value to the organization and demonstrates a measurable impact while enhancing the PhD student&rsquo;s PhD education and intellectual agility while fostering leadership development. Requires acceptance into the Experiential PhD Leadership Certificate program.",
+    "description": "Offers PhD students an opportunity to use research expertise in an authentic setting and with authentic consequences to develop and present a plan for the demonstration of an organizational challenge. This challenge can consist of a technology solution, a policy analysis with recommendations, or a review of organizational processes that involve higher-order critical thinking. Requires engagement and training with a sponsoring organization to improve a process, assess opportunity, or propose a solution that is of significant value to the organization and demonstrates a measurable impact while enhancing the PhD student’s PhD education and intellectual agility while fostering leadership development. Requires acceptance into the Experiential PhD Leadership Certificate program.",
     "coreqs": [],
-    "prereqs": [{ "subject": "PHDL", "number": "7600" }]
+    "prereqs": [
+      { "subject": "PHDL", "number": "7600" },
+      { "subject": "PHDL", "number": "7600" },
+      { "subject": "PHDL", "number": "7600" }
+    ]
   },
   {
     "subject": "PHDL",
@@ -33,10 +41,16 @@
     "scheduleType": "Individual Instruction",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "15271" }],
-    "description": "Continues PHDL 7660. Offers an authentic experience in an authentic setting to develop and present a plan for the demonstration of an organizational challenge and produce a written documentary report on the project to the satisfaction of an advising committee. Requires engagement and training with a sponsoring organization to improve a process and assess opportunity or a proposal solution that is of significant value to the organization and demonstrates a measurable impact while enhancing the PhD student&rsquo;s PhD education and intellectual agility while fostering leadership development. Requires acceptance into the Experiential PhD Leadership Certificate program.",
+    "sections": [
+      { "term": "202310", "crn": "15271" },
+      { "term": "202330", "crn": "34052" }
+    ],
+    "description": "Continues PHDL 7660. Offers an authentic experience in an authentic setting to develop and present a plan for the demonstration of an organizational challenge and produce a written documentary report on the project to the satisfaction of an advising committee. Requires engagement and training with a sponsoring organization to improve a process and assess opportunity or a proposal solution that is of significant value to the organization and demonstrates a measurable impact while enhancing the PhD student’s PhD education and intellectual agility while fostering leadership development. Requires acceptance into the Experiential PhD Leadership Certificate program.",
     "coreqs": [],
-    "prereqs": [{ "subject": "PHDL", "number": "7660" }]
+    "prereqs": [
+      { "subject": "PHDL", "number": "7660" },
+      { "subject": "PHDL", "number": "7660" }
+    ]
   },
   {
     "subject": "PHDL",
@@ -45,8 +59,11 @@
     "scheduleType": "Seminar",
     "credits": 0,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "15272" }],
-    "description": "Reflects on the manifestation of leadership styles, power and influence, and situational leadership observed through the Leadership Challenge. While executing the Challenge Project, students complete a series of self-directed modules providing opportunities for learning, growth, and interaction within their sponsoring organization. Modules include organizational leadership, leadership characteristics, developing project management skills, challenges to enhance leadership skills, report on experience and accomplishments, impact of academic research groups on external world, and vice versa. At the completion of their project and modules, students reflect on their development and accomplishments as part of a formal presentation to program faculty and fellow students. This presentation is available for incorporation into the student&#39;s PhD defense, and the accompanying report becomes a chapter in the student&rsquo;s dissertation. Requires acceptance into the Experiential PhD Leadership Certificate program.",
+    "sections": [
+      { "term": "202310", "crn": "15272" },
+      { "term": "202330", "crn": "34053" }
+    ],
+    "description": "Reflects on the manifestation of leadership styles, power and influence, and situational leadership observed through the Leadership Challenge. While executing the Challenge Project, students complete a series of self-directed modules providing opportunities for learning, growth, and interaction within their sponsoring organization. Modules include organizational leadership, leadership characteristics, developing project management skills, challenges to enhance leadership skills, report on experience and accomplishments, impact of academic research groups on external world, and vice versa. At the completion of their project and modules, students reflect on their development and accomplishments as part of a formal presentation to program faculty and fellow students. This presentation is available for incorporation into the student's PhD defense, and the accompanying report becomes a chapter in the student’s dissertation. Requires acceptance into the Experiential PhD Leadership Certificate program.",
     "coreqs": [],
     "prereqs": []
   },

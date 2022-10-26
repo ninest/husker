@@ -1,6 +1,16 @@
 [
   {
     "subject": "STRT",
+    "number": "4301",
+    "title": "Strategic Analysis and Decision Making",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "33259" }],
+    "description": "Examines key components of strategic decision making in-depth. Strategic decision making involves solving complex business problems to achieve company objectives within a competitive context. Topics covered include understanding the competitive environment, managing uncertainty, identifying and evaluating resource allocation alternatives, and creating action plans to implement strategic decisions. Emphasizes critical thinking and making decisions with incomplete information in a competitive environment."
+  },
+  {
+    "subject": "STRT",
     "number": "4501",
     "title": "Strategy in Action",
     "scheduleType": "Lecture",
@@ -27,7 +37,24 @@
       { "term": "202240", "crn": "40011" },
       { "term": "202240", "crn": "40584" },
       { "term": "202240", "crn": "40272" },
-      { "term": "202240", "crn": "40287" }
+      { "term": "202240", "crn": "40287" },
+      { "term": "202330", "crn": "30375" },
+      { "term": "202330", "crn": "30373" },
+      { "term": "202330", "crn": "30372" },
+      { "term": "202330", "crn": "30371" },
+      { "term": "202330", "crn": "30370" },
+      { "term": "202330", "crn": "30369" },
+      { "term": "202330", "crn": "32226" },
+      { "term": "202330", "crn": "31491" },
+      { "term": "202330", "crn": "31761" },
+      { "term": "202330", "crn": "32012" },
+      { "term": "202330", "crn": "32135" },
+      { "term": "202330", "crn": "32247" },
+      { "term": "202330", "crn": "32269" },
+      { "term": "202330", "crn": "32298" },
+      { "term": "202330", "crn": "34012" },
+      { "term": "202330", "crn": "35121" },
+      { "term": "202330", "crn": "37233" }
     ],
     "description": "Provides for the integration and application of administrative theory, knowledge, skills, and experiences for effective strategic performance in an organization. Offers students an opportunity to acquire a better understanding of the relevance and limitations of business and management concepts and techniques when making and implementing strategic decisions.",
     "coreqs": [],
@@ -54,9 +81,11 @@
       { "term": "202310", "crn": "12302" },
       { "term": "202310", "crn": "12303" },
       { "term": "202310", "crn": "19706" },
-      { "term": "202310", "crn": "19707" }
+      { "term": "202310", "crn": "19707" },
+      { "term": "202330", "crn": "30990" },
+      { "term": "202330", "crn": "30992" }
     ],
-    "description": "Focuses on strategy development and implementation for a line of business and for the corporation as a whole by adopting a top management perspective. Beginning with developing a mission statement and goals for the firm, focuses on environmental scanning, incorporating economic, technological, sociopolitical, and legal trends in conducting industry analysis, thus assessing opportunities and threats and the firm&amp;#8217;s capabilities before formulating strategy that represents a fit between the environment and the firm. Discusses how to develop competitive advantage and assess competitive positioning, and studies how organizational structure and systems contribute to implementing strategy. Stresses the role of leadership and motivation before moving on to feedback mechanisms to assess success in strategy implementation, leading to revision of strategic plans as needed.",
+    "description": "Focuses on strategy development and implementation for a line of business and for the corporation as a whole by adopting a top management perspective. Beginning with developing a mission statement and goals for the firm, focuses on environmental scanning, incorporating economic, technological, sociopolitical, and legal trends in conducting industry analysis, thus assessing opportunities and threats and the firm's capabilities before formulating strategy that represents a fit between the environment and the firm. Discusses how to develop competitive advantage and assess competitive positioning, and studies how organizational structure and systems contribute to implementing strategy. Stresses the role of leadership and motivation before moving on to feedback mechanisms to assess success in strategy implementation, leading to revision of strategic plans as needed.",
     "coreqs": [],
     "prereqs": []
   },
@@ -71,6 +100,16 @@
     "description": "Introduces how to measure and manage a workforce strategically, including (1) identifying the strategic work that is truly necessary to execute firm strategy; (2) investing in differentiated management systems that support that work; and (3) designing and implementing targeted measurement systems, such as human resources function and workforce scorecards, designed to help to hold line managers accountable for strategic talent. Emphasizes helping students move from a focus on levels associated with a particular workforce attribute (e.g., what is our cost per hire?) to understanding the impact of the workforce on business-level outcomes (e.g., how might an increase in the quality of our project managers affect new product cycle time?).",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "STRT",
+    "number": "6220",
+    "title": "Strategic Management for Healthcare Organizations",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "32219" }],
+    "description": "Offers students an opportunity to understand general business strategy concepts as they relate to the healthcare industry. Explores how to analyze market opportunities and challenges as they apply to various healthcare organizations, such as hospitals, physician organizations, and nursing homes. Presents and discusses analytical frameworks for making strategic decisions, drawing on different disciplines, including economics, management, and psychology. Strategic issues include mergers and acquisitions, vertical integration, joint ventures and alliances, performance-control systems, and organizational design."
   },
   {
     "subject": "STRT",

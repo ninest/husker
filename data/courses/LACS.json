@@ -6,7 +6,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["IC", "SI"],
-    "sections": [{ "term": "202310", "crn": "19521" }],
+    "sections": [
+      { "term": "202310", "crn": "19521" },
+      { "term": "202330", "crn": "35836" }
+    ],
     "description": "Offers an interdisciplinary introduction to Latinos and people of Latin American and Caribbean origin in the United States as well as to the regions of Latin America and the Caribbean. Dispels a series of powerful myths associated with U.S. Latinos and in Latin American and Caribbean society, such as racial inferiority, poverty, machismo, and violence. Introduces the construction of Latino, Latin American, and Caribbean identities as well as the politics, economics, history, and culture.",
     "coreqs": [],
     "prereqs": []

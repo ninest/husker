@@ -11,7 +11,9 @@
       { "term": "202310", "crn": "12578" },
       { "term": "202310", "crn": "14649" },
       { "term": "202310", "crn": "18896" },
-      { "term": "202310", "crn": "20898" }
+      { "term": "202310", "crn": "20898" },
+      { "term": "202330", "crn": "32552" },
+      { "term": "202330", "crn": "32554" }
     ],
     "description": "Focuses on the fundamental programming skills required in the bioinformatics industry. Focuses on Python and R as the main programming language used. Topics include string operations, file manipulation, regular expressions, object-oriented programming, data structures, testing, program design, and implementation. Includes substantial out-of-classroom assignments.",
     "coreqs": [],
@@ -31,7 +33,9 @@
       { "term": "202310", "crn": "18897" },
       { "term": "202310", "crn": "18898" },
       { "term": "202310", "crn": "20899" },
-      { "term": "202310", "crn": "21015" }
+      { "term": "202310", "crn": "21015" },
+      { "term": "202330", "crn": "32550" },
+      { "term": "202330", "crn": "32551" }
     ],
     "description": "Offers the first semester of a two-semester sequence on the use of computers in bioinformatics research. Offers students an opportunity to work with current methods and computational algorithms used in contemporary sequence analysis. Teaches practical skills necessary to manage and mine the vast biological information being generated and housed in public databases. Emphasizes the use of Python as the primary computer language and requires students to learn and understand basic computer logic and syntax, including an introduction to scalars, arrays, hashes, decision statements, loops, subroutines, references, and regular expressions. A focus on fundamental skills, including the command line interface found in the Linux operating system, is designed to prepare students for second-semester applications.",
     "coreqs": [],
@@ -46,11 +50,46 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "12581" },
-      { "term": "202310", "crn": "12582" }
+      { "term": "202310", "crn": "12582" },
+      { "term": "202330", "crn": "32553" },
+      { "term": "202330", "crn": "33752" },
+      { "term": "202330", "crn": "32586" },
+      { "term": "202330", "crn": "36597" },
+      { "term": "202330", "crn": "39082" }
     ],
     "description": "Designed to build upon the core topics covered in BINF 6308, i.e., use of the computer as a tool for bioinformatics research. Builds upon the Python language fundamentals covered during the first semester but requires students to apply these fundamentals to a semester-long project. The project includes protein family analysis, multiple sequence analysis, phylogeny, and protein structure analysis. Additionally, students have an opportunity to learn to build, load, connect, and query custom MySQL databases, and parse command line flags.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "BINF", "number": "6308" },
+      "Or",
+      { "subject": "BINF", "number": "6308" },
+      "Or",
+      { "subject": "BIOL", "number": "6308" },
+      { "subject": "BINF", "number": "6308" },
+      "Or",
+      { "subject": "BINF", "number": "6308" },
+      "Or",
+      { "subject": "BIOL", "number": "6308" },
+      { "subject": "BINF", "number": "6308" },
+      "Or",
+      { "subject": "BINF", "number": "6308" },
+      "Or",
+      { "subject": "BIOL", "number": "6308" },
+      { "subject": "BINF", "number": "6308" },
+      "Or",
+      { "subject": "BINF", "number": "6308" },
+      "Or",
+      { "subject": "BIOL", "number": "6308" },
+      { "subject": "BINF", "number": "6308" },
+      "Or",
+      { "subject": "BINF", "number": "6308" },
+      "Or",
+      { "subject": "BIOL", "number": "6308" },
+      { "subject": "BINF", "number": "6308" },
+      "Or",
+      { "subject": "BINF", "number": "6308" },
+      "Or",
+      { "subject": "BIOL", "number": "6308" },
       { "subject": "BINF", "number": "6308" },
       "Or",
       { "subject": "BINF", "number": "6308" },
@@ -65,10 +104,16 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "14650" }],
+    "sections": [
+      { "term": "202310", "crn": "14650" },
+      { "term": "202330", "crn": "39038" }
+    ],
     "description": "Introduces the field of genomics. With the completion of the Human Genome Project several years ago, there has been an explosion of genetic data collected. Focuses on the bioinformatics tools necessary to analyze large-scale genomic data. Covers topics such as phylogenetic trees, molecular evolution, gene expression profiling, heterogeneous genomic data, as well as next-generation sequencing (NGS) data.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "BINF", "number": "6308" },
+      "And",
+      { "subject": "BINF", "number": "6309" },
       { "subject": "BINF", "number": "6308" },
       "And",
       { "subject": "BINF", "number": "6309" }
@@ -83,16 +128,26 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "14652" },
-      { "term": "202310", "crn": "14653" }
+      { "term": "202310", "crn": "14653" },
+      { "term": "202330", "crn": "34478" },
+      { "term": "202330", "crn": "35842" },
+      { "term": "202330", "crn": "39047" },
+      { "term": "202330", "crn": "39048" },
+      { "term": "202330", "crn": "39049" },
+      { "term": "202330", "crn": "39052" },
+      { "term": "202330", "crn": "39053" },
+      { "term": "202330", "crn": "39054" },
+      { "term": "202330", "crn": "39055" },
+      { "term": "202330", "crn": "39083" }
     ],
-    "description": "Introduces the cooperative education program. Offers students an opportunity to develop job-search and career-management skills; to assess their workplace skills, interests, and values and to discuss how they impact personal career choices; to prepare a professional resum&eacute;; and to learn proper interviewing techniques. Explores career paths, choices, professional behaviors, work culture, and career decision making.",
+    "description": "Introduces the cooperative education program. Offers students an opportunity to develop job-search and career-management skills; to assess their workplace skills, interests, and values and to discuss how they impact personal career choices; to prepare a professional resumé; and to learn proper interviewing techniques. Explores career paths, choices, professional behaviors, work culture, and career decision making.",
     "coreqs": [],
     "prereqs": []
   },
   {
     "subject": "BINF",
     "number": "6900",
-    "title": "Pre&ndash;Co-op Experience",
+    "title": "Pre–Co-op Experience",
     "scheduleType": "Off-campus instruction",
     "credits": 0,
     "nuPath": [],
@@ -127,7 +182,11 @@
       { "term": "202310", "crn": "13210" },
       { "term": "202260", "crn": "61092" },
       { "term": "202260", "crn": "61513" },
-      { "term": "202240", "crn": "40448" }
+      { "term": "202240", "crn": "40448" },
+      { "term": "202330", "crn": "32641" },
+      { "term": "202330", "crn": "39091" },
+      { "term": "202330", "crn": "39056" },
+      { "term": "202310", "crn": "21240" }
     ],
     "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit.",
     "coreqs": [],
@@ -142,7 +201,8 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "13807" },
-      { "term": "202260", "crn": "61284" }
+      { "term": "202260", "crn": "61284" },
+      { "term": "202330", "crn": "33061" }
     ],
     "description": "Offers eligible students an opportunity for work experience abroad. May be repeated without limit.",
     "coreqs": [],

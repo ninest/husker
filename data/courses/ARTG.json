@@ -8,10 +8,15 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "20330" },
-      { "term": "202310", "crn": "20495" }
+      { "term": "202310", "crn": "20495" },
+      { "term": "202330", "crn": "38383" }
     ],
     "description": "Introduces students to a range of perspectives and points of view on design as a human activity. Explores a mix of theories, principles, practices, and histories that constitute various understandings of design across cultures. Through illustrative case studies, examines impacts, influences, accomplishments, consequences, possibilities, and limits of design in the world. Investigates what it means to develop a personal design practice.",
-    "coreqs": [{ "subject": "ARTG", "number": "1002" }],
+    "coreqs": [
+      { "subject": "ARTG", "number": "1002" },
+      { "subject": "ARTG", "number": "1002" },
+      { "subject": "ARTG", "number": "1002" }
+    ],
     "prereqs": []
   },
   {
@@ -27,10 +32,31 @@
       { "term": "202310", "crn": "20393" },
       { "term": "202310", "crn": "20394" },
       { "term": "202310", "crn": "20395" },
-      { "term": "202310", "crn": "20516" }
+      { "term": "202310", "crn": "20516" },
+      { "term": "202330", "crn": "38384" },
+      { "term": "202330", "crn": "38385" },
+      { "term": "202330", "crn": "38386" },
+      { "term": "202330", "crn": "38387" },
+      { "term": "202330", "crn": "38388" },
+      { "term": "202330", "crn": "38389" },
+      { "term": "202330", "crn": "38390" }
     ],
     "description": "Offers a small-group discussion format to cover material in ARTG 1001 and provides opportunities for the application of course topics.",
-    "coreqs": [{ "subject": "ARTG", "number": "1001" }],
+    "coreqs": [
+      { "subject": "ARTG", "number": "1001" },
+      { "subject": "ARTG", "number": "1001" },
+      { "subject": "ARTG", "number": "1001" },
+      { "subject": "ARTG", "number": "1001" },
+      { "subject": "ARTG", "number": "1001" },
+      { "subject": "ARTG", "number": "1001" },
+      { "subject": "ARTG", "number": "1001" },
+      { "subject": "ARTG", "number": "1001" },
+      { "subject": "ARTG", "number": "1001" },
+      { "subject": "ARTG", "number": "1001" },
+      { "subject": "ARTG", "number": "1001" },
+      { "subject": "ARTG", "number": "1001" },
+      { "subject": "ARTG", "number": "1001" }
+    ],
     "prereqs": []
   },
   {
@@ -51,9 +77,19 @@
       { "term": "202260", "crn": "60399" },
       { "term": "202260", "crn": "60880" },
       { "term": "202240", "crn": "40420" },
-      { "term": "202240", "crn": "41815" }
+      { "term": "202240", "crn": "41815" },
+      { "term": "202330", "crn": "31912" },
+      { "term": "202330", "crn": "32183" },
+      { "term": "202330", "crn": "32986" },
+      { "term": "202330", "crn": "33190" },
+      { "term": "202330", "crn": "34260" },
+      { "term": "202330", "crn": "34261" },
+      { "term": "202330", "crn": "34262" },
+      { "term": "202330", "crn": "36072" },
+      { "term": "202330", "crn": "36073" },
+      { "term": "202330", "crn": "39258" }
     ],
-    "description": "Explores common design practices, principles, and vocabularies, introducing the design process as a method of inquiry and problem solving through studio projects. Emphasizes the importance of an awareness of audience and context in the creation of meaningful communications and experiences. Explores the practice of design as an iterative process, offering students an opportunity to obtain an understanding of the value of systems thinking and the importance of feedback and exchange as a means for assessing the quality of design&amp;#8217;s effectiveness in helping users achieve their goals.",
+    "description": "Explores common design practices, principles, and vocabularies, introducing the design process as a method of inquiry and problem solving through studio projects. Emphasizes the importance of an awareness of audience and context in the creation of meaningful communications and experiences. Explores the practice of design as an iterative process, offering students an opportunity to obtain an understanding of the value of systems thinking and the importance of feedback and exchange as a means for assessing the quality of design's effectiveness in helping users achieve their goals.",
     "coreqs": [],
     "prereqs": []
   },
@@ -76,11 +112,61 @@
       { "term": "202310", "crn": "20771" },
       { "term": "202260", "crn": "60465" },
       { "term": "202240", "crn": "40104" },
-      { "term": "202240", "crn": "41129" }
+      { "term": "202240", "crn": "41129" },
+      { "term": "202330", "crn": "30377" },
+      { "term": "202330", "crn": "31451" },
+      { "term": "202330", "crn": "32241" },
+      { "term": "202330", "crn": "32983" },
+      { "term": "202330", "crn": "33191" },
+      { "term": "202330", "crn": "34263" },
+      { "term": "202330", "crn": "34264" },
+      { "term": "202330", "crn": "39128" }
     ],
     "description": "Introduces typography as the basis of graphic design and visual communication. Guides students through an understanding of letterforms, words, sentences, and text as both image and information. Studies form, context, and visual meaning. Introduces use of the typographic grid and issues of hierarchy and legibility through assigned projects, readings, and lectures. Includes the historical evolution of typefaces and their classification as a rational system.",
-    "coreqs": [{ "subject": "ARTG", "number": "2251" }],
-    "prereqs": [{ "subject": "ARTF", "number": "1122" }]
+    "coreqs": [
+      { "subject": "ARTG", "number": "2251" },
+      { "subject": "ARTG", "number": "2251" },
+      { "subject": "ARTG", "number": "2251" },
+      { "subject": "ARTG", "number": "2251" },
+      { "subject": "ARTG", "number": "2251" },
+      { "subject": "ARTG", "number": "2251" },
+      { "subject": "ARTG", "number": "2251" },
+      { "subject": "ARTG", "number": "2251" },
+      { "subject": "ARTG", "number": "2251" },
+      { "subject": "ARTG", "number": "2251" },
+      { "subject": "ARTG", "number": "2251" },
+      { "subject": "ARTG", "number": "2251" },
+      { "subject": "ARTG", "number": "2251" },
+      { "subject": "ARTG", "number": "2251" },
+      { "subject": "ARTG", "number": "2251" },
+      { "subject": "ARTG", "number": "2251" },
+      { "subject": "ARTG", "number": "2251" },
+      { "subject": "ARTG", "number": "2251" },
+      { "subject": "ARTG", "number": "2251" },
+      { "subject": "ARTG", "number": "2251" }
+    ],
+    "prereqs": [
+      { "subject": "ARTF", "number": "1122" },
+      { "subject": "ARTF", "number": "1122" },
+      { "subject": "ARTF", "number": "1122" },
+      { "subject": "ARTF", "number": "1122" },
+      { "subject": "ARTF", "number": "1122" },
+      { "subject": "ARTF", "number": "1122" },
+      { "subject": "ARTF", "number": "1122" },
+      { "subject": "ARTF", "number": "1122" },
+      { "subject": "ARTF", "number": "1122" },
+      { "subject": "ARTF", "number": "1122" },
+      { "subject": "ARTF", "number": "1122" },
+      { "subject": "ARTF", "number": "1122" },
+      { "subject": "ARTF", "number": "1122" },
+      { "subject": "ARTF", "number": "1122" },
+      { "subject": "ARTF", "number": "1122" },
+      { "subject": "ARTF", "number": "1122" },
+      { "subject": "ARTF", "number": "1122" },
+      { "subject": "ARTF", "number": "1122" },
+      { "subject": "ARTF", "number": "1122" },
+      { "subject": "ARTF", "number": "1122" }
+    ]
   },
   {
     "subject": "ARTG",
@@ -94,10 +180,18 @@
       { "term": "202310", "crn": "20248" },
       { "term": "202310", "crn": "20264" },
       { "term": "202260", "crn": "60473" },
-      { "term": "202240", "crn": "40110" }
+      { "term": "202240", "crn": "40110" },
+      { "term": "202330", "crn": "30050" }
     ],
     "description": "Offers students an opportunity to acquire technical software skills used in typesetting, such as Adobe InDesign, in this introductory lab.",
-    "coreqs": [{ "subject": "ARTG", "number": "2250" }],
+    "coreqs": [
+      { "subject": "ARTG", "number": "2250" },
+      { "subject": "ARTG", "number": "2250" },
+      { "subject": "ARTG", "number": "2250" },
+      { "subject": "ARTG", "number": "2250" },
+      { "subject": "ARTG", "number": "2250" },
+      { "subject": "ARTG", "number": "2250" }
+    ],
     "prereqs": []
   },
   {
@@ -116,7 +210,12 @@
       { "term": "202310", "crn": "15728" },
       { "term": "202260", "crn": "60611" },
       { "term": "202240", "crn": "40119" },
-      { "term": "202240", "crn": "41130" }
+      { "term": "202240", "crn": "41130" },
+      { "term": "202330", "crn": "30379" },
+      { "term": "202330", "crn": "30953" },
+      { "term": "202330", "crn": "32243" },
+      { "term": "202330", "crn": "36074" },
+      { "term": "202330", "crn": "33192" }
     ],
     "description": "Explores graphic form and vocabulary through the development of icons and symbols. Applies graphic design principles to the correlation of forms with their function, content, and context. Incorporates a variety of media as visual communication elements.",
     "coreqs": [],
@@ -131,7 +230,8 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "17085" },
-      { "term": "202240", "crn": "40406" }
+      { "term": "202240", "crn": "40406" },
+      { "term": "202330", "crn": "31913" }
     ],
     "description": "Exposes students to basic programming design for user interfaces. Offers students an opportunity to become familiar with the logical elements of programming languages. Through lectures, hands-on in-class exercises, and modular projects, explores Web-based design and programming solutions for managing interaction and animation.",
     "coreqs": [],
@@ -148,7 +248,10 @@
       { "term": "202310", "crn": "12296" },
       { "term": "202310", "crn": "12297" },
       { "term": "202310", "crn": "12717" },
-      { "term": "202310", "crn": "14314" }
+      { "term": "202310", "crn": "14314" },
+      { "term": "202330", "crn": "31987" },
+      { "term": "202330", "crn": "32242" },
+      { "term": "202330", "crn": "33193" }
     ],
     "description": "Applies information design principles to Web and mobile interface design. Explores user-centered interface and programming design strategies for the delivery of responsive data-driven websites. Discusses audience definition, content development, information structuring, and navigation. Emphasizes tools and strategies for design, such as site maps, wireframes, prototypes, usability testing, and iterative development. Offers students an opportunity to obtain meaningful interactive experiences through team-based projects.",
     "coreqs": [],
@@ -161,10 +264,36 @@
     "scheduleType": "Studio",
     "credits": 1,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "18067" }],
+    "sections": [
+      { "term": "202310", "crn": "18067" },
+      { "term": "202330", "crn": "32510" }
+    ],
     "description": "Introduces skills and software used in designing and developing Web-based interactive environments. Explores Web-page scripting and tagging, CSS-based design coding, options for front- and back-end page design connections, and alternative technologies.",
     "coreqs": [],
-    "prereqs": [{ "subject": "ARTG", "number": "2400" }]
+    "prereqs": [
+      { "subject": "ARTG", "number": "2400" },
+      { "subject": "ARTG", "number": "2400" }
+    ]
+  },
+  {
+    "subject": "ARTG",
+    "number": "3100",
+    "title": "Physical and Digital Fabrication",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "36649" }],
+    "description": "Explores interdisciplinary projects and themes in immersive media and physical making by fabricating novel artifacts and experiences. Students form groups to create design solutions to wicked problems. Student teams follow a hackathon model to explore multiple ideas quickly. By engaging in critique and studio practice, offers students an opportunity to demonstrate and grow their technical skills."
+  },
+  {
+    "subject": "ARTG",
+    "number": "3250",
+    "title": "Physical Computing",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["AD", "EI"],
+    "sections": [{ "term": "202330", "crn": "38391" }],
+    "description": "Explores the communication between the physical world and the interactive, computer-based interface. Examines the potential of reactive analog and digital devices embedded within the physical realm. Offers students an opportunity to use simple kit sensors and indicators designed to enable student teams to create interfaces triggered by gesture, bodily movement, physical forces, and other tangible actions. Concludes with discussions of more complex interactive devices, the relationship between physical computing and robotics, and possible future directions."
   },
   {
     "subject": "ARTG",
@@ -181,7 +310,12 @@
       { "term": "202310", "crn": "15256" },
       { "term": "202310", "crn": "17070" },
       { "term": "202260", "crn": "60991" },
-      { "term": "202240", "crn": "41432" }
+      { "term": "202240", "crn": "41432" },
+      { "term": "202330", "crn": "30184" },
+      { "term": "202330", "crn": "31914" },
+      { "term": "202330", "crn": "34265" },
+      { "term": "202330", "crn": "35034" },
+      { "term": "202330", "crn": "36075" }
     ],
     "description": "Continues ARTG 2250, exploring structures and hierarchies through increasing typographic complexity. Investigates meaning, legibility, and readability with an emphasis on voice, organization, sequence, and the typographic grid.",
     "coreqs": [],
@@ -199,7 +333,11 @@
       { "term": "202310", "crn": "12068" },
       { "term": "202310", "crn": "15257" },
       { "term": "202310", "crn": "20993" },
-      { "term": "202240", "crn": "40998" }
+      { "term": "202240", "crn": "40998" },
+      { "term": "202330", "crn": "30487" },
+      { "term": "202330", "crn": "31996" },
+      { "term": "202330", "crn": "33949" },
+      { "term": "202330", "crn": "38990" }
     ],
     "description": "Explores the conceptual potential inherent in the merging of words/text with images/symbols to achieve a level of communication that exceeds the sum of visual and verbal components. Examining how the relationship of verbal and visual content can enhance meaning and comprehension, students identify a social issue of personal relevance and create a visual campaign targeting a core audience. Through a process including projects, readings, and lectures/discussions, students research, frame concepts, explore visual decisions, and determine appropriate deliverables.",
     "coreqs": [],
@@ -217,11 +355,27 @@
       { "term": "202310", "crn": "10517" },
       { "term": "202310", "crn": "14680" },
       { "term": "202260", "crn": "61246" },
-      { "term": "202240", "crn": "41433" }
+      { "term": "202240", "crn": "41433" },
+      { "term": "202330", "crn": "30376" },
+      { "term": "202330", "crn": "36650" },
+      { "term": "202330", "crn": "38993" },
+      { "term": "202330", "crn": "33984" },
+      { "term": "202330", "crn": "34925" }
     ],
     "description": "Introduces basic concepts, methods, and procedures of information design with a focus on mapping information. Students investigate visual systems and information structures such as maps, graphs, charts, and diagrams. Emphasizes the creative process of organizing, visualizing, and communicating data by making complex information easier to understand and use.",
     "coreqs": [],
-    "prereqs": [{ "subject": "ARTG", "number": "3350" }]
+    "prereqs": [
+      { "subject": "ARTG", "number": "3350" },
+      { "subject": "ARTG", "number": "3350" },
+      { "subject": "ARTG", "number": "3350" },
+      { "subject": "ARTG", "number": "3350" },
+      { "subject": "ARTG", "number": "3350" },
+      { "subject": "ARTG", "number": "3350" },
+      { "subject": "ARTG", "number": "3350" },
+      { "subject": "ARTG", "number": "3350" },
+      { "subject": "ARTG", "number": "3350" },
+      { "subject": "ARTG", "number": "3350" }
+    ]
   },
   {
     "subject": "ARTG",
@@ -234,11 +388,22 @@
       { "term": "202310", "crn": "12299" },
       { "term": "202310", "crn": "14681" },
       { "term": "202310", "crn": "15194" },
-      { "term": "202240", "crn": "41434" }
+      { "term": "202240", "crn": "41434" },
+      { "term": "202330", "crn": "32513" },
+      { "term": "202330", "crn": "33776" },
+      { "term": "202330", "crn": "34005" }
     ],
-    "description": "Addresses the origins, significance, and consequence of identity and branding expressions, in diverse media, in terms of personal, cultural, and commercial values. Using design research and studio methods, a series of exercises explores expressions of individual and collective identity. Offers students an opportunity to work in teams to develop branding projects in a process designed to increase their capacity to create effective brand expressions and analyze semiotic significance and cultural and economic value. Critique of work and presentation of concepts of identity and brand seek to sharpen students&rsquo; skills and challenge their ideas about brand. External critique seeks to create valuable tests of bias and assumptions, while principles of managing attention and trust seek to build the ability to function as a brand steward in actual practice.",
+    "description": "Addresses the origins, significance, and consequence of identity and branding expressions, in diverse media, in terms of personal, cultural, and commercial values. Using design research and studio methods, a series of exercises explores expressions of individual and collective identity. Offers students an opportunity to work in teams to develop branding projects in a process designed to increase their capacity to create effective brand expressions and analyze semiotic significance and cultural and economic value. Critique of work and presentation of concepts of identity and brand seek to sharpen students’ skills and challenge their ideas about brand. External critique seeks to create valuable tests of bias and assumptions, while principles of managing attention and trust seek to build the ability to function as a brand steward in actual practice.",
     "coreqs": [],
-    "prereqs": [{ "subject": "ARTG", "number": "2250" }]
+    "prereqs": [
+      { "subject": "ARTG", "number": "2250" },
+      { "subject": "ARTG", "number": "2250" },
+      { "subject": "ARTG", "number": "2250" },
+      { "subject": "ARTG", "number": "2250" },
+      { "subject": "ARTG", "number": "2250" },
+      { "subject": "ARTG", "number": "2250" },
+      { "subject": "ARTG", "number": "2250" }
+    ]
   },
   {
     "subject": "ARTG",
@@ -251,11 +416,32 @@
       { "term": "202310", "crn": "15195" },
       { "term": "202310", "crn": "15289" },
       { "term": "202310", "crn": "20429" },
-      { "term": "202260", "crn": "61369" }
+      { "term": "202260", "crn": "61369" },
+      { "term": "202330", "crn": "32530" },
+      { "term": "202330", "crn": "33368" },
+      { "term": "202330", "crn": "36076" }
     ],
     "description": "Investigates a wide range of design research methods and means of representing user intentions and actions in order to develop coherent designs based on the needs of the user. Includes use of context assessment, user experience audits, and scenario development as means to understand the motivations, behaviors, and values of audiences and participants.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "ARTG", "number": "1250" },
+      "Or",
+      { "subject": "ARTG", "number": "1255" },
+      { "subject": "ARTG", "number": "1250" },
+      "Or",
+      { "subject": "ARTG", "number": "1255" },
+      { "subject": "ARTG", "number": "1250" },
+      "Or",
+      { "subject": "ARTG", "number": "1255" },
+      { "subject": "ARTG", "number": "1250" },
+      "Or",
+      { "subject": "ARTG", "number": "1255" },
+      { "subject": "ARTG", "number": "1250" },
+      "Or",
+      { "subject": "ARTG", "number": "1255" },
+      { "subject": "ARTG", "number": "1250" },
+      "Or",
+      { "subject": "ARTG", "number": "1255" },
       { "subject": "ARTG", "number": "1250" },
       "Or",
       { "subject": "ARTG", "number": "1255" }
@@ -268,10 +454,20 @@
     "scheduleType": "Studio",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "13137" }],
+    "sections": [
+      { "term": "202310", "crn": "13137" },
+      { "term": "202330", "crn": "32511" },
+      { "term": "202330", "crn": "38392" }
+    ],
     "description": "Continues ARTG 3462 processes and strategies for creating compelling human-centered experiences. Offers students an opportunity to use design processes from multiple disciplines to develop real-world solutions.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "ARTG", "number": "3462" },
+      "Or",
+      { "subject": "ARTG", "number": "3465" },
+      { "subject": "ARTG", "number": "3462" },
+      "Or",
+      { "subject": "ARTG", "number": "3465" },
       { "subject": "ARTG", "number": "3462" },
       "Or",
       { "subject": "ARTG", "number": "3465" }
@@ -286,11 +482,18 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "12300" },
-      { "term": "202310", "crn": "14682" }
+      { "term": "202310", "crn": "14682" },
+      { "term": "202330", "crn": "32512" },
+      { "term": "202330", "crn": "34266" }
     ],
     "description": "Explores user-centered interface design for information exchanges using handheld and mobile devices. Studies the potentials for leveraging both the social and locative possibilities of mobile devices through research, discussions, and project assignments.",
     "coreqs": [],
-    "prereqs": [{ "subject": "ARTG", "number": "2400" }]
+    "prereqs": [
+      { "subject": "ARTG", "number": "2400" },
+      { "subject": "ARTG", "number": "2400" },
+      { "subject": "ARTG", "number": "2400" },
+      { "subject": "ARTG", "number": "2400" }
+    ]
   },
   {
     "subject": "ARTG",
@@ -303,7 +506,15 @@
       { "term": "202310", "crn": "10856" },
       { "term": "202310", "crn": "15216" },
       { "term": "202310", "crn": "19242" },
-      { "term": "202310", "crn": "19244" }
+      { "term": "202310", "crn": "19244" },
+      { "term": "202330", "crn": "38393" },
+      { "term": "202330", "crn": "38394" },
+      { "term": "202330", "crn": "39133" },
+      { "term": "202330", "crn": "39358" },
+      { "term": "202330", "crn": "39107" },
+      { "term": "202330", "crn": "39359" },
+      { "term": "202330", "crn": "39134" },
+      { "term": "202330", "crn": "39360" }
     ],
     "description": "Encompasses the proposal and execution of a comprehensive project in graphic, interaction, or experience design. Guides students in practical, hands-on implementation of contemporary design methods, as individuals or small interdisciplinary teams. Offers students an opportunity to develop an actionable design proposal and complete a polished project using appropriate design methods, as well as the opportunity to deepen understanding of the ways of knowing through design practice. Serves as a culmination to the undergraduate program.",
     "coreqs": [],
@@ -316,10 +527,16 @@
     "scheduleType": "Studio",
     "credits": 4,
     "nuPath": ["EI"],
-    "sections": [{ "term": "202310", "crn": "11508" }],
+    "sections": [
+      { "term": "202310", "crn": "11508" },
+      { "term": "202330", "crn": "30914" }
+    ],
     "description": "Offers an advanced course exploring a variety of typographical solutions, including expressive formal and complex content-based projects.",
     "coreqs": [],
-    "prereqs": [{ "subject": "ARTG", "number": "3350" }]
+    "prereqs": [
+      { "subject": "ARTG", "number": "3350" },
+      { "subject": "ARTG", "number": "3350" }
+    ]
   },
   {
     "subject": "ARTG",
@@ -328,10 +545,16 @@
     "scheduleType": "Studio",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "14322" }],
-    "description": "Offers students experience in the design of identity, information, persuasive messaging, and publication projects. Focuses on cross-platform (print, digital, and three-dimensional) manifestations&mdash;all based on a single area of content.",
+    "sections": [
+      { "term": "202310", "crn": "14322" },
+      { "term": "202330", "crn": "33777" }
+    ],
+    "description": "Offers students experience in the design of identity, information, persuasive messaging, and publication projects. Focuses on cross-platform (print, digital, and three-dimensional) manifestations—all based on a single area of content.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "ARTG", "number": "3450" },
+      "And",
+      { "subject": "ARTG", "number": "3350" },
       { "subject": "ARTG", "number": "3450" },
       "And",
       { "subject": "ARTG", "number": "3350" }
@@ -362,7 +585,8 @@
     "sections": [
       { "term": "202310", "crn": "11878" },
       { "term": "202310", "crn": "17129" },
-      { "term": "202310", "crn": "20548" }
+      { "term": "202310", "crn": "20548" },
+      { "term": "202310", "crn": "21588" }
     ],
     "description": "This course may have restrictions for Art + Design programs , all students (CAMD or from other colleges) are welcome to request registration based on availability and on a first come first serve basis. To request registration for a course, please contact Ariel Rodriguez to complete the A + D Grad Registration Request Form.",
     "coreqs": [],
@@ -416,7 +640,8 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "14108" },
-      { "term": "202260", "crn": "61370" }
+      { "term": "202260", "crn": "61370" },
+      { "term": "202330", "crn": "39361" }
     ],
     "description": "This course may have restrictions for Art + Design programs , all students (CAMD or from other colleges) are welcome to request registration based on availability and on a first come first serve basis. To request registration for a course, please contact Ariel Rodriguez to complete the A + D Grad Registration Request Form.",
     "coreqs": [],
@@ -432,15 +657,32 @@
     "sections": [
       { "term": "202310", "crn": "14109" },
       { "term": "202310", "crn": "19819" },
-      { "term": "202260", "crn": "61371" }
+      { "term": "202260", "crn": "61371" },
+      { "term": "202330", "crn": "39362" }
     ],
     "description": "This course may have restrictions for Art + Design programs , all students (CAMD or from other colleges) are welcome to request registration based on availability and on a first come first serve basis. To request registration for a course, please contact Ariel Rodriguez to complete the A + D Grad Registration Request Form.",
     "coreqs": [],
     "prereqs": [
       { "subject": "ARTG", "number": "5150" },
       "Or",
+      { "subject": "ARTG", "number": "5150" },
+      { "subject": "ARTG", "number": "5150" },
+      "Or",
+      { "subject": "ARTG", "number": "5150" },
+      { "subject": "ARTG", "number": "5150" },
+      "Or",
       { "subject": "ARTG", "number": "5150" }
     ]
+  },
+  {
+    "subject": "ARTG",
+    "number": "5310",
+    "title": "Visual Cognition",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "37500" }],
+    "description": "Introduces human visual cognition as it applies to information design and visualization. Focuses on perception, attention, pattern recognition, information acquisition, memory, and creation of mental models. Explores reasoning, cognition, decision making, and problem solving in relation to visual artifacts. Students who do not meet course restrictions may seek permission of instructor or program coordinator."
   },
   {
     "subject": "ARTG",
@@ -451,7 +693,8 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "19821" },
-      { "term": "202310", "crn": "20549" }
+      { "term": "202310", "crn": "20549" },
+      { "term": "202330", "crn": "36651" }
     ],
     "description": "This course may have restrictions for Art + Design programs , all students (CAMD or from other colleges) are welcome to request registration based on availability and on a first come first serve basis. To request registration for a course, please contact Ariel Rodriguez to complete the A + D Grad Registration Request Form.",
     "coreqs": [],
@@ -464,10 +707,24 @@
     "scheduleType": "Studio",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "17309" }],
+    "sections": [
+      { "term": "202310", "crn": "17309" },
+      { "term": "202330", "crn": "32869" },
+      { "term": "202310", "crn": "21587" }
+    ],
     "description": "This course may have restrictions for Art + Design programs , all students (CAMD or from other colleges) are welcome to request registration based on availability and on a first come first serve basis. To request registration for a course, please contact Ariel Rodriguez to complete the A + D Grad Registration Request Form.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "ARTG",
+    "number": "5430",
+    "title": "Visualization Technologies 2: Advanced Practices",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "35522" }],
+    "description": "Builds on the foundational skills acquired in ARTG 5330. Introduces students to intermediate- to advanced-level topics in web-based interactive visualization. Focuses on building greater proficiency in working with d3 and related JavaScript libraries and on acquiring knowledge of best practices and common patterns in data visualization problem solving. Through lectures, workshops, and a final project, offers students an opportunity to learn to effectively deploy their data visualization skills to explore and extract understanding from data in a critical and productive way."
   },
   {
     "subject": "ARTG",
@@ -491,7 +748,11 @@
     "scheduleType": "Seminar",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "13568" }],
+    "sections": [
+      { "term": "202310", "crn": "13568" },
+      { "term": "202330", "crn": "34767" },
+      { "term": "202330", "crn": "36721" }
+    ],
     "description": "Explores a systems-based perspective on our environment by addressing questions that are fundamental to design practice: What is a system, and what are the different types? How do we observe, analyze, and represent systems? What interactions can we have with systems and what are the different types of interaction? Explores structures and processes for the design of systemic relationships between people, artifacts, environments, and activities. Systems may be physical, virtual, social, or a combination. Through discussion, writing, diagramming, and project exercises, offers students an opportunity to learn principles of systems theory and explore the connection between design methods and systems thinking. Students who do not meet course restrictions may seek permission of instructor or program coordinator.",
     "coreqs": [],
     "prereqs": []
@@ -543,6 +804,40 @@
   },
   {
     "subject": "ARTG",
+    "number": "6100",
+    "title": "Information Design Studio 2: Dynamic Mapping and Models",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "36723" }],
+    "description": "Continues the exploration of data representations in a variety of media. Focuses on interactive and time-based techniques. Emphasizes computational methods of data collection, manipulation, and encoding. Requires graduate standing or permission of program coordinator or instructor. May be repeated once."
+  },
+  {
+    "subject": "ARTG",
+    "number": "6110",
+    "title": "Information Design Theory and Critical Thinking",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "36724" }],
+    "description": "Examines various theoretical models of information visualization and delivery systems. Evaluates the concepts and effectiveness of the models through discussions and writing activities. Students who do not meet course prerequisites or restrictions may seek permission of program coordinator or instructor."
+  },
+  {
+    "subject": "ARTG",
+    "number": "6310",
+    "title": "Design for Behavior and Experience",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "32870" },
+      { "term": "202330", "crn": "33950" },
+      { "term": "202330", "crn": "38395" }
+    ],
+    "description": "Examines the potential of interfaces as mediators between information and users. Explores iterative prototyping and research methods to analyze patterns of behavior and implications of interface on effective communication. Utilizes observation, empathy, ethnography, and participatory design methods to offer students an opportunity to increase their understanding of audiences’ and stakeholders’ motivations and expectations. Requires graduate standing or permission of program coordinator or instructor."
+  },
+  {
+    "subject": "ARTG",
     "number": "6330",
     "title": "Information Design Mapping Strategies",
     "scheduleType": "Studio",
@@ -555,6 +850,29 @@
   },
   {
     "subject": "ARTG",
+    "number": "6555",
+    "title": "Graphic Design Synthesis",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "36727" }],
+    "description": "This course has been designed for graduate students in the Information Design and Visualization program. It builds on skills obtained in the ARTG 5100 Information Design Studio: Principles course. The course is intended to give the students experience in the design of identity, information, and publication projects, as well as focus on cross-platform (print, digital, and three-dimensional) manifestations – all based on a single area of content. Its scope reflects the multi-faceted components that comprise real-world comprehensive design projects. Through additional research and readings, students are to perform at high level, and demonstrate how the readings of theoretical material reflect in their projects. Information and Design Visualization graduate students, or permission of the teacher."
+  },
+  {
+    "subject": "ARTG",
+    "number": "6600",
+    "title": "Experience Design Studio 2: Group and Interpersonal",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "33195" },
+      { "term": "202330", "crn": "38396" }
+    ],
+    "description": "Offers students an opportunity to learn a human-centered design perspective and to develop experience design competency in the complex context of interpersonal and group interactions. Experience design is a holistic approach that investigates the human experience in specific situations in order to improve its quality. Students study the person-to-person aspect of human-centered design through readings and in-class activities, as well as practice applying its perspectives, models, and theories to the project process. Students are asked to participate in class discussions and create compelling experience design projects to address the needs, desires, fears, and aspirations of their audience."
+  },
+  {
+    "subject": "ARTG",
     "number": "6700",
     "title": "Design Studio 3: Synthesis",
     "scheduleType": "Studio",
@@ -564,7 +882,7 @@
       { "term": "202310", "crn": "16908" },
       { "term": "202310", "crn": "19894" }
     ],
-    "description": "Extends the exploration of design principles and methods by starting the development of a design master thesis. Examines how to develop effective design interventions capable of enriching human experience in specific situations, sites, and in the context of comprehensive activities. Emphasizes a systems perspective in both research and design development&mdash;the relationships between diverse participant groups and communities as well as the complex implications and interrelations of interventions at multiple scales and dimensions. Continues the exploration of theories of information design a&shy;&shy;nd visualization. Offers students an opportunity to prototype functioning applications that advance their thesis projects.",
+    "description": "Extends the exploration of design principles and methods by starting the development of a design master thesis. Examines how to develop effective design interventions capable of enriching human experience in specific situations, sites, and in the context of comprehensive activities. Emphasizes a systems perspective in both research and design development—the relationships between diverse participant groups and communities as well as the complex implications and interrelations of interventions at multiple scales and dimensions. Continues the exploration of theories of information design a­­nd visualization. Offers students an opportunity to prototype functioning applications that advance their thesis projects.",
     "coreqs": [],
     "prereqs": []
   },
@@ -579,23 +897,28 @@
       { "term": "202310", "crn": "12027" },
       { "term": "202310", "crn": "20329" }
     ],
-    "description": "Examines emerging research and critical practices in design. Provides conceptual frameworks to formalize and iterate on students&rsquo; thesis topics. Presents and frames qualitative research methods for application in thesis research. Offers students an opportunity to develop the visual and verbal expression of the thesis through writing, discussion, presentation, and critique, resulting in a thesis proposal document and in a public presentation for faculty feedback.",
+    "description": "Examines emerging research and critical practices in design. Provides conceptual frameworks to formalize and iterate on students’ thesis topics. Presents and frames qualitative research methods for application in thesis research. Offers students an opportunity to develop the visual and verbal expression of the thesis through writing, discussion, presentation, and critique, resulting in a thesis proposal document and in a public presentation for faculty feedback.",
     "coreqs": [],
     "prereqs": []
   },
   {
     "subject": "ARTG",
-    "number": "7996",
-    "title": "Thesis Continuation",
+    "number": "7910",
+    "title": "Design Project and Exhibition",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "35005" }],
+    "description": "Offers students an opportunity to focus on the design of pieces, artifacts, and experiences for the thesis exhibition. Includes planning and design of the exhibit. Situates the thesis contributions to design as project-based discipline. Discusses and reflects on the design process at the crossroads of methodological, systematic iteration, and creative exploration."
+  },
+  {
+    "subject": "ARTG",
+    "number": "7986",
+    "title": "Research",
     "scheduleType": "Individual Instruction",
     "credits": 0,
     "nuPath": [],
-    "sections": [
-      { "term": "202310", "crn": "13632" },
-      { "term": "202310", "crn": "15836" }
-    ],
-    "description": "Offers students continuing thesis supervision by members of the department.",
-    "coreqs": [],
-    "prereqs": []
+    "sections": [{ "term": "202310", "crn": "21833" }],
+    "description": "Offers students an opportunity to conduct full-time research under faculty supervision."
   }
 ]

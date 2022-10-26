@@ -10,7 +10,8 @@
       { "term": "202310", "crn": "11937" },
       { "term": "202310", "crn": "20423" },
       { "term": "202310", "crn": "20564" },
-      { "term": "202310", "crn": "20725" }
+      { "term": "202310", "crn": "20725" },
+      { "term": "202330", "crn": "30843" }
     ],
     "description": "Examines the rich interconnections between literature and language and the culture that supports them. Discusses the relationship of language to literature and investigates how language and literatures are embedded in culture. Addresses several very broad and important questions, such as the relationship between language and culture; the relationship between language and thought; the definition of cultural relativism; and how ethical dilemmas are expressed in different cultures. Explores the relationship of esthetic and rhetorical traditions in given languages to the culture from which they sprang. In this context, examines the extremely interesting case of American Sign Language and how a gestural language sheds light on these issues.",
     "coreqs": [],
@@ -26,11 +27,35 @@
     "sections": [
       { "term": "202310", "crn": "12773" },
       { "term": "202310", "crn": "15396" },
-      { "term": "202310", "crn": "16509" }
+      { "term": "202310", "crn": "16509" },
+      { "term": "202330", "crn": "33992" },
+      { "term": "202330", "crn": "38095" },
+      { "term": "202330", "crn": "38096" },
+      { "term": "202330", "crn": "39262" }
     ],
-    "description": "Examines contemporary works of cinematography in Latin America, focusing on the culture and imagery of the Spanish-, French-, and Portuguese-speaking peoples of the Western hemisphere, including the United States. Critically engages&amp;#8212;from a technical (cinematographic), genre, and sociohistorical perspective&amp;#8212;topics of history, memory, and cultural resiliency; colonialism, racism, and patriarchy; dictatorship, revolution, and democratization; and nationalism, dependency, and globalization. Conducted in English; most films are in French, Portuguese, or Spanish with English subtitles.",
+    "description": "Examines contemporary works of cinematography in Latin America, focusing on the culture and imagery of the Spanish-, French-, and Portuguese-speaking peoples of the Western hemisphere, including the United States. Critically engages—from a technical (cinematographic), genre, and sociohistorical perspective—topics of history, memory, and cultural resiliency; colonialism, racism, and patriarchy; dictatorship, revolution, and democratization; and nationalism, dependency, and globalization. Conducted in English; most films are in French, Portuguese, or Spanish with English subtitles.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "CLTR",
+    "number": "1260",
+    "title": "Japanese Film",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [{ "term": "202330", "crn": "36035" }],
+    "description": "Provides an introduction to Japanese film through works by such great masters as Kurosawa, Mizoguchi, and Ozu, as well as works by new directors from the 1980s and 1990s such as Tami, Morita, and Suo. Studies both form and content; relates major works to Japanese culture. Conducted in English."
+  },
+  {
+    "subject": "CLTR",
+    "number": "1500",
+    "title": "Modern Chinese History and Culture",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC", "SI"],
+    "sections": [{ "term": "202330", "crn": "36036" }],
+    "description": "Introduces modern Chinese history and culture through literary works, films, and historical texts. Examines political, social, and cultural changes in China since 1800: the decline of empire; the New Culture Movement of the 1920s; the rise of nationalism and rural revolution; the changing roles of women; the Cultural Revolution of the 1960s; and China's cinematic, literary, and economic engagement with the world since 1978. Taught in English and open to all undergraduates. CLTR 1500 and HIST 1500 are cross-listed."
   },
   {
     "subject": "CLTR",
@@ -39,8 +64,11 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["IC", "SI"],
-    "sections": [{ "term": "202310", "crn": "10449" }],
-    "description": "Explores contemporary France and French mentality through lectures, screenings, readings, and discussions. Topics covered include the modern vs. the traditional family, social reproduction, gender norms, culture and social distinction, the concept of &amp;#8220;grandeur,&amp;#8221; identity, and immigration. Offers students an opportunity to evaluate historical and sociological readings, films, documentaries, and TV commercials; to compare French and American systems; and to consider contemporary human and social behaviors in the face of globalization.",
+    "sections": [
+      { "term": "202310", "crn": "10449" },
+      { "term": "202330", "crn": "32531" }
+    ],
+    "description": "Explores contemporary France and French mentality through lectures, screenings, readings, and discussions. Topics covered include the modern vs. the traditional family, social reproduction, gender norms, culture and social distinction, the concept of “grandeur,” identity, and immigration. Offers students an opportunity to evaluate historical and sociological readings, films, documentaries, and TV commercials; to compare French and American systems; and to consider contemporary human and social behaviors in the face of globalization.",
     "coreqs": [],
     "prereqs": []
   },
@@ -51,20 +79,11 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["IC"],
-    "sections": [{ "term": "202310", "crn": "10568" }],
-    "description": "Explores the construction of an Italian national cultural identity through a historical and cross-disciplinary perspective from the Middle Ages; the Renaissance; and the modern, post&ndash;WWII period. Organized into modules that focus on the major issues related to the idea of unity and division such as north and south divide, regionalism, language pluralism, fascism and dissent, criminal organizations, and migration. Conducted in English.",
-    "coreqs": [],
-    "prereqs": []
-  },
-  {
-    "subject": "CLTR",
-    "number": "1504",
-    "title": "Cultural History of Spain",
-    "scheduleType": "Lecture",
-    "credits": 4,
-    "nuPath": ["IC", "SI"],
-    "sections": [{ "term": "202310", "crn": "10441" }],
-    "description": "Examines chronologically the forces that have forged Spanish culture and have made Spain the pluralistic society and multinational country it is today. Traces the development of the peoples of the Iberian Peninsula from prehistoric times to the present. Based primarily on the history of ideas, the arts, and architecture, incorporates history, sociology, anthropology, geography, economics, and politics. Conducted in English.",
+    "sections": [
+      { "term": "202310", "crn": "10568" },
+      { "term": "202330", "crn": "32532" }
+    ],
+    "description": "Explores the construction of an Italian national cultural identity through a historical and cross-disciplinary perspective from the Middle Ages; the Renaissance; and the modern, post–WWII period. Organized into modules that focus on the major issues related to the idea of unity and division such as north and south divide, regionalism, language pluralism, fascism and dissent, criminal organizations, and migration. Conducted in English.",
     "coreqs": [],
     "prereqs": []
   },
@@ -75,10 +94,23 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["DD", "IC"],
-    "sections": [{ "term": "202310", "crn": "16072" }],
+    "sections": [
+      { "term": "202310", "crn": "16072" },
+      { "term": "202330", "crn": "30037" }
+    ],
     "description": "Provides an introduction to Japanese popular culture through critical analysis of  mass media such as film, television, comics, and animation. Investigates various social and cultural issues, such as gender, family, and education. Films and videos supplement readings. Conducted in English.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "CLTR",
+    "number": "2001",
+    "title": "World Cultures through Film",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC", "SI"],
+    "sections": [{ "term": "202330", "crn": "34215" }],
+    "description": "Introduces the study of world cinema from the past several decades as a form of artistic and cultural expression. Emphasizes the way that different ethnicities and cultures mix and even clash within national boundaries. Readings cover such topics as the postcolonial inheritance, immigration, the boundaries of class, the pressures of modernization, ethnic identities, and historical memory. Examines storytelling in its multicultural aspects and deals with the diverse influences of entertainment cinema and art cinema, as well as measures taken by countries to limit the influx of foreign films in order to protect their own cultural productivity. One overall concern of the course is the place of film in contemporary global culture."
   },
   {
     "subject": "CLTR",
@@ -88,7 +120,7 @@
     "credits": 4,
     "nuPath": ["IC", "SI"],
     "sections": [{ "term": "202310", "crn": "19060" }],
-    "description": "Explores contending theories of identity and nationalism&mdash;a powerful force in international and domestic politics. Examines topics such as the process of identity creation, the choice of national symbols, how group boundaries are established, the role of identity in conflict and state building, and the debate over nationalism&rsquo;s constructed or primordial nature. POLS 3418 and CLTR 3418 are cross-listed.",
+    "description": "Explores contending theories of identity and nationalism—a powerful force in international and domestic politics. Examines topics such as the process of identity creation, the choice of national symbols, how group boundaries are established, the role of identity in conflict and state building, and the debate over nationalism’s constructed or primordial nature. POLS 3418 and CLTR 3418 are cross-listed.",
     "coreqs": [],
     "prereqs": []
   },
@@ -109,5 +141,25 @@
       "Or",
       { "subject": "SPNS", "number": "3102" }
     ]
+  },
+  {
+    "subject": "CLTR",
+    "number": "3720",
+    "title": "Literature, Arts, and Poverty in Latin America",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC"],
+    "sections": [{ "term": "202330", "crn": "38091" }],
+    "description": "Focuses on the construction, characteristics, and representation of poverty/the poor in Latin American texts from the thirties and sixties and in the works of contemporary Latin American writers and film directors. Discusses the relation of these works to a &#8220;realist tradition&#8221; by studying social, political, and cultural aspects of Latin America from the nineteenth and twentieth centuries. Considers whether we are facing a new kind of realism. Also engages the problem of representation, the &#8220;role of literature&#8221; (ethics and literature), and its relation with politics and the global economy (literature and the market) in the Latin American context. Taught in Spanish."
+  },
+  {
+    "subject": "CLTR",
+    "number": "4655",
+    "title": "Latin American Literature",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC", "WI"],
+    "sections": [{ "term": "202330", "crn": "38097" }],
+    "description": "Offers an overview of the major trends in Latin American narrative, poetry, drama, and essays, from Bernal Diaz through Borges and Bolaño. Studies broad cultural and political contexts, especially the Cold War period and the impact of neoliberalism. Conducted in Spanish."
   }
 ]

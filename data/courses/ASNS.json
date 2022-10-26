@@ -6,7 +6,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["DD", "IC"],
-    "sections": [{ "term": "202310", "crn": "14866" }],
+    "sections": [
+      { "term": "202310", "crn": "14866" },
+      { "term": "202330", "crn": "30339" }
+    ],
     "description": "Seeks to provide an understanding of the constituent characteristics that originally linked East Asia as a region and the nature of the transformations that have occurred in the region over the last two thousand years. Concentrates on China and Japan, and addresses Korea and Vietnam where possible. Also seeks to provide students with effective interdisciplinary analytical skills as well as historical, ethical, cultural diversity, and aesthetic perspectives. ASNS 1150 and HIST 1150 are cross-listed.",
     "coreqs": [],
     "prereqs": []
@@ -22,5 +25,15 @@
     "description": "Examines the impact of Asian immigrant communities on U.S. political, economic, social, and cultural life and their encounters with racial, political, and economic discrimination from the nineteenth century to the present.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "ASNS",
+    "number": "3485",
+    "title": "China: Governance and Foreign Policy",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38380" }],
+    "description": "Focuses on China’s political system and the major issues confronted: leadership recruitment and succession, economic policies and development, class and class struggle, political culture and socialization, human rights, civil society, the media, and both internal and external security concerns. Examines how ideology, development, culture, and the pursuit of China’s national interest affect governance."
   }
 ]

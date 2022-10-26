@@ -9,7 +9,10 @@
     "sections": [
       { "term": "202310", "crn": "14273" },
       { "term": "202310", "crn": "11576" },
-      { "term": "202310", "crn": "21025" }
+      { "term": "202310", "crn": "21025" },
+      { "term": "202330", "crn": "33232" },
+      { "term": "202330", "crn": "33233" },
+      { "term": "202330", "crn": "35020" }
     ],
     "description": "Introduces macroeconomic analysis. Topics include the flow of national income, economics growth and fluctuation, the role of money and banking, and monetary and fiscal policies. Emphasizes the development of conceptual tools to analyze the economic problems facing modern society.",
     "coreqs": [],
@@ -25,7 +28,10 @@
     "sections": [
       { "term": "202310", "crn": "13965" },
       { "term": "202310", "crn": "13966" },
-      { "term": "202310", "crn": "18119" }
+      { "term": "202310", "crn": "18119" },
+      { "term": "202330", "crn": "33784" },
+      { "term": "202330", "crn": "33785" },
+      { "term": "202330", "crn": "35021" }
     ],
     "description": "Focuses on development of basic theory of demand, supply, and market price. Explores applications to selected microeconomic problems, such as basic monopoly and competition, and other issues that relate to the role of the pricing system in resource allocation and income distribution.",
     "coreqs": [],

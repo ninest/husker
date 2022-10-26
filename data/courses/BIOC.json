@@ -8,9 +8,10 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "19509" },
-      { "term": "202310", "crn": "19510" }
+      { "term": "202310", "crn": "19510" },
+      { "term": "202330", "crn": "38635" }
     ],
-    "description": "Introduces first-year students to the major and the field of biochemistry and to the professional and academic resources available to students at Northeastern University. Acquaints students with their faculty, advisors, and fellow students; provides an initial orientation to undergraduate research, cooperative education, and other experiential learning options; helps develop the academic skills necessary to succeed; provides grounding in the culture and values of the university community; and assists in interpersonal skill development&amp;#8212;in short, familiarizes students with the resources and skills needed to become a successful university student.",
+    "description": "Introduces first-year students to the major and the field of biochemistry and to the professional and academic resources available to students at Northeastern University. Acquaints students with their faculty, advisors, and fellow students; provides an initial orientation to undergraduate research, cooperative education, and other experiential learning options; helps develop the academic skills necessary to succeed; provides grounding in the culture and values of the university community; and assists in interpersonal skill development—in short, familiarizes students with the resources and skills needed to become a successful university student.",
     "coreqs": [],
     "prereqs": []
   },
@@ -21,10 +22,19 @@
     "scheduleType": "Lecture",
     "credits": 1,
     "nuPath": ["CE", "WI"],
-    "sections": [{ "term": "202310", "crn": "21022" }],
+    "sections": [
+      { "term": "202310", "crn": "21022" },
+      { "term": "202330", "crn": "33089" }
+    ],
     "description": "Designed for students who are also enrolled in approved 4-semester-hour research courses in which they each conduct original experimental work under the direction of an approved mentor. Requires reflection by students on their various educational experiences, extensive research of scientific questions related to these experiences (with the research itself carried out in the approved research course), and development of an original research report. Required components include writing with revision and a major oral presentation. Offers students an opportunity to hone reflection and communication skills through formal and informal presentations, class discussion, and critique. Requires concurrent registration in BIOC 4991, BIOC 4994, BIOL 4991, CHEM 4991, or other 4-SH research course approved by the Biochemistry Director.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "BIOC", "number": "4991" },
+      "Or",
+      { "subject": "BIOC", "number": "4994" },
+      "Or",
+      { "subject": "BIOL", "number": "4991" },
+      "Or",
       { "subject": "BIOC", "number": "4991" },
       "Or",
       { "subject": "BIOC", "number": "4994" },

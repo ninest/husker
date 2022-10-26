@@ -17,6 +17,16 @@
   },
   {
     "subject": "LARC",
+    "number": "2140",
+    "title": "Designed Urban Ecologies",
+    "scheduleType": "Studio",
+    "credits": 6,
+    "nuPath": ["ND"],
+    "sections": [{ "term": "202330", "crn": "31351" }],
+    "description": "Continues LARC 2130. Focuses on sustainable community/campus/neighborhood design at the intersection of large-scale urban and environmental systems. Primary topics include mixed-use programming in relation to systems ranging from zoning and transit to the material flows of human and wildlife habitats. This studio course introduces basic geographical information systems (GIS) and application of landscape ecology principles. Projects examine the role of landscape systems and the formation and reformulation of land development scenarios."
+  },
+  {
+    "subject": "LARC",
     "number": "2230",
     "title": "Introduction to Sustainable Site Planning and Design",
     "scheduleType": "Lecture",
@@ -26,6 +36,16 @@
     "description": "Addresses fundamental techniques of sustainable site design in the built environment, including earthworks, water, and soils, using current-day storm events. Primary topics include topography, site grading, study models, universal accessibility, and storm water considerations in urban and other built environments. Introduces students to urban tree planting techniques, graphic communications, basic site materials, and construction details.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "LARC",
+    "number": "2240",
+    "title": "Sustainable Site Construction and Detailing",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "31352" }],
+    "description": "Continues LARC 2230. Focuses on construction technologies, methods, and materials for sustainable site elements, including environmental performance infrastructures, circulation systems, and basic site structures. Introduces structural systems for site work via lecture and in-class exercises."
   },
   {
     "subject": "LARC",
@@ -47,8 +67,25 @@
       "Or",
       { "subject": "ENGW", "number": "1111" },
       "Or",
+      { "subject": "ENGW", "number": "1102" },
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
       { "subject": "ENGW", "number": "1102" }
     ]
+  },
+  {
+    "subject": "LARC",
+    "number": "2340",
+    "title": "Cities, Landscape, and Contemporary Culture",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["ER", "IC", "SI", "WI"],
+    "sections": [{ "term": "202330", "crn": "31353" }],
+    "description": "Presents the core themes, social theories, ethical debates, and iconic works that shape the field of contemporary landscape architecture and urban design, particularly in the context of environmental change and climate disruption. Focuses on contemporary projects and designers to examine formal characteristics of built works and contextual factors, including social, political, and economic systems and institutions. Challenges students to apply theories of environmental and climate justice to questions about the built environment and the relationship between natural and social systems. Designed to prepare students to address complex sociocultural and environmental issues through thoughtful inquiry and creative expression. Offers students an opportunity to formulate critical design perspectives via reading responses, project analyses, written work, and podcasts."
   },
   {
     "subject": "LARC",
@@ -61,9 +98,19 @@
       { "term": "202310", "crn": "11526" },
       { "term": "202310", "crn": "20522" }
     ],
-    "description": "Uses the study of New England&rsquo;s plant communities and plant identification as a framework to consider the evolution of the New England landscape from European colonization to the present. Combines field study with lectures and class discussion. Human activity, land use, and settlement patterns all influence the development of landscape, and our cultural history is expressed in the species demographics, land forms, and ecosystem dynamics of our environment.",
+    "description": "Uses the study of New England’s plant communities and plant identification as a framework to consider the evolution of the New England landscape from European colonization to the present. Combines field study with lectures and class discussion. Human activity, land use, and settlement patterns all influence the development of landscape, and our cultural history is expressed in the species demographics, land forms, and ecosystem dynamics of our environment.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "LARC",
+    "number": "2440",
+    "title": "Planting Design",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "31354" }],
+    "description": "Combines horticultural and ecological field study with studio design exercises to deliver introductory to advanced planting design techniques. Primary topics include how to design phytoremediation strategies for contaminated sites, seasonal planting considerations, strategic phasing, and maintenance techniques. This is a workshop-based course."
   },
   {
     "subject": "LARC",
@@ -79,21 +126,13 @@
   },
   {
     "subject": "LARC",
-    "number": "5110",
-    "title": "Advanced Design for Urban Environments Studio",
+    "number": "5120",
+    "title": "Comprehensive Design Studio",
     "scheduleType": "Studio",
     "credits": 6,
-    "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "13442" }],
-    "description": "Focuses on ecological, economic, and social resiliency of designed urban environments in response to globalization. Contemporary case studies of urban change provide the basis for design investigation into issues such as the impact of shifting industries on Detroit (deurbanization) or Shenzhen (rapid densification); shifting weather and water patterns in densely populated regions; societal shifts, from generational demographics to political upheavals and militarization/demilitarization of the urban landscape. Emphasizes the integration of interdisciplinary perspectives and advanced design analysis, conceptualization, and visualization skills into development of a global perspective on managing change in the built environment.",
-    "coreqs": [],
-    "prereqs": [
-      { "subject": "ARCH", "number": "3170" },
-      "Or",
-      { "subject": "LARC", "number": "3170" },
-      "Or",
-      { "subject": "SUEN", "number": "6110" }
-    ]
+    "nuPath": ["CE"],
+    "sections": [{ "term": "202330", "crn": "33278" }],
+    "description": "Offers students an opportunity to design and develop a site or district including all of its requisite systems. Students draw on their landscape architectural education to produce a design both responsive to specific criteria and prototypical of ways to build sustainable and adaptable public landscapes&#8212;often described as &#8220;resilience.&#8221; Projects are expected to respond to and integrate their contexts (urban, environmental, climatic, and economic); meet spatial, performative, and programmatic requirements and technical demands (materials, implementation and management strategies); and dynamic processes at play within and around the project site."
   },
   {
     "subject": "LARC",
@@ -109,18 +148,6 @@
   },
   {
     "subject": "LARC",
-    "number": "5220",
-    "title": "Sustainable Landscape Practices",
-    "scheduleType": "Lecture",
-    "credits": 4,
-    "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "12532" }],
-    "description": "Offers a lecture/workshop/field-based course that builds upon landscape technology skills introduced in LARC 2230 and LARC 2240, with a focus on ecotechnologies operating in the built environment. Core topics include design and implementation metrics, material life-cycle management, funding models, and aesthetic and cultural aspects. Potential topics include green roofs, green walls, bioswales, pervious pavements, constructed wetlands, &amp;#8220;complete street&amp;#8221; elements, geosensor networks, alternative waste management, water detention and energy generation methods, and living infrastructures for coastal environments.",
-    "coreqs": [],
-    "prereqs": []
-  },
-  {
-    "subject": "LARC",
     "number": "5310",
     "title": "Urban Landscape Seminar",
     "scheduleType": "Seminar",
@@ -130,5 +157,15 @@
     "description": "Offers a discussion-based seminar focusing on case studies of influential works in contemporary landscape, urbanism, and sustainable environmental design. Encourages students to seek interdisciplinary perspectives toward development of critical-thinking skills in relation to forces shaping urban environments in contemporary global culture. A diverse range of material from published design criticism to open-source social media engagement provides basis for discussion and written and oral presentations.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "LARC",
+    "number": "5420",
+    "title": "Professional Practice in Landscape Architecture",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "33279" }],
+    "description": "Offers a lecture- and case-study-based course focusing on strategic planning, business models, organizational structures, logistics, and regulatory paradigms associated with professional practice in landscape architecture. Core topics provide an overview of common technical and business procedures, including RFQs; RFPs; marketing, public relations, and client management; hiring and human resource management; review board/regulatory boards; permitting; and licensure."
   }
 ]

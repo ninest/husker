@@ -6,8 +6,11 @@
     "scheduleType": "Lecture",
     "credits": 1,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "14112" }],
-    "description": "Intended for first-year students in the College of Social Sciences and Humanities. Introduces students to liberal arts; familiarizes them with their major; develops the academic skills necessary to succeed (analytical ability and critical thinking); provides grounding in the culture and values of the University community; and helps to develop interpersonal skills&amp;#8212;in short, familiarizes students with all skills needed to become a successful university student.",
+    "sections": [
+      { "term": "202310", "crn": "14112" },
+      { "term": "202330", "crn": "34636" }
+    ],
+    "description": "Intended for first-year students in the College of Social Sciences and Humanities. Introduces students to liberal arts; familiarizes them with their major; develops the academic skills necessary to succeed (analytical ability and critical thinking); provides grounding in the culture and values of the University community; and helps to develop interpersonal skills—in short, familiarizes students with all skills needed to become a successful university student.",
     "coreqs": [],
     "prereqs": []
   },
@@ -21,11 +24,24 @@
     "sections": [
       { "term": "202310", "crn": "15351" },
       { "term": "202310", "crn": "16279" },
-      { "term": "202260", "crn": "61223" }
+      { "term": "202260", "crn": "61223" },
+      { "term": "202330", "crn": "30271" },
+      { "term": "202330", "crn": "36801" },
+      { "term": "202330", "crn": "39254" }
     ],
     "description": "Surveys basic concepts in cultural anthropology by looking at a range of societies and the issues they face in a globalizing world. Examines the manner in which cultures adapt to, reject, or modify all of the changes they face. These changes impact everything from traditional family structure, to religion, gender, all the way to patterns of joking and concepts of beauty the world over.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "ANTH",
+    "number": "2302",
+    "title": "Gender and Sexuality: A Cross-Cultural Perspective",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38252" }],
+    "description": "Examines popular and scientific notions about sex, gender relations, family, and kinship. Examines why our images of family, masculinity, and femininity are not universal by analyzing the patterns of sex roles, sexual practices, and kinship in other cultures. Discusses how and why relations between men and women change during times of socioeconomic and political change."
   },
   {
     "subject": "ANTH",
@@ -34,7 +50,11 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["IC"],
-    "sections": [{ "term": "202310", "crn": "10541" }],
+    "sections": [
+      { "term": "202310", "crn": "10541" },
+      { "term": "202330", "crn": "31391" },
+      { "term": "202330", "crn": "39255" }
+    ],
     "description": "Examines selected topics in the socioeconomic transformation of other cultures, including urbanization, industrialization, globalization, commodity production, and international labor migration. Focuses on the impact of global capitalist development on contemporary developing and postcolonial societies as well as local responses and/or resistances to those changes.",
     "coreqs": [],
     "prereqs": []
@@ -62,6 +82,26 @@
     "description": "Focuses on the connections between the development of modern nation-states and the control of nature. Explores the role human societies play in such events as climate change, tsunamis, and droughts. Studies how industrialization and the process of science and technology development are related to our transforming environmental conditions, as well as how the social sciences, the sciences, and engineering are transforming to address these issues. Draws on social theory, environmental history, anthropology, sociology, art, design, and open-source technologies to investigate theoretically and methodologically the sources, experiences of, and solutions for environmental health questions.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "ANTH",
+    "number": "3200",
+    "title": "Cities in Global Context",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38213" }],
+    "description": "Examines the roots of the urbanization process, major ways of thinking about it, and the development of world cities and megacities. The twenty-first century will be a century in which urbanism is a central problem and opportunity. Considers the economic, political, cultural, and environmental dimensions of urbanism across the globe. Includes specific case studies from around the world. Encourages students to develop a knowledge of particular cities in order to examine the key themes of the course. INTL 3200, ANTH 3200, and SOCL 3200 are cross-listed."
+  },
+  {
+    "subject": "ANTH",
+    "number": "3410",
+    "title": "Ethnographic Field Experience",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["AD", "EX"],
+    "sections": [{ "term": "202330", "crn": "38230" }],
+    "description": "Offers students an opportunity to experience fieldwork while studying current ethnographic methods and theory and to design a semester-long ethnographic field research project. Field sites may include public and outdoor spaces, online communities, cultural centers, schools, immigrant neighborhoods, sports organizations, social service agencies, nonprofit groups, religious institutions, etc."
   },
   {
     "subject": "ANTH",
@@ -98,9 +138,19 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "19985" }],
-    "description": "Introduces the foundations of anthropological theory. Examines recurring themes surrounding structure and agency, culture and power, and the tension between the individual and society. Addresses these questions by returning to anthropology&amp;#8217;s Enlightenment roots, early evolutionary thought, classic and contemporary theories, as well as ongoing critiques of the discipline. Explores different schools of thought, including functionalism, structural functionalism, symbolism, interpretivism, and more recent theoretical developments that address history, political economy, reflexivity, poststructuralism, and feminism, as well as transnational/global and activist approaches. Requires prior completion of two ANTH courses numbered 1000 or above.",
+    "description": "Introduces the foundations of anthropological theory. Examines recurring themes surrounding structure and agency, culture and power, and the tension between the individual and society. Addresses these questions by returning to anthropology's Enlightenment roots, early evolutionary thought, classic and contemporary theories, as well as ongoing critiques of the discipline. Explores different schools of thought, including functionalism, structural functionalism, symbolism, interpretivism, and more recent theoretical developments that address history, political economy, reflexivity, poststructuralism, and feminism, as well as transnational/global and activist approaches. Requires prior completion of two ANTH courses numbered 1000 or above.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "ANTH",
+    "number": "3441",
+    "title": "Medical Anthropology",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["DD", "SI"],
+    "sections": [{ "term": "202330", "crn": "38231" }],
+    "description": "Examines core concepts of medicine as a cultural system, then moves to anthropology of the body as it has been understood and shaped within healing systems. Medical anthropology is a subfield of anthropology that uses the four-field approach to examine cultural concepts and experiences of health, illness, treatment, and power cross-culturally. Emphasizes history and construction of biomedicine. Surveys traditional Chinese medicine, Ayurvedic medicine, Voudon, Mayan curanderos, and other folk healing systems around the world. Explores medical pluralism, the common practice of seeking out and utilizing more than one therapeutic treatment style at one time; structural violence; and how healing systems interact with broader political and social systems globally."
   },
   {
     "subject": "ANTH",
@@ -116,6 +166,16 @@
   },
   {
     "subject": "ANTH",
+    "number": "4500",
+    "title": "Latin American Society and Development",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["IC", "WI"],
+    "sections": [{ "term": "202330", "crn": "36210" }],
+    "description": "Explores the processes of social, economic, and cultural change in Latin America. While concentrating on the present, traces class formation, agrarian structures, ethnic identity, ceremonial organization, gender roles, and political conflict since the colonial era in a range of countries. Emphasizes the relationship of communities and national political and economic systems. May emphasize Central America and Mexico or countries in South America through case studies. ANTH 4500 and INTL 4500 are cross-listed."
+  },
+  {
+    "subject": "ANTH",
     "number": "4520",
     "title": "Chinese Society and Culture",
     "scheduleType": "Lecture",
@@ -125,5 +185,15 @@
     "description": "Introduces students to changes in society and economy in contemporary China. Examines changes in family, gender relations, rural life, work, and international relations. Draws on literature from a range of disciplines including sociology, political science, anthropology, and economics.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "ANTH",
+    "number": "4600",
+    "title": "Senior Seminar",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["CE", "WI"],
+    "sections": [{ "term": "202330", "crn": "30837" }],
+    "description": "Designed to deal with anthropological theory and work with students who are asked to apply these theories to some of their own work. Content may vary."
   }
 ]

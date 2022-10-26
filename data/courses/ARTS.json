@@ -9,7 +9,9 @@
     "sections": [
       { "term": "202310", "crn": "12766" },
       { "term": "202310", "crn": "18070" },
-      { "term": "202240", "crn": "40382" }
+      { "term": "202240", "crn": "40382" },
+      { "term": "202330", "crn": "30215" },
+      { "term": "202330", "crn": "32516" }
     ],
     "description": "Presents an introductory studio course in the fundamental techniques of painting. Formal problems in the study of color, light, space systems, form, and composition establish the foundation for more individual creative expression. Uses critiques and slide lectures as needed.",
     "coreqs": [],
@@ -26,8 +28,18 @@
       { "term": "202310", "crn": "10520" },
       { "term": "202310", "crn": "20708" }
     ],
-    "description": "Focuses on developing the student&amp;#8217;s awareness of the structure of the figure as well as the emotive qualities of  &amp;#8220;figuration.&amp;#8221; Students draw from a model in each class. They also develop drawings based on the political and social concerns of contemporary culture and the role of gender as seen through &amp;#8220;image.&amp;#8221;",
+    "description": "Focuses on developing the student's awareness of the structure of the figure as well as the emotive qualities of  “figuration.” Students draw from a model in each class. They also develop drawings based on the political and social concerns of contemporary culture and the role of gender as seen through “image.”",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "ARTS",
+    "number": "3449",
+    "title": "Drawing in Mixed Media",
+    "scheduleType": "Studio",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "33196" }],
+    "description": "Offers an upper-level course designed for students who want to explore the ever-changing discipline of drawing, which has now become a medium that stands on its own. Explores a range of media for generating drawings, including traditional techniques and computer-based media. Emphasizes open-ended application and interpretation of drawing as a medium. Requires students to attend lectures and exhibitions and keep a journal."
   }
 ]

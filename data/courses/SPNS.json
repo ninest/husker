@@ -11,7 +11,11 @@
       { "term": "202310", "crn": "10054" },
       { "term": "202310", "crn": "10053" },
       { "term": "202310", "crn": "20587" },
-      { "term": "202240", "crn": "40005" }
+      { "term": "202240", "crn": "40005" },
+      { "term": "202330", "crn": "30063" },
+      { "term": "202330", "crn": "30027" },
+      { "term": "202330", "crn": "30062" },
+      { "term": "202330", "crn": "39354" }
     ],
     "description": "Begins the integrated development of elementary language skills through cultural exploration. Includes class discussion and project-based learning. Offers students an opportunity to gain a deeper understanding of daily life, social norms, and family structure in Spanish-speaking countries. Designed for students with little or no knowledge of Spanish.",
     "coreqs": [],
@@ -28,7 +32,11 @@
       { "term": "202310", "crn": "10051" },
       { "term": "202310", "crn": "10050" },
       { "term": "202310", "crn": "19488" },
-      { "term": "202310", "crn": "20780" }
+      { "term": "202310", "crn": "20780" },
+      { "term": "202330", "crn": "30061" },
+      { "term": "202330", "crn": "30060" },
+      { "term": "202330", "crn": "38101" },
+      { "term": "202330", "crn": "39355" }
     ],
     "description": "Builds on SPNS 1101. Continues the integrated development of elementary language skills through cultural exploration. Includes class discussion and project-based learning. Offers students an opportunity to gain a deeper understanding of the linguistic, cultural, and geographic diversity of the Spanish-speaking world.",
     "coreqs": [],
@@ -45,7 +53,11 @@
       { "term": "202310", "crn": "10049" },
       { "term": "202310", "crn": "10048" },
       { "term": "202310", "crn": "10940" },
-      { "term": "202310", "crn": "20588" }
+      { "term": "202310", "crn": "20588" },
+      { "term": "202330", "crn": "30059" },
+      { "term": "202330", "crn": "35634" },
+      { "term": "202330", "crn": "38102" },
+      { "term": "202330", "crn": "39356" }
     ],
     "description": "Builds on SPNS 1102 and begins the integrated development of intermediate language skills through cultural exploration. Includes class discussion and project-based learning. Offers students an opportunity to gain a deeper understanding of modern life in Spanish-speaking countries and efforts to preserve cultural heritage.",
     "coreqs": [],
@@ -62,7 +74,11 @@
       { "term": "202310", "crn": "10939" },
       { "term": "202310", "crn": "11181" },
       { "term": "202310", "crn": "13242" },
-      { "term": "202240", "crn": "40761" }
+      { "term": "202240", "crn": "40761" },
+      { "term": "202330", "crn": "30058" },
+      { "term": "202330", "crn": "31416" },
+      { "term": "202330", "crn": "32624" },
+      { "term": "202330", "crn": "39357" }
     ],
     "description": "Builds on SPNS 2101 and continues the integrated development of intermediate language skills through cultural exploration. Includes class discussion, project-based learning, and one-on-one conversations with native speakers from around the Spanish-speaking world. Offers students an opportunity to prepare to travel, live, or work abroad and gain a deeper understanding of the social and political issues that have shaped daily life in Spanish-speaking countries.",
     "coreqs": [],
@@ -80,7 +96,10 @@
       { "term": "202310", "crn": "10944" },
       { "term": "202310", "crn": "14846" },
       { "term": "202310", "crn": "20589" },
-      { "term": "202240", "crn": "40885" }
+      { "term": "202240", "crn": "40885" },
+      { "term": "202330", "crn": "30069" },
+      { "term": "202330", "crn": "30033" },
+      { "term": "202330", "crn": "35104" }
     ],
     "description": "Builds on SPNS 2102 and begins the integrated development of advanced language skills through cultural exploration. Includes class discussion, project-based learning, and one-on-one conversations with native speakers from around the Spanish-speaking world. Offers students an opportunity to gain a deeper understanding of the (de)construction of social, political, and interpersonal borders in the Spanish-speaking world.",
     "coreqs": [],
@@ -95,11 +114,33 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "10927" },
-      { "term": "202310", "crn": "12923" }
+      { "term": "202310", "crn": "12923" },
+      { "term": "202330", "crn": "30017" },
+      { "term": "202330", "crn": "32614" }
     ],
     "description": "Builds on SPNS 3101 and continues the integrated development of advanced language skills through cultural exploration. Includes class discussion, project-based learning, and one-on-one conversations with native speakers from around the Spanish-speaking world. Offers students an opportunity to gain a deeper understanding of the diverse gender, ethnic, racial, religious, national, and linguistic identities of Hispanic and Latinx communities in Spanish-speaking countries and the United States.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "SPNS",
+    "number": "3401",
+    "title": "Spanish for Healthcare Professionals",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38103" }],
+    "description": "Designed to prepare students to interact with Spanish-speaking patients effectively and empathetically by exploring Hispanic cultural perspectives related to health and healthcare throughout the Spanish-speaking world, focusing on the Latino population in the United States. Offers students an opportunity to develop their linguistic skills tailored specifically to healthcare settings. Introduces a broad range of medical vocabulary and reviews the grammatical structures necessary to take a medical history, conduct a physical exam, discuss a diagnosis and treatment with patients, and perform other medical tasks in Spanish."
+  },
+  {
+    "subject": "SPNS",
+    "number": "3502",
+    "title": "Authentic Spanish Grammar",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [{ "term": "202330", "crn": "38104" }],
+    "description": "Explores the authentic use of advanced grammar, focusing on improving both speaking and writing skills. Presents advanced grammatical structures, analyzes their use in authentic cultural texts, and applies them to both spoken and written tasks. Offers students an opportunity to discuss cultural topics with peers and native speakers, as well as to develop an ePortfolio of written texts and engage in the peer-editing process."
   },
   {
     "subject": "SPNS",

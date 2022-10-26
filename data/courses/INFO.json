@@ -9,11 +9,31 @@
     "sections": [
       { "term": "202310", "crn": "15517" },
       { "term": "202310", "crn": "15518" },
-      { "term": "202310", "crn": "15520" }
+      { "term": "202310", "crn": "15520" },
+      { "term": "202330", "crn": "34417" },
+      { "term": "202330", "crn": "34418" },
+      { "term": "202330", "crn": "34419" }
     ],
     "description": "The class is only for MSIS-Bridge students. It will only count towards degree requirements for MSIS-Bridge students.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "INFO",
+    "number": "5002",
+    "title": "Introduction to Python for Information Systems",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "38571" },
+      { "term": "202330", "crn": "38572" },
+      { "term": "202330", "crn": "38573" },
+      { "term": "202310", "crn": "20909" },
+      { "term": "202310", "crn": "20915" },
+      { "term": "202310", "crn": "20916" }
+    ],
+    "description": "Studies the Python programming language for application engineering. This hands-on course offers students an opportunity to obtain proficiency in the core concepts of Python and the skills and knowledge for building applications using any of the hundreds of thousands of task-specific Python libraries. Covers the important concepts such as reading and writing to standard IO, using operators, controlling the flow of execution, using functions, reading and writing files, and basic object-oriented programming concepts. Applies tools and techniques to classical software engineering and Python-specific facilities such as code introspection, reuse, built-in sequence types, and iteration."
   },
   {
     "subject": "INFO",
@@ -29,10 +49,33 @@
       { "term": "202310", "crn": "13764" },
       { "term": "202310", "crn": "14259" },
       { "term": "202310", "crn": "14325" },
-      { "term": "202310", "crn": "20210" }
+      { "term": "202310", "crn": "20210" },
+      { "term": "202330", "crn": "39071" },
+      { "term": "202330", "crn": "32275" },
+      { "term": "202330", "crn": "32923" },
+      { "term": "202330", "crn": "32927" },
+      { "term": "202330", "crn": "37067" },
+      { "term": "202310", "crn": "21359" },
+      { "term": "202310", "crn": "21360" },
+      { "term": "202310", "crn": "21361" }
     ],
     "description": "Takes students in a step-by-step manner through the process of systematically combining UX techniques, business processes, and complex data models to assemble applications that are user-friendly and meet business requirements. Employs the object-oriented paradigm, visual user experience, and system design principles to put together complicated, powerful, real-world applications. The primary objective of this course is to practice social-technical software engineering methods and tools to solve real-world problems. Offers students an opportunity to learn innovative design and programming techniques to build significant business applications quickly; to practice simple and smart ways of making software construction enjoyable; and to master the art of how to systematically write software programs to solve any business problem.",
-    "coreqs": [{ "subject": "INFO", "number": "5101" }],
+    "coreqs": [
+      { "subject": "INFO", "number": "5101" },
+      { "subject": "INFO", "number": "5101" },
+      { "subject": "INFO", "number": "5101" },
+      { "subject": "INFO", "number": "5101" },
+      { "subject": "INFO", "number": "5101" },
+      { "subject": "INFO", "number": "5101" },
+      { "subject": "INFO", "number": "5101" },
+      { "subject": "INFO", "number": "5101" },
+      { "subject": "INFO", "number": "5101" },
+      { "subject": "INFO", "number": "5101" },
+      { "subject": "INFO", "number": "5101" },
+      { "subject": "INFO", "number": "5101" },
+      { "subject": "INFO", "number": "5101" },
+      { "subject": "INFO", "number": "5101" }
+    ],
     "prereqs": []
   },
   {
@@ -45,10 +88,24 @@
     "sections": [
       { "term": "202310", "crn": "12535" },
       { "term": "202310", "crn": "13765" },
-      { "term": "202310", "crn": "20211" }
+      { "term": "202310", "crn": "20211" },
+      { "term": "202330", "crn": "32646" },
+      { "term": "202330", "crn": "32967" },
+      { "term": "202330", "crn": "32987" },
+      { "term": "202330", "crn": "37068" },
+      { "term": "202310", "crn": "20887" }
     ],
     "description": "Accompanies INFO 5100. Provides additional instruction in Java programming.",
-    "coreqs": [{ "subject": "INFO", "number": "5100" }],
+    "coreqs": [
+      { "subject": "INFO", "number": "5100" },
+      { "subject": "INFO", "number": "5100" },
+      { "subject": "INFO", "number": "5100" },
+      { "subject": "INFO", "number": "5100" },
+      { "subject": "INFO", "number": "5100" },
+      { "subject": "INFO", "number": "5100" },
+      { "subject": "INFO", "number": "5100" },
+      { "subject": "INFO", "number": "5100" }
+    ],
     "prereqs": []
   },
   {
@@ -68,7 +125,11 @@
       { "term": "202310", "crn": "17855" },
       { "term": "202310", "crn": "19098" },
       { "term": "202260", "crn": "61559" },
-      { "term": "202240", "crn": "41099" }
+      { "term": "202240", "crn": "41099" },
+      { "term": "202330", "crn": "33202" },
+      { "term": "202330", "crn": "33206" },
+      { "term": "202330", "crn": "38574" },
+      { "term": "202310", "crn": "21217" }
     ],
     "description": "Introduces the fundamental techniques for machine learning and data science engineering. Discusses a variety of machine learning algorithms, along with examples of their implementation, evaluation, and best practices. Lays the foundation of how learning models are derived from complex data pipelines, both algorithmically and practically. Topics include supervised learning (parametric/nonparametric algorithms, support vector machines, kernels, neural networks, deep learning) and unsupervised learning (clustering, dimensionality reduction, recommender systems). Based on numerous real-world case studies.",
     "coreqs": [],
@@ -87,11 +148,61 @@
       { "term": "202310", "crn": "13834" },
       { "term": "202310", "crn": "17518" },
       { "term": "202310", "crn": "20636" },
-      { "term": "202310", "crn": "20821" }
+      { "term": "202310", "crn": "20821" },
+      { "term": "202330", "crn": "33214" },
+      { "term": "202330", "crn": "35555" },
+      { "term": "202330", "crn": "38575" },
+      { "term": "202310", "crn": "21007" },
+      { "term": "202310", "crn": "21475" }
     ],
     "description": "Exposes students to both conceptual and technical aspects of Web design. User experience design is the discipline of creating a useful and usable website or application that is easily navigated and meets the needs of both the site owner and its users. Covers Web standards and best practices. Studies the fundamental concepts, techniques, practices, work flows, and tools associated with the practice of user-experience design in Web interfaces. Offers students an opportunity to learn the core principles of information architecture, usability, marketing hierarchy, and user experience for contextual, value-driven websites. Additional areas of focus include typography, color theory and composition, responsive design, CSS3 concepts, basic scripting, and JavaScript libraries to create functional, effective, and visually appealing websites.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "CSYE", "number": "6200" },
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "CSYE", "number": "6200" },
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "CSYE", "number": "6200" },
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "CSYE", "number": "6200" },
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "CSYE", "number": "6200" },
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "CSYE", "number": "6200" },
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "CSYE", "number": "6200" },
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "CSYE", "number": "6200" },
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "CSYE", "number": "6200" },
       { "subject": "INFO", "number": "5100" },
       "Or",
       { "subject": "INFO", "number": "5100" },
@@ -111,11 +222,33 @@
       { "term": "202310", "crn": "13273" },
       { "term": "202310", "crn": "13373" },
       { "term": "202310", "crn": "13783" },
-      { "term": "202310", "crn": "14206" }
+      { "term": "202310", "crn": "14206" },
+      { "term": "202330", "crn": "32966" },
+      { "term": "202330", "crn": "39072" }
     ],
     "description": "Presents data structures and related algorithms, beginning with a brief review of dynamic memory allocation. Discusses the fundamental data structures in detail, including the abstract representation, supporting algorithms, and implementation methods. Focuses on understanding the application of the abstract data structure and the circumstances that affect implementation decisions. Covers lists, stacks, queues, trees, hash tables, and graphs. Covers recursion and searching and sorting algorithms in detail. Emphasizes data abstraction and encapsulation in code design. Explores external storage structures, time permitting.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "CSYE", "number": "6200" },
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "CSYE", "number": "6200" },
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "CSYE", "number": "6200" },
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "CSYE", "number": "6200" },
       { "subject": "INFO", "number": "5100" },
       "Or",
       { "subject": "INFO", "number": "5100" },
@@ -132,7 +265,9 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "13265" },
-      { "term": "202310", "crn": "13726" }
+      { "term": "202310", "crn": "13726" },
+      { "term": "202330", "crn": "36523" },
+      { "term": "202330", "crn": "37602" }
     ],
     "description": "Covers computer information systems and the decision-making process, determination of information requirements, system development life cycle, and system modeling and analysis. Uses a hands-on approach to introduce the student to software engineering methodologies and practices, business requirements specification, business process design, model-driven object-oriented design, software development, and maintenance. Emphasizes the effective leverage of the Unified Modeling Language (UML) to transform business issues and objectives to concrete software solutions that meet business needs and usability and user interface design as critical elements of a successful software engineering engagement.",
     "coreqs": [],
@@ -147,9 +282,14 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "13788" },
-      { "term": "202240", "crn": "41786" }
+      { "term": "202240", "crn": "41786" },
+      { "term": "202330", "crn": "33370" },
+      { "term": "202330", "crn": "38578" },
+      { "term": "202330", "crn": "38579" },
+      { "term": "202310", "crn": "21060" },
+      { "term": "202310", "crn": "21306" }
     ],
-    "description": "Provides an overview of the most popular information systems needs&amp;#8217; assessment methodologies including portfolio analysis, stage assessment, business systems planning, and the Alloway survey technique. Topics include utilities IS strategic plan prioritization techniques of business goal alignment, architectural compatibility, and cost/benefit and risk analysis to demonstrate how businesses match needs to budgetary constraints. Describes and evaluates options for the placement of the IS function within the organization and a variety of methods to manage the function. Introduces a generic application development and project planning methodology used as a model to facilitate the development of a four-stage project plan for a prototype project. Uses the Project Management Institute&amp;#8217;s PMBOK and Harvard Business School case studies extensively.",
+    "description": "Provides an overview of the most popular information systems needs' assessment methodologies including portfolio analysis, stage assessment, business systems planning, and the Alloway survey technique. Topics include utilities IS strategic plan prioritization techniques of business goal alignment, architectural compatibility, and cost/benefit and risk analysis to demonstrate how businesses match needs to budgetary constraints. Describes and evaluates options for the placement of the IS function within the organization and a variety of methods to manage the function. Introduces a generic application development and project planning methodology used as a model to facilitate the development of a four-stage project plan for a prototype project. Uses the Project Management Institute's PMBOK and Harvard Business School case studies extensively.",
     "coreqs": [],
     "prereqs": []
   },
@@ -164,11 +304,50 @@
       { "term": "202310", "crn": "10607" },
       { "term": "202310", "crn": "12708" },
       { "term": "202310", "crn": "15082" },
-      { "term": "202310", "crn": "20639" }
+      { "term": "202310", "crn": "20639" },
+      { "term": "202330", "crn": "31252" },
+      { "term": "202330", "crn": "32304" },
+      { "term": "202330", "crn": "32653" },
+      { "term": "202330", "crn": "32965" },
+      { "term": "202330", "crn": "39244" }
     ],
     "description": "Explores advanced server-side technologies and tools necessary to design and engineer complete web-based enterprise applications quickly. Designed to build on previous experience to cover the life cycle of a web-based application. Focuses on MVC web development frameworks to build server-side, data-intensive, and multitier web applications. Additionally, discusses designing rich internet applications (RIA) using AJAX and service-oriented architecture (SOA) using REST.",
-    "coreqs": [{ "subject": "INFO", "number": "6251" }],
+    "coreqs": [
+      { "subject": "INFO", "number": "6251" },
+      { "subject": "INFO", "number": "6251" },
+      { "subject": "INFO", "number": "6251" },
+      { "subject": "INFO", "number": "6251" },
+      { "subject": "INFO", "number": "6251" },
+      { "subject": "INFO", "number": "6251" },
+      { "subject": "INFO", "number": "6251" },
+      { "subject": "INFO", "number": "6251" },
+      { "subject": "INFO", "number": "6251" }
+    ],
     "prereqs": [
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
+      { "subject": "INFO", "number": "5100" },
+      "Or",
+      { "subject": "INFO", "number": "5100" },
       { "subject": "INFO", "number": "5100" },
       "Or",
       { "subject": "INFO", "number": "5100" }
@@ -185,10 +364,29 @@
       { "term": "202310", "crn": "12697" },
       { "term": "202310", "crn": "12962" },
       { "term": "202310", "crn": "15083" },
-      { "term": "202310", "crn": "20637" }
+      { "term": "202310", "crn": "20637" },
+      { "term": "202330", "crn": "32182" },
+      { "term": "202330", "crn": "32188" },
+      { "term": "202330", "crn": "32189" },
+      { "term": "202330", "crn": "32190" },
+      { "term": "202330", "crn": "33346" },
+      { "term": "202330", "crn": "32997" },
+      { "term": "202330", "crn": "39247" }
     ],
     "description": "Accompanies INFO 6250. Offers additional instruction in Web tools discussed in class.",
-    "coreqs": [{ "subject": "INFO", "number": "6250" }],
+    "coreqs": [
+      { "subject": "INFO", "number": "6250" },
+      { "subject": "INFO", "number": "6250" },
+      { "subject": "INFO", "number": "6250" },
+      { "subject": "INFO", "number": "6250" },
+      { "subject": "INFO", "number": "6250" },
+      { "subject": "INFO", "number": "6250" },
+      { "subject": "INFO", "number": "6250" },
+      { "subject": "INFO", "number": "6250" },
+      { "subject": "INFO", "number": "6250" },
+      { "subject": "INFO", "number": "6250" },
+      { "subject": "INFO", "number": "6250" }
+    ],
     "prereqs": []
   },
   {
@@ -200,7 +398,8 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "13836" },
-      { "term": "202310", "crn": "14037" }
+      { "term": "202310", "crn": "14037" },
+      { "term": "202330", "crn": "33212" }
     ],
     "description": "Examines techniques for the management and evolution of software systems. Topics include managing software as an asset; life cycle development and rapid development technologies; maintainability; quality assurance of software systems including testing strategies and problem analysis; software risk analysis; analysis of software project failures; process models, such as CMM and ISO 9001; configuration management; and the impact of new development technologies on software management.",
     "coreqs": [],
@@ -216,7 +415,10 @@
     "sections": [
       { "term": "202310", "crn": "12185" },
       { "term": "202310", "crn": "14168" },
-      { "term": "202310", "crn": "14235" }
+      { "term": "202310", "crn": "14235" },
+      { "term": "202330", "crn": "31716" },
+      { "term": "202330", "crn": "32557" },
+      { "term": "202330", "crn": "33493" }
     ],
     "description": "Covers application development for mobile devices using advanced development platforms. Focuses on how to write mobile applications using cross-platform development tools and processes. Topics include user interfaces, the software life cycle, persistent storage, networking using HTTP and other REST interfaces, and mobile/handheld data applications. Requires a final project.",
     "coreqs": [],
@@ -229,8 +431,11 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "13710" }],
-    "description": "Seeks to support successful engineering careers by offering students an applied understanding of ethical principles in the workplace and fundamentals of intellectual property and the American legal system. Seeks to increase students&amp;#8217; awareness of the ethical implications of their work and to influence colleagues to think and act in a socially cognizant manner. Introduces ethical principles and codes of professional ethics; types of intellectual property (patents, trade secrets, trademarks, copyrights); and fundamentals of the American legal system (sources of American law, contracts, torts, intellectual property, antitrust). Offers students an opportunity to practice verbal communication and presentation skills; develop an applied understanding of the relationship and differences between legal liability and ethical behavior; and develop applied critical thinking, communication, and presentation skills.",
+    "sections": [
+      { "term": "202310", "crn": "13710" },
+      { "term": "202330", "crn": "32920" }
+    ],
+    "description": "Seeks to support successful engineering careers by offering students an applied understanding of ethical principles in the workplace and fundamentals of intellectual property and the American legal system. Seeks to increase students' awareness of the ethical implications of their work and to influence colleagues to think and act in a socially cognizant manner. Introduces ethical principles and codes of professional ethics; types of intellectual property (patents, trade secrets, trademarks, copyrights); and fundamentals of the American legal system (sources of American law, contracts, torts, intellectual property, antitrust). Offers students an opportunity to practice verbal communication and presentation skills; develop an applied understanding of the relationship and differences between legal liability and ethical behavior; and develop applied critical thinking, communication, and presentation skills.",
     "coreqs": [],
     "prereqs": []
   },
@@ -242,7 +447,7 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202260", "crn": "61468" }],
-    "description": "Offers students an opportunity to master advanced software design and programming techniques for building complex software applications quickly. The engineering issues addressed assume the business problems are difficult to understand and manage in a practical manner&amp;#8212;the system capacity must support thousands or even millions of users in a multitude of roles. Addresses high-performance computing requirements, such as concurrency and control, scalability, replication, and failover.",
+    "description": "Offers students an opportunity to master advanced software design and programming techniques for building complex software applications quickly. The engineering issues addressed assume the business problems are difficult to understand and manage in a practical manner—the system capacity must support thousands or even millions of users in a multitude of roles. Addresses high-performance computing requirements, such as concurrency and control, scalability, replication, and failover.",
     "coreqs": [],
     "prereqs": [
       { "subject": "INFO", "number": "5100" },
@@ -263,7 +468,9 @@
       { "term": "202310", "crn": "14345" },
       { "term": "202310", "crn": "20918" },
       { "term": "202260", "crn": "60923" },
-      { "term": "202260", "crn": "61476" }
+      { "term": "202260", "crn": "61476" },
+      { "term": "202330", "crn": "33698" },
+      { "term": "202330", "crn": "38582" }
     ],
     "description": "Covers the latest engineering principles necessary for building complex software systems that comply with recognized standards in the financial industry. With automated business processes today, risk and responsibility are shifting to information technology (IT) systems. Offers students an opportunity to learn how to incorporate information-based controls related to the financial industry that signal trouble, detect violations, and provide accountability, as well as a working approval process. Emphasizes software design. Seeks to help engineers construct complex software from a sophisticated engineering perspective. Examines how to put together cutting-edge organizational systems that people in the financial world can put to good use. Designed to prepare students for jobs in the building, maintaining, and employment of such information systems.",
     "coreqs": [],
@@ -281,7 +488,8 @@
       { "term": "202310", "crn": "14620" },
       { "term": "202240", "crn": "41784" },
       { "term": "202240", "crn": "41816" },
-      { "term": "202240", "crn": "41817" }
+      { "term": "202240", "crn": "41817" },
+      { "term": "202330", "crn": "34050" }
     ],
     "description": "Offers students an opportunity to achieve a high level of practical understanding of software development life cycle (SDLC) with emphasis on agile and adaptive incremental methodologies. Examines techniques for the management and evolution of software systems, including project planning from requirements gathering, analysis, estimation, and releasing using a hands-on approach to implement agile methodologies. Also covers maintainability, including software risk analysis, project retrospectives, and process models such as capability maturity model, configuration management, and their practical implementation.",
     "coreqs": [],
@@ -308,11 +516,28 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "13714" },
-      { "term": "202310", "crn": "14328" }
+      { "term": "202310", "crn": "14328" },
+      { "term": "202330", "crn": "33015" },
+      { "term": "202330", "crn": "33699" }
     ],
     "description": "Studies advanced indexing techniques and algorithms for big-data platforms such as Hadoop and NoSQL databases. Covers big-data design and indexing patterns to organize, aggregate, manipulate, and analyze huge amounts of data beyond human scale. Offers students an opportunity to learn advanced techniques to improve the performance and robustness of the advanced big-data programming models. Additional areas of focus include scalable graph databases, advanced indexing, and full-text searching in graph databases.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "CSYE", "number": "6220" },
+      "Or",
+      { "subject": "INFO", "number": "6205" },
+      "Or",
+      { "subject": "INFO", "number": "6250" },
+      { "subject": "CSYE", "number": "6220" },
+      "Or",
+      { "subject": "INFO", "number": "6205" },
+      "Or",
+      { "subject": "INFO", "number": "6250" },
+      { "subject": "CSYE", "number": "6220" },
+      "Or",
+      { "subject": "INFO", "number": "6205" },
+      "Or",
+      { "subject": "INFO", "number": "6250" },
       { "subject": "CSYE", "number": "6220" },
       "Or",
       { "subject": "INFO", "number": "6205" },
@@ -329,7 +554,8 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "20908" },
-      { "term": "202260", "crn": "61432" }
+      { "term": "202260", "crn": "61432" },
+      { "term": "202330", "crn": "38583" }
     ],
     "description": "Addresses the question of how to understand and specify the flow of work responsibility and movement of information throughout the enterprise. For businesses to maximize the benefits of technology, they must transform their ad-hoc and often poorly defined ways of doing things to formal business processes. Analyzes the specification and implementation of complex information systems that integrate well into core business operations. Offers students an opportunity to learn how to use agile process specification techniques, dynamic process execution, and real-time measurement and reporting to support continuous business improvement and change.",
     "coreqs": [],
@@ -342,15 +568,18 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "12152" }],
-    "description": "Focuses on the change effort needed to integrate a project into the firm&amp;#8217;s organizational structure, culture, business, and process metrics. Geared for students undertaking enterprise resource planning systems, or those involved in small or large organizational reengineering projects designed to make IT a primary focus of the firm&amp;#8217;s business strategy. Topics include management theories and organizational design principles; strategy and critical success factor formulation; methods to reach information systems maturity; business process modeling techniques; quality, the mindset, and the problem-solving tools; human resource, cultural, and technical change enablers; how to plan a business reengineering project; and implementation of major organizational change.",
+    "sections": [
+      { "term": "202310", "crn": "12152" },
+      { "term": "202330", "crn": "31689" }
+    ],
+    "description": "Focuses on the change effort needed to integrate a project into the firm's organizational structure, culture, business, and process metrics. Geared for students undertaking enterprise resource planning systems, or those involved in small or large organizational reengineering projects designed to make IT a primary focus of the firm's business strategy. Topics include management theories and organizational design principles; strategy and critical success factor formulation; methods to reach information systems maturity; business process modeling techniques; quality, the mindset, and the problem-solving tools; human resource, cultural, and technical change enablers; how to plan a business reengineering project; and implementation of major organizational change.",
     "coreqs": [],
     "prereqs": []
   },
   {
     "subject": "INFO",
     "number": "7374",
-    "title": "ST:Machine Learning&amp;PythonFina",
+    "title": "ST:Machine Learning&PythonFina",
     "scheduleType": "Lecture",
     "credits": 1,
     "nuPath": [],
@@ -359,7 +588,11 @@
       { "term": "202310", "crn": "14379" },
       { "term": "202310", "crn": "14621" },
       { "term": "202310", "crn": "14622" },
-      { "term": "202240", "crn": "40521" }
+      { "term": "202240", "crn": "40521" },
+      { "term": "202330", "crn": "32925" },
+      { "term": "202330", "crn": "33442" },
+      { "term": "202330", "crn": "33700" },
+      { "term": "202330", "crn": "33877" }
     ],
     "description": "Covers state-of-the-art material of current interest. May be repeated without limit.",
     "coreqs": [],
@@ -372,7 +605,10 @@
     "scheduleType": "Lecture",
     "credits": 1,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "14036" }],
+    "sections": [
+      { "term": "202310", "crn": "14036" },
+      { "term": "202330", "crn": "33701" }
+    ],
     "description": "Covers recent advances in neural nets and deep learning techniques with applications to large-scale engineering problems.",
     "coreqs": [],
     "prereqs": [{ "subject": "INFO", "number": "6205" }]
@@ -385,7 +621,7 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "13352" }],
-    "description": "Focuses on communication strategies and tactics for engineers at the interpersonal, team, and organizational level. Course topics include forms (oral and written), styles, and differences in communication; coaching and giving feedback to staff; and building teams, managing conflict, and special topics in organizational communication. The primary goal is to strengthen the students&amp;#8217; social and emotional intelligence skills to help them progress along their engineering career path. Combines academic content with practical skill-building activities.",
+    "description": "Focuses on communication strategies and tactics for engineers at the interpersonal, team, and organizational level. Course topics include forms (oral and written), styles, and differences in communication; coaching and giving feedback to staff; and building teams, managing conflict, and special topics in organizational communication. The primary goal is to strengthen the students' social and emotional intelligence skills to help them progress along their engineering career path. Combines academic content with practical skill-building activities.",
     "coreqs": [],
     "prereqs": []
   },
@@ -396,10 +632,18 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "14623" }],
+    "sections": [
+      { "term": "202310", "crn": "14623" },
+      { "term": "202330", "crn": "33702" },
+      { "term": "202330", "crn": "33703" }
+    ],
     "description": "Covers a wide range of skills and responsibilities that are necessary for managing complex business performance and operational data. Such data tend to be fragmented, poorly organized, and often flawed. Offers students an opportunity to learn how a more up-to-date mapping of complex data works and to be alerted to the care and attention they must give to such a task as well as the implications of the results. Covers best practices for managing all aspects of the data transformation life cycle, covering broad areas such as requirements gathering, meta-model design, data integration and transformation, as well as implementation and ongoing operations. Discusses tools for mapping fragmented data into business intelligence solutions that guide successful strategies.",
     "coreqs": [],
-    "prereqs": [{ "subject": "INFO", "number": "6105" }]
+    "prereqs": [
+      { "subject": "INFO", "number": "6105" },
+      { "subject": "INFO", "number": "6105" },
+      { "subject": "INFO", "number": "6105" }
+    ]
   },
   {
     "subject": "INFO",
@@ -410,7 +654,9 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "13118" },
-      { "term": "202310", "crn": "14917" }
+      { "term": "202310", "crn": "14917" },
+      { "term": "202330", "crn": "32938" },
+      { "term": "202330", "crn": "37450" }
     ],
     "description": "Seeks to provide a detailed understanding of the function and deployment of smart contracts using the Solidity language. Digs deep into the technical design and operation of blockchain platforms and specifically the implementation of smart contracts for operationalizing business processes. Offers students an opportunity to practice the development of decentralized autonomous organization applications using blockchain scripting languages.",
     "coreqs": [],
@@ -423,10 +669,18 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "13389" }],
-    "description": "Emphasizes the essential coding skills for implementing self-enforcing, multiparty, mutually beneficial, contractual rights and obligations on top of blockchain technologies. Offers students an opportunity to learn how to leverage the principles and mechanisms of &amp;#8220;decentralized autonomous organization&amp;#8221; to programmatically coordinate the interaction between participating parties at a global scale without the need for trusting a third party and how to build blockchain-type applications that automate the interaction of a network of participating entities such as buyers, sellers, suppliers, insurance, and finance.",
+    "sections": [
+      { "term": "202310", "crn": "13389" },
+      { "term": "202330", "crn": "33209" },
+      { "term": "202330", "crn": "38584" }
+    ],
+    "description": "Emphasizes the essential coding skills for implementing self-enforcing, multiparty, mutually beneficial, contractual rights and obligations on top of blockchain technologies. Offers students an opportunity to learn how to leverage the principles and mechanisms of “decentralized autonomous organization” to programmatically coordinate the interaction between participating parties at a global scale without the need for trusting a third party and how to build blockchain-type applications that automate the interaction of a network of participating entities such as buyers, sellers, suppliers, insurance, and finance.",
     "coreqs": [],
-    "prereqs": [{ "subject": "INFO", "number": "7500" }]
+    "prereqs": [
+      { "subject": "INFO", "number": "7500" },
+      { "subject": "INFO", "number": "7500" },
+      { "subject": "INFO", "number": "7500" }
+    ]
   },
   {
     "subject": "INFO",
@@ -437,7 +691,8 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "20737" },
-      { "term": "202260", "crn": "61433" }
+      { "term": "202260", "crn": "61433" },
+      { "term": "202330", "crn": "38585" }
     ],
     "description": "Addresses programming and information systems aspects of bitcoin and other cryptocurrencies. Topics covered include fundamentals of bitcoin mining, the theory of distributed consensus, principles of strong anonymity and untraceability, smart contract security, and peer-to-peer networking. Offers students an opportunity to learn about current developments in, and challenges facing, the use of cryptocurrencies in terms of the computing platform and systems integration. Students also have an opportunity to gain practical experience through challenging programming projects.",
     "coreqs": [],
@@ -450,7 +705,10 @@
     "scheduleType": "Lecture",
     "credits": 2,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "19101" }],
+    "sections": [
+      { "term": "202310", "crn": "19101" },
+      { "term": "202330", "crn": "36961" }
+    ],
     "description": "Addresses the legal implication of using the blockchain to transfer and exchange money, perform trade transactions, maintain ownership of property, and enforce contractual obligations in secure and cost-effective ways. These applications present significant legal challenges in finance, property rights, and general commercial contracts in all industries. Offers students an opportunity to acquire the tools to engineer systems that adhere to existing and evolving regulatory frameworks. Highlights challenges around the issues of taxation, financial crimes, and money laundering, since blockchain technologies were designed to facilitate cross-border transactions.",
     "coreqs": [],
     "prereqs": []
@@ -462,7 +720,10 @@
     "scheduleType": "Lecture",
     "credits": 2,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "19102" }],
+    "sections": [
+      { "term": "202310", "crn": "19102" },
+      { "term": "202330", "crn": "36957" }
+    ],
     "description": "Addresses the issue of how blockchain technology creates new ways of doing business. Blockchain technology uses bitcoin cryptocurrency to create value in a virtual setting. By linking the blockchain with real currency and the financial system, data, as well as business processes, a new breed of products and services can be realized. Explores innovative and disruptive applications of the blockchain.",
     "coreqs": [],
     "prereqs": []
@@ -480,7 +741,10 @@
     ],
     "description": "Covers the latest techniques in natural language processing with applications to unstructured data.",
     "coreqs": [],
-    "prereqs": [{ "subject": "INFO", "number": "6205" }]
+    "prereqs": [
+      { "subject": "INFO", "number": "6205" },
+      { "subject": "INFO", "number": "6205" }
+    ]
   },
   {
     "subject": "INFO",
@@ -491,7 +755,8 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "10582" },
-      { "term": "202240", "crn": "41993" }
+      { "term": "202240", "crn": "41993" },
+      { "term": "202330", "crn": "33001" }
     ],
     "description": "Offers work performed under individual faculty supervision. May be repeated without limit.",
     "coreqs": [],
@@ -504,7 +769,10 @@
     "scheduleType": "Individual Instruction",
     "credits": 1,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "19103" }],
+    "sections": [
+      { "term": "202310", "crn": "19103" },
+      { "term": "202330", "crn": "38586" }
+    ],
     "description": "Offers theoretical and experimental work conducted under the supervision of a departmental faculty.",
     "coreqs": [],
     "prereqs": []

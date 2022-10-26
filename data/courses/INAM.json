@@ -6,15 +6,42 @@
     "scheduleType": "Seminar",
     "credits": 4,
     "nuPath": ["EI", "ER"],
-    "sections": [{ "term": "202310", "crn": "15991" }],
+    "sections": [
+      { "term": "202310", "crn": "15991" },
+      { "term": "202330", "crn": "34852" }
+    ],
     "description": "Studies the role of ethics in creative practice. Offers students an opportunity to reflect on many of the concerns creative professionals face, such as how creative practitioners manifest care as a social intervention for building intimacy, healing, and hope across communities and how to develop and articulate creative goals. From the rhetoric of trust and authenticity, to honesty and generosity, ethical concepts consistently make their way into creative practice. Examines (and affords students an opportunity to hone) strategies to systematically navigate uncertainty and iteration within creative practice, culminating in a student final creative project. Readings focus on ethical paradigms that illustrate how systems of power shape the role of creative practices in society.",
     "coreqs": [],
     "prereqs": []
   },
   {
     "subject": "INAM",
+    "number": "5964",
+    "title": "Projects for Professionals",
+    "scheduleType": "Seminar",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "35257" },
+      { "term": "202330", "crn": "37927" },
+      { "term": "202310", "crn": "21567" }
+    ],
+    "description": "Offers students an applied project setting in which to apply their curricular learning. Working with a sponsor, students refine an applied research topic, perform research, develop recommendations that are shared with a partner sponsor, and create a plan for implementing their recommendations. Seeks to benefit students with a curriculum that supports the development of key business communication skills, project and client management skills, and frameworks for business analysis. Offers students an opportunity to learn from sponsor feedback, review 'lessons learned,' and incorporate suggestions from this review to improve and further develop their career development and professional plan."
+  },
+  {
+    "subject": "INAM",
+    "number": "5976",
+    "title": "Directed Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "21701" }],
+    "description": "Offers directed study of a specific topic not normally contained in the regular course offerings but within the area of expertise of a faculty member. May be completed up to eight times."
+  },
+  {
+    "subject": "INAM",
     "number": "5983",
-    "title": "Special Topic: UG Music",
+    "title": "Special Top: GR Music Perf/Com",
     "scheduleType": "Lecture",
     "credits": 3,
     "nuPath": [],
@@ -32,7 +59,20 @@
       { "term": "202310", "crn": "20978" },
       { "term": "202310", "crn": "21066" },
       { "term": "202310", "crn": "21067" },
-      { "term": "202310", "crn": "21068" }
+      { "term": "202310", "crn": "21068" },
+      { "term": "202330", "crn": "39170" },
+      { "term": "202330", "crn": "39171" },
+      { "term": "202330", "crn": "39172" },
+      { "term": "202330", "crn": "39173" },
+      { "term": "202330", "crn": "39174" },
+      { "term": "202330", "crn": "39175" },
+      { "term": "202330", "crn": "39176" },
+      { "term": "202330", "crn": "39177" },
+      { "term": "202330", "crn": "39178" },
+      { "term": "202330", "crn": "39179" },
+      { "term": "202330", "crn": "39180" },
+      { "term": "202330", "crn": "39181" },
+      { "term": "202330", "crn": "39182" }
     ],
     "description": "Addresses timely trends, issues, and events. Offers students an opportunity to learn about and respond to issues of the day in an immersive, interdisciplinary format. Content and instructors vary by offering.",
     "coreqs": [],
@@ -69,10 +109,24 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "20719" }],
+    "sections": [
+      { "term": "202310", "crn": "20719" },
+      { "term": "202330", "crn": "33814" },
+      { "term": "202310", "crn": "21463" }
+    ],
     "description": "Focuses on project management and assessment for creative projects and related entrepreneurial enterprises; critiques of creative work and creative organizing projects; analysis and application of multiple forms of assessment of the professional practice; and planning for intellectual property, branding, and marketing challenges. Offers students an opportunity to learn how to articulate and implement medium-to-long-range strategies for reaching next career stages and achieving larger goals in their creative enterprises.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "INAM",
+    "number": "6300",
+    "title": "Models for Applied Inquiry in Creative Practice",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "33816" }],
+    "description": "Focuses on thoughtful engagement with diverse and emerging forms of critical inquiry, professional engagement, and creative practice for artists, entrepreneurs, and administrators. Through course work and interaction with leading practitioners, offers students an opportunity to gain an understanding of the impact that forms of production and business models have on potential contribution to fields of critical practice and their diverse culture, while developing innovative models for their own creative, critical, and entrepreneurial endeavors."
   },
   {
     "subject": "INAM",
@@ -88,15 +142,62 @@
   },
   {
     "subject": "INAM",
+    "number": "6976",
+    "title": "Directed Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "21655" },
+      { "term": "202310", "crn": "21729" }
+    ],
+    "description": "Offers directed study of a specific topic not normally contained in the regular course offerings but within the area of expertise of a faculty member. May be repeated without limit."
+  },
+  {
+    "subject": "INAM",
+    "number": "7000",
+    "title": "Introduction to Research in Interdisciplinary Design and Media",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "20676" }],
+    "description": "Offers an overview of different forms of art and design research. Designed to guide students in crafting a plan for navigating their own individual path through the program. Creates a shared vocabulary for interdisciplinary research and sets expectations for the remainder of each student’s highly individualized path. Throughout the semester, the class reads and discusses key texts on interdisciplinary arts and design and media research; researches and reports on case studies of other research that relates to the direction of their research, including dissertations by prior students from CAMD and other institutions; and participates in guest presentations/discussions by program faculty regarding the integration of research and practice."
+  },
+  {
+    "subject": "INAM",
+    "number": "7001",
+    "title": "Research Methods in Interdisciplinary Design and Media",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "21263" }],
+    "description": "Offers an overview of research designs and methods across disciplines. Discusses how to select and use these methods and strategies and discusses IRB procedures. Includes guest presentations from faculty across the campus. This course is not meant as a comprehensive methodological training but rather an overview that should be complemented with at least one specialized methods course from a university-wide list of courses in the first semester of study and two others in the second semester of study."
+  },
+  {
+    "subject": "INAM",
     "number": "7100",
     "title": "Thesis Proposal",
     "scheduleType": "Individual Instruction",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "20723" }],
-    "description": "Offers students an opportunity to develop and present a proposal for a topic of study/research based on their creative disciplines to a faculty committee for approval. Requires a definition of the scope of the project, a description of the interdisciplinary nature of the work, the methodologies for the research, and the assumptions being questioned or analyzed. The thesis research proposal must demonstrate the student&rsquo;s ability to carry out independent interdisciplinary creative practice research.",
+    "sections": [
+      { "term": "202310", "crn": "20723" },
+      { "term": "202310", "crn": "21462" },
+      { "term": "202310", "crn": "21565" }
+    ],
+    "description": "Offers students an opportunity to develop and present a proposal for a topic of study/research based on their creative disciplines to a faculty committee for approval. Requires a definition of the scope of the project, a description of the interdisciplinary nature of the work, the methodologies for the research, and the assumptions being questioned or analyzed. The thesis research proposal must demonstrate the student’s ability to carry out independent interdisciplinary creative practice research.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "INAM",
+    "number": "7901",
+    "title": "Dissertation Writing Seminar",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202310", "crn": "21264" }],
+    "description": "This class will take place in Ryder 180 in the Center for Design."
   },
   {
     "subject": "INAM",
@@ -105,20 +206,14 @@
     "scheduleType": "Individual Instruction",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "20866" }],
+    "sections": [
+      { "term": "202310", "crn": "20866" },
+      { "term": "202330", "crn": "39183" },
+      { "term": "202330", "crn": "39184" },
+      { "term": "202330", "crn": "39185" },
+      { "term": "202330", "crn": "39186" }
+    ],
     "description": "Offers the candidate, working with a thesis advisor, an opportunity to continue to complete the research project defined and proposed in INAM 7100. The research is carried out in an independent manner, with periodic presentations to the thesis committee. These presentations define the benchmarks for determination of successful progress in the project. The ultimate result is an exhibition, screening, performance, or other form of public display or presentation, together with a thesis paper or written corollary.",
-    "coreqs": [],
-    "prereqs": []
-  },
-  {
-    "subject": "INAM",
-    "number": "7996",
-    "title": "Thesis Continuation",
-    "scheduleType": "Individual Instruction",
-    "credits": 0,
-    "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "20867" }],
-    "description": "Offers continued work on the thesis project.",
     "coreqs": [],
     "prereqs": []
   }

@@ -15,9 +15,11 @@
       { "term": "202310", "crn": "12446" },
       { "term": "202310", "crn": "12524" },
       { "term": "202310", "crn": "12908" },
-      { "term": "202310", "crn": "17857" }
+      { "term": "202310", "crn": "17857" },
+      { "term": "202330", "crn": "30763" },
+      { "term": "202330", "crn": "31922" }
     ],
-    "description": "Examines today&amp;#8217;s evolving environment, in which effective utilization of human resources is a source of competitive advantage. To maximize the contribution of organizational members, managers must be able to understand, diagnose, and influence workplace behavior in the context of change. Topics include management of cross-functional teams and boundaryless organizations. Emphasis is on the role of corporate culture and distributed leadership.",
+    "description": "Examines today's evolving environment, in which effective utilization of human resources is a source of competitive advantage. To maximize the contribution of organizational members, managers must be able to understand, diagnose, and influence workplace behavior in the context of change. Topics include management of cross-functional teams and boundaryless organizations. Emphasis is on the role of corporate culture and distributed leadership.",
     "coreqs": [],
     "prereqs": []
   },
@@ -29,7 +31,7 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202260", "crn": "60106" }],
-    "description": "Examines the actions that managers must take to stimulate innovation and direct it in ways that allow the organization to accomplish its goals. Topics include what organization forms are most conducive to innovation, what factors hinder innovativeness and how can they be overcome, and what role managers play in bringing about innovation. Focuses on the actions that companies and their managers can take to design their organizations and systems effectively in order to foster innovativeness. Elements of an organization&amp;#8217;s infrastructure include design, reward mechanisms, communication patterns, boundary spanning, control systems, leadership at all levels, and the organization&amp;#8217;s culture.",
+    "description": "Examines the actions that managers must take to stimulate innovation and direct it in ways that allow the organization to accomplish its goals. Topics include what organization forms are most conducive to innovation, what factors hinder innovativeness and how can they be overcome, and what role managers play in bringing about innovation. Focuses on the actions that companies and their managers can take to design their organizations and systems effectively in order to foster innovativeness. Elements of an organization's infrastructure include design, reward mechanisms, communication patterns, boundary spanning, control systems, leadership at all levels, and the organization's culture.",
     "coreqs": [],
     "prereqs": [
       { "subject": "HRMG", "number": "6200" },
@@ -41,13 +43,26 @@
   },
   {
     "subject": "HRMG",
+    "number": "6220",
+    "title": "Health Organization Management",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "33801" }],
+    "description": "Covers key issues and introduces management principles in health organization management. Offers students an opportunity to apply important theoretical ideas, such as systems thinking and organizational learning, to meet challenges effectively, to learn how the healthcare workplace functions, and how to manage in these workplaces. Emphasizes case-based learning, critical thinking, and evidence-based management using individual and group projects. Introduces cutting-edge tools in areas such as work redesign, performance management, brand enhancement, and quality improvement. Addresses the management imperatives of today's healthcare organizations and how to implement strategies and programs to meet those imperatives effectively. Intended for anyone interested in working or managing within the healthcare industry, including the field of public health."
+  },
+  {
+    "subject": "HRMG",
     "number": "6221",
     "title": "Power and Influence",
     "scheduleType": "Lecture",
     "credits": 3,
     "nuPath": [],
-    "sections": [{ "term": "202240", "crn": "41678" }],
-    "description": "Introduces students to the uses of power and influence in the surroundings in which they work, working with and managing people, and achieving the goals they set for themselves. Offers students an opportunity to make sense of their own on-the-job learning experiences and to explore basic diagnostic and action-planning skills that they can later use on the job. Exposes students to a variety of cases that demonstrate the effective and ineffective uses of power in different types of organizational contexts and at different points in a manager&amp;#8217;s career and how to consider difficult ethical questions as well.",
+    "sections": [
+      { "term": "202240", "crn": "41678" },
+      { "term": "202330", "crn": "38117" }
+    ],
+    "description": "Introduces students to the uses of power and influence in the surroundings in which they work, working with and managing people, and achieving the goals they set for themselves. Offers students an opportunity to make sense of their own on-the-job learning experiences and to explore basic diagnostic and action-planning skills that they can later use on the job. Exposes students to a variety of cases that demonstrate the effective and ineffective uses of power in different types of organizational contexts and at different points in a manager's career and how to consider difficult ethical questions as well.",
     "coreqs": [],
     "prereqs": []
   },
@@ -70,10 +85,23 @@
     "scheduleType": "Lecture",
     "credits": 3,
     "nuPath": [],
-    "sections": [{ "term": "202260", "crn": "61467" }],
+    "sections": [
+      { "term": "202260", "crn": "61467" },
+      { "term": "202330", "crn": "38118" }
+    ],
     "description": "Examines issues including discrimination and bias, sexual harassment and workplace romance, professional and personal development, power and privilege, work and family, and organizational strategies for promoting equal opportunity and a multicultural approach for leveraging diversity and inclusion. Incorporates readings to generate lively discussions and debates, experiential learning, self-reflection, case studies, and guest speakers who are diversity experts and thought leaders.Diversity in the workplace involves recognizing and capitalizing on individual differences such as religion, gender, race, ethnicity, sexual orientation, national origin, age, and physical ability/disability. Leaders need to address issues of diversity in strategic and ethical ways if they are to compete and succeed in a global economy.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "HRMG",
+    "number": "6280",
+    "title": "The Human Side of Innovation",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "33101" }],
+    "description": "Examines the leadership and managerial skills required for effectively managing multifunctional teams engaged in product, service, and business process innovation. Incorporates fieldwork, corporate visits, and other experiential learning opportunities. Explores strategies for recruiting, motivating, and retaining high-performance people. Introduces models for leading systematic innovative change within established corporate cultures, including understanding senior management attitudes toward innovation and how to create executive sponsors and mentors."
   },
   {
     "subject": "HRMG",
@@ -88,7 +116,7 @@
       { "term": "202240", "crn": "40713" },
       { "term": "202240", "crn": "41449" }
     ],
-    "description": "Offers key insights every business professional should understand working in, managing, and leading organizations in today&#39;s complex, diverse, and dynamic business environment. The primary goal of this course is to challenge&mdash;and improve&mdash;students&rsquo; understanding of human behavior in organizations so that they are better positioned to strategically leverage human capital. Introduces critical theories and concepts through case analyses, debates, TED Talks, and exercises that aim to help students understand, analyze, and ultimately address real business situations and problems.",
+    "description": "Offers key insights every business professional should understand working in, managing, and leading organizations in today's complex, diverse, and dynamic business environment. The primary goal of this course is to challenge—and improve—students’ understanding of human behavior in organizations so that they are better positioned to strategically leverage human capital. Introduces critical theories and concepts through case analyses, debates, TED Talks, and exercises that aim to help students understand, analyze, and ultimately address real business situations and problems.",
     "coreqs": [],
     "prereqs": []
   }

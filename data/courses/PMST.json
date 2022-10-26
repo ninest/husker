@@ -1,6 +1,26 @@
 [
   {
     "subject": "PMST",
+    "number": "6250",
+    "title": "Advanced Physical Pharmacy",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "30752" }],
+    "description": "Covers the physical and chemical principles in drug formulation design, with emphasis on such topics as solutions of nonelectrolytes and electrolytes, ionic equilibria, drug complexation, reaction kinetics, mass transport, and interfacial phenomena."
+  },
+  {
+    "subject": "PMST",
+    "number": "6252",
+    "title": "Pharmacokinetics and Drug Metabolism",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "30782" }],
+    "description": "Focuses on concepts of one- and two-compartment linear and nonlinear pharmacokinetics and compartmental modeling with plasma and/or urinary data. Discusses principles and methods of metabolic biotransformation and disposition of xenobiotics in biological system."
+  },
+  {
+    "subject": "PMST",
     "number": "6254",
     "title": "Advanced Drug Delivery Systems",
     "scheduleType": "Lecture",

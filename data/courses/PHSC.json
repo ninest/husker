@@ -17,13 +17,23 @@
   },
   {
     "subject": "PHSC",
+    "number": "2000",
+    "title": "Professional Development for Pharmaceutical Sciences Co-op",
+    "scheduleType": "Seminar",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38362" }],
+    "description": "Introduces students to the pharmaceutical sciences cooperative education program and professionalism in the field. Students assess their workplace skills, interests, and values and discuss how these impact personal career decisions. Offers students an opportunity to develop effective job search and career management skills, prepare a professional resumé, learn proper interviewing techniques, develop a strong online professional profile, and learn how to use the Northeastern job database and referral process."
+  },
+  {
+    "subject": "PHSC",
     "number": "2100",
     "title": "Lab Research Rotation",
     "scheduleType": "Individual Instruction",
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "13675" }],
-    "description": "Offers students an opportunity to conduct laboratory research under the direct supervision of a laboratory mentor, generally a faculty member or laboratory director, gain experience in research techniques, and develop good laboratory practices as they learn about research topics under investigation in the laboratory of their choice. Students attend seminars, departmental events, and other activities relevant to the mentor&rsquo;s laboratory. The time commitment is at least eight hours a week. Mentor expectations and grading criteria are decided upon between the student and the mentor prior to the start of the rotation and must be approved by the course director. Students prepare a presentation that encompasses the research performed by the student that includes description, experimental design, data generated, data interpretation, and discussion of their research project.",
+    "description": "Offers students an opportunity to conduct laboratory research under the direct supervision of a laboratory mentor, generally a faculty member or laboratory director, gain experience in research techniques, and develop good laboratory practices as they learn about research topics under investigation in the laboratory of their choice. Students attend seminars, departmental events, and other activities relevant to the mentor’s laboratory. The time commitment is at least eight hours a week. Mentor expectations and grading criteria are decided upon between the student and the mentor prior to the start of the rotation and must be approved by the course director. Students prepare a presentation that encompasses the research performed by the student that includes description, experimental design, data generated, data interpretation, and discussion of their research project.",
     "coreqs": [],
     "prereqs": []
   },
@@ -53,8 +63,38 @@
       { "term": "202310", "crn": "10536" }
     ],
     "description": "Accompanies PHSC 2301. Focuses on the anatomy of the major organ systems. Digital images allow each student to study the structure of each organ system in-depth.",
-    "coreqs": [{ "subject": "PHSC", "number": "2301" }],
+    "coreqs": [
+      { "subject": "PHSC", "number": "2301" },
+      { "subject": "PHSC", "number": "2301" },
+      { "subject": "PHSC", "number": "2301" },
+      { "subject": "PHSC", "number": "2301" }
+    ],
     "prereqs": []
+  },
+  {
+    "subject": "PHSC",
+    "number": "2303",
+    "title": "Human Physiology 2",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38363" }],
+    "description": "Continues PHSC 2301. Provides students with an understanding of the principles of physiology. Discusses physiological information mostly related to cell physiology, muscle physiology, and physiology of the nervous system. Focuses on the physiological mechanisms of the major organ systems. Physiological information is related to the specific areas of pharmacology."
+  },
+  {
+    "subject": "PHSC",
+    "number": "2304",
+    "title": "Human Physiology Lab",
+    "scheduleType": "Lab",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "30298" },
+      { "term": "202330", "crn": "30297" },
+      { "term": "202330", "crn": "30032" },
+      { "term": "202330", "crn": "30039" }
+    ],
+    "description": "Accompanies PHSC 2303. Covers topics from the course through various experiments."
   },
   {
     "subject": "PHSC",
@@ -85,6 +125,16 @@
   },
   {
     "subject": "PHSC",
+    "number": "2330",
+    "title": "Immunology",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "30461" }],
+    "description": "Provides students with an understanding of the principles, mechanisms, organs, cells, and molecules of the innate and adaptive immunity. Monoclonal antibodies, organ transplant immunity, hypersensitivity, tolerance, tumor immunity, autoimmunity, and immunodeficiencies are discussed in light of potential therapeutic interventions. Weekly journal club-style presentation of related assigned topic is required."
+  },
+  {
+    "subject": "PHSC",
     "number": "2400",
     "title": "Research Ethics for Beginning Health Scientists",
     "scheduleType": "Lecture",
@@ -94,6 +144,16 @@
     "description": "Explores various dimensions of ethical research. Introduces ethical foundations and controversies that are central to understanding and developing appropriate ethical frameworks for engaging in research. Requires students to work collaboratively to carefully develop essential skills for ethical analysis and evaluation of professional code of conduct concerns.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "PHSC",
+    "number": "2650",
+    "title": "Introduction to Health Science Research",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "32582" }],
+    "description": "Surveys research methods and topics relevant to health science research with the goal of engaging undergraduate students to commit to research training throughout at least one semester and possibly continuing throughout their undergraduate program. Exposes students to lectures addressing the benefits of a research experience and readings of original literature. Health science faculty from across the university present their lines of research focusing on projects that would be available to students. Seeks to familiarize students with use of the scientific method in addressing unsolved problems and to prepare them to select the most appropriate research laboratory to engage in research."
   },
   {
     "subject": "PHSC",
@@ -109,6 +169,16 @@
   },
   {
     "subject": "PHSC",
+    "number": "3430",
+    "title": "Pharmacokinetics and Biopharmaceutics",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": ["AD"],
+    "sections": [{ "term": "202330", "crn": "30456" }],
+    "description": "Focuses on the basic principles and methods of biopharmaceutics and pharmacokinetics. Covers the kinetics of drug absorption, distribution, metabolism, and excretion; linear and nonlinear pharmacokinetics; general concept of one- and two-compartment models with instantaneous (i.v. bolus), zero order (i.v. infusion), or first order (oral administration or i.m. injection) input; evaluation of bioavailability and investigation of the factors affecting drug availability; influence of the route of administration, dosage form, and regimen on bioavailability of drugs; bioequivalence study; multiple dosing kinetics; general approaches to dosage adjustment in renal disease; noncompartmental analysis; and pharmacokinetic-pharmacodynamic modeling."
+  },
+  {
+    "subject": "PHSC",
     "number": "4501",
     "title": "Pharmacology/Medicinal Chemistry 1",
     "scheduleType": "Lecture",
@@ -121,15 +191,23 @@
   },
   {
     "subject": "PHSC",
-    "number": "4991",
-    "title": "Research",
+    "number": "4997",
+    "title": "Senior Thesis",
     "scheduleType": "Individual Instruction",
     "credits": 4,
-    "nuPath": ["EX"],
-    "sections": [{ "term": "202310", "crn": "15394" }],
-    "description": "Extends current knowledge or offers novel insights through faculty-directed and supervised individual undergraduate research or creative projects. The project must be designed in concert with and obtain formal prior approval from relevant faculty and program director. May be repeated without limit.",
-    "coreqs": [],
-    "prereqs": []
+    "nuPath": ["CE", "WI"],
+    "sections": [{ "term": "202310", "crn": "21195" }],
+    "description": "Offers students an opportunity to prepare an undergraduate thesis under faculty supervision."
+  },
+  {
+    "subject": "PHSC",
+    "number": "4998",
+    "title": "Senior Thesis Continuation",
+    "scheduleType": "Individual Instruction",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [{ "term": "202330", "crn": "39310" }],
+    "description": "Offers students an opportunity to execute a project as described in PHSC 4997, which involves laboratory work; skill development; and the ability to generate, analyze, and report valid and reproducible data with the highest level of honesty and integrity. Students write and defend a thesis project to a public audience that describes the scientific background and context of the research, the hypothesis tested, methods utilized, and experimental results obtained. The thesis also includes interpretation of data, its contribution to the field, and future directions for the research. Students are expected to demonstrate motivation and initiative and to develop skills necessary to work cooperatively with a faculty mentor and other lab personnel."
   },
   {
     "subject": "PHSC",
@@ -162,7 +240,10 @@
     "scheduleType": "Lecture",
     "credits": 2,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "14220" }],
+    "sections": [
+      { "term": "202310", "crn": "14220" },
+      { "term": "202330", "crn": "33880" }
+    ],
     "description": "Teaches students the basics of laboratory safety, safekeeping laboratory data, and the process of writing a grant proposal. Also, case studies explore the concepts of data distortion or fabrication, conflicts of interest, confidentiality, ethical aspects of peer review, and the attribution of credit in science.",
     "coreqs": [],
     "prereqs": []
@@ -174,10 +255,23 @@
     "scheduleType": "Lecture",
     "credits": 1,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "12044" }],
-    "description": "Introduces and examines the goals, expectations, policies, and procedures of the Masters&amp;#8217; in Pharmaceutical Sciences internship program and professionalism in the field. Discusses the role and involvement of internship employers. Offers students an opportunity to develop job search and career management skills; assess their workplace skills, interests, and values; discuss how those qualities impact career decisions; prepare a professional resum&amp;#233;; and learn proper interviewing techniques. Issues of ethics and professionalism are designed to inform students of issues they will face in the pharmaceutical field. Content of this course is geared to students&amp;#8217; participation in the internship program and overall professional development in pharmaceutical sciences.",
+    "sections": [
+      { "term": "202310", "crn": "12044" },
+      { "term": "202330", "crn": "31789" }
+    ],
+    "description": "Introduces and examines the goals, expectations, policies, and procedures of the Masters' in Pharmaceutical Sciences internship program and professionalism in the field. Discusses the role and involvement of internship employers. Offers students an opportunity to develop job search and career management skills; assess their workplace skills, interests, and values; discuss how those qualities impact career decisions; prepare a professional resumé; and learn proper interviewing techniques. Issues of ethics and professionalism are designed to inform students of issues they will face in the pharmaceutical field. Content of this course is geared to students' participation in the internship program and overall professional development in pharmaceutical sciences.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "PHSC",
+    "number": "5310",
+    "title": "Cellular Physiology",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "31445" }],
+    "description": "Focuses in-depth on the major cellular physiological mechanisms, including physiology of the cell membrane, ion channels and transport phenomena, energy production, signal transduction, synapses, and physiological processes in the cytosol. Relates physiological information on the specific areas of pharmacology, pharmaceutics, and drug discovery/development. Offers students an opportunity to obtain an understanding of the principles of cellular physiology."
   },
   {
     "subject": "PHSC",
@@ -187,9 +281,29 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "12691" }],
-    "description": "Studies important aspects of drug discovery and development with a focus on drug design. Covers basic organic medicinal chemistry concepts and seeks to build students&amp;#8217; skills in lead compound discovery, structure-activity relationship studies, and lead optimization strategies. Topics include the fundamentals of pharmacology, pharmacokinetics, and pharmacodynamics of therapeutic agents relevant to the drug-structure optimization. These skills often help develop a strong foundation in the concepts that govern the multidisciplinary process of drug discovery. Uses lectures and peer-reviewed seminar presentations to help students to incrementally increase their knowledge required to identify new, marketable therapeutic agents. Requires organic or medicinal chemistry at the undergraduate level.",
+    "description": "Studies important aspects of drug discovery and development with a focus on drug design. Covers basic organic medicinal chemistry concepts and seeks to build students' skills in lead compound discovery, structure-activity relationship studies, and lead optimization strategies. Topics include the fundamentals of pharmacology, pharmacokinetics, and pharmacodynamics of therapeutic agents relevant to the drug-structure optimization. These skills often help develop a strong foundation in the concepts that govern the multidisciplinary process of drug discovery. Uses lectures and peer-reviewed seminar presentations to help students to incrementally increase their knowledge required to identify new, marketable therapeutic agents. Requires organic or medicinal chemistry at the undergraduate level.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "PHSC",
+    "number": "5450",
+    "title": "Contemporary Approaches to Drug Design",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38364" }],
+    "description": "Introduces current and emerging trends and concepts in drug discovery in the context of targeted disease therapy and structure-based drug design. Reviews and discusses topics on target selection and validation, computational drug design tools, kinase inhibitors, proteolysis targeting chimeras and molecular glues, covalent drugs, cannabinoid receptors, RNA-targeting small molecule agents, and protein-protein interaction modulators. Exemplifies the applications of general medicinal chemistry and pharmacology principles to real-world drug discovery and development."
+  },
+  {
+    "subject": "PHSC",
+    "number": "5500",
+    "title": "Repurposing Drugs for Cancer Immunotherapies",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "32030" }],
+    "description": "Offers a multidisciplinary course targeted to students interested in recent advances in biomedical research, clinical practice, and personalized medicine as related to cancer immunotherapies. Describes current promises and disappointments with cancer immunotherapies and recent FDA drug approvals for personalized cancer therapies. Explains the role of immunological and physiological negative regulators of antitumor and tumor biology as needed. Explains underlying principles of immunology, biochemistry, genetics, and preclinical and clinical studies when introducing new concepts. Assigned detailed study of specific areas and discussion of assigned papers are designed to complement classroom material."
   },
   {
     "subject": "PHSC",
@@ -217,27 +331,39 @@
   },
   {
     "subject": "PHSC",
-    "number": "5619",
-    "title": "Mass Spectrometry in Drug Development",
-    "scheduleType": "Lecture",
-    "credits": 3,
-    "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "16463" }],
-    "description": "Offers students an opportunity to obtain a fundamental understanding of modern mass spectrometers, to conceptually operate these instruments, and the ability to prepare biological samples. Undoubtedly the most popular analytical method in science, mass spectrometry is utilized in fields ranging from subatomic physics to biology. Focuses on the analysis of proteins, with applications including biomarker discovery, tissue characterization, detection of blood doping, drug discovery, and the characterization of protein-based therapeutics. By the end of the course, the student is expected to be able to solve a particular chemistry- or biology-related problem by choosing the appropriate sample preparation methods and mass spectrometer.",
-    "coreqs": [],
-    "prereqs": []
-  },
-  {
-    "subject": "PHSC",
     "number": "5976",
     "title": "Directed Study",
     "scheduleType": "Individual Instruction",
     "credits": 1,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "13671" }],
+    "sections": [
+      { "term": "202310", "crn": "13671" },
+      { "term": "202330", "crn": "37944" },
+      { "term": "202310", "crn": "21283" }
+    ],
     "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "PHSC",
+    "number": "6213",
+    "title": "Ethical Problems in Health Sciences Research",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "34234" }],
+    "description": "Focuses on a series of cases that raise ethical and professional code of conduct concerns and engages with them collaboratively and carefully to develop essential skills for ethical analysis and evaluation. Scientific practice presents researchers and citizens with myriad ethical challenges. Engaging with those ethical challenges in ways that help yield the benefits of research while respecting ethical boundaries is furthered by not only understanding ethical frameworks but by carefully analyzing and evaluating ethical concerns in context."
+  },
+  {
+    "subject": "PHSC",
+    "number": "6214",
+    "title": "Experimental Design and Biostatistics",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "32165" }],
+    "description": "Discusses fundamental principles of experimental design and statistical analysis, with emphasis on clinical research. Topics include descriptive statistics, hypothesis testing, analysis of variance, correlation, regression, chi-square test, and nonparametric methods."
   },
   {
     "subject": "PHSC",
@@ -265,6 +391,16 @@
   },
   {
     "subject": "PHSC",
+    "number": "6224",
+    "title": "Behavioral Pharmacology and Drug Discovery",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38365" }],
+    "description": "Designed to prepare students to understand the advantages, shortcomings, and pitfalls of the use of live, behaving animals in drug discovery.  Covers an in-depth analysis of ethical issues in animal research, as well as aspects of animal behavioral models, behavior and brain biochemistry, and methods of behavioral analysis.  Specific topics include psychopharmacology; fear and anxiety; pain and stress; depression and reward; general arousal and tolerance; drug abuse and habitual behaviors.  The ways in which animal behaviors can be described in a quantitative manner and the effects of medications and abused drugs quantified and related to human diseases and drug responses are an important component of the course."
+  },
+  {
+    "subject": "PHSC",
     "number": "6235",
     "title": "Magnetic Resonance Imaging in Drug Discovery 1",
     "scheduleType": "Lab",
@@ -281,6 +417,26 @@
   },
   {
     "subject": "PHSC",
+    "number": "6237",
+    "title": "Magnetic Resonance Imaging in Drug Discovery 2",
+    "scheduleType": "Lab",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "35586" }],
+    "description": "Continues PHSC 6235. Offers students an opportunity to continue their research work in early drug discovery using original imaging data that was previously analyzed. Focuses on manuscript preparation and submission to a peer-reviewed journal."
+  },
+  {
+    "subject": "PHSC",
+    "number": "6290",
+    "title": "Biophysical Methods in Drug Discovery",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "32706" }],
+    "description": "Provides an interdisciplinary introduction to biophysical methods used in modern drug discovery, including hit generation and lead optimization. Emphasizes key experimental methods, including nuclear magnetic resonance (NMR) spectroscopy and X-ray crystallography, as well as computer modeling as applied to ligand- and structure-based drug design. Includes lectures by experts on related topics from their recent drug-discovery research. Presented under the auspices of the Center for Drug Discovery. Requires permission of instructor for students of junior or senior standing."
+  },
+  {
+    "subject": "PHSC",
     "number": "6300",
     "title": "Pharmaceutical Science Seminar",
     "scheduleType": "Seminar",
@@ -289,7 +445,10 @@
     "sections": [
       { "term": "202310", "crn": "10728" },
       { "term": "202310", "crn": "10636" },
-      { "term": "202310", "crn": "11239" }
+      { "term": "202310", "crn": "11239" },
+      { "term": "202330", "crn": "30751" },
+      { "term": "202330", "crn": "31109" },
+      { "term": "202330", "crn": "31130" }
     ],
     "description": "Teaches students to evaluate critically the scientific literature in a journal club format. Several sections may be offered each semester to accommodate different specializations or interest groups. May be repeated without limit.",
     "coreqs": [],
@@ -305,7 +464,8 @@
     "sections": [
       { "term": "202310", "crn": "10583" },
       { "term": "202260", "crn": "60163" },
-      { "term": "202240", "crn": "40130" }
+      { "term": "202240", "crn": "40130" },
+      { "term": "202330", "crn": "31508" }
     ],
     "description": "Offers an experiential component of the graduate curriculum that fosters professional development through internship in drug discovery, development, and/or regulatory affairs in a pharmaceutical or biotechnology company. Requires students to work in a company for a minimum of twenty hours per week. Offers students an opportunity to engage in pharmaceutical science research or to work in an environment outside the University but under the supervision of a faculty instructor. May be repeated up to three times.",
     "coreqs": [],
@@ -330,7 +490,10 @@
     "scheduleType": "Seminar",
     "credits": 1,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "13684" }],
+    "sections": [
+      { "term": "202310", "crn": "13684" },
+      { "term": "202330", "crn": "30750" }
+    ],
     "description": "Requires students to present one formal seminar on their research. This presentation is open to all those interested.",
     "coreqs": [],
     "prereqs": []
@@ -346,21 +509,12 @@
       { "term": "202310", "crn": "15408" },
       { "term": "202310", "crn": "18148" },
       { "term": "202310", "crn": "18571" },
-      { "term": "202310", "crn": "21047" }
+      { "term": "202310", "crn": "21047" },
+      { "term": "202330", "crn": "33510" },
+      { "term": "202330", "crn": "37143" },
+      { "term": "202310", "crn": "21491" }
     ],
-    "description": "Offers research/experimental work for master&amp;#8217;s thesis. Students may register twice. May be repeated once.",
-    "coreqs": [],
-    "prereqs": []
-  },
-  {
-    "subject": "PHSC",
-    "number": "6996",
-    "title": "Thesis Continuation",
-    "scheduleType": "Individual Instruction",
-    "credits": 0,
-    "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "18574" }],
-    "description": "Offers continued registration while student completes master&amp;#8217;s thesis or other research project to meet the research requirement in pharmaceutical science.",
+    "description": "Offers research/experimental work for master's thesis. Students may register twice. May be repeated once.",
     "coreqs": [],
     "prereqs": []
   },
@@ -371,7 +525,10 @@
     "scheduleType": "Lab",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "11172" }],
+    "sections": [
+      { "term": "202310", "crn": "11172" },
+      { "term": "202330", "crn": "30921" }
+    ],
     "description": "Offers a hands-on graduate laboratory course that introduces students to the investigative approaches and laboratory methods used in contemporary pharmaceutical sciences research. Laboratory exercises have a practical relationship to essential techniques in modern drug discovery, drug targeting and delivery, and determining mechanisms of drug action. These exercises cover basic laboratory skills, the rationale for and application of standard laboratory methods, training in the use of equipment and techniques central to pharmaceutical sciences research, how to maintain a laboratory notebook, statistical analysis and interpretation of data, and how to present research results in technical laboratory reports.",
     "coreqs": [],
     "prereqs": []
@@ -395,8 +552,11 @@
     "scheduleType": "Individual Instruction",
     "credits": 0,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "10667" }],
-    "description": "Expects student to conduct full-time research in an adviser&amp;#8217;s laboratory. May be repeated without limit.",
+    "sections": [
+      { "term": "202310", "crn": "10667" },
+      { "term": "202330", "crn": "30749" }
+    ],
+    "description": "Expects student to conduct full-time research in an adviser's laboratory. May be repeated without limit.",
     "coreqs": [],
     "prereqs": []
   },
@@ -407,10 +567,16 @@
     "scheduleType": "Individual Instruction",
     "credits": 2,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "11031" }],
+    "sections": [
+      { "term": "202310", "crn": "11031" },
+      { "term": "202330", "crn": "31770" }
+    ],
     "description": "Offers preparation of PhD dissertation proposal and proposal defense before dissertation committee. Requires passing of comprehensive exam. May be repeated without limit.",
     "coreqs": [],
-    "prereqs": [{ "subject": "PHSC", "number": "8940" }]
+    "prereqs": [
+      { "subject": "PHSC", "number": "8940" },
+      { "subject": "PHSC", "number": "8940" }
+    ]
   },
   {
     "subject": "PHSC",
@@ -419,7 +585,10 @@
     "scheduleType": "Individual Instruction",
     "credits": 0,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "10725" }],
+    "sections": [
+      { "term": "202310", "crn": "10725" },
+      { "term": "202330", "crn": "30748" }
+    ],
     "description": "Offers research/experimental work for PhD thesis.",
     "coreqs": [],
     "prereqs": []
@@ -431,7 +600,10 @@
     "scheduleType": "Individual Instruction",
     "credits": 0,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "14959" }],
+    "sections": [
+      { "term": "202310", "crn": "14959" },
+      { "term": "202330", "crn": "34909" }
+    ],
     "description": "Offers dissertation supervision by members of the department.",
     "coreqs": [],
     "prereqs": []
@@ -443,10 +615,16 @@
     "scheduleType": "Individual Instruction",
     "credits": 0,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "10724" }],
+    "sections": [
+      { "term": "202310", "crn": "10724" },
+      { "term": "202330", "crn": "31765" }
+    ],
     "description": "Offers continuation of PhD dissertation research.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "PHSC", "number": "9991" },
+      "Or",
+      "Dissertation Check",
       { "subject": "PHSC", "number": "9991" },
       "Or",
       "Dissertation Check"

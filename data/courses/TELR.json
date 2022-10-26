@@ -7,9 +7,19 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "20378" }],
-    "description": "Covers elements of technology practices such as technology engineering (system design and engineering, integration, and documentation); technology leadership (team building, communication, leadership styles, ethical behavior, and conflict resolution); market assessment (economics, business plans, intellectual property, risk assessment, and mitigation); and technology excellence (quality, reliability, serviceability, manufacturability, procurement, and problem solving).​ Requires work/training with a sponsoring organization or employer to improve a process or develop a project that is of significant value to the organization and demonstrates a quantifiable market impact while enhancing the student&rsquo;s technological depth and fostering the student&rsquo;s leadership development.​",
+    "description": "Covers elements of technology practices such as technology engineering (system design and engineering, integration, and documentation); technology leadership (team building, communication, leadership styles, ethical behavior, and conflict resolution); market assessment (economics, business plans, intellectual property, risk assessment, and mitigation); and technology excellence (quality, reliability, serviceability, manufacturability, procurement, and problem solving).​ Requires work/training with a sponsoring organization or employer to improve a process or develop a project that is of significant value to the organization and demonstrates a quantifiable market impact while enhancing the student’s technological depth and fostering the student’s leadership development.​",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "TELR",
+    "number": "5122",
+    "title": "Technology Leadership 2",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "37656" }],
+    "description": "Continues the examination of technology practices begun in TELR 5121. Requires work/training with a sponsoring organization or employer to improve a process or develop a project that is of significant value to the organization and demonstrates a quantifiable market impact while enhancing the student’s technological depth and fostering the student’s leadership development."
   },
   {
     "subject": "TELR",
@@ -19,9 +29,19 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "20371" }],
-    "description": "Presents a review of the fundamental science underlying technology disciplines. Develops a conceptual framework to understand interdisciplinary engineering practice and to make informed, back-of-the-envelope, quantitative estimates. Provides a review of topics such as principles of mechanics and mechanics of materials, wave physics, quantum physics, statistical and thermal physics, fluid physics, Maxwell&rsquo;s equations and constitutive relations, and topics in chemistry and biology.",
+    "description": "Presents a review of the fundamental science underlying technology disciplines. Develops a conceptual framework to understand interdisciplinary engineering practice and to make informed, back-of-the-envelope, quantitative estimates. Provides a review of topics such as principles of mechanics and mechanics of materials, wave physics, quantum physics, statistical and thermal physics, fluid physics, Maxwell’s equations and constitutive relations, and topics in chemistry and biology.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "TELR",
+    "number": "5132",
+    "title": "Scientific Foundations of Technology 2",
+    "scheduleType": "Lecture",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "37657" }],
+    "description": "Continues the examination of fundamental science begun in TELR 5131."
   },
   {
     "subject": "TELR",
@@ -31,8 +51,18 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "20297" }],
-    "description": "Offers students an opportunity to develop and present a plan for the demonstration of a marketable technology product or prototype. This course is the first half of a thesis-scale project in technology commercialization. Requires work/training with a sponsoring organization or employer to improve a process or develop a project that is of significant value to the organization and demonstrates a quantifiable market impact while enhancing the student&rsquo;s technological depth and fostering the student&rsquo;s leadership development.",
+    "description": "Offers students an opportunity to develop and present a plan for the demonstration of a marketable technology product or prototype. This course is the first half of a thesis-scale project in technology commercialization. Requires work/training with a sponsoring organization or employer to improve a process or develop a project that is of significant value to the organization and demonstrates a quantifiable market impact while enhancing the student’s technological depth and fostering the student’s leadership development.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "TELR",
+    "number": "7442",
+    "title": "Technology Leadership Challenge Project 2",
+    "scheduleType": "Individual Instruction",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "37658" }],
+    "description": "Continues TELR 7440, a thesis-scale project in technology commercialization. Offers students an opportunity to demonstrate their development of a marketable technology product or prototype and to produce a written documentary report on the project to the satisfaction of an advising committee. Requires work/training with a sponsoring organization or employer to improve a process or develop a project that is of significant value to the organization and demonstrates a quantifiable market impact while enhancing the student’s technological depth and fostering the student’s leadership development."
   }
 ]

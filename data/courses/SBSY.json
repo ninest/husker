@@ -7,9 +7,22 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "11975" }],
-    "description": "Covers theory of sustainability and green building procedures; sustainable design and construction practices; use of appropriate materials and systems with low environmental impact for creating energy-efficient buildings; green construction practices, including reducing pollution, emissions, and construction waste; and U.S. Green Building Council&amp;#8217;s LEED rating system. May be helpful to students preparing for the LEED Green Associate examination.",
+    "description": "Covers theory of sustainability and green building procedures; sustainable design and construction practices; use of appropriate materials and systems with low environmental impact for creating energy-efficient buildings; green construction practices, including reducing pollution, emissions, and construction waste; and U.S. Green Building Council's LEED rating system. May be helpful to students preparing for the LEED Green Associate examination.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "SBSY",
+    "number": "5200",
+    "title": "Sustainable Engineering Systems for Buildings",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "31938" },
+      { "term": "202330", "crn": "38208" }
+    ],
+    "description": "Focuses on the design and construction of sustainable mechanical/electrical/plumbing (MEP) systems in buildings. Covers MEP documentation, plumbing water supply, HVAC systems, electrical power supply and distribution, lighting systems, low-voltage electrical systems, and estimating and planning for these specialty areas. Addresses sustainable design and construction practices for MEP, including minimization of energy consumption and carbon footprint. Requires one semester of building physics, environmental systems, or equivalent."
   },
   {
     "subject": "SBSY",
@@ -30,7 +43,10 @@
     "scheduleType": "Seminar",
     "credits": 0,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "12546" }],
+    "sections": [
+      { "term": "202310", "crn": "12546" },
+      { "term": "202330", "crn": "38209" }
+    ],
     "description": "Features prominent speakers from the sustainable building design and construction industry to showcase new building technologies, tools, and projects and to discuss national and international trends in the industry. Offers students an opportunity to meet innovators and key players advancing the field of sustainable building systems. May be repeated without limit.",
     "coreqs": [],
     "prereqs": []

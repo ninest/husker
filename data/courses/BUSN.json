@@ -26,9 +26,25 @@
       { "term": "202310", "crn": "17550" },
       { "term": "202310", "crn": "18152" },
       { "term": "202260", "crn": "60910" },
-      { "term": "202240", "crn": "41715" }
+      { "term": "202240", "crn": "41715" },
+      { "term": "202330", "crn": "31011" },
+      { "term": "202330", "crn": "31012" },
+      { "term": "202330", "crn": "31045" },
+      { "term": "202330", "crn": "31046" },
+      { "term": "202330", "crn": "31086" },
+      { "term": "202330", "crn": "31087" },
+      { "term": "202330", "crn": "31102" },
+      { "term": "202330", "crn": "32903" },
+      { "term": "202330", "crn": "31242" },
+      { "term": "202330", "crn": "31484" },
+      { "term": "202330", "crn": "31821" },
+      { "term": "202330", "crn": "31822" },
+      { "term": "202330", "crn": "36663" },
+      { "term": "202330", "crn": "36664" },
+      { "term": "202330", "crn": "36665" },
+      { "term": "202330", "crn": "36666" }
     ],
-    "description": "Blends theoretical principles with real-life application. Introduces the fundamentals of launching, growing, and managing a business venture in today&rsquo;s dynamic and increasingly global environment. Examines concepts within multiple academic disciplines and from multiple perspectives&mdash;including marketing, technology, finance, accounting, information systems, people, and culture&mdash;and then applies them to new ventures within varied types of organizations. Offers students an opportunity to develop an entrepreneurial skill set and mind-set through the development of the critical thinking, innovative decision making, problem solving, and team building needed for any business, large or small.",
+    "description": "Blends theoretical principles with real-life application. Introduces the fundamentals of launching, growing, and managing a business venture in today’s dynamic and increasingly global environment. Examines concepts within multiple academic disciplines and from multiple perspectives—including marketing, technology, finance, accounting, information systems, people, and culture—and then applies them to new ventures within varied types of organizations. Offers students an opportunity to develop an entrepreneurial skill set and mind-set through the development of the critical thinking, innovative decision making, problem solving, and team building needed for any business, large or small.",
     "coreqs": [],
     "prereqs": []
   },
@@ -61,9 +77,21 @@
       { "term": "202310", "crn": "19851" },
       { "term": "202310", "crn": "19852" },
       { "term": "202310", "crn": "20983" },
-      { "term": "202310", "crn": "20984" }
+      { "term": "202310", "crn": "20984" },
+      { "term": "202330", "crn": "36678" },
+      { "term": "202330", "crn": "36679" },
+      { "term": "202330", "crn": "36667" },
+      { "term": "202330", "crn": "36668" },
+      { "term": "202330", "crn": "36669" },
+      { "term": "202330", "crn": "36670" },
+      { "term": "202330", "crn": "36671" },
+      { "term": "202330", "crn": "36672" },
+      { "term": "202330", "crn": "36673" },
+      { "term": "202330", "crn": "36674" },
+      { "term": "202330", "crn": "36675" },
+      { "term": "202330", "crn": "36676" }
     ],
-    "description": "Offers first-year students in the D&amp;#8217;Amore-McKim School of Business (DMSB) an opportunity to achieve a better understanding of themselves as students and as future professionals. Explores self-analysis, leadership traits and styles, diversity and cultural awareness, professionalism, emotional intelligence, and ethics. Encourages students to draw connections among classroom education, extracurricular activities, and practical experiences and to identify how each component fits into the pursuit of their individual goals.",
+    "description": "Offers first-year students in the D'Amore-McKim School of Business (DMSB) an opportunity to achieve a better understanding of themselves as students and as future professionals. Explores self-analysis, leadership traits and styles, diversity and cultural awareness, professionalism, emotional intelligence, and ethics. Encourages students to draw connections among classroom education, extracurricular activities, and practical experiences and to identify how each component fits into the pursuit of their individual goals.",
     "coreqs": [],
     "prereqs": []
   },
@@ -112,9 +140,28 @@
       { "term": "202310", "crn": "19300" },
       { "term": "202310", "crn": "19302" },
       { "term": "202310", "crn": "19303" },
-      { "term": "202310", "crn": "19304" }
+      { "term": "202310", "crn": "19304" },
+      { "term": "202330", "crn": "33459" },
+      { "term": "202330", "crn": "33802" },
+      { "term": "202330", "crn": "33803" },
+      { "term": "202330", "crn": "33804" },
+      { "term": "202330", "crn": "33805" },
+      { "term": "202330", "crn": "33806" },
+      { "term": "202330", "crn": "33807" },
+      { "term": "202330", "crn": "33808" },
+      { "term": "202330", "crn": "33809" },
+      { "term": "202330", "crn": "33810" },
+      { "term": "202330", "crn": "33811" },
+      { "term": "202330", "crn": "34778" },
+      { "term": "202330", "crn": "34779" },
+      { "term": "202330", "crn": "34781" },
+      { "term": "202330", "crn": "34782" },
+      { "term": "202330", "crn": "36634" },
+      { "term": "202330", "crn": "36635" },
+      { "term": "202330", "crn": "36636" },
+      { "term": "202330", "crn": "38108" }
     ],
-    "description": "Enrollment in this section is limited to D&#39;Amore-McKim students with concentrations in ACCOUNTING.",
+    "description": "Enrollment in this section is limited to D'Amore-McKim students with concentrations in ACCOUNTING.",
     "coreqs": [],
     "prereqs": []
   },
@@ -137,7 +184,10 @@
     "scheduleType": "Seminar",
     "credits": 0,
     "nuPath": [],
-    "sections": [{ "term": "202260", "crn": "61528" }],
+    "sections": [
+      { "term": "202260", "crn": "61528" },
+      { "term": "202330", "crn": "37639" }
+    ],
     "description": "Offers students an enhanced applied project setting in which to apply their curricular learning. Working with a partner sponsor, students refine an applied research topic, perform research, develop recommendations that are shared with the partner sponsor, and create a plan for implementing their recommendations. Curriculum supports students as they develop key business communication skills, project and client management skills, and frameworks for business analysis. Offers students an opportunity to learn from sponsor feedback, review lessons learned, and incorporate suggestions to improve and further hone their career development and professional plan. Career development opportunities through skill-building workshops, panels, and interview preparation are available. Partner-student interactions, including a culminating project presentation, allow partners to assess student potential for co-op, internship, or other employment opportunities with the partner.",
     "coreqs": [],
     "prereqs": []
@@ -154,9 +204,15 @@
       { "term": "202310", "crn": "15784" },
       { "term": "202310", "crn": "18136" },
       { "term": "202310", "crn": "18165" },
-      { "term": "202310", "crn": "11126" }
+      { "term": "202310", "crn": "11126" },
+      { "term": "202330", "crn": "31747" },
+      { "term": "202330", "crn": "30609" },
+      { "term": "202330", "crn": "34813" },
+      { "term": "202330", "crn": "36900" },
+      { "term": "202330", "crn": "36907" },
+      { "term": "202310", "crn": "21705" }
     ],
-    "description": "Required for the Co-op MBA program. Begins with an introduction to the career planning process and to the services of the MBA Career Center. Topics include r&amp;#233;sum&amp;#233; writing, videotaped practice interviewing, job search strategies, interview preparation, salary negotiation, marketing communication, and visa issues for international students seeking employment in the United States. May include additional topics depending on student interest. Requires admission to co-op MBA program. May be repeated once.",
+    "description": "Required for the Co-op MBA program. Begins with an introduction to the career planning process and to the services of the MBA Career Center. Topics include résumé writing, videotaped practice interviewing, job search strategies, interview preparation, salary negotiation, marketing communication, and visa issues for international students seeking employment in the United States. May include additional topics depending on student interest. Requires admission to co-op MBA program. May be repeated once.",
     "coreqs": [],
     "prereqs": []
   },
@@ -174,6 +230,16 @@
   },
   {
     "subject": "BUSN",
+    "number": "6343",
+    "title": "Sharing Economy, Crowdsourcing, and Digital Business Transformation",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38109" }],
+    "description": "Explores how a highly connected world driven by technological advances fuels a digital transformation centered around networks, crowds, and markets. Covers network effects and 'rich-get-richer' phenomena; business models and strategies for multisided markets and platforms; crowdsourcing and online labor markets; sharing economy; and new ways organizations become innovative by tapping into expertise outside firms' boundaries. Discusses business cases from industries including Uber/Lyft, Airbnb, Kickstarter, Amazon’s Mechanical Turk, Upwork, Etsy, eBay, InnoCentive, and TopCoder. Explicitly addresses possible negative consequences. Explores critical risks such as bias and inequality due to deregulation, social and algorithm-based discrimination, and an overall critique of growth-based business models. Offers students an opportunity to hone their skills to spearhead game-changing digital initiatives to learn how to manage others in the wake of disruptive changes."
+  },
+  {
+    "subject": "BUSN",
     "number": "6344",
     "title": "The Fintech Revolution",
     "scheduleType": "Lecture",
@@ -183,6 +249,23 @@
     "description": "Uses case studies and illustrations to explore the key major innovations that are revolutionizing and driving opportunities in fintech. Topics may include payments: payment processing, transfers, rewards; blockchain: digital currency, smart contracts, DLT, trading; investments: Robo Advisors, investment management; planning: retirement planning, education planning; lending: crowdfunding, P-2-P lending, alternative money-raising platforms; insurance: underwriting, comparison platforms; big data and analytics: AI and big data solutions, alternative data; security: cybersecurity, authentication, encryption. Also discusses business models and opportunities in fintech, including the evolution of fintech and the current state of the art; case studies of successful business models in fintech startups; key things that differentiate a successful fintech company; and best practices and tips when working on a fintech idea.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "BUSN",
+    "number": "6351",
+    "title": "Experiential Education",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "33465" },
+      { "term": "202330", "crn": "33466" },
+      { "term": "202330", "crn": "33467" },
+      { "term": "202310", "crn": "21816" },
+      { "term": "202310", "crn": "21817" },
+      { "term": "202310", "crn": "21818" }
+    ],
+    "description": "Consists of various experiential learning opportunities that are approved by the faculty of the D'Amore-McKim School of Business for full-time MBA students."
   },
   {
     "subject": "BUSN",
@@ -208,11 +291,22 @@
     "nuPath": [],
     "sections": [
       { "term": "202260", "crn": "60577" },
-      { "term": "202260", "crn": "61056" }
+      { "term": "202260", "crn": "61056" },
+      { "term": "202330", "crn": "33369" }
     ],
     "description": "Provides an overview of data collection, organization, analysis, interpretation, and presentation techniques used by contemporary organizations. Students use multiple software tools to collect, prepare, manage, analyze, evaluate, understand, critique, visualize, and present data sets of various types. Offers students an opportunity to obtain essential skills, tools, and techniques required to understand data sets, both large and small, from sources internal and external to an organization. This understanding can then be used to support datacentric decision making and create a measurable improvement in business performance. Businesses run on data, and employees at all levels must know how to properly use and interpret data to support their roles within a company.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "BUSN",
+    "number": "6366",
+    "title": "International Corporate Governance and Strategic Thinking",
+    "scheduleType": "Lecture",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38110" }],
+    "description": "Introduces key concepts in strategic corporate governance. Offers students an opportunity to use these concepts to understand the different economic, social, and political contexts across advanced industrial and emerging economies. Describes key aspects of corporate governance systems in a number of different countries and analyzes the strengths and weaknesses of these systems in comparison. Examines the importance of social and political factors in shaping different models of firm organization across countries and how new governance practices and institutional norms develop in response to changes in the real world of business management."
   },
   {
     "subject": "BUSN",
@@ -222,7 +316,7 @@
     "credits": 1,
     "nuPath": [],
     "sections": [{ "term": "202240", "crn": "41446" }],
-    "description": "Designed to empower students with a holistic toolkit to make &ldquo;creating shared value&rdquo; a way of life as a social innovator, entrepreneur, and strategist who is prepared to tackle the challenges of the 21st century. Offers students an opportunity to be exposed to and practice the concepts of business policy by assuming the role of a strategist analyzing the strategic context of a company/venture at a point in time.",
+    "description": "Designed to empower students with a holistic toolkit to make “creating shared value” a way of life as a social innovator, entrepreneur, and strategist who is prepared to tackle the challenges of the 21st century. Offers students an opportunity to be exposed to and practice the concepts of business policy by assuming the role of a strategist analyzing the strategic context of a company/venture at a point in time.",
     "coreqs": [],
     "prereqs": []
   },
@@ -249,7 +343,7 @@
     "credits": 1,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21089" }],
-    "description": "Examines how strategic business decisions are made and governing policies established in today&#39;s changing corporate environment. Discusses whether it is advisable for CEOs to &ldquo;take a stand&rdquo; on behalf of their company and their employees when fundamental shared values and a company&#39;s purpose or mission are at stake. After a grounding in business governance theory and history, students debate whether CEOs should speak openly on controversial public issues. One can make the case that a CEO taking a position on one side of a public issue is a significant strategic risk. Conversely, stakeholders are increasingly demanding that business leaders publicly take positions and change business practices to align with those values.",
+    "description": "Examines how strategic business decisions are made and governing policies established in today's changing corporate environment. Discusses whether it is advisable for CEOs to “take a stand” on behalf of their company and their employees when fundamental shared values and a company's purpose or mission are at stake. After a grounding in business governance theory and history, students debate whether CEOs should speak openly on controversial public issues. One can make the case that a CEO taking a position on one side of a public issue is a significant strategic risk. Conversely, stakeholders are increasingly demanding that business leaders publicly take positions and change business practices to align with those values.",
     "coreqs": [],
     "prereqs": []
   },
@@ -272,7 +366,10 @@
     "scheduleType": "Off-campus instruction w/ lec",
     "credits": 2,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "11907" }],
+    "sections": [
+      { "term": "202310", "crn": "11907" },
+      { "term": "202330", "crn": "31125" }
+    ],
     "description": "Offers a weeklong educational residency in Washington, D.C., where students meet with members of Congress, current and former executive branch officials, senior civil servants, business executives, lobbyists, representatives of the media, and special-interest groups. Offers students an opportunity to understand how Washington works, how legislative and regulatory changes impact their business futures, and what new business opportunities may evolve as the result of federal policy priorities and decisions. The residency seeks to offer unparalleled insight into the process of government, with the goal of enabling top business leaders to contribute ethically and effectively to the policy debate, influence policy outcomes, and leverage their understanding of policy trends to developing new business opportunities.",
     "coreqs": [],
     "prereqs": []
@@ -300,11 +397,26 @@
       { "term": "202310", "crn": "17060" },
       { "term": "202310", "crn": "18593" },
       { "term": "202260", "crn": "60994" },
-      { "term": "202240", "crn": "41297" }
+      { "term": "202240", "crn": "41297" },
+      { "term": "202330", "crn": "38028" }
     ],
     "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "BUSN",
+    "number": "6964",
+    "title": "Co-op Work Experience",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "37064" },
+      { "term": "202330", "crn": "37967" },
+      { "term": "202310", "crn": "21823" }
+    ],
+    "description": "Provides eligible students with an opportunity for work experience. May be repeated up to five times."
   },
   {
     "subject": "BUSN",

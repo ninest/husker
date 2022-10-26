@@ -40,10 +40,6 @@
     "description": "Art - Fundamentals"
   },
   {
-    "code": "ARTE",
-    "description": "Art - General"
-  },
-  {
     "code": "ARTH",
     "description": "Art - History"
   },
@@ -62,6 +58,10 @@
   {
     "code": "ASNS",
     "description": "Asian Studies"
+  },
+  {
+    "code": "BNSC",
+    "description": "Behavioral Neuroscience"
   },
   {
     "code": "BIOC",
@@ -296,10 +296,6 @@
     "description": "History"
   },
   {
-    "code": "HSTY",
-    "description": "History - CPS Spec"
-  },
-  {
     "code": "HONR",
     "description": "Honors Program"
   },
@@ -428,10 +424,6 @@
     "description": "Media and Screen Studies"
   },
   {
-    "code": "MSCI",
-    "description": "Medical Sciences"
-  },
-  {
     "code": "MUSC",
     "description": "Music"
   },
@@ -478,6 +470,10 @@
   {
     "code": "PMST",
     "description": "Pharmaceutics"
+  },
+  {
+    "code": "PMCL",
+    "description": "Pharmacology"
   },
   {
     "code": "PHMD",
@@ -556,14 +552,6 @@
     "description": "Strategy"
   },
   {
-    "code": "ABRD",
-    "description": "Study Abroad"
-  },
-  {
-    "code": "ABRB",
-    "description": "Study Abroad - Business"
-  },
-  {
     "code": "ABRC",
     "description": "Study Abroad - CPS Spec"
   },
@@ -598,6 +586,26 @@
   {
     "code": "WMNS",
     "description": "Women&#39;s/Gender/Sexualty Stdies"
+  },
+  {
+    "code": "ARTE",
+    "description": "Art - General"
+  },
+  {
+    "code": "HSTY",
+    "description": "History - CPS Spec"
+  },
+  {
+    "code": "LW",
+    "description": "Law (for Non-Law School Stu)"
+  },
+  {
+    "code": "MSCI",
+    "description": "Medical Sciences"
+  },
+  {
+    "code": "ABRB",
+    "description": "Study Abroad - Business"
   },
   {
     "code": "ABRU",

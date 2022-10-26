@@ -6,10 +6,16 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "19667" }],
+    "sections": [
+      { "term": "202310", "crn": "19667" },
+      { "term": "202330", "crn": "30286" }
+    ],
     "description": "Continues MUSI 1203. Examines the role and function of various musical elements by analyzing examples from popular music. Examines structure, lyrics, and instrumentation in popular music. Offers students an opportunity to further develop ear training and sight-singing skills.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "MUSI", "number": "1203" },
+      "Or",
+      { "subject": "MUSC", "number": "1201" },
       { "subject": "MUSI", "number": "1203" },
       "Or",
       { "subject": "MUSC", "number": "1201" }
@@ -25,7 +31,9 @@
     "sections": [
       { "term": "202310", "crn": "14860" },
       { "term": "202310", "crn": "19668" },
-      { "term": "202310", "crn": "19669" }
+      { "term": "202310", "crn": "19669" },
+      { "term": "202330", "crn": "32363" },
+      { "term": "202330", "crn": "39013" }
     ],
     "description": "Examines business-related areas of the music industry. Topics include music publishing, copyright, the function of performing rights organizations (ASCAP and BMI), talent agents, artist management, concert promotion, and royalties and contracts.",
     "coreqs": [],
@@ -45,6 +53,16 @@
   },
   {
     "subject": "MUSI",
+    "number": "2231",
+    "title": "Music Licensing for Media",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [{ "term": "202330", "crn": "39014" }],
+    "description": "Examines a variety of music usages in film, advertisements, TV shows, and other media types or venues that require music licensing. Offers students an opportunity to examine licenses and agreements in an effort to enable them to customize boilerplate forms to reflect accurately the needed licenses with any and all customized terms. Stresses teamwork, defining roles within a team, and assertiveness in an effort to enable students to function at their highest level for the demanding team-based final project. The final project stresses resourcefulness, meeting deadlines, creative excellence, along with open and sustained communication between the production side and the creative side."
+  },
+  {
+    "subject": "MUSI",
     "number": "2232",
     "title": "Music Recording 1",
     "scheduleType": "Lecture",
@@ -55,7 +73,9 @@
       { "term": "202310", "crn": "11368" },
       { "term": "202310", "crn": "20809" },
       { "term": "202260", "crn": "61389" },
-      { "term": "202240", "crn": "40109" }
+      { "term": "202240", "crn": "40109" },
+      { "term": "202330", "crn": "30283" },
+      { "term": "202330", "crn": "33458" }
     ],
     "description": "Introduces the history and practice of recording music. Covers recording apparatus; microphones; monophonic, stereophonic, and digital theory and techniques; field recording; studio terminology; basic sound theory; and development of rudimentary editing skills. Also examines the role of the producer vs. that of the technician, preparation for recording sessions, and basic legal regulations regarding copyrights and compensation.",
     "coreqs": [],
@@ -81,7 +101,7 @@
     "credits": 4,
     "nuPath": ["SI"],
     "sections": [{ "term": "202310", "crn": "19674" }],
-    "description": "Explores the balance of interests at the heart of copyright law, including enhancing the public interest, supporting innovation, and protecting private property rights. Offers students an opportunity to gain an appreciation of the significance of copyright in the structure, operation, and customs of the creative industries. Focuses on the unique character of music-related copyright issues and addresses the music industries&rsquo; outsized impact on the development of copyright policy in the United States.",
+    "description": "Explores the balance of interests at the heart of copyright law, including enhancing the public interest, supporting innovation, and protecting private property rights. Offers students an opportunity to gain an appreciation of the significance of copyright in the structure, operation, and customs of the creative industries. Focuses on the unique character of music-related copyright issues and addresses the music industries’ outsized impact on the development of copyright policy in the United States.",
     "coreqs": [],
     "prereqs": []
   },
@@ -94,11 +114,22 @@
     "nuPath": ["EI"],
     "sections": [
       { "term": "202310", "crn": "11472" },
-      { "term": "202240", "crn": "40036" }
+      { "term": "202240", "crn": "40036" },
+      { "term": "202330", "crn": "30282" }
     ],
     "description": "Offers students the opportunity to learn additional skills in the recording process, such as material marketing and distribution, contracts and negotiations, and establishing distribution channels. Includes hands-on studio production of record-quality material.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "MUSI",
+    "number": "2341",
+    "title": "Music Supervision 1",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI"],
+    "sections": [{ "term": "202330", "crn": "39015" }],
+    "description": "Covers the field of music supervision, which has become an in-demand field due to the increased use of songs in TV shows, films, live events, advertisements, websites, and other forums. Discusses the whole process, from choosing the perfect song/lyric to strategies for securing licensing with artists and publishers. Offers students a hands-on opportunity to make music selections fit a variety of media and also to structure licensing/contract deals for composers, publishers, and record companies. Final project involves networking with Green Line Records and external rights holders to license and place music into a series of scenes and advertisements."
   },
   {
     "subject": "MUSI",
@@ -108,7 +139,7 @@
     "credits": 1,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "19675" }],
-    "description": "Identifies and explores how and why data is used in the creative industries for talent acquisition and content generation, personalized recommendations, partnership enablement, and marketing optimization. Provides an overview of popular data API&rsquo;s and platforms specific to the creative industries and examples of how the data they generate is used in creative endeavors.",
+    "description": "Identifies and explores how and why data is used in the creative industries for talent acquisition and content generation, personalized recommendations, partnership enablement, and marketing optimization. Provides an overview of popular data API’s and platforms specific to the creative industries and examples of how the data they generate is used in creative endeavors.",
     "coreqs": [],
     "prereqs": []
   },
@@ -120,9 +151,19 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "19676" }],
-    "description": "Provides an in-depth investigation of the field of musical artist management. Explores the artist-manager relationship, the management contract, artist evaluation, image formulation, the artist&amp;#8217;s development team, achieving a recording contract, merchandising, endorsements, sponsorships, touring, and financial management.",
+    "description": "Provides an in-depth investigation of the field of musical artist management. Explores the artist-manager relationship, the management contract, artist evaluation, image formulation, the artist's development team, achieving a recording contract, merchandising, endorsements, sponsorships, touring, and financial management.",
     "coreqs": [],
     "prereqs": [{ "subject": "MUSI", "number": "1230" }]
+  },
+  {
+    "subject": "MUSI",
+    "number": "3338",
+    "title": "Music Industry Marketing and Promotion",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "36556" }],
+    "description": "Provides a thorough examination of the principles and applications of marketing and promotion within the music industry. Students explore how music companies successfully conduct product, pricing, distribution, and communication management. Approaches music marketing issues using readings, specific music marketing case studies, lectures, guest speakers, and projects."
   },
   {
     "subject": "MUSI",
@@ -139,14 +180,30 @@
   {
     "subject": "MUSI",
     "number": "3341",
-    "title": "Music Recording 3&amp;#8212;Mixing and Mastering",
+    "title": "Music Recording 3&#8212;Mixing and Mastering",
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["EI"],
-    "sections": [{ "term": "202310", "crn": "12365" }],
-    "description": "Covers specific topics relating to the final stages in music recording&amp;#8212;mixing and mastering. Discusses criteria for making decisions about levels, equalization, dynamics, time-based effects, and spatial positioning. In-depth listening and analysis are designed to augment hands-on practice using both students&amp;#8217; current recordings and professional recordings from the past forty years.",
+    "sections": [
+      { "term": "202310", "crn": "12365" },
+      { "term": "202330", "crn": "34647" }
+    ],
+    "description": "Covers specific topics relating to the final stages in music recording—mixing and mastering. Discusses criteria for making decisions about levels, equalization, dynamics, time-based effects, and spatial positioning. In-depth listening and analysis are designed to augment hands-on practice using both students' current recordings and professional recordings from the past forty years.",
     "coreqs": [],
-    "prereqs": [{ "subject": "MUSI", "number": "2331" }]
+    "prereqs": [
+      { "subject": "MUSI", "number": "2331" },
+      { "subject": "MUSI", "number": "2331" }
+    ]
+  },
+  {
+    "subject": "MUSI",
+    "number": "3351",
+    "title": "Music and Social Justice",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "ER"],
+    "sections": [{ "term": "202330", "crn": "39017" }],
+    "description": "Introduces theories of ethics, morality, and equality and strategies to advance social justice—to ensure equality and human dignity for all people—through music. Explores the music industry as both a microcosm of society and amplifier of our collective ethics. On stage, on the record, and through direct action, musicians worldwide use their art and renown to serve social movements. Many also face equality and equity challenges within the music industry. As future professionals, students may either challenge or reinforce the injustices they encounter in their professional and personal lives.Through critical discourse on professional ethics in the music business and service-learning projects requiring direct community engagement, seeks to empower students to make a lifelong commitment to ethical decision making and advancing social justice."
   },
   {
     "subject": "MUSI",
@@ -156,9 +213,19 @@
     "credits": 4,
     "nuPath": ["DD", "SI"],
     "sections": [{ "term": "202310", "crn": "19678" }],
-    "description": "Offers students an opportunity to obtain the cultural curiosity and adaptive dexterity needed to analyze diverse global music industries in their historical, cultural, economic, and political contexts. Through the labels, scenes, and digital spaces that form the professional settings for today&rsquo;s global music professionals&mdash;explored in course readings, creative case studies, and summative research projects&mdash;identifies the many ways in which diverse industries consolidate music production, distribution, and consumption. Students encounter and analyze diverse professional practices and creative products and critique music&rsquo;s value&mdash;financial, social, political, ideological, and personal. In addition, students practice critical reading and observation and identify traditions within the social sciences and cultural criticism that provide valuable theoretical lenses for the interpretation of global music industries in context.",
+    "description": "Offers students an opportunity to obtain the cultural curiosity and adaptive dexterity needed to analyze diverse global music industries in their historical, cultural, economic, and political contexts. Through the labels, scenes, and digital spaces that form the professional settings for today’s global music professionals—explored in course readings, creative case studies, and summative research projects—identifies the many ways in which diverse industries consolidate music production, distribution, and consumption. Students encounter and analyze diverse professional practices and creative products and critique music’s value—financial, social, political, ideological, and personal. In addition, students practice critical reading and observation and identify traditions within the social sciences and cultural criticism that provide valuable theoretical lenses for the interpretation of global music industries in context.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "MUSI",
+    "number": "3401",
+    "title": "Hip Hop in the Music Industry",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "39018" }],
+    "description": "Focuses on black popular music as art, activism, and commodity from the post&#8211;Civil Rights era to today. Studies the immediate musical, historical, cultural, and industry-based precedents for rap music, which emerged in opposition to the music industry&#8212;and many other institutions that perpetuated the inequalities against which early hip-hop artists were protesting. The contemporary moment provides a unique opportunity for refocusing on the origins of hip-hop and black protest music as they relate to the industry's embrace and commodification of certain aspects of hip-hop culture. Explores the dynamic tensions between rap music as aesthetic object, countercultural expression, social commentary, and industry commodity, engaging with current expressions of all of these in the Boston area."
   },
   {
     "subject": "MUSI",
@@ -169,9 +236,10 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "20082" },
-      { "term": "202240", "crn": "41088" }
+      { "term": "202240", "crn": "41088" },
+      { "term": "202330", "crn": "39019" }
     ],
-    "description": "This course focuses on the performing songwriter&rsquo;s live performance and DIY abilities. We will approach the live work with in-class open mics, in-the-round scenarios, and festival-centered &quot;tweener&quot; sets. The participants will be introduced to the DIY business essentials necessary to become a professional opening act.",
+    "description": "This course focuses on the performing songwriter’s live performance and DIY abilities. We will approach the live work with in-class open mics, in-the-round scenarios, and festival-centered \"tweener\" sets. The participants will be introduced to the DIY business essentials necessary to become a professional opening act.",
     "coreqs": [],
     "prereqs": []
   },
@@ -182,22 +250,16 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["CE", "SI", "WI"],
-    "sections": [{ "term": "202310", "crn": "19679" }],
-    "description": "Presents a capstone course for music industry students. Offers advanced students the opportunity to explore contemporary events and issues in the music industry. Allows students to reflect upon, distill, and apply knowledge accumulated in prior courses and previous experiential learning. This reflection and application occurs through substantial writing assignments and classroom discussion. Fulfills the college&amp;#8217;s experiential education requirement for music industry majors.",
+    "sections": [
+      { "term": "202310", "crn": "19679" },
+      { "term": "202330", "crn": "39020" }
+    ],
+    "description": "Presents a capstone course for music industry students. Offers advanced students the opportunity to explore contemporary events and issues in the music industry. Allows students to reflect upon, distill, and apply knowledge accumulated in prior courses and previous experiential learning. This reflection and application occurs through substantial writing assignments and classroom discussion. Fulfills the college's experiential education requirement for music industry majors.",
     "coreqs": [],
-    "prereqs": [{ "subject": "MUSI", "number": "1230" }]
-  },
-  {
-    "subject": "MUSI",
-    "number": "6360",
-    "title": "Investigating Global Music Industries in Context",
-    "scheduleType": "Lecture",
-    "credits": 4,
-    "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "20543" }],
-    "description": "Supports graduate students&rsquo; development of the investigatory and explicatory acumens necessary to put their new knowledge to work. Students encounter and compare diverse global music industries in their historical, cultural, economic, and political contexts. Explores the professional practices of and cultural contexts for today&rsquo;s global music professionals in course readings, creative case studies, and summative research projects. Identifies the ways in which diverse industries consolidate music production, distribution, and consumption. Analyzes diverse creative products and critiques music&rsquo;s value&mdash;financial, social, political, ideological, and personal. Students practice critical reading and interpretation and apply theories within the social sciences and cultural criticism for the interpretation of global music industries in context.",
-    "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "MUSI", "number": "1230" },
+      { "subject": "MUSI", "number": "1230" }
+    ]
   },
   {
     "subject": "MUSI",
@@ -210,5 +272,18 @@
     "description": "Identifies and explores advanced licensing strategies, techniques, and transactions for various intellectual properties, including music publishing, sound recordings, trademarks/service marks, and likeness/publicity rights. Examines complex or hybrid licenses that cover more than one aspect of IP in the same license and approaches, strategies, and tactics (both successful and unsuccessful) that have been applied to licensing. Offers students an opportunity to develop a dynamic and effective licensing methodology and practice.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "MUSI",
+    "number": "7976",
+    "title": "Directed Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202310", "crn": "21678" },
+      { "term": "202310", "crn": "21808" }
+    ],
+    "description": "Offers independent work under the direction of members of the department on chosen topics. May be repeated without limit."
   }
 ]

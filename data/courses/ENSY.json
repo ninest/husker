@@ -8,7 +8,9 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "11804" },
-      { "term": "202310", "crn": "10988" }
+      { "term": "202310", "crn": "10988" },
+      { "term": "202330", "crn": "31463" },
+      { "term": "202330", "crn": "32893" }
     ],
     "description": "Presents fundamental issues of successfully integrating and implementing energy systems. Exposes students to combined heat and power strategies (cogeneration system), strategies of incorporating renewable with nonrenewable energy sources, thermoeconomics, and carbon sequesteration techniques. Includes energy, exergy, and thermoeconomic cost factors in the presented case studies. Explores the effects of public policy, regulations, and financial operations on selecting energy technology. Students are given case studies to illustrate the complexity of implementing energy systems and are expected to complete a major project involving proposing an energy system. Emphasizes that successful implementation of energy systems requires both a technical and an economic solution. Requires calculus-based physics and chemistry.",
     "coreqs": [],
@@ -21,10 +23,33 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "13356" }],
+    "sections": [
+      { "term": "202310", "crn": "13356" },
+      { "term": "202330", "crn": "32891" }
+    ],
     "description": "Introduces and reviews thermodynamic properties such as temperature, pressure, energy, enthalpy, and entropy. Defines work and heat interactions and calculates the amount of energy transferred during thermodynamic processes. Introduces the first and second laws of thermodynamics and concepts of thermodynamic equilibrium. Discusses mass, energy, and entropy balance relations as well as conversion devices, such as turbine, compressors, pumps, valves, and energy exchangers. Studies simple power plants, refrigeration, heat (energy) pumps, and stationary gas turbine systems. Presents and reviews fundamentals of calculus, such as limit, differentiation, integration, power series, vector spaces, and multivariable functions needed for thermodynamic analysis.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "ENSY",
+    "number": "5060",
+    "title": "Fundamentals of Thermal Science 2",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "32892" }],
+    "description": "Studies fundamental principles in fluid mechanics and thermal systems analysis. Topics include hydrostatics (pressure distribution, forces on submerged surfaces, and buoyancy); Newton's law of viscosity; integral forms of basic laws (conservation of mass, momentum, and energy); pipe flow analysis; concept of boundary layer; and drag coefficient. Presents Navier-Stokes equations as differential forms of conservative properties. Introduces theories of thermal energy transport, including conduction, convection, and thermal radiation; the design of thermal systems; and fundamentals of calculus, such as linear algebra, vector fields, and curvilinear coordinate systems required for introducing concepts of fluid dynamics and heat transfer. Discusses surface and volume integrals, conservative vector fields, and surface flux. Green's, divergence, and Stokes theorems are introduced for vector and scalar fields."
+  },
+  {
+    "subject": "ENSY",
+    "number": "5100",
+    "title": "Hydropower",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "33094" }],
+    "description": "Covers fundamentals of hydropowered development projects and their relevant design parameters. Emphasizes harnessing the hydro-energy potentials of both natural and man-made reservoirs. Reviews hydro- and electromechanical equipment and civil structure. Addresses selection procedure and design parameters of the equipment and structure."
   },
   {
     "subject": "ENSY",
@@ -65,7 +90,9 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "13673" },
-      { "term": "202310", "crn": "16694" }
+      { "term": "202310", "crn": "16694" },
+      { "term": "202330", "crn": "33293" },
+      { "term": "202330", "crn": "34022" }
     ],
     "description": "Covers fundamentals of smart electric power grid. Covers definition, design criteria, and technology. Smart grid can be defined as the application of information processing and communications to the power grid. Seeks to motivate development of the smart grid, evaluating options for adding sensing, communications, computation, intelligence, control, and automation to various parts of the electric system. Topics include automation, or lack thereof, in existing power systems; generation; transmission; distribution; and smart grid definition.",
     "coreqs": [],
@@ -73,18 +100,29 @@
   },
   {
     "subject": "ENSY",
-    "number": "5585",
-    "title": "Wind Energy Systems",
+    "number": "5600",
+    "title": "Fund of Solar Photovolt Energy",
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
     "sections": [
-      { "term": "202310", "crn": "12526" },
-      { "term": "202310", "crn": "16695" }
+      { "term": "202330", "crn": "37307" },
+      { "term": "202330", "crn": "38681" }
     ],
-    "description": "Introduces wind energy and its applications. Integrates aerodynamics of wind turbine design with the structures needed to support them. Covers types of wind turbines, their components, and related analyses; airfoil aerodynamics; concepts of lift, drag, pitching moment, circulation, angle of attack, and stall; laminar and turbulent boundary layers and separation concepts; fundamental conservation equations; Bernoulli&amp;#8217;s, Euler&amp;#8217;s, and Navier-Stokes equations and their applications; Betz limit; computational fluid dynamics and its application for flow over typical airfoils; compressibility and elements of one-dimensional gas dynamics; wind resource; wind climatology and meteorological data; turbine tower and structural engineering aspects of turbines; vibration problems; aeroelastic phenomena in turbines; small wind turbines and vertical axis wind turbines; and introduces environmental and societal impacts and economic aspects.",
-    "coreqs": [],
-    "prereqs": []
+    "description": "Focuses on the principles and working fundamentals of photovoltaic (PV) energy conversion, while emphasizing currently available solar technologies. Studies the semiconductor processes and advanced characterization theories. Examines design, fabrication, characterization of the PV modules, and different generations of solar cells and their properties. Advanced topics include thin film cells, compound semiconductors multijunction, multiband cells, spectral conversion, and introduces organic devices. Offers insight about the energy consumption crisis, sustainable energy sources, PV system components, and solar markets. Also discusses issues relating to PV systems, economics, and sustainability."
+  },
+  {
+    "subject": "ENSY",
+    "number": "5650",
+    "title": "Geologic Energy Systems for Energy Generation and Carbon Sequestration",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "38682" },
+      { "term": "202330", "crn": "38683" }
+    ],
+    "description": "Focuses on the technical fundamentals of geologic energy resources. Covers specific applications such as geothermal heat pumps, geothermal power generation, as well as geologic energy storage and carbon sequestration. Offers students an opportunity to use software to perform technical and economic assessments of such systems, reinforcing fundamental concepts. Geologic energy systems are deemed to be a major solution to the grand challenge of meeting rising global energy demand while also decarbonizing the economy."
   },
   {
     "subject": "ENSY",
@@ -93,7 +131,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "15489" }],
+    "sections": [
+      { "term": "202310", "crn": "15489" },
+      { "term": "202330", "crn": "36139" }
+    ],
     "description": "Examines a unique blend of technological and commercial aspects of renewable energy development focused on solar and storage projects with a strong focus on distributed projects. Topics include an introduction to the Independent System Operator New England and generation markets; site selection and layout development; tilt and orientation calculations; shading analysis and interrow spacing requirements; energy production modeling; solar string designs; DC/AC ratios; National Electrical Code requirements/compliances; and wind load analysis. Introduces battery energy storage system sizing analysis and requirements for behind-the-meter and front-of-meter projects, as well as renewable portfolio standards and carbon analysis. Offers an overview of financial modeling and basic tax equity structures. Discusses case studies requiring substantial class participation to uncover practical aspects of project development.",
     "coreqs": [],
     "prereqs": []
@@ -121,8 +162,45 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "13360" }],
-    "description": "Offers students an opportunity to develop and present a plan for the demonstration of a marketable technology product or prototype with an energy systems focus. Constitutes the first half of a thesis-scale project in technology commercialization. Requires work/training with a sponsoring organization or employer to improve a process or develop a project that is of significant value to the organization and demonstrates a quantifiable market impact while enhancing the student&amp;#8217;s technological and engineering depth and fostering the student&amp;#8217;s leadership development.",
+    "description": "Offers students an opportunity to develop and present a plan for the demonstration of a marketable technology product or prototype with an energy systems focus. Constitutes the first half of a thesis-scale project in technology commercialization. Requires work/training with a sponsoring organization or employer to improve a process or develop a project that is of significant value to the organization and demonstrates a quantifiable market impact while enhancing the student's technological and engineering depth and fostering the student's leadership development.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "ENSY",
+    "number": "7442",
+    "title": "Energy Systems Engineering Leadership Challenge Project 2",
+    "scheduleType": "Individual Instruction",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "32957" }],
+    "description": "Continues ENSY 7440, a thesis-scale project in technology commercialization. Offers students an opportunity to demonstrate their development of a marketable technology product or prototype with an energy systems focus and to produce a written documentary report on the project to the satisfaction of an advising committee. Requires work/training with a sponsoring organization or employer to improve a process or develop a project that is of significant value to the organization and demonstrates a quantifiable market impact while enhancing the student's technological and engineering depth and fostering the student's leadership development."
+  },
+  {
+    "subject": "ENSY",
+    "number": "7945",
+    "title": "Master's Project",
+    "scheduleType": "Individual Instruction",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "33998" },
+      { "term": "202330", "crn": "35378" },
+      { "term": "202330", "crn": "35545" }
+    ],
+    "description": "Offers theoretical or experimental work under individual faculty supervision."
+  },
+  {
+    "subject": "ENSY",
+    "number": "7978",
+    "title": "Independent Study",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "33363" },
+      { "term": "202330", "crn": "33518" }
+    ],
+    "description": "Offers an individual effort in an area selected by student and advisor and approved by the Department Discipline Committee, resulting in a definitive report. May be repeated without limit."
   }
 ]

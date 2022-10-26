@@ -25,9 +25,25 @@
       { "term": "202310", "crn": "20510" },
       { "term": "202310", "crn": "20992" },
       { "term": "202240", "crn": "40045" },
-      { "term": "202240", "crn": "40276" }
+      { "term": "202240", "crn": "40276" },
+      { "term": "202330", "crn": "30038" },
+      { "term": "202330", "crn": "30242" },
+      { "term": "202330", "crn": "30241" },
+      { "term": "202330", "crn": "30243" },
+      { "term": "202330", "crn": "30245" },
+      { "term": "202330", "crn": "34806" },
+      { "term": "202330", "crn": "31828" },
+      { "term": "202330", "crn": "32128" },
+      { "term": "202330", "crn": "32231" },
+      { "term": "202330", "crn": "32758" },
+      { "term": "202330", "crn": "33250" },
+      { "term": "202330", "crn": "33251" },
+      { "term": "202330", "crn": "37240" },
+      { "term": "202330", "crn": "39292" },
+      { "term": "202310", "crn": "21594" },
+      { "term": "202310", "crn": "21159" }
     ],
-    "description": "Introduces the student to forces and issues confronted in our era of rapid globalization. Managers must understand forces from interconnected social, political, and economic national environments that affect their company&amp;#8217;s operations. At the same time they need to draw on their ethical foundations to address and act on social responsibility imperatives across national borders.",
+    "description": "Introduces the student to forces and issues confronted in our era of rapid globalization. Managers must understand forces from interconnected social, political, and economic national environments that affect their company's operations. At the same time they need to draw on their ethical foundations to address and act on social responsibility imperatives across national borders.",
     "coreqs": [],
     "prereqs": []
   },
@@ -42,7 +58,10 @@
       { "term": "202310", "crn": "19889" },
       { "term": "202310", "crn": "19890" },
       { "term": "202310", "crn": "19897" },
-      { "term": "202310", "crn": "19898" }
+      { "term": "202310", "crn": "19898" },
+      { "term": "202330", "crn": "39212" },
+      { "term": "202330", "crn": "39213" },
+      { "term": "202330", "crn": "39214" }
     ],
     "description": "Describes the economic, political, regulatory, legal, cultural, international financial system, and geographic distance differences in the international business environment. Discusses how it differs from domestic business contexts and emphasizes the importance of international business to global enterprises. Offers students an opportunity to learn ethical reasoning in international business contexts, government-business relations, as well as the role of national interests and their impact on international business. Studies regional integration (e.g., the European Union), and introduces the role of foreign direct investment. Surveys how international business contributes to economic development. Portrays the antiglobalization movement and the rise of protectionism, nationalism, and industrial policy.",
     "coreqs": [],
@@ -55,7 +74,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["ER", "IC"],
-    "sections": [{ "term": "202310", "crn": "10078" }],
+    "sections": [
+      { "term": "202310", "crn": "10078" },
+      { "term": "202330", "crn": "30117" }
+    ],
     "description": "Does not count as credit for business majors. Counts as INTB 1203 for business minors only.",
     "coreqs": [],
     "prereqs": []
@@ -70,10 +92,20 @@
     "sections": [
       { "term": "202310", "crn": "19891" },
       { "term": "202310", "crn": "19901" },
-      { "term": "202310", "crn": "19931" }
+      { "term": "202310", "crn": "19931" },
+      { "term": "202330", "crn": "38119" },
+      { "term": "202330", "crn": "38120" },
+      { "term": "202330", "crn": "38121" }
     ],
     "description": "Focuses on international business decisions in developed nations such as the European Union, Japan, and other OECD countries and the growing importance of e-commerce. Covers export/import operations, establishing overseas joint ventures and alliances, and analyzing foreign direct investment as a key choice. Discusses configuring global supply chains and establishing global manufacturing operations. Introduces international marketing and international human resource policies. Offers students an opportunity to learn about global teams and assessing international business performance.",
-    "coreqs": [{ "subject": "INTB", "number": "2206" }],
+    "coreqs": [
+      { "subject": "INTB", "number": "2206" },
+      { "subject": "INTB", "number": "2206" },
+      { "subject": "INTB", "number": "2206" },
+      { "subject": "INTB", "number": "2206" },
+      { "subject": "INTB", "number": "2206" },
+      { "subject": "INTB", "number": "2206" }
+    ],
     "prereqs": []
   },
   {
@@ -86,10 +118,20 @@
     "sections": [
       { "term": "202310", "crn": "19892" },
       { "term": "202310", "crn": "19902" },
-      { "term": "202310", "crn": "19932" }
+      { "term": "202310", "crn": "19932" },
+      { "term": "202330", "crn": "38122" },
+      { "term": "202330", "crn": "38123" },
+      { "term": "202330", "crn": "38124" }
     ],
     "description": "Discusses how emerging markets fit into the global economy. Presents unique issues such as lack of infrastructure, limited affordability, volatile economies, political risk, and poverty alleviation. Describes how trade and foreign exchange policies affect emerging markets. Focuses on which emerging markets to invest in, why, and what market-entry strategies to use. Emphasizes the business opportunity in serving the poor in emerging markets. Covers the rise of digital commerce in emerging markets. Offers students an opportunity to learn about the outlook for emerging markets and implications for developed countries and the global economy.",
-    "coreqs": [{ "subject": "INTB", "number": "2205" }],
+    "coreqs": [
+      { "subject": "INTB", "number": "2205" },
+      { "subject": "INTB", "number": "2205" },
+      { "subject": "INTB", "number": "2205" },
+      { "subject": "INTB", "number": "2205" },
+      { "subject": "INTB", "number": "2205" },
+      { "subject": "INTB", "number": "2205" }
+    ],
     "prereqs": []
   },
   {
@@ -99,7 +141,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "13511" }],
+    "sections": [
+      { "term": "202310", "crn": "13511" },
+      { "term": "202330", "crn": "38125" }
+    ],
     "description": "Presents an introduction to emerging markets, focusing on the BRIC countries of Brazil, Russia, India, and China. Takes the perspective of U.S. companies and what they must do to be successful in emerging markets. Discusses the differences between doing business in an emerging vs. a domestic market, the opportunities and potential of an emerging market, and the risks of operating in such a market. Then looks at the world from the perspective of emerging markets and discusses steps that their governments, companies, and entrepreneurs must take to succeed in the world economy. Analyzes what emerging markets must do to raise wages and incomes, accelerate wealth creation, and reduce poverty.",
     "coreqs": [],
     "prereqs": []
@@ -110,8 +155,11 @@
     "title": "Understanding and Managing Cultural Differences",
     "scheduleType": "Lecture",
     "credits": 4,
-    "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "19933" }],
+    "nuPath": ["EX"],
+    "sections": [
+      { "term": "202310", "crn": "19933" },
+      { "term": "202330", "crn": "39263" }
+    ],
     "description": "Emphasizes the importance of cultural differences in international business. Describes the value of developing cultural agility in a global career, and discusses startups in diverse cultural contexts. Focuses on learning from international experiences and highlights the science behind what makes people successful in different countries and with people from different cultures. Discusses how to use this science to facilitate cultural agility development. Presents frameworks to understand cultural values; explains cultural curiosity and tolerance of ambiguity; emphasizes cultural responses such as adaptation, minimization, and integration; and studies living and working in a host country. Offers students an opportunity to develop self-management and relationship-management competencies in diverse cultural environments.",
     "coreqs": [],
     "prereqs": []
@@ -125,11 +173,21 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "12993" },
-      { "term": "202310", "crn": "14016" }
+      { "term": "202310", "crn": "14016" },
+      { "term": "202330", "crn": "32520" }
     ],
     "description": "Helps develop awareness of the hidden influence of culture on behavior, particularly with respect to management and management practices. With the increasing globalization of business, many managers find themselves being managed by, or collaborating with, people of different nationalities and cultures. Develops the ability to recognize, understand, and work with the cultural diversity that affects business conducted across national and cultural boundaries.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "INTB", "number": "1201" },
+      "Or",
+      { "subject": "INTB", "number": "1203" },
+      "Or",
+      { "subject": "INTB", "number": "1209" },
+      "Or",
+      { "subject": "INTB", "number": "2202" },
+      "Or",
+      { "subject": "INTB", "number": "3320" },
       { "subject": "INTB", "number": "1201" },
       "Or",
       { "subject": "INTB", "number": "1203" },
@@ -152,7 +210,7 @@
       { "term": "202310", "crn": "11769" },
       { "term": "202310", "crn": "19305" }
     ],
-    "description": "Examines contemporary issues that confront today&amp;#8217;s global managers. Explores the responses multinational enterprises have to the challenges of globalization. Seeks to build an understanding of the environment of international business while addressing the competencies required of global managers. Offers students an opportunity to develop a four-year professional development plan to guide their study and to help them develop the global mind-set necessary for becoming an effective global manager. Analyzes the political, economic, and sociocultural environment in which global businesses operate.",
+    "description": "Examines contemporary issues that confront today's global managers. Explores the responses multinational enterprises have to the challenges of globalization. Seeks to build an understanding of the environment of international business while addressing the competencies required of global managers. Offers students an opportunity to develop a four-year professional development plan to guide their study and to help them develop the global mind-set necessary for becoming an effective global manager. Analyzes the political, economic, and sociocultural environment in which global businesses operate.",
     "coreqs": [],
     "prereqs": []
   },
@@ -163,10 +221,24 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["CE", "WI"],
-    "sections": [{ "term": "202310", "crn": "11514" }],
-    "description": "Emphasizes global strategy and execution as well as the leadership requirements necessary to execute global strategy. Offers a capstone, &amp;#8220;big picture&amp;#8221; course that draws on and integrates all business fields and presents a global manager&amp;#8217;s perspective. Uses the knowledge acquired in core courses&amp;#8212;such as finance, accounting, operations, marketing, and organizational behavior&amp;#8212;along with their international dimensions, to study how global managers reach strategic management decisions for the firm and its role in society. Offers students an opportunity to review and revise their professional development plans (PDPs) following their return from the expatriate experience and begin to develop post&amp;#8211;Northeastern PDPs.",
+    "sections": [
+      { "term": "202310", "crn": "11514" },
+      { "term": "202330", "crn": "31357" },
+      { "term": "202330", "crn": "31358" }
+    ],
+    "description": "Emphasizes global strategy and execution as well as the leadership requirements necessary to execute global strategy. Offers a capstone, “big picture” course that draws on and integrates all business fields and presents a global manager's perspective. Uses the knowledge acquired in core courses—such as finance, accounting, operations, marketing, and organizational behavior—along with their international dimensions, to study how global managers reach strategic management decisions for the firm and its role in society. Offers students an opportunity to review and revise their professional development plans (PDPs) following their return from the expatriate experience and begin to develop post–Northeastern PDPs.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "INTB",
+    "number": "4983",
+    "title": "Special Topics in International Business",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "34844" }],
+    "description": "Examines areas of current interest and special topics in the field of international business. May be repeated once."
   },
   {
     "subject": "INTB",
@@ -197,7 +269,8 @@
       { "term": "202310", "crn": "11307" },
       { "term": "202310", "crn": "11308" },
       { "term": "202240", "crn": "40089" },
-      { "term": "202240", "crn": "40086" }
+      { "term": "202240", "crn": "40086" },
+      { "term": "202330", "crn": "33868" }
     ],
     "description": "Focuses on the international business environment, and examines the influence on global decision making of such areas as the international economy and trade issues, legal and political context differences, governmental actions, cultural and ethical system differences, exchange rates and international currency markets,  international institutions like the World Trade Organization and the International Monetary Fund, and regional agreements like the European Union, NAFTA, and Mercosur. Also analyzes why firms internationalize their operations, how they can internationalize, and key areas such as international manufacturing, marketing, human resource management, and strategy.",
     "coreqs": [],
@@ -227,8 +300,11 @@
     "scheduleType": "Lecture",
     "credits": 3,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "14019" }],
-    "description": "Seeks to help students build the cross-cultural skills necessary to comfortably and effectively work in different cultures and with people from different cultures. Discusses the alignment between the firm&amp;#8217;s business strategy and the leader&amp;#8217;s responses in a multicultural environment along with the methods for leadership effectiveness in multicultural teams and virtual environments. Using online, experiential, and discussion-based methods, offers students an opportunity to gain the self-awareness needed to generate a plan for their own global leadership development.",
+    "sections": [
+      { "term": "202310", "crn": "14019" },
+      { "term": "202330", "crn": "36117" }
+    ],
+    "description": "Seeks to help students build the cross-cultural skills necessary to comfortably and effectively work in different cultures and with people from different cultures. Discusses the alignment between the firm's business strategy and the leader's responses in a multicultural environment along with the methods for leadership effectiveness in multicultural teams and virtual environments. Using online, experiential, and discussion-based methods, offers students an opportunity to gain the self-awareness needed to generate a plan for their own global leadership development.",
     "coreqs": [],
     "prereqs": []
   },
@@ -246,5 +322,25 @@
     "description": "Designed to give students intense exposure to the global business environment by immersing them in the business practices and culture of a country or region outside the United States. The course is taught primarily in the country or region of interest and involves a mix of classes, company site visits, and cultural activities. Fulfills the globalization requirement in the full-time MBA program. May be repeated without limit.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "INTB",
+    "number": "6238",
+    "title": "Global Project",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "33329" }],
+    "description": "Offers students an opportunity to work on faculty-led teams to address a current issue facing a global corporate partner organization. Students interact directly with organizational leaders and employees to scope the project and work as a consulting team, harnessing campus and corporate resources to solve a problem and/or make recommendations. Faculty travel with the students to an international site to continue research, interviews, etc., and report findings to local corporate representatives. Feedback on the project reports are incorporated, and the final project report takes place post-travel with the corporate/sponsoring organizations' representatives."
+  },
+  {
+    "subject": "INTB",
+    "number": "6249",
+    "title": "Digitization of International Business",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38126" }],
+    "description": "Exposes students to the opportunities and challenges that digitalization presents for the core tenets and managerial practices of international business. New digital technologies have given rise to digitally born companies that internationalize through online platforms at an exponential pace. Companies from unrelated industries that may have traditionally not competed against each other now co-create value on digital platform ecosystems. Countries are increasingly implementing policies that aim to bridge the digital divide and alleviate poverty. A darker side of digitalization has also emerged. While some countries push for a global and open internet infrastructure, others engage in digital protectionism. Artificial intelligence can further be abused for digital authoritarianism purposes. Data privacy breaches are also rising globally. Examines how companies, industries, and governments should respond."
   }
 ]

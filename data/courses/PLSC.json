@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "subject": "PLSC",
+    "number": "1420",
+    "title": "Introduction to American Government",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "33364" },
+      { "term": "202330", "crn": "33790" },
+      { "term": "202330", "crn": "33791" },
+      { "term": "202330", "crn": "37776" }
+    ],
+    "description": "Analyzes the system of politics and government in the United States. Topics include the philosophical basis, historical origins, design, and functioning of the Constitution as well as formal government institutions. Examines the influence of public opinion, political behavior and participation, parties, and interest groups."
+  }
+]

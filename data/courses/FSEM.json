@@ -5,7 +5,7 @@
     "title": "Connections and Decisions",
     "scheduleType": "Lecture",
     "credits": 1,
-    "nuPath": [],
+    "nuPath": ["EX"],
     "sections": [
       { "term": "202310", "crn": "11833" },
       { "term": "202310", "crn": "10260" },
@@ -17,7 +17,20 @@
       { "term": "202310", "crn": "10394" },
       { "term": "202310", "crn": "10531" },
       { "term": "202310", "crn": "16145" },
-      { "term": "202310", "crn": "20359" }
+      { "term": "202310", "crn": "20359" },
+      { "term": "202330", "crn": "30104" },
+      { "term": "202330", "crn": "31048" },
+      { "term": "202330", "crn": "34768" },
+      { "term": "202330", "crn": "31814" },
+      { "term": "202330", "crn": "31815" },
+      { "term": "202330", "crn": "32408" },
+      { "term": "202330", "crn": "32409" },
+      { "term": "202330", "crn": "32410" },
+      { "term": "202330", "crn": "34736" },
+      { "term": "202330", "crn": "34769" },
+      { "term": "202330", "crn": "34770" },
+      { "term": "202330", "crn": "34771" },
+      { "term": "202330", "crn": "36265" }
     ],
     "description": "Intended for first-year students who have not yet declared a major. Designed to introduce students to the liberal arts disciplines and majors, help them develop the analytical and critical thinking skills necessary to choose a major, and provide undeclared first-year students with grounding in the culture and values of the college and the University community.",
     "coreqs": [],
@@ -37,7 +50,7 @@
       { "term": "202310", "crn": "12557" },
       { "term": "202310", "crn": "15317" }
     ],
-    "description": "Offers students an opportunity to explore a specific area of academic research in a small-group seminar environment. Students meet regularly with a faculty member to read and discuss the faculty member&amp;#8217;s research. Research topics vary, but general themes discussed include (a) how a specific research topic emerges and evolves over time, (b) the selection and implementation of specific research methodologies, (c) the contextualization of particular research studies within broader academic and real-world conversations, and (d) how the specific research contributes to philosophical and/or practical discussions in the world in which we live. The latter may include discussing how the research findings might help answer questions and/or be used in solving problems and making decisions. May be repeated up to three times.",
+    "description": "Offers students an opportunity to explore a specific area of academic research in a small-group seminar environment. Students meet regularly with a faculty member to read and discuss the faculty member's research. Research topics vary, but general themes discussed include (a) how a specific research topic emerges and evolves over time, (b) the selection and implementation of specific research methodologies, (c) the contextualization of particular research studies within broader academic and real-world conversations, and (d) how the specific research contributes to philosophical and/or practical discussions in the world in which we live. The latter may include discussing how the research findings might help answer questions and/or be used in solving problems and making decisions. May be repeated up to three times.",
     "coreqs": [],
     "prereqs": []
   }

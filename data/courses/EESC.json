@@ -39,9 +39,30 @@
       { "term": "202310", "crn": "19836" },
       { "term": "202310", "crn": "19837" },
       { "term": "202310", "crn": "20675" },
-      { "term": "202310", "crn": "20948" }
+      { "term": "202310", "crn": "20948" },
+      { "term": "202330", "crn": "31017" },
+      { "term": "202330", "crn": "31018" },
+      { "term": "202330", "crn": "31021" },
+      { "term": "202330", "crn": "31030" },
+      { "term": "202330", "crn": "31082" },
+      { "term": "202330", "crn": "31313" },
+      { "term": "202330", "crn": "31436" },
+      { "term": "202330", "crn": "32007" },
+      { "term": "202330", "crn": "32265" },
+      { "term": "202330", "crn": "32449" },
+      { "term": "202330", "crn": "36297" },
+      { "term": "202330", "crn": "38603" },
+      { "term": "202330", "crn": "38604" },
+      { "term": "202330", "crn": "38605" },
+      { "term": "202330", "crn": "38606" },
+      { "term": "202330", "crn": "38607" },
+      { "term": "202330", "crn": "38608" },
+      { "term": "202330", "crn": "38609" },
+      { "term": "202330", "crn": "38610" },
+      { "term": "202330", "crn": "38611" },
+      { "term": "202310", "crn": "21841" }
     ],
-    "description": "Introduces students to the Cooperative Education Program and provides them with an opportunity to develop job-search and career-management skills. Offers students an opportunity to perform assessments of their workplace skills, interests, and values and discuss how they impact personal career choices. Students also have an opportunity to prepare a professional-style r&amp;#233;sum&amp;#233;, learn proper interviewing techniques, and gain an understanding of the opportunities available to them for co-op. Introduces career paths, choices, professional behaviors, work culture, and career decision making. Familiarizes students with workplace issues relative to their field of study and teaches them to use myNEU in the job-search and referral process. Presents co-op policies, procedures, and expectations of the Department of Cooperative Education and co-op employers.",
+    "description": "Introduces students to the Cooperative Education Program and provides them with an opportunity to develop job-search and career-management skills. Offers students an opportunity to perform assessments of their workplace skills, interests, and values and discuss how they impact personal career choices. Students also have an opportunity to prepare a professional-style résumé, learn proper interviewing techniques, and gain an understanding of the opportunities available to them for co-op. Introduces career paths, choices, professional behaviors, work culture, and career decision making. Familiarizes students with workplace issues relative to their field of study and teaches them to use myNEU in the job-search and referral process. Presents co-op policies, procedures, and expectations of the Department of Cooperative Education and co-op employers.",
     "coreqs": [],
     "prereqs": []
   },
@@ -54,9 +75,11 @@
     "nuPath": ["ER"],
     "sections": [
       { "term": "202310", "crn": "13557" },
-      { "term": "202310", "crn": "17867" }
+      { "term": "202310", "crn": "17867" },
+      { "term": "202330", "crn": "33246" },
+      { "term": "202330", "crn": "36299" }
     ],
-    "description": "Designed to help students pursuing a science education to begin developing a coherent professional identity. Students examine, articulate, and defend their professional values and use concurrent reflection exercises to create action steps to reach multiple long-term professional goals. Examines ethical dilemmas in science fields in-depth. Offers students an opportunity to learn and utilize theoretical ethical frameworks to discuss a series of case studies and overlay existing ethical codes established by their fields&rsquo; governing organizations. Students create novel case studies based on real-world events and extrapolate these ethical conversations into the &ldquo;big ethical and moral issues&rdquo; facing their fields in the near future (genetic engineering, energy production, etc.). Focuses on the value of lifelong learning through reflective practice, mentorship, professional organizations and conferences, and leadership opportunities in the field.",
+    "description": "Designed to help students pursuing a science education to begin developing a coherent professional identity. Students examine, articulate, and defend their professional values and use concurrent reflection exercises to create action steps to reach multiple long-term professional goals. Examines ethical dilemmas in science fields in-depth. Offers students an opportunity to learn and utilize theoretical ethical frameworks to discuss a series of case studies and overlay existing ethical codes established by their fields’ governing organizations. Students create novel case studies based on real-world events and extrapolate these ethical conversations into the “big ethical and moral issues” facing their fields in the near future (genetic engineering, energy production, etc.). Focuses on the value of lifelong learning through reflective practice, mentorship, professional organizations and conferences, and leadership opportunities in the field.",
     "coreqs": [],
     "prereqs": []
   },
@@ -78,7 +101,10 @@
       { "term": "202260", "crn": "61149" },
       { "term": "202260", "crn": "61496" },
       { "term": "202260", "crn": "61536" },
-      { "term": "202260", "crn": "61638" }
+      { "term": "202260", "crn": "61638" },
+      { "term": "202330", "crn": "37157" },
+      { "term": "202330", "crn": "37480" },
+      { "term": "202330", "crn": "38612" }
     ],
     "description": "Offers students an opportunity to pursue experiential research outside the classroom and outside the university.",
     "coreqs": [],
@@ -91,7 +117,13 @@
     "scheduleType": "Individual Instruction",
     "credits": 0,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "18245" }],
+    "sections": [
+      { "term": "202310", "crn": "18245" },
+      { "term": "202330", "crn": "37836" },
+      { "term": "202330", "crn": "37893" },
+      { "term": "202330", "crn": "37952" },
+      { "term": "202310", "crn": "21122" }
+    ],
     "description": "Offers students an opportunity to pursue experiential research outside the classroom and outside the university.",
     "coreqs": [],
     "prereqs": []

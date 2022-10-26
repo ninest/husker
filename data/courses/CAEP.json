@@ -8,7 +8,9 @@
     "nuPath": ["IC"],
     "sections": [
       { "term": "202310", "crn": "14564" },
-      { "term": "202310", "crn": "18682" }
+      { "term": "202310", "crn": "18682" },
+      { "term": "202330", "crn": "34437" },
+      { "term": "202330", "crn": "37042" }
     ],
     "description": "Explores modern mindfulness practices and how these practices were derived from Eastern spiritual teachings, including Buddhism and Hinduism. Describes the current literature related to potential health and wellness outcomes of a mindfulness practice. Examines various meditation techniques, as well as accompanying practices such as yoga and breath work. Focuses on developing and practicing daily mindfulness using a highly experiential approach. Offers students an opportunity to learn and discuss the foundations on which such practices are based.",
     "coreqs": [],
@@ -23,7 +25,10 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "16574" },
-      { "term": "202310", "crn": "20274" }
+      { "term": "202310", "crn": "20274" },
+      { "term": "202330", "crn": "35578" },
+      { "term": "202330", "crn": "37102" },
+      { "term": "202310", "crn": "21647" }
     ],
     "description": "Designed to help students to develop an awareness of and strategies for the management of their behaviors. Examines how behavior is influenced via operant and respondent conditioning, motivating variables, and reinforcement and punishment. Requires students to design and implement a self-management project that involves goal setting, measuring behavior, selecting and implementing an intervention based on the research, and monitoring and evaluating progress. Offers students an opportunity to develop skills to support their goals, including time management and effective communication.",
     "coreqs": [],
@@ -36,8 +41,11 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "14114" }],
-    "description": "Introduces the field of health psychology, which studies the role of psychology in health, illness, and healthcare. Topics include sustaining and promoting health, as well as experiencing illness and the body. Discusses focusing on people&rsquo;s behaviors, perceptions, emotions, and understandings of health and illness, within the contexts of relationships and culture. Also discusses how the theories and concepts of health psychology are instrumental in health promotion and prevention (including relevance to students&rsquo; own well-being). Specific themes include the biopsychosocial model of health; stress, coping, and social support; health-promoting and health-risk behaviors; behavior change theories and approaches; gender and health; health disparities; and the relevance of health psychology for health promotion.",
+    "sections": [
+      { "term": "202310", "crn": "14114" },
+      { "term": "202330", "crn": "38660" }
+    ],
+    "description": "Introduces the field of health psychology, which studies the role of psychology in health, illness, and healthcare. Topics include sustaining and promoting health, as well as experiencing illness and the body. Discusses focusing on people’s behaviors, perceptions, emotions, and understandings of health and illness, within the contexts of relationships and culture. Also discusses how the theories and concepts of health psychology are instrumental in health promotion and prevention (including relevance to students’ own well-being). Specific themes include the biopsychosocial model of health; stress, coping, and social support; health-promoting and health-risk behaviors; behavior change theories and approaches; gender and health; health disparities; and the relevance of health psychology for health promotion.",
     "coreqs": [],
     "prereqs": []
   },
@@ -50,11 +58,32 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "18683" },
-      { "term": "202310", "crn": "20275" }
+      { "term": "202310", "crn": "20275" },
+      { "term": "202330", "crn": "34438" }
     ],
     "description": "Focuses on the application of principles of behavior analysis to address health problems in the 21st century, such as obesity, addiction, and adherence to medical procedures. Offers students an opportunity to develop an understanding of basic behavioral principles and how those principles are applied to assess and treat health problems. Compares and contrasts a behavioral approach with other traditional methods in health psychology. Emphasizes systems of measurement, evaluation (single subject design), and treatment. Studies how a behavioral approach is integrated into a multidisciplinary treatment plan.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "CAEP",
+    "number": "3200",
+    "title": "Childhood Adversity and College Attainment",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD"],
+    "sections": [{ "term": "202330", "crn": "38661" }],
+    "description": "Introduces students to Adverse Childhood Experiences (ACE) and their prevalence in the childhoods of certain college student populations. Examines how these potentially traumatic events that occur during the ages of 0–17 are linked to chronic health problems, mental illness, and substance misuse in adulthood. Studies how the manifestation of ACE during the college years has implications for student development theory application and administration of services and programs on campuses, as well as ACE’s impact on education, job opportunities, and college student degree attainment. Explores the classifications of ACE—pandemic, natural disaster, terrorist attack, or racial and social injustice—and the possible implications of living through, making life adjustments, or absorbing constant media coverage as a result of these experiences."
+  },
+  {
+    "subject": "CAEP",
+    "number": "3310",
+    "title": "Say It Loud: The Black Power Movement and Higher Education",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD"],
+    "sections": [{ "term": "202330", "crn": "39261" }],
+    "description": "Explores the impact of the Black Power movement on American colleges and universities. Examines the history of the movement and its relationship to the civil rights movement and the various impacts of Black Power on contemporary higher education. Traces how the movement led to distinct ideologies, scholarship, practices, and terminology that provided new lenses through which institutions of higher education viewed Negroes in terms of the preservation, transmittal, and enrichment of their culture by means of instruction and scholarly and scientific work. Explores Negro college students’ adoption of a Black identity and making demands on campuses that manifested in curricula, programs, and services that represented this identity."
   },
   {
     "subject": "CAEP",
@@ -63,7 +92,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "10184" }],
+    "sections": [
+      { "term": "202310", "crn": "10184" },
+      { "term": "202330", "crn": "30221" }
+    ],
     "description": "Surveys major theoretical approaches to counseling. Provides training and practice in listening skills to aid in the development of facilitative responses. Combines didactic representations and experiential activities to assist in understanding and implementing a variety of counseling approaches. Requires prior completion of one introductory social science course.",
     "coreqs": [],
     "prereqs": []
@@ -75,10 +107,23 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "10183" }],
+    "sections": [
+      { "term": "202310", "crn": "10183" },
+      { "term": "202330", "crn": "30183" }
+    ],
     "description": "Explores those characteristics that constitute a mentally healthy person, factors in society that impact emotional health, the mind-body relationship, stress, and ways to achieve a higher level of emotional well-being. Offers students the opportunity to work in triads, small groups, and large group discussions. Role-play is utilized where appropriate. Requires prior completion of one introductory social science course.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "CAEP",
+    "number": "3899",
+    "title": "Relationships in College",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38662" }],
+    "description": "Explores the interpersonal interactions of traditional-age college students with their peers, faculty, roommates, romantic partners, and family. Investigates the implications of relationships on the college student’s well-being, growth, and development. Requires students to discuss and analyze the impact of technology on relationships and how it enhances or diminishes effective communication in college. Emphasizes the importance of cultivating relational skills that can be applied in students’ postacademic lives."
   },
   {
     "subject": "CAEP",
@@ -106,9 +151,19 @@
       { "term": "202310", "crn": "10693" },
       { "term": "202310", "crn": "17843" }
     ],
-    "description": "Introduces students to the major theories of development and their implications for intervention. Presents and discusses infant/toddlers&amp;#8217; development, risk, and disability in the areas of cognition, communication, motor skills, social/emotional development, and adaptive skills, and considers variation in development as a result of multiple factors. Is team-taught by professors drawn from school psychology, special education, speech-language pathology, counseling psychology, nursing, and physical therapy.",
+    "description": "Introduces students to the major theories of development and their implications for intervention. Presents and discusses infant/toddlers' development, risk, and disability in the areas of cognition, communication, motor skills, social/emotional development, and adaptive skills, and considers variation in development as a result of multiple factors. Is team-taught by professors drawn from school psychology, special education, speech-language pathology, counseling psychology, nursing, and physical therapy.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "CAEP",
+    "number": "5153",
+    "title": "Early Intervention: Assessment and Intervention",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "33474" }],
+    "description": "Covers assessment models and the multidomain tests used in early intervention. Students become familiar with informal and formal instruments used in different areas including cognition speech and language, motor, and social/emotional domains. Explains the process and responsibilities for the writing of individualized service plans (ISPs), as well as variety of intervention models, methods, and strategies to be implemented in natural environments. Is taught by professors drawn from special education, speech-language pathology, counseling psychology, nursing, and physical therapy. Students participate in Northeastern’s Global Early Intervention Network."
   },
   {
     "subject": "CAEP",
@@ -136,6 +191,29 @@
     "description": "Introduces testing and assessment in psychology and education including group achievement tests. Covers uses of tests in society, the politics and economics of tests, types of tests, test statistics, reliability, validity, item analysis, test construction, new movements in testing, and applications. Introduces descriptive statistics as a basis for understanding the statistical basis for establishing norms, scales, and for understanding approaches to scoring.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "CAEP",
+    "number": "6202",
+    "title": "Research, Evaluation, and Data Analysis",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "33342" }],
+    "description": "Introduces topics in research and evaluation from a consumer perspective. Covers types of research studies and methodologies, philosophical bases for perspectives, research design, evaluation and outcomes assessment, data analysis techniques, clinical and qualitative approaches, and interpretation of research findings."
+  },
+  {
+    "subject": "CAEP",
+    "number": "6203",
+    "title": "Understanding Culture and Diversity",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "30740" },
+      { "term": "202330", "crn": "30586" }
+    ],
+    "description": "Works from a broad definition of culture and diversity. In addition to traditional culture and ethnic classifications, examines disability, poverty, and gender as culturally defining factors. Also explores the dynamics of culture in social systems, with the perspective of valuing differences in society and sociocultural forces impinging on culture from the ecological perspective."
   },
   {
     "subject": "CAEP",
@@ -175,6 +253,16 @@
   },
   {
     "subject": "CAEP",
+    "number": "6222",
+    "title": "Human Sexuality",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "32901" }],
+    "description": "Designed for the twenty-first century and the critical issues that have evolved in the field. Includes current information on issues in human sexuality (and acts as a forum for the discussion of current trends), which may include HIV/AIDS, abortion, ethics and morality in genetic engineering, sex education in the school and home, teen sexuality and pregnancy, personal behaviors, social aspects of acquaintance rape, early sexual experiences, divorce, and remarriage. Allows for the development of counseling skills needed to deal with various issues."
+  },
+  {
+    "subject": "CAEP",
     "number": "6235",
     "title": "Vocational, Education, and Career Development",
     "scheduleType": "Lecture",
@@ -187,6 +275,26 @@
   },
   {
     "subject": "CAEP",
+    "number": "6242",
+    "title": "Psychopathology: Diagnosis and Treatment Planning",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "30616" }],
+    "description": "Identifies categories of human difficulty and abnormal behavior through current DSM terminology. Is based in a cultural and gender competent bio-psycho-social model over the life span. Discusses both preventive and individual interventions for each category. Also introduces treatment planning and treatment guidelines."
+  },
+  {
+    "subject": "CAEP",
+    "number": "6247",
+    "title": "Child and Adolesent Psychopathology",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "30739" }],
+    "description": "Covers DSM-IV and major forms of psychopathology including the neuroses (obsessional states, hysteria, anxiety states, and phobias), the pyschoses (schizophrenia, mania, depression, and paranoia), psychosomatic, sociopathy, conduct disorders, organic disorders, and mental retardation. Discusses the relationship between categories of special education disabilities (emotional impairment, autism, and so on) and DSM-IV."
+  },
+  {
+    "subject": "CAEP",
     "number": "6250",
     "title": "Individual Interventions",
     "scheduleType": "Lecture",
@@ -196,6 +304,16 @@
     "description": "Focuses on a variety on individually focused interventions: standard techniques used to achieve change goals as well as crisis intervention and prevention. Use of multimodal interventions (for instance, expressive, action) are joined with specific problems that individuals might face. Also addresses crisis intervention, solution-focused treatment planning, and promoting resiliency and activism.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "CAEP",
+    "number": "6260",
+    "title": "Community Counseling Psychology",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "30780" }],
+    "description": "Addresses organizational and systems impact, stressors, and change efforts. Draws from the community, consultation, organizational, prevention, and social psychology literature. Considers understanding of health promotion in social and institutional contexts. Also explores crisis, coping, and social change."
   },
   {
     "subject": "CAEP",
@@ -235,6 +353,34 @@
   },
   {
     "subject": "CAEP",
+    "number": "6287",
+    "title": "Group Counseling",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "31349" },
+      { "term": "202330", "crn": "35301" },
+      { "term": "202330", "crn": "35579" },
+      { "term": "202330", "crn": "35580" }
+    ],
+    "description": "Covers group design, dynamics, and leadership as well as their application in a range of mental health group activities. Since the conventional theoretical orientations have been covered in the theory course (CAEP 6200), this course approaches group work through a broader perspective. For example, while expressive groups based in a humanistic tradition and insight gained through psychodynamic and cognitive traditions are in the course, such recent developments as adventure and psychoeducation group work are also included."
+  },
+  {
+    "subject": "CAEP",
+    "number": "6324",
+    "title": "Programmed Learning",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "31692" },
+      { "term": "202330", "crn": "32549" }
+    ],
+    "description": "Introduces the importance of programming for effective learning, including for students with autism spectrum disorders. Stresses goals shared by behavior analysts and educators. Employs evidence-based teaching procedures for training complex behavior. Emphasizes the need for assessment and data analysis for programming. Focuses on procedures based on establishing and transferring stimulus control, including establishing equivalence classes."
+  },
+  {
+    "subject": "CAEP",
     "number": "6326",
     "title": "Behavioral Concepts and Principles",
     "scheduleType": "Lecture",
@@ -242,11 +388,38 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "14141" },
-      { "term": "202310", "crn": "14142" }
+      { "term": "202310", "crn": "14142" },
+      { "term": "202330", "crn": "33744" }
     ],
     "description": "Introduces concepts and principles that make up the foundation of behavior science. Identifies naturally existing examples of the basic principles of behavior. Requires demonstrated mastery of behavioral explanations of why behaviors occur. Contrasts behavioral descriptions with other philosophical conceptualizations.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "CAEP",
+    "number": "6327",
+    "title": "Behavior Assessment",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "31446" },
+      { "term": "202330", "crn": "33745" }
+    ],
+    "description": "Expands on key elements of behavior assessment including systematic assessment of preferences and reinforcers, and assessment of behavior function through indirect methods, direct methods, and systematic manipulations."
+  },
+  {
+    "subject": "CAEP",
+    "number": "6328",
+    "title": "Single-Case Research Design",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "31447" },
+      { "term": "202330", "crn": "33462" }
+    ],
+    "description": "Introduces single-case experimental designs and methods to define and measure behavior. Offers students an opportunity to learn how to measure behavior and design experimental arrangements to analyze relationships between dependent and independent variables."
   },
   {
     "subject": "CAEP",
@@ -284,7 +457,8 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "12228" },
-      { "term": "202310", "crn": "14140" }
+      { "term": "202310", "crn": "14140" },
+      { "term": "202330", "crn": "32855" }
     ],
     "description": "Explores advanced behavior analytic topics, and practices applying basic principles to more complex scenarios. Extends basic behavior analytic conceptualizations and services, and investigates extensions of the behavioral sciences to areas other than work in special education.",
     "coreqs": [],
@@ -298,7 +472,7 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "14287" }],
-    "description": "Focuses on the systematic application of principles of behavior analysis to interventions in applied settings. Allows students to design, test, and evaluate instructional programs for remedial application to behavior problems and to test instructional theory. Emphasizes the relationship between behavioral assessment and behavioral intervention. Provides supervision through the weekly research and data seminar in collaboration with the student&amp;#8217;s project adviser.",
+    "description": "Focuses on the systematic application of principles of behavior analysis to interventions in applied settings. Allows students to design, test, and evaluate instructional programs for remedial application to behavior problems and to test instructional theory. Emphasizes the relationship between behavioral assessment and behavioral intervention. Provides supervision through the weekly research and data seminar in collaboration with the student's project adviser.",
     "coreqs": [],
     "prereqs": [
       { "subject": "CAEP", "number": "6327" },
@@ -317,11 +491,38 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "11843" },
-      { "term": "202310", "crn": "12229" }
+      { "term": "202310", "crn": "12229" },
+      { "term": "202330", "crn": "34439" }
     ],
-    "description": "Focuses on the practical issues surrounding development of an applied thesis research topic. Students develop their thesis topic and prepare a written proposal for their thesis research. Students present the initial thesis proposal and periodic updates during the weekly seminar. Thesis committee members are invited to attend their students&amp;#8217; presentations to provide feedback and critique of the developing proposal.",
+    "description": "Focuses on the practical issues surrounding development of an applied thesis research topic. Students develop their thesis topic and prepare a written proposal for their thesis research. Students present the initial thesis proposal and periodic updates during the weekly seminar. Thesis committee members are invited to attend their students' presentations to provide feedback and critique of the developing proposal.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "CAEP",
+    "number": "6336",
+    "title": "Systematic Inquiry 1",
+    "scheduleType": "Individual Instruction",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "34440" },
+      { "term": "202330", "crn": "34441" }
+    ],
+    "description": "Requires each student to collect a comprehensive bibliography on a significant topic in applied behavioral research and complete a thorough written review. Emphasizes the integration and analysis of experimental findings and theoretical foundations of the research area, critical evaluation of current research, and the identification of potentially fruitful future research. Frequent presentation of current research by students helps develop their oral communication skills and prepares them for becoming contributing professionals in the field of behavior analysis."
+  },
+  {
+    "subject": "CAEP",
+    "number": "6345",
+    "title": "Promoting Youth Academic Success in Schools",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "38663" },
+      { "term": "202330", "crn": "30997" }
+    ],
+    "description": "Focuses on learning problems in relation to developmental tasks and curriculum frameworks including reading and writing. Examines the types and causes of learning problems and individual learning styles from constructivist, neuropsychological, and ecological perspectives. Reviews methods for assessment of physical, emotional, intellectual, and social development in childhood and adolescence. Emphasizes special education legislation and current service delivery programs."
   },
   {
     "subject": "CAEP",
@@ -334,6 +535,19 @@
     "description": "Covers theory, research, and practice pertaining to management of behavior in preschool, elementary, and high school classrooms. Presents development of practical behavioral interventions using a systematic problem-solving process (including functional behavioral assessment). Includes skills and techniques of preventing and remediating behavior problems.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "CAEP",
+    "number": "6350",
+    "title": "Introduction to Cognitive Assessment",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "35581" },
+      { "term": "202330", "crn": "35582" }
+    ],
+    "description": "Introduces cognitive assessment and the relationship of cognitive theories to assessment. Also includes practice in administering and interpreting specific tests of cognitive functioning, such as the Wechsler Scales and the Woodcock-Johnson."
   },
   {
     "subject": "CAEP",
@@ -358,7 +572,7 @@
       { "term": "202310", "crn": "18684" },
       { "term": "202310", "crn": "12587" }
     ],
-    "description": "Presents curriculum frameworks (reading, mathematics), developmental sequences (language), socialization, and life skills as areas of learning breakdown. Focuses on collection and use of data from curriculum-based procedures that evaluate a child&rsquo;s current level of understanding and performance in one of these areas, determination of intervention goals, formulation of individualized education programs (IEPs), development of instructional plans, and monitoring progress using curriculum-based measurements.",
+    "description": "Presents curriculum frameworks (reading, mathematics), developmental sequences (language), socialization, and life skills as areas of learning breakdown. Focuses on collection and use of data from curriculum-based procedures that evaluate a child’s current level of understanding and performance in one of these areas, determination of intervention goals, formulation of individualized education programs (IEPs), development of instructional plans, and monitoring progress using curriculum-based measurements.",
     "coreqs": [],
     "prereqs": []
   },
@@ -373,9 +587,22 @@
       { "term": "202310", "crn": "11881" },
       { "term": "202310", "crn": "18685" }
     ],
-    "description": "Uses a problem-solving framework designed to help students to develop skills in identifying common school-based social, emotional, and behavioral problems and designing targeted assessment plans. Offers students an opportunity to gain experience in the administration, scoring, and interpretation of relevant measures designed to assess children&amp;#8217;s and adolescents&amp;#8217; social, emotional, and behavioral functioning; in the synthesis of multisource/multimethod data; and in psychological report writing.",
+    "description": "Uses a problem-solving framework designed to help students to develop skills in identifying common school-based social, emotional, and behavioral problems and designing targeted assessment plans. Offers students an opportunity to gain experience in the administration, scoring, and interpretation of relevant measures designed to assess children's and adolescents' social, emotional, and behavioral functioning; in the synthesis of multisource/multimethod data; and in psychological report writing.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "CAEP",
+    "number": "6360",
+    "title": "Consultation and Program Evaluation",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "32411" },
+      { "term": "202330", "crn": "35583" }
+    ],
+    "description": "Overviews different consultation theories including behavioral, psychodynamic, and systems perspectives. Offers a focus on skill development with respect to a broad-based and pragmatic approach to client-centered behavioral consultation. Uses computer networks and e-mail in client-centered and peer consultation. Offers evaluation of the implementation and outcomes of consultation and related service delivery programs."
   },
   {
     "subject": "CAEP",
@@ -388,6 +615,16 @@
     "description": "Covers the philosophical, historical, technical, and school administrative issues contributing to the professional identity of school psychologists. Emphasizes ethical standards, public policy, and legislation that impact school psychology.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "CAEP",
+    "number": "6375",
+    "title": "Substance Use and Treatment",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "32068" }],
+    "description": "Covers use, abuse, and treatment of both legal and illegal psychoactive drug agents. Includes an introduction to psychotropic medications, overview of illicit substance use, differential substance abuse, interventions and treatment, and related social issues."
   },
   {
     "subject": "CAEP",
@@ -409,7 +646,7 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "18686" }],
-    "description": "Provides critical analyses of &amp;#8220;universalist&amp;#8221; perspective counseling and development theory. Explores a variety of implications for culturally competent psychological work. Addresses process, procedures, and interventions as well as theory and inquiry. Focuses on individual and cultural differences in counseling and professional psychological services.",
+    "description": "Provides critical analyses of “universalist” perspective counseling and development theory. Explores a variety of implications for culturally competent psychological work. Addresses process, procedures, and interventions as well as theory and inquiry. Focuses on individual and cultural differences in counseling and professional psychological services.",
     "coreqs": [],
     "prereqs": []
   },
@@ -424,7 +661,8 @@
       { "term": "202310", "crn": "10685" },
       { "term": "202310", "crn": "10686" },
       { "term": "202310", "crn": "15459" },
-      { "term": "202310", "crn": "17422" }
+      { "term": "202310", "crn": "17422" },
+      { "term": "202310", "crn": "21156" }
     ],
     "description": "Develops self-awareness, communication skills, and therapeutic and practice procedures.",
     "coreqs": [],
@@ -458,7 +696,23 @@
     ],
     "description": "Seeks to give students a foundation in the selection, evaluation, and application of empirically supported counseling interventions for children and adolescents. Topics include individual and group counseling techniques as well as specific clinical issues related to school-age children, families, family-school collaboration, and systems.",
     "coreqs": [],
-    "prereqs": [{ "subject": "CAEP", "number": "6399" }]
+    "prereqs": [
+      { "subject": "CAEP", "number": "6399" },
+      { "subject": "CAEP", "number": "6399" }
+    ]
+  },
+  {
+    "subject": "CAEP",
+    "number": "6402",
+    "title": "Promoting Social, Emotional, and Behavioral Success in Schools",
+    "scheduleType": "Seminar",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "32412" },
+      { "term": "202330", "crn": "38664" }
+    ],
+    "description": "Seeks to give students a foundation in the selection, implementation, and evaluation of evidence-based Tier 1 (classwide, universal) and Tier 2 (small group, targeted) interventions. Promotes an understanding of best practices and evidence-based approaches that promote school mental health."
   },
   {
     "subject": "CAEP",
@@ -469,7 +723,8 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "17692" },
-      { "term": "202240", "crn": "41829" }
+      { "term": "202240", "crn": "41829" },
+      { "term": "202330", "crn": "36927" }
     ],
     "description": "Continues clinical requirements.",
     "coreqs": [],
@@ -482,10 +737,33 @@
     "scheduleType": "Lecture",
     "credits": 0,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "10970" }],
-    "description": "Seeks to advance the student&amp;#8217;s development as a counseling psychologist based on a scientist-practitioner and ecological model and to ensure that the student is informed regarding the historical and current developments of the discipline of counseling psychology. May be repeated up to three times.",
+    "sections": [
+      { "term": "202310", "crn": "10970" },
+      { "term": "202330", "crn": "30919" }
+    ],
+    "description": "Seeks to advance the student's development as a counseling psychologist based on a scientist-practitioner and ecological model and to ensure that the student is informed regarding the historical and current developments of the discipline of counseling psychology. May be repeated up to three times.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "CAEP",
+    "number": "7703",
+    "title": "Grant Writing in the Health Professions",
+    "scheduleType": "Seminar",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38665" }],
+    "description": "Introduces the basic components of the grant writing process, from locating available funding opportunities to submitting a competitive grant proposal. Offers students an opportunity to develop a grant proposal for potential submission."
+  },
+  {
+    "subject": "CAEP",
+    "number": "7710",
+    "title": "Advanced Clinical Assessment",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "33747" }],
+    "description": "Covers contemporary cognitive and personality testing as used in a variety of practice settings. Covers such areas as pain management, risk assessment, and learning styles. PhD students only."
   },
   {
     "subject": "CAEP",
@@ -513,6 +791,36 @@
   },
   {
     "subject": "CAEP",
+    "number": "7716",
+    "title": "Advanced Research and Data Analyses 2",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "34442" }],
+    "description": "Investigates techniques and models for exploring research questions and testing hypotheses developed in the first semester. Explores structural and advanced correlational models using linear and nonlinear approaches, multivariate data analysis, psychometric statistical theory and techniques, and qualitative inquiry. Requires considerable hands-on experience with real data sets. Explores qualitative and methodological approaches to ecological analysis of systems and contexts. Requires students to do problems on the computer and/or by hand using data sets assigned in class. Utilizes SPSS and other computer analysis packages including graphic methods of depicting data. Also covers specialized applications (text analysis software, survey design and scoring software, or specialized graphing programs). Students do projects, prepare reports of an analysis from the data set, and turn in a written report in APA format suitable for publication."
+  },
+  {
+    "subject": "CAEP",
+    "number": "7720",
+    "title": "Advanced Clinical Interventions",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "30781" }],
+    "description": "Considers assessment and intervention from an ecological/systems perspective on a case-by-case basis. Uses individual, group, family, organizational, and community modalities. Emphasizes case conceptualization as a framework for treatment planning and evaluation. Emphasis is on impact of social systems and sociocultural factors. Restricted to PhD students with previous work in group and family counseling."
+  },
+  {
+    "subject": "CAEP",
+    "number": "7732",
+    "title": "Legal and Ethical Issues in Community and Educational Settings",
+    "scheduleType": "Seminar",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "30733" }],
+    "description": "Designed to provide a systematic orientation to the ethical and professional issues faced by mental health practitioners in their teaching, research, and practice in a seminar setting. Addresses APA ethical guidelines, legal aspects of psychological practice including licensing, confidentiality in practice and research, historical perspective, supervision and training issues, and current topics of professional concern in counseling and school psychology practice. Considers relevant court decisions affecting psychological practice with children, adults, and family."
+  },
+  {
+    "subject": "CAEP",
     "number": "7741",
     "title": "Advanced Fieldwork 1",
     "scheduleType": "Off-campus instruction w/ lec",
@@ -522,9 +830,22 @@
       { "term": "202310", "crn": "10682" },
       { "term": "202310", "crn": "11331" }
     ],
-    "description": "Offers students training in clinical settings to develop clinical skills in assessment, consultation, and interventions under supervision. Provides support and evaluation of the advanced fieldwork placement that second-year students are involved in throughout the year. Offers a seminar format, which is led by a faculty supervisor who is the official liaison between Northeastern University and the advanced fieldwork sites. The major objectives are an examination and support of clinical work within various assessment and treatment modalities; and an examination of systems issues within placement sites, which include but are not limited to administrative and supervisory issues. Students submit tapes and detailed process notes of sessions, videotape role-playing, and critique the tapes and videos, offering one another feedback in terms of each student&amp;#8217;s previously stated goals. Group discussion of clinical/systems issues focus on critical analysis and provision of a supportive atmosphere to explore treatment and systems issues. Requires students to practice in the clinical setting a minimum of twenty hours per week. May be repeated once for up to 2 total credits.",
+    "description": "Offers students training in clinical settings to develop clinical skills in assessment, consultation, and interventions under supervision. Provides support and evaluation of the advanced fieldwork placement that second-year students are involved in throughout the year. Offers a seminar format, which is led by a faculty supervisor who is the official liaison between Northeastern University and the advanced fieldwork sites. The major objectives are an examination and support of clinical work within various assessment and treatment modalities; and an examination of systems issues within placement sites, which include but are not limited to administrative and supervisory issues. Students submit tapes and detailed process notes of sessions, videotape role-playing, and critique the tapes and videos, offering one another feedback in terms of each student's previously stated goals. Group discussion of clinical/systems issues focus on critical analysis and provision of a supportive atmosphere to explore treatment and systems issues. Requires students to practice in the clinical setting a minimum of twenty hours per week. May be repeated once for up to 2 total credits.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "CAEP",
+    "number": "7742",
+    "title": "Advanced Fieldwork 2",
+    "scheduleType": "Off-campus instruction w/ lec",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "30732" },
+      { "term": "202330", "crn": "31144" }
+    ],
+    "description": "Continues CAEP 7741. Provides students the opportunity, under supervision in a clinical setting, to develop clinical skills in assessment, consultation, and interventions. Designed to provide support and evaluation of the advanced fieldwork placement for second-year students. Uses a seminar format led by a faculty supervisor who is the official liaison between Northeastern University and the advanced fieldwork sites. Seeks to examine and support clinical work and examine systems issues within placement sites, which include but are not limited to administrative and supervisory issues. Students submit tapes and process notes of sessions, videotape role-playing, and critique the tapes and videos in terms of each student's previously stated goals. Focuses group discussion on critical analysis and provision of a supportive atmosphere to explore treatment and systems issues. Requires students to practice in the clinical setting a minimum of twenty hours per week. May be repeated once for up to 2 total credits."
   },
   {
     "subject": "CAEP",
@@ -544,8 +865,26 @@
       "Or",
       { "subject": "CAEP", "number": "7742" },
       "Or",
+      { "subject": "CAEP", "number": "6355" },
+      { "subject": "CAEP", "number": "7742" },
+      "Or",
+      { "subject": "CAEP", "number": "7742" },
+      "Or",
       { "subject": "CAEP", "number": "6355" }
     ]
+  },
+  {
+    "subject": "CAEP",
+    "number": "7744",
+    "title": "Advanced Fieldwork 4",
+    "scheduleType": "Off-campus instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "30731" },
+      { "term": "202330", "crn": "31145" }
+    ],
+    "description": "Continues CAEP 7743. Requires students to practice in the clinical setting a minimum of twenty hours per week. May be repeated once for up to 2 total credits."
   },
   {
     "subject": "CAEP",
@@ -573,15 +912,38 @@
   },
   {
     "subject": "CAEP",
+    "number": "7758",
+    "title": "Doctoral Seminar in Contemporary Theories of Psychotherapy",
+    "scheduleType": "Seminar",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "30730" }],
+    "description": "Offers a critical examination from an ecological/systems perspective of conceptual developmental and clinical elements of contemporary psychotherapy theories. Emphasis is on object relations, social constructionist, and constructivist theories of personality and therapeutic change. Includes selected theoretical and research readings, lectures in student-led discussion. Evaluates critical issues and future directions of contemporary theoretical schools and considers varied approaches to case examples. The different theoretical approaches are examined through the lenses of gender, class, and cultural adequacy. Restricted to PhD students."
+  },
+  {
+    "subject": "CAEP",
     "number": "7798",
     "title": "Doctoral Internship 1",
     "scheduleType": "Off-campus instruction",
     "credits": 0.5,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "10680" }],
+    "sections": [
+      { "term": "202310", "crn": "10680" },
+      { "term": "202330", "crn": "31778" }
+    ],
     "description": "Required of all doctoral students in counseling/school psychology PhD programs. Requires a minimum of forty hours per week for twelve months or twenty hours per week for twenty-four months in an accredited (or equivalent by permission) mental health training setting. In addition to internship site supervision and training seminars, interns attend, in person or online, a university-based seminar and complete case assignments. Restricted to PhD students. May be repeated up to four times, not to exceed 3 credits.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "CAEP",
+    "number": "7799",
+    "title": "Doctoral Internship 2",
+    "scheduleType": "Off-campus instruction",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "30729" }],
+    "description": "Continues CAEP 7798. Restricted to PhD students."
   },
   {
     "subject": "CAEP",
@@ -594,6 +956,21 @@
     "description": "Allows students to pursue topics of individual interest beyond the scope of formal course work under the direction of faculty. May be repeated without limit.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "CAEP",
+    "number": "8401",
+    "title": "Practicum in Counseling Psychology",
+    "scheduleType": "Off-campus instruction w/ lec",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "30738" },
+      { "term": "202330", "crn": "34443" },
+      { "term": "202330", "crn": "35178" },
+      { "term": "202330", "crn": "37974" }
+    ],
+    "description": "Includes forty hours of client contact plus supervision. Focuses on developing individual and group skills within mental health and human service agencies."
   },
   {
     "subject": "CAEP",
@@ -617,10 +994,24 @@
     "scheduleType": "Off-campus instruction w/ lec",
     "credits": 2,
     "nuPath": [],
-    "sections": [{ "term": "202240", "crn": "41922" }],
+    "sections": [
+      { "term": "202240", "crn": "41922" },
+      { "term": "202330", "crn": "30737" },
+      { "term": "202330", "crn": "38666" }
+    ],
     "description": "Offers supervised school-based field experience coupled with seminar class.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "CAEP",
+    "number": "8417",
+    "title": "Intensive Practicum in Applied Behavior Analysis 1",
+    "scheduleType": "Off-campus instruction w/ lec",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "36929" }],
+    "description": "Offers students supervised experience that is required in order to sit for the BACB exam. Focuses on offering students an opportunity to acquire new behavior analytic skills related to the BACB Task List. Asks students to demonstrate the necessary skills to be a competent behavior analyst in applied settings. Covers preference assessments, task analysis and other skill acquisition programs, and other teaching strategies."
   },
   {
     "subject": "CAEP",
@@ -629,7 +1020,10 @@
     "scheduleType": "Off-campus instruction w/ lec",
     "credits": 2,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "20377" }],
+    "sections": [
+      { "term": "202310", "crn": "20377" },
+      { "term": "202330", "crn": "38667" }
+    ],
     "description": "Continues the work of CAEP 8417 with the primary focus on offering students an opportunity to acquire new behavior analytic skills related to the BACB Task List. Covers functional assessment, behavior reduction programs, conditioned reinforcement, data analysis, and clinical decision making.",
     "coreqs": [],
     "prereqs": []
@@ -651,6 +1045,19 @@
   },
   {
     "subject": "CAEP",
+    "number": "8421",
+    "title": "Intensive Practicum in Applied Behavior Analysis 4",
+    "scheduleType": "Individual Instruction",
+    "credits": 2,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "36931" },
+      { "term": "202310", "crn": "21262" }
+    ],
+    "description": "Continues the work of CAEP 8417, CAEP 8418, and CAEP 8420 with the primary focus on offering students an opportunity to acquire new behavior analytic skills related to the BACB Task List. Covers behavioral approaches to skills assessment, training, supervision, and consultation."
+  },
+  {
+    "subject": "CAEP",
     "number": "8501",
     "title": "Internship in School Psychology 1",
     "scheduleType": "Off-campus instruction w/ lec",
@@ -660,6 +1067,16 @@
     "description": "Offers supervised school-based field experience coupled with seminar class.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "CAEP",
+    "number": "8502",
+    "title": "Internship in School Psychology 2",
+    "scheduleType": "Off-campus instruction w/ lec",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "32711" }],
+    "description": "Offers supervised school-based field experience coupled with seminar class. May be repeated once."
   },
   {
     "subject": "CAEP",
@@ -679,12 +1096,29 @@
   },
   {
     "subject": "CAEP",
+    "number": "8511",
+    "title": "Internship in Counseling Psychology 2",
+    "scheduleType": "Off-campus instruction w/ lec",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "30573" },
+      { "term": "202330", "crn": "37012" },
+      { "term": "202330", "crn": "37013" }
+    ],
+    "description": "Provides twenty hours per week in a field setting and a two-hour seminar on campus. In addition to providing supervising seminar, addresses practices, procedures, ethics, and policies in professional practice."
+  },
+  {
+    "subject": "CAEP",
     "number": "8553",
     "title": "Advanced Counseling Practicum",
     "scheduleType": "Off-campus instruction w/ lec",
     "credits": 1,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "12119" }],
+    "sections": [
+      { "term": "202310", "crn": "12119" },
+      { "term": "202330", "crn": "31974" }
+    ],
     "description": "Offers an elective course for doctoral students in the counseling psychology doctoral program who are completing additional years of supervised practical experience (minimum of 20 hours per week for 600 hours) as part of the training for the PhD degree and in clinical preparation for the APPIC/APA internship match process. Offers students training in clinical settings. Includes a seminar to offer students an opportunity to develop clinical skills in assessment, consultation, and interventions under supervision. Provides support and evaluation of the advanced fieldwork placement in which doctoral students are involved throughout the year. Led by a faculty supervisor who is the official liaison between Northeastern University and the advanced fieldwork sites. May be repeated up to five times for up to 6 total credits.",
     "coreqs": [],
     "prereqs": []
@@ -698,7 +1132,8 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "15497" },
-      { "term": "202260", "crn": "61188" }
+      { "term": "202260", "crn": "61188" },
+      { "term": "202330", "crn": "37675" }
     ],
     "description": "Offers an opportunity to conduct research under faculty supervision. May be repeated without limit.",
     "coreqs": [],
@@ -711,10 +1146,16 @@
     "scheduleType": "Individual Instruction",
     "credits": 0,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "11160" }],
+    "sections": [
+      { "term": "202310", "crn": "11160" },
+      { "term": "202330", "crn": "32324" }
+    ],
     "description": "Offers dissertation supervision by individual members of the department. Restricted to PhD students.",
     "coreqs": [],
-    "prereqs": [{ "subject": "CAEP", "number": "9000" }]
+    "prereqs": [
+      { "subject": "CAEP", "number": "9000" },
+      { "subject": "CAEP", "number": "9000" }
+    ]
   },
   {
     "subject": "CAEP",
@@ -726,7 +1167,8 @@
     "sections": [
       { "term": "202310", "crn": "15026" },
       { "term": "202310", "crn": "17667" },
-      { "term": "202240", "crn": "41830" }
+      { "term": "202240", "crn": "41830" },
+      { "term": "202330", "crn": "35569" }
     ],
     "description": "Offers dissertation supervision by members of the department.",
     "coreqs": [],
@@ -741,11 +1183,15 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "16011" },
-      { "term": "202240", "crn": "41855" }
+      { "term": "202240", "crn": "41855" },
+      { "term": "202330", "crn": "37050" }
     ],
     "description": "Supports the continued development of the dissertation.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "CAEP", "number": "9991" },
+      "Or",
+      "Dissertation Check",
       { "subject": "CAEP", "number": "9991" },
       "Or",
       "Dissertation Check"

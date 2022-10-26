@@ -19,7 +19,11 @@
       { "term": "202310", "crn": "20847" },
       { "term": "202310", "crn": "15073" },
       { "term": "202310", "crn": "21095" },
-      { "term": "202240", "crn": "41481" }
+      { "term": "202240", "crn": "41481" },
+      { "term": "202330", "crn": "32594" },
+      { "term": "202330", "crn": "34405" },
+      { "term": "202330", "crn": "32263" },
+      { "term": "202330", "crn": "38708" }
     ],
     "description": "Introduces the theory, computation, and application of deterministic models to represent industrial operations. Includes linear programming formulation and solution using spreadsheet and algebraic languages software; simplex, big-M, two-phase, revised simplex, and dual simplex algorithms for solving linear programs; introduction to the theory of simplex, fundamental insight, duality, and sensitivity analysis; transportation, assignment, and transshipment problems; shortest path, minimum spanning tree, maximum flow, minimum cost network flow problems and project networks; and discrete-state and continuous-state dynamic programming models and applications. Requires knowledge of linear algebra.",
     "coreqs": [],
@@ -32,10 +36,29 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "21045" }],
-    "description": "Focuses on solving large combinatorial optimization problems. Metaheuristic search aims to find a &quot;very good&quot; solution that satisfies the problem constraints. Describes multiple metaheuristic search methods such as simulated annealing (SA), tabu search (TS), genetic algorithms (GA), particle swarm optimization (PSO), and multiobjective methods. Uses algorithms to find values of discrete and/or continuous variables that optimize a system&rsquo;s performance. Discusses the application of metaheuristics to a variety of different problems, including hub location allocation, parallel machine scheduling, travelling salesman problem (TSP), curve fitting, clustering, n-queen, min one, etc. Incorporates practical experiments to demonstrate the advantages and disadvantages of metaheuristic search methods for different applications.",
+    "sections": [
+      { "term": "202310", "crn": "21045" },
+      { "term": "202330", "crn": "33325" }
+    ],
+    "description": "Focuses on solving large combinatorial optimization problems. Metaheuristic search aims to find a \"very good\" solution that satisfies the problem constraints. Describes multiple metaheuristic search methods such as simulated annealing (SA), tabu search (TS), genetic algorithms (GA), particle swarm optimization (PSO), and multiobjective methods. Uses algorithms to find values of discrete and/or continuous variables that optimize a system’s performance. Discusses the application of metaheuristics to a variety of different problems, including hub location allocation, parallel machine scheduling, travelling salesman problem (TSP), curve fitting, clustering, n-queen, min one, etc. Incorporates practical experiments to demonstrate the advantages and disadvantages of metaheuristic search methods for different applications.",
     "coreqs": [],
-    "prereqs": [{ "subject": "OR", "number": "6205" }]
+    "prereqs": [
+      { "subject": "OR", "number": "6205" },
+      { "subject": "OR", "number": "6205" }
+    ]
+  },
+  {
+    "subject": "OR",
+    "number": "7230",
+    "title": "Probabilistic Operation Research",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "30810" },
+      { "term": "202330", "crn": "33901" }
+    ],
+    "description": "Introduces the theory and use of stochastic models to represent industrial operations. Topics include discrete-state Markov chains and applications, state transitions and properties, first passage probabilities, steady-state analysis; absorbing chains and absorption probabilities; introduction to continuous-time Markov chains, transition rates and steady-state analysis; basic elements of queuing systems, birth-and-death process, and special cases; steady-state analysis of simple queuing models including M/M/s, M/M/s/K, M/M/s/N/N and their special cases; and queuing models involving nonexponential distributions."
   },
   {
     "subject": "OR",
@@ -44,7 +67,11 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "13572" }],
+    "sections": [
+      { "term": "202310", "crn": "13572" },
+      { "term": "202330", "crn": "31809" },
+      { "term": "202330", "crn": "34828" }
+    ],
     "description": "Previously captured",
     "coreqs": [],
     "prereqs": []
@@ -58,7 +85,8 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "12070" },
-      { "term": "202310", "crn": "16707" }
+      { "term": "202310", "crn": "16707" },
+      { "term": "202330", "crn": "31052" }
     ],
     "description": "Explores the determination of needs and requirements for logistics within large-scale manufacturing and business environments. Examines warehousing and scheduling in the context of a business logistics system. Introduces managerial, mathematical, and software tools and techniques for modeling and optimizing various aspects of the business supply chain. Considers approaches to examining warehousing operations and the associated algorithms.",
     "coreqs": [],
@@ -69,7 +97,45 @@
       { "subject": "MATH", "number": "7241" },
       ")",
       "And",
+      { "subject": "OR", "number": "6205" },
+      "(",
+      { "subject": "IE", "number": "6200" },
+      "Or",
+      { "subject": "MATH", "number": "7241" },
+      ")",
+      "And",
+      { "subject": "OR", "number": "6205" },
+      "(",
+      { "subject": "IE", "number": "6200" },
+      "Or",
+      { "subject": "MATH", "number": "7241" },
+      ")",
+      "And",
       { "subject": "OR", "number": "6205" }
     ]
+  },
+  {
+    "subject": "OR",
+    "number": "7990",
+    "title": "Thesis",
+    "scheduleType": "Individual Instruction",
+    "credits": 1,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "34952" },
+      { "term": "202330", "crn": "35174" },
+      { "term": "202330", "crn": "35463" }
+    ],
+    "description": "Offers analytical and/or experimental work conducted under the direction of the faculty in fulfillment of the requirements for the degree. Requires first-year students to attend a graduate seminar program that introduces the students to the methods of choosing a research topic, conducting research, and preparing a thesis. Requires successful completion of the seminar program. May be repeated without limit."
+  },
+  {
+    "subject": "OR",
+    "number": "7996",
+    "title": "Thesis Continuation",
+    "scheduleType": "Individual Instruction",
+    "credits": 0,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "35009" }],
+    "description": "Continues thesis work conducted under the supervision of a departmental faculty member."
   }
 ]

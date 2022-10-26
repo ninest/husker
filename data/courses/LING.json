@@ -15,21 +15,14 @@
       { "term": "202310", "crn": "18909" },
       { "term": "202310", "crn": "20415" },
       { "term": "202260", "crn": "60243" },
-      { "term": "202240", "crn": "41538" }
+      { "term": "202240", "crn": "41538" },
+      { "term": "202330", "crn": "30195" },
+      { "term": "202330", "crn": "30926" },
+      { "term": "202330", "crn": "35856" },
+      { "term": "202330", "crn": "35857" },
+      { "term": "202330", "crn": "38653" }
     ],
     "description": "Explores linguistics, the scientific study of language. Major topics include phonetics (production of speech sounds), phonology (sound systems in languages), morphology (structure of words), syntax (grammatical relationships between words and sentences), and semantics (meaning of words and sentences). Other topics may be surveyed such as the relationship between language and culture, language use within speech communities, languages in contact, the study of language change, language and brain, animal communication, and first language acquisition.",
-    "coreqs": [],
-    "prereqs": []
-  },
-  {
-    "subject": "LING",
-    "number": "1449",
-    "title": "English Now and Then",
-    "scheduleType": "Lecture",
-    "credits": 4,
-    "nuPath": ["IC", "ND"],
-    "sections": [{ "term": "202310", "crn": "18910" }],
-    "description": "Introduces the field of linguistics from current and historical perspectives. Covers the scientific study of language: phonetics (production of speech sounds), phonology (sound systems in languages), morphology (structure of words), syntax (grammatical relationships between words and sentences), and semantics (meaning of words and sentences). These linguistic structures provide the basis for exploring the origins and development of the English language. Emphasizes both the major structural changes English has experienced over time, as well as the sociohistorical contexts that gave rise to these changes.",
     "coreqs": [],
     "prereqs": []
   },
@@ -40,10 +33,16 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "18911" }],
+    "sections": [
+      { "term": "202310", "crn": "18911" },
+      { "term": "202330", "crn": "30903" }
+    ],
     "description": "Builds on the foundations of linguistic analysis developed in LING 1150. Offers students an opportunity to obtain a foundational basis for future study by focusing on four core areas of linguistics: phonetics, phonology, morphology, and syntax. Students hone their analytic abilities as they work with increasingly complex datasets. Adopting a descriptive, nontheoretical approach, students conduct linguistic research through a semester-long analysis of a world language.",
     "coreqs": [],
     "prereqs": [
+      { "subject": "LING", "number": "1449" },
+      "Or",
+      { "subject": "LING", "number": "1150" },
       { "subject": "LING", "number": "1449" },
       "Or",
       { "subject": "LING", "number": "1150" }
@@ -79,6 +78,16 @@
   },
   {
     "subject": "LING",
+    "number": "3420",
+    "title": "Phonetics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD"],
+    "sections": [{ "term": "202330", "crn": "38654" }],
+    "description": "Surveys phonetics, the study of speech sounds, including articulatory, acoustic, and auditory phonetics. Articulatory phonetics topics include anatomy and physiology; cross-linguistic consonant and vowel articulation; aerodynamics of speech production; coarticulation phenomena; and phonetics of supersegmentals such as syllables, stress, tone, and pitch accent. Acoustic phonetics topics include the physics of sound waves, reading spectrograms, and performing acoustic analyses. Auditory phonetics topics include audition and speech perception."
+  },
+  {
+    "subject": "LING",
     "number": "3422",
     "title": "Phonology",
     "scheduleType": "Lecture",
@@ -103,15 +112,48 @@
   },
   {
     "subject": "LING",
+    "number": "3440",
+    "title": "Language Acquisition",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38655" }],
+    "description": "Examines the milestones and developmental patterns of typical first language acquisition across the linguistic system. Details the patterns and expected norms for the acquisition and development of speech perception and production, semantics, morphosyntax, pragmatics, and the lexicon. Considers biological, environmental, linguistic, and other factors that contribute to the processes of language acquisition, as well as major theories in the field. Students gain hands-on experience transcribing, analyzing, and evaluating child language data throughout the semester."
+  },
+  {
+    "subject": "LING",
+    "number": "3442",
+    "title": "Sociolinguistics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "SI", "WI"],
+    "sections": [{ "term": "202330", "crn": "38656" }],
+    "description": "Focuses on why people choose to say things in different ways in different situations. Examines language behavior in its social context and outlines the linguistic constructs that allow conversation to occur, the types of variation that can occur in registers and dialects, and the possible reasons for choosing different linguistic varieties. Also explores linguistic variation in relation to social context, gender, socioeconomic class, race, and ethnicity."
+  },
+  {
+    "subject": "LING",
     "number": "3450",
     "title": "Syntax",
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["AD", "FQ"],
-    "sections": [{ "term": "202310", "crn": "18915" }],
+    "sections": [
+      { "term": "202310", "crn": "18915" },
+      { "term": "202330", "crn": "33150" }
+    ],
     "description": "Introduces syntax, the theory of sentence structure. Explores how to do syntactic analysis using linguistic evidence and argumentation. Focuses primarily on English, with some discussion on the syntax of other languages. Other topics include syntactic universals and the relation between syntax and semantics.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "LING",
+    "number": "3452",
+    "title": "Semantics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["AD", "FQ"],
+    "sections": [{ "term": "202330", "crn": "38657" }],
+    "description": "Focuses on meaning and how it is expressed in language—through words, sentence structure, intonation, stress patterns, and speech acts. Considers how content, logic, and speakers’ and listeners’ assumptions affect what sentences can mean and how linguistic meaning is determined by one’s perceptual system or culture."
   },
   {
     "subject": "LING",
@@ -121,8 +163,28 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "18916" }],
-    "description": "Surveys the linguistic and social history of the English language from its Indo-European beginnings to the present. Examines the changes that have occurred in the sound system, word and sentence structures, vocabulary, semantics, and spelling from a formal linguistic perspective. Considers issues in language change&amp;#8212;the influence of foreign invasion and migration, differences in dialect, and the emergence of English as a &amp;#8220;world&amp;#8221; language.",
+    "description": "Surveys the linguistic and social history of the English language from its Indo-European beginnings to the present. Examines the changes that have occurred in the sound system, word and sentence structures, vocabulary, semantics, and spelling from a formal linguistic perspective. Considers issues in language change—the influence of foreign invasion and migration, differences in dialect, and the emergence of English as a “world” language.",
     "coreqs": [],
     "prereqs": [{ "subject": "LING", "number": "1150" }]
+  },
+  {
+    "subject": "LING",
+    "number": "4654",
+    "title": "Seminar in Linguistics",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["CE", "WI"],
+    "sections": [{ "term": "202330", "crn": "34792" }],
+    "description": "Explores a topic in current linguistics research. Requires prior completion of either two 3000-level LING courses or one 3000-level LING course and permission of instructor. May be repeated without limit."
+  },
+  {
+    "subject": "LING",
+    "number": "4891",
+    "title": "Research Seminar in Linguistics",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": ["EX"],
+    "sections": [{ "term": "202330", "crn": "32977" }],
+    "description": "Offers individualized research experience on a chosen topic under the direction of a faculty member. Also includes group meetings of students and the faculty member to study relevant research methods, to discuss relevant research literature, and to present research progress and results. Research content and requisites depend on the instructor, and prior arrangements should be made with the faculty member well in advance of registration. May be repeated up to eight times."
   }
 ]

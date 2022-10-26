@@ -7,7 +7,7 @@
     "credits": 1,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "12393" }],
-    "description": "Intended for freshmen media and screen studies majors and combined majors. Introduces students to the liberal arts in general. Offers students an opportunity to become familiar with media and screen studies as a major discipline; to develop the academic skills necessary to succeed (analytical ability and critical thinking); to become grounded in the culture and values of the university community (including advising); and to develop interpersonal skills&mdash;in short, to become familiar with all the skills needed to become a successful university student.",
+    "description": "Intended for freshmen media and screen studies majors and combined majors. Introduces students to the liberal arts in general. Offers students an opportunity to become familiar with media and screen studies as a major discipline; to develop the academic skills necessary to succeed (analytical ability and critical thinking); to become grounded in the culture and values of the university community (including advising); and to develop interpersonal skills—in short, to become familiar with all the skills needed to become a successful university student.",
     "coreqs": [],
     "prereqs": []
   },
@@ -20,9 +20,10 @@
     "nuPath": ["DD"],
     "sections": [
       { "term": "202310", "crn": "12362" },
-      { "term": "202240", "crn": "40393" }
+      { "term": "202240", "crn": "40393" },
+      { "term": "202330", "crn": "32763" }
     ],
-    "description": "Focuses on the ways in which cinematic language and representations have developed since the late-nineteenth century, how representations of human difference vary in distinct cultural contexts, and how particular filmmakers and historical/national movements have challenged certain representations and ideologies. This range of representations and discourses includes blackface performance and other racist tropes, ethnographic studies of indigenous people as &amp;#8220;exotic&amp;#8221; curiosities, films noir that demonize independent women, postwar Italian neorealism&amp;#8217;s revolutionary focus on the plight of the poor, films by and about marginalized ethnicities in the U.S. and the global south, banned films that highlight the condition of women in post-revolution Iran, and contemporary Hollywood&amp;#8217;s treatment of homosexuality and masculinity.",
+    "description": "Focuses on the ways in which cinematic language and representations have developed since the late-nineteenth century, how representations of human difference vary in distinct cultural contexts, and how particular filmmakers and historical/national movements have challenged certain representations and ideologies. This range of representations and discourses includes blackface performance and other racist tropes, ethnographic studies of indigenous people as “exotic” curiosities, films noir that demonize independent women, postwar Italian neorealism's revolutionary focus on the plight of the poor, films by and about marginalized ethnicities in the U.S. and the global south, banned films that highlight the condition of women in post-revolution Iran, and contemporary Hollywood's treatment of homosexuality and masculinity.",
     "coreqs": [],
     "prereqs": []
   },
@@ -37,7 +38,8 @@
       { "term": "202310", "crn": "11555" },
       { "term": "202310", "crn": "20501" },
       { "term": "202260", "crn": "60807" },
-      { "term": "202240", "crn": "40671" }
+      { "term": "202240", "crn": "40671" },
+      { "term": "202330", "crn": "31307" }
     ],
     "description": "Introduces the study of media, including print, radio, film, television, and digital/computer products. Explores the ideological, industrial, political, and social contexts that impact everyday engagements with media. To accomplish this, students examine how media products are developed, how technological changes impact the production and consumption of media, how political processes are influenced by media, how people interpret and interact with media content, and how media influence cultural practices and daily life.",
     "coreqs": [],
@@ -54,7 +56,10 @@
       { "term": "202310", "crn": "16566" },
       { "term": "202310", "crn": "12257" },
       { "term": "202310", "crn": "12258" },
-      { "term": "202260", "crn": "60549" }
+      { "term": "202260", "crn": "60549" },
+      { "term": "202330", "crn": "31868" },
+      { "term": "202330", "crn": "32123" },
+      { "term": "202330", "crn": "32180" }
     ],
     "description": "Offers an introduction to production that blends theory and practice of film/video production through an examination of exemplary works, aesthetic strategies, production techniques, and the dynamic relationship between media makers, subjects, viewers, and technology. Offers students an opportunity to gain fundamental moving-image fluency using widely accessible media production tools including camcorders, mobile phones, and digital single-lens-reflex cameras.",
     "coreqs": [],
@@ -67,8 +72,11 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["ER"],
-    "sections": [{ "term": "202310", "crn": "16568" }],
-    "description": "Explores media&amp;#8217;s role in movements for social, economic, and cultural change. Specifically examines how people use media technologies to organize themselves and communicate their message to wider audiences in order to achieve social change. As a way to develop and improve ethical reasoning, students are asked to think about the accountability of media institutions and actions of groups and individuals who use media technologies and tactics in the name of social change.",
+    "sections": [
+      { "term": "202310", "crn": "16568" },
+      { "term": "202330", "crn": "39275" }
+    ],
+    "description": "Explores media's role in movements for social, economic, and cultural change. Specifically examines how people use media technologies to organize themselves and communicate their message to wider audiences in order to achieve social change. As a way to develop and improve ethical reasoning, students are asked to think about the accountability of media institutions and actions of groups and individuals who use media technologies and tactics in the name of social change.",
     "coreqs": [],
     "prereqs": []
   },
@@ -81,7 +89,9 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "13437" },
-      { "term": "202310", "crn": "20396" }
+      { "term": "202310", "crn": "20396" },
+      { "term": "202330", "crn": "39103" },
+      { "term": "202330", "crn": "33285" }
     ],
     "description": "Examines the historical relationships between media, culture, and society with a focus on the role of media technologies as tools of communication. Emphasizes the broad social and cultural conditions that shape media and the ways in which people experience culture and understand meaning. Introduces the concept of mediation to analyze how different forms of communication have emerged in different historical moments. Critically examines past interactions between media and culture, and also examines the emergence of historically specific conceptions of audience, identity, content, industry, information, perception, and so forth.",
     "coreqs": [],
@@ -94,7 +104,10 @@
     "scheduleType": "Seminar",
     "credits": 4,
     "nuPath": ["EI"],
-    "sections": [{ "term": "202310", "crn": "14045" }],
+    "sections": [
+      { "term": "202310", "crn": "14045" },
+      { "term": "202330", "crn": "33169" }
+    ],
     "description": "Introduces narrative filmmaking without synch sound. Offers students an opportunity to create several short projects without dialogue. The successful student leaves the course with a portfolio of work, a basic knowledge of video cameras, and one editing software program (either Avid or Final Cut Pro). Focuses on storytelling through visuals.",
     "coreqs": [],
     "prereqs": []
@@ -106,10 +119,16 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["IC"],
-    "sections": [{ "term": "202310", "crn": "13438" }],
+    "sections": [
+      { "term": "202310", "crn": "13438" },
+      { "term": "202330", "crn": "33099" }
+    ],
     "description": "Designed to give students a foundation in the theories and methods of analysis in cultural and media studies. Positioned between the introductory MSCR classes and the higher-level theory classes. Offers students an opportunity to learn the how and why of media and cultural studies, focusing on the foundational assumptions, theories, and methods of the discipline.",
     "coreqs": [],
-    "prereqs": [{ "subject": "MSCR", "number": "1220" }]
+    "prereqs": [
+      { "subject": "MSCR", "number": "1220" },
+      { "subject": "MSCR", "number": "1220" }
+    ]
   },
   {
     "subject": "MSCR",
@@ -118,7 +137,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["IC"],
-    "sections": [{ "term": "202310", "crn": "19592" }],
+    "sections": [
+      { "term": "202310", "crn": "19592" },
+      { "term": "202330", "crn": "32764" }
+    ],
     "description": "Introduces students to critical television studies. Topics include visual language (use of image, music, graphics, editing, and sound); narrative structure; and genre. Specific critical approaches include semiotics, narrative and genre analysis, feminist analysis, and ideological analysis of representation.",
     "coreqs": [],
     "prereqs": []
@@ -131,9 +153,19 @@
     "credits": 4,
     "nuPath": ["DD", "SI"],
     "sections": [{ "term": "202310", "crn": "19593" }],
-    "description": "Covers global dynamics of media and media systems. Specifically seeks to introduce students to the nuances of globalization and cultural performance through media structures. Introduces a wide variety of topics that fall in the intersection between globalization and media and the ways in which they operate socially and culturally. The course focuses broadly on understanding&amp;#8212;in both theoretical and practical ways&amp;#8212;how and why global media function as they do and how they contribute to knowledge formation and social justice within various cultural contexts.",
+    "description": "Covers global dynamics of media and media systems. Specifically seeks to introduce students to the nuances of globalization and cultural performance through media structures. Introduces a wide variety of topics that fall in the intersection between globalization and media and the ways in which they operate socially and culturally. The course focuses broadly on understanding—in both theoretical and practical ways—how and why global media function as they do and how they contribute to knowledge formation and social justice within various cultural contexts.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "MSCR",
+    "number": "2335",
+    "title": "Race and Social Justice in American Film",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "34352" }],
+    "description": "Offers an in-depth analysis of and reflection upon films and how they influence our perceptions of race in the United States. Examines how race and its representation shapes the development, production, distribution, and marketing of American documentaries and dramas. Uses screenings, readings, lectures, discussions, and writing to explore the power of films to reflect and reinforce long-standing ideologies of race and analyze how traditionally underrepresented groups have historically shaped counter-narratives."
   },
   {
     "subject": "MSCR",
@@ -144,11 +176,22 @@
     "nuPath": ["IC"],
     "sections": [
       { "term": "202310", "crn": "17339" },
-      { "term": "202240", "crn": "40535" }
+      { "term": "202240", "crn": "40535" },
+      { "term": "202330", "crn": "34353" }
     ],
     "description": "Surveys the rise of American film from the late nineteenth century to the present. Examines key films, directors, major themes, and film forms and techniques. Includes lectures, screenings, and discussions. Students who do not meet course prerequisites may seek permission of instructor.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "MSCR",
+    "number": "2505",
+    "title": "Digital Feminisms",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["EI", "IC", "WI"],
+    "sections": [{ "term": "202330", "crn": "38763" }],
+    "description": "Explores the unique ways that feminist activism and theory are impacted by the increasing digital nature of our world. From hashtags to Tumblr, feminists are using digital tools and platforms to aid in the pursuit of social justice. Offers students an opportunity to develop a timeline that traces feminists' engagement with the Internet, new media, and technological innovations from the late seventies to the present. Examines the strengths and challenges that the digital world creates for feminist engagement. MSCR 2505 and WMNS 2505 are cross-listed."
   },
   {
     "subject": "MSCR",
@@ -158,7 +201,7 @@
     "credits": 4,
     "nuPath": ["IC"],
     "sections": [{ "term": "202310", "crn": "16406" }],
-    "description": "Introduces the ways in which films are produced, marketed, and distributed, along with the basic elements of film grammar, from shot construction to editing to sound. Offers students an opportunity to learn how film analysis is conducted, including an introduction to the study of film genre, film history, and film theory. Covers basic concepts regarding the relationship between film and culture, including national and regional identity; the relationship between a film &ldquo;text&rdquo; and the audience; and the relationship between film and other forms of cultural production such as art, literature, music, and theatre. Aims to provide a nuanced understanding of a variety of cinematic works as products of specific cultures, times, and places.",
+    "description": "Introduces the ways in which films are produced, marketed, and distributed, along with the basic elements of film grammar, from shot construction to editing to sound. Offers students an opportunity to learn how film analysis is conducted, including an introduction to the study of film genre, film history, and film theory. Covers basic concepts regarding the relationship between film and culture, including national and regional identity; the relationship between a film “text” and the audience; and the relationship between film and other forms of cultural production such as art, literature, music, and theatre. Aims to provide a nuanced understanding of a variety of cinematic works as products of specific cultures, times, and places.",
     "coreqs": [],
     "prereqs": []
   },
@@ -169,8 +212,12 @@
     "scheduleType": "Seminar",
     "credits": 4,
     "nuPath": ["EI"],
-    "sections": [{ "term": "202310", "crn": "14046" }],
-    "description": "Approaches the unique narrative form of the dramatic short film, with the goal of having students produce a short film screenplay (under twenty minutes in length) which could eventually be shot. Takes students through the storytelling process, from conception to visualization, dramatization, characterization, and dialogue, ending in a project which should reflect the student&rsquo;s own personal voice and unique vision. Offers students an opportunity to work on many writing exercises involving free association, visualizations, and character explorations, and to evaluate and critique each other&rsquo;s work in a workshop setting.",
+    "sections": [
+      { "term": "202310", "crn": "14046" },
+      { "term": "202330", "crn": "36090" },
+      { "term": "202330", "crn": "36091" }
+    ],
+    "description": "Approaches the unique narrative form of the dramatic short film, with the goal of having students produce a short film screenplay (under twenty minutes in length) which could eventually be shot. Takes students through the storytelling process, from conception to visualization, dramatization, characterization, and dialogue, ending in a project which should reflect the student’s own personal voice and unique vision. Offers students an opportunity to work on many writing exercises involving free association, visualizations, and character explorations, and to evaluate and critique each other’s work in a workshop setting.",
     "coreqs": [],
     "prereqs": []
   },
@@ -184,7 +231,8 @@
     "sections": [
       { "term": "202310", "crn": "19594" },
       { "term": "202310", "crn": "19595" },
-      { "term": "202260", "crn": "61239" }
+      { "term": "202260", "crn": "61239" },
+      { "term": "202330", "crn": "36092" }
     ],
     "description": "Features an array of screenwriting tools and techniques used in the process of developing ideas into screenplays for feature films. Offers instruction in writing highly effective scenes; building compelling and dimensional characters; crafting authentic dialogue; and a variety of methods to add texture, depth, and meaning to a story. Students develop an outline for a feature film that they refine through ongoing in-class workshops based on informed and supportive collaboration. The cumulative nature of the course encourages students to learn, practice, and demonstrate a wide range of foundational skills they can continue to build upon to finish their feature film screenplay and apply to any future screenplay ideas.",
     "coreqs": [],
@@ -197,7 +245,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["DD"],
-    "sections": [{ "term": "202310", "crn": "20460" }],
+    "sections": [
+      { "term": "202310", "crn": "20460" },
+      { "term": "202330", "crn": "33265" }
+    ],
     "description": "Examines the representation of gender in film. Uses concepts and research from film and media studies to investigate the influences and consequences of gender representations in film. WMNS 3392 and MSCR 3392 are cross-listed.",
     "coreqs": [],
     "prereqs": []
@@ -237,7 +288,7 @@
       { "term": "202310", "crn": "19597" },
       { "term": "202240", "crn": "41422" }
     ],
-    "description": "Examines representations of identity (race, gender, sexuality, and class) in the media, investigates their influences, and considers their repercussions. The class especially focuses on understanding identity as a construction, rather than as inherently &amp;#8220;natural.&amp;#8221; Broadly, we discuss the relationship between identity and media representations; more specifically, we look at cultural texts, sites, and practices where the existing racial categories mix, merge, and/or rub up against each other in ways that problematize the naturalness of essentialized identities. Students who do not meet course prerequisites may seek permission of instructor.",
+    "description": "Examines representations of identity (race, gender, sexuality, and class) in the media, investigates their influences, and considers their repercussions. The class especially focuses on understanding identity as a construction, rather than as inherently “natural.” Broadly, we discuss the relationship between identity and media representations; more specifically, we look at cultural texts, sites, and practices where the existing racial categories mix, merge, and/or rub up against each other in ways that problematize the naturalness of essentialized identities. Students who do not meet course prerequisites may seek permission of instructor.",
     "coreqs": [],
     "prereqs": []
   },
@@ -260,10 +311,23 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["IC", "WI"],
-    "sections": [{ "term": "202310", "crn": "19599" }],
+    "sections": [
+      { "term": "202310", "crn": "19599" },
+      { "term": "202330", "crn": "38504" }
+    ],
     "description": "Explores the movement from modernist concern with the art object to postmodern concerns with subjectivity and spectatorship, race, and gender. Requires a paper using formalist analysis and later revision using cultural analysis, psychoanalysis, philosophy of perception, race studies. Also offers students an opportunity to learn research methods in cinema studies and perform a metacritical review of their own work and to present their findings from film journals, databases, Web sites, blogs. Presents the relation of perception to reality; levels of representational realness; reception theory; digitalization in its relation to movement and meaning. Seeks to enable students to recognize structures and problems for analysis in a film and to apply appropriate theoretical models to analyze these structures.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "MSCR",
+    "number": "3700",
+    "title": "Queer Media",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "WI"],
+    "sections": [{ "term": "202330", "crn": "33848" }],
+    "description": "Examines queer representation within media, ranging from film and television to social networks and video games. Offers students an opportunity to read, present, and write about theories of difference from a diverse range of perspectives within the interdisciplinary fields of queer theory and media studies."
   },
   {
     "subject": "MSCR",
@@ -272,8 +336,11 @@
     "scheduleType": "Seminar",
     "credits": 4,
     "nuPath": ["WI"],
-    "sections": [{ "term": "202310", "crn": "19601" }],
-    "description": "Explores U.S. network television in the &ldquo;precable&rdquo; era, which ranges from 1949 to the 1980s. Studies television programming through its historical, cultural, and industrial contexts. The media studies component of the class considers topics such as aesthetics, narrative, genre, and representation.",
+    "sections": [
+      { "term": "202310", "crn": "19601" },
+      { "term": "202330", "crn": "38505" }
+    ],
+    "description": "Explores U.S. network television in the “precable” era, which ranges from 1949 to the 1980s. Studies television programming through its historical, cultural, and industrial contexts. The media studies component of the class considers topics such as aesthetics, narrative, genre, and representation.",
     "coreqs": [],
     "prereqs": []
   },
@@ -284,7 +351,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["CE"],
-    "sections": [{ "term": "202310", "crn": "14951" }],
+    "sections": [
+      { "term": "202310", "crn": "14951" },
+      { "term": "202330", "crn": "31308" }
+    ],
     "description": "Overviews key conceptual approaches that have developed for the study of the media. Investigates theories that address the role of media in culture and focuses on how cultural studies can inform our reading of both media and culture.",
     "coreqs": [],
     "prereqs": []

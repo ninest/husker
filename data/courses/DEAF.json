@@ -6,7 +6,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": ["DD", "IC"],
-    "sections": [{ "term": "202310", "crn": "10330" }],
+    "sections": [
+      { "term": "202310", "crn": "10330" },
+      { "term": "202330", "crn": "34627" }
+    ],
     "description": "Focuses on Deaf communities as linguistic and cultural minorities. Topics include perspectives on Deaf communities; attitudes toward Deaf people and sign languages, technology, and communication; the contributions of Deaf people to society; professional and social organizations of and for Deaf people; Deaf clubs as a locus of Deaf culture; communication issues; perspectives on legislation affecting the Deaf Community; legislative and political concerns of the Deaf Community; and the impact of educational options for Deaf children. Also covers the diverse intersectional identities comprising the American Deaf Community due to language use (multilingual), race, gender, class, and multicultural experiences. Discusses the impact of audism, racism, and many other -isms.",
     "coreqs": [],
     "prereqs": []
@@ -22,5 +25,25 @@
     "description": "Designed for students with prior ASL learning",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "DEAF",
+    "number": "2500",
+    "title": "Deaf History and Culture",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["DD", "IC"],
+    "sections": [{ "term": "202330", "crn": "38659" }],
+    "description": "Surveys the history and culture of the American Deaf community and Deaf people in the Western world.  Focuses on educational, political, and technological forces and events that have positively and negatively affected the American Deaf community. Focuses on the American Deaf community as a linguistic and cultural minority. Also examines contemporary values and factors that shape and define the diverse American Deaf community and compares and contrasts American Deaf cultural values with those of American society in general."
+  },
+  {
+    "subject": "DEAF",
+    "number": "2700",
+    "title": "ASL Linguistics",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": ["WI"],
+    "sections": [{ "term": "202330", "crn": "30054" }],
+    "description": "Introduces the basic issues in linguistics by examining the structural properties of American Sign Language. Includes phonology (formational properties of signs); morphology (word formation, rules, derivation, inflection, complex verbs, classifiers, and verb modulations); semantics (the meaning structure of signs); and syntax (the structure of ASL utterances in terms of old vs. new information and the structure of ASL narratives). Examines sociolinguistic variation of ASL usage (such as region, age, and Black ASL), as well as language attitudes and change over time."
   }
 ]

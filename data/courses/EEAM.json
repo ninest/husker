@@ -13,9 +13,17 @@
       { "term": "202310", "crn": "11150" },
       { "term": "202310", "crn": "11152" },
       { "term": "202310", "crn": "11505" },
-      { "term": "202310", "crn": "20527" }
+      { "term": "202310", "crn": "20527" },
+      { "term": "202330", "crn": "31020" },
+      { "term": "202330", "crn": "31022" },
+      { "term": "202330", "crn": "31024" },
+      { "term": "202330", "crn": "31026" },
+      { "term": "202330", "crn": "31028" },
+      { "term": "202330", "crn": "33386" },
+      { "term": "202330", "crn": "36840" },
+      { "term": "202330", "crn": "36909" }
     ],
-    "description": "Introduces students to the Cooperative Education Program and provides them with an opportunity to develop job-search and career-management skills. Offers students an opportunity to perform assessments of their workplace skills, interests, and values and discuss how they impact personal career choices. Students also have an opportunity to prepare a professional-style r&amp;#233;sum&amp;#233;, learn proper interviewing techniques, and gain an understanding of the opportunities available to them for co-op. Introduces career paths, choices, professional behaviors, work culture, and career decision making. Familiarizes students with workplace issues relative to their field of study and teaches them to use myNEU in the job-search and referral process. Presents co-op policies, procedures, and expectations of the Department of Cooperative Education and co-op employers.",
+    "description": "Introduces students to the Cooperative Education Program and provides them with an opportunity to develop job-search and career-management skills. Offers students an opportunity to perform assessments of their workplace skills, interests, and values and discuss how they impact personal career choices. Students also have an opportunity to prepare a professional-style résumé, learn proper interviewing techniques, and gain an understanding of the opportunities available to them for co-op. Introduces career paths, choices, professional behaviors, work culture, and career decision making. Familiarizes students with workplace issues relative to their field of study and teaches them to use myNEU in the job-search and referral process. Presents co-op policies, procedures, and expectations of the Department of Cooperative Education and co-op employers.",
     "coreqs": [],
     "prereqs": []
   },
@@ -26,7 +34,10 @@
     "scheduleType": "Individual Instruction",
     "credits": 1,
     "nuPath": [],
-    "sections": [{ "term": "202260", "crn": "61578" }],
+    "sections": [
+      { "term": "202260", "crn": "61578" },
+      { "term": "202330", "crn": "31081" }
+    ],
     "description": "Offers students an opportunity to gain experience in a field they would like to explore and receive internship credit. Students complete a one-hundred-hour internship during the semester, which they obtain prior to the course. Students attend group meetings and individual appointments with the instructor, maintain a weekly journal, and complete an evaluation of their internship experience.",
     "coreqs": [],
     "prereqs": []
@@ -44,7 +55,13 @@
       { "term": "202260", "crn": "61550" },
       { "term": "202260", "crn": "61102" },
       { "term": "202260", "crn": "61564" },
-      { "term": "202260", "crn": "61608" }
+      { "term": "202260", "crn": "61608" },
+      { "term": "202310", "crn": "21189" },
+      { "term": "202310", "crn": "21328" },
+      { "term": "202310", "crn": "21410" },
+      { "term": "202310", "crn": "21738" },
+      { "term": "202310", "crn": "21787" },
+      { "term": "202310", "crn": "21803" }
     ],
     "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit.",
     "coreqs": [],
@@ -67,7 +84,10 @@
       { "term": "202260", "crn": "60418" },
       { "term": "202260", "crn": "61089" },
       { "term": "202260", "crn": "61500" },
-      { "term": "202240", "crn": "41833" }
+      { "term": "202240", "crn": "41833" },
+      { "term": "202330", "crn": "37257" },
+      { "term": "202310", "crn": "21801" },
+      { "term": "202310", "crn": "21326" }
     ],
     "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit.",
     "coreqs": [],
@@ -80,7 +100,10 @@
     "scheduleType": "Individual Instruction",
     "credits": 0,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "15523" }],
+    "sections": [
+      { "term": "202310", "crn": "15523" },
+      { "term": "202310", "crn": "21257" }
+    ],
     "description": "Provides eligible students with an opportunity for work experience abroad. May be repeated without limit.",
     "coreqs": [],
     "prereqs": []

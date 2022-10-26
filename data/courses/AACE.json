@@ -6,10 +6,23 @@
     "scheduleType": "Lecture",
     "credits": 3,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "13583" }],
+    "sections": [
+      { "term": "202310", "crn": "13583" },
+      { "term": "202330", "crn": "33798" }
+    ],
     "description": "Offers an overview and introduction to leadership knowledge areas, tools, and skills sets for the arts and culture sector. Key topics include issues and challenges in the management of arts-oriented organizations, leadership characteristics and techniques for arts and culture teams, balancing organizational priorities with artistic vision and values, board formation and management, audience outreach, and operational practices. Focuses on the administration of people and processes to communicate mission; realize goals; and effectively manage the creative resources, human resources, and financial challenges of nonprofit arts and cultural organizations.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "AACE",
+    "number": "6010",
+    "title": "Planning for Arts and Cultural Organizations",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "36922" }],
+    "description": "Offers an overview and introduction to knowledge areas and primary skills sets for planning, launching, and sustaining arts and cultural organizations. Key topics include evaluating opportunities in the arts and culture sector; building effective vision, mission, and values for arts and culture initiatives in balance with civic and community contexts; smart approaches to arts and culture funding; developing sustainable and flexible strategic plans; and planning challenges for the contemporary strategic arts organization."
   },
   {
     "subject": "AACE",
@@ -18,10 +31,23 @@
     "scheduleType": "Lecture",
     "credits": 3,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "13153" }],
+    "sections": [
+      { "term": "202310", "crn": "13153" },
+      { "term": "202330", "crn": "34649" }
+    ],
     "description": "Offers students an opportunity to learn best practices in arts project management, including how to assess and scope a project, develop a timeline with clear action items and goals, relay needs and expectations to clients, research materials to assist in the process, and measure and deliver project results. Faculty coach students to cultivate professional skill sets, build competency around key areas of student interest, and bridge theory with practice. Students receive feedback from their project sponsor, review lessons learned, and incorporate suggestions to improve and further develop their career plans. Seeks to support the development of business communication skills, project and client management skills, and frameworks for analysis.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "AACE",
+    "number": "6110",
+    "title": "Information Technology for Arts and Cultural Organizations",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "36728" }],
+    "description": "Offers nontechnical students an opportunity to obtain a clear and current understanding of key information technology (IT) concepts set in the context of arts and cultural organizations and to empower them to make decisions that map technology to strategy. Covers how to identify technical terms, stakeholders, and issues; evaluate IT challenges; apply best-practice frameworks; and identify business needs and compare technical solutions in order to minimize cost and maximize strategic alignment. Combines readings, casework, video lectures, screen casts, guest videos, and a hands-on approach to researching solutions and leading change. Includes both group and individual deliverables that students synthesize to create and present a final project."
   },
   {
     "subject": "AACE",
@@ -31,7 +57,7 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "15988" }],
-    "description": "Seeks to equip future arts leaders with the competence, power, and commitment to act in the interest of creative resilience&mdash;and creativity&mdash;for the collective good. Offers students an opportunity to learn how to both advocate for the arts and advocate through the arts. Each module presents a specific challenge faced by artists and arts institutions and compels students to identify and articulate creative solutions to overcome this challenge. Exposes students to diverse knowledge sources&mdash;including theoretical and practical literature, organizational and project case studies, and guest presentations by arts leaders in the Boston area&mdash;to help prepare students for this important work.",
+    "description": "Seeks to equip future arts leaders with the competence, power, and commitment to act in the interest of creative resilience—and creativity—for the collective good. Offers students an opportunity to learn how to both advocate for the arts and advocate through the arts. Each module presents a specific challenge faced by artists and arts institutions and compels students to identify and articulate creative solutions to overcome this challenge. Exposes students to diverse knowledge sources—including theoretical and practical literature, organizational and project case studies, and guest presentations by arts leaders in the Boston area—to help prepare students for this important work.",
     "coreqs": [],
     "prereqs": []
   },
@@ -43,7 +69,7 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "15989" }],
-    "description": "Examines the role and tools of the cultural entrepreneur and investigates practical and tactical approaches centered around real-world examples. Topics include how cultural entrepreneurs turn new ideas into concrete initiatives and how they communicate with and learn from their audiences and communities to assess and evaluate the implementation of cultural endeavors. Offers students an opportunity to create their own cultural initiative from the ground up. Through modules covering mission and vision, program evaluation, community engagement, and basic resource management, the successful student should finish the course with a real project &ldquo;in a box,&rdquo; ready to launch.",
+    "description": "Examines the role and tools of the cultural entrepreneur and investigates practical and tactical approaches centered around real-world examples. Topics include how cultural entrepreneurs turn new ideas into concrete initiatives and how they communicate with and learn from their audiences and communities to assess and evaluate the implementation of cultural endeavors. Offers students an opportunity to create their own cultural initiative from the ground up. Through modules covering mission and vision, program evaluation, community engagement, and basic resource management, the successful student should finish the course with a real project “in a box,” ready to launch.",
     "coreqs": [],
     "prereqs": []
   },
@@ -66,9 +92,22 @@
     "scheduleType": "Seminar",
     "credits": 3,
     "nuPath": [],
-    "sections": [{ "term": "202240", "crn": "41744" }],
-    "description": "Investigates the philosophy, methods, and application of a wide spectrum of audience engagement strategies. Utilizes provided materials, inquiry-based research practices, and experiential study to introduce students to the various interpretations and outcomes of effective audience engagement, particularly as it relates to an arts organization&rsquo;s mission, vision, and values. Drawing directly from their course work and research, students are paired with an arts organization to design a creative audience engagement strategy that both aligns with the organization&rsquo;s mission and supports a new visionary initiative.",
+    "sections": [
+      { "term": "202240", "crn": "41744" },
+      { "term": "202330", "crn": "38146" }
+    ],
+    "description": "Investigates the philosophy, methods, and application of a wide spectrum of audience engagement strategies. Utilizes provided materials, inquiry-based research practices, and experiential study to introduce students to the various interpretations and outcomes of effective audience engagement, particularly as it relates to an arts organization’s mission, vision, and values. Drawing directly from their course work and research, students are paired with an arts organization to design a creative audience engagement strategy that both aligns with the organization’s mission and supports a new visionary initiative.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "AACE",
+    "number": "6300",
+    "title": "Fundraising in the Arts",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38147" }],
+    "description": "Offers advanced study of fundraising and resource development within the arts and cultural sector. Designed to help students develop the knowledge and skills required to create and increase various revenue streams. Covers fundraising ethics, grant writing, sponsorship proposals, pitching, stakeholder and volunteer engagement, storytelling, and other skills necessary to support fundraising goals. When applicable, students are encouraged to use this course to explore and apply fundraising fundamentals for their organization, startup, or creative practice."
   }
 ]

@@ -9,7 +9,8 @@
     "sections": [
       { "term": "202310", "crn": "11292" },
       { "term": "202310", "crn": "14186" },
-      { "term": "202240", "crn": "40253" }
+      { "term": "202240", "crn": "40253" },
+      { "term": "202330", "crn": "31159" }
     ],
     "description": "Introduces students to the world of entrepreneurship. Covers the importance of entrepreneurship, the characteristics of entrepreneurs, and the entrepreneurship process. Describes entrepreneurship in its various forms, including startup growth ventures, entrepreneurship in small and medium enterprises, and microbusinesses.",
     "coreqs": [],
@@ -21,10 +22,12 @@
     "title": "Global Social Enterprise",
     "scheduleType": "Lecture",
     "credits": 4,
-    "nuPath": [],
+    "nuPath": ["EX"],
     "sections": [
       { "term": "202310", "crn": "11290" },
-      { "term": "202310", "crn": "12599" }
+      { "term": "202310", "crn": "12599" },
+      { "term": "202330", "crn": "30012" },
+      { "term": "202330", "crn": "31356" }
     ],
     "description": "Designed to provide students with an in-depth exposure to entrepreneurship in the social sector, a rapidly growing segment of the global economy.  Uses the case method to expose students to leading entrepreneurs who have developed and implemented business models to solve social problems such as extreme poverty, disease, illiteracy, and economic and social dislocation.  Focuses on uniquely creative and driven people who have dedicated their lives to making a difference in the lives of others through values-based entrepreneurship.",
     "coreqs": [],
@@ -37,7 +40,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "13578" }],
+    "sections": [
+      { "term": "202310", "crn": "13578" },
+      { "term": "202330", "crn": "31823" }
+    ],
     "description": "Covers business, personal, and family issues found in family owned and managed companies, including management of the business, succession planning, entitlement, hiring, nonfamily employees, boards of advisors and directors, compensation, managing conflict, and communications. Designed for individuals who plan to enter into the management of a family business. Focuses on small and midsize firms with annual revenue of $5 million to $500 million.",
     "coreqs": [],
     "prereqs": []
@@ -69,9 +75,21 @@
       { "term": "202260", "crn": "61077" },
       { "term": "202240", "crn": "40395" },
       { "term": "202240", "crn": "40707" },
-      { "term": "202240", "crn": "41067" }
+      { "term": "202240", "crn": "41067" },
+      { "term": "202330", "crn": "31160" },
+      { "term": "202330", "crn": "31161" },
+      { "term": "202330", "crn": "31438" },
+      { "term": "202330", "crn": "31824" },
+      { "term": "202330", "crn": "32127" },
+      { "term": "202330", "crn": "32617" },
+      { "term": "202330", "crn": "32754" },
+      { "term": "202330", "crn": "32755" },
+      { "term": "202330", "crn": "33010" },
+      { "term": "202330", "crn": "33857" },
+      { "term": "202330", "crn": "34761" },
+      { "term": "202330", "crn": "37311" }
     ],
-    "description": "Designed for students across the entire University who wish to learn about innovation&amp;#8212;the creative process, the different types of innovation, how innovations are created, and how innovations can be transformed into commercial reality either as new products or new services and either in startups, existing corporations, and nonprofit entities. Offers students an opportunity to obtain the fundamental insight needed to understand the innovation process and to become a player in it.",
+    "description": "Designed for students across the entire University who wish to learn about innovation—the creative process, the different types of innovation, how innovations are created, and how innovations can be transformed into commercial reality either as new products or new services and either in startups, existing corporations, and nonprofit entities. Offers students an opportunity to obtain the fundamental insight needed to understand the innovation process and to become a player in it.",
     "coreqs": [],
     "prereqs": []
   },
@@ -85,7 +103,9 @@
     "sections": [
       { "term": "202310", "crn": "11270" },
       { "term": "202310", "crn": "11271" },
-      { "term": "202260", "crn": "60584" }
+      { "term": "202260", "crn": "60584" },
+      { "term": "202330", "crn": "31162" },
+      { "term": "202330", "crn": "31163" }
     ],
     "description": "Designed to help aspiring and serious entrepreneurship students to generate and evaluate robust marketing opportunities that may serve as the foundation for a new venture. Once a new opportunity has been vetted, students then have an opportunity to work on developing an entrepreneurial marketing plan. Covers methods for recognizing, discovering, or creating opportunities and validating those opportunities. One of the biggest challenges entrepreneurs face is coming up with the right opportunity for a new venture. This is an applied and experiential course involving field research. Two key deliverables are the opportunity assessment project and the entrepreneurial marketing plan.",
     "coreqs": [],
@@ -100,7 +120,8 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "14948" },
-      { "term": "202310", "crn": "16705" }
+      { "term": "202310", "crn": "16705" },
+      { "term": "202330", "crn": "36802" }
     ],
     "description": "Offers students an opportunity to learn several interrelated frameworks, concepts, and the language necessary to understand and analyze the origin and implications of industry disruptions and the difficulties experienced by incumbent firms as they seek to respond to the changes. Geared toward students who want to become innovation leaders in established companies and lead projects to create and launch new products or services, as well as students who plan to start their own businesses, particularly in high-technology sectors.",
     "coreqs": [],
@@ -115,11 +136,22 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "12684" },
-      { "term": "202240", "crn": "40562" }
+      { "term": "202240", "crn": "40562" },
+      { "term": "202330", "crn": "36637" }
     ],
-    "description": "Studies how businesses can be agents for social good, both locally and around the world. In an era of growing social and economic inequality both in the United States and globally, many &amp;#8220;enlightened&amp;#8221; businesses are reconsidering their roles in creating opportunity for disadvantaged or marginalized people and communities. Focuses on businesses that have the resources to invest in innovative social responsibility programs that address the impact of rising social and economic inequality. Considers the tension between the single-minded notion of maximizing profit for investors and serving a broader stakeholder community. The role of entrepreneurship and entrepreneurial thinking plays a key role in student learning. This is an integrative course that includes areas such as business policy, governance, strategy, and decision making.",
+    "description": "Studies how businesses can be agents for social good, both locally and around the world. In an era of growing social and economic inequality both in the United States and globally, many “enlightened” businesses are reconsidering their roles in creating opportunity for disadvantaged or marginalized people and communities. Focuses on businesses that have the resources to invest in innovative social responsibility programs that address the impact of rising social and economic inequality. Considers the tension between the single-minded notion of maximizing profit for investors and serving a broader stakeholder community. The role of entrepreneurship and entrepreneurial thinking plays a key role in student learning. This is an integrative course that includes areas such as business policy, governance, strategy, and decision making.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "ENTR",
+    "number": "3302",
+    "title": "Managing and Growing the Family Business",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "35627" }],
+    "description": "Covers the issues and practices of successful multigeneration family businesses, including family values and culture, managing conflict, sibling rivalry, entitlement, hiring family and nonfamily employees, management of the family business, facilitating growth and change, and succession planning."
   },
   {
     "subject": "ENTR",
@@ -128,7 +160,10 @@
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "12036" }],
+    "sections": [
+      { "term": "202310", "crn": "12036" },
+      { "term": "202330", "crn": "31825" }
+    ],
     "description": "Considers dynamic entrepreneurial startup strategy from three perspectives: positioning of the venture within a dynamic, evolving industrial ecosystem that includes major companies, startups, and universities at various parts of the value-chain; different sources of innovation, including open innovation and industry-wide technology platforms; and business model design and implementation. Explores startup strategy from these perspectives using case studies and web-based company research projects and then asks students to develop their own strategy for a startup using the frameworks studied in class.",
     "coreqs": [],
     "prereqs": []
@@ -142,7 +177,9 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "11272" },
-      { "term": "202310", "crn": "13194" }
+      { "term": "202310", "crn": "13194" },
+      { "term": "202330", "crn": "31826" },
+      { "term": "202330", "crn": "37004" }
     ],
     "description": "Focuses on how small teams can develop new products and services in a startup environment by applying design thinking methodology. Applies the management concept of lean, agile development to concept creation, customer research, prototype development, and market validation. Offers students an opportunity to apply these skills to their own new product or service ideas and develop prototypes during the semester. Students are assessed not only for the quality of their ideas and project execution but also for their ability to work in small teams, with limited resources, as in a traditional startup experience.",
     "coreqs": [],
@@ -150,8 +187,18 @@
   },
   {
     "subject": "ENTR",
+    "number": "3335",
+    "title": "Product Innovation and Portfolio Management",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "34747" }],
+    "description": "Covers the intersection of project management, product development, and product portfolio management. Focuses on how large corporations develop, manage, and commercialize new products and services. Explores the unique attributes of different industries, such as internet platform-based firms, service-based firms, traditional manufacturing firms, and healthcare."
+  },
+  {
+    "subject": "ENTR",
     "number": "3401",
-    "title": "Consulting Operations &amp; Growth in SMEs",
+    "title": "Consulting Operations & Growth in SMEs",
     "scheduleType": "Lecture",
     "credits": 4,
     "nuPath": [],
@@ -169,7 +216,9 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "14165" },
-      { "term": "202310", "crn": "16875" }
+      { "term": "202310", "crn": "16875" },
+      { "term": "202330", "crn": "33318" },
+      { "term": "202330", "crn": "33335" }
     ],
     "description": "Explores impact investing, a transformative way to work with money to achieve a more inclusive and sustainable economy. Large investors are entering the world of impact investing, a rapidly emerging space where social and ecological effects of finance are championed over maximizing shareholder value. New investment vehicles such as social impact bonds and Web exchanges are changing the role of financing institutions to better serve the needs of low-income populations around the world. Applies interdisciplinary frameworks, tools, and cases, with hands-on teamwork and guest speakers, to critically examine the field. Offers students an opportunity to learn to develop and test concepts that integrate social responsibility, sustainability, and mutual accountability into current financial and economic systems while expanding social capital markets.",
     "coreqs": [],
@@ -195,7 +244,7 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202260", "crn": "60964" }],
-    "description": "Offers students a unique opportunity to serve as management and marketing consultants to early stage startups. Students work with entrepreneurs from diverse backgrounds (e.g., ethnic, social, religious, demographic) with experience operating a joint startup. Focuses on development of conflict resolution and leadership development skills that may be needed when cofounders of a startup come from diverse backgrounds. Students experience firsthand some of the challenges that entrepreneurs face, as well as support entrepreneurs&rsquo; efforts as problem solvers and collaborate to learn about entrepreneurship and marketing.",
+    "description": "Offers students a unique opportunity to serve as management and marketing consultants to early stage startups. Students work with entrepreneurs from diverse backgrounds (e.g., ethnic, social, religious, demographic) with experience operating a joint startup. Focuses on development of conflict resolution and leadership development skills that may be needed when cofounders of a startup come from diverse backgrounds. Students experience firsthand some of the challenges that entrepreneurs face, as well as support entrepreneurs’ efforts as problem solvers and collaborate to learn about entrepreneurship and marketing.",
     "coreqs": [],
     "prereqs": []
   },
@@ -208,11 +257,34 @@
     "nuPath": [],
     "sections": [
       { "term": "202310", "crn": "10415" },
-      { "term": "202310", "crn": "13193" }
+      { "term": "202310", "crn": "13193" },
+      { "term": "202330", "crn": "38111" },
+      { "term": "202330", "crn": "38112" },
+      { "term": "202330", "crn": "38737" }
     ],
     "description": "Designed as an advanced course for students who are studying entrepreneurship. Covers the issues raised when creating a technology venture that goes through multiple rounds of financing in order to become a successful large company. Topics include managing growth, writing business plans, raising money, and formulating exit strategies. Focuses on projects to obtain venture financing from venture capitalists, angels, and corporate investors.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "ENTR",
+    "number": "4503",
+    "title": "Owner and Family Managed Business Seminar",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38113" }],
+    "description": "Designed for advanced students interested in launching a new venture or growing an existing business venture. Includes developing a business plan, strategy development for small- to medium-sized enterprises, sales forecasting, pro forma development, debt financing, and service developments. Sponsored by the Center for Family Business, focuses on obtaining a bank loan to start a business or to grow an existing small- to medium-sized venture."
+  },
+  {
+    "subject": "ENTR",
+    "number": "4504",
+    "title": "Corporate Innovation Seminar",
+    "scheduleType": "Seminar",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38114" }],
+    "description": "Offers students an opportunity to experience corporate innovation in the classroom. Corporate innovation involves an enterprise experimenting with modern practices, technology, strategies, and opportunities to make its existing business model more competitive in the current marketplace. Students, as a class, represent a specific firm and tackle these corporate innovation challenges by adopting a culture that embraces new technology and actively seeks out ways to enhance the firm’s business model. With this proactive approach to corporate innovation, the students can visualize how enterprises can remain agile in the face of rising competition. The goal is to learn how corporations may even identify new opportunities before any startup has a chance to establish itself in the market."
   },
   {
     "subject": "ENTR",
@@ -233,10 +305,24 @@
     "scheduleType": "Seminar",
     "credits": 4,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "16876" }],
-    "description": "Focuses on a single developing region. Offers an opportunity to analyze the role of socially-driven entrepreneurship or &ldquo;social impact enterprises&rdquo; (SIEs) in alleviating poverty and its symptoms (for example, disease, illiteracy and chronic unemployment) in that country. Students have an opportunity to study the history, politics, and development of the country, with an emphasis on the role that private-sector initiatives have played and hope to play in addressing widespread poverty and with a focus on the failures and successes in economic and business development, economic growth, and poverty alleviation. Offers students an opportunity to develop a plan for a micro-investment strategy focused on these and/or similar businesses and organizations having a significant social impact in a developing country.",
+    "sections": [
+      { "term": "202310", "crn": "16876" },
+      { "term": "202330", "crn": "38115" },
+      { "term": "202330", "crn": "39164" }
+    ],
+    "description": "Focuses on a single developing region. Offers an opportunity to analyze the role of socially-driven entrepreneurship or “social impact enterprises” (SIEs) in alleviating poverty and its symptoms (for example, disease, illiteracy and chronic unemployment) in that country. Students have an opportunity to study the history, politics, and development of the country, with an emphasis on the role that private-sector initiatives have played and hope to play in addressing widespread poverty and with a focus on the failures and successes in economic and business development, economic growth, and poverty alleviation. Offers students an opportunity to develop a plan for a micro-investment strategy focused on these and/or similar businesses and organizations having a significant social impact in a developing country.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "ENTR",
+    "number": "4983",
+    "title": "Special Topics in Entrepreneurship",
+    "scheduleType": "Lecture",
+    "credits": 4,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "38965" }],
+    "description": "Topic: The Digital Transformation of Urban Innovation?"
   },
   {
     "subject": "ENTR",
@@ -245,7 +331,10 @@
     "scheduleType": "Lecture",
     "credits": 1,
     "nuPath": [],
-    "sections": [{ "term": "202240", "crn": "41245" }],
+    "sections": [
+      { "term": "202240", "crn": "41245" },
+      { "term": "202330", "crn": "36806" }
+    ],
     "description": "Pairs students with entrepreneurs and faculty in a mentorship capacity. This experiential learning is designedto accelerate entrepreneurial projects. Uses classroom learning to enhance project value proposition, market opportunity, technology development level, financials, go-to-market-strategy, and pitches.",
     "coreqs": [],
     "prereqs": []
@@ -273,11 +362,40 @@
       { "term": "202310", "crn": "17032" },
       { "term": "202310", "crn": "19512" },
       { "term": "202310", "crn": "19513" },
-      { "term": "202260", "crn": "60244" }
+      { "term": "202260", "crn": "60244" },
+      { "term": "202330", "crn": "30776" },
+      { "term": "202330", "crn": "30778" },
+      { "term": "202330", "crn": "38116" }
     ],
     "description": "Explores the challenges and processes for harnessing technological innovation for new-business development. Integrates technology strategy, innovation in marketing, product development, and organization design for the purpose of enterprise growth. Through readings, cases, and exercises, studies how firms from different industries gain competitive advantage through distinctive products and services, and leverage their technologies and skills into new emerging markets. Also focuses on processes for conceiving, financing, and organizing new ventures.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "ENTR",
+    "number": "6210",
+    "title": "Managing Operations in Early Stage Ventures",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "32339" },
+      { "term": "202330", "crn": "30939" }
+    ],
+    "description": "Stresses the operating problems of managing small businesses. Case studies develop analytical approaches for appraising the risks and rewards of potential growth opportunities as well as operating problems. Problems range from locating, evaluating, marketing, and financing a small company to the survival and growth of more established businesses. Guest speakers and entrepreneurs provide pertinent business perspectives to in-class activities."
+  },
+  {
+    "subject": "ENTR",
+    "number": "6211",
+    "title": "Entrepreneurship: Services and Retail Business Creation",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [
+      { "term": "202330", "crn": "31208" },
+      { "term": "202330", "crn": "31209" }
+    ],
+    "description": "Covers the issues surrounding the creation of a new business in the service and retail sectors. Emphasizes issues relating to the startup, growth, and operation of business ventures in these areas. Topics include developing a business plan for startup, market positioning, services design, operations management, sales forecasting, cash flow management, and venture financing with a heavy emphasis on debt financing. Students are asked to develop business plans for services and retail ventures of their own choosing as the class project. Requires prior completion of 9 SH of MBA core courses."
   },
   {
     "subject": "ENTR",
@@ -286,7 +404,12 @@
     "scheduleType": "Lecture",
     "credits": 3,
     "nuPath": [],
-    "sections": [{ "term": "202310", "crn": "11283" }],
+    "sections": [
+      { "term": "202310", "crn": "11283" },
+      { "term": "202330", "crn": "30791" },
+      { "term": "202330", "crn": "33546" },
+      { "term": "202330", "crn": "30935" }
+    ],
     "description": "Gives students the opportunity to build a complete business plan for new high-potential ventures. Covers all aspects of the planning process, from the point of view of both the prospective entrepreneur and the potential investor. Explores the demands of the entrepreneurial career through reading, self-assessment exercises, and group projects. Guest speakers from startup companies, law firms, and venture capital firms provide a window on current experiences in the small-business world. Recommended for prospective entrepreneurs as well as others who may become involved with new ventures.",
     "coreqs": [],
     "prereqs": []
@@ -314,6 +437,16 @@
     "description": "Explores how corporate venturing and entrepreneurial teams can quickly and effectively bring new concepts to market. Demonstrates how small technical teams can quickly investigate opportunity spaces, develop and select concepts, and translate these into prototypes. Other topics include industrial design thinking, project teams, prototyping, and commercialization of design. Explores the challenges and solutions to managing a technology-based product within an established corporation and details frameworks on how innovative projects can be inexpensively tested and deployed within the organization.",
     "coreqs": [],
     "prereqs": []
+  },
+  {
+    "subject": "ENTR",
+    "number": "6218",
+    "title": "Business Model Design and Innovation",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "31976" }],
+    "description": "Introduces major topics in the modern understanding of business models: their essence and role in securing competitive advantage, key components and design of business models, business model change and innovation, technology commercialization through sustaining business models, financial representation of a business model, and validation of developed business models."
   },
   {
     "subject": "ENTR",
@@ -356,6 +489,16 @@
   },
   {
     "subject": "ENTR",
+    "number": "6230",
+    "title": "Platform Innovation",
+    "scheduleType": "Lecture",
+    "credits": 3,
+    "nuPath": [],
+    "sections": [{ "term": "202330", "crn": "33468" }],
+    "description": "Provides a business perspective on how to design and optimize platform-based business models for growth, value creation, and innovation and a practical analytical toolkit of theories, concepts, and frameworks. Uses case studies from various industries. Many of today’s growth enterprises and startups are organized as platforms. Platforms facilitate other actors and support interactions among a wider “ecosystem” of users, services, suppliers, etc., and they have potential for massive growth and value creation. High returns to successful platform business models lead companies to learn to act like platforms. Technology trends toward digitization, big data, automation, etc., accelerate these trends. Aimed at people looking to work within existing companies or those interested in starting or growing new platforms."
+  },
+  {
+    "subject": "ENTR",
     "number": "6318",
     "title": "Innovating and Creating Futures",
     "scheduleType": "Lecture",
@@ -365,7 +508,8 @@
       { "term": "202310", "crn": "13719" },
       { "term": "202310", "crn": "13720" },
       { "term": "202260", "crn": "60578" },
-      { "term": "202260", "crn": "61057" }
+      { "term": "202260", "crn": "61057" },
+      { "term": "202310", "crn": "21839" }
     ],
     "description": "Introduces a number of entrepreneurship and innovation topics, including innovation and entrepreneurship as a value-creating activity for economies and firms; types of innovation (technological, process, products, business models); fundamentals of product development (design thinking, rapid prototyping, ethnography); startup creation and articulating a value proposition; the role and traits of the entrepreneur; maximizing odds of success and minimizing odds of failure; growing the startup and creating a market; finding or creating the right niche; pivoting and judo strategy; lean startup approach; innovation in established firms and resistance to change; organizational inertia; business model change; and technological discontinuities.",
     "coreqs": [],
