@@ -10,7 +10,9 @@
       { "term": "202330", "crn": "35962" },
       { "term": "202310", "crn": "10877" }
     ],
-    "description": "Introduces students to the field of computer science and the patterns of thinking that enable them to become intelligent users of software tools in a problem-solving setting. Examines several important software applications so that students may develop the skills necessary to use computers effectively in their own disciplines."
+    "description": "Introduces students to the field of computer science and the patterns of thinking that enable them to become intelligent users of software tools in a problem-solving setting. Examines several important software applications so that students may develop the skills necessary to use computers effectively in their own disciplines.",
+    "coreqs": [{ "subject": "CS", "number": "1101" }],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -36,7 +38,9 @@
       { "term": "202310", "crn": "14000" },
       { "term": "202310", "crn": "14001" }
     ],
-    "description": "Accompanies CS 1100. Involves experiments and problem solving across multiple disciplines using computer science techniques and tools."
+    "description": "Accompanies CS 1100. Involves experiments and problem solving across multiple disciplines using computer science techniques and tools.",
+    "coreqs": [{ "subject": "CS", "number": "1100" }],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -80,7 +84,9 @@
       { "term": "202310", "crn": "19152" },
       { "term": "202310", "crn": "19153" }
     ],
-    "description": "Seeks to support students in their transition to Northeastern and in their holistic development as they become responsible members of the college and university communities. Incorporates large group discussion, small group activities, and self-reflection in order to facilitate connections with faculty, staff, and peers; promote utilization of appropriate campus resources; and assist with academic and personal goal setting."
+    "description": "Seeks to support students in their transition to Northeastern and in their holistic development as they become responsible members of the college and university communities. Incorporates large group discussion, small group activities, and self-reflection in order to facilitate connections with faculty, staff, and peers; promote utilization of appropriate campus resources; and assist with academic and personal goal setting.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -118,7 +124,13 @@
       { "term": "202310", "crn": "19154" },
       { "term": "202310", "crn": "19155" }
     ],
-    "description": "Continues the preparation of students for careers in the computing and information fields by discussing co-op and co-op processes. Offers students an opportunity to prepare a professional resumé; practice proper interviewing techniques; explore current job opportunities; learn how to engage in the job and referral process; and to understand co-op policies, procedures, and expectations. Discusses professional behavior and ethical issues in the workplace."
+    "description": "Continues the preparation of students for careers in the computing and information fields by discussing co-op and co-op processes. Offers students an opportunity to prepare a professional resumé; practice proper interviewing techniques; explore current job opportunities; learn how to engage in the job and referral process; and to understand co-op policies, procedures, and expectations. Discusses professional behavior and ethical issues in the workplace.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "2510" },
+      "Or",
+      { "subject": "DS", "number": "2500" }
+    ]
   },
   {
     "subject": "CS",
@@ -137,7 +149,9 @@
       { "term": "202310", "crn": "20465" },
       { "term": "202240", "crn": "40542" }
     ],
-    "description": "Introduces the mathematical structures and methods that form the foundation of computer science. Studies structures such as sets, tuples, sequences, lists, trees, and graphs. Discusses functions, relations, ordering, and equivalence relations. Examines inductive and recursive definitions of structures and functions. Discusses principles of proof such as truth tables, inductive proof, and basic logic. Also covers the counting techniques and arguments needed to estimate the size of sets, the growth of functions, and the space-time complexity of algorithms."
+    "description": "Introduces the mathematical structures and methods that form the foundation of computer science. Studies structures such as sets, tuples, sequences, lists, trees, and graphs. Discusses functions, relations, ordering, and equivalence relations. Examines inductive and recursive definitions of structures and functions. Discusses principles of proof such as truth tables, inductive proof, and basic logic. Also covers the counting techniques and arguments needed to estimate the size of sets, the growth of functions, and the space-time complexity of algorithms.",
+    "coreqs": [{ "subject": "CS", "number": "1802" }],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -193,7 +207,9 @@
       { "term": "202310", "crn": "21517" },
       { "term": "202240", "crn": "40543" }
     ],
-    "description": "Accompanies CS 1800. Illustrates topics from the lecture course through discussions, quizzes, and homework assignments."
+    "description": "Accompanies CS 1800. Illustrates topics from the lecture course through discussions, quizzes, and homework assignments.",
+    "coreqs": [{ "subject": "CS", "number": "1800" }],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -222,7 +238,9 @@
       { "term": "202310", "crn": "20466" },
       { "term": "202240", "crn": "40459" }
     ],
-    "description": "Introduces the fundamental ideas of computing and the principles of programming. Discusses a systematic approach to word problems, including analytic reading, synthesis, goal setting, planning, plan execution, and testing. Presents several models of computing, starting from nothing more than expression evaluation in the spirit of high school algebra. No prior programming experience is assumed; therefore, suitable for freshman students, majors and nonmajors alike who wish to explore the intellectual ideas in the discipline."
+    "description": "Introduces the fundamental ideas of computing and the principles of programming. Discusses a systematic approach to word problems, including analytic reading, synthesis, goal setting, planning, plan execution, and testing. Presents several models of computing, starting from nothing more than expression evaluation in the spirit of high school algebra. No prior programming experience is assumed; therefore, suitable for freshman students, majors and nonmajors alike who wish to explore the intellectual ideas in the discipline.",
+    "coreqs": [{ "subject": "CS", "number": "2501" }],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -273,7 +291,9 @@
       { "term": "202240", "crn": "40216" },
       { "term": "202240", "crn": "40293" }
     ],
-    "description": "Accompanies CS 2500. Covers topics from the course through various experiments."
+    "description": "Accompanies CS 2500. Covers topics from the course through various experiments.",
+    "coreqs": [{ "subject": "CS", "number": "2500" }],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -297,7 +317,9 @@
       { "term": "202310", "crn": "12078" },
       { "term": "202240", "crn": "40107" }
     ],
-    "description": "Continues CS 2500. Examines object-oriented programming and associated algorithms using more complex data structures as the focus. Discusses nested structures and nonlinear structures including hash tables, trees, and graphs. Emphasizes abstraction, encapsulation, inheritance, polymorphism, recursion, and object-oriented design patterns. Applies these ideas to sample applications that illustrate the breadth of computer science."
+    "description": "Continues CS 2500. Examines object-oriented programming and associated algorithms using more complex data structures as the focus. Discusses nested structures and nonlinear structures including hash tables, trees, and graphs. Emphasizes abstraction, encapsulation, inheritance, polymorphism, recursion, and object-oriented design patterns. Applies these ideas to sample applications that illustrate the breadth of computer science.",
+    "coreqs": [{ "subject": "CS", "number": "2511" }],
+    "prereqs": [{ "subject": "CS", "number": "2500" }]
   },
   {
     "subject": "CS",
@@ -344,7 +366,9 @@
       { "term": "202240", "crn": "40108" },
       { "term": "202240", "crn": "40245" }
     ],
-    "description": "Accompanies CS 2510. Covers topics from the course through various experiments."
+    "description": "Accompanies CS 2510. Covers topics from the course through various experiments.",
+    "coreqs": [{ "subject": "CS", "number": "2510" }],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -362,7 +386,19 @@
       { "term": "202310", "crn": "19181" },
       { "term": "202310", "crn": "20303" }
     ],
-    "description": "Introduces formal logic and its connections to computer and information science. Offers an opportunity to learn to translate statements about the behavior of computer programs into logical claims and to gain the ability to prove such assertions both by hand and using automated tools. Considers approaches to proving termination, correctness, and safety for programs. Discusses notations used in logic, propositional and first order logic, logical inference, mathematical induction, and structural induction. Introduces the use of logic for modeling the range of artifacts and phenomena that arise in computer and information science."
+    "description": "Introduces formal logic and its connections to computer and information science. Offers an opportunity to learn to translate statements about the behavior of computer programs into logical claims and to gain the ability to prove such assertions both by hand and using automated tools. Considers approaches to proving termination, correctness, and safety for programs. Discusses notations used in logic, propositional and first order logic, logical inference, mathematical induction, and structural induction. Introduces the use of logic for modeling the range of artifacts and phenomena that arise in computer and information science.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "CS", "number": "1800" },
+      "Or",
+      { "subject": "MATH", "number": "1365" },
+      "Or",
+      { "subject": "MATH", "number": "2310" },
+      ")",
+      "And",
+      { "subject": "CS", "number": "2500" }
+    ]
   },
   {
     "subject": "CS",
@@ -377,7 +413,13 @@
       { "term": "202330", "crn": "34793" },
       { "term": "202310", "crn": "14632" }
     ],
-    "description": "Studies the methods and ideas in linear algebra, multivariable calculus, and statistics that are most relevant for the practicing computer scientist doing machine learning, modeling, or hypothesis testing with data. Covers least squares regression, finding eigenvalues to predict a linear system’s behavior, performing gradient descent to fit a model to data, and performing t-tests and chi-square tests to determine whether differences between populations are significant. Includes applications to popular machine-learning methods, including Bayesian models and neural networks."
+    "description": "Studies the methods and ideas in linear algebra, multivariable calculus, and statistics that are most relevant for the practicing computer scientist doing machine learning, modeling, or hypothesis testing with data. Covers least squares regression, finding eigenvalues to predict a linear system’s behavior, performing gradient descent to fit a model to data, and performing t-tests and chi-square tests to determine whether differences between populations are significant. Includes applications to popular machine-learning methods, including Bayesian models and neural networks.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "1800" },
+      "And",
+      { "subject": "CS", "number": "2500" }
+    ]
   },
   {
     "subject": "CS",
@@ -399,7 +441,21 @@
       { "term": "202240", "crn": "40544" },
       { "term": "202240", "crn": "41552" }
     ],
-    "description": "Introduces the basic principles and techniques for the design, analysis, and implementation of efficient algorithms and data representations. Discusses asymptotic analysis and formal methods for establishing the correctness of algorithms. Considers divide-and-conquer algorithms, graph traversal algorithms, and optimization techniques. Introduces information theory and covers the fundamental structures for representing data. Examines flat and hierarchical representations, dynamic data representations, and data compression. Concludes with a discussion of the relationship of the topics in this course to complexity theory and the notion of the hardness of problems."
+    "description": "Introduces the basic principles and techniques for the design, analysis, and implementation of efficient algorithms and data representations. Discusses asymptotic analysis and formal methods for establishing the correctness of algorithms. Considers divide-and-conquer algorithms, graph traversal algorithms, and optimization techniques. Introduces information theory and covers the fundamental structures for representing data. Examines flat and hierarchical representations, dynamic data representations, and data compression. Concludes with a discussion of the relationship of the topics in this course to complexity theory and the notion of the hardness of problems.",
+    "coreqs": [{ "subject": "CS", "number": "3001" }],
+    "prereqs": [
+      "(",
+      "(",
+      { "subject": "CS", "number": "2510" },
+      "Or",
+      { "subject": "DS", "number": "2500" },
+      ")",
+      "And",
+      { "subject": "CS", "number": "1800" },
+      ")",
+      "Or",
+      { "subject": "EECE", "number": "2160" }
+    ]
   },
   {
     "subject": "CS",
@@ -434,7 +490,9 @@
       { "term": "202240", "crn": "41554" },
       { "term": "202240", "crn": "41555" }
     ],
-    "description": "Accompanies CS 3000. Provides students with additional opportunities to ask questions and engage with course material."
+    "description": "Accompanies CS 3000. Provides students with additional opportunities to ask questions and engage with course material.",
+    "coreqs": [{ "subject": "CS", "number": "3000" }],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -452,7 +510,17 @@
       { "term": "202310", "crn": "14634" },
       { "term": "202240", "crn": "41740" }
     ],
-    "description": "Studies the design of a database for use in a relational database management system. The entity-relationship model and normalization are used in problems. Relational algebra and then the SQL (structured query language) are presented. Advanced topics include triggers, stored procedures, indexing, elementary query optimization, and fundamentals of concurrency and recovery. Students implement a database schema and short application programs on one or more commercial relational database management systems."
+    "description": "Studies the design of a database for use in a relational database management system. The entity-relationship model and normalization are used in problems. Relational algebra and then the SQL (structured query language) are presented. Advanced topics include triggers, stored procedures, indexing, elementary query optimization, and fundamentals of concurrency and recovery. Students implement a database schema and short application programs on one or more commercial relational database management systems.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "2500" },
+      "Or",
+      { "subject": "DS", "number": "2000" },
+      "Or",
+      { "subject": "CS", "number": "1500" },
+      "Or",
+      { "subject": "EECE", "number": "2560" }
+    ]
   },
   {
     "subject": "CS",
@@ -473,7 +541,15 @@
       { "term": "202240", "crn": "40702" },
       { "term": "202240", "crn": "41137" }
     ],
-    "description": "Presents a comparative approach to object-oriented programming and design. Discusses the concepts of object, class, meta-class, message, method, inheritance, and genericity. Reviews forms of polymorphism in object-oriented languages. Contrasts the use of inheritance and composition as dual techniques for software reuse: forwarding vs. delegation and subclassing vs. subtyping. Fosters a deeper understanding of the principles of object-oriented programming and design including software components, object-oriented design patterns, and the use of graphical design notations such as UML (unified modeling language). Basic concepts in object-oriented design are illustrated with case studies in application frameworks and by writing programs in one or more object-oriented languages."
+    "description": "Presents a comparative approach to object-oriented programming and design. Discusses the concepts of object, class, meta-class, message, method, inheritance, and genericity. Reviews forms of polymorphism in object-oriented languages. Contrasts the use of inheritance and composition as dual techniques for software reuse: forwarding vs. delegation and subclassing vs. subtyping. Fosters a deeper understanding of the principles of object-oriented programming and design including software components, object-oriented design patterns, and the use of graphical design notations such as UML (unified modeling language). Basic concepts in object-oriented design are illustrated with case studies in application frameworks and by writing programs in one or more object-oriented languages.",
+    "coreqs": [{ "subject": "CS", "number": "3501" }],
+    "prereqs": [
+      { "subject": "CS", "number": "2510" },
+      "Or",
+      { "subject": "CS", "number": "1500" },
+      "Or",
+      { "subject": "EECE", "number": "2560" }
+    ]
   },
   {
     "subject": "CS",
@@ -525,7 +601,9 @@
       { "term": "202240", "crn": "41566" },
       { "term": "202240", "crn": "41567" }
     ],
-    "description": "Accompanies CS 3500. Covers topics from the course and provides students with additional opportunities to engage with course material."
+    "description": "Accompanies CS 3500. Covers topics from the course and provides students with additional opportunities to engage with course material.",
+    "coreqs": [{ "subject": "CS", "number": "3500" }],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -540,7 +618,15 @@
       { "term": "202310", "crn": "16723" },
       { "term": "202240", "crn": "40967" }
     ],
-    "description": "Examines how to program in C++ in a robust and safe manner. Reviews basics, including scoping, typing, and primitive data structures. Discusses data types (primitive, array, structure, class, string); addressing/parameter mechanisms (value, pointer, reference); stacks; queues; linked lists; binary trees; hash tables; and the design of classes and class inheritance, emphasizing single inheritance. Considers the instantiation of objects, the trade-offs of stack vs. heap allocation, and the design of constructors and destructors. Emphasizes the need for a strategy for dynamic memory management. Addresses function and operator overloading; templates, the Standard Template Library (STL), and the STL components (containers, generic algorithms, iterators, adaptors, allocators, function objects); streams; exception handling; and system calls for processes and threads."
+    "description": "Examines how to program in C++ in a robust and safe manner. Reviews basics, including scoping, typing, and primitive data structures. Discusses data types (primitive, array, structure, class, string); addressing/parameter mechanisms (value, pointer, reference); stacks; queues; linked lists; binary trees; hash tables; and the design of classes and class inheritance, emphasizing single inheritance. Considers the instantiation of objects, the trade-offs of stack vs. heap allocation, and the design of constructors and destructors. Emphasizes the need for a strategy for dynamic memory management. Addresses function and operator overloading; templates, the Standard Template Library (STL), and the STL components (containers, generic algorithms, iterators, adaptors, allocators, function objects); streams; exception handling; and system calls for processes and threads.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "1500" },
+      "Or",
+      { "subject": "CS", "number": "2510" },
+      "Or",
+      { "subject": "DS", "number": "2500" }
+    ]
   },
   {
     "subject": "CS",
@@ -553,7 +639,9 @@
       { "term": "202330", "crn": "31556" },
       { "term": "202310", "crn": "19188" }
     ],
-    "description": "Introduces the different subsystems used to create a 3D game, including rendering, animation, collision, physics, audio, trigger systems, game logic, behavior trees, and simple artificial intelligence. Offers students an opportunity to learn the inner workings of game engines and how to use multiple libraries such as physics and graphics libraries to develop a game. Discusses graphics pipeline, scene graph, level design, behavior scripting, object-oriented game design, world editors, and game scripting languages."
+    "description": "Introduces the different subsystems used to create a 3D game, including rendering, animation, collision, physics, audio, trigger systems, game logic, behavior trees, and simple artificial intelligence. Offers students an opportunity to learn the inner workings of game engines and how to use multiple libraries such as physics and graphics libraries to develop a game. Discusses graphics pipeline, scene graph, level design, behavior scripting, object-oriented game design, world editors, and game scripting languages.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CS", "number": "2510" }]
   },
   {
     "subject": "CS",
@@ -570,7 +658,15 @@
       { "term": "202310", "crn": "19189" },
       { "term": "202310", "crn": "12656" }
     ],
-    "description": "Introduces the basic design of computing systems, computer operating systems, and assembly language using a RISC architecture. Describes caches and virtual memory. Covers the interface between assembly language and high-level languages, including call frames and pointers. Covers the use of system calls and systems programming to show the interaction with the operating system. Covers the basic structures of an operating system, including application interfaces, processes, threads, synchronization, interprocess communication, deadlock, memory management, file systems, and input/output control."
+    "description": "Introduces the basic design of computing systems, computer operating systems, and assembly language using a RISC architecture. Describes caches and virtual memory. Covers the interface between assembly language and high-level languages, including call frames and pointers. Covers the use of system calls and systems programming to show the interaction with the operating system. Covers the basic structures of an operating system, including application interfaces, processes, threads, synchronization, interprocess communication, deadlock, memory management, file systems, and input/output control.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "2510" },
+      "Or",
+      { "subject": "CS", "number": "1500" },
+      "Or",
+      { "subject": "EECE", "number": "2560" }
+    ]
   },
   {
     "subject": "CS",
@@ -588,7 +684,9 @@
       { "term": "202310", "crn": "16776" },
       { "term": "202310", "crn": "20956" }
     ],
-    "description": "Introduces the fundamentals of computer networks, including network architectures, network topologies, network protocols, layering concepts (for example, ISO/OSI, TCP/IP reference models), communication paradigms (point-to-point vs. multicast/broadcast, connectionless vs. connection oriented), and networking APIs (sockets). Also covers the construction of distributed programs, with an emphasis on high-level protocols and distributed state sharing. Topics include design patterns, transactions, performance trade-offs, security implications, and reliability. Uses examples from real networks (TCP/IP, Ethernet, 802.11) and distributed systems (Web, BitTorrent, DNS) to reinforce concepts."
+    "description": "Introduces the fundamentals of computer networks, including network architectures, network topologies, network protocols, layering concepts (for example, ISO/OSI, TCP/IP reference models), communication paradigms (point-to-point vs. multicast/broadcast, connectionless vs. connection oriented), and networking APIs (sockets). Also covers the construction of distributed programs, with an emphasis on high-level protocols and distributed state sharing. Topics include design patterns, transactions, performance trade-offs, security implications, and reliability. Uses examples from real networks (TCP/IP, Ethernet, 802.11) and distributed systems (Web, BitTorrent, DNS) to reinforce concepts.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CS", "number": "2510" }]
   },
   {
     "subject": "CS",
@@ -605,7 +703,19 @@
       { "term": "202260", "crn": "60981" },
       { "term": "202240", "crn": "40675" }
     ],
-    "description": "Introduces the theory behind computers and computing aimed at answering the question, &#8220;What are the capabilities and limitations of computers?&#8221; Covers automata theory, computability, and complexity. The automata theory portion includes finite automata, regular expressions, nondeterminism, nonregular languages, context-free languages, pushdown automata, and noncontext-free languages. The computability portion includes Turing machines, the Church-Turing thesis, decidable languages, and the Halting theorem. The complexity portion includes big-O and small-o notation, the classes P and NP, the P vs. NP question, and NP-completeness."
+    "description": "Introduces the theory behind computers and computing aimed at answering the question, &#8220;What are the capabilities and limitations of computers?&#8221; Covers automata theory, computability, and complexity. The automata theory portion includes finite automata, regular expressions, nondeterminism, nonregular languages, context-free languages, pushdown automata, and noncontext-free languages. The computability portion includes Turing machines, the Church-Turing thesis, decidable languages, and the Halting theorem. The complexity portion includes big-O and small-o notation, the classes P and NP, the P vs. NP question, and NP-completeness.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "1500" },
+      "Or",
+      { "subject": "CS", "number": "2510" },
+      "Or",
+      { "subject": "EECE", "number": "2160" },
+      "Or",
+      { "subject": "EECE", "number": "2162" },
+      "Or",
+      { "subject": "EECE", "number": "2164" }
+    ]
   },
   {
     "subject": "CS",
@@ -618,7 +728,9 @@
       { "term": "202330", "crn": "33174" },
       { "term": "202310", "crn": "14004" }
     ],
-    "description": "Introduces students to research in the fields of computer science, information science, data science, and cybersecurity. Explores how the scientific method is applied to these fields and covers the breadth of subareas of specialty that exist. Offers students an opportunity to practice how to locate and read scientific literature in different subareas. Also offers students an overview of graduate education in these fields."
+    "description": "Introduces students to research in the fields of computer science, information science, data science, and cybersecurity. Explores how the scientific method is applied to these fields and covers the breadth of subareas of specialty that exist. Offers students an opportunity to practice how to locate and read scientific literature in different subareas. Also offers students an overview of graduate education in these fields.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CS", "number": "2500" }]
   },
   {
     "subject": "CS",
@@ -628,7 +740,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "36934" }],
-    "description": "Seeks to provide a strong foundation in the fundamentals of virtual and augmented reality, broadly defined as mixed reality (XR). These technologies have recently witnessed a resurgence of interest. Offers students an opportunity to obtain hands-on experience developing XR applications by diving into this burgeoning area of research and practice in computer science. Synthesizes theoretical and practice knowledge from various disciplines, including computer graphics, 3D interfaces, human-computer interaction, tracking systems, and perceptual psychology."
+    "description": "Seeks to provide a strong foundation in the fundamentals of virtual and augmented reality, broadly defined as mixed reality (XR). These technologies have recently witnessed a resurgence of interest. Offers students an opportunity to obtain hands-on experience developing XR applications by diving into this burgeoning area of research and practice in computer science. Synthesizes theoretical and practice knowledge from various disciplines, including computer graphics, 3D interfaces, human-computer interaction, tracking systems, and perceptual psychology.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CS", "number": "3540" }]
   },
   {
     "subject": "CS",
@@ -641,7 +755,13 @@
       { "term": "202330", "crn": "30182" },
       { "term": "202310", "crn": "11560" }
     ],
-    "description": "Introduces the fundamental problems, theories, and algorithms of the artificial intelligence field. Includes heuristic search; knowledge representation using predicate calculus; automated deduction and its applications; planning; and machine learning. Additional topics include game playing; uncertain reasoning and expert systems; natural language processing; logic for common-sense reasoning; ontologies; and multiagent systems."
+    "description": "Introduces the fundamental problems, theories, and algorithms of the artificial intelligence field. Includes heuristic search; knowledge representation using predicate calculus; automated deduction and its applications; planning; and machine learning. Additional topics include game playing; uncertain reasoning and expert systems; natural language processing; logic for common-sense reasoning; ontologies; and multiagent systems.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "3500" },
+      "Or",
+      { "subject": "DS", "number": "3500" }
+    ]
   },
   {
     "subject": "CS",
@@ -654,7 +774,13 @@
       { "term": "202330", "crn": "38885" },
       { "term": "202310", "crn": "12726" }
     ],
-    "description": "Introduces the computational modeling of human language; the ongoing effort to create computer programs that can communicate with people in natural language; and current applications of the natural language field, such as automated document classification, intelligent query processing, and information extraction. Topics include computational models of grammar and automatic parsing, statistical language models and the analysis of large text corpora, natural language semantics and programs that understand language, models of discourse structure, and language use by intelligent agents. Course work includes formal and mathematical analysis of language models and implementation of working programs that analyze and interpret natural language text. Knowledge of statistics is helpful."
+    "description": "Introduces the computational modeling of human language; the ongoing effort to create computer programs that can communicate with people in natural language; and current applications of the natural language field, such as automated document classification, intelligent query processing, and information extraction. Topics include computational models of grammar and automatic parsing, statistical language models and the analysis of large text corpora, natural language semantics and programs that understand language, models of discourse structure, and language use by intelligent agents. Course work includes formal and mathematical analysis of language models and implementation of working programs that analyze and interpret natural language text. Knowledge of statistics is helpful.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "3500" },
+      "Or",
+      { "subject": "DS", "number": "3500" }
+    ]
   },
   {
     "subject": "CS",
@@ -664,7 +790,13 @@
     "credits": 4,
     "nuPath": ["CE", "WI"],
     "sections": [{ "term": "202330", "crn": "34463" }],
-    "description": "Offers an overview of classical and modern approaches to artificial intelligence in digital games. Focuses on the creation of believable agents and environments with the goal of providing a fun and engaging experience to a player. Covers player modeling, procedural content generation, behavior trees, interactive narrative, decision-making systems, cognitive modeling, and path planning. Explores different approaches for behavior generation, including learning and rule-based systems. Requires students to complete several individual assignments in these areas to apply the concepts covered in class. Students choose a group final project to explore one aspect of artificial intelligence for games in further depth. Offers students an opportunity to learn team management and communication. Students who do not meet course prerequisites may seek permission of instructor."
+    "description": "Offers an overview of classical and modern approaches to artificial intelligence in digital games. Focuses on the creation of believable agents and environments with the goal of providing a fun and engaging experience to a player. Covers player modeling, procedural content generation, behavior trees, interactive narrative, decision-making systems, cognitive modeling, and path planning. Explores different approaches for behavior generation, including learning and rule-based systems. Requires students to complete several individual assignments in these areas to apply the concepts covered in class. Students choose a group final project to explore one aspect of artificial intelligence for games in further depth. Offers students an opportunity to learn team management and communication. Students who do not meet course prerequisites may seek permission of instructor.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "3500" },
+      "And",
+      { "subject": "CS", "number": "3520" }
+    ]
   },
   {
     "subject": "CS",
@@ -674,7 +806,28 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "14169" }],
-    "description": "Introduces reinforcement learning and the Markov decision process (MDP) framework. Covers methods for planning and learning in MDPs such as dynamic programming, model-based methods, and model-free methods. Examines commonly used representations including deep-learning representations. Students are expected to have a working knowledge of probability, to complete programming assignments, and to complete a course project that applies some form of reinforcement learning to a problem of interest."
+    "description": "Introduces reinforcement learning and the Markov decision process (MDP) framework. Covers methods for planning and learning in MDPs such as dynamic programming, model-based methods, and model-free methods. Examines commonly used representations including deep-learning representations. Students are expected to have a working knowledge of probability, to complete programming assignments, and to complete a course project that applies some form of reinforcement learning to a problem of interest.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "3000" },
+      "And",
+      "(",
+      { "subject": "ECON", "number": "2350" },
+      "Or",
+      "Or",
+      { "subject": "MATH", "number": "3081" },
+      "Or",
+      { "subject": "PSYC", "number": "2320" },
+      "Or",
+      { "subject": "CS", "number": "2810" },
+      ")",
+      "And",
+      "(",
+      { "subject": "MATH", "number": "2331" },
+      "Or",
+      { "subject": "CS", "number": "2810" },
+      ")"
+    ]
   },
   {
     "subject": "CS",
@@ -688,7 +841,29 @@
       { "term": "202310", "crn": "11276" },
       { "term": "202240", "crn": "40968" }
     ],
-    "description": "Charts a path through every major aspect of computer graphics with varying degrees of emphasis. Discusses hardware issues: size and speed; lines, polygons, and regions; modeling, or objects and their relations; viewing, or what can be seen (visibility and perspective); rendering, or how it looks (properties of surfaces, light, and color); transformations, or moving, placing, distorting, and animating and interaction, or drawing, selecting, and transforming."
+    "description": "Charts a path through every major aspect of computer graphics with varying degrees of emphasis. Discusses hardware issues: size and speed; lines, polygons, and regions; modeling, or objects and their relations; viewing, or what can be seen (visibility and perspective); rendering, or how it looks (properties of surfaces, light, and color); transformations, or moving, placing, distorting, and animating and interaction, or drawing, selecting, and transforming.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "CS", "number": "1500" },
+      "Or",
+      { "subject": "CS", "number": "2510" },
+      "Or",
+      { "subject": "CS", "number": "3500" },
+      "Or",
+      { "subject": "EECE", "number": "2560" },
+      ")",
+      "And",
+      "(",
+      { "subject": "MATH", "number": "1260" },
+      "Or",
+      { "subject": "MATH", "number": "2331" },
+      "Or",
+      { "subject": "MATH", "number": "2341" },
+      "Or",
+      { "subject": "CS", "number": "2810" },
+      ")"
+    ]
   },
   {
     "subject": "CS",
@@ -702,7 +877,17 @@
       { "term": "202310", "crn": "13534" },
       { "term": "202240", "crn": "41568" }
     ],
-    "description": "Introduces a systematic approach to understanding the behavior of programming languages. Covers interpreters; static and dynamic scope; environments; binding and assignment; functions and recursion; parameter-passing and method dispatch; objects, classes, inheritance, and polymorphism; type rules and type checking; and concurrency."
+    "description": "Introduces a systematic approach to understanding the behavior of programming languages. Covers interpreters; static and dynamic scope; environments; binding and assignment; functions and recursion; parameter-passing and method dispatch; objects, classes, inheritance, and polymorphism; type rules and type checking; and concurrency.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "3500" },
+      "And",
+      "(",
+      { "subject": "CS", "number": "3000" },
+      "Or",
+      { "subject": "CS", "number": "4800" },
+      ")"
+    ]
   },
   {
     "subject": "CS",
@@ -715,7 +900,15 @@
       { "term": "202330", "crn": "32124" },
       { "term": "202310", "crn": "16230" }
     ],
-    "description": "Studies the construction of compilers and integrates material from earlier courses on programming languages, automata theory, computer architecture, and software design. Examines syntax trees; static semantics; type checking; typical machine architectures and their software structures; code generation; lexical analysis; and parsing techniques. Uses a hands-on approach with a substantial term project."
+    "description": "Studies the construction of compilers and integrates material from earlier courses on programming languages, automata theory, computer architecture, and software design. Examines syntax trees; static semantics; type checking; typical machine architectures and their software structures; code generation; lexical analysis; and parsing techniques. Uses a hands-on approach with a substantial term project.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "4400" },
+      "Or",
+      { "subject": "CS", "number": "5400" },
+      "Or",
+      { "subject": "CS", "number": "7400" }
+    ]
   },
   {
     "subject": "CS",
@@ -730,7 +923,17 @@
       { "term": "202310", "crn": "12970" },
       { "term": "202310", "crn": "19191" }
     ],
-    "description": "Considers software development as a systematic process involving specification, design, documentation, implementation, testing, and maintenance. Examines software process models; methods for software specification; modularity, abstraction, and software reuse; and issues of software quality. Students, possibly working in groups, design, document, implement, test, and modify software projects."
+    "description": "Considers software development as a systematic process involving specification, design, documentation, implementation, testing, and maintenance. Examines software process models; methods for software specification; modularity, abstraction, and software reuse; and issues of software quality. Students, possibly working in groups, design, document, implement, test, and modify software projects.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "3500" },
+      "And",
+      "(",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      ")"
+    ]
   },
   {
     "subject": "CS",
@@ -744,7 +947,9 @@
       { "term": "202310", "crn": "19192" },
       { "term": "202240", "crn": "41569" }
     ],
-    "description": "Focuses on mobile application development on a mobile phone or related platform. Discusses memory management; user interface building, including both MVC principles and specific tools; touch events; data handling, including core data, SQL, XML, and JSON; network techniques and URL loading; and, finally, specifics such as GPS and motion sensing that may be dependent on the particular mobile platform. Students are expected to work on a project that produces a professional-quality mobile application. The instructor chooses a modern mobile platform to be used in the course."
+    "description": "Focuses on mobile application development on a mobile phone or related platform. Discusses memory management; user interface building, including both MVC principles and specific tools; touch events; data handling, including core data, SQL, XML, and JSON; network techniques and URL loading; and, finally, specifics such as GPS and motion sensing that may be dependent on the particular mobile platform. Students are expected to work on a project that produces a professional-quality mobile application. The instructor chooses a modern mobile platform to be used in the course.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CS", "number": "3500" }]
   },
   {
     "subject": "CS",
@@ -765,7 +970,9 @@
       { "term": "202310", "crn": "16724" },
       { "term": "202310", "crn": "19697" }
     ],
-    "description": "Covers the fundamentals of software engineering, including software development life cycle models (e.g., waterfall, spiral,agile); requirements analysis; user-centered design; software design principles and patterns; testing (functional testing, structural testing, testing strategies); code refactoring and debugging; software architecture and design; and integration and deployment. Includes a course project in which some of the software engineering methods (from requirements analysis to testing) are applied in a team-based setting."
+    "description": "Covers the fundamentals of software engineering, including software development life cycle models (e.g., waterfall, spiral,agile); requirements analysis; user-centered design; software design principles and patterns; testing (functional testing, structural testing, testing strategies); code refactoring and debugging; software architecture and design; and integration and deployment. Includes a course project in which some of the software engineering methods (from requirements analysis to testing) are applied in a team-based setting.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CS", "number": "3500" }]
   },
   {
     "subject": "CS",
@@ -778,7 +985,13 @@
       { "term": "202330", "crn": "30086" },
       { "term": "202310", "crn": "12971" }
     ],
-    "description": "Discusses Web development for sites that are dynamic, data driven, and interactive. Focuses on the software development issues of integrating multiple languages, assorted data technologies, and Web interaction. Considers ASP.NET, C#, HTTP, HTML, CSS, XML, XSLT, JavaScript, AJAX, RSS/Atom, SQL, and Web services. Requires each student to deploy individually designed Web experiments that illustrate the Web technologies and at least one major integrative Web site project. Students may work as a team with the permission of the instructor. Each student or team must also create extensive documentation of their goals, plans, design decisions, accomplishments, and user guidelines. All source files must be open and be automatically served by a sources server."
+    "description": "Discusses Web development for sites that are dynamic, data driven, and interactive. Focuses on the software development issues of integrating multiple languages, assorted data technologies, and Web interaction. Considers ASP.NET, C#, HTTP, HTML, CSS, XML, XSLT, JavaScript, AJAX, RSS/Atom, SQL, and Web services. Requires each student to deploy individually designed Web experiments that illustrate the Web technologies and at least one major integrative Web site project. Students may work as a team with the permission of the instructor. Each student or team must also create extensive documentation of their goals, plans, design decisions, accomplishments, and user guidelines. All source files must be open and be automatically served by a sources server.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "3500" },
+      "Or",
+      { "subject": "DS", "number": "3500" }
+    ]
   },
   {
     "subject": "CS",
@@ -788,7 +1001,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "39029" }],
-    "description": "Introduces autonomous mobile robots, with a focus on algorithms and software development, including closed-loop control, robot software architecture, wheeled locomotion and navigation, tactile and basic visual sensing, obstacle detection and avoidance, and grasping and manipulation of objects. Offers students an opportunity to progressively construct mobile robots from a predesigned electromechanical kit. The robots are controlled wirelessly by software of the students’ own design, built within a provided robotics software framework. The course culminates in a grand challenge competition using all features of the robots."
+    "description": "Introduces autonomous mobile robots, with a focus on algorithms and software development, including closed-loop control, robot software architecture, wheeled locomotion and navigation, tactile and basic visual sensing, obstacle detection and avoidance, and grasping and manipulation of objects. Offers students an opportunity to progressively construct mobile robots from a predesigned electromechanical kit. The robots are controlled wirelessly by software of the students’ own design, built within a provided robotics software framework. The course culminates in a grand challenge competition using all features of the robots.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CS", "number": "3500" }]
   },
   {
     "subject": "CS",
@@ -798,7 +1013,15 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "33175" }],
-    "description": "Introduces the fundamental concepts of network protocols and network architectures. Presents the different harmonizing functions needed for the communication and effective operation of computer networks. Provides in-depth coverage of data link control, medium access control, routing, end-to-end transport protocols, congestion and flow control, multicasting, naming, auto configuration, quality of service, and network management. Studies the abstract mechanisms and algorithms as implemented in real-world Internet protocols. Also covers the most common application protocols (e-mail, Web, and ftp)."
+    "description": "Introduces the fundamental concepts of network protocols and network architectures. Presents the different harmonizing functions needed for the communication and effective operation of computer networks. Provides in-depth coverage of data link control, medium access control, routing, end-to-end transport protocols, congestion and flow control, multicasting, naming, auto configuration, quality of service, and network management. Studies the abstract mechanisms and algorithms as implemented in real-world Internet protocols. Also covers the most common application protocols (e-mail, Web, and ftp).",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "3650" },
+      "Or",
+      { "subject": "CS", "number": "5600" },
+      "Or",
+      { "subject": "CS", "number": "5600" }
+    ]
   },
   {
     "subject": "CS",
@@ -808,7 +1031,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "33176" }],
-    "description": "Covers both theoretical foundations of wireless/mobile networking and practical aspects of wireless/mobile systems, including current standards, mobile development platforms, and emerging technologies. Incorporates a strong practical component; requires students to work in teams on several practical assignments (e.g., based on Wi-Fi sensing, mobile applications, Internet-of-Things devices, and software-defined radio applications) and a final project. The final project integrates knowledge about several wireless communication technologies and mechanisms."
+    "description": "Covers both theoretical foundations of wireless/mobile networking and practical aspects of wireless/mobile systems, including current standards, mobile development platforms, and emerging technologies. Incorporates a strong practical component; requires students to work in teams on several practical assignments (e.g., based on Wi-Fi sensing, mobile applications, Internet-of-Things devices, and software-defined radio applications) and a final project. The final project integrates knowledge about several wireless communication technologies and mechanisms.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CS", "number": "3700" }]
   },
   {
     "subject": "CS",
@@ -818,7 +1043,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38886" }],
-    "description": "Introduces distributed systems, covering fundamental concepts and showing how they are applied to build reliable distributed services. Examines several existing distributed applications, such as file systems, databases, lock services, digital currencies, smart contracts, and machine learning, and how these applications must coordinate to function and overcome failures, network partitions, or compromised parties. Distributed systems, such as databases, cloud services, and blockchains, are omnipresent in the services and applications that serve society on a daily basis."
+    "description": "Introduces distributed systems, covering fundamental concepts and showing how they are applied to build reliable distributed services. Examines several existing distributed applications, such as file systems, databases, lock services, digital currencies, smart contracts, and machine learning, and how these applications must coordinate to function and overcome failures, network partitions, or compromised parties. Distributed systems, such as databases, cloud services, and blockchains, are omnipresent in the services and applications that serve society on a daily basis.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CS", "number": "3650" }]
   },
   {
     "subject": "CS",
@@ -828,7 +1055,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "34384" }],
-    "description": "Reviews basic material such as automata, Turing machines, (un)decidability, time complexity, P vs. NP, and NP-completeness. Studies core topics in computational complexity, including time and space complexity, polynomial hierarchy, circuit complexity, probabilistic computation, interactive proofs, and hardness of approximation. Optional topics may include Gödel's incompleteness theorem, Kolgomorov complexity, cryptography, quantum computing, communication complexity, lower bounds, or pseudorandomness."
+    "description": "Reviews basic material such as automata, Turing machines, (un)decidability, time complexity, P vs. NP, and NP-completeness. Studies core topics in computational complexity, including time and space complexity, polynomial hierarchy, circuit complexity, probabilistic computation, interactive proofs, and hardness of approximation. Optional topics may include Gödel's incompleteness theorem, Kolgomorov complexity, cryptography, quantum computing, communication complexity, lower bounds, or pseudorandomness.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CS", "number": "3800" }]
   },
   {
     "subject": "CS",
@@ -838,7 +1067,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "14170" }],
-    "description": "Builds on CS 3000. Presents an advanced study of computer algorithms. Covers basic algorithmic paradigms (e.g., greedy, divide-and-conquer, and dynamic programming); graph algorithms; optimization; computational Intractability (e.g., NP-completeness, PSPACE-completeness);<br /> randomized algorithms; and approximation algorithms."
+    "description": "Builds on CS 3000. Presents an advanced study of computer algorithms. Covers basic algorithmic paradigms (e.g., greedy, divide-and-conquer, and dynamic programming); graph algorithms; optimization; computational Intractability (e.g., NP-completeness, PSPACE-completeness);<br /> randomized algorithms; and approximation algorithms.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CS", "number": "3000" }]
   },
   {
     "subject": "CS",
@@ -848,7 +1079,13 @@
     "credits": 4,
     "nuPath": ["CE"],
     "sections": [{ "term": "202310", "crn": "16232" }],
-    "description": "Covers fundamental concepts, techniques, and algorithms in computer-aided reasoning, including propositional logic, variants of the DPLL algorithm for satisfiability checking, first-order logic, unification, tableaux, resolution, Horn clauses, congruence closure, rewriting, Knuth-Bendix completion, decision procedures, Satisfiability Modulo Theories, recursion, induction, termination, Presburger arithmetic, quantifier elimination, and interactive theorem proving. Offers students an opportunity to develop and implement a reasoning engine in a sequence of projects over the course of the semester. Also covers how to formalize and reason about computational systems using a modern interactive theorem prover."
+    "description": "Covers fundamental concepts, techniques, and algorithms in computer-aided reasoning, including propositional logic, variants of the DPLL algorithm for satisfiability checking, first-order logic, unification, tableaux, resolution, Horn clauses, congruence closure, rewriting, Knuth-Bendix completion, decision procedures, Satisfiability Modulo Theories, recursion, induction, termination, Presburger arithmetic, quantifier elimination, and interactive theorem proving. Offers students an opportunity to develop and implement a reasoning engine in a sequence of projects over the course of the semester. Also covers how to formalize and reason about computational systems using a modern interactive theorem prover.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "2800" },
+      "And",
+      { "subject": "CS", "number": "3000" }
+    ]
   },
   {
     "subject": "CS",
@@ -858,7 +1095,13 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "39030" }],
-    "description": "Discusses the components of game engines and strategies for their software implementation. Includes graphics management algorithms (animation, scene graph, level of detail); basic artificial intelligence algorithms (search, decision making, sensing); and related algorithmic issues (networking, threading, input processing). Explores the use of data-driven software design. Offers students an opportunity to use a rendering engine and to build and integrate several software components to create a complete game engine. Requires students to work on several individual assignments to apply the algorithms and then develop a project in a team. Offers students an opportunity to learn team/project management; work division; team communication; and the software development cycle of implementation, testing, critique, and further iteration. Students who do not meet course prerequisites may seek permission of instructor."
+    "description": "Discusses the components of game engines and strategies for their software implementation. Includes graphics management algorithms (animation, scene graph, level of detail); basic artificial intelligence algorithms (search, decision making, sensing); and related algorithmic issues (networking, threading, input processing). Explores the use of data-driven software design. Offers students an opportunity to use a rendering engine and to build and integrate several software components to create a complete game engine. Requires students to work on several individual assignments to apply the algorithms and then develop a project in a team. Offers students an opportunity to learn team/project management; work division; team communication; and the software development cycle of implementation, testing, critique, and further iteration. Students who do not meet course prerequisites may seek permission of instructor.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "3520" },
+      "And",
+      { "subject": "CS", "number": "3540" }
+    ]
   },
   {
     "subject": "CS",
@@ -868,7 +1111,17 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202260", "crn": "60976" }],
-    "description": "Offers a lecture course in computer science on a topic not regularly taught in a formal course. Topics may vary from offering to offering. May be repeated up to three times."
+    "description": "Offers a lecture course in computer science on a topic not regularly taught in a formal course. Topics may vary from offering to offering. May be repeated up to three times.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "3000" },
+      "And",
+      "(",
+      { "subject": "CS", "number": "3500" },
+      "Or",
+      { "subject": "DS", "number": "3500" },
+      ")"
+    ]
   },
   {
     "subject": "CS",
@@ -881,7 +1134,9 @@
       { "term": "202330", "crn": "33669" },
       { "term": "202310", "crn": "14005" }
     ],
-    "description": "Offers students an in-depth look at research in a particular subarea of computer science, information science, data science, or cybersecurity. The particular subarea varies from semester to semester. Exposes students to current research topics, often via guest faculty members. Offers students an opportunity to practice reading and discussing scientific literature, presenting scientific work, and distilling the key ideas and contributions of papers through required weekly paper summaries."
+    "description": "Offers students an in-depth look at research in a particular subarea of computer science, information science, data science, or cybersecurity. The particular subarea varies from semester to semester. Exposes students to current research topics, often via guest faculty members. Offers students an opportunity to practice reading and discussing scientific literature, presenting scientific work, and distilling the key ideas and contributions of papers through required weekly paper summaries.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CS", "number": "3950" }]
   },
   {
     "subject": "CS",
@@ -891,7 +1146,17 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "20817" }],
-    "description": "Offers a lecture course in computer science on a topic not regularly taught in a formal course. Topics may vary from offering to offering. May be repeated up to three times."
+    "description": "Offers a lecture course in computer science on a topic not regularly taught in a formal course. Topics may vary from offering to offering. May be repeated up to three times.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "3000" },
+      "And",
+      "(",
+      { "subject": "CS", "number": "3500" },
+      "Or",
+      { "subject": "DS", "number": "3500" },
+      ")"
+    ]
   },
   {
     "subject": "CS",
@@ -923,7 +1188,9 @@
       { "term": "202310", "crn": "19974" },
       { "term": "202310", "crn": "19975" }
     ],
-    "description": "Introduces systematic problem solving through programming. Offers students an opportunity to learn how to analyze a problem, how to divide and organize the problem into appropriate components, how to describe the problem in a computer language, how to analyze and understand the behavior of their programs, and how to test that their programs are working correctly. Additionally, introduces a method of program design called object-oriented programming and various ways to organize data, including a discussion of their advantages and disadvantages. To practice the course concepts, students undertake assignments ranging from small, highly specified programming tasks to larger open-ended problems where students design and code their own solutions."
+    "description": "Introduces systematic problem solving through programming. Offers students an opportunity to learn how to analyze a problem, how to divide and organize the problem into appropriate components, how to describe the problem in a computer language, how to analyze and understand the behavior of their programs, and how to test that their programs are working correctly. Additionally, introduces a method of program design called object-oriented programming and various ways to organize data, including a discussion of their advantages and disadvantages. To practice the course concepts, students undertake assignments ranging from small, highly specified programming tasks to larger open-ended problems where students design and code their own solutions.",
+    "coreqs": [{ "subject": "CS", "number": "5003" }],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -955,7 +1222,9 @@
       { "term": "202310", "crn": "21414" },
       { "term": "202240", "crn": "41574" }
     ],
-    "description": "Introduces the mathematical structures and methods that form the foundation of computer science. Studies structures such as sets, tuples, sequences, lists, trees, and graphs. Discusses functions, relations, ordering, and equivalence relations. Examines inductive and recursive definitions of structures and functions. Covers principles of proof such as truth tables, inductive proof, and basic logic and the counting techniques and arguments needed to estimate the size of sets, the growth of functions, and the space-time complexity of algorithms. Also, discusses data structures such as arrays, stacks, queues, lists, and the algorithms that manipulate them."
+    "description": "Introduces the mathematical structures and methods that form the foundation of computer science. Studies structures such as sets, tuples, sequences, lists, trees, and graphs. Discusses functions, relations, ordering, and equivalence relations. Examines inductive and recursive definitions of structures and functions. Covers principles of proof such as truth tables, inductive proof, and basic logic and the counting techniques and arguments needed to estimate the size of sets, the growth of functions, and the space-time complexity of algorithms. Also, discusses data structures such as arrays, stacks, queues, lists, and the algorithms that manipulate them.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -997,7 +1266,9 @@
       { "term": "202310", "crn": "20063" },
       { "term": "202310", "crn": "21694" }
     ],
-    "description": "Provides a small-group discussion format to cover material in CS 5001. <i>Coreq CS 5001.</i>"
+    "description": "Provides a small-group discussion format to cover material in CS 5001. <i>Coreq CS 5001.</i>",
+    "coreqs": [{ "subject": "CS", "number": "5001" }],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1023,7 +1294,21 @@
       { "term": "202310", "crn": "20002" },
       { "term": "202310", "crn": "20066" }
     ],
-    "description": "Presents a comparative approach to object-oriented programming and design. Discusses the concepts of object, class, metaclass, message, method, inheritance, and genericity. Reviews forms of polymorphism in object-oriented languages. Contrasts the use of inheritance and composition as dual techniques for software reuse&#8212;forwarding vs. delegation and subclassing vs. subtyping. Offers students an opportunity to obtain a deeper understanding of the principles of object-oriented programming and design, including software components, object-oriented design patterns, and the use of graphical design notations such as UML (unified modeling language). Illustrates basic concepts in object-oriented design with case studies in application frameworks and by writing programs in Java."
+    "description": "Presents a comparative approach to object-oriented programming and design. Discusses the concepts of object, class, metaclass, message, method, inheritance, and genericity. Reviews forms of polymorphism in object-oriented languages. Contrasts the use of inheritance and composition as dual techniques for software reuse&#8212;forwarding vs. delegation and subclassing vs. subtyping. Offers students an opportunity to obtain a deeper understanding of the principles of object-oriented programming and design, including software components, object-oriented design patterns, and the use of graphical design notations such as UML (unified modeling language). Illustrates basic concepts in object-oriented design with case studies in application frameworks and by writing programs in Java.",
+    "coreqs": [{ "subject": "CS", "number": "5005" }],
+    "prereqs": [
+      "(",
+      { "subject": "CS", "number": "5001" },
+      "Or",
+      { "subject": "CS", "number": "5001" },
+      ")",
+      "And",
+      "(",
+      { "subject": "CS", "number": "5002" },
+      "Or",
+      { "subject": "CS", "number": "5002" },
+      ")"
+    ]
   },
   {
     "subject": "CS",
@@ -1058,7 +1343,9 @@
       { "term": "202310", "crn": "20214" },
       { "term": "202310", "crn": "21276" }
     ],
-    "description": "Provides small-group discussion format to cover material in CS 5004."
+    "description": "Provides small-group discussion format to cover material in CS 5004.",
+    "coreqs": [{ "subject": "CS", "number": "5004" }],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1080,7 +1367,21 @@
       { "term": "202310", "crn": "19801" },
       { "term": "202310", "crn": "20068" }
     ],
-    "description": "Presents an integrated approach to the study of data structures, algorithms, and their application within systems topics. Introduces a variety of fundamental algorithmic techniques (divide-and-conquer, dynamic programming, graph algorithms) and systems topics (models of computation, computer architecture, compilation, system software, networking). Demonstrates the integration of topics through programming assignments in the C language that implement fundamental data structures (lists, queues, trees, maps, graphs) and algorithms as they are applied in computer systems. Additional breadth topics include programming applications that expose students to primitives of different subsystems using threads and sockets."
+    "description": "Presents an integrated approach to the study of data structures, algorithms, and their application within systems topics. Introduces a variety of fundamental algorithmic techniques (divide-and-conquer, dynamic programming, graph algorithms) and systems topics (models of computation, computer architecture, compilation, system software, networking). Demonstrates the integration of topics through programming assignments in the C language that implement fundamental data structures (lists, queues, trees, maps, graphs) and algorithms as they are applied in computer systems. Additional breadth topics include programming applications that expose students to primitives of different subsystems using threads and sockets.",
+    "coreqs": [{ "subject": "CS", "number": "5009" }],
+    "prereqs": [
+      "(",
+      { "subject": "CS", "number": "5001" },
+      "Or",
+      { "subject": "CS", "number": "5001" },
+      ")",
+      "And",
+      "(",
+      { "subject": "CS", "number": "5002" },
+      "Or",
+      { "subject": "CS", "number": "5002" },
+      ")"
+    ]
   },
   {
     "subject": "CS",
@@ -1104,7 +1405,9 @@
       { "term": "202310", "crn": "19802" },
       { "term": "202310", "crn": "20069" }
     ],
-    "description": "Provides small-group active learning format to augment material in CS 5008."
+    "description": "Provides small-group active learning format to augment material in CS 5008.",
+    "coreqs": [{ "subject": "CS", "number": "5008" }],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1130,7 +1433,9 @@
       { "term": "202310", "crn": "20071" },
       { "term": "202310", "crn": "20728" }
     ],
-    "description": "Introduces modern program design paradigms. Starts with functional program design, introducing the notion of a design recipe. The latter consists of two parts: a task organization (ranging from the description of data to the creation of a test suite) and a data-oriented approach to the organization of programs (ranging from atomic data to self-referential data definitions and functions as data). The course then progresses to object-oriented design, explaining how it generalizes and contrasts with functional design. In addition to studying program design, students also have an opportunity to practice pair-programming and public code review techniques, as found in industry today."
+    "description": "Introduces modern program design paradigms. Starts with functional program design, introducing the notion of a design recipe. The latter consists of two parts: a task organization (ranging from the description of data to the creation of a test suite) and a data-oriented approach to the organization of programs (ranging from atomic data to self-referential data definitions and functions as data). The course then progresses to object-oriented design, explaining how it generalizes and contrasts with functional design. In addition to studying program design, students also have an opportunity to practice pair-programming and public code review techniques, as found in industry today.",
+    "coreqs": [{ "subject": "CS", "number": "5011" }],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1164,7 +1469,9 @@
       { "term": "202310", "crn": "20073" },
       { "term": "202310", "crn": "20729" }
     ],
-    "description": "Provides small-group discussion format to cover material in CS 5010."
+    "description": "Provides small-group discussion format to cover material in CS 5010.",
+    "coreqs": [{ "subject": "CS", "number": "5010" }],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1174,7 +1481,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38911" }],
-    "description": "Seeks to provide a strong foundation in the fundamentals of virtual and augmented reality, broadly defined as mixed reality (XR), and hands-on experience developing XR applications. Offers students an opportunity to dive into this burgeoning area of research and practice in computer science. Given the complex nature of XR environments, this course synthesizes theoretical and practice knowledge from various disciplines, including computer graphics, 3D interfaces, human-computer interaction, tracking systems, and perceptual psychology (to name a few). XR technologies have recently witnessed a resurgence of interest."
+    "description": "Seeks to provide a strong foundation in the fundamentals of virtual and augmented reality, broadly defined as mixed reality (XR), and hands-on experience developing XR applications. Offers students an opportunity to dive into this burgeoning area of research and practice in computer science. Given the complex nature of XR environments, this course synthesizes theoretical and practice knowledge from various disciplines, including computer graphics, 3D interfaces, human-computer interaction, tracking systems, and perceptual psychology (to name a few). XR technologies have recently witnessed a resurgence of interest.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1191,7 +1500,9 @@
       { "term": "202310", "crn": "19981" },
       { "term": "202310", "crn": "20064" }
     ],
-    "description": "Introduces the fundamental problems, theories, and algorithms of the artificial intelligence field. Topics include heuristic search and game trees, knowledge representation using predicate calculus, automated deduction and its applications, problem solving and planning, and introduction to machine learning. Required course work includes the creation of working programs that solve problems, reason logically, and/or improve their own performance using techniques presented in the course. Requires experience in Java programming."
+    "description": "Introduces the fundamental problems, theories, and algorithms of the artificial intelligence field. Topics include heuristic search and game trees, knowledge representation using predicate calculus, automated deduction and its applications, problem solving and planning, and introduction to machine learning. Required course work includes the creation of working programs that solve problems, reason logically, and/or improve their own performance using techniques presented in the course. Requires experience in Java programming.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1201,7 +1512,9 @@
     "credits": 4,
     "nuPath": ["CE", "WI"],
     "sections": [{ "term": "202330", "crn": "38913" }],
-    "description": "Offers an overview of classical and modern approaches to artificial intelligence in digital games. Focuses on the creation of believable agents and environments with the goal of providing a fun and engaging experience to a player. Covers player modeling, procedural content generation, behavior trees, interactive narrative, decision-making systems, cognitive modeling, and path planning. Explores different approaches for behavior generation, including learning and rule-based systems. Requires students to complete several individual assignments in these areas to apply the concepts covered in class. Students choose a group final project, which requires a report, to explore one aspect of artificial intelligence for games in further depth. Offers students an opportunity to learn team management and communication. Requires knowledge of algorithms and experience with object-oriented design or functional programming."
+    "description": "Offers an overview of classical and modern approaches to artificial intelligence in digital games. Focuses on the creation of believable agents and environments with the goal of providing a fun and engaging experience to a player. Covers player modeling, procedural content generation, behavior trees, interactive narrative, decision-making systems, cognitive modeling, and path planning. Explores different approaches for behavior generation, including learning and rule-based systems. Requires students to complete several individual assignments in these areas to apply the concepts covered in class. Students choose a group final project, which requires a report, to explore one aspect of artificial intelligence for games in further depth. Offers students an opportunity to learn team management and communication. Requires knowledge of algorithms and experience with object-oriented design or functional programming.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1211,7 +1524,17 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "16914" }],
-    "description": "Offers an overview of the wide range of AI techniques that exploit knowledge of the domain and humans to facilitate interaction between humans and systems, mediate human-human interaction, leverage humans to improve system performance, and promote beneficial outcomes at the social and individual level. Topics can include AI/human computation, plan and activity recognition, smart sensing/homes, active learning, preference elicitation, intelligent/adaptive user interfaces, and mixed human-agent simulations. Studies how to design and develop intelligent interaction technologies while also critically assessing their social and ethical impact."
+    "description": "Offers an overview of the wide range of AI techniques that exploit knowledge of the domain and humans to facilitate interaction between humans and systems, mediate human-human interaction, leverage humans to improve system performance, and promote beneficial outcomes at the social and individual level. Topics can include AI/human computation, plan and activity recognition, smart sensing/homes, active learning, preference elicitation, intelligent/adaptive user interfaces, and mixed human-agent simulations. Studies how to design and develop intelligent interaction technologies while also critically assessing their social and ethical impact.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "5010" },
+      "And",
+      { "subject": "CS", "number": "5100" },
+      "And",
+      { "subject": "CS", "number": "5800" },
+      "And",
+      { "subject": "CS", "number": "6140" }
+    ]
   },
   {
     "subject": "CS",
@@ -1221,7 +1544,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "13987" }],
-    "description": "Introduces reinforcement learning and the underlying computational frameworks and the Markov decision process framework. Covers a variety of reinforcement learning algorithms, including model-based, model-free, value function, policy gradient, actor-critic, and Monte Carlo methods. Examines commonly used representations including deep learning representations and approaches to partially observable problems. Students are expected to have a working knowledge of probability and linear algebra, to complete programming assignments, and to complete a course project that applies some form of reinforcement learning to a problem of interest."
+    "description": "Introduces reinforcement learning and the underlying computational frameworks and the Markov decision process framework. Covers a variety of reinforcement learning algorithms, including model-based, model-free, value function, policy gradient, actor-critic, and Monte Carlo methods. Examines commonly used representations including deep learning representations and approaches to partially observable problems. Students are expected to have a working knowledge of probability and linear algebra, to complete programming assignments, and to complete a course project that applies some form of reinforcement learning to a problem of interest.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1249,7 +1574,9 @@
       { "term": "202310", "crn": "20671" },
       { "term": "202240", "crn": "41575" }
     ],
-    "description": "Introduces relational database management systems as a class of software systems. Prepares students to be sophisticated users of database management systems. Covers design theory, query language, and performance/tuning issues. Topics include relational algebra, SQL, stored procedures, user-defined functions, cursors, embedded SQL programs, client-server interfaces, entity-relationship diagrams, normalization, B-trees, concurrency, transactions, database security, constraints, object-relational DBMSs, and specialized engines such as spatial, text, XML conversion, and time series. Includes exercises using a commercial relational or object-relational database management system."
+    "description": "Introduces relational database management systems as a class of software systems. Prepares students to be sophisticated users of database management systems. Covers design theory, query language, and performance/tuning issues. Topics include relational algebra, SQL, stored procedures, user-defined functions, cursors, embedded SQL programs, client-server interfaces, entity-relationship diagrams, normalization, B-trees, concurrency, transactions, database security, constraints, object-relational DBMSs, and specialized engines such as spatial, text, XML conversion, and time series. Includes exercises using a commercial relational or object-relational database management system.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1262,7 +1589,13 @@
       { "term": "202310", "crn": "13113" },
       { "term": "202240", "crn": "40969" }
     ],
-    "description": "Introduces the fundamentals of two-dimensional and three-dimensional computer graphics, with an emphasis on approaches for obtaining realistic images. Covers two-dimensional algorithms for drawing lines and curves, anti-aliasing, filling, and clipping. Studies rendering of three-dimensional scenes composed of spheres, polygons, quadric surfaces, and bi-cubic surfaces using ray-tracing and radiosity. Includes techniques for adding texture to surfaces using texture and bump maps, noise, and turbulence. Requires knowledge of linear algebra."
+    "description": "Introduces the fundamentals of two-dimensional and three-dimensional computer graphics, with an emphasis on approaches for obtaining realistic images. Covers two-dimensional algorithms for drawing lines and curves, anti-aliasing, filling, and clipping. Studies rendering of three-dimensional scenes composed of spheres, polygons, quadric surfaces, and bi-cubic surfaces using ray-tracing and radiosity. Includes techniques for adding texture to surfaces using texture and bump maps, noise, and turbulence. Requires knowledge of linear algebra.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "MATH", "number": "2331" },
+      "Or",
+      "Graduate Admission"
+    ]
   },
   {
     "subject": "CS",
@@ -1276,7 +1609,13 @@
       { "term": "202310", "crn": "19200" },
       { "term": "202310", "crn": "20005" }
     ],
-    "description": "Introduces fundamental techniques for low-level and high-level computer vision. Examines image formation, early processing, boundary detection, image segmentation, texture analysis, shape from shading, photometric stereo, motion analysis via optic flow, object modeling, shape description, and object recognition (classification). Discusses models of human vision (gestalt effects, texture perception, subjective contours, visual illusions, apparent motion, mental rotations, and cyclopean vision). Requires knowledge of linear algebra."
+    "description": "Introduces fundamental techniques for low-level and high-level computer vision. Examines image formation, early processing, boundary detection, image segmentation, texture analysis, shape from shading, photometric stereo, motion analysis via optic flow, object modeling, shape description, and object recognition (classification). Discusses models of human vision (gestalt effects, texture perception, subjective contours, visual illusions, apparent motion, mental rotations, and cyclopean vision). Requires knowledge of linear algebra.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "MATH", "number": "2331" },
+      "Or",
+      "Graduate Admission"
+    ]
   },
   {
     "subject": "CS",
@@ -1286,7 +1625,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38996" }],
-    "description": "Introduces autonomous mobile robots with a focus on algorithms and software development, including closed-loop control, robot software architecture, wheeled locomotion and navigation, tactile and basic visual sensing, obstacle detection and avoidance, and grasping and manipulation of objects. Offers students an opportunity to progressively construct mobile robots from a predesigned electromechanical kit. The robots are controlled wirelessly by software of the students' own design, built within a provided robotics software framework. Culminates in a project that connects the algorithms and hardware developed in the course with a selected topic in the current robotics research literature."
+    "description": "Introduces autonomous mobile robots with a focus on algorithms and software development, including closed-loop control, robot software architecture, wheeled locomotion and navigation, tactile and basic visual sensing, obstacle detection and avoidance, and grasping and manipulation of objects. Offers students an opportunity to progressively construct mobile robots from a predesigned electromechanical kit. The robots are controlled wirelessly by software of the students' own design, built within a provided robotics software framework. Culminates in a project that connects the algorithms and hardware developed in the course with a selected topic in the current robotics research literature.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1304,7 +1645,9 @@
       { "term": "202310", "crn": "21663" },
       { "term": "202260", "crn": "61434" }
     ],
-    "description": "Covers the principles of human-computer interaction and the design and evaluation of user interfaces. Topics include an overview of human information processing subsystems (perception, memory, attention, and problem solving); how the properties of these systems affect the design of user interfaces; the principles, guidelines, and specification languages for designing good user interfaces, with emphasis on tool kits and libraries of standard graphical user interface objects; and a variety of interface evaluation methodologies that can be used to measure the usability of software. Other topics may include World Wide Web design principles and tools, computer-supported cooperative work, multimodal and “next generation” interfaces, speech and natural language interfaces, and virtual reality interfaces. Course work includes both the creation and implementation of original user interface designs, and the evaluation of user interfaces created by others. Requires knowledge of C programming language/UNIX."
+    "description": "Covers the principles of human-computer interaction and the design and evaluation of user interfaces. Topics include an overview of human information processing subsystems (perception, memory, attention, and problem solving); how the properties of these systems affect the design of user interfaces; the principles, guidelines, and specification languages for designing good user interfaces, with emphasis on tool kits and libraries of standard graphical user interface objects; and a variety of interface evaluation methodologies that can be used to measure the usability of software. Other topics may include World Wide Web design principles and tools, computer-supported cooperative work, multimodal and “next generation” interfaces, speech and natural language interfaces, and virtual reality interfaces. Course work includes both the creation and implementation of original user interface designs, and the evaluation of user interfaces created by others. Requires knowledge of C programming language/UNIX.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1318,7 +1661,15 @@
       { "term": "202310", "crn": "16235" },
       { "term": "202310", "crn": "19982" }
     ],
-    "description": "Studies the basic components of programming languages, specification of syntax and semantics, and description and implementation of programming language features. Discusses examples from a variety of languages."
+    "description": "Studies the basic components of programming languages, specification of syntax and semantics, and description and implementation of programming language features. Discusses examples from a variety of languages.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "5010" },
+      "Or",
+      { "subject": "CS", "number": "5004" },
+      "Or",
+      { "subject": "CS", "number": "5010" }
+    ]
   },
   {
     "subject": "CS",
@@ -1338,7 +1689,15 @@
       { "term": "202310", "crn": "19983" },
       { "term": "202310", "crn": "20076" }
     ],
-    "description": "Covers the foundations of software engineering, including software development life cycle models (e.g., waterfall, spiral, agile); requirements analysis; user-centered design; software design principles and patterns; testing (functional testing, structural testing, testing strategies); code refactoring and debugging; software architecture and design; and integration and deployment. Includes a course project where some of the software engineering methods (from requirements analysis to testing) are applied in a team-based setting. Requires admission to MS program or completion of all transition courses."
+    "description": "Covers the foundations of software engineering, including software development life cycle models (e.g., waterfall, spiral, agile); requirements analysis; user-centered design; software design principles and patterns; testing (functional testing, structural testing, testing strategies); code refactoring and debugging; software architecture and design; and integration and deployment. Includes a course project where some of the software engineering methods (from requirements analysis to testing) are applied in a team-based setting. Requires admission to MS program or completion of all transition courses.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "5010" },
+      "Or",
+      { "subject": "CS", "number": "5004" },
+      "Or",
+      { "subject": "CS", "number": "5010" }
+    ]
   },
   {
     "subject": "CS",
@@ -1358,7 +1717,9 @@
       { "term": "202310", "crn": "20936" },
       { "term": "202240", "crn": "41576" }
     ],
-    "description": "Focuses on mobile application development on a mobile phone or related platform. Discusses memory management; user interface building, including both MVC principles and specific tools; touch events; data handling, including core data, SQL, XML, and JSON; network techniques and URL loading; and, finally, specifics such as GPS and motion sensing that may be dependent on the particular mobile platform. Students are expected to work on a project that produces a professional-quality mobile application and to demonstrate the application that they have developed. The instructor chooses a modern mobile platform to be used in the course."
+    "description": "Focuses on mobile application development on a mobile phone or related platform. Discusses memory management; user interface building, including both MVC principles and specific tools; touch events; data handling, including core data, SQL, XML, and JSON; network techniques and URL loading; and, finally, specifics such as GPS and motion sensing that may be dependent on the particular mobile platform. Students are expected to work on a project that produces a professional-quality mobile application and to demonstrate the application that they have developed. The instructor chooses a modern mobile platform to be used in the course.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1375,7 +1736,9 @@
       { "term": "202310", "crn": "19986" },
       { "term": "202310", "crn": "20332" }
     ],
-    "description": "Studies the structure, components, design, implementation, and internal operation of computer systems, focusing mainly on the operating system level. Reviews computer hardware and architecture including the arithmetic and logic unit, and the control unit. Covers current operating system components and construction techniques including the memory and memory controller, I/O device management, device drivers, memory management, file system structures, and the user interface. Introduces distributed operating systems. Discusses issues arising from concurrency and distribution, such as scheduling of concurrent processes, interprocess communication and synchronization, resource sharing and allocation, and deadlock management and resolution. Includes examples from real operating systems. Exposes students to the system concepts through programming exercises. Requires admission to MS program or completion of all transition courses."
+    "description": "Studies the structure, components, design, implementation, and internal operation of computer systems, focusing mainly on the operating system level. Reviews computer hardware and architecture including the arithmetic and logic unit, and the control unit. Covers current operating system components and construction techniques including the memory and memory controller, I/O device management, device drivers, memory management, file system structures, and the user interface. Introduces distributed operating systems. Discusses issues arising from concurrency and distribution, such as scheduling of concurrent processes, interprocess communication and synchronization, resource sharing and allocation, and deadlock management and resolution. Includes examples from real operating systems. Exposes students to the system concepts through programming exercises. Requires admission to MS program or completion of all transition courses.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1405,7 +1768,9 @@
       { "term": "202240", "crn": "41654" },
       { "term": "202240", "crn": "41655" }
     ],
-    "description": "Discusses Web development for sites that are dynamic, data driven, and interactive. Focuses on the software development issues of integrating multiple languages, assorted data technologies, and Web interaction. Considers ASP.NET, C#, HTTP, HTML, CSS, XML, XSLT, JavaScript, AJAX, RSS/Atom, SQL, and Web services. Each student must deploy individually designed Web experiments that illustrate the Web technologies and at least one major integrative Web site project. Students may work in teams with the permission of the instructor. Each student or team must also create extensive documentation of their goals, plans, design decisions, accomplishments, and user guidelines. All source files must be open and be automatically served by a sources server."
+    "description": "Discusses Web development for sites that are dynamic, data driven, and interactive. Focuses on the software development issues of integrating multiple languages, assorted data technologies, and Web interaction. Considers ASP.NET, C#, HTTP, HTML, CSS, XML, XSLT, JavaScript, AJAX, RSS/Atom, SQL, and Web services. Each student must deploy individually designed Web experiments that illustrate the Web technologies and at least one major integrative Web site project. Students may work in teams with the permission of the instructor. Each student or team must also create extensive documentation of their goals, plans, design decisions, accomplishments, and user guidelines. All source files must be open and be automatically served by a sources server.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1422,7 +1787,9 @@
       { "term": "202310", "crn": "19768" },
       { "term": "202310", "crn": "20007" }
     ],
-    "description": "Studies network protocols, focusing on modeling and analysis, and architectures. Introduces modeling concepts, emphasizing queuing theory, including Little's theorem, M/M/1, M/M/m, M/D/1, and M/G/1 queuing systems. Discusses performance evaluation of computer networks including performance metrics, evaluation tools and methodology, simulation techniques, and limitations. Presents the different harmonizing functions needed for communication and efficient operation of computer networks and discusses examples of Ethernet, FDDI, and wireless networks. Covers link layer protocols including HDLC, PPP, and SLIP; packet framing; spanning tree and learning bridges, error detection techniques, and automatic repeat request algorithms; sliding window and reliable/ordered services; and queuing disciplines including FQ and WFQ. Introduces flow control schemes, such as window flow control and leaky bucket rate control schemes, and discusses congestion control and fairness. Requires knowledge of probability theory."
+    "description": "Studies network protocols, focusing on modeling and analysis, and architectures. Introduces modeling concepts, emphasizing queuing theory, including Little's theorem, M/M/1, M/M/m, M/D/1, and M/G/1 queuing systems. Discusses performance evaluation of computer networks including performance metrics, evaluation tools and methodology, simulation techniques, and limitations. Presents the different harmonizing functions needed for communication and efficient operation of computer networks and discusses examples of Ethernet, FDDI, and wireless networks. Covers link layer protocols including HDLC, PPP, and SLIP; packet framing; spanning tree and learning bridges, error detection techniques, and automatic repeat request algorithms; sliding window and reliable/ordered services; and queuing disciplines including FQ and WFQ. Introduces flow control schemes, such as window flow control and leaky bucket rate control schemes, and discusses congestion control and fairness. Requires knowledge of probability theory.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1454,7 +1821,9 @@
       { "term": "202310", "crn": "20247" },
       { "term": "202310", "crn": "20941" }
     ],
-    "description": "Presents the mathematical techniques used for the design and analysis of computer algorithms. Focuses on algorithmic design paradigms and techniques for analyzing the correctness, time, and space complexity of algorithms. Topics may include asymptotic notation, recurrences, loop invariants, Hoare triples, sorting and searching, advanced data structures, lower bounds, hashing, greedy algorithms, dynamic programming, graph algorithms, and NP-completeness."
+    "description": "Presents the mathematical techniques used for the design and analysis of computer algorithms. Focuses on algorithmic design paradigms and techniques for analyzing the correctness, time, and space complexity of algorithms. Topics may include asymptotic notation, recurrences, loop invariants, Hoare triples, sorting and searching, advanced data structures, lower bounds, hashing, greedy algorithms, dynamic programming, graph algorithms, and NP-completeness.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1464,7 +1833,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "39031" }],
-    "description": "Discusses the components of game engines and strategies for their software implementation. Includes graphics management algorithms (animation, scene graph, level of detail); basic artificial intelligence algorithms (search, decision making, sensing); and related algorithmic issues (networking, threading, input processing). Explores the use of data-driven software design. Offers students an opportunity to use a rendering engine and to build and integrate several software components to create a complete game engine. Requires students to work on individual assignments and then develop a project in a team, which requires a report. Offers students an opportunity to learn team/project management; work division; team communication; and the software development cycle of implementation, testing, critique, and further iteration. Requires knowledge of computer graphics, differential calculus, operating systems concepts, and algorithms."
+    "description": "Discusses the components of game engines and strategies for their software implementation. Includes graphics management algorithms (animation, scene graph, level of detail); basic artificial intelligence algorithms (search, decision making, sensing); and related algorithmic issues (networking, threading, input processing). Explores the use of data-driven software design. Offers students an opportunity to use a rendering engine and to build and integrate several software components to create a complete game engine. Requires students to work on individual assignments and then develop a project in a team, which requires a report. Offers students an opportunity to learn team/project management; work division; team communication; and the software development cycle of implementation, testing, critique, and further iteration. Requires knowledge of computer graphics, differential calculus, operating systems concepts, and algorithms.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1474,7 +1845,9 @@
     "credits": 0,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21843" }],
-    "description": "Offers students an applied project setting in which to apply their curricular learning. Working with a sponsor, students refine an applied research topic, perform research, develop recommendations that are shared with a partner sponsor, and create a plan for implementing their recommendations. Seeks to benefit students with a curriculum that supports the development of key business communication skills, project and client management skills, and frameworks for business analysis. Offers students an opportunity to learn from sponsor feedback, review 'lessons learned,' and incorporate suggestions from this review to improve and further develop their career development and professional plan. May be repeated twice."
+    "description": "Offers students an applied project setting in which to apply their curricular learning. Working with a sponsor, students refine an applied research topic, perform research, develop recommendations that are shared with a partner sponsor, and create a plan for implementing their recommendations. Seeks to benefit students with a curriculum that supports the development of key business communication skills, project and client management skills, and frameworks for business analysis. Offers students an opportunity to learn from sponsor feedback, review 'lessons learned,' and incorporate suggestions from this review to improve and further develop their career development and professional plan. May be repeated twice.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1484,7 +1857,9 @@
     "credits": 0,
     "nuPath": [],
     "sections": [{ "term": "202260", "crn": "61531" }],
-    "description": "Offers students an enhanced applied project setting in which to apply their curricular learning. Working with a partner sponsor, students refine an applied research topic, perform research, develop recommendations that are shared with the partner sponsor, and create a plan for implementing their recommendations. Curriculum supports students as they develop key business communication skills, project and client management skills, and frameworks for business analysis. Offers students an opportunity to learn from sponsor feedback, review lessons learned, and incorporate suggestions to improve and further hone their career development and professional plan. Career development opportunities through skill-building workshops, panels, and interview preparation are available. Partner-student interactions, including a culminating project presentation, allow partners to assess student potential for co-op, internship, or other employment opportunities with the partner."
+    "description": "Offers students an enhanced applied project setting in which to apply their curricular learning. Working with a partner sponsor, students refine an applied research topic, perform research, develop recommendations that are shared with the partner sponsor, and create a plan for implementing their recommendations. Curriculum supports students as they develop key business communication skills, project and client management skills, and frameworks for business analysis. Offers students an opportunity to learn from sponsor feedback, review lessons learned, and incorporate suggestions to improve and further hone their career development and professional plan. Career development opportunities through skill-building workshops, panels, and interview preparation are available. Partner-student interactions, including a culminating project presentation, allow partners to assess student potential for co-op, internship, or other employment opportunities with the partner.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1499,7 +1874,9 @@
       { "term": "202240", "crn": "41943" },
       { "term": "202240", "crn": "41956" }
     ],
-    "description": "Focuses on student examining standard computer science material in fresh ways or new computer science material that is not covered in formal courses. May be repeated up to three times."
+    "description": "Focuses on student examining standard computer science material in fresh ways or new computer science material that is not covered in formal courses. May be repeated up to three times.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1516,7 +1893,9 @@
       { "term": "202310", "crn": "12670" },
       { "term": "202310", "crn": "16748" }
     ],
-    "description": "Provides an introduction to the computational modeling of human language, the ongoing effort to create computer programs that can communicate with people in natural language, and current applications of the natural language field, such as automated document classification, intelligent query processing, and information extraction. Topics include computational models of grammar and automatic parsing, statistical language models and the analysis of large text corpuses, natural language semantics and programs that understand language, models of discourse structure, and language use by intelligent agents. Course work includes formal and mathematical analysis of language models, and implementation of working programs that analyze and interpret natural language text."
+    "description": "Provides an introduction to the computational modeling of human language, the ongoing effort to create computer programs that can communicate with people in natural language, and current applications of the natural language field, such as automated document classification, intelligent query processing, and information extraction. Topics include computational models of grammar and automatic parsing, statistical language models and the analysis of large text corpuses, natural language semantics and programs that understand language, models of discourse structure, and language use by intelligent agents. Course work includes formal and mathematical analysis of language models, and implementation of working programs that analyze and interpret natural language text.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1537,7 +1916,13 @@
       { "term": "202310", "crn": "20312" },
       { "term": "202310", "crn": "20937" }
     ],
-    "description": "Provides a broad look at a variety of techniques used in machine learning and data mining, and also examines issues associated with their use. Topics include algorithms for supervised learning including decision tree induction, artificial neural networks, instance-based learning, probabilistic methods, and support vector machines; unsupervised learning; and reinforcement learning. Also covers computational learning theory and other methods for analyzing and measuring the performanceof learning algorithms. Course work includes a programming term project."
+    "description": "Provides a broad look at a variety of techniques used in machine learning and data mining, and also examines issues associated with their use. Topics include algorithms for supervised learning including decision tree induction, artificial neural networks, instance-based learning, probabilistic methods, and support vector machines; unsupervised learning; and reinforcement learning. Also covers computational learning theory and other methods for analyzing and measuring the performanceof learning algorithms. Course work includes a programming term project.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "5800" },
+      "Or",
+      { "subject": "CS", "number": "7800" }
+    ]
   },
   {
     "subject": "CS",
@@ -1553,7 +1938,9 @@
       { "term": "202310", "crn": "19773" },
       { "term": "202310", "crn": "21638" }
     ],
-    "description": "Provides an introduction to information retrieval systems and different approaches to information retrieval. Topics covered include evaluation of information retrieval systems; retrieval, language, and indexing models; file organization; compression; relevance feedback; clustering; distributed retrieval and metasearch; probabilistic approaches to information retrieval; Web retrieval; filtering, collaborative filtering, and recommendation systems; cross-language IR; multimedia IR; and machine learning for information retrieval."
+    "description": "Provides an introduction to information retrieval systems and different approaches to information retrieval. Topics covered include evaluation of information retrieval systems; retrieval, language, and indexing models; file organization; compression; relevance feedback; clustering; distributed retrieval and metasearch; probabilistic approaches to information retrieval; Web retrieval; filtering, collaborative filtering, and recommendation systems; cross-language IR; multimedia IR; and machine learning for information retrieval.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1572,7 +1959,13 @@
       { "term": "202310", "crn": "16581" },
       { "term": "202310", "crn": "20216" }
     ],
-    "description": "Covers various aspects of data mining, including classification, prediction, ensemble methods, association rules, sequence mining, and cluster analysis. The class project involves hands-on practice of mining useful knowledge from a large data set."
+    "description": "Covers various aspects of data mining, including classification, prediction, ensemble methods, association rules, sequence mining, and cluster analysis. The class project involves hands-on practice of mining useful knowledge from a large data set.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "5800" },
+      "Or",
+      { "subject": "CS", "number": "7800" }
+    ]
   },
   {
     "subject": "CS",
@@ -1586,7 +1979,15 @@
       { "term": "202310", "crn": "19790" },
       { "term": "202310", "crn": "20011" }
     ],
-    "description": "Covers big-data analysis techniques that scale out with increasing number of compute nodes, e.g., for cloud computing. Emphasizes approaches for problem and data partitioning that distribute work effectively, while keeping total cost for computation and data transfer low. Studies and analyzes deterministic and random algorithms from a variety of domains, including graphs, data mining, linear algebra, and information retrieval in terms of their cost, scalability, and robustness against skew. Course work emphasizes hands-on programming experience with modern state-of-the-art big-data processing technology. Students who do not meet course prerequisites may seek permission of instructor."
+    "description": "Covers big-data analysis techniques that scale out with increasing number of compute nodes, e.g., for cloud computing. Emphasizes approaches for problem and data partitioning that distribute work effectively, while keeping total cost for computation and data transfer low. Studies and analyzes deterministic and random algorithms from a variety of domains, including graphs, data mining, linear algebra, and information retrieval in terms of their cost, scalability, and robustness against skew. Course work emphasizes hands-on programming experience with modern state-of-the-art big-data processing technology. Students who do not meet course prerequisites may seek permission of instructor.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "5800" },
+      "Or",
+      { "subject": "CS", "number": "7800" },
+      "Or",
+      { "subject": "EECE", "number": "7205" }
+    ]
   },
   {
     "subject": "CS",
@@ -1596,7 +1997,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "19888" }],
-    "description": "Presents an overview of methods for conducting empirical research within computer science. These methods help provide objective answers to questions about the usability, effectiveness, and acceptability of systems. The course covers the basics of the scientific method, building from a survey of objective measures to the fundamentals of hypothesis testing using relatively simple research designs, and on to more advanced research designs and statistical methods. The course also includes a significant amount of fieldwork, spanning the design, conduct, and presentation of small empirical studies."
+    "description": "Presents an overview of methods for conducting empirical research within computer science. These methods help provide objective answers to questions about the usability, effectiveness, and acceptability of systems. The course covers the basics of the scientific method, building from a survey of objective measures to the fundamentals of hypothesis testing using relatively simple research designs, and on to more advanced research designs and statistical methods. The course also includes a significant amount of fieldwork, spanning the design, conduct, and presentation of small empirical studies.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1609,7 +2012,13 @@
       { "term": "202330", "crn": "32074" },
       { "term": "202310", "crn": "16236" }
     ],
-    "description": "Expects each student to write a small compiler. Topics include parser generation, abstract syntax trees, symbol tables, type checking, generation of intermediate code, simple code improvement, register allocation, run-time structures, and code generation."
+    "description": "Expects each student to write a small compiler. Topics include parser generation, abstract syntax trees, symbol tables, type checking, generation of intermediate code, simple code improvement, register allocation, run-time structures, and code generation.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "5400" },
+      "Or",
+      { "subject": "CS", "number": "7400" }
+    ]
   },
   {
     "subject": "CS",
@@ -1628,7 +2037,9 @@
       { "term": "202310", "crn": "19987" },
       { "term": "202240", "crn": "41728" }
     ],
-    "description": "Covers fundamentals of cloud computing, including virtualization and containers, distributed file systems and object stores, infrastructure as a service platforms, open source cloud platforms, key big data platforms, and topics in data center scale systems. Combines classroom material delivered via lectures, readings from literature, student presentations, and a semester-long software project."
+    "description": "Covers fundamentals of cloud computing, including virtualization and containers, distributed file systems and object stores, infrastructure as a service platforms, open source cloud platforms, key big data platforms, and topics in data center scale systems. Combines classroom material delivered via lectures, readings from literature, student presentations, and a semester-long software project.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1645,7 +2056,9 @@
       { "term": "202310", "crn": "20012" },
       { "term": "202310", "crn": "20261" }
     ],
-    "description": "Covers the essential elements of distributed, concurrent systems and builds upon that knowledge with engineering principles and practical experience with state-of-the-art technologies and methods for building scalable systems. Scalability is an essential quality of internet-facing systems and requires specialized skills and knowledge to build systems that scale at low cost."
+    "description": "Covers the essential elements of distributed, concurrent systems and builds upon that knowledge with engineering principles and practical experience with state-of-the-art technologies and methods for building scalable systems. Scalability is an essential quality of internet-facing systems and requires specialized skills and knowledge to build systems that scale at low cost.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1658,7 +2071,9 @@
       { "term": "202310", "crn": "19988" },
       { "term": "202240", "crn": "41729" }
     ],
-    "description": "Challenges conventional wisdom and encourages students to discover ways that security, privacy, and usability can be made synergistic in system design. Usability and security are widely seen as two antagonistic design goals for complex computer systems. Topics include computer forensics, network forensics, user interface design, backups, logging, economic factors affecting adoption of security technology, trust management, and related public policy. Uses case studies such as PGP, S/MIME, and SSL. Introduces basic cryptography and hash function as it is needed. Course work includes analysis of papers, problem sets, and a substantial term project."
+    "description": "Challenges conventional wisdom and encourages students to discover ways that security, privacy, and usability can be made synergistic in system design. Usability and security are widely seen as two antagonistic design goals for complex computer systems. Topics include computer forensics, network forensics, user interface design, backups, logging, economic factors affecting adoption of security technology, trust management, and related public policy. Uses case studies such as PGP, S/MIME, and SSL. Introduces basic cryptography and hash function as it is needed. Course work includes analysis of papers, problem sets, and a substantial term project.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1680,7 +2095,9 @@
       { "term": "202260", "crn": "61642" },
       { "term": "202240", "crn": "41990" }
     ],
-    "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit."
+    "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1713,7 +2130,9 @@
       { "term": "202240", "crn": "41850" },
       { "term": "202240", "crn": "41948" }
     ],
-    "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit."
+    "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1727,7 +2146,9 @@
       { "term": "202310", "crn": "21764" },
       { "term": "202310", "crn": "21804" }
     ],
-    "description": "Provides eligible students with an opportunity for work experience abroad. May be repeated without limit."
+    "description": "Provides eligible students with an opportunity for work experience abroad. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1737,7 +2158,15 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38934" }],
-    "description": "Covers topics in advanced machine learning. Presents materials in the current machine learning literature. Focuses on graphical models, latent variable models, Bayesian inference, and nonparametric Bayesian methods. Seeks to prepare students to do research in machine learning. Expects students to read conference and journal articles, present these articles, and write an individual research paper. CS 7140 and EECE 7397 are cross-listed."
+    "description": "Covers topics in advanced machine learning. Presents materials in the current machine learning literature. Focuses on graphical models, latent variable models, Bayesian inference, and nonparametric Bayesian methods. Seeks to prepare students to do research in machine learning. Expects students to read conference and journal articles, present these articles, and write an individual research paper. CS 7140 and EECE 7397 are cross-listed.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "6140" },
+      "Or",
+      { "subject": "EECE", "number": "7204" },
+      "Or",
+      { "subject": "EECE", "number": "7313" }
+    ]
   },
   {
     "subject": "CS",
@@ -1750,7 +2179,13 @@
       { "term": "202330", "crn": "34387" },
       { "term": "202310", "crn": "19202" }
     ],
-    "description": "Introduces deep learning, including the statistical learning framework, empirical risk minimization, loss function selection, fully connected layers, convolutional layers, pooling layers, batch normalization, multilayer perceptrons, convolutional neural networks, autoencoders, U-nets, residual networks, gradient descent, stochastic gradient descent, backpropagation, autograd, visualization of neural network features, robustness and adversarial examples, interpretability, continual learning, and applications in computer vision and natural language processing. Assumes students already have a basic knowledge of machine learning, optimization, linear algebra, and statistics."
+    "description": "Introduces deep learning, including the statistical learning framework, empirical risk minimization, loss function selection, fully connected layers, convolutional layers, pooling layers, batch normalization, multilayer perceptrons, convolutional neural networks, autoencoders, U-nets, residual networks, gradient descent, stochastic gradient descent, backpropagation, autograd, visualization of neural network features, robustness and adversarial examples, interpretability, continual learning, and applications in computer vision and natural language processing. Assumes students already have a basic knowledge of machine learning, optimization, linear algebra, and statistics.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "6140" },
+      "Or",
+      { "subject": "DS", "number": "5220" }
+    ]
   },
   {
     "subject": "CS",
@@ -1765,7 +2200,9 @@
       { "term": "202310", "crn": "20047" },
       { "term": "202310", "crn": "20230" }
     ],
-    "description": "Offers various topics on artificial intelligence. May be repeated up to two times."
+    "description": "Offers various topics on artificial intelligence. May be repeated up to two times.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1775,7 +2212,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "19203" }],
-    "description": "Introduces concepts in applied statistics. Covers frequentist and Bayesian characterization of uncertainty for continuous and categorical data, principles of experimental design, and methods of causal inference. Discusses the methodological foundations, as well as issues of practical implementation and use."
+    "description": "Introduces concepts in applied statistics. Covers frequentist and Bayesian characterization of uncertainty for continuous and categorical data, principles of experimental design, and methods of causal inference. Discusses the methodological foundations, as well as issues of practical implementation and use.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1785,7 +2224,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38937" }],
-    "description": "Covers the algorithms, core principles, and foundational concepts for managing data at scale. Topics include data models, query languages, query execution and optimization, complexity of query execution and query resilience, data stream processing, parallel data processing, transactions, linear vs. relational algebra, factorizations, and uncertainty in logic. Requires standard CS knowledge of algorithms and hardness (e.g., a typical undergraduate class based on a standard algorithms textbook such as Ericson; Cormen, Leiserson, Rivest,and Stein; or Dasgupta, Papadimitriou, and Vazirani). Offers students an opportunity to gain hands-on experience through smaller assignments and a project. The project is flexible to allow students to explore scalable data management and analysis aspects related to their PhD research."
+    "description": "Covers the algorithms, core principles, and foundational concepts for managing data at scale. Topics include data models, query languages, query execution and optimization, complexity of query execution and query resilience, data stream processing, parallel data processing, transactions, linear vs. relational algebra, factorizations, and uncertainty in logic. Requires standard CS knowledge of algorithms and hardness (e.g., a typical undergraduate class based on a standard algorithms textbook such as Ericson; Cormen, Leiserson, Rivest,and Stein; or Dasgupta, Papadimitriou, and Vazirani). Offers students an opportunity to gain hands-on experience through smaller assignments and a project. The project is flexible to allow students to explore scalable data management and analysis aspects related to their PhD research.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1800,7 +2241,9 @@
       { "term": "202310", "crn": "15420" },
       { "term": "202310", "crn": "19808" }
     ],
-    "description": "Offers special topics in data science, including machine learning, statistics, data mining, parallel and distributed data analysis, database systems, information retrieval, knowledge representation, information visualization, natural language processing, computational biology and bioinformatics, computational social science, digital humanities, health informatics, business, and predictive analytics. May be repeated once for up to 8 total credits."
+    "description": "Offers special topics in data science, including machine learning, statistics, data mining, parallel and distributed data analysis, database systems, information retrieval, knowledge representation, information visualization, natural language processing, computational biology and bioinformatics, computational social science, digital humanities, health informatics, business, and predictive analytics. May be repeated once for up to 8 total credits.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1814,7 +2257,9 @@
       { "term": "202330", "crn": "36696" },
       { "term": "202310", "crn": "20650" }
     ],
-    "description": "Offers various topics in data visualization. May be repeated once."
+    "description": "Offers various topics in data visualization. May be repeated once.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1824,7 +2269,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38938" }],
-    "description": "Introduces concepts related to human subject studies for human computer interaction and personal health informatics. Discusses the methodological foundations, as well as issues of practical implementation and use. Provides an overview of the most common experimental designs used in these fields, and how studies should be proposed, conducted, analyzed, and documented for publication. Covers qualitative methods, including interviewing and focus groups, along with approaches to inductive qualitative data analysis. Methods discussed in the course are useful in any area of science that involves the application of the scientific method to situations involving people interacting with computational artifacts or systems, including observation, hypothesis formation, measurement, and descriptive and inferential statistical analyses."
+    "description": "Introduces concepts related to human subject studies for human computer interaction and personal health informatics. Discusses the methodological foundations, as well as issues of practical implementation and use. Provides an overview of the most common experimental designs used in these fields, and how studies should be proposed, conducted, analyzed, and documented for publication. Covers qualitative methods, including interviewing and focus groups, along with approaches to inductive qualitative data analysis. Methods discussed in the course are useful in any area of science that involves the application of the scientific method to situations involving people interacting with computational artifacts or systems, including observation, hypothesis formation, measurement, and descriptive and inferential statistical analyses.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1834,7 +2281,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "19204" }],
-    "description": "Covers the foundations of human abilities, computational artifacts, design, and evaluation. Human computer interaction concerns the design and evaluation of software based on a deep understanding of how humans interact with computers, devices, and sensors. The field merges theories from psychology and computer science, using methods from AI and design. Introduces cognitive, perceptual, and affective theories and theories of individual differences that allow us to design and develop better computer software and systems. Also covers research methods for designing and evaluating computer software systems. Topics discussed in the context of next-generation interaction modalities include sensors, haptics, wearables, and performative interfaces. Students who do not meet course restrictions may seek permission of instructor."
+    "description": "Covers the foundations of human abilities, computational artifacts, design, and evaluation. Human computer interaction concerns the design and evaluation of software based on a deep understanding of how humans interact with computers, devices, and sensors. The field merges theories from psychology and computer science, using methods from AI and design. Introduces cognitive, perceptual, and affective theories and theories of individual differences that allow us to design and develop better computer software and systems. Also covers research methods for designing and evaluating computer software systems. Topics discussed in the context of next-generation interaction modalities include sensors, haptics, wearables, and performative interfaces. Students who do not meet course restrictions may seek permission of instructor.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1844,7 +2293,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202260", "crn": "61306" }],
-    "description": "Offers various topics on graphics/image processing. May be repeated up to two times."
+    "description": "Offers various topics on graphics/image processing. May be repeated up to two times.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1854,7 +2305,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38939" }],
-    "description": "Offers various topics in human-centered computing."
+    "description": "Offers various topics in human-centered computing.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1864,7 +2317,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21334" }],
-    "description": "Description: Designing interactive, virtual worlds (such as video game environments and virtual meeting spaces) is a multidisciplinary endeavor requiring an understanding of interaction design, user experience, and programming. A plethora of programming languages and authoring tools have been created to lower the barrier to entry and increase the expressive capability of virtual world designers, in media ranging from text to 2D graphics to 3D virtual reality, separating the complexities of the game engine from the higher-level “scripting” of objects and behaviors. Languages like Inform and Ink help authors craft text-based interactions, while tools like PuzzleScript, Kodu, and GameMaker embed custom languages for scripting object behavior in 2D and 3D simulations. In this class, students will gain hands-on experimentation with these languages and tools through short weekly assignments, as well as read research papers that describe and evaluate their designs, which will be discussed during class meetings. In addition to learning to work with existing tools and documentation, students will learn to identify the affordances and constraints, edit and contribute to documentation, and thoughtfully critique these tools. The final project will consist of a deep dive into a tool of each students’ choosing, culminating in a final presentation."
+    "description": "Description: Designing interactive, virtual worlds (such as video game environments and virtual meeting spaces) is a multidisciplinary endeavor requiring an understanding of interaction design, user experience, and programming. A plethora of programming languages and authoring tools have been created to lower the barrier to entry and increase the expressive capability of virtual world designers, in media ranging from text to 2D graphics to 3D virtual reality, separating the complexities of the game engine from the higher-level “scripting” of objects and behaviors. Languages like Inform and Ink help authors craft text-based interactions, while tools like PuzzleScript, Kodu, and GameMaker embed custom languages for scripting object behavior in 2D and 3D simulations. In this class, students will gain hands-on experimentation with these languages and tools through short weekly assignments, as well as read research papers that describe and evaluate their designs, which will be discussed during class meetings. In addition to learning to work with existing tools and documentation, students will learn to identify the affordances and constraints, edit and contribute to documentation, and thoughtfully critique these tools. The final project will consist of a deep dive into a tool of each students’ choosing, culminating in a final presentation.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1874,7 +2329,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "17228" }],
-    "description": "Offers various topics in formal methods. May be repeated without limit."
+    "description": "Offers various topics in formal methods. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1884,7 +2341,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38940" }],
-    "description": "Offers various topics on software engineering. May be repeated up to two times."
+    "description": "Offers various topics on software engineering. May be repeated up to two times.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1894,7 +2353,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38941" }],
-    "description": "Studies the structure, components, design, implementation, and internal operation of computer systems, focusing on the operating system level. Reviews computer hardware and architecture including the arithmetic and logic unit, and the control unit. Covers current operating system components and construction techniques including the memory and memory controller, I/O device management, device drivers, memory management, file system structures, and the user interface. Discusses distributed operating systems, real-time systems, and addresses concurrent processes, scheduling, interprocess communication, and synchronization. Discusses relevant distributed algorithms. Also covers design and analysis techniques for desirable properties in computer systems including functional correctness (in the absence of faults), performance and throughput, fault-tolerance and reliability, real-time response, security, and quality of service. Draws examples from real operating systems. Emphasizes abstraction, while programming exercises are used to facilitate the understanding of concepts."
+    "description": "Studies the structure, components, design, implementation, and internal operation of computer systems, focusing on the operating system level. Reviews computer hardware and architecture including the arithmetic and logic unit, and the control unit. Covers current operating system components and construction techniques including the memory and memory controller, I/O device management, device drivers, memory management, file system structures, and the user interface. Discusses distributed operating systems, real-time systems, and addresses concurrent processes, scheduling, interprocess communication, and synchronization. Discusses relevant distributed algorithms. Also covers design and analysis techniques for desirable properties in computer systems including functional correctness (in the absence of faults), performance and throughput, fault-tolerance and reliability, real-time response, security, and quality of service. Draws examples from real operating systems. Emphasizes abstraction, while programming exercises are used to facilitate the understanding of concepts.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1904,7 +2365,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "19205" }],
-    "description": "Covers foundational concepts in the design and implementation of efficient and reliable distributed computing systems. Covers internet communication protocols, fault-tolerant computing, synchronization protocols, synchronous and asynchronous computing, dynamic group communication systems, load balancing, Byzantine models, distributed hash tables, distributed file systems, and application of foundational concepts to modern distributed systems in the field. Requires knowledge of operating systems; e.g., an undergraduate course in Systems and Networks, Computer Systems, or Networks and Distributed systems."
+    "description": "Covers foundational concepts in the design and implementation of efficient and reliable distributed computing systems. Covers internet communication protocols, fault-tolerant computing, synchronization protocols, synchronous and asynchronous computing, dynamic group communication systems, load balancing, Byzantine models, distributed hash tables, distributed file systems, and application of foundational concepts to modern distributed systems in the field. Requires knowledge of operating systems; e.g., an undergraduate course in Systems and Networks, Computer Systems, or Networks and Distributed systems.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1914,7 +2377,15 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "19206" }],
-    "description": "Deep learning (or neural networks) is popular---in fact, in my opinion---fiery. It improves and sometimes revolutionizes many fields, for example, CV, NLP, and biology, to name a few. If you work in systems (like OSes, databases, and networked systems) and are now wondering, how about systems? This is the seminar for you.\nThis seminar studies neural networks for systems (NN4Sys). NN4Sys is emerging and has potential. People have made many proposals for NN4Sys in the past five years. Some are revolutionary (my opinion), some are useful, and some are failed attempts (of course).\nIn this seminar, we will study two papers a week. One is a systems paper (could be a paper in the 1980s), and the other is a recent paper using neural networks to solve the same or a similar problem. One example pair is Masstree[1] and Learned Index[2]. We will touch at least operating systems (SOSP, OSDI), databases (SIGMOD, VLDB), and networked systems (SIGCOMM, NSDI).\nNote that this is a seminar in systems. So, it is expected that you to have solid systems background and know how to program. It is not expected for you to understand machine learning or neural networks (in fact, you will learn the basics of neural networks from this seminar). If you're interested, join us. \n[1] Mao, Yandong, Eddie Kohler, and Robert Tappan Morris. \"Cache craftiness for fast multicore key-value storage.\". EuroSys'12.\n[2] Kraska, Tim, Alex Beutel, Ed H. Chi, Jeffrey Dean, and Neoklis Polyzotis. \"The case for learned index structures.\" SIGMOD'18."
+    "description": "Deep learning (or neural networks) is popular---in fact, in my opinion---fiery. It improves and sometimes revolutionizes many fields, for example, CV, NLP, and biology, to name a few. If you work in systems (like OSes, databases, and networked systems) and are now wondering, how about systems? This is the seminar for you.\nThis seminar studies neural networks for systems (NN4Sys). NN4Sys is emerging and has potential. People have made many proposals for NN4Sys in the past five years. Some are revolutionary (my opinion), some are useful, and some are failed attempts (of course).\nIn this seminar, we will study two papers a week. One is a systems paper (could be a paper in the 1980s), and the other is a recent paper using neural networks to solve the same or a similar problem. One example pair is Masstree[1] and Learned Index[2]. We will touch at least operating systems (SOSP, OSDI), databases (SIGMOD, VLDB), and networked systems (SIGCOMM, NSDI).\nNote that this is a seminar in systems. So, it is expected that you to have solid systems background and know how to program. It is not expected for you to understand machine learning or neural networks (in fact, you will learn the basics of neural networks from this seminar). If you're interested, join us. \n[1] Mao, Yandong, Eddie Kohler, and Robert Tappan Morris. \"Cache craftiness for fast multicore key-value storage.\". EuroSys'12.\n[2] Kraska, Tim, Alex Beutel, Ed H. Chi, Jeffrey Dean, and Neoklis Polyzotis. \"The case for learned index structures.\" SIGMOD'18.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "5600" },
+      "Or",
+      { "subject": "CS", "number": "5600" },
+      "Or",
+      { "subject": "CS", "number": "7600" }
+    ]
   },
   {
     "subject": "CS",
@@ -1938,7 +2409,9 @@
       { "term": "202310", "crn": "21754" },
       { "term": "202310", "crn": "21836" }
     ],
-    "description": "Exposes students to research in the fields of computer sciences. Explores how the scientific method is applied to these fields and covers the breadth of subareas of specialty that exist. Offers students an opportunity to practice how to locate and read scientific literature in different subareas."
+    "description": "Exposes students to research in the fields of computer sciences. Explores how the scientific method is applied to these fields and covers the breadth of subareas of specialty that exist. Offers students an opportunity to practice how to locate and read scientific literature in different subareas.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1948,7 +2421,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "19207" }],
-    "description": "Presents advanced mathematical techniques for designing and analyzing computer algorithms. Reviews some of the material covered in CS 5800 and then covers advanced topics. Emphasizes theoretical underpinnings of techniques used to solve problems arising in diverse domains. Topics include asymptotic analysis, advanced data structures, dynamic programming, greedy algorithms and matroid theory, amortized analysis, randomization, string matching, algebraic algorithms, and approximation algorithms. Introduces Turing machines, P and NP classes, polynomial-time reducibility, and NP completeness."
+    "description": "Presents advanced mathematical techniques for designing and analyzing computer algorithms. Reviews some of the material covered in CS 5800 and then covers advanced topics. Emphasizes theoretical underpinnings of techniques used to solve problems arising in diverse domains. Topics include asymptotic analysis, advanced data structures, dynamic programming, greedy algorithms and matroid theory, amortized analysis, randomization, string matching, algebraic algorithms, and approximation algorithms. Introduces Turing machines, P and NP classes, polynomial-time reducibility, and NP completeness.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1958,7 +2433,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38942" }],
-    "description": "Covers core topics in computational complexity, including NP-completeness, time and space complexity, polynomial hierarchy, circuit complexity, probabilistic computation, interactive proofs, and hardness of approximation. Moves to more advanced topics that may include lower bounds, pseudorandomness, cryptography, and communication complexity."
+    "description": "Covers core topics in computational complexity, including NP-completeness, time and space complexity, polynomial hierarchy, circuit complexity, probabilistic computation, interactive proofs, and hardness of approximation. Moves to more advanced topics that may include lower bounds, pseudorandomness, cryptography, and communication complexity.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CS", "number": "7800" }]
   },
   {
     "subject": "CS",
@@ -1968,7 +2445,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "20928" }],
-    "description": "This class will meet in WVH 366.\n\nCourse overview: The emergence of massive datasets has motivated a rapidly growing interest in algorithms that can process huge amounts of data. When working with such massive inputs, inherent assumptions of traditional algorithms (such as the possibility of reading or storing the whole input with a single machine) no longer hold. We thus need a new paradigm for the design and analysis of algorithms. This is precisely the focus of sublinear algorithms. In this course, we will study various algorithms whose time, space, or communication are much smaller than the input size. Problems that we study will include maximum matchings, graph connectivity, minimum spanning trees, frequency estimation, independent sets, graph coloring, and clustering. We study these problems across various models of sublinear algorithms, including sublinear time algorithms, streaming algorithms, and massively parallel computation (MPC).\nTopics (tentative list):\n•\tBasic probabilistic tools\n•\tSublinear time algorithms for average degree and connected components\n•\tSublinear time algorithms for maximal independent set and maximum matching via randomized greedy\n•\tStreaming algorithms: frequency moments estimation\n•\tStreaming lower bounds via communication complexity\n•\tMassively parallel computation (MPC): introduction, space-regimes, and simple tools\n•\tMPC algorithms for maximum matching\n•\tMPC algorithms for graph connectivity and minimum spanning trees\n•\tAGM linear sketching\n•\tSublinear algorithms for graph coloring\n•\tSublinear algorithms for cut problems\n•\tSublinear algorithms for clustering problems"
+    "description": "This class will meet in WVH 366.\n\nCourse overview: The emergence of massive datasets has motivated a rapidly growing interest in algorithms that can process huge amounts of data. When working with such massive inputs, inherent assumptions of traditional algorithms (such as the possibility of reading or storing the whole input with a single machine) no longer hold. We thus need a new paradigm for the design and analysis of algorithms. This is precisely the focus of sublinear algorithms. In this course, we will study various algorithms whose time, space, or communication are much smaller than the input size. Problems that we study will include maximum matchings, graph connectivity, minimum spanning trees, frequency estimation, independent sets, graph coloring, and clustering. We study these problems across various models of sublinear algorithms, including sublinear time algorithms, streaming algorithms, and massively parallel computation (MPC).\nTopics (tentative list):\n•\tBasic probabilistic tools\n•\tSublinear time algorithms for average degree and connected components\n•\tSublinear time algorithms for maximal independent set and maximum matching via randomized greedy\n•\tStreaming algorithms: frequency moments estimation\n•\tStreaming lower bounds via communication complexity\n•\tMassively parallel computation (MPC): introduction, space-regimes, and simple tools\n•\tMPC algorithms for maximum matching\n•\tMPC algorithms for graph connectivity and minimum spanning trees\n•\tAGM linear sketching\n•\tSublinear algorithms for graph coloring\n•\tSublinear algorithms for cut problems\n•\tSublinear algorithms for clustering problems",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1978,7 +2457,9 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "20758" }],
-    "description": "Introduces the principles and practice of technical communication in computer science and related fields. Emphasizes concepts such as genre, structure, argument, and audience expectations. Focuses on the story of scientific research and how it manifests in written genre like the abstract, research statement, and conference paper, with a portion of the course focused on presentation design and delivery."
+    "description": "Introduces the principles and practice of technical communication in computer science and related fields. Emphasizes concepts such as genre, structure, argument, and audience expectations. Focuses on the story of scientific research and how it manifests in written genre like the abstract, research statement, and conference paper, with a portion of the course focused on presentation design and delivery.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -1992,7 +2473,17 @@
       { "term": "202310", "crn": "20313" },
       { "term": "202310", "crn": "21664" }
     ],
-    "description": "Offers students a culminating experience to demonstrate proficiency in key concepts learned throughout their programs in the core and elective courses. Designed to reinforce concepts in ethics and basic concepts in research, beyond an emphasis on the technical principles learned throughout the program."
+    "description": "Offers students a culminating experience to demonstrate proficiency in key concepts learned throughout their programs in the core and elective courses. Designed to reinforce concepts in ethics and basic concepts in research, beyond an emphasis on the technical principles learned throughout the program.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "CS", "number": "5004" },
+      "Or",
+      { "subject": "CS", "number": "5010" },
+      ")",
+      "And",
+      { "subject": "CS", "number": "5800" }
+    ]
   },
   {
     "subject": "CS",
@@ -2009,7 +2500,9 @@
       { "term": "202310", "crn": "21798" },
       { "term": "202310", "crn": "21821" }
     ],
-    "description": "Offers selected work with the agreement of a project supervisor."
+    "description": "Offers selected work with the agreement of a project supervisor.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -2019,7 +2512,9 @@
     "credits": 0,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21651" }],
-    "description": "Offers continued thesis work conducted under the supervision of a departmental faculty."
+    "description": "Offers continued thesis work conducted under the supervision of a departmental faculty.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CS", "number": "7990" }]
   },
   {
     "subject": "CS",
@@ -2043,7 +2538,9 @@
       { "term": "202240", "crn": "41912" },
       { "term": "202240", "crn": "41977" }
     ],
-    "description": "Offers selected work with the agreement of a project supervisor. May be repeated once."
+    "description": "Offers selected work with the agreement of a project supervisor. May be repeated once.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -2069,7 +2566,9 @@
       { "term": "202260", "crn": "61655" },
       { "term": "202240", "crn": "41960" }
     ],
-    "description": "Provides an opportunity for all doctoral students to engage in industry research in the area of their dissertation. Doctoral students register for this course before starting their off-campus internships. May be repeated without limit."
+    "description": "Provides an opportunity for all doctoral students to engage in industry research in the area of their dissertation. Doctoral students register for this course before starting their off-campus internships. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -2174,7 +2673,9 @@
       { "term": "202240", "crn": "41810" },
       { "term": "202240", "crn": "41995" }
     ],
-    "description": "Offers selected readings under the supervision of a faculty member. May be repeated without limit."
+    "description": "Offers selected readings under the supervision of a faculty member. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -2188,7 +2689,9 @@
       { "term": "202240", "crn": "41959" },
       { "term": "202240", "crn": "41973" }
     ],
-    "description": "Offers an opportunity to conduct full-time research under faculty supervision. May be repeated without limit."
+    "description": "Offers an opportunity to conduct full-time research under faculty supervision. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CS",
@@ -2220,7 +2723,9 @@
       { "term": "202330", "crn": "37773" },
       { "term": "202330", "crn": "37912" }
     ],
-    "description": "Offers selected work with the agreement of a thesis supervisor."
+    "description": "Offers selected work with the agreement of a thesis supervisor.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CS", "number": "9000" }]
   },
   {
     "subject": "CS",
@@ -2260,7 +2765,9 @@
       { "term": "202240", "crn": "41804" },
       { "term": "202240", "crn": "41916" }
     ],
-    "description": "Offers dissertation supervision by members of the department."
+    "description": "Offers dissertation supervision by members of the department.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "CS", "number": "9990" }]
   },
   {
     "subject": "CS",
@@ -2309,6 +2816,12 @@
       { "term": "202260", "crn": "61411" },
       { "term": "202240", "crn": "41738" }
     ],
-    "description": "Continues work with the agreement of a thesis supervisor."
+    "description": "Continues work with the agreement of a thesis supervisor.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "9991" },
+      "Or",
+      "Dissertation Check"
+    ]
   }
 ]

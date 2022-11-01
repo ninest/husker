@@ -95,7 +95,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "36647" }],
-    "description": "Offers students an opportunity to obtain foundational knowledge of team performance and learn the practical application of principles to enable them to develop practical skills in managing engineering and other technical team development initiatives. Teaming is a critical technique used to make a positive impact on personal and organizational performance and is essential for engineering and other technical disciplines. Designed to help students understand why and how team skills are critical to organizational success, learn how to use team skills to more effectively achieve engineering and technical goals as well as to organize and influence others to work more effectively, and to apply cognition to develop higher-performing teams."
+    "description": "Offers students an opportunity to obtain foundational knowledge of team performance and learn the practical application of principles to enable them to develop practical skills in managing engineering and other technical team development initiatives. Teaming is a critical technique used to make a positive impact on personal and organizational performance and is essential for engineering and other technical disciplines. Designed to help students understand why and how team skills are critical to organizational success, learn how to use team skills to more effectively achieve engineering and technical goals as well as to organize and influence others to work more effectively, and to apply cognition to develop higher-performing teams.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "EMGT",
@@ -122,7 +124,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "33959" }],
-    "description": "Offers theoretical or experimental work under individual faculty supervision."
+    "description": "Offers theoretical or experimental work under individual faculty supervision.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "EMGT",
@@ -132,6 +136,8 @@
     "credits": 1,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "33534" }],
-    "description": "Offers theoretical or experimental work under individual faculty supervision. May be repeated without limit."
+    "description": "Offers theoretical or experimental work under individual faculty supervision. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]

@@ -31,7 +31,9 @@
     "credits": 4,
     "nuPath": ["AD", "ND"],
     "sections": [{ "term": "202330", "crn": "33766" }],
-    "description": "Introduces students to the foundational principles of molecular ecology with an emphasis on applications of high-throughput sequencing techniques to answer questions in ecology and evolutionary biology. Covers foundational topics in ecological and evolutionary genomics (central dogma, structure of nucleic acids, genetic variation, tools in molecular ecology, understanding genomes, and genomics). Practical skills development includes clean technique and proper bench skills; basic command line programming; understanding, quantifying, and analyzing sequence variation; and visualizing genomic data for formal scientific presentations."
+    "description": "Introduces students to the foundational principles of molecular ecology with an emphasis on applications of high-throughput sequencing techniques to answer questions in ecology and evolutionary biology. Covers foundational topics in ecological and evolutionary genomics (central dogma, structure of nucleic acids, genetic variation, tools in molecular ecology, understanding genomes, and genomics). Practical skills development includes clean technique and proper bench skills; basic command line programming; understanding, quantifying, and analyzing sequence variation; and visualizing genomic data for formal scientific presentations.",
+    "coreqs": [{ "number": "1106" }],
+    "prereqs": []
   },
   {
     "subject": "EEMB",
@@ -44,7 +46,9 @@
       { "term": "202330", "crn": "33767" },
       { "term": "202330", "crn": "35808" }
     ],
-    "description": "Accompanies EEMB 1105. Covers topics from the course through various experiments. Focuses on providing firsthand experience using tools from molecular ecology to test ecological and/or evolutionary hypotheses."
+    "description": "Accompanies EEMB 1105. Covers topics from the course through various experiments. Focuses on providing firsthand experience using tools from molecular ecology to test ecological and/or evolutionary hypotheses.",
+    "coreqs": [{ "number": "1105" }],
+    "prereqs": []
   },
   {
     "subject": "EEMB",
@@ -82,18 +86,12 @@
       { "term": "202310", "crn": "20735" }
     ],
     "description": "Offers students an opportunity to learn about the environmental and biological processes that control the distribution and abundance of species and controlling factors that operate on individuals, populations, and communities. The lecture and laboratory introduce a set of generalizable concepts that are of fundamental importance to plant and animal life on the land and in the sea and provide hands-on experiential learning that reinforce concepts covered in lecture. Offers students an opportunity to become proficient in the following: (a) understanding research results the primary literature; (b) conducting a research experiment; (c) interpreting the results of in-class research; (d) communicating results as manuscript.",
-    "coreqs": [
-      { "number": "2303" },
-      { "number": "2303" },
-      { "number": "2303" },
-      { "number": "2303" },
-      { "number": "2303" },
-      { "number": "2303" },
-      { "number": "2303" },
-      { "number": "2303" },
-      { "number": "2303" }
-    ],
-    "prereqs": []
+    "coreqs": [{ "number": "2303" }],
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
   },
   {
     "subject": "EEMB",
@@ -116,129 +114,7 @@
       { "term": "202310", "crn": "20736" }
     ],
     "description": "Accompanies EEMB 2302. Covers topics from the course through various experiments.",
-    "coreqs": [
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" },
-      { "number": "2302" }
-    ],
+    "coreqs": [{ "number": "2302" }],
     "prereqs": []
   },
   {
@@ -256,7 +132,13 @@
     ],
     "description": "Introduces evolutionary thinking, including contemporary examples of evolution. To understand the evolution of Charles Darwin's “endless forms most beautiful,” the course adopts an integrative approach that includes information from ecology, genetics, molecular biology, biogeography, and paleobiology. Considers mechanisms of evolutionary change—how does it happen? Examines adaptation, the process by which attributes of an organism change to enhance fitness and the evolutionary history of life on our planet—what was the first living thing, how does speciation occur, what have we learned about evolution of life in the distant past, and how did humans evolve. Includes student presentations and analysis of scientific literature.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "BIOL", "number": "1107" },
+      "Or",
+      { "subject": "BIOL", "number": "1111" },
+      "Or",
+      "Or"
+    ]
   },
   {
     "subject": "EEMB",
@@ -266,7 +148,28 @@
     "credits": 4,
     "nuPath": ["ND", "WI"],
     "sections": [{ "term": "202330", "crn": "35810" }],
-    "description": "Examines biological aspects of natural ocean ecosystems and the physical processes that regulate them. Covers distributions, abundances, and interactions of marine organisms; interactions between organisms and the transformation and flux of energy and matter in marine ecosystems; and aspects of physiology related to marine species distributions, abundances, and roles. Students generate, evaluate, discuss, and present data from primary research and apply their knowledge of the scientific method and biological concepts through the creation of a written grant proposal."
+    "description": "Examines biological aspects of natural ocean ecosystems and the physical processes that regulate them. Covers distributions, abundances, and interactions of marine organisms; interactions between organisms and the transformation and flux of energy and matter in marine ecosystems; and aspects of physiology related to marine species distributions, abundances, and roles. Students generate, evaluate, discuss, and present data from primary research and apply their knowledge of the scientific method and biological concepts through the creation of a written grant proposal.",
+    "coreqs": [{ "number": "2701" }],
+    "prereqs": [
+      "(",
+      { "subject": "BIOL", "number": "1107" },
+      "Or",
+      { "subject": "BIOL", "number": "1111" },
+      "Or",
+      { "subject": "BIOL", "number": "1115" },
+      "Or",
+      ")",
+      "And",
+      "(",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      ")"
+    ]
   },
   {
     "subject": "EEMB",
@@ -280,7 +183,9 @@
       { "term": "202330", "crn": "35812" },
       { "term": "202330", "crn": "35813" }
     ],
-    "description": "Accompanies EEMB 2700. Covers topics from the lecture course through discussions and experiments."
+    "description": "Accompanies EEMB 2700. Covers topics from the lecture course through discussions and experiments.",
+    "coreqs": [{ "number": "2700" }],
+    "prereqs": []
   },
   {
     "subject": "EEMB",
@@ -311,7 +216,18 @@
     "credits": 4,
     "nuPath": ["WI"],
     "sections": [{ "term": "202330", "crn": "38330" }],
-    "description": "Explores conservation biology, an interdisciplinary science that focuses on conservation of biological diversity at multiple levels. Emphasizes the causes and consequences of biodiversity loss and demonstrates how ecological and evolutionary principles are applied to conservation problems. Covers sustainability; climate change; introduced species; conservation of threatened and endangered species; and pollution, disease, and habitat restoration using examples from marine, aquatic, and terrestrial systems. Offers students an opportunity to read, discuss, evaluate, and present data from primary research through written assignments and oral debates and to apply this knowledge to conservation issues. Emphasizes critical thinking, problem solving, and recognizing multiple perspectives."
+    "description": "Explores conservation biology, an interdisciplinary science that focuses on conservation of biological diversity at multiple levels. Emphasizes the causes and consequences of biodiversity loss and demonstrates how ecological and evolutionary principles are applied to conservation problems. Covers sustainability; climate change; introduced species; conservation of threatened and endangered species; and pollution, disease, and habitat restoration using examples from marine, aquatic, and terrestrial systems. Offers students an opportunity to read, discuss, evaluate, and present data from primary research through written assignments and oral debates and to apply this knowledge to conservation issues. Emphasizes critical thinking, problem solving, and recognizing multiple perspectives.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "BIOL", "number": "1107" },
+      "Or",
+      { "subject": "BIOL", "number": "1111" },
+      "Or",
+      { "subject": "BIOL", "number": "1115" },
+      "Or",
+      "Or",
+      "Or"
+    ]
   },
   {
     "subject": "EEMB",
@@ -343,7 +259,16 @@
     "credits": 4,
     "nuPath": ["AD", "ND"],
     "sections": [{ "term": "202330", "crn": "35814" }],
-    "description": "Covers the fundamentals of disease ecology and evolution. Focuses on how disease can impact the physiology of organisms and how this can, in turn, alter communities and ecosystems. Topics include mathematical theory on host-pathogen interactions; empirical studies of human, wildlife, insect, and plant host populations; emerging infectious diseases; effects on host behavior; host-parasite coevolution; multihost and multipathogen systems; and anthropogenic effects on disease. Includes writing exercises, with a special emphasis on critical thinking and problem solving."
+    "description": "Covers the fundamentals of disease ecology and evolution. Focuses on how disease can impact the physiology of organisms and how this can, in turn, alter communities and ecosystems. Topics include mathematical theory on host-pathogen interactions; empirical studies of human, wildlife, insect, and plant host populations; emerging infectious diseases; effects on host behavior; host-parasite coevolution; multihost and multipathogen systems; and anthropogenic effects on disease. Includes writing exercises, with a special emphasis on critical thinking and problem solving.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "BIOL", "number": "1107" },
+      "Or",
+      { "subject": "BIOL", "number": "1111" },
+      "Or",
+      "Or",
+      "Or"
+    ]
   },
   {
     "subject": "EEMB",
@@ -353,7 +278,9 @@
     "credits": 4,
     "nuPath": ["AD", "ND"],
     "sections": [{ "term": "202330", "crn": "35815" }],
-    "description": "Focuses on wildlife ecology and management, with an emphasis on terrestrial species. Introduces habitat use, behavior, wildlife conservation, parasites and pathogens, wildlife sampling, wildlife management, food and nutrition, population viability, and conservation genetics. Offers students an opportunity to engage in analyzing primary literature, collection, interpretation, and wildlife data and using basic mathematical models."
+    "description": "Focuses on wildlife ecology and management, with an emphasis on terrestrial species. Introduces habitat use, behavior, wildlife conservation, parasites and pathogens, wildlife sampling, wildlife management, food and nutrition, population viability, and conservation genetics. Offers students an opportunity to engage in analyzing primary literature, collection, interpretation, and wildlife data and using basic mathematical models.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "EEMB",
@@ -365,7 +292,12 @@
     "sections": [{ "term": "202310", "crn": "19340" }],
     "description": "Covers the fundamental principles of animal behavior by focusing on the physiological, ecological, and genetic factors that promote the evolution of diverse behavioral responses in the animal kingdom. Offers students an opportunity to become critical thinkers and readers through discussion of the how and why animals evolve behaviors that appear to increase and/or decrease their fitness.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "BIOL", "number": "1113" },
+      "Or",
+      { "subject": "BIOL", "number": "2299" },
+      "Or"
+    ]
   },
   {
     "subject": "EEMB",
@@ -375,7 +307,16 @@
     "credits": 4,
     "nuPath": ["ND"],
     "sections": [{ "term": "202330", "crn": "38331" }],
-    "description": "Topics include ecosystem processes, spatial patterns, disturbance, species distributions, invasive species, and habitat loss. Offers students an opportunity to participate in activities in which they look at and interpret spatial data. Course format includes group work, analyzing the scientific literature, and in-class activities."
+    "description": "Topics include ecosystem processes, spatial patterns, disturbance, species distributions, invasive species, and habitat loss. Offers students an opportunity to participate in activities in which they look at and interpret spatial data. Course format includes group work, analyzing the scientific literature, and in-class activities.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "BIOL", "number": "1107" },
+      "Or",
+      { "subject": "BIOL", "number": "1111" },
+      "Or",
+      "Or",
+      "Or"
+    ]
   },
   {
     "subject": "EEMB",
@@ -385,7 +326,31 @@
     "credits": 4,
     "nuPath": ["WI"],
     "sections": [{ "term": "202330", "crn": "38332" }],
-    "description": "Presents a comprehensive overview of the mathematical and computational concepts needed to construct population models. Describes how to mathematically derive and model processes such as growth, competition, predation, dispersal, and environmental variability to understand the dynamics of populations in a changing world. Emphasizes the mathematical tools required to analyze the dynamical behavior of models (e.g., stability, invasion, graphical, and numerical analyses) and validate predictions using empirical data (e.g., via maximum likelihood and optimization methods). Offers students an opportunity to learn how to derive, analyze, and test models using free R programming in a supervised lab environment."
+    "description": "Presents a comprehensive overview of the mathematical and computational concepts needed to construct population models. Describes how to mathematically derive and model processes such as growth, competition, predation, dispersal, and environmental variability to understand the dynamics of populations in a changing world. Emphasizes the mathematical tools required to analyze the dynamical behavior of models (e.g., stability, invasion, graphical, and numerical analyses) and validate predictions using empirical data (e.g., via maximum likelihood and optimization methods). Offers students an opportunity to learn how to derive, analyze, and test models using free R programming in a supervised lab environment.",
+    "coreqs": [{ "number": "5131" }],
+    "prereqs": [
+      "(",
+      "(",
+      { "subject": "MATH", "number": "1241" },
+      "Or",
+      { "subject": "MATH", "number": "1251" },
+      "Or",
+      { "subject": "MATH", "number": "1341" },
+      ")",
+      "And",
+      "(",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      ")",
+      ")",
+      "Or",
+      "Graduate Admission"
+    ]
   },
   {
     "subject": "EEMB",
@@ -407,7 +372,9 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38334" }],
-    "description": "Designed to assist Three Seas students in securing a graduate research internship. Seeks to provide students with the information needed to pursue diverse career opportunities in marine biology. Provides hands-on experience with an array of science communication tools, including resumés/CVs, cover letters, and social media. Speakers from academia, informal science education organizations, and the media present talks on their work and career tracks."
+    "description": "Designed to assist Three Seas students in securing a graduate research internship. Seeks to provide students with the information needed to pursue diverse career opportunities in marine biology. Provides hands-on experience with an array of science communication tools, including resumés/CVs, cover letters, and social media. Speakers from academia, informal science education organizations, and the media present talks on their work and career tracks.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "EEMB",
@@ -421,25 +388,8 @@
       { "term": "202330", "crn": "36731" }
     ],
     "description": "Covers a variety of topics including basic coral biology, the coral/algal symbioses, the mechanisms of coral bleaching, coral microbiology and disease, coral calcification and ocean acidification, and coral speciation and hybridization. Supplements lectures with readings from the primary literature. Focuses on active areas of research and hands-on learning through lab and field activities.",
-    "coreqs": [
-      { "number": "5505" },
-      { "number": "5505" },
-      { "number": "5505" },
-      { "number": "5505" }
-    ],
+    "coreqs": [{ "number": "5505" }],
     "prereqs": [
-      { "subject": "BIOL", "number": "2311" },
-      "Or",
-      "Or",
-      "Graduate Admission",
-      { "subject": "BIOL", "number": "2311" },
-      "Or",
-      "Or",
-      "Graduate Admission",
-      { "subject": "BIOL", "number": "2311" },
-      "Or",
-      "Or",
-      "Graduate Admission",
       { "subject": "BIOL", "number": "2311" },
       "Or",
       "Or",
@@ -458,12 +408,7 @@
       { "term": "202330", "crn": "36732" }
     ],
     "description": "Accompanies EEMB 5504. Focuses on relevant research questions while providing practical training techniques in coral biology. Hands-on learning includes visual surveys of reef transects, quadrat sampling, coral identification, enumeration of zooxanthellae with a hemocytometer, PAM fluorometry, ImageJ analysis, coral homogenization, and Vibrio plating.",
-    "coreqs": [
-      { "number": "5504" },
-      { "number": "5504" },
-      { "number": "5504" },
-      { "number": "5504" }
-    ],
+    "coreqs": [{ "number": "5504" }],
     "prereqs": []
   },
   {
@@ -478,25 +423,8 @@
       { "term": "202330", "crn": "36733" }
     ],
     "description": "Covers fundamental concepts in reef fish biology, ecology, and conservation. Additional lecture coursework includes analysis of both group and individual research projects conducted in lab. Presents recent or ongoing research projects by the instructor and guest lecturers. Discussions are based on papers from the scientific literature and relate topics about processes and patterns of fish recruitment, reproduction, dispersal, evolution, conservation, and management.",
-    "coreqs": [
-      { "number": "5507" },
-      { "number": "5507" },
-      { "number": "5507" },
-      { "number": "5507" }
-    ],
+    "coreqs": [{ "number": "5507" }],
     "prereqs": [
-      { "subject": "BIOL", "number": "2311" },
-      "Or",
-      "Or",
-      "Graduate Admission",
-      { "subject": "BIOL", "number": "2311" },
-      "Or",
-      "Or",
-      "Graduate Admission",
-      { "subject": "BIOL", "number": "2311" },
-      "Or",
-      "Or",
-      "Graduate Admission",
       { "subject": "BIOL", "number": "2311" },
       "Or",
       "Or",
@@ -515,12 +443,7 @@
       { "term": "202330", "crn": "36734" }
     ],
     "description": "Accompanies EEMB 5506. Studies methods to conduct research on reef fishes through class exercises and individual research projects. Hands-on learning includes common fish transect methodology, reef fish identification, cast net and handline (on scuba) fishing techniques, and specimen dissection. Emphasizes analyzing and presenting the data and writing clearly and effectively about scientific research through the lab reports.",
-    "coreqs": [
-      { "number": "5506" },
-      { "number": "5506" },
-      { "number": "5506" },
-      { "number": "5506" }
-    ],
+    "coreqs": [{ "number": "5506" }],
     "prereqs": []
   },
   {
@@ -536,7 +459,14 @@
     ],
     "description": "Studies principles of classification, anatomy, physiology, behavior, and evolution of seabirds and marine mammals. Also addresses conservation and protection of animals and essential habitat. Includes field trips to observe local species.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      "(",
+      { "subject": "BIOL", "number": "2311" },
+      "Or",
+      ")",
+      "Or",
+      "Graduate Admission"
+    ]
   },
   {
     "subject": "EEMB",
@@ -562,25 +492,8 @@
       { "term": "202330", "crn": "36736" }
     ],
     "description": "Examines the coupling between physical and biological processes on coral reefs and adjacent habitats. Focuses on biophysical, oceanographic, and benthic-pelagic processes acting in coral reef and associated nearshore ecosystems. Specific topics include oceanographic forcing mechanisms, organismal biomechanics, hydrodynamics, and nutrient dynamics.",
-    "coreqs": [
-      { "number": "5519" },
-      { "number": "5519" },
-      { "number": "5519" },
-      { "number": "5519" }
-    ],
+    "coreqs": [{ "number": "5519" }],
     "prereqs": [
-      { "subject": "BIOL", "number": "2311" },
-      "Or",
-      "Or",
-      "Graduate Admission",
-      { "subject": "BIOL", "number": "2311" },
-      "Or",
-      "Or",
-      "Graduate Admission",
-      { "subject": "BIOL", "number": "2311" },
-      "Or",
-      "Or",
-      "Graduate Admission",
       { "subject": "BIOL", "number": "2311" },
       "Or",
       "Or",
@@ -599,12 +512,7 @@
       { "term": "202330", "crn": "36737" }
     ],
     "description": "Accompanies EEMB 5518. Studies techniques such as estimation of turbulent diffusion coefficients, mean speed, and logarithmic layer parameters using analysis of video imagery (NIH ImageJ); deploying and recovering zooplankton traps and nets and estimating mortality using vital dyes; use of GoPro for behavioral analyses (sediment shedding in corals); estimating flux rates from active suspension feeders like sponges using dye release; and use of the YSI Exo Sonde to measure different water quality parameters.",
-    "coreqs": [
-      { "number": "5518" },
-      { "number": "5518" },
-      { "number": "5518" },
-      { "number": "5518" }
-    ],
+    "coreqs": [{ "number": "5518" }],
     "prereqs": []
   },
   {
@@ -620,7 +528,12 @@
     ],
     "description": "Highlights and explores the ecological characteristics and current threats facing four tropical ecosystems—coral reefs, seagrass beds, mangrove forests, and tropical lowland rain forests. Explores the connectivity between these ecosystems and the services each provides. Examines how these ecosystems have changed under past threats and are projected to change in future conditions. Includes formal lectures, informal lectures provided in the field, field demonstrations, and interpretive hikes.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "BIOL", "number": "2311" },
+      "Or",
+      "Or",
+      "Graduate Admission"
+    ]
   },
   {
     "subject": "EEMB",
@@ -632,7 +545,12 @@
     "sections": [{ "term": "202310", "crn": "16477" }],
     "description": "Includes introduction to and application of observational methods in three local marine habitats, experimental design, statistical analysis, R statistical computing and graphics software, and principles of marine ecology. Combines lecture, hand-on research experience, and computer laboratory and includes reading and analyzing the scientific literature and developing research projects. At the end of the semester, students are expected to demonstrate an integrative mastery of course topics by writing a scientific manuscript about a class experiment. Seeks to prepare students for practicing ecology in new environments and to provide students with the foundational knowledge necessary for pursuing more complex concepts in experimental design, statistical analysis, and marine ecology.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "BIOL", "number": "2311" },
+      "Or",
+      "Or",
+      "Graduate Admission"
+    ]
   },
   {
     "subject": "EEMB",
@@ -693,7 +611,9 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38335" }],
-    "description": "Investigates the major drivers to short-, medium-, and long-term changes in the world’s oceans. Compares the role of natural and human-induced changes in ocean systems. Key areas focus on the role of nonhuman animals in modifying and mitigating oceanic and atmospheric change. Explores the linkages among oceans and atmosphere through examples in the Pacific Northwest and worldwide."
+    "description": "Investigates the major drivers to short-, medium-, and long-term changes in the world’s oceans. Compares the role of natural and human-induced changes in ocean systems. Key areas focus on the role of nonhuman animals in modifying and mitigating oceanic and atmospheric change. Explores the linkages among oceans and atmosphere through examples in the Pacific Northwest and worldwide.",
+    "coreqs": [{ "number": "5541" }],
+    "prereqs": []
   },
   {
     "subject": "EEMB",
@@ -703,7 +623,9 @@
     "credits": 1,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "37244" }],
-    "description": "Accompanies EEMB 5540. Students participate in daily, topical, paper discussions, carry out laboratory exercises, or explore and collect data in field exercises. Offers students an opportunity to acquire skills such as using oceanographic equipment, modeling simulations, data collection, and data analysis."
+    "description": "Accompanies EEMB 5540. Students participate in daily, topical, paper discussions, carry out laboratory exercises, or explore and collect data in field exercises. Offers students an opportunity to acquire skills such as using oceanographic equipment, modeling simulations, data collection, and data analysis.",
+    "coreqs": [{ "number": "5540" }],
+    "prereqs": []
   },
   {
     "subject": "EEMB",
@@ -718,7 +640,7 @@
     ],
     "description": "Investigates issues of marine and coastal spatial planning (MCSP) that include offshore wind power siting, fisheries and aquaculture management, natural resource extraction, marine mammal conservation, and/or living shoreline protection and mitigation. Covers the spatial planning process from question to deliverable strategy, including assessment of stakeholder needs and potential ecosystem impacts. Offers students an opportunity to acquire and assess data, apply appropriate statistical tools, and develop spatial maps using geographic information systems (GIS) and other software. Also covers how to synthesize the planning process and develop and evaluate recommendations.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": ["Or", "Or", "Or"]
   },
   {
     "subject": "EEMB",
@@ -733,7 +655,7 @@
     ],
     "description": "Explores the current issues facing management and conservation of the land-sea interface, also known as the coastal transition zone (CTZ). Evaluates the mitigation, conservation, and restoration tools that are applied to human use of the land-sea interface. Observes these tools during site visits and discusses strategies with experts in sustainability of these habitats. Synthesizes the scientific literature on CTZ tools in the northwest Atlantic and other regions with pressing sustainable land-sea use issues. Offers students an opportunity to develop skills in prioritizing and advocating for particular conservation strategies and to practice science communication skills to effectively reach a broad audience.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": ["(", "Or", "Or", "Or", ")", "Or", "Graduate Admission"]
   },
   {
     "subject": "EEMB",
@@ -770,7 +692,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "35816" }],
-    "description": "Focuses on wildlife ecology and management, with an emphasis on terrestrial species. Covers habitat use, behavior, wildlife conservation, parasites and pathogens, wildlife sampling, wildlife management, food and nutrition, population viability, and conservation genetics. Engages students in analyzing primary literature and wildlife data, collection, interpretation, and using basic mathematical models."
+    "description": "Focuses on wildlife ecology and management, with an emphasis on terrestrial species. Covers habitat use, behavior, wildlife conservation, parasites and pathogens, wildlife sampling, wildlife management, food and nutrition, population viability, and conservation genetics. Engages students in analyzing primary literature and wildlife data, collection, interpretation, and using basic mathematical models.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "EEMB",
@@ -780,7 +704,9 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38337" }],
-    "description": "Offers students an opportunity to lead critical discussions of recent and classic papers from primary and secondary literature in marine sciences. Discusses the important scientific paradigms and addresses strengths and weaknesses of these papers from the perspective of scientific communication, including design and presentation of data in figures and tables; the role of synthesis in justifying new concepts; and how terminology and jargon evolve in scientific subdisciplines. Students write occasional reviews of these papers as if they had just been submitted to a journal for consideration."
+    "description": "Offers students an opportunity to lead critical discussions of recent and classic papers from primary and secondary literature in marine sciences. Discusses the important scientific paradigms and addresses strengths and weaknesses of these papers from the perspective of scientific communication, including design and presentation of data in figures and tables; the role of synthesis in justifying new concepts; and how terminology and jargon evolve in scientific subdisciplines. Students write occasional reviews of these papers as if they had just been submitted to a journal for consideration.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "EEMB",
@@ -925,7 +851,9 @@
       { "term": "202330", "crn": "34800" },
       { "term": "202310", "crn": "21556" }
     ],
-    "description": "Offers dissertation supervision by members of the department."
+    "description": "Offers dissertation supervision by members of the department.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "EEMB",
@@ -940,6 +868,6 @@
     ],
     "description": "Offers dissertation supervision by members of the department.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": ["Or", "Dissertation Check"]
   }
 ]

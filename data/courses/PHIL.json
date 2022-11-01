@@ -228,7 +228,9 @@
     "credits": 4,
     "nuPath": ["ER", "SI"],
     "sections": [{ "term": "202330", "crn": "36046" }],
-    "description": "Introduces the ethics of food. Elucidates a wide range of ethical issues associated with food production, processing, distribution, and consumption. Offers students an opportunity to develop skills in ethics and values analysis that can be applied to evaluate food-related practices and policies. Includes topics such as the ethics of different food systems, genetically modified crops, meat eating, hunting, food security, food justice, sustainability, synthetic meat, food advertising, food safety, and foodie culture."
+    "description": "Introduces the ethics of food. Elucidates a wide range of ethical issues associated with food production, processing, distribution, and consumption. Offers students an opportunity to develop skills in ethics and values analysis that can be applied to evaluate food-related practices and policies. Includes topics such as the ethics of different food systems, genetically modified crops, meat eating, hunting, food security, food justice, sustainability, synthetic meat, food advertising, food safety, and foodie culture.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHIL",
@@ -284,7 +286,9 @@
     "credits": 4,
     "nuPath": ["ER", "IC"],
     "sections": [{ "term": "202330", "crn": "34824" }],
-    "description": "Examines Hinduism, Jainism, Theravada Buddhism, Mahayana Buddhism, Confucianism, Taoism, and Shinto within South Asia (India) and east Asia (China and Japan). Combines readings in primary source materials (the religious texts of these traditions) with secondary examinations of the historical and doctrinal developments within each tradition and region. This course intends to give students a context in which to examine the ways in which religions develop in interlocking sociocultural and political contexts and to provide a grounding in the lived experiences of these religious traditions."
+    "description": "Examines Hinduism, Jainism, Theravada Buddhism, Mahayana Buddhism, Confucianism, Taoism, and Shinto within South Asia (India) and east Asia (China and Japan). Combines readings in primary source materials (the religious texts of these traditions) with secondary examinations of the historical and doctrinal developments within each tradition and region. This course intends to give students a context in which to examine the ways in which religions develop in interlocking sociocultural and political contexts and to provide a grounding in the lived experiences of these religious traditions.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHIL",
@@ -306,7 +310,9 @@
     "credits": 4,
     "nuPath": ["ER", "IC"],
     "sections": [{ "term": "202330", "crn": "38615" }],
-    "description": "Requires prior completion of one philosophy course."
+    "description": "Requires prior completion of one philosophy course.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHIL",
@@ -348,7 +354,9 @@
     "credits": 4,
     "nuPath": ["ER", "SI"],
     "sections": [{ "term": "202330", "crn": "38616" }],
-    "description": "Examines lying and other forms of deception in a wide range of modern contexts from advertising to politics, using different theoretical approaches. Offers students an opportunity to use philosophical and economic theories to investigate what lying is, why people lie, when and why it is wrong to lie, how we can learn from other people even though they might be lying, and how social institutions affect—and are affected by—all of this lying. In modern society, we are confronted with lies, spin, fake news, and even “BS” on a daily basis. Since these forms of deception play such a central role in human life, many philosophers—including Plato, Augustine, and Kant—have studied the ontology, ethics, epistemology, economics, and logic of lying and deception."
+    "description": "Examines lying and other forms of deception in a wide range of modern contexts from advertising to politics, using different theoretical approaches. Offers students an opportunity to use philosophical and economic theories to investigate what lying is, why people lie, when and why it is wrong to lie, how we can learn from other people even though they might be lying, and how social institutions affect—and are affected by—all of this lying. In modern society, we are confronted with lies, spin, fake news, and even “BS” on a daily basis. Since these forms of deception play such a central role in human life, many philosophers—including Plato, Augustine, and Kant—have studied the ontology, ethics, epistemology, economics, and logic of lying and deception.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHIL",
@@ -370,7 +378,9 @@
     "credits": 4,
     "nuPath": ["ER", "SI"],
     "sections": [{ "term": "202330", "crn": "36049" }],
-    "description": "Offers students an opportunity to obtain a solid understanding of the political, philosophical, and legal dimensions of human rights as well as an overview of some of the current debates in human rights. Discusses the intellectual history of human rights and explores their philosophical and historical roots. Examines their legal and political dimensions and human rights laws and institutions. Explores in-depth a number of contemporary human rights issues including genocide, women’s rights, children’s rights, refugees, and torture."
+    "description": "Offers students an opportunity to obtain a solid understanding of the political, philosophical, and legal dimensions of human rights as well as an overview of some of the current debates in human rights. Discusses the intellectual history of human rights and explores their philosophical and historical roots. Examines their legal and political dimensions and human rights laws and institutions. Explores in-depth a number of contemporary human rights issues including genocide, women’s rights, children’s rights, refugees, and torture.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHIL",
@@ -380,7 +390,9 @@
     "credits": 4,
     "nuPath": ["DD", "EX", "IC"],
     "sections": [{ "term": "202330", "crn": "38617" }],
-    "description": "Explores the relationship between religion, sound, and musical expression using the lenses of gender studies, cultural studies, and performance theory. Emphasizes the interpretive and symbolic understandings of sonic expressions of religiosity, including chanting, mantra use, choir and congregational singing, and speaking in tongues. Seeks to familiarize students with some of the key sonic expressions within the Christian, Islamic, Hindu, and Buddhist traditions; to explore the methods of studying musical and sonic theology; and to analyze these traditions’ own debates about the use of sound and music in religious practice."
+    "description": "Explores the relationship between religion, sound, and musical expression using the lenses of gender studies, cultural studies, and performance theory. Emphasizes the interpretive and symbolic understandings of sonic expressions of religiosity, including chanting, mantra use, choir and congregational singing, and speaking in tongues. Seeks to familiarize students with some of the key sonic expressions within the Christian, Islamic, Hindu, and Buddhist traditions; to explore the methods of studying musical and sonic theology; and to analyze these traditions’ own debates about the use of sound and music in religious practice.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHIL",
@@ -390,7 +402,9 @@
     "credits": 4,
     "nuPath": ["DD", "IC"],
     "sections": [{ "term": "202330", "crn": "39343" }],
-    "description": "Introduces the representation of sex and gender in Jewish culture and religion. Explores varied representations of masculinity and femininity over time and place within Jewish communities; the role of biblical texts in the construction of Western conceptions of gender and sexuality; and how contemporary feminist, queer, and other sexual identities have influenced Jewish practices. Readings draw from a range of primary sources (memoirs, fiction, religious texts, etc.) and critical literature."
+    "description": "Introduces the representation of sex and gender in Jewish culture and religion. Explores varied representations of masculinity and femininity over time and place within Jewish communities; the role of biblical texts in the construction of Western conceptions of gender and sexuality; and how contemporary feminist, queer, and other sexual identities have influenced Jewish practices. Readings draw from a range of primary sources (memoirs, fiction, religious texts, etc.) and critical literature.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHIL",
@@ -430,7 +444,15 @@
     ],
     "description": "Examines the philosophers of classical Greece, primarily Socrates, Plato, and Aristotle. These philosophers examined the nature of the material world, of the city, and of the person. The course takes up both the moral and political writings as well as the metaphysical writings. Devotes considerable attention to major works such as Plato's Republic. Some time is given to early Greek philosophers, to the Sophists, and to later developments. Requires written analysis of philosophical texts. PHIL 2325 and POLS 2325 are cross-listed.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
   },
   {
     "subject": "PHIL",
@@ -454,111 +476,6 @@
       "Or",
       { "subject": "ENGW", "number": "1111" },
       "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
       { "subject": "ENGW", "number": "1102" }
     ]
   },
@@ -570,7 +487,9 @@
     "credits": 4,
     "nuPath": ["DD", "IC"],
     "sections": [{ "term": "202330", "crn": "38619" }],
-    "description": "Examines radical religious innovation in the United States from historical, legal, and cultural analytic perspectives. Focuses on minoritized groups such as the Shakers, Peoples Temple, the Nation of Islam, and the Church of Scientology. Offers students an opportunity to acquire critical investigative tools with which to better understand the complexities of lived religion."
+    "description": "Examines radical religious innovation in the United States from historical, legal, and cultural analytic perspectives. Focuses on minoritized groups such as the Shakers, Peoples Temple, the Nation of Islam, and the Church of Scientology. Offers students an opportunity to acquire critical investigative tools with which to better understand the complexities of lived religion.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHIL",
@@ -592,7 +511,9 @@
     "credits": 4,
     "nuPath": ["EX", "WI"],
     "sections": [{ "term": "202330", "crn": "38620" }],
-    "description": "Offers students an opportunity to learn to think, research, and write in an interdisciplinary way and bring together the core methods of the three disciplines constituting the PPE major: philosophy, political science, and economics. Examines issues such as housing, environmental justice, and immigration, among others, through an interdisciplinary lens. Students analyze how systemic racism, gender, and other power structures have created asymmetrical distribution of resources, power, and political opportunities and shaped institutions, policies, and outcomes. Includes a service-learning requirement that takes place across the semester. PPE majors should plan to take this course when the majority of the major core courses are complete."
+    "description": "Offers students an opportunity to learn to think, research, and write in an interdisciplinary way and bring together the core methods of the three disciplines constituting the PPE major: philosophy, political science, and economics. Examines issues such as housing, environmental justice, and immigration, among others, through an interdisciplinary lens. Students analyze how systemic racism, gender, and other power structures have created asymmetrical distribution of resources, power, and political opportunities and shaped institutions, policies, and outcomes. Includes a service-learning requirement that takes place across the semester. PPE majors should plan to take this course when the majority of the major core courses are complete.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "PHIL", "number": "1160" }]
   },
   {
     "subject": "PHIL",
@@ -626,7 +547,9 @@
     "credits": 4,
     "nuPath": ["ER"],
     "sections": [{ "term": "202330", "crn": "38621" }],
-    "description": "Requires prior completion of two philosophy courses or instructor's permission."
+    "description": "Requires prior completion of two philosophy courses or instructor's permission.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHIL",
@@ -648,7 +571,9 @@
     "credits": 4,
     "nuPath": ["ER", "SI"],
     "sections": [{ "term": "202330", "crn": "36053" }],
-    "description": "Requires prior completion of two philosophy and/or science courses, or instructor's permission."
+    "description": "Requires prior completion of two philosophy and/or science courses, or instructor's permission.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHIL",
@@ -673,7 +598,9 @@
     "credits": 4,
     "nuPath": ["ER", "SI"],
     "sections": [{ "term": "202330", "crn": "35841" }],
-    "description": "Examines the legal regulation of gender and sexuality. Investigates concrete legal cases to study the history of constitutional interpretation and the current status of rights for women and sexual minorities. Focuses on important theoretical issues emerging in the writings of diverse feminist and queer legal scholars. Addresses debates over the value of conventional equality approaches in legal doctrine; equality vs. difference perspectives; ways in which legal language constructs gender and sexuality; the incorporation of sexuality and gender in ideologies of law; and the intersections of gender, sexuality, and race in legal doctrine and legal theory. PHIL 3500, POLS 3500, and WMNS 3500 are cross-listed."
+    "description": "Examines the legal regulation of gender and sexuality. Investigates concrete legal cases to study the history of constitutional interpretation and the current status of rights for women and sexual minorities. Focuses on important theoretical issues emerging in the writings of diverse feminist and queer legal scholars. Addresses debates over the value of conventional equality approaches in legal doctrine; equality vs. difference perspectives; ways in which legal language constructs gender and sexuality; the incorporation of sexuality and gender in ideologies of law; and the intersections of gender, sexuality, and race in legal doctrine and legal theory. PHIL 3500, POLS 3500, and WMNS 3500 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHIL",
@@ -695,7 +622,17 @@
     "credits": 4,
     "nuPath": ["CE", "WI"],
     "sections": [{ "term": "202330", "crn": "36383" }],
-    "description": "Requires prior completion of three philosophy courses (PHIL 1115 or PHIL 1215 recommended) or permission of instructor."
+    "description": "Requires prior completion of three philosophy courses (PHIL 1115 or PHIL 1215 recommended) or permission of instructor.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
   },
   {
     "subject": "PHIL",
@@ -765,7 +702,9 @@
       { "term": "202330", "crn": "39347" },
       { "term": "202310", "crn": "21872" }
     ],
-    "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit."
+    "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHIL",
@@ -775,7 +714,9 @@
     "credits": 4,
     "nuPath": ["CE", "ER", "SI", "WI"],
     "sections": [{ "term": "202330", "crn": "38622" }],
-    "description": "Explores the theoretical, political, and philosophical foundations of the obligations that underlie global justice. Theoretical approaches include human rights, human capabilities, cosmopolitanism, particularism, and universalism. Examines nationalism and the particular set of obligations that it generates. Following the theoretical component, the course considers social issues that arise in a global context: (1) the duties to the distant poor, (2) global philanthropy and problems of donee accountability, (3) global health and essential medicines and issues in environmental justice, and (4) issues in international law."
+    "description": "Explores the theoretical, political, and philosophical foundations of the obligations that underlie global justice. Theoretical approaches include human rights, human capabilities, cosmopolitanism, particularism, and universalism. Examines nationalism and the particular set of obligations that it generates. Following the theoretical component, the course considers social issues that arise in a global context: (1) the duties to the distant poor, (2) global philanthropy and problems of donee accountability, (3) global health and essential medicines and issues in environmental justice, and (4) issues in international law.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHIL",
@@ -785,7 +726,17 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38623" }],
-    "description": "Covers issues of justice and the public good in relation to the creation, collection, storage, analysis, processing, dissemination, and use of information. Discusses theories of justice and human rights, as well as ethical theories such as utilitarianism and principlism. Topics include intellectual and cultural property, freedom of expression, access to information, fair representation, and information privacy. Discusses how to create and use information technologies that promote individual flourishing and the public good while avoiding bias, exploitation, and manipulation."
+    "description": "Covers issues of justice and the public good in relation to the creation, collection, storage, analysis, processing, dissemination, and use of information. Discusses theories of justice and human rights, as well as ethical theories such as utilitarianism and principlism. Topics include intellectual and cultural property, freedom of expression, access to information, fair representation, and information privacy. Discusses how to create and use information technologies that promote individual flourishing and the public good while avoiding bias, exploitation, and manipulation.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "PHIL", "number": "1145" },
+      "Or",
+      { "subject": "PHIL", "number": "1300" },
+      "Or",
+      { "subject": "IS", "number": "1300" },
+      "Or",
+      "Graduate Admission"
+    ]
   },
   {
     "subject": "PHIL",

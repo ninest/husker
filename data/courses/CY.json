@@ -22,7 +22,7 @@
     ],
     "description": "Presents an overview of basic principles and security concepts related to information systems, including workstation security, system security, and communications security. Discusses legal, ethical, and human factors and professional issues associated with cybersecurity, including the ability to differentiate between laws and ethics. Offers students an opportunity to use a substantial variety of existing software tools to probe both computer systems and networks in order to learn how these systems function, how data moves within these systems, and how these systems might be vulnerable. Covers security methods, controls, procedures, economics of cybercrime, criminal procedure, and forensics.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "CS", "number": "2500" }]
   },
   {
     "subject": "CY",
@@ -37,7 +37,7 @@
     ],
     "description": "Introduces the fundamental principles of designing and implementing secure programs and systems. Presents and analyzes prevalent classes of attacks against systems. Discusses techniques for identifying the presence of vulnerabilities in system design and implementation, preventing the introduction of or successful completion of attacks, limiting the damage incurred by attacks, and strategies for recovering from system compromises. Offers opportunities for hands-on practice of real-world attack and defense in several domains, including systems administration, the Web, and mobile devices. Presents the ethical considerations of security research and practice.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "CS", "number": "3650" }]
   },
   {
     "subject": "CY",
@@ -57,21 +57,6 @@
       "Or",
       { "subject": "CS", "number": "4700" },
       "Or",
-      { "subject": "CS", "number": "5700" },
-      { "subject": "CS", "number": "3700" },
-      "Or",
-      { "subject": "CS", "number": "4700" },
-      "Or",
-      { "subject": "CS", "number": "5700" },
-      { "subject": "CS", "number": "3700" },
-      "Or",
-      { "subject": "CS", "number": "4700" },
-      "Or",
-      { "subject": "CS", "number": "5700" },
-      { "subject": "CS", "number": "3700" },
-      "Or",
-      { "subject": "CS", "number": "4700" },
-      "Or",
       { "subject": "CS", "number": "5700" }
     ]
   },
@@ -83,7 +68,17 @@
     "credits": 4,
     "nuPath": ["FQ"],
     "sections": [{ "term": "202330", "crn": "39270" }],
-    "description": "Studies the design of cryptographic schemes that enable secure communication and computation. Emphasizes cryptography as a mathematically rigorous discipline with precise definitions, theorems, and proofs and highlights deep connections to information theory, computational complexity, and number theory. Topics include pseudorandomness; symmetric-key cryptosystems and block ciphers such as AES; hash functions; public-key cryptosystems, including ones based on factoring and discrete logarithms; signature schemes; secure multiparty computation and applications such as auctions and voting; and zero-knowledge proofs."
+    "description": "Studies the design of cryptographic schemes that enable secure communication and computation. Emphasizes cryptography as a mathematically rigorous discipline with precise definitions, theorems, and proofs and highlights deep connections to information theory, computational complexity, and number theory. Topics include pseudorandomness; symmetric-key cryptosystems and block ciphers such as AES; hash functions; public-key cryptosystems, including ones based on factoring and discrete logarithms; signature schemes; secure multiparty computation and applications such as auctions and voting; and zero-knowledge proofs.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "CS", "number": "3000" },
+      "And",
+      { "subject": "CS", "number": "3800" },
+      ")",
+      "Or",
+      { "subject": "CS", "number": "4800" }
+    ]
   },
   {
     "subject": "CY",
@@ -93,7 +88,9 @@
     "credits": 4,
     "nuPath": ["CE", "WI"],
     "sections": [{ "term": "202330", "crn": "34355" }],
-    "description": "Provides the culmination of the learned principles and methodologies for identifying and addressing cybersecurity issues in organizations. Offers students an opportunity to work in small groups to identify and scope a current cybersecurity problem/challenge. Requires students to submit a written proposal about the project, complete with motivation, literature research, and reasons for the study; create a work plan to develop a solution to include the development and identification of the data necessary to properly solve the problem/challenge; and create a final report."
+    "description": "Provides the culmination of the learned principles and methodologies for identifying and addressing cybersecurity issues in organizations. Offers students an opportunity to work in small groups to identify and scope a current cybersecurity problem/challenge. Requires students to submit a written proposal about the project, complete with motivation, literature research, and reasons for the study; create a work plan to develop a solution to include the development and identification of the data necessary to properly solve the problem/challenge; and create a final report.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CY",
@@ -182,7 +179,16 @@
     ],
     "description": "Creates the opportunity for competency in the development of information security policies and plans including controls for physical, software, and networks. Discusses different malicious attacks, such as viruses and Trojan horses, detection strategies, countermeasures, damage assessment, and control. Covers information system risk analysis and management, audits, and log files. Uses case studies, site visits, and works with commercial products.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "CS", "number": "2550" },
+      "Or",
+      { "subject": "CY", "number": "2550" },
+      "Or",
+      "Or",
+      { "subject": "CY", "number": "5010" },
+      "Or",
+      "Graduate Admission"
+    ]
   },
   {
     "subject": "CY",
@@ -198,7 +204,16 @@
     ],
     "description": "Designed to allow students to explore the techniques used in computer forensic examinations. Examines computer hardware, physical and logical disk structure, and computer forensic techniques. Conducts hands-on experiences on DOS, Windows operating systems, Macintosh, Novell, and Unix/Linux platforms. Builds on basic computer skills and affords hands-on experience with the tools and techniques to investigate, seize, and analyze computer-based evidence using a variety of specialized forensic software in an IBM-PC environment.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "CS", "number": "2550" },
+      "Or",
+      { "subject": "CY", "number": "2550" },
+      "Or",
+      "Or",
+      { "subject": "CY", "number": "5010" },
+      "Or",
+      "Graduate Admission"
+    ]
   },
   {
     "subject": "CY",
@@ -208,7 +223,18 @@
     "credits": 4,
     "nuPath": ["ER", "WI"],
     "sections": [{ "term": "202330", "crn": "38773" }],
-    "description": "Describes the legal and ethical issues associated with information security including access, use, and dissemination. Emphasizes legal infrastructure relating to information assurance, such as the Digital Millenium Copyright Act and Telecommunications Decency Act, and emerging technologies for management of digital rights. Examines the role of information security in various domains such as healthcare, scientific research, and personal communications such as email. Examines criminal activities such as computer fraud and abuse, desktop forgery, embezzlement, child pornography, computer trespass, and computer piracy."
+    "description": "Describes the legal and ethical issues associated with information security including access, use, and dissemination. Emphasizes legal infrastructure relating to information assurance, such as the Digital Millenium Copyright Act and Telecommunications Decency Act, and emerging technologies for management of digital rights. Examines the role of information security in various domains such as healthcare, scientific research, and personal communications such as email. Examines criminal activities such as computer fraud and abuse, desktop forgery, embezzlement, child pornography, computer trespass, and computer piracy.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "2550" },
+      "Or",
+      { "subject": "CY", "number": "2550" },
+      "Or",
+      "Or",
+      { "subject": "CY", "number": "5010" },
+      "Or",
+      "Graduate Admission"
+    ]
   },
   {
     "subject": "CY",
@@ -248,7 +274,9 @@
     "credits": 1,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21753" }],
-    "description": "Seeks to provide cybersecurity (CY) students with the training experience of working on a specific IA project under the direction of an CY instructor. The instructor provides students with a plan of seminar sessions, including lectures, research, and development of project deliverables and with direction to complete the course. May be repeated without limit."
+    "description": "Seeks to provide cybersecurity (CY) students with the training experience of working on a specific IA project under the direction of an CY instructor. The instructor provides students with a plan of seminar sessions, including lectures, research, and development of project deliverables and with direction to complete the course. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CY",
@@ -349,7 +377,7 @@
     ],
     "description": "Offers selected work with the agreement of a thesis supervisor.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "CY", "number": "9000" }]
   },
   {
     "subject": "CY",
@@ -367,33 +395,7 @@
     ],
     "description": "Offers dissertation supervision by members of the department.",
     "coreqs": [],
-    "prereqs": [
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" },
-      { "subject": "CY", "number": "9990" }
-    ]
+    "prereqs": [{ "subject": "CY", "number": "9990" }]
   },
   {
     "subject": "CY",
@@ -414,6 +416,10 @@
     ],
     "description": "Continues work with the agreement of a thesis supervisor.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "CY", "number": "9991" },
+      "Or",
+      "Dissertation Check"
+    ]
   }
 ]

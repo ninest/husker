@@ -40,6 +40,8 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "33196" }],
-    "description": "Offers an upper-level course designed for students who want to explore the ever-changing discipline of drawing, which has now become a medium that stands on its own. Explores a range of media for generating drawings, including traditional techniques and computer-based media. Emphasizes open-ended application and interpretation of drawing as a medium. Requires students to attend lectures and exhibitions and keep a journal."
+    "description": "Offers an upper-level course designed for students who want to explore the ever-changing discipline of drawing, which has now become a medium that stands on its own. Explores a range of media for generating drawings, including traditional techniques and computer-based media. Emphasizes open-ended application and interpretation of drawing as a medium. Requires students to attend lectures and exhibitions and keep a journal.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]

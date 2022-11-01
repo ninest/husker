@@ -12,7 +12,9 @@
       { "term": "202330", "crn": "31423" },
       { "term": "202330", "crn": "37771" }
     ],
-    "description": "Introduces students to philosophy by acquainting them with the theories and arguments of classical and contemporary philosophers and by teaching skills of constructing and analyzing arguments. Emphasizes philosophical inquiry. Topics include the basis of morality, free will vs. determinism, the existence of God, the problem of suffering, and the nature of knowledge."
+    "description": "Introduces students to philosophy by acquainting them with the theories and arguments of classical and contemporary philosophers and by teaching skills of constructing and analyzing arguments. Emphasizes philosophical inquiry. Topics include the basis of morality, free will vs. determinism, the existence of God, the problem of suffering, and the nature of knowledge.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHLS",

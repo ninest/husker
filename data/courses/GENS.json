@@ -31,6 +31,8 @@
       { "term": "202330", "crn": "30047" },
       { "term": "202330", "crn": "30046" }
     ],
-    "description": "Continues the exploration of academic and career interest for life-long success. Focuses on research, argumentation, and oral presentations. Addresses the sophomore transition process to the destination colleges."
+    "description": "Continues the exploration of academic and career interest for life-long success. Focuses on research, argumentation, and oral presentations. Addresses the sophomore transition process to the destination colleges.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]

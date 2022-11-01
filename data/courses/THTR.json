@@ -198,7 +198,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "32400" }],
-    "description": "Explores movement techniques that enhance the actor's expressiveness, performance energy, and body awareness. Offers students an opportunity to experience diverse movement training theories such as Suzuki, Alexander, and Laban and synthesize them in the creation of an original ensemble-based performance. Focuses on physical exercises and processes that strengthen the body; enliven the imagination; enhance concentration; and improve flexibility, balance, relaxation, and posture. Seeks to empower actors to externalize the emotional and imaginative inner experience and maximize stage presence and power. No previous movement or acting experience required."
+    "description": "Explores movement techniques that enhance the actor's expressiveness, performance energy, and body awareness. Offers students an opportunity to experience diverse movement training theories such as Suzuki, Alexander, and Laban and synthesize them in the creation of an original ensemble-based performance. Focuses on physical exercises and processes that strengthen the body; enliven the imagination; enhance concentration; and improve flexibility, balance, relaxation, and posture. Seeks to empower actors to externalize the emotional and imaginative inner experience and maximize stage presence and power. No previous movement or acting experience required.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "THTR",
@@ -224,7 +226,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "39301" }],
-    "description": "Creates original theater from interviews conducted with individuals who have something to say about an issue relevant to their lives. It is of and for the community. Starts with acquainting students with the history of the project's theme and then determines, through theater games and acting exercises, an acting vernacular to use during rehearsals. From there, guides students in the collection of video interviews of the subjects. Students transcribe, edit, and collate the interviews into a script to be used for rehearsal. The second half of the semester is devoted to rehearsing and performing the script for a community presentation."
+    "description": "Creates original theater from interviews conducted with individuals who have something to say about an issue relevant to their lives. It is of and for the community. Starts with acquainting students with the history of the project's theme and then determines, through theater games and acting exercises, an acting vernacular to use during rehearsals. From there, guides students in the collection of video interviews of the subjects. Students transcribe, edit, and collate the interviews into a script to be used for rehearsal. The second half of the semester is devoted to rehearsing and performing the script for a community presentation.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "THTR",
@@ -234,7 +238,9 @@
     "credits": 4,
     "nuPath": ["EI"],
     "sections": [{ "term": "202330", "crn": "35636" }],
-    "description": "Develops an ensemble-based musical theatre showcase. Studies character development, movement and staging, acting, \"acting a song\" technique, and theatre terminology. Offers students an opportunity to work as directors and choreographers. Solo singing and prior experience are welcome but not required. Sessions consist of lectures; discussions; viewings; and, most importantly, studio work."
+    "description": "Develops an ensemble-based musical theatre showcase. Studies character development, movement and staging, acting, \"acting a song\" technique, and theatre terminology. Offers students an opportunity to work as directors and choreographers. Solo singing and prior experience are welcome but not required. Sessions consist of lectures; discussions; viewings; and, most importantly, studio work.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "THTR",
@@ -259,7 +265,9 @@
     "credits": 4,
     "nuPath": ["DD"],
     "sections": [{ "term": "202330", "crn": "38161" }],
-    "description": "Introduces students to the art of Black theatre and cultivates an appreciation of the local Black theatre scene. Black theatre in the United States has a 200-year history that is important to understand for insight into contemporary Black theatre in the Boston area. Traces the growth of Black theatre from minstrel shows to James Brown’s \"King Shotaway\" in 1823, to William Wells Brown’s \"The Escape\" in 1858, to contemporary performances. Surveys the historical influence of the Harlem Renaissance, World War II, the Ethiopian Art Theatre, the Federal Theatre Project, the Civil Rights Movement, and the Black Arts Repertory Theatre to situate August Wilson, Suzan-Lori Parks, and George Wolfe as heirs to this rich heritage. Includes attendance at local theatre productions."
+    "description": "Introduces students to the art of Black theatre and cultivates an appreciation of the local Black theatre scene. Black theatre in the United States has a 200-year history that is important to understand for insight into contemporary Black theatre in the Boston area. Traces the growth of Black theatre from minstrel shows to James Brown’s \"King Shotaway\" in 1823, to William Wells Brown’s \"The Escape\" in 1858, to contemporary performances. Surveys the historical influence of the Harlem Renaissance, World War II, the Ethiopian Art Theatre, the Federal Theatre Project, the Civil Rights Movement, and the Black Arts Repertory Theatre to situate August Wilson, Suzan-Lori Parks, and George Wolfe as heirs to this rich heritage. Includes attendance at local theatre productions.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "THTR",
@@ -304,7 +312,15 @@
     ],
     "description": "Designed to develop the analytical skills needed to prepare a play for production. Seeks to help the actor, director, designer, playwright, or dramaturg to communicate what they learn through both artistic processes and discipline-specific writing conventions to make intellectual contributions to the field of theatre and performance studies. The creative practice research process develops the dramaturgical ability to mine a script with an enhanced understanding of its context. Offers students an opportunity to hone the writing skills that communicate research findings for multiple academic, professional, and public audiences.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" }
+    ]
   },
   {
     "subject": "THTR",
@@ -314,7 +330,9 @@
     "credits": 4,
     "nuPath": ["EI", "IC"],
     "sections": [{ "term": "202330", "crn": "31977" }],
-    "description": "Offers a collaborative workshop environment for developing dialogue, scenes, and one-act plays. Analyzes the dramatic techniques of modern masters as well as acclaimed contemporary playwrights. Culminates in the development of original one-act plays and a presentation of workshop scripts by professional actors."
+    "description": "Offers a collaborative workshop environment for developing dialogue, scenes, and one-act plays. Analyzes the dramatic techniques of modern masters as well as acclaimed contemporary playwrights. Culminates in the development of original one-act plays and a presentation of workshop scripts by professional actors.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "THTR",
@@ -339,7 +357,9 @@
     "credits": 4,
     "nuPath": ["IC", "SI"],
     "sections": [{ "term": "202330", "crn": "38163" }],
-    "description": "Covers several great practitioners of theatre. Focuses on how social behavior influenced the thought and craft of playwrights, actors, directors, designers, and theorists as well as how society was influenced by drama and theatre. Emphasizes how the play's ideas are translated into performance. Uses video, discussion, and live performance, when possible, as integral elements to the course."
+    "description": "Covers several great practitioners of theatre. Focuses on how social behavior influenced the thought and craft of playwrights, actors, directors, designers, and theorists as well as how society was influenced by drama and theatre. Emphasizes how the play's ideas are translated into performance. Uses video, discussion, and live performance, when possible, as integral elements to the course.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "THTR",
@@ -376,7 +396,13 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "33294" }],
-    "description": "Engages actors with an innovative technique that draws upon rigorous physical training exercises and practice in the nine areas of actors' concentration known as Viewpoints. Creative improvisational sessions provide an intuitive and dynamic approach to acting. Culminates in the application of Viewpoints to new scripted works."
+    "description": "Engages actors with an innovative technique that draws upon rigorous physical training exercises and practice in the nine areas of actors' concentration known as Viewpoints. Creative improvisational sessions provide an intuitive and dynamic approach to acting. Culminates in the application of Viewpoints to new scripted works.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "THTR", "number": "1120" },
+      "Or",
+      { "subject": "THTR", "number": "1130" }
+    ]
   },
   {
     "subject": "THTR",
@@ -402,7 +428,9 @@
     "credits": 4,
     "nuPath": ["EI"],
     "sections": [{ "term": "202330", "crn": "38164" }],
-    "description": "Introduces the fundamentals of costume design and the artistic roles and responsibilities of a costume designer. Working on classical and contemporary texts, students examine the creative steps of the design process, including script analysis, character development, research, and collaboration. Through lectures, discussions, and projects, students create a design concept and communicate it through language and images. Includes experience with drawing and other costume rendering techniques such as painting, collage, and Photoshop. Does not require prior art or design experience."
+    "description": "Introduces the fundamentals of costume design and the artistic roles and responsibilities of a costume designer. Working on classical and contemporary texts, students examine the creative steps of the design process, including script analysis, character development, research, and collaboration. Through lectures, discussions, and projects, students create a design concept and communicate it through language and images. Includes experience with drawing and other costume rendering techniques such as painting, collage, and Photoshop. Does not require prior art or design experience.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "THTR",
@@ -427,7 +455,13 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38165" }],
-    "description": "Offers students an opportunity to develop the skills to enhance the quality of the spoken voice —the clarity and vitality with which actors express themselves on the stage. Follows the pedagogy known as “Freeing the Natural Voice,” developed by Kristin Linklater. Includes learning and applying the International Phonetic Alphabet as a tool to clarify speech sounds."
+    "description": "Offers students an opportunity to develop the skills to enhance the quality of the spoken voice —the clarity and vitality with which actors express themselves on the stage. Follows the pedagogy known as “Freeing the Natural Voice,” developed by Kristin Linklater. Includes learning and applying the International Phonetic Alphabet as a tool to clarify speech sounds.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "THTR", "number": "1120" },
+      "And",
+      { "subject": "THTR", "number": "2342" }
+    ]
   },
   {
     "subject": "THTR",
@@ -437,7 +471,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "39302" }],
-    "description": "Offers opportunity for early undergraduate examination of a subject of particular significance in the history of theatre. May be repeated up to four times."
+    "description": "Offers opportunity for early undergraduate examination of a subject of particular significance in the history of theatre. May be repeated up to four times.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "THTR",
@@ -474,7 +510,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38966" }],
-    "description": "Explores a variety of approaches that have been found to be useful in bringing demanding dramatical texts written in verse to life on the stage. Explores texts from a variety of genres and time periods. Demands a free and efficient actor instrument: body, intellect, voice, imagination simultaneously engaged and able to be compellingly present, and impeccable listening skills. Expects students to do a fair amount of preparation, practice, and rehearsal outside the studio. Designed as advanced acting training."
+    "description": "Explores a variety of approaches that have been found to be useful in bringing demanding dramatical texts written in verse to life on the stage. Explores texts from a variety of genres and time periods. Demands a free and efficient actor instrument: body, intellect, voice, imagination simultaneously engaged and able to be compellingly present, and impeccable listening skills. Expects students to do a fair amount of preparation, practice, and rehearsal outside the studio. Designed as advanced acting training.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "THTR", "number": "2342" }]
   },
   {
     "subject": "THTR",
@@ -502,7 +540,9 @@
       { "term": "202330", "crn": "30021" },
       { "term": "202310", "crn": "21114" }
     ],
-    "description": "Offers students an opportunity to conduct creative practice research, which is comprised of two components: the research, preparation, and execution of a substantial position of responsibility for a departmental production or a special creative practice project, under the supervision of a faculty member. Students write a capstone thesis paper, developing an original argument on a focused topic adjacent to their creative practice project. Students synthesize academic and experiential education through the paper, which requires research and analysis of focused evidence to make an original contribution to the current scholarly and/or professional conversation on their chosen topic."
+    "description": "Offers students an opportunity to conduct creative practice research, which is comprised of two components: the research, preparation, and execution of a substantial position of responsibility for a departmental production or a special creative practice project, under the supervision of a faculty member. Students write a capstone thesis paper, developing an original argument on a focused topic adjacent to their creative practice project. Students synthesize academic and experiential education through the paper, which requires research and analysis of focused evidence to make an original contribution to the current scholarly and/or professional conversation on their chosen topic.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "THTR",
@@ -512,7 +552,9 @@
     "credits": 4,
     "nuPath": ["EI"],
     "sections": [{ "term": "202330", "crn": "38170" }],
-    "description": "Functions as an upper level design course focusing on designing space and media for theatre performance, with an emphasis on non-traditional and immersive formats. Involves lectures and projects in each discipline, with options for specific student interests. Culminates in an immersive performance conceived, designed, and created by the students. Students work in groups to create sections of the performance, focusing on the specific design discipline that interests them or for which they have experience."
+    "description": "Functions as an upper level design course focusing on designing space and media for theatre performance, with an emphasis on non-traditional and immersive formats. Involves lectures and projects in each discipline, with options for specific student interests. Culminates in an immersive performance conceived, designed, and created by the students. Students work in groups to create sections of the performance, focusing on the specific design discipline that interests them or for which they have experience.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "THTR",

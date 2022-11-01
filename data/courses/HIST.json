@@ -22,7 +22,9 @@
       { "term": "202330", "crn": "34284" },
       { "term": "202330", "crn": "39325" }
     ],
-    "description": "Introduces the role of law in shaping human society. Explores how laws have evolved over the past two millennia in different contexts under the influence of different religious systems and political, economic, and social theories. Studies key legal texts and analyzes legal traditions in several regions of the world. Considers how laws have affected the everyday lives of subjects, slaves, and citizens."
+    "description": "Introduces the role of law in shaping human society. Explores how laws have evolved over the past two millennia in different contexts under the influence of different religious systems and political, economic, and social theories. Studies key legal texts and analyzes legal traditions in several regions of the world. Considers how laws have affected the everyday lives of subjects, slaves, and citizens.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "HIST",
@@ -32,7 +34,9 @@
     "credits": 4,
     "nuPath": ["DD", "SI"],
     "sections": [{ "term": "202330", "crn": "38762" }],
-    "description": "Introduces students to the interdisciplinary field of transgender studies by focusing on the emergence of the field, key concepts, and pivotal debates."
+    "description": "Introduces students to the interdisciplinary field of transgender studies by focusing on the emergence of the field, key concepts, and pivotal debates.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "HIST",
@@ -120,12 +124,7 @@
       { "term": "202330", "crn": "34286" }
     ],
     "description": "Offered in conjunction with HIST 1201. Introduces incoming history freshmen to the history major in the context of other disciplines within the college and University. Offers students an opportunity to learn and to practice methods and conventions of research and historical writing.",
-    "coreqs": [
-      { "subject": "HIST", "number": "1201" },
-      { "subject": "HIST", "number": "1201" },
-      { "subject": "HIST", "number": "1201" },
-      { "subject": "HIST", "number": "1201" }
-    ],
+    "coreqs": [{ "subject": "HIST", "number": "1201" }],
     "prereqs": []
   },
   {
@@ -141,12 +140,7 @@
       { "term": "202330", "crn": "34287" }
     ],
     "description": "Provides an introduction to historical methods, research, writing, and argument in which all students produce a substantial research project that passes through at least two revisions, and that is presented publicly to other members of the colloquium.",
-    "coreqs": [
-      { "subject": "HIST", "number": "1200" },
-      { "subject": "HIST", "number": "1200" },
-      { "subject": "HIST", "number": "1200" },
-      { "subject": "HIST", "number": "1200" }
-    ],
+    "coreqs": [{ "subject": "HIST", "number": "1200" }],
     "prereqs": []
   },
   {
@@ -157,7 +151,9 @@
     "credits": 4,
     "nuPath": ["IC", "SI"],
     "sections": [{ "term": "202330", "crn": "38519" }],
-    "description": "Analyzes the role of drugs in world history. From the early use of stimulants such as coca and sugar to the &#8220;war on drugs&#8221; and narco-terrorism, the course examines drugs as commodities in the world economy. Focuses primarily on opiates, stimulants, and hallucinogens from the nineteenth century to the present, considering how changing social and cultural mores led different drugs to be coded as licit and illicit. Topics include traditional uses, early medical use, trade networks, prohibition, black market, and drug cultures, as well as the role of drugs in the histories of industrialization, imperialism, and cold war geopolitics. Sources include historical scholarship, declassified intelligence reports, documentaries, novels, movies, songs, and art."
+    "description": "Analyzes the role of drugs in world history. From the early use of stimulants such as coca and sugar to the &#8220;war on drugs&#8221; and narco-terrorism, the course examines drugs as commodities in the world economy. Focuses primarily on opiates, stimulants, and hallucinogens from the nineteenth century to the present, considering how changing social and cultural mores led different drugs to be coded as licit and illicit. Topics include traditional uses, early medical use, trade networks, prohibition, black market, and drug cultures, as well as the role of drugs in the histories of industrialization, imperialism, and cold war geopolitics. Sources include historical scholarship, declassified intelligence reports, documentaries, novels, movies, songs, and art.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "HIST",
@@ -226,7 +222,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38520" }],
-    "description": "Examines the history of medieval Europe in a period of tremendous fluidity, migration, and flux. Studies the experiences of men and women in European societies before clearly defined nation-states had emerged. Topics include forms of political and cultural integration; the contacts between Europeans and non-Europeans in the Mediterranean and beyond; and the place of religion, art, and ideology, with attention to how Europeans’ experiences varied according to their gender, class, and race."
+    "description": "Examines the history of medieval Europe in a period of tremendous fluidity, migration, and flux. Studies the experiences of men and women in European societies before clearly defined nation-states had emerged. Topics include forms of political and cultural integration; the contacts between Europeans and non-Europeans in the Mediterranean and beyond; and the place of religion, art, and ideology, with attention to how Europeans’ experiences varied according to their gender, class, and race.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "HIST",
@@ -236,7 +234,9 @@
     "credits": 4,
     "nuPath": ["IC", "SI"],
     "sections": [{ "term": "202330", "crn": "38521" }],
-    "description": "Examines Russia and the Soviet Union in the 20th century focusing on empires and revolutions: the Russian empire’s dissolution, the Russian Revolution and civil war, building the Soviet Union, World War II, the cold war and Soviet expansion in Eastern Europe and Asia, the breakup of the Soviet Union and its newly independent states, and Russian efforts to maintain influence in the post-Soviet space. Assesses the construction of Soviet identity by interpreting Soviet culture in the form of film, literature, art, and music. Evaluates explanatory theories of revolution and empire and the evolution of Marxism in the context of revolution and state building."
+    "description": "Examines Russia and the Soviet Union in the 20th century focusing on empires and revolutions: the Russian empire’s dissolution, the Russian Revolution and civil war, building the Soviet Union, World War II, the cold war and Soviet expansion in Eastern Europe and Asia, the breakup of the Soviet Union and its newly independent states, and Russian efforts to maintain influence in the post-Soviet space. Assesses the construction of Soviet identity by interpreting Soviet culture in the form of film, literature, art, and music. Evaluates explanatory theories of revolution and empire and the evolution of Marxism in the context of revolution and state building.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "HIST",
@@ -246,7 +246,9 @@
     "credits": 4,
     "nuPath": ["DD", "SI"],
     "sections": [{ "term": "202330", "crn": "38522" }],
-    "description": "Surveys the history of the Jews in the modern world, with an emphasis on global cultural exchange. Examines Jewish interaction with non-Jewish society from Europe to North Africa, the Middle East, the Soviet Union, Israel, and the United States; and explores this relationship’s creative and destructive consequences. Focuses on how Jewish society, culture, religious practice, and political definition changed in relation to a variety of processes now associated with modernity, such as urbanization, industrialization, state centralization, and the development of nationalism and secularism."
+    "description": "Surveys the history of the Jews in the modern world, with an emphasis on global cultural exchange. Examines Jewish interaction with non-Jewish society from Europe to North Africa, the Middle East, the Soviet Union, Israel, and the United States; and explores this relationship’s creative and destructive consequences. Focuses on how Jewish society, culture, religious practice, and political definition changed in relation to a variety of processes now associated with modernity, such as urbanization, industrialization, state centralization, and the development of nationalism and secularism.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "HIST",
@@ -298,7 +300,9 @@
     "credits": 4,
     "nuPath": ["IC", "SI"],
     "sections": [{ "term": "202330", "crn": "34288" }],
-    "description": "Introduces modern Chinese history and culture through literary works, films, and historical texts. Examines political, social, and cultural changes in China since 1800: the decline of empire; the New Culture Movement of the 1920s; the rise of nationalism and rural revolution; the changing roles of women; the Cultural Revolution of the 1960s; and China's cinematic, literary, and economic engagement with the world since 1978. Taught in English and open to all undergraduates. CLTR 1500 and HIST 1500 are cross-listed."
+    "description": "Introduces modern Chinese history and culture through literary works, films, and historical texts. Examines political, social, and cultural changes in China since 1800: the decline of empire; the New Culture Movement of the 1920s; the rise of nationalism and rural revolution; the changing roles of women; the Cultural Revolution of the 1960s; and China's cinematic, literary, and economic engagement with the world since 1978. Taught in English and open to all undergraduates. CLTR 1500 and HIST 1500 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "HIST",
@@ -401,7 +405,9 @@
     "credits": 4,
     "nuPath": ["ER", "SI"],
     "sections": [{ "term": "202330", "crn": "38871" }],
-    "description": "Examines the American response to the Holocaust, in terms of both contemporaneous knowledge and actions and the lasting impact on policy and culture. Starts with early twentieth-century events, such as the Armenian genocide, that shaped later attitudes. Explores the prewar period, particularly U.S. immigration and isolationist policies. Assesses Americans' knowledge of European events as the extermination campaign unfolded and fights ensued over rescue possibilities. Examines changing depictions of the Holocaust that emerged in the postwar period as a result of critical events such as the Eichmann trial and popular television and film portrayals. Finally, considers how perceptions of the Holocaust have shaped subsequent U.S. responses to genocide. HIST 2285, JRNL 2285, and JWSS 2285 are cross-listed."
+    "description": "Examines the American response to the Holocaust, in terms of both contemporaneous knowledge and actions and the lasting impact on policy and culture. Starts with early twentieth-century events, such as the Armenian genocide, that shaped later attitudes. Explores the prewar period, particularly U.S. immigration and isolationist policies. Assesses Americans' knowledge of European events as the extermination campaign unfolded and fights ensued over rescue possibilities. Examines changing depictions of the Holocaust that emerged in the postwar period as a result of critical events such as the Eichmann trial and popular television and film portrayals. Finally, considers how perceptions of the Holocaust have shaped subsequent U.S. responses to genocide. HIST 2285, JRNL 2285, and JWSS 2285 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "HIST",
@@ -415,18 +421,8 @@
       { "term": "202330", "crn": "30314" }
     ],
     "description": "Introduces history majors to advanced techniques of historical practice in research and writing. Offers students an opportunity to conduct original research and write an original research paper. Seminar themes vary; students should check with the Department of History for a list of each year's seminar offerings. May be repeated without limit.",
-    "coreqs": [
-      { "subject": "HIST", "number": "2302" },
-      { "subject": "HIST", "number": "2302" },
-      { "subject": "HIST", "number": "2302" },
-      { "subject": "HIST", "number": "2302" }
-    ],
-    "prereqs": [
-      { "subject": "HIST", "number": "1201" },
-      { "subject": "HIST", "number": "1201" },
-      { "subject": "HIST", "number": "1201" },
-      { "subject": "HIST", "number": "1201" }
-    ]
+    "coreqs": [{ "subject": "HIST", "number": "2302" }],
+    "prereqs": [{ "subject": "HIST", "number": "1201" }]
   },
   {
     "subject": "HIST",
@@ -440,18 +436,8 @@
       { "term": "202330", "crn": "38626" }
     ],
     "description": "Covers learning and practicing methods and conventions of historical writing for publication. Adjuncted to a Seminar in History, which fulfills the Advanced Writing in the Disciplines requirement.",
-    "coreqs": [
-      { "subject": "HIST", "number": "2301" },
-      { "subject": "HIST", "number": "2301" },
-      { "subject": "HIST", "number": "2301" },
-      { "subject": "HIST", "number": "2301" }
-    ],
-    "prereqs": [
-      { "subject": "HIST", "number": "1201" },
-      { "subject": "HIST", "number": "1201" },
-      { "subject": "HIST", "number": "1201" },
-      { "subject": "HIST", "number": "1201" }
-    ]
+    "coreqs": [{ "subject": "HIST", "number": "2301" }],
+    "prereqs": [{ "subject": "HIST", "number": "1201" }]
   },
   {
     "subject": "HIST",
@@ -461,7 +447,9 @@
     "credits": 4,
     "nuPath": ["DD", "SI"],
     "sections": [{ "term": "202330", "crn": "38254" }],
-    "description": "Introduces the social, legal, and economic barriers to accessing reproductive healthcare domestically and internationally. Draws on various theoretical and analytic tools including critical race theory, critical legal theory, sociology of science, human rights, feminist theory, and a range of public health methods. Access to reproductive health services, including abortion, is one of the most contested political, social, cultural, and religious issues today. Covers domestic, regional, and international legal and regulatory frameworks on sexual reproductive health. HIST 2303, SOCL 2303, and WMNS 2303 are cross-listed."
+    "description": "Introduces the social, legal, and economic barriers to accessing reproductive healthcare domestically and internationally. Draws on various theoretical and analytic tools including critical race theory, critical legal theory, sociology of science, human rights, feminist theory, and a range of public health methods. Access to reproductive health services, including abortion, is one of the most contested political, social, cultural, and religious issues today. Covers domestic, regional, and international legal and regulatory frameworks on sexual reproductive health. HIST 2303, SOCL 2303, and WMNS 2303 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "HIST",
@@ -488,7 +476,9 @@
     "credits": 4,
     "nuPath": ["DD", "IC"],
     "sections": [{ "term": "202330", "crn": "38099" }],
-    "description": "Delves into the fascinating stories of African Americans who have called New England home, from the seventeenth century up to the present. Discusses themes such as freedom and slavery, migration, and civil rights. Introduces an interdisciplinary framework for understanding Black identity formation, activism, and cultural as well as intellectual traditions amid the long struggle for justice."
+    "description": "Delves into the fascinating stories of African Americans who have called New England home, from the seventeenth century up to the present. Discusses themes such as freedom and slavery, migration, and civil rights. Introduces an interdisciplinary framework for understanding Black identity formation, activism, and cultural as well as intellectual traditions amid the long struggle for justice.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "HIST",
@@ -498,7 +488,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38524" }],
-    "description": "Covers the discovery and exploration of the New World, the settlement of the English, French, Dutch, Swedish, Spanish, and Russian colonies on the North American mainland, their development to 1763, the origins of their clashes with England, and the American Revolution."
+    "description": "Covers the discovery and exploration of the New World, the settlement of the English, French, Dutch, Swedish, Spanish, and Russian colonies on the North American mainland, their development to 1763, the origins of their clashes with England, and the American Revolution.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "HIST",
@@ -544,7 +536,9 @@
     "credits": 4,
     "nuPath": ["AD"],
     "sections": [{ "term": "202330", "crn": "38613" }],
-    "description": "Integrates history of ethnic groups in Boston with methods from the digital humanities (DH) through a semester-long collaborative student project focused on one particular ethnic group. Combines learning how to use DH technology (as well as its possible misuses) with learning about the history of particular ethnic groups in Boston, such as Jews, the Irish, African-Americans, etc. Uses hands-on approaches to study ethnic migration and history to and within Boston by touring neighborhoods and sites. Examines DH technologies through workshops introducing tools such as Omeka, Story Maps, and Tableau, among other possibilities. Also examines different techniques for data visualization, relationship mapping, network analysis, and text analysis."
+    "description": "Integrates history of ethnic groups in Boston with methods from the digital humanities (DH) through a semester-long collaborative student project focused on one particular ethnic group. Combines learning how to use DH technology (as well as its possible misuses) with learning about the history of particular ethnic groups in Boston, such as Jews, the Irish, African-Americans, etc. Uses hands-on approaches to study ethnic migration and history to and within Boston by touring neighborhoods and sites. Examines DH technologies through workshops introducing tools such as Omeka, Story Maps, and Tableau, among other possibilities. Also examines different techniques for data visualization, relationship mapping, network analysis, and text analysis.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "HIST",
@@ -559,7 +553,15 @@
     ],
     "description": "Examines the Cold War, emphasizing how the Soviet-American struggle for global preeminence intersected with decolonization and the rise of the “Third World.” Uses primary sources, monographs, and scholarly articles to trace the major events and developments of the Cold War—ideological differences between the capitalist and socialist systems, the Cuban Missile Crisis, the construction of the Berlin Wall, the Vietnam War—while also exploring how and why the Cold War came to pervade economic, cultural, and social relations globally. Examines how unexpected actors—Cuban doctors and Peace Corps volunteers—responded to and shaped superpower rivalry. Considers how the Cold War continues to shape the world today.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" }
+    ]
   },
   {
     "subject": "HIST",
@@ -581,7 +583,9 @@
     "credits": 4,
     "nuPath": ["SI"],
     "sections": [{ "term": "202330", "crn": "35606" }],
-    "description": "Surveys the history of modern terrorism via film, literature, art, social science theory, and historical documents and engages the history of terrorism from 19th-century Europe to the present day. Explores the roots of this global phenomenon via weekly readings and requires students to conduct independent research and create individual or group presentations on selected themes."
+    "description": "Surveys the history of modern terrorism via film, literature, art, social science theory, and historical documents and engages the history of terrorism from 19th-century Europe to the present day. Explores the roots of this global phenomenon via weekly readings and requires students to conduct independent research and create individual or group presentations on selected themes.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "HIST",
@@ -591,7 +595,9 @@
     "credits": 4,
     "nuPath": ["ER", "SI"],
     "sections": [{ "term": "202330", "crn": "38525" }],
-    "description": "Explores the classic historical question of whether leaders make history or history makes leaders. Some leaders are considered unquestionable successes, while others are deemed partial or abject failures. Examines how certain men and women arrived at leadership positions, considering personal charisma and historical contingency. Studies the choices leaders made in difficult situations, and analyzes leaders' successes and failures through historical notions of ethics and justice. Also examines the question of legacy, to understand why some leaders stand out (for better or worse) and other leaders recede from historical narratives. Case studies from around the world include national leaders and unsung heroes, from the early modern period through the present. Sources include historical scholarship, archive documents, and cultural renderings."
+    "description": "Explores the classic historical question of whether leaders make history or history makes leaders. Some leaders are considered unquestionable successes, while others are deemed partial or abject failures. Examines how certain men and women arrived at leadership positions, considering personal charisma and historical contingency. Studies the choices leaders made in difficult situations, and analyzes leaders' successes and failures through historical notions of ethics and justice. Also examines the question of legacy, to understand why some leaders stand out (for better or worse) and other leaders recede from historical narratives. Case studies from around the world include national leaders and unsung heroes, from the early modern period through the present. Sources include historical scholarship, archive documents, and cultural renderings.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "HIST",
@@ -608,24 +614,7 @@
     ],
     "description": "Offers students an opportunity to make use of advanced techniques of historical methodology to conduct original research and write a major, original research paper as the culmination of their work toward the history degree. This is a capstone research and writing seminar for history majors. Not open to students who are receiving credit for HIST 4911, HIST 4912, HIST 4970, or HIST 4971.",
     "coreqs": [],
-    "prereqs": [
-      { "subject": "HIST", "number": "2301" },
-      { "subject": "HIST", "number": "2301" },
-      { "subject": "HIST", "number": "2301" },
-      { "subject": "HIST", "number": "2301" },
-      { "subject": "HIST", "number": "2301" },
-      { "subject": "HIST", "number": "2301" },
-      { "subject": "HIST", "number": "2301" },
-      { "subject": "HIST", "number": "2301" },
-      { "subject": "HIST", "number": "2301" },
-      { "subject": "HIST", "number": "2301" },
-      { "subject": "HIST", "number": "2301" },
-      { "subject": "HIST", "number": "2301" },
-      { "subject": "HIST", "number": "2301" },
-      { "subject": "HIST", "number": "2301" },
-      { "subject": "HIST", "number": "2301" },
-      { "subject": "HIST", "number": "2301" }
-    ]
+    "prereqs": [{ "subject": "HIST", "number": "2301" }]
   },
   {
     "subject": "HIST",
@@ -647,7 +636,13 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "34290" }],
-    "description": "Continues HIST 5101. Offers an advanced exploration of the theories and methods used by historians to develop students' ability to understand and critique the work of other historians. Emphasis is on theories and methods in world history, such as comparative models, systemic approaches, and focus on interconnections. Explores what it means to have a local, national, or global perspective, and how world history fits in with other fields of historical scholarship. Required of all PhD students."
+    "description": "Continues HIST 5101. Offers an advanced exploration of the theories and methods used by historians to develop students' ability to understand and critique the work of other historians. Emphasis is on theories and methods in world history, such as comparative models, systemic approaches, and focus on interconnections. Explores what it means to have a local, national, or global perspective, and how world history fits in with other fields of historical scholarship. Required of all PhD students.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "HIST", "number": "5101" },
+      "Or",
+      { "subject": "HIST", "number": "5101" }
+    ]
   },
   {
     "subject": "HIST",
@@ -681,7 +676,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38526" }],
-    "description": "Offers readings on selected themes and issues in world history. May be repeated without limit."
+    "description": "Offers readings on selected themes and issues in world history. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "HIST",
@@ -691,7 +688,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38527" }],
-    "description": "Examines the role of space and place in the constitution of society and culture through a set of key readings. Themes include the geographical production of class, gender, and race/ethnicity in modernity and postmodernity as well as the role of space and place in debates around postcolonialism. The ways in which space and place are implicated in the practice of power and resistance are key to the course."
+    "description": "Examines the role of space and place in the constitution of society and culture through a set of key readings. Themes include the geographical production of class, gender, and race/ethnicity in modernity and postmodernity as well as the role of space and place in debates around postcolonialism. The ways in which space and place are implicated in the practice of power and resistance are key to the course.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "HIST",
@@ -855,7 +854,7 @@
     ],
     "description": "Offers dissertation supervision by members of the department.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "HIST", "number": "9000" }]
   },
   {
     "subject": "HIST",
@@ -889,6 +888,10 @@
     ],
     "description": "Offers dissertation supervision by members of the department.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "HIST", "number": "9991" },
+      "Or",
+      "Dissertation Check"
+    ]
   }
 ]

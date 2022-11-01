@@ -49,7 +49,9 @@
       { "term": "202330", "crn": "34072" },
       { "term": "202330", "crn": "35271" }
     ],
-    "description": "Offers an opportunity for students to engage in supervised, project-based, group research."
+    "description": "Offers an opportunity for students to engage in supervised, project-based, group research.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "INSC",

@@ -19,7 +19,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "30811" }],
-    "description": "Covers the intersection of customer research with product design, specifically lean design and how to map abstract attributes that customers seek into concrete product designs that can actually be built. Other topics include managing the technology business interface, creating product teams, and drafting product development plans. Open to first-year graduate students."
+    "description": "Covers the intersection of customer research with product design, specifically lean design and how to map abstract attributes that customers seek into concrete product designs that can actually be built. Other topics include managing the technology business interface, creating product teams, and drafting product development plans. Open to first-year graduate students.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "TECE",

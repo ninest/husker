@@ -19,7 +19,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "30624" }],
-    "description": "Emphasizes the structure and function of the human body including cells, tissues, and organs. Highlights interrelationships among systems and regulation of physiological functions involved in maintaining homeostasis. Focuses on features of clinical importance. Covers musculoskeletal, neurologic, cardiovascular, respiratory, gastrointestinal, endocrine, immunologic, and renal systems. Requires cadaver laboratory sessions. This is the second of a two-course sequence."
+    "description": "Emphasizes the structure and function of the human body including cells, tissues, and organs. Highlights interrelationships among systems and regulation of physiological functions involved in maintaining homeostasis. Focuses on features of clinical importance. Covers musculoskeletal, neurologic, cardiovascular, respiratory, gastrointestinal, endocrine, immunologic, and renal systems. Requires cadaver laboratory sessions. This is the second of a two-course sequence.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "PA", "number": "6200" }]
   },
   {
     "subject": "PA",
@@ -41,7 +43,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "30698" }],
-    "description": "Presents the techniques for eliciting an accurate history, performing an appropriate physical examination, making case presentations, and documenting patients' information. Includes issues such as effective communication, confidentiality, cultural competence, and dealing with patients who are terminally ill or disabled. Emphasizes the correlation of pertinent physical findings with their respective clinical conditions. Students participate in all aspects of the clinical encounter."
+    "description": "Presents the techniques for eliciting an accurate history, performing an appropriate physical examination, making case presentations, and documenting patients' information. Includes issues such as effective communication, confidentiality, cultural competence, and dealing with patients who are terminally ill or disabled. Emphasizes the correlation of pertinent physical findings with their respective clinical conditions. Students participate in all aspects of the clinical encounter.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "PA", "number": "6203" }]
   },
   {
     "subject": "PA",
@@ -63,7 +67,9 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "30697" }],
-    "description": "Continues PA 6205. Examines the classification, mechanisms of action, and use of a broad spectrum of therapeutic agents. Focuses on dose response, side effects, adverse reactions, and the role of patient concordance in medication effectiveness."
+    "description": "Continues PA 6205. Examines the classification, mechanisms of action, and use of a broad spectrum of therapeutic agents. Focuses on dose response, side effects, adverse reactions, and the role of patient concordance in medication effectiveness.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "PA", "number": "6205" }]
   },
   {
     "subject": "PA",
@@ -73,7 +79,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "30998" }],
-    "description": "Covers a variety of diagnostic and therapeutic evaluations including clinical laboratory methods, radiologic studies, and electrocardiography. Includes basic principles of diagnostic and therapeutic patient evaluation, radiology, indications and interpretation of clinical laboratory studies, demonstration and practice of various diagnostic methods, and electrocardiography theory and interpretation."
+    "description": "Covers a variety of diagnostic and therapeutic evaluations including clinical laboratory methods, radiologic studies, and electrocardiography. Includes basic principles of diagnostic and therapeutic patient evaluation, radiology, indications and interpretation of clinical laboratory studies, demonstration and practice of various diagnostic methods, and electrocardiography theory and interpretation.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PA",
@@ -107,7 +115,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "30696" }],
-    "description": "Continues PA 6311. Presents a systems approach to the principles of disease processes and includes such topics as physiology, pathophysiology, the natural history of disease, diagnostic procedures, and therapeutics measures. This course is thesecond of a three-semester series covering core medical concepts and knowledge grounded in scientific principles and evidence-based medicine on the diseases and conditions commonly encountered in clinical practice."
+    "description": "Continues PA 6311. Presents a systems approach to the principles of disease processes and includes such topics as physiology, pathophysiology, the natural history of disease, diagnostic procedures, and therapeutics measures. This course is thesecond of a three-semester series covering core medical concepts and knowledge grounded in scientific principles and evidence-based medicine on the diseases and conditions commonly encountered in clinical practice.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "PA", "number": "6311" }]
   },
   {
     "subject": "PA",
@@ -117,7 +127,9 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "30695" }],
-    "description": "Presents the clinical application of neuroanatomy and neurophysiology. Offers the opportunity to develop an understanding of the nervous system's normal functioning as well as a clinical approach to assessing and managing nervous system disorders and disease states, and their effects on patients and their families."
+    "description": "Presents the clinical application of neuroanatomy and neurophysiology. Offers the opportunity to develop an understanding of the nervous system's normal functioning as well as a clinical approach to assessing and managing nervous system disorders and disease states, and their effects on patients and their families.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PA",
@@ -127,7 +139,9 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "30599" }],
-    "description": "Presents the physiological and psychological fundamentals of child development. Focuses on the major common pediatric illnesses, including their signs, symptoms, and treatment regimens; various immunizations and medications used in pediatrics and their indication and dosage in relation to specific disorders; and management of pediatric emergencies."
+    "description": "Presents the physiological and psychological fundamentals of child development. Focuses on the major common pediatric illnesses, including their signs, symptoms, and treatment regimens; various immunizations and medications used in pediatrics and their indication and dosage in relation to specific disorders; and management of pediatric emergencies.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PA",

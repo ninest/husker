@@ -38,7 +38,11 @@
     ],
     "description": "Continues JPNS 1101. Emphasizes the development of oral skills; secondary emphasis is on reading. Offers students the opportunity to learn basic grammatical patterns, expand vocabulary, and improve communication skills in modern Japanese. Includes the introduction to kanji characters in the written component.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "JPNS", "number": "1101" },
+      "Or",
+      { "subject": "JPNS", "number": "1301" }
+    ]
   },
   {
     "subject": "JPNS",
@@ -54,15 +58,6 @@
     "description": "Emphasizes further vocabulary building. Offers students an opportunity to master the fine points of grammar through written composition, prepared oral reports, and reading and discussion from contemporary Japanese materials.",
     "coreqs": [],
     "prereqs": [
-      { "subject": "JPNS", "number": "1102" },
-      "Or",
-      { "subject": "JPNS", "number": "1302" },
-      { "subject": "JPNS", "number": "1102" },
-      "Or",
-      { "subject": "JPNS", "number": "1302" },
-      { "subject": "JPNS", "number": "1102" },
-      "Or",
-      { "subject": "JPNS", "number": "1302" },
       { "subject": "JPNS", "number": "1102" },
       "Or",
       { "subject": "JPNS", "number": "1302" }
@@ -84,15 +79,6 @@
     "prereqs": [
       { "subject": "JPNS", "number": "2101" },
       "Or",
-      { "subject": "JPNS", "number": "2301" },
-      { "subject": "JPNS", "number": "2101" },
-      "Or",
-      { "subject": "JPNS", "number": "2301" },
-      { "subject": "JPNS", "number": "2101" },
-      "Or",
-      { "subject": "JPNS", "number": "2301" },
-      { "subject": "JPNS", "number": "2101" },
-      "Or",
       { "subject": "JPNS", "number": "2301" }
     ]
   },
@@ -109,7 +95,11 @@
     ],
     "description": "Continues further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through advanced reading, composition, grammar review, and listening skills. Whenever possible, offers students an opportunity to engage in local community activities to enhance communication skills and cultural knowledge.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "JPNS", "number": "2102" },
+      "Or",
+      { "subject": "JPNS", "number": "2302" }
+    ]
   },
   {
     "subject": "JPNS",

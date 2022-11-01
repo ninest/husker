@@ -26,7 +26,9 @@
       { "term": "202330", "crn": "37927" },
       { "term": "202310", "crn": "21567" }
     ],
-    "description": "Offers students an applied project setting in which to apply their curricular learning. Working with a sponsor, students refine an applied research topic, perform research, develop recommendations that are shared with a partner sponsor, and create a plan for implementing their recommendations. Seeks to benefit students with a curriculum that supports the development of key business communication skills, project and client management skills, and frameworks for business analysis. Offers students an opportunity to learn from sponsor feedback, review 'lessons learned,' and incorporate suggestions from this review to improve and further develop their career development and professional plan."
+    "description": "Offers students an applied project setting in which to apply their curricular learning. Working with a sponsor, students refine an applied research topic, perform research, develop recommendations that are shared with a partner sponsor, and create a plan for implementing their recommendations. Seeks to benefit students with a curriculum that supports the development of key business communication skills, project and client management skills, and frameworks for business analysis. Offers students an opportunity to learn from sponsor feedback, review 'lessons learned,' and incorporate suggestions from this review to improve and further develop their career development and professional plan.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "INAM",
@@ -36,7 +38,9 @@
     "credits": 1,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21701" }],
-    "description": "Offers directed study of a specific topic not normally contained in the regular course offerings but within the area of expertise of a faculty member. May be completed up to eight times."
+    "description": "Offers directed study of a specific topic not normally contained in the regular course offerings but within the area of expertise of a faculty member. May be completed up to eight times.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "INAM",
@@ -126,7 +130,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "33816" }],
-    "description": "Focuses on thoughtful engagement with diverse and emerging forms of critical inquiry, professional engagement, and creative practice for artists, entrepreneurs, and administrators. Through course work and interaction with leading practitioners, offers students an opportunity to gain an understanding of the impact that forms of production and business models have on potential contribution to fields of critical practice and their diverse culture, while developing innovative models for their own creative, critical, and entrepreneurial endeavors."
+    "description": "Focuses on thoughtful engagement with diverse and emerging forms of critical inquiry, professional engagement, and creative practice for artists, entrepreneurs, and administrators. Through course work and interaction with leading practitioners, offers students an opportunity to gain an understanding of the impact that forms of production and business models have on potential contribution to fields of critical practice and their diverse culture, while developing innovative models for their own creative, critical, and entrepreneurial endeavors.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "INAM",
@@ -151,7 +157,9 @@
       { "term": "202310", "crn": "21655" },
       { "term": "202310", "crn": "21729" }
     ],
-    "description": "Offers directed study of a specific topic not normally contained in the regular course offerings but within the area of expertise of a faculty member. May be repeated without limit."
+    "description": "Offers directed study of a specific topic not normally contained in the regular course offerings but within the area of expertise of a faculty member. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "INAM",
@@ -161,7 +169,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "20676" }],
-    "description": "Offers an overview of different forms of art and design research. Designed to guide students in crafting a plan for navigating their own individual path through the program. Creates a shared vocabulary for interdisciplinary research and sets expectations for the remainder of each student’s highly individualized path. Throughout the semester, the class reads and discusses key texts on interdisciplinary arts and design and media research; researches and reports on case studies of other research that relates to the direction of their research, including dissertations by prior students from CAMD and other institutions; and participates in guest presentations/discussions by program faculty regarding the integration of research and practice."
+    "description": "Offers an overview of different forms of art and design research. Designed to guide students in crafting a plan for navigating their own individual path through the program. Creates a shared vocabulary for interdisciplinary research and sets expectations for the remainder of each student’s highly individualized path. Throughout the semester, the class reads and discusses key texts on interdisciplinary arts and design and media research; researches and reports on case studies of other research that relates to the direction of their research, including dissertations by prior students from CAMD and other institutions; and participates in guest presentations/discussions by program faculty regarding the integration of research and practice.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "INAM",
@@ -171,7 +181,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21263" }],
-    "description": "Offers an overview of research designs and methods across disciplines. Discusses how to select and use these methods and strategies and discusses IRB procedures. Includes guest presentations from faculty across the campus. This course is not meant as a comprehensive methodological training but rather an overview that should be complemented with at least one specialized methods course from a university-wide list of courses in the first semester of study and two others in the second semester of study."
+    "description": "Offers an overview of research designs and methods across disciplines. Discusses how to select and use these methods and strategies and discusses IRB procedures. Includes guest presentations from faculty across the campus. This course is not meant as a comprehensive methodological training but rather an overview that should be complemented with at least one specialized methods course from a university-wide list of courses in the first semester of study and two others in the second semester of study.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "INAM",
@@ -197,7 +209,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21264" }],
-    "description": "This class will take place in Ryder 180 in the Center for Design."
+    "description": "This class will take place in Ryder 180 in the Center for Design.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "INAM",

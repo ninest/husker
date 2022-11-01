@@ -40,7 +40,13 @@
     ],
     "description": "Builds on SPNS 1101. Continues the integrated development of elementary language skills through cultural exploration. Includes class discussion and project-based learning. Offers students an opportunity to gain a deeper understanding of the linguistic, cultural, and geographic diversity of the Spanish-speaking world.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "SPNS", "number": "1101" },
+      "Or",
+      { "subject": "SPNS", "number": "1301" },
+      "Or",
+      "Spanish Placement Test"
+    ]
   },
   {
     "subject": "SPNS",
@@ -61,7 +67,13 @@
     ],
     "description": "Builds on SPNS 1102 and begins the integrated development of intermediate language skills through cultural exploration. Includes class discussion and project-based learning. Offers students an opportunity to gain a deeper understanding of modern life in Spanish-speaking countries and efforts to preserve cultural heritage.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "SPNS", "number": "1102" },
+      "Or",
+      { "subject": "SPNS", "number": "1302" },
+      "Or",
+      "Spanish Placement Test"
+    ]
   },
   {
     "subject": "SPNS",
@@ -82,7 +94,15 @@
     ],
     "description": "Builds on SPNS 2101 and continues the integrated development of intermediate language skills through cultural exploration. Includes class discussion, project-based learning, and one-on-one conversations with native speakers from around the Spanish-speaking world. Offers students an opportunity to prepare to travel, live, or work abroad and gain a deeper understanding of the social and political issues that have shaped daily life in Spanish-speaking countries.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      "(",
+      { "subject": "SPNS", "number": "2101" },
+      "Or",
+      { "subject": "SPNS", "number": "2301" },
+      "Or",
+      "Spanish Placement Test",
+      ")"
+    ]
   },
   {
     "subject": "SPNS",
@@ -103,7 +123,13 @@
     ],
     "description": "Builds on SPNS 2102 and begins the integrated development of advanced language skills through cultural exploration. Includes class discussion, project-based learning, and one-on-one conversations with native speakers from around the Spanish-speaking world. Offers students an opportunity to gain a deeper understanding of the (de)construction of social, political, and interpersonal borders in the Spanish-speaking world.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "SPNS", "number": "2102" },
+      "Or",
+      { "subject": "SPNS", "number": "2302" },
+      "Or",
+      "Spanish Placement Test"
+    ]
   },
   {
     "subject": "SPNS",
@@ -120,7 +146,11 @@
     ],
     "description": "Builds on SPNS 3101 and continues the integrated development of advanced language skills through cultural exploration. Includes class discussion, project-based learning, and one-on-one conversations with native speakers from around the Spanish-speaking world. Offers students an opportunity to gain a deeper understanding of the diverse gender, ethnic, racial, religious, national, and linguistic identities of Hispanic and Latinx communities in Spanish-speaking countries and the United States.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "SPNS", "number": "3101" },
+      "Or",
+      { "subject": "SPNS", "number": "3301" }
+    ]
   },
   {
     "subject": "SPNS",
@@ -130,7 +160,21 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38103" }],
-    "description": "Designed to prepare students to interact with Spanish-speaking patients effectively and empathetically by exploring Hispanic cultural perspectives related to health and healthcare throughout the Spanish-speaking world, focusing on the Latino population in the United States. Offers students an opportunity to develop their linguistic skills tailored specifically to healthcare settings. Introduces a broad range of medical vocabulary and reviews the grammatical structures necessary to take a medical history, conduct a physical exam, discuss a diagnosis and treatment with patients, and perform other medical tasks in Spanish."
+    "description": "Designed to prepare students to interact with Spanish-speaking patients effectively and empathetically by exploring Hispanic cultural perspectives related to health and healthcare throughout the Spanish-speaking world, focusing on the Latino population in the United States. Offers students an opportunity to develop their linguistic skills tailored specifically to healthcare settings. Introduces a broad range of medical vocabulary and reviews the grammatical structures necessary to take a medical history, conduct a physical exam, discuss a diagnosis and treatment with patients, and perform other medical tasks in Spanish.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "SPNS", "number": "2102" },
+      "Or",
+      { "subject": "SPNS", "number": "2302" },
+      "Or",
+      { "subject": "SPNS", "number": "2402" },
+      "Or",
+      { "subject": "SPNS", "number": "3101" },
+      "Or",
+      { "subject": "SPNS", "number": "3102" },
+      "Or",
+      "Spanish Placement Test"
+    ]
   },
   {
     "subject": "SPNS",
@@ -140,7 +184,13 @@
     "credits": 4,
     "nuPath": ["WI"],
     "sections": [{ "term": "202330", "crn": "38104" }],
-    "description": "Explores the authentic use of advanced grammar, focusing on improving both speaking and writing skills. Presents advanced grammatical structures, analyzes their use in authentic cultural texts, and applies them to both spoken and written tasks. Offers students an opportunity to discuss cultural topics with peers and native speakers, as well as to develop an ePortfolio of written texts and engage in the peer-editing process."
+    "description": "Explores the authentic use of advanced grammar, focusing on improving both speaking and writing skills. Presents advanced grammatical structures, analyzes their use in authentic cultural texts, and applies them to both spoken and written tasks. Offers students an opportunity to discuss cultural topics with peers and native speakers, as well as to develop an ePortfolio of written texts and engage in the peer-editing process.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "SPNS", "number": "3101" },
+      "Or",
+      { "subject": "SPNS", "number": "3102" }
+    ]
   },
   {
     "subject": "SPNS",
@@ -173,6 +223,14 @@
     ],
     "description": "Explores a particular topic in Spanish linguistics. Topics may include phonology, syntax, morphology, sociolinguistics, language contact, bilingualism, or applied linguistics, among others.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "SPNS", "number": "3101" },
+      "Or",
+      { "subject": "SPNS", "number": "3102" },
+      "Or",
+      { "subject": "SPNS", "number": "3601" },
+      "Or",
+      { "subject": "SPNS", "number": "3602" }
+    ]
   }
 ]

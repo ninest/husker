@@ -153,7 +153,13 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38106" }],
-    "description": "Examines healthcare as a high-risk industry, where complex healthcare systems attempt to meet the complex needs of diverse patients. Introduces the many drivers that influence the design and evolution of healthcare systems, particularly patient safety, which until recently was not typically recognized as one of these design drivers. Expands on the concept of complex systems theory and introduces the concept of high reliability organizations (HROs) and how they approach safety. Examines engineering strategies from HROs by studying how healthcare systems should adapt and retrofit to create safer systems of care delivery. Compares the challenges of improving patient safety at the system vs. the microsystem level. Examines diverse error-reducing strategies."
+    "description": "Examines healthcare as a high-risk industry, where complex healthcare systems attempt to meet the complex needs of diverse patients. Introduces the many drivers that influence the design and evolution of healthcare systems, particularly patient safety, which until recently was not typically recognized as one of these design drivers. Expands on the concept of complex systems theory and introduces the concept of high reliability organizations (HROs) and how they approach safety. Examines engineering strategies from HROs by studying how healthcare systems should adapt and retrofit to create safer systems of care delivery. Compares the challenges of improving patient safety at the system vs. the microsystem level. Examines diverse error-reducing strategies.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "HLTH", "number": "5600" },
+      "Or",
+      { "subject": "HLTH", "number": "5600" }
+    ]
   },
   {
     "subject": "HLTH",
@@ -196,7 +202,9 @@
       { "term": "202330", "crn": "38064" },
       { "term": "202330", "crn": "38130" }
     ],
-    "description": "Introduces social and structural conditions as key contributors to people’s physical and mental health. Describes unjust and avoidable socioeconomic conditions considered to be the main contributors to health inequities. Meets a growing demand for health professionals to have fundamental knowledge of the social determinants of health, including social isolation and social support; structural/ institutional racism; income inequality; and social and economic policies. Provides an opportunity to develop awareness of the role of social determinants of health in population health; knowledge of the pathways through which they impact health; awareness of the specific ways the health of different populations and demographic groups is impacted; and enhanced evaluation, diagnosis, and communication with patient and clients."
+    "description": "Introduces social and structural conditions as key contributors to people’s physical and mental health. Describes unjust and avoidable socioeconomic conditions considered to be the main contributors to health inequities. Meets a growing demand for health professionals to have fundamental knowledge of the social determinants of health, including social isolation and social support; structural/ institutional racism; income inequality; and social and economic policies. Provides an opportunity to develop awareness of the role of social determinants of health in population health; knowledge of the pathways through which they impact health; awareness of the specific ways the health of different populations and demographic groups is impacted; and enhanced evaluation, diagnosis, and communication with patient and clients.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "HLTH",

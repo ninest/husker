@@ -22,7 +22,9 @@
       { "term": "202330", "crn": "31938" },
       { "term": "202330", "crn": "38208" }
     ],
-    "description": "Focuses on the design and construction of sustainable mechanical/electrical/plumbing (MEP) systems in buildings. Covers MEP documentation, plumbing water supply, HVAC systems, electrical power supply and distribution, lighting systems, low-voltage electrical systems, and estimating and planning for these specialty areas. Addresses sustainable design and construction practices for MEP, including minimization of energy consumption and carbon footprint. Requires one semester of building physics, environmental systems, or equivalent."
+    "description": "Focuses on the design and construction of sustainable mechanical/electrical/plumbing (MEP) systems in buildings. Covers MEP documentation, plumbing water supply, HVAC systems, electrical power supply and distribution, lighting systems, low-voltage electrical systems, and estimating and planning for these specialty areas. Addresses sustainable design and construction practices for MEP, including minimization of energy consumption and carbon footprint. Requires one semester of building physics, environmental systems, or equivalent.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "SBSY",
@@ -34,7 +36,7 @@
     "sections": [{ "term": "202310", "crn": "19078" }],
     "description": "Studies principles of building performance simulations and the application of these tools to improve the design and operation of buildings. Covers the basic principles of simulation and uses a spectrum of available tools for early stage modeling, daylight estimation, analysis of comfort, and whole building validation. Introduces interpretation and validation of results and code-mandated protocols.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "SBSY", "number": "5200" }]
   },
   {
     "subject": "SBSY",

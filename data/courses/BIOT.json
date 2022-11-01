@@ -110,7 +110,9 @@
       { "term": "202330", "crn": "32701" },
       { "term": "202330", "crn": "39050" }
     ],
-    "description": "Covers managing projects and personnel in a technology-based organization Such activities are best carried out by those who combine the technical knowledge of their industry with the insight into the best practices for working with groups of highly educated, and often very experienced people. The biotechnology industry is strongly dependent on the concept that knowledge is always shared and ownership is collective. As the fundamental organizational mantra is teamwork, the principles of managing in this environment are key to achieving important goals. How to accomplish this and make decisions that drive innovation and success have common threads with other technology based industries, but with the added complexity of the scientific challenges facing the biotechnology industry. Restricted to students in the Bouv&#233; College of Health Sciences and in the College of Science or by permission of the program office."
+    "description": "Covers managing projects and personnel in a technology-based organization Such activities are best carried out by those who combine the technical knowledge of their industry with the insight into the best practices for working with groups of highly educated, and often very experienced people. The biotechnology industry is strongly dependent on the concept that knowledge is always shared and ownership is collective. As the fundamental organizational mantra is teamwork, the principles of managing in this environment are key to achieving important goals. How to accomplish this and make decisions that drive innovation and success have common threads with other technology based industries, but with the added complexity of the scientific challenges facing the biotechnology industry. Restricted to students in the Bouv&#233; College of Health Sciences and in the College of Science or by permission of the program office.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "BIOT", "number": "5219" }]
   },
   {
     "subject": "BIOT",
@@ -125,7 +127,7 @@
     ],
     "description": "Course will meet in room 105 Vaill.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "BIOT", "number": "5219" }]
   },
   {
     "subject": "BIOT",
@@ -150,7 +152,9 @@
       { "term": "202330", "crn": "33754" },
       { "term": "202330", "crn": "35846" }
     ],
-    "description": "Introduces students to biologics. The class of drugs referred to as biologics or biotherapeutics, proteins drugs, makes up a large portion of the drugs in development and on the market today. Focuses on considerations for approval for such drugs. Offers students an opportunity to learn how to be able to describe and explain both biologics and biosimilars."
+    "description": "Introduces students to biologics. The class of drugs referred to as biologics or biotherapeutics, proteins drugs, makes up a large portion of the drugs in development and on the market today. Focuses on considerations for approval for such drugs. Offers students an opportunity to learn how to be able to describe and explain both biologics and biosimilars.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "BIOT",
@@ -264,7 +268,9 @@
       { "term": "202330", "crn": "31806" },
       { "term": "202330", "crn": "33063" }
     ],
-    "description": "Covers the development and implementation of the drug product manufacturing process for biopharmaceuticals. Focuses on biologic products, specifically proteins. Covers the workflow required for the development and implementation of the production process with the scientific and engineering principles highlighted. Topics include the preformulation process for early stage product development, the selection of formulation compatible with the targeted product presentation, optimization of formulations to meet stability and usage objectives, the design of a scalable process for production, large-scale process equipment and operations, process scale-up considerations, and regulatory compliance issues for drug product manufacturing facilities and operations. Students who do not meet course prerequisites may seek permission of instructor."
+    "description": "Covers the development and implementation of the drug product manufacturing process for biopharmaceuticals. Focuses on biologic products, specifically proteins. Covers the workflow required for the development and implementation of the production process with the scientific and engineering principles highlighted. Topics include the preformulation process for early stage product development, the selection of formulation compatible with the targeted product presentation, optimization of formulations to meet stability and usage objectives, the design of a scalable process for production, large-scale process equipment and operations, process scale-up considerations, and regulatory compliance issues for drug product manufacturing facilities and operations. Students who do not meet course prerequisites may seek permission of instructor.",
+    "coreqs": [],
+    "prereqs": ["Or"]
   },
   {
     "subject": "BIOT",
@@ -279,7 +285,7 @@
     ],
     "description": "Offers an up-to-date survey and review of the research and understanding of the molecular interactions of proteins in biopharmaceutical formulations, including both liquid and solid formats, during the process of drug product manufacturing. Focuses on protein-protein interactions, protein-excipients (e.g., stabilizers, surfactants) interactions, and protein at interface surfaces interactions that are critical and impactful on the stability and integrity of therapeutic proteins of interest. Emphasizes understanding the mechanistic aspect of the interactions; the approaches, methods, and techniques employed to study these phenomena; and measures considered to modulate such interactions to enhance the performance of the biopharmaceutical formulations. Students who do not meet course prerequisites may seek permission of instructor.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": ["Or"]
   },
   {
     "subject": "BIOT",
@@ -311,7 +317,9 @@
       { "term": "202330", "crn": "33068" },
       { "term": "202330", "crn": "38646" }
     ],
-    "description": "Offers a comprehensive look at various aspects of higher- order protein structures in biotherapeutics and their implications on biological drug design. Focuses heavily on protein aggregation, a type of HOS, and analysis of those aggregates including functional implications. Topics include a review of protein structure, protein aggregation, functional aspects, and techniques to reduce HOS using protein expression and purification strategies, protein folding in disease, macromolecular crystallography, nuclear magnetic resonance, analytical ultracentrifugation, circular dichroism, light scattering, electron spin labelling, cryo-EM, WAXS, and HDX-MS. Highlights experimental design and application to the biotechnology industry in identifying and reducing HOS."
+    "description": "Offers a comprehensive look at various aspects of higher- order protein structures in biotherapeutics and their implications on biological drug design. Focuses heavily on protein aggregation, a type of HOS, and analysis of those aggregates including functional implications. Topics include a review of protein structure, protein aggregation, functional aspects, and techniques to reduce HOS using protein expression and purification strategies, protein folding in disease, macromolecular crystallography, nuclear magnetic resonance, analytical ultracentrifugation, circular dichroism, light scattering, electron spin labelling, cryo-EM, WAXS, and HDX-MS. Highlights experimental design and application to the biotechnology industry in identifying and reducing HOS.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "BIOT",
@@ -333,7 +341,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38647" }],
-    "description": "Explores the science behind how regulatory pathways were developed and how vaccines were approved for human use. The pathway for vaccine approvals by national regulatory authorities has been well established for decades. The SARS-CoV-2 pandemic created an immediate need to create new vaccines, which also created a new need for the regulatory approval of these vaccines. Examines how SARS-CoV-2 vaccines caused an increased interest in the regulatory science behind vaccine regulatory approval, specifically exploring the use of emergency use authorization (EUA) in getting SARS-CoV-2 vaccines to market. Discusses how the use of EUAs changed the regulatory science landscape of vaccines."
+    "description": "Explores the science behind how regulatory pathways were developed and how vaccines were approved for human use. The pathway for vaccine approvals by national regulatory authorities has been well established for decades. The SARS-CoV-2 pandemic created an immediate need to create new vaccines, which also created a new need for the regulatory approval of these vaccines. Examines how SARS-CoV-2 vaccines caused an increased interest in the regulatory science behind vaccine regulatory approval, specifically exploring the use of emergency use authorization (EUA) in getting SARS-CoV-2 vaccines to market. Discusses how the use of EUAs changed the regulatory science landscape of vaccines.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "BIOT",
@@ -343,7 +353,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38648" }],
-    "description": "Discusses the molecular tools used for vaccine design and development, including the experimental tools used for attenuated whole-organism vaccines, purified macromolecule vaccines, and DNA or mRNA vaccines. Emphasizes vector design and development and specifically the challenges associated with vaccine design and development. Also studies computational tools that aid vaccine development."
+    "description": "Discusses the molecular tools used for vaccine design and development, including the experimental tools used for attenuated whole-organism vaccines, purified macromolecule vaccines, and DNA or mRNA vaccines. Emphasizes vector design and development and specifically the challenges associated with vaccine design and development. Also studies computational tools that aid vaccine development.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "BIOT",
@@ -407,7 +419,9 @@
       { "term": "202330", "crn": "39051" },
       { "term": "202330", "crn": "39340" }
     ],
-    "description": "Emphasizes quality management systems (QMS) and validation as it relates to the production and processes related to pharmaceuticals, including biopharmaceuticals. Discusses the implementation of a QMS plan, to include document processes, procedures, metrics, reporting, and responsibilities, aligned with pharmaceutical and biotechnology companies’ business objectives. Emphasizes implementation, signaling problems (continual improvement), transparency, validation, and team cooperation/dynamics. Specifically discusses the International Council on Harmonisation (ICH) Q10 guidelines. Topics related to QMS may include objectives, manual, organization structural responsibilities, data management, processes, product quality, continuous improvement plans, quality instruments, and document control."
+    "description": "Emphasizes quality management systems (QMS) and validation as it relates to the production and processes related to pharmaceuticals, including biopharmaceuticals. Discusses the implementation of a QMS plan, to include document processes, procedures, metrics, reporting, and responsibilities, aligned with pharmaceutical and biotechnology companies’ business objectives. Emphasizes implementation, signaling problems (continual improvement), transparency, validation, and team cooperation/dynamics. Specifically discusses the International Council on Harmonisation (ICH) Q10 guidelines. Topics related to QMS may include objectives, manual, organization structural responsibilities, data management, processes, product quality, continuous improvement plans, quality instruments, and document control.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "BIOT",
@@ -460,7 +474,9 @@
     "credits": 0,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21806" }],
-    "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit."
+    "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "BIOT",
@@ -536,6 +552,8 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "36096" }],
-    "description": "Focuses on advanced biological and bioprocess engineering concepts. Uses industrial-scale systems and technology platforms. Offers students an opportunity to learn lab techniques used in manufacturing and production of biotherapeutic products (protein-based drugs such as monoclonal antibodies) and cell and gene therapies. Offers hands-on experience with industrial-scale bioreactors, protein purification systems, and mass spectrometry. Emphasizes understanding critical process parameters (CPPs) and critical quality attributes (CQAs) in drug production."
+    "description": "Focuses on advanced biological and bioprocess engineering concepts. Uses industrial-scale systems and technology platforms. Offers students an opportunity to learn lab techniques used in manufacturing and production of biotherapeutic products (protein-based drugs such as monoclonal antibodies) and cell and gene therapies. Offers hands-on experience with industrial-scale bioreactors, protein purification systems, and mass spectrometry. Emphasizes understanding critical process parameters (CPPs) and critical quality attributes (CQAs) in drug production.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]

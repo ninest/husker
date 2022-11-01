@@ -7,7 +7,9 @@
     "credits": 1,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21829" }],
-    "description": "Topic:  Guns N’ Roe vs. Bread and Circus: Making Sense of the 2022 Midterm Elections. There will be an additional 1 credit billed for this class."
+    "description": "Topic:  Guns N’ Roe vs. Bread and Circus: Making Sense of the 2022 Midterm Elections. There will be an additional 1 credit billed for this class.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "INPR",
@@ -42,7 +44,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21121" }],
-    "description": "Explores evidence-based teaching practices through the backward design process to offer students an opportunity to learn how to develop a college-level course. Includes building a generative toolkit that can be used to design college-level courses and other learning experiences. Uses a microteaching session to gain practice and feedback on the student’s teaching."
+    "description": "Explores evidence-based teaching practices through the backward design process to offer students an opportunity to learn how to develop a college-level course. Includes building a generative toolkit that can be used to design college-level courses and other learning experiences. Uses a microteaching session to gain practice and feedback on the student’s teaching.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "INPR",

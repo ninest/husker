@@ -125,12 +125,7 @@
     ],
     "description": "Designed to give students a foundation in the theories and methods of analysis in cultural and media studies. Positioned between the introductory MSCR classes and the higher-level theory classes. Offers students an opportunity to learn the how and why of media and cultural studies, focusing on the foundational assumptions, theories, and methods of the discipline.",
     "coreqs": [],
-    "prereqs": [
-      { "subject": "MSCR", "number": "1220" },
-      { "subject": "MSCR", "number": "1220" },
-      { "subject": "MSCR", "number": "1220" },
-      { "subject": "MSCR", "number": "1220" }
-    ]
+    "prereqs": [{ "subject": "MSCR", "number": "1220" }]
   },
   {
     "subject": "MSCR",
@@ -167,7 +162,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "34352" }],
-    "description": "Offers an in-depth analysis of and reflection upon films and how they influence our perceptions of race in the United States. Examines how race and its representation shapes the development, production, distribution, and marketing of American documentaries and dramas. Uses screenings, readings, lectures, discussions, and writing to explore the power of films to reflect and reinforce long-standing ideologies of race and analyze how traditionally underrepresented groups have historically shaped counter-narratives."
+    "description": "Offers an in-depth analysis of and reflection upon films and how they influence our perceptions of race in the United States. Examines how race and its representation shapes the development, production, distribution, and marketing of American documentaries and dramas. Uses screenings, readings, lectures, discussions, and writing to explore the power of films to reflect and reinforce long-standing ideologies of race and analyze how traditionally underrepresented groups have historically shaped counter-narratives.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MSCR",
@@ -193,7 +190,9 @@
     "credits": 4,
     "nuPath": ["EI", "IC", "WI"],
     "sections": [{ "term": "202330", "crn": "38763" }],
-    "description": "Explores the unique ways that feminist activism and theory are impacted by the increasing digital nature of our world. From hashtags to Tumblr, feminists are using digital tools and platforms to aid in the pursuit of social justice. Offers students an opportunity to develop a timeline that traces feminists' engagement with the Internet, new media, and technological innovations from the late seventies to the present. Examines the strengths and challenges that the digital world creates for feminist engagement. MSCR 2505 and WMNS 2505 are cross-listed."
+    "description": "Explores the unique ways that feminist activism and theory are impacted by the increasing digital nature of our world. From hashtags to Tumblr, feminists are using digital tools and platforms to aid in the pursuit of social justice. Offers students an opportunity to develop a timeline that traces feminists' engagement with the Internet, new media, and technological innovations from the late seventies to the present. Examines the strengths and challenges that the digital world creates for feminist engagement. MSCR 2505 and WMNS 2505 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MSCR",
@@ -265,7 +264,15 @@
     "sections": [{ "term": "202310", "crn": "14646" }],
     "description": "Investigates social and cultural dynamics emerging parallel to the spread of digital technologies, from the 1960s to the present. Analyzes the impact of technologies (such as computers, mobile phones, and video games) on media products and practices (such as remix culture, social media, and surveillance). Offers students an opportunity to develop the skills that are necessary to critically examine and write about digital media content and the technologies necessary for their consumption.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" }
+    ]
   },
   {
     "subject": "MSCR",
@@ -277,7 +284,15 @@
     "sections": [{ "term": "202310", "crn": "19596" }],
     "description": "Explores how mass media audiences interpret and actively use media messages and products as listeners, readers, and consumers. Examines the different stages of ethnographic research, audience meanings and interpretations, pleasure and fanship, the role of media in everyday life, and the use of ethnographic research methods in communication studies. Students who do not meet course prerequisites may seek permission of instructor.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" }
+    ]
   },
   {
     "subject": "MSCR",
@@ -292,7 +307,7 @@
     ],
     "description": "Examines representations of identity (race, gender, sexuality, and class) in the media, investigates their influences, and considers their repercussions. The class especially focuses on understanding identity as a construction, rather than as inherently “natural.” Broadly, we discuss the relationship between identity and media representations; more specifically, we look at cultural texts, sites, and practices where the existing racial categories mix, merge, and/or rub up against each other in ways that problematize the naturalness of essentialized identities. Students who do not meet course prerequisites may seek permission of instructor.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "MSCR", "number": "1220" }]
   },
   {
     "subject": "MSCR",
@@ -319,7 +334,15 @@
     ],
     "description": "Explores the movement from modernist concern with the art object to postmodern concerns with subjectivity and spectatorship, race, and gender. Requires a paper using formalist analysis and later revision using cultural analysis, psychoanalysis, philosophy of perception, race studies. Also offers students an opportunity to learn research methods in cinema studies and perform a metacritical review of their own work and to present their findings from film journals, databases, Web sites, blogs. Presents the relation of perception to reality; levels of representational realness; reception theory; digitalization in its relation to movement and meaning. Seeks to enable students to recognize structures and problems for analysis in a film and to apply appropriate theoretical models to analyze these structures.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
   },
   {
     "subject": "MSCR",
@@ -329,7 +352,17 @@
     "credits": 4,
     "nuPath": ["DD", "WI"],
     "sections": [{ "term": "202330", "crn": "33848" }],
-    "description": "Examines queer representation within media, ranging from film and television to social networks and video games. Offers students an opportunity to read, present, and write about theories of difference from a diverse range of perspectives within the interdisciplinary fields of queer theory and media studies."
+    "description": "Examines queer representation within media, ranging from film and television to social networks and video games. Offers students an opportunity to read, present, and write about theories of difference from a diverse range of perspectives within the interdisciplinary fields of queer theory and media studies.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
   },
   {
     "subject": "MSCR",
@@ -344,7 +377,15 @@
     ],
     "description": "Explores U.S. network television in the “precable” era, which ranges from 1949 to the 1980s. Studies television programming through its historical, cultural, and industrial contexts. The media studies component of the class considers topics such as aesthetics, narrative, genre, and representation.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" }
+    ]
   },
   {
     "subject": "MSCR",
@@ -359,6 +400,10 @@
     ],
     "description": "Overviews key conceptual approaches that have developed for the study of the media. Investigates theories that address the role of media in culture and focuses on how cultural studies can inform our reading of both media and culture.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "MSCR", "number": "1220" },
+      "Or",
+      { "subject": "COMM", "number": "1220" }
+    ]
   }
 ]

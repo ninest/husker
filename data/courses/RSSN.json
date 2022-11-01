@@ -30,15 +30,6 @@
     "prereqs": [
       { "subject": "RSSN", "number": "1101" },
       "Or",
-      { "subject": "RSSN", "number": "1301" },
-      { "subject": "RSSN", "number": "1101" },
-      "Or",
-      { "subject": "RSSN", "number": "1301" },
-      { "subject": "RSSN", "number": "1101" },
-      "Or",
-      { "subject": "RSSN", "number": "1301" },
-      { "subject": "RSSN", "number": "1101" },
-      "Or",
       { "subject": "RSSN", "number": "1301" }
     ]
   },
@@ -52,7 +43,11 @@
     "sections": [{ "term": "202310", "crn": "12692" }],
     "description": "Emphasizes further vocabulary building. Offers students an opportunity to master the fine points of grammar through written composition, prepared oral reports, and reading and discussion from contemporary Russian materials.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "RSSN", "number": "1102" },
+      "Or",
+      { "subject": "RSSN", "number": "1302" }
+    ]
   },
   {
     "subject": "RSSN",
@@ -62,7 +57,15 @@
     "credits": 4,
     "nuPath": ["WI"],
     "sections": [{ "term": "202330", "crn": "36897" }],
-    "description": "Builds on RSSN 2101 and focuses on further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through written composition, prepared oral reports, and reading and discussion from contemporary Russian materials."
+    "description": "Builds on RSSN 2101 and focuses on further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through written composition, prepared oral reports, and reading and discussion from contemporary Russian materials.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "RSSN", "number": "2101" },
+      "Or",
+      { "subject": "RSSN", "number": "2301" },
+      ")"
+    ]
   },
   {
     "subject": "RSSN",

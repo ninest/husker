@@ -22,7 +22,17 @@
     "credits": 4,
     "nuPath": ["IC", "SI"],
     "sections": [{ "term": "202330", "crn": "32753" }],
-    "description": "Studies materials that define and describe love and hate from the fields of literature and literary criticism, social psychology, and criminology and criminal justice. &#8220;Love&#8221; and &#8220;hate&#8221; are small words describing powerful emotions with profound effects on individuals and on social groups. Focusing largely on contemporary examples, offers students an opportunity to analyze the differences and areas of overlap in the above fields' approaches to love and hate, to discuss societal responses to these emotions, and to apply the methodologies of each field to research questions of their own. INSH 2101 and PSYC 2101 are cross-listed."
+    "description": "Studies materials that define and describe love and hate from the fields of literature and literary criticism, social psychology, and criminology and criminal justice. &#8220;Love&#8221; and &#8220;hate&#8221; are small words describing powerful emotions with profound effects on individuals and on social groups. Focusing largely on contemporary examples, offers students an opportunity to analyze the differences and areas of overlap in the above fields' approaches to love and hate, to discuss societal responses to these emotions, and to apply the methodologies of each field to research questions of their own. INSH 2101 and PSYC 2101 are cross-listed.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" }
+    ]
   },
   {
     "subject": "INSH",
@@ -32,7 +42,17 @@
     "credits": 4,
     "nuPath": ["IC", "SI"],
     "sections": [{ "term": "202330", "crn": "32694" }],
-    "description": "Uses Boston as a case study for integrating computational methods with the social sciences and humanities to provide new insights into major cultural, historical, and societal questions as they relate to and extend beyond the city of Boston. Through lectures, discussions, and labs, the course examines a variety of data sets that measure geographic, historical, literary, political, civic, and institutional landscapes. Offers students an opportunity to combine analytical tools, such as geospatial mapping, data visualization, and network science, with readings, hands-on class activities, and museum or site visits, enabling a comprehensive view of complex cultural and social phenomena."
+    "description": "Uses Boston as a case study for integrating computational methods with the social sciences and humanities to provide new insights into major cultural, historical, and societal questions as they relate to and extend beyond the city of Boston. Through lectures, discussions, and labs, the course examines a variety of data sets that measure geographic, historical, literary, political, civic, and institutional landscapes. Offers students an opportunity to combine analytical tools, such as geospatial mapping, data visualization, and network science, with readings, hands-on class activities, and museum or site visits, enabling a comprehensive view of complex cultural and social phenomena.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "CS", "number": "2500" },
+      "Or",
+      "(",
+      { "subject": "DS", "number": "2000" },
+      "And",
+      { "subject": "DS", "number": "2001" },
+      ")"
+    ]
   },
   {
     "subject": "INSH",
@@ -120,7 +140,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "35835" }],
-    "description": "Examines the ethics, politics, and social aspects of three primary areas of interdisciplinary research and knowledge production at the intersection of the social sciences and humanities: oral history, ethnography, and archiving. Offers students an opportunity to learn to conduct oral history, ethnography, and archiving; gain experience collecting and formatting information collected through these qualitative techniques; and be introduced to digital platforms for oral history, ethnography, and archiving. Offers instruction in critiquing examples of how researchers collect and analyze qualitative information. Studies the critical thinking skills necessary to build a research project from the formulation of a research idea through the research design planning process."
+    "description": "Examines the ethics, politics, and social aspects of three primary areas of interdisciplinary research and knowledge production at the intersection of the social sciences and humanities: oral history, ethnography, and archiving. Offers students an opportunity to learn to conduct oral history, ethnography, and archiving; gain experience collecting and formatting information collected through these qualitative techniques; and be introduced to digital platforms for oral history, ethnography, and archiving. Offers instruction in critiquing examples of how researchers collect and analyze qualitative information. Studies the critical thinking skills necessary to build a research project from the formulation of a research idea through the research design planning process.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "INSH",
@@ -130,7 +152,9 @@
     "credits": 0,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21476" }],
-    "description": "Offers students an applied project setting in which to apply their curricular learning. Working with a sponsor, students refine an applied research topic, perform research, develop recommendations that are shared with a partner sponsor, and create a plan for implementing their recommendations. Seeks to benefit students with a curriculum that supports the development of key business communication skills, project and client management skills, and frameworks for business analysis. Offers students an opportunity to learn from sponsor feedback, review 'lessons learned,' and incorporate suggestions from this review to improve and further develop their career development and professional plan."
+    "description": "Offers students an applied project setting in which to apply their curricular learning. Working with a sponsor, students refine an applied research topic, perform research, develop recommendations that are shared with a partner sponsor, and create a plan for implementing their recommendations. Seeks to benefit students with a curriculum that supports the development of key business communication skills, project and client management skills, and frameworks for business analysis. Offers students an opportunity to learn from sponsor feedback, review 'lessons learned,' and incorporate suggestions from this review to improve and further develop their career development and professional plan.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "INSH",
@@ -140,7 +164,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38746" }],
-    "description": "Introduces complexity-based models, most notably agent-based models, and their possible applications to a range of planning and public policy issues. Exposes students to complexity theory and methods, including interactions, adaptation, and evolution; cellular automata, agents, networks, and genetic algorithms; and epistemology—the meaning and applications of models. Focuses on modeling and software, including building on sample models; running experiments and analyzing results; and verification, sensitivity, and validation."
+    "description": "Introduces complexity-based models, most notably agent-based models, and their possible applications to a range of planning and public policy issues. Exposes students to complexity theory and methods, including interactions, adaptation, and evolution; cellular automata, agents, networks, and genetic algorithms; and epistemology—the meaning and applications of models. Focuses on modeling and software, including building on sample models; running experiments and analyzing results; and verification, sensitivity, and validation.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "INSH",
@@ -238,7 +264,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "34735" }],
-    "description": "PhD Students only"
+    "description": "PhD Students only",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "INSH",
@@ -263,7 +291,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "33620" }],
-    "description": "PhD Students only"
+    "description": "PhD Students only",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "INSH",

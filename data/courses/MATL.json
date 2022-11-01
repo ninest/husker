@@ -7,7 +7,13 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38698" }],
-    "description": "Covers the processing of metallic and ceramic materials from particulate form. Includes particulate fabrication, characterization, handling, and consolidation for alloys, ceramics, and composites. Other topics include the principles of sintering in the absence and presence of liquid, advanced materials processing by rapid-solidification powder metallurgy, and the processing and structures of advanced ceramics."
+    "description": "Covers the processing of metallic and ceramic materials from particulate form. Includes particulate fabrication, characterization, handling, and consolidation for alloys, ceramics, and composites. Other topics include the principles of sintering in the absence and presence of liquid, advanced materials processing by rapid-solidification powder metallurgy, and the processing and structures of advanced ceramics.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ME", "number": "2340" },
+      "Or",
+      "Graduate Admission"
+    ]
   },
   {
     "subject": "MATL",
@@ -17,7 +23,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "36110" }],
-    "description": "Introduces the relatively young field of soft matter, which encompasses the physical description of various states of soft materials including liquids, colloids, polymers, foams, gels, granular materials, and a number of biological materials. Soft matter (also known as &#8220;soft condensed matter&#8221; or &#8220;complex fluids&#8221;) is less ordered than metals and oxides (hard condensed matter) and is more subject to thermal fluctuations and applied forces. Focuses on critical thinking, problem diagnosis, estimation, statistical analysis, and data-based decision making. Includes many in-class demonstrations from colloidal assembly to emulsion stability to cellular apoptosis. Highlights applications such as industrial processing, life sciences, and environmental remediation. Requires graduate study in related field or permission of instructor."
+    "description": "Introduces the relatively young field of soft matter, which encompasses the physical description of various states of soft materials including liquids, colloids, polymers, foams, gels, granular materials, and a number of biological materials. Soft matter (also known as &#8220;soft condensed matter&#8221; or &#8220;complex fluids&#8221;) is less ordered than metals and oxides (hard condensed matter) and is more subject to thermal fluctuations and applied forces. Focuses on critical thinking, problem diagnosis, estimation, statistical analysis, and data-based decision making. Includes many in-class demonstrations from colloidal assembly to emulsion stability to cellular apoptosis. Highlights applications such as industrial processing, life sciences, and environmental remediation. Requires graduate study in related field or permission of instructor.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MATL",
@@ -54,7 +62,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "32143" }],
-    "description": "Covers dislocation theory and includes such topics as crystalline defects, elastic properties of dislocation, movement of dislocations, multiplication, intersection, annihilation, dislocations in crystalline materials, and dislocation arrays and crystal boundaries. Examines application of dislocation theory to microplasticity, dynamic recovery and recrystallization, strengthening mechanisms, and high-temperature deformation. Requires knowledge of materials science."
+    "description": "Covers dislocation theory and includes such topics as crystalline defects, elastic properties of dislocation, movement of dislocations, multiplication, intersection, annihilation, dislocations in crystalline materials, and dislocation arrays and crystal boundaries. Examines application of dislocation theory to microplasticity, dynamic recovery and recrystallization, strengthening mechanisms, and high-temperature deformation. Requires knowledge of materials science.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MATL",
@@ -76,7 +86,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "32832" }],
-    "description": "Focuses on the different types of phase transformations that occur in materials in relation to theory and practice. Topics include the diffusion equations, mechanisms of diffusion in crystalline solids, random walk theory, ionic conduction, high-diffusivity paths, diffusional and nondiffusional phase transformations, and microstructural evolution in material processing."
+    "description": "Focuses on the different types of phase transformations that occur in materials in relation to theory and practice. Topics include the diffusion equations, mechanisms of diffusion in crystalline solids, random walk theory, ionic conduction, high-diffusivity paths, diffusional and nondiffusional phase transformations, and microstructural evolution in material processing.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "MATL", "number": "7355" }]
   },
   {
     "subject": "MATL",
@@ -86,7 +98,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38699" }],
-    "description": "Focuses on electronic principles and the processing techniques underlying the processing/structure/property relationships of materials. Covers metals and alloys, semiconductors, and insulators. Topics include electronic structures, band theory; thermal, electrical, and magnetic properties; and processing methods including film deposition."
+    "description": "Focuses on electronic principles and the processing techniques underlying the processing/structure/property relationships of materials. Covers metals and alloys, semiconductors, and insulators. Topics include electronic structures, band theory; thermal, electrical, and magnetic properties; and processing methods including film deposition.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MATL",
@@ -99,7 +113,9 @@
       { "term": "202330", "crn": "34122" },
       { "term": "202330", "crn": "34150" }
     ],
-    "description": "Offers theoretical or experimental work under individual faculty supervision."
+    "description": "Offers theoretical or experimental work under individual faculty supervision.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MATL",
@@ -114,7 +130,9 @@
       { "term": "202330", "crn": "31486" },
       { "term": "202330", "crn": "33390" }
     ],
-    "description": "Offers theoretical or experimental work under individual faculty supervision. May be repeated without limit."
+    "description": "Offers theoretical or experimental work under individual faculty supervision. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MATL",
@@ -132,7 +150,9 @@
       { "term": "202330", "crn": "30825" },
       { "term": "202330", "crn": "31653" }
     ],
-    "description": "Offers analytical and/or experimental work conducted under the direction of the faculty in fulfillment of the requirements for the degree. Requires first-year students to attend a graduate seminar program that introduces the students to the methods of choosing a research topic, conducting research, and preparing a thesis. Requires successful completion of the seminar program. May be repeated without limit."
+    "description": "Offers analytical and/or experimental work conducted under the direction of the faculty in fulfillment of the requirements for the degree. Requires first-year students to attend a graduate seminar program that introduces the students to the methods of choosing a research topic, conducting research, and preparing a thesis. Requires successful completion of the seminar program. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MATL",
@@ -149,6 +169,8 @@
       { "term": "202330", "crn": "31295" },
       { "term": "202330", "crn": "31296" }
     ],
-    "description": "Offers continuing master's thesis supervision under individual faculty supervision."
+    "description": "Offers continuing master's thesis supervision under individual faculty supervision.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]

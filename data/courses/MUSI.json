@@ -15,15 +15,6 @@
     "prereqs": [
       { "subject": "MUSI", "number": "1203" },
       "Or",
-      { "subject": "MUSC", "number": "1201" },
-      { "subject": "MUSI", "number": "1203" },
-      "Or",
-      { "subject": "MUSC", "number": "1201" },
-      { "subject": "MUSI", "number": "1203" },
-      "Or",
-      { "subject": "MUSC", "number": "1201" },
-      { "subject": "MUSI", "number": "1203" },
-      "Or",
       { "subject": "MUSC", "number": "1201" }
     ]
   },
@@ -65,7 +56,9 @@
     "credits": 4,
     "nuPath": ["EI"],
     "sections": [{ "term": "202330", "crn": "39014" }],
-    "description": "Examines a variety of music usages in film, advertisements, TV shows, and other media types or venues that require music licensing. Offers students an opportunity to examine licenses and agreements in an effort to enable them to customize boilerplate forms to reflect accurately the needed licenses with any and all customized terms. Stresses teamwork, defining roles within a team, and assertiveness in an effort to enable students to function at their highest level for the demanding team-based final project. The final project stresses resourcefulness, meeting deadlines, creative excellence, along with open and sustained communication between the production side and the creative side."
+    "description": "Examines a variety of music usages in film, advertisements, TV shows, and other media types or venues that require music licensing. Offers students an opportunity to examine licenses and agreements in an effort to enable them to customize boilerplate forms to reflect accurately the needed licenses with any and all customized terms. Stresses teamwork, defining roles within a team, and assertiveness in an effort to enable students to function at their highest level for the demanding team-based final project. The final project stresses resourcefulness, meeting deadlines, creative excellence, along with open and sustained communication between the production side and the creative side.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "MUSI", "number": "1230" }]
   },
   {
     "subject": "MUSI",
@@ -125,7 +118,7 @@
     ],
     "description": "Offers students the opportunity to learn additional skills in the recording process, such as material marketing and distribution, contracts and negotiations, and establishing distribution channels. Includes hands-on studio production of record-quality material.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "MUSI", "number": "2232" }]
   },
   {
     "subject": "MUSI",
@@ -135,7 +128,9 @@
     "credits": 4,
     "nuPath": ["EI"],
     "sections": [{ "term": "202330", "crn": "39015" }],
-    "description": "Covers the field of music supervision, which has become an in-demand field due to the increased use of songs in TV shows, films, live events, advertisements, websites, and other forums. Discusses the whole process, from choosing the perfect song/lyric to strategies for securing licensing with artists and publishers. Offers students a hands-on opportunity to make music selections fit a variety of media and also to structure licensing/contract deals for composers, publishers, and record companies. Final project involves networking with Green Line Records and external rights holders to license and place music into a series of scenes and advertisements."
+    "description": "Covers the field of music supervision, which has become an in-demand field due to the increased use of songs in TV shows, films, live events, advertisements, websites, and other forums. Discusses the whole process, from choosing the perfect song/lyric to strategies for securing licensing with artists and publishers. Offers students a hands-on opportunity to make music selections fit a variety of media and also to structure licensing/contract deals for composers, publishers, and record companies. Final project involves networking with Green Line Records and external rights holders to license and place music into a series of scenes and advertisements.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "MUSI", "number": "1230" }]
   },
   {
     "subject": "MUSI",
@@ -147,7 +142,7 @@
     "sections": [{ "term": "202310", "crn": "19675" }],
     "description": "Identifies and explores how and why data is used in the creative industries for talent acquisition and content generation, personalized recommendations, partnership enablement, and marketing optimization. Provides an overview of popular data API’s and platforms specific to the creative industries and examples of how the data they generate is used in creative endeavors.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "MUSI", "number": "1230" }]
   },
   {
     "subject": "MUSI",
@@ -169,7 +164,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "36556" }],
-    "description": "Provides a thorough examination of the principles and applications of marketing and promotion within the music industry. Students explore how music companies successfully conduct product, pricing, distribution, and communication management. Approaches music marketing issues using readings, specific music marketing case studies, lectures, guest speakers, and projects."
+    "description": "Provides a thorough examination of the principles and applications of marketing and promotion within the music industry. Students explore how music companies successfully conduct product, pricing, distribution, and communication management. Approaches music marketing issues using readings, specific music marketing case studies, lectures, guest speakers, and projects.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "MUSI", "number": "1230" }]
   },
   {
     "subject": "MUSI",
@@ -196,12 +193,7 @@
     ],
     "description": "Covers specific topics relating to the final stages in music recording—mixing and mastering. Discusses criteria for making decisions about levels, equalization, dynamics, time-based effects, and spatial positioning. In-depth listening and analysis are designed to augment hands-on practice using both students' current recordings and professional recordings from the past forty years.",
     "coreqs": [],
-    "prereqs": [
-      { "subject": "MUSI", "number": "2331" },
-      { "subject": "MUSI", "number": "2331" },
-      { "subject": "MUSI", "number": "2331" },
-      { "subject": "MUSI", "number": "2331" }
-    ]
+    "prereqs": [{ "subject": "MUSI", "number": "2331" }]
   },
   {
     "subject": "MUSI",
@@ -211,7 +203,9 @@
     "credits": 4,
     "nuPath": ["DD", "ER"],
     "sections": [{ "term": "202330", "crn": "39017" }],
-    "description": "Introduces theories of ethics, morality, and equality and strategies to advance social justice—to ensure equality and human dignity for all people—through music. Explores the music industry as both a microcosm of society and amplifier of our collective ethics. On stage, on the record, and through direct action, musicians worldwide use their art and renown to serve social movements. Many also face equality and equity challenges within the music industry. As future professionals, students may either challenge or reinforce the injustices they encounter in their professional and personal lives.Through critical discourse on professional ethics in the music business and service-learning projects requiring direct community engagement, seeks to empower students to make a lifelong commitment to ethical decision making and advancing social justice."
+    "description": "Introduces theories of ethics, morality, and equality and strategies to advance social justice—to ensure equality and human dignity for all people—through music. Explores the music industry as both a microcosm of society and amplifier of our collective ethics. On stage, on the record, and through direct action, musicians worldwide use their art and renown to serve social movements. Many also face equality and equity challenges within the music industry. As future professionals, students may either challenge or reinforce the injustices they encounter in their professional and personal lives.Through critical discourse on professional ethics in the music business and service-learning projects requiring direct community engagement, seeks to empower students to make a lifelong commitment to ethical decision making and advancing social justice.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "MUSI", "number": "1230" }]
   },
   {
     "subject": "MUSI",
@@ -223,7 +217,7 @@
     "sections": [{ "term": "202310", "crn": "19678" }],
     "description": "Offers students an opportunity to obtain the cultural curiosity and adaptive dexterity needed to analyze diverse global music industries in their historical, cultural, economic, and political contexts. Through the labels, scenes, and digital spaces that form the professional settings for today’s global music professionals—explored in course readings, creative case studies, and summative research projects—identifies the many ways in which diverse industries consolidate music production, distribution, and consumption. Students encounter and analyze diverse professional practices and creative products and critique music’s value—financial, social, political, ideological, and personal. In addition, students practice critical reading and observation and identify traditions within the social sciences and cultural criticism that provide valuable theoretical lenses for the interpretation of global music industries in context.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "MUSI", "number": "1230" }]
   },
   {
     "subject": "MUSI",
@@ -233,7 +227,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "39018" }],
-    "description": "Focuses on black popular music as art, activism, and commodity from the post&#8211;Civil Rights era to today. Studies the immediate musical, historical, cultural, and industry-based precedents for rap music, which emerged in opposition to the music industry&#8212;and many other institutions that perpetuated the inequalities against which early hip-hop artists were protesting. The contemporary moment provides a unique opportunity for refocusing on the origins of hip-hop and black protest music as they relate to the industry's embrace and commodification of certain aspects of hip-hop culture. Explores the dynamic tensions between rap music as aesthetic object, countercultural expression, social commentary, and industry commodity, engaging with current expressions of all of these in the Boston area."
+    "description": "Focuses on black popular music as art, activism, and commodity from the post&#8211;Civil Rights era to today. Studies the immediate musical, historical, cultural, and industry-based precedents for rap music, which emerged in opposition to the music industry&#8212;and many other institutions that perpetuated the inequalities against which early hip-hop artists were protesting. The contemporary moment provides a unique opportunity for refocusing on the origins of hip-hop and black protest music as they relate to the industry's embrace and commodification of certain aspects of hip-hop culture. Explores the dynamic tensions between rap music as aesthetic object, countercultural expression, social commentary, and industry commodity, engaging with current expressions of all of these in the Boston area.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "ENGW", "number": "1111" }]
   },
   {
     "subject": "MUSI",
@@ -264,12 +260,7 @@
     ],
     "description": "Presents a capstone course for music industry students. Offers advanced students the opportunity to explore contemporary events and issues in the music industry. Allows students to reflect upon, distill, and apply knowledge accumulated in prior courses and previous experiential learning. This reflection and application occurs through substantial writing assignments and classroom discussion. Fulfills the college's experiential education requirement for music industry majors.",
     "coreqs": [],
-    "prereqs": [
-      { "subject": "MUSI", "number": "1230" },
-      { "subject": "MUSI", "number": "1230" },
-      { "subject": "MUSI", "number": "1230" },
-      { "subject": "MUSI", "number": "1230" }
-    ]
+    "prereqs": [{ "subject": "MUSI", "number": "1230" }]
   },
   {
     "subject": "MUSI",
@@ -294,6 +285,8 @@
       { "term": "202310", "crn": "21678" },
       { "term": "202310", "crn": "21808" }
     ],
-    "description": "Offers independent work under the direction of members of the department on chosen topics. May be repeated without limit."
+    "description": "Offers independent work under the direction of members of the department on chosen topics. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]

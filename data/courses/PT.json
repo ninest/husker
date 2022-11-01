@@ -19,7 +19,15 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38676" }],
-    "description": "Covers the structure and function of the human body. Emphasizes the skeletal, muscular, digestive, cardiopulmonary, and peripheral nervous systems. Using a regional and systemic approach, explores the details of the limbs, thorax, abdomen, and pelvic regions of the body. Considers basic abnormalities of structure and function via clinical application of these systems."
+    "description": "Covers the structure and function of the human body. Emphasizes the skeletal, muscular, digestive, cardiopulmonary, and peripheral nervous systems. Using a regional and systemic approach, explores the details of the limbs, thorax, abdomen, and pelvic regions of the body. Considers basic abnormalities of structure and function via clinical application of these systems.",
+    "coreqs": [{ "subject": "PT", "number": "3301" }],
+    "prereqs": [
+      { "subject": "BIOL", "number": "1111" },
+      "Or",
+      { "subject": "BIOL", "number": "1113" },
+      "Or",
+      { "subject": "BIOL", "number": "2217" }
+    ]
   },
   {
     "subject": "PT",
@@ -29,7 +37,15 @@
     "credits": 1,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38677" }],
-    "description": "Offers hands-on exploration of the human body utilizing cadaveric specimens and models. Covers the structure and function of the appendicular and axial skeletal systems of the body through prosected human cadavers and osteology. Emphasizes the skeletal, muscular, digestive, cardiopulmonary, and peripheral nervous systems."
+    "description": "Offers hands-on exploration of the human body utilizing cadaveric specimens and models. Covers the structure and function of the appendicular and axial skeletal systems of the body through prosected human cadavers and osteology. Emphasizes the skeletal, muscular, digestive, cardiopulmonary, and peripheral nervous systems.",
+    "coreqs": [{ "subject": "PT", "number": "3300" }],
+    "prereqs": [
+      { "subject": "BIOL", "number": "1112" },
+      "Or",
+      { "subject": "BIOL", "number": "1114" },
+      "Or",
+      { "subject": "BIOL", "number": "2218" }
+    ]
   },
   {
     "subject": "PT",
@@ -39,7 +55,13 @@
     "credits": 4,
     "nuPath": ["ND"],
     "sections": [{ "term": "202330", "crn": "34720" }],
-    "description": "Studies normal movement through the analysis of muscle and joint function. Introduces fundamental examples of pathokinesiology, aberrant motions, and gait and posture. Emphasizes the analysis of the major joints and regions of the body."
+    "description": "Studies normal movement through the analysis of muscle and joint function. Introduces fundamental examples of pathokinesiology, aberrant motions, and gait and posture. Emphasizes the analysis of the major joints and regions of the body.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "BIOL", "number": "2217" },
+      "Or",
+      { "subject": "BIOL", "number": "1117" }
+    ]
   },
   {
     "subject": "PT",
@@ -51,7 +73,11 @@
     "sections": [{ "term": "202310", "crn": "20949" }],
     "description": "Covers two broad areas that impact the human movement system: motor control and motor learning. Examines neural, behavioral, and physical mechanisms that contribute to the control of movement in humans. Focuses on motor control in healthy persons, with some discussion of alterations associated with musculoskeletal and neural impairment. Examines factors that influence the learning of new motor skills (motor learning) as a result of practice and/or experience.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "BIOL", "number": "2217" },
+      "Or",
+      { "subject": "BIOL", "number": "1117" }
+    ]
   },
   {
     "subject": "PT",
@@ -79,24 +105,7 @@
       { "term": "202260", "crn": "60890" }
     ],
     "description": "Accompanies PT 5101. Covers topics from the course through various experiments.",
-    "coreqs": [
-      { "subject": "PT", "number": "5101" },
-      { "subject": "PT", "number": "5101" },
-      { "subject": "PT", "number": "5101" },
-      { "subject": "PT", "number": "5101" },
-      { "subject": "PT", "number": "5101" },
-      { "subject": "PT", "number": "5101" },
-      { "subject": "PT", "number": "5101" },
-      { "subject": "PT", "number": "5101" },
-      { "subject": "PT", "number": "5101" },
-      { "subject": "PT", "number": "5101" },
-      { "subject": "PT", "number": "5101" },
-      { "subject": "PT", "number": "5101" },
-      { "subject": "PT", "number": "5101" },
-      { "subject": "PT", "number": "5101" },
-      { "subject": "PT", "number": "5101" },
-      { "subject": "PT", "number": "5101" }
-    ],
+    "coreqs": [{ "subject": "PT", "number": "5101" }],
     "prereqs": []
   },
   {
@@ -124,7 +133,19 @@
     "sections": [{ "term": "202240", "crn": "41049" }],
     "description": "Covers the structure and physiological function of the human nervous system with emphasis on the clinical aspects of motor and somatosensory systems. Studies the anatomy of the brain, brain stem, and spinal cord in specimens and on slides and integrated with the basic physiology of motor and sensory systems. The application of neuroscience to clinical neurological cases is a foundation of this course.",
     "coreqs": [{ "subject": "PT", "number": "5139" }],
-    "prereqs": []
+    "prereqs": [
+      "(",
+      { "subject": "PT", "number": "5131" },
+      "Or",
+      { "subject": "PT", "number": "5131" },
+      ")",
+      "Or",
+      "(",
+      { "subject": "PT", "number": "6340" },
+      "And",
+      { "subject": "PT", "number": "6341" },
+      ")"
+    ]
   },
   {
     "subject": "PT",
@@ -139,17 +160,7 @@
       { "term": "202240", "crn": "41052" }
     ],
     "description": "Accompanies PT 5138. Covers topics from the course through various experiments.",
-    "coreqs": [
-      { "subject": "PT", "number": "5138" },
-      { "subject": "PT", "number": "5138" },
-      { "subject": "PT", "number": "5138" },
-      { "subject": "PT", "number": "5138" },
-      { "subject": "PT", "number": "5138" },
-      { "subject": "PT", "number": "5138" },
-      { "subject": "PT", "number": "5138" },
-      { "subject": "PT", "number": "5138" },
-      { "subject": "PT", "number": "5138" }
-    ],
+    "coreqs": [{ "subject": "PT", "number": "5138" }],
     "prereqs": []
   },
   {
@@ -160,7 +171,21 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "34722" }],
-    "description": "Covers foundational knowledge of pathological processes of major body systems. Addresses general medicine, laboratory medicine, and pathophysiology as related to patient conditions that impact physical therapy management. Case-based discussion allows for integration of pathology and pharmacology content."
+    "description": "Covers foundational knowledge of pathological processes of major body systems. Addresses general medicine, laboratory medicine, and pathophysiology as related to patient conditions that impact physical therapy management. Case-based discussion allows for integration of pathology and pharmacology content.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "PT", "number": "5131" },
+      "Or",
+      { "subject": "PT", "number": "5131" },
+      ")",
+      "Or",
+      "(",
+      { "subject": "PT", "number": "6340" },
+      "And",
+      { "subject": "PT", "number": "6341" },
+      ")"
+    ]
   },
   {
     "subject": "PT",
@@ -194,12 +219,7 @@
       { "term": "202240", "crn": "41055" }
     ],
     "description": "Offers students an opportunity to apply knowledge gained in PT 5150 to activities designed to illustrate various principles and concepts related to motor control, motor development, and motor learning. Uses a series of guiding questions/activities in each laboratory and analyzes associated literature to offer students an opportunity to apply class concepts to healthy individuals and to those with clinical problems related to motor control, motor development, or motor learning.",
-    "coreqs": [
-      { "subject": "PT", "number": "5150" },
-      { "subject": "PT", "number": "5150" },
-      { "subject": "PT", "number": "5150" },
-      { "subject": "PT", "number": "5150" }
-    ],
+    "coreqs": [{ "subject": "PT", "number": "5150" }],
     "prereqs": []
   },
   {
@@ -230,7 +250,11 @@
     ],
     "description": "Offers students an opportunity to obtain in-depth knowledge in sports medicine. Covers taping and bracing procedures and techniques to assess concussions with various current protocols. Exposes students to current common pathologies within the athletic population. Discusses return-to-play criteria for an athlete once an injury has occurred and has subsequently been treated and rehabilitated.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "PT", "number": "5505" },
+      "Or",
+      { "subject": "PT", "number": "5505" }
+    ]
   },
   {
     "subject": "PT",
@@ -244,22 +268,8 @@
       { "term": "202330", "crn": "36281" }
     ],
     "description": "Covers the foundations of the physical therapy examination, evaluation, and intervention for persons with neurological deficits. Presents examination skills, theoretical bases, and clinical applications of integrated intervention approaches for the patient with a neurological diagnosis. Includes the etiology, pathology, medical management, and physical therapy management of common neurology disorders affecting the adult population. Accompanied by PT 5210.",
-    "coreqs": [
-      { "subject": "PT", "number": "5210" },
-      { "subject": "PT", "number": "5210" },
-      { "subject": "PT", "number": "5210" },
-      { "subject": "PT", "number": "5210" }
-    ],
+    "coreqs": [{ "subject": "PT", "number": "5210" }],
     "prereqs": [
-      { "subject": "PT", "number": "5150" },
-      "Or",
-      { "subject": "PT", "number": "5150" },
-      { "subject": "PT", "number": "5150" },
-      "Or",
-      { "subject": "PT", "number": "5150" },
-      { "subject": "PT", "number": "5150" },
-      "Or",
-      { "subject": "PT", "number": "5150" },
       { "subject": "PT", "number": "5150" },
       "Or",
       { "subject": "PT", "number": "5150" }
@@ -281,44 +291,7 @@
       { "term": "202330", "crn": "36284" }
     ],
     "description": "Accompanies PT 5209. Covers the foundations of the physical therapy examination, evaluation, and intervention with patients with neurological deficits. Presents clinical procedures for examination skills, evaluation, and clinical applications of integrated intervention approaches for the patient with a neurological diagnosis.",
-    "coreqs": [
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" },
-      { "subject": "PT", "number": "5209" }
-    ],
+    "coreqs": [{ "subject": "PT", "number": "5209" }],
     "prereqs": []
   },
   {
@@ -332,7 +305,9 @@
       { "term": "202330", "crn": "30600" },
       { "term": "202330", "crn": "36620" }
     ],
-    "description": "Continues PT 5135 and builds on concepts introduced in the earlier course. Affords students the opportunity to reflect on issues in experiential education and prepare for future experiential learning."
+    "description": "Continues PT 5135 and builds on concepts introduced in the earlier course. Affords students the opportunity to reflect on issues in experiential education and prepare for future experiential learning.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PT",
@@ -344,7 +319,25 @@
     "sections": [{ "term": "202310", "crn": "10619" }],
     "description": "Provides students with the opportunity to conduct an independent project under the mentorship of physical therapy faculty in areas such as research, education, clinical practice, administration, or service learning.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      "(",
+      { "subject": "PT", "number": "5515" },
+      "Or",
+      { "subject": "PT", "number": "5515" },
+      ")",
+      "And",
+      "(",
+      { "subject": "PT", "number": "5540" },
+      "Or",
+      { "subject": "PT", "number": "5540" },
+      ")",
+      "And",
+      "(",
+      { "subject": "PT", "number": "6243" },
+      "Or",
+      { "subject": "PT", "number": "6243" },
+      ")"
+    ]
   },
   {
     "subject": "PT",
@@ -364,7 +357,17 @@
       { "term": "202330", "crn": "36286" },
       { "term": "202330", "crn": "37108" }
     ],
-    "description": "Provides students with an opportunity to work with individual faculty on scholarship activities to create a scholarly work in partial fulfillment of the requirement for a Doctor of Physical Therapy degree. Allows students to begin or continue their research or education project. Guides students as necessary to enable them to complete their capstone project."
+    "description": "Provides students with an opportunity to work with individual faculty on scholarship activities to create a scholarly work in partial fulfillment of the requirement for a Doctor of Physical Therapy degree. Allows students to begin or continue their research or education project. Guides students as necessary to enable them to complete their capstone project.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "PT", "number": "5227" },
+      "Or",
+      { "subject": "PT", "number": "5227" },
+      "Or",
+      { "subject": "CAEP", "number": "5150" },
+      "Or",
+      { "subject": "CAEP", "number": "5150" }
+    ]
   },
   {
     "subject": "PT",
@@ -374,7 +377,27 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "31243" }],
-    "description": "Incorporates analysis and comparison of methods of physical therapy (PT) management of selected populations across the life span, which includes pediatrics and geriatrics. Focuses on utilizing evidenced-based rationale for clinical decision making within the context of PT examination, evaluation, PT diagnosis, prognosis, and plan of care. Discusses how patient/client management seeks to reflect core professional values, as well as topics of prevention and wellness in these patient populations."
+    "description": "Incorporates analysis and comparison of methods of physical therapy (PT) management of selected populations across the life span, which includes pediatrics and geriatrics. Focuses on utilizing evidenced-based rationale for clinical decision making within the context of PT examination, evaluation, PT diagnosis, prognosis, and plan of care. Discusses how patient/client management seeks to reflect core professional values, as well as topics of prevention and wellness in these patient populations.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "PT", "number": "5209" },
+      "Or",
+      { "subject": "PT", "number": "5209" },
+      ")",
+      "And",
+      "(",
+      { "subject": "PT", "number": "5505" },
+      "Or",
+      { "subject": "PT", "number": "5505" },
+      ")",
+      "And",
+      "(",
+      { "subject": "PT", "number": "6241" },
+      "Or",
+      { "subject": "PT", "number": "6241" },
+      ")"
+    ]
   },
   {
     "subject": "PT",
@@ -384,7 +407,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "36287" }],
-    "description": "Designed to help students develop an understanding of biomechanical concepts, as they apply to the analysis of human movement and function, through experiential learning. Introduces emerging methodologies and techniques in the field of biomechanics, particularly as they relate to human movement. Course activities require both computational analyses and conceptual understanding. Exposes students to types of data acquisition, reduction, analysis, and interpretations. Includes those factors that identify limitations to the action and measurement of human movement. Offers students an opportunity to integrate knowledge emerging from multiple disciplines, including biomechanics, movement sciences, biology, and physics, as those disciplines apply to functional human movement."
+    "description": "Designed to help students develop an understanding of biomechanical concepts, as they apply to the analysis of human movement and function, through experiential learning. Introduces emerging methodologies and techniques in the field of biomechanics, particularly as they relate to human movement. Course activities require both computational analyses and conceptual understanding. Exposes students to types of data acquisition, reduction, analysis, and interpretations. Includes those factors that identify limitations to the action and measurement of human movement. Offers students an opportunity to integrate knowledge emerging from multiple disciplines, including biomechanics, movement sciences, biology, and physics, as those disciplines apply to functional human movement.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PT",
@@ -394,7 +419,29 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "32936" }],
-    "description": "Examines the detailed structure of the human nervous system, linking structure to function at both the clinical and neurobiological level. Offers students an opportunity to obtain a solid functional anatomical foundation for neuroscience. Reviews basic neuroanatomy and then provides a detailed look into the structure of the nuclei within the central nervous system and their connectivity. Examines the role of these structures in motor and sensory function as well as in complex cognitive functions at a physiological and clinical level."
+    "description": "Examines the detailed structure of the human nervous system, linking structure to function at both the clinical and neurobiological level. Offers students an opportunity to obtain a solid functional anatomical foundation for neuroscience. Reviews basic neuroanatomy and then provides a detailed look into the structure of the nuclei within the central nervous system and their connectivity. Examines the role of these structures in motor and sensory function as well as in complex cognitive functions at a physiological and clinical level.",
+    "coreqs": [{ "subject": "PT", "number": "5411" }],
+    "prereqs": [
+      "(",
+      "(",
+      { "subject": "BIOL", "number": "1113" },
+      "Or",
+      { "subject": "BIOL", "number": "2217" },
+      "Or",
+      { "subject": "BIOL", "number": "1117" },
+      "Or",
+      { "subject": "BIOL", "number": "2299" },
+      ")",
+      "And",
+      "(",
+      { "subject": "BIOL", "number": "3405" },
+      "Or",
+      { "subject": "PSYC", "number": "3458" },
+      ")",
+      ")",
+      "Or",
+      "Graduate Admission"
+    ]
   },
   {
     "subject": "PT",
@@ -404,7 +451,9 @@
     "credits": 1,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "32937" }],
-    "description": "Examines the detailed structure of the human nervous system in specimens of the human brain and spinal cord as well as in images of stained sections of these tissues and magnetic resonance images (MRI). The structure of individual nuclei and the main sensory and motor tracts of the nervous system are examined and discussed by students working in small groups. Although focusing on anatomical details, the lab introduces the student to clinical diagnosis of neurological cases."
+    "description": "Examines the detailed structure of the human nervous system in specimens of the human brain and spinal cord as well as in images of stained sections of these tissues and magnetic resonance images (MRI). The structure of individual nuclei and the main sensory and motor tracts of the nervous system are examined and discussed by students working in small groups. Although focusing on anatomical details, the lab introduces the student to clinical diagnosis of neurological cases.",
+    "coreqs": [{ "subject": "PT", "number": "5410" }],
+    "prereqs": []
   },
   {
     "subject": "PT",
@@ -414,7 +463,17 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "34723" }],
-    "description": "Offers a clinically oriented course covering knowledge of clinical pharmacology in the physical therapy profession. Discusses prescription and over-the-counter drugs and common herbal supplements. Drug classification, pharmacokinetics, pharmacodynamics, mechanism of action, drug interactions, and common side effects are brought into the clinical perspective of patient management. Explores recognition of expected drug effects, side effects, idiosyncratic reactions, and signs of abuse or nonadherence. Along with PT 5140, emphasizes the therapist’s proper incorporation of pharmacotherapeutic knowledge into patient assessment, differential diagnosis, and design of treatment regimens."
+    "description": "Offers a clinically oriented course covering knowledge of clinical pharmacology in the physical therapy profession. Discusses prescription and over-the-counter drugs and common herbal supplements. Drug classification, pharmacokinetics, pharmacodynamics, mechanism of action, drug interactions, and common side effects are brought into the clinical perspective of patient management. Explores recognition of expected drug effects, side effects, idiosyncratic reactions, and signs of abuse or nonadherence. Along with PT 5140, emphasizes the therapist’s proper incorporation of pharmacotherapeutic knowledge into patient assessment, differential diagnosis, and design of treatment regimens.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "PT", "number": "5131" },
+      "Or",
+      "(",
+      { "subject": "PT", "number": "6340" },
+      "And",
+      { "subject": "PT", "number": "6341" },
+      ")"
+    ]
   },
   {
     "subject": "PT",
@@ -424,7 +483,21 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "34724" }],
-    "description": "Discusses physical therapy examination evaluation, interventions, and outcome assessment of common cardiac and pulmonary dysfunctions. Discusses etiology and pathology of common cardiac and pulmonary disorders. Uses case-based learning to promote synthesis of the material."
+    "description": "Discusses physical therapy examination evaluation, interventions, and outcome assessment of common cardiac and pulmonary dysfunctions. Discusses etiology and pathology of common cardiac and pulmonary disorders. Uses case-based learning to promote synthesis of the material.",
+    "coreqs": [{ "subject": "PT", "number": "5504" }],
+    "prereqs": [
+      "(",
+      { "subject": "PT", "number": "5140" },
+      "Or",
+      { "subject": "PT", "number": "5140" },
+      ")",
+      "Or",
+      "(",
+      { "subject": "PT", "number": "6340" },
+      "And",
+      { "subject": "PT", "number": "6341" },
+      ")"
+    ]
   },
   {
     "subject": "PT",
@@ -437,7 +510,9 @@
       { "term": "202330", "crn": "34725" },
       { "term": "202330", "crn": "34726" }
     ],
-    "description": "Accompanies PT 5503. Covers topics from the course through various experiments."
+    "description": "Accompanies PT 5503. Covers topics from the course through various experiments.",
+    "coreqs": [{ "subject": "PT", "number": "5503" }],
+    "prereqs": []
   },
   {
     "subject": "PT",
@@ -476,12 +551,7 @@
       { "term": "202310", "crn": "11741" }
     ],
     "description": "Accompanies PT 5505. Covers topics from the course through various experiments.",
-    "coreqs": [
-      { "subject": "PT", "number": "5505" },
-      { "subject": "PT", "number": "5505" },
-      { "subject": "PT", "number": "5505" },
-      { "subject": "PT", "number": "5505" }
-    ],
+    "coreqs": [{ "subject": "PT", "number": "5505" }],
     "prereqs": []
   },
   {
@@ -496,46 +566,8 @@
       { "term": "202260", "crn": "60108" }
     ],
     "description": "Applies anatomy, physiology, epidemiology, and pathology to explore the issues of medical, surgical, pharmacological, and psychological and physical therapy management of individuals throughout the life span with integumentary system impairments. Offers learners an opportunity to develop examination skills to derive diagnoses, prognoses, evaluations, and effective physical therapy interventions based on relevant evidence. Includes modalities for wound care and electrophysiological testing and interpretation. Uses case studies to integrate and apply the information obtained through readings, lectures, and lab.",
-    "coreqs": [
-      { "subject": "PT", "number": "5516" },
-      { "subject": "PT", "number": "5516" },
-      { "subject": "PT", "number": "5516" },
-      { "subject": "PT", "number": "5516" }
-    ],
+    "coreqs": [{ "subject": "PT", "number": "5516" }],
     "prereqs": [
-      "(",
-      { "subject": "PT", "number": "5101" },
-      "Or",
-      { "subject": "PT", "number": "5101" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5102" },
-      "Or",
-      { "subject": "PT", "number": "5102" },
-      ")",
-      "(",
-      { "subject": "PT", "number": "5101" },
-      "Or",
-      { "subject": "PT", "number": "5101" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5102" },
-      "Or",
-      { "subject": "PT", "number": "5102" },
-      ")",
-      "(",
-      { "subject": "PT", "number": "5101" },
-      "Or",
-      { "subject": "PT", "number": "5101" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5102" },
-      "Or",
-      { "subject": "PT", "number": "5102" },
-      ")",
       "(",
       { "subject": "PT", "number": "5101" },
       "Or",
@@ -566,57 +598,7 @@
       { "term": "202260", "crn": "60891" }
     ],
     "description": "Accompanies PT 5515. Covers topics from the course through various experiments.",
-    "coreqs": [
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" },
-      { "subject": "PT", "number": "5515" }
-    ],
+    "coreqs": [{ "subject": "PT", "number": "5515" }],
     "prereqs": []
   },
   {
@@ -649,57 +631,6 @@
       { "subject": "PT", "number": "5503" },
       "Or",
       { "subject": "PT", "number": "5503" },
-      ")",
-      "(",
-      { "subject": "PT", "number": "5150" },
-      "Or",
-      { "subject": "PT", "number": "5150" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5500" },
-      "Or",
-      { "subject": "PT", "number": "5500" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5503" },
-      "Or",
-      { "subject": "PT", "number": "5503" },
-      ")",
-      "(",
-      { "subject": "PT", "number": "5150" },
-      "Or",
-      { "subject": "PT", "number": "5150" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5500" },
-      "Or",
-      { "subject": "PT", "number": "5500" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5503" },
-      "Or",
-      { "subject": "PT", "number": "5503" },
-      ")",
-      "(",
-      { "subject": "PT", "number": "5150" },
-      "Or",
-      { "subject": "PT", "number": "5150" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5500" },
-      "Or",
-      { "subject": "PT", "number": "5500" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5503" },
-      "Or",
-      { "subject": "PT", "number": "5503" },
       ")"
     ]
   },
@@ -715,7 +646,9 @@
       { "term": "202310", "crn": "21693" },
       { "term": "202310", "crn": "21727" }
     ],
-    "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit."
+    "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PT",
@@ -727,7 +660,19 @@
     "sections": [{ "term": "202310", "crn": "11737" }],
     "description": "Offers students an opportunity to develop the ability to analyze and evaluate changes in the healthcare system, health policy, and the impact on the delivery of services with a focus on physical therapy. Appraises key business and management concepts, including personnel, insurance, finance, marketing, productivity, and financial and legal regulations within the context of ethical practice. Emphasizes and examines leadership concepts in the areas of advocacy, legislation, and the promotion of the profession.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      "(",
+      { "subject": "PT", "number": "5145" },
+      "Or",
+      { "subject": "PT", "number": "5145" },
+      ")",
+      "And",
+      "(",
+      { "subject": "PT", "number": "6243" },
+      "Or",
+      { "subject": "PT", "number": "6243" },
+      ")"
+    ]
   },
   {
     "subject": "PT",
@@ -751,7 +696,25 @@
     "sections": [{ "term": "202260", "crn": "60319" }],
     "description": "Studies theory and current practice in the use of prosthetics, orthotics, and assisted-living devices.",
     "coreqs": [{ "subject": "PT", "number": "6216" }],
-    "prereqs": []
+    "prereqs": [
+      "(",
+      { "subject": "PT", "number": "5230" },
+      "Or",
+      { "subject": "PT", "number": "5230" },
+      ")",
+      "And",
+      "(",
+      { "subject": "PT", "number": "6221" },
+      "Or",
+      { "subject": "PT", "number": "6221" },
+      ")",
+      "And",
+      "(",
+      { "subject": "PT", "number": "6223" },
+      "Or",
+      { "subject": "PT", "number": "6223" },
+      ")"
+    ]
   },
   {
     "subject": "PT",
@@ -777,13 +740,20 @@
       { "term": "202330", "crn": "30641" }
     ],
     "description": "Focuses on the physical therapy management of adults with neurological dysfunctions. Concentrates on management of functional activity limitations, participation restrictions, and impairments resulting from neurological disease and/or trauma. Offers students an opportunity to learn about the etiology, pathology, clinical signs, and medical management of adults with neurological disorders; to learn to perform an examination, evaluate the examination data to formulate a plan of care, and provide interventions; and to use evidence-based decision making.",
-    "coreqs": [
-      { "subject": "PT", "number": "6222" },
-      { "subject": "PT", "number": "6222" },
-      { "subject": "PT", "number": "6222" },
-      { "subject": "PT", "number": "6222" }
-    ],
-    "prereqs": []
+    "coreqs": [{ "subject": "PT", "number": "6222" }],
+    "prereqs": [
+      "(",
+      { "subject": "PT", "number": "5209" },
+      "Or",
+      { "subject": "PT", "number": "5209" },
+      ")",
+      "And",
+      "(",
+      { "subject": "PT", "number": "5210" },
+      "Or",
+      { "subject": "PT", "number": "5210" },
+      ")"
+    ]
   },
   {
     "subject": "PT",
@@ -800,33 +770,7 @@
       { "term": "202330", "crn": "30777" }
     ],
     "description": "Accompanies PT 6221. Covers topics from the course through various experiments.",
-    "coreqs": [
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" },
-      { "subject": "PT", "number": "6221" }
-    ],
+    "coreqs": [{ "subject": "PT", "number": "6221" }],
     "prereqs": []
   },
   {
@@ -837,7 +781,21 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "30770" }],
-    "description": "Provides an in-depth analysis of musculoskeletal management. Compares intervention protocols as an integral component of this course. Allows, in the lab component, for practical application of spinal joint mobilization, modalities, ergonomic assessment, functional training, and therapeutic exercise. Uses case-based learning to promote synthesis of the material."
+    "description": "Provides an in-depth analysis of musculoskeletal management. Compares intervention protocols as an integral component of this course. Allows, in the lab component, for practical application of spinal joint mobilization, modalities, ergonomic assessment, functional training, and therapeutic exercise. Uses case-based learning to promote synthesis of the material.",
+    "coreqs": [{ "subject": "PT", "number": "6224" }],
+    "prereqs": [
+      "(",
+      { "subject": "PT", "number": "5505" },
+      "Or",
+      { "subject": "PT", "number": "5505" },
+      ")",
+      "And",
+      "(",
+      { "subject": "PT", "number": "6241" },
+      "Or",
+      { "subject": "PT", "number": "6241" },
+      ")"
+    ]
   },
   {
     "subject": "PT",
@@ -850,7 +808,9 @@
       { "term": "202330", "crn": "30771" },
       { "term": "202330", "crn": "30772" }
     ],
-    "description": "Accompanies PT 6223. Covers topics from the course through various experiments."
+    "description": "Accompanies PT 6223. Covers topics from the course through various experiments.",
+    "coreqs": [{ "subject": "PT", "number": "6223" }],
+    "prereqs": []
   },
   {
     "subject": "PT",
@@ -862,7 +822,11 @@
     "sections": [{ "term": "202260", "crn": "60322" }],
     "description": "Provides students with an opportunity to obtain in-depth knowledge in orthopedics and physical therapy. Course topics vary each semester offered. Topics are determined by significant events and changes in the field. This course may be taken more than once, as long as topics are different. May be repeated without limit.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "PT", "number": "5505" },
+      "Or",
+      { "subject": "PT", "number": "5505" }
+    ]
   },
   {
     "subject": "PT",
@@ -877,7 +841,13 @@
     ],
     "description": "Provides students with an opportunity to obtain in-depth knowledge in a specific physical therapy topic area. Course topics vary each semester offered. Topics are determined by significant events and changes in the field. This course may be taken more than once, as long as topics are different.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "PT", "number": "6305" },
+      "Or",
+      { "subject": "PT", "number": "5505" },
+      "Or",
+      { "subject": "PT", "number": "5505" }
+    ]
   },
   {
     "subject": "PT",
@@ -889,7 +859,19 @@
     "sections": [{ "term": "202310", "crn": "16465" }],
     "description": "Designed to prepare physical therapy students to recognize the signs and symptoms of medical conditions and adverse drug reactions as they relate to patient examination and to triage appropriately. Emphasizes screening for medical conditions with the goal of recognizing red, yellow, and green flags as they relate to patient care. Stresses medical referral to other healthcare practitioners in an efficient and effective manner.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      "(",
+      { "subject": "PT", "number": "5515" },
+      "Or",
+      { "subject": "PT", "number": "5515" },
+      ")",
+      "And",
+      "(",
+      { "subject": "PT", "number": "5540" },
+      "Or",
+      { "subject": "PT", "number": "5540" },
+      ")"
+    ]
   },
   {
     "subject": "PT",
@@ -904,42 +886,8 @@
       { "term": "202330", "crn": "36289" }
     ],
     "description": "Covers health promotion, wellness, disease, impairment, functional limitations, disability, and health risks. Addresses the concept of human difference as a construct relative to behavior theories, lifestyle choices, and health and wellness. Offers learners an opportunity to develop an educational health promotion program for individuals as well as community groups, considering the impact of health disparities, epidemiology, learning styles, barriers, and resources. Offers learners an opportunity to explore a potential consultative role to business, schools, government agencies, and other organizations.",
-    "coreqs": [
-      { "subject": "PT", "number": "6244" },
-      { "subject": "PT", "number": "6244" },
-      { "subject": "PT", "number": "6244" },
-      { "subject": "PT", "number": "6244" },
-      { "subject": "PT", "number": "6244" },
-      { "subject": "PT", "number": "6244" },
-      { "subject": "PT", "number": "6244" },
-      { "subject": "PT", "number": "6244" },
-      { "subject": "PT", "number": "6244" }
-    ],
+    "coreqs": [{ "subject": "PT", "number": "6244" }],
     "prereqs": [
-      { "subject": "PT", "number": "5160" },
-      "Or",
-      { "subject": "PT", "number": "5160" },
-      { "subject": "PT", "number": "5160" },
-      "Or",
-      { "subject": "PT", "number": "5160" },
-      { "subject": "PT", "number": "5160" },
-      "Or",
-      { "subject": "PT", "number": "5160" },
-      { "subject": "PT", "number": "5160" },
-      "Or",
-      { "subject": "PT", "number": "5160" },
-      { "subject": "PT", "number": "5160" },
-      "Or",
-      { "subject": "PT", "number": "5160" },
-      { "subject": "PT", "number": "5160" },
-      "Or",
-      { "subject": "PT", "number": "5160" },
-      { "subject": "PT", "number": "5160" },
-      "Or",
-      { "subject": "PT", "number": "5160" },
-      { "subject": "PT", "number": "5160" },
-      "Or",
-      { "subject": "PT", "number": "5160" },
       { "subject": "PT", "number": "5160" },
       "Or",
       { "subject": "PT", "number": "5160" }
@@ -958,17 +906,7 @@
       { "term": "202260", "crn": "60586" }
     ],
     "description": "Provides small-group discussion format to cover material in PT 6243.",
-    "coreqs": [
-      { "subject": "PT", "number": "6243" },
-      { "subject": "PT", "number": "6243" },
-      { "subject": "PT", "number": "6243" },
-      { "subject": "PT", "number": "6243" },
-      { "subject": "PT", "number": "6243" },
-      { "subject": "PT", "number": "6243" },
-      { "subject": "PT", "number": "6243" },
-      { "subject": "PT", "number": "6243" },
-      { "subject": "PT", "number": "6243" }
-    ],
+    "coreqs": [{ "subject": "PT", "number": "6243" }],
     "prereqs": []
   },
   {
@@ -979,7 +917,9 @@
     "credits": 1,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "34729" }],
-    "description": "Offers hands-on practice to apply course concepts from PT 6243, in particular health promotion programming for community-based groups. Simultaneously, learners intentionally address the needs/interests of community partners. Learners reflect on their service-learning during on-campus and online activities/assignments."
+    "description": "Offers hands-on practice to apply course concepts from PT 6243, in particular health promotion programming for community-based groups. Simultaneously, learners intentionally address the needs/interests of community partners. Learners reflect on their service-learning during on-campus and online activities/assignments.",
+    "coreqs": [{ "subject": "PT", "number": "6243" }],
+    "prereqs": [{ "subject": "PT", "number": "5160" }]
   },
   {
     "subject": "PT",
@@ -999,51 +939,6 @@
     "prereqs": [
       { "subject": "PT", "number": "5540" },
       "Or",
-      { "subject": "PT", "number": "5540" },
-      { "subject": "PT", "number": "5540" },
-      "Or",
-      { "subject": "PT", "number": "5540" },
-      { "subject": "PT", "number": "5540" },
-      "Or",
-      { "subject": "PT", "number": "5540" },
-      { "subject": "PT", "number": "5540" },
-      "Or",
-      { "subject": "PT", "number": "5540" },
-      { "subject": "PT", "number": "5540" },
-      "Or",
-      { "subject": "PT", "number": "5540" },
-      { "subject": "PT", "number": "5540" },
-      "Or",
-      { "subject": "PT", "number": "5540" },
-      { "subject": "PT", "number": "5540" },
-      "Or",
-      { "subject": "PT", "number": "5540" },
-      { "subject": "PT", "number": "5540" },
-      "Or",
-      { "subject": "PT", "number": "5540" },
-      { "subject": "PT", "number": "5540" },
-      "Or",
-      { "subject": "PT", "number": "5540" },
-      { "subject": "PT", "number": "5540" },
-      "Or",
-      { "subject": "PT", "number": "5540" },
-      { "subject": "PT", "number": "5540" },
-      "Or",
-      { "subject": "PT", "number": "5540" },
-      { "subject": "PT", "number": "5540" },
-      "Or",
-      { "subject": "PT", "number": "5540" },
-      { "subject": "PT", "number": "5540" },
-      "Or",
-      { "subject": "PT", "number": "5540" },
-      { "subject": "PT", "number": "5540" },
-      "Or",
-      { "subject": "PT", "number": "5540" },
-      { "subject": "PT", "number": "5540" },
-      "Or",
-      { "subject": "PT", "number": "5540" },
-      { "subject": "PT", "number": "5540" },
-      "Or",
       { "subject": "PT", "number": "5540" }
     ]
   },
@@ -1061,7 +956,7 @@
     ],
     "description": "Designed to integrate diagnostic imaging principles and techniques relevant to physical therapy practice. Reviews commonly used diagnostic imaging techniques and discusses clinical case studies in a case-based online course.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "PT", "number": "6250" }]
   },
   {
     "subject": "PT",
@@ -1071,7 +966,15 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "36290" }],
-    "description": "Studies the theoretical basis and clinical application of examination and intervention of orthopedic dysfunction of the upper quarter and associated spine that are commonly encountered by physical therapists. Uses an evidence-based, problem-solving approach to prioritize and plan patient care, including medical screening and identifying need for referral. Includes selected topics that reflect the evidence-based philosophies of various noted practitioners in the field of orthopedic physical therapy."
+    "description": "Studies the theoretical basis and clinical application of examination and intervention of orthopedic dysfunction of the upper quarter and associated spine that are commonly encountered by physical therapists. Uses an evidence-based, problem-solving approach to prioritize and plan patient care, including medical screening and identifying need for referral. Includes selected topics that reflect the evidence-based philosophies of various noted practitioners in the field of orthopedic physical therapy.",
+    "coreqs": [{ "subject": "PT", "number": "6306" }],
+    "prereqs": [
+      { "subject": "PT", "number": "5150" },
+      "And",
+      { "subject": "PT", "number": "5151" },
+      "And",
+      { "subject": "PT", "number": "6350" }
+    ]
   },
   {
     "subject": "PT",
@@ -1085,7 +988,15 @@
       { "term": "202330", "crn": "36292" },
       { "term": "202330", "crn": "36293" }
     ],
-    "description": "Accompanies PT 6305. Studies the theoretical basis and clinical application of examination, evaluation, diagnosis, prognosis, and interventions of orthopedic dysfunction of the upper quarter and associated spine that are commonly encountered by physical therapists. Uses an evidence-based, problem-solving approach to prioritize and plan patient care, including medical screening and identifying need for referral. Includes selected topics that reflect the evidence-based philosophies of various noted practitioners in the field of orthopedic physical therapy."
+    "description": "Accompanies PT 6305. Studies the theoretical basis and clinical application of examination, evaluation, diagnosis, prognosis, and interventions of orthopedic dysfunction of the upper quarter and associated spine that are commonly encountered by physical therapists. Uses an evidence-based, problem-solving approach to prioritize and plan patient care, including medical screening and identifying need for referral. Includes selected topics that reflect the evidence-based philosophies of various noted practitioners in the field of orthopedic physical therapy.",
+    "coreqs": [{ "subject": "PT", "number": "6305" }],
+    "prereqs": [
+      { "subject": "PT", "number": "5150" },
+      "And",
+      { "subject": "PT", "number": "5151" },
+      "And",
+      { "subject": "PT", "number": "6350" }
+    ]
   },
   {
     "subject": "PT",
@@ -1113,24 +1024,7 @@
       { "term": "202260", "crn": "60899" }
     ],
     "description": "Accompanies PT 6330. Covers the normal structure, function, and principles of biomechanics of the human body through cadaveric exploration, surface anatomy, and analysis of movement. Emphasizes the regions of the head, neck, and trunk.",
-    "coreqs": [
-      { "subject": "PT", "number": "6330" },
-      { "subject": "PT", "number": "6330" },
-      { "subject": "PT", "number": "6330" },
-      { "subject": "PT", "number": "6330" },
-      { "subject": "PT", "number": "6330" },
-      { "subject": "PT", "number": "6330" },
-      { "subject": "PT", "number": "6330" },
-      { "subject": "PT", "number": "6330" },
-      { "subject": "PT", "number": "6330" },
-      { "subject": "PT", "number": "6330" },
-      { "subject": "PT", "number": "6330" },
-      { "subject": "PT", "number": "6330" },
-      { "subject": "PT", "number": "6330" },
-      { "subject": "PT", "number": "6330" },
-      { "subject": "PT", "number": "6330" },
-      { "subject": "PT", "number": "6330" }
-    ],
+    "coreqs": [{ "subject": "PT", "number": "6330" }],
     "prereqs": []
   },
   {
@@ -1163,70 +1057,8 @@
       { "term": "202310", "crn": "15457" }
     ],
     "description": "Accompanies PT 6340. Covers the normal structure, function, and principles of biomechanics of the human body through cadaveric exploration, surface anatomy, and analysis of movement. Emphasizes the skeletal, muscular, nervous, and cardiovascular systems of the upper and lower extremities.",
-    "coreqs": [
-      { "subject": "PT", "number": "6340" },
-      { "subject": "PT", "number": "6340" },
-      { "subject": "PT", "number": "6340" },
-      { "subject": "PT", "number": "6340" },
-      { "subject": "PT", "number": "6340" },
-      { "subject": "PT", "number": "6340" },
-      { "subject": "PT", "number": "6340" },
-      { "subject": "PT", "number": "6340" },
-      { "subject": "PT", "number": "6340" },
-      { "subject": "PT", "number": "6340" },
-      { "subject": "PT", "number": "6340" },
-      { "subject": "PT", "number": "6340" },
-      { "subject": "PT", "number": "6340" },
-      { "subject": "PT", "number": "6340" },
-      { "subject": "PT", "number": "6340" },
-      { "subject": "PT", "number": "6340" }
-    ],
+    "coreqs": [{ "subject": "PT", "number": "6340" }],
     "prereqs": [
-      { "subject": "PT", "number": "6330" },
-      "And",
-      { "subject": "PT", "number": "6331" },
-      { "subject": "PT", "number": "6330" },
-      "And",
-      { "subject": "PT", "number": "6331" },
-      { "subject": "PT", "number": "6330" },
-      "And",
-      { "subject": "PT", "number": "6331" },
-      { "subject": "PT", "number": "6330" },
-      "And",
-      { "subject": "PT", "number": "6331" },
-      { "subject": "PT", "number": "6330" },
-      "And",
-      { "subject": "PT", "number": "6331" },
-      { "subject": "PT", "number": "6330" },
-      "And",
-      { "subject": "PT", "number": "6331" },
-      { "subject": "PT", "number": "6330" },
-      "And",
-      { "subject": "PT", "number": "6331" },
-      { "subject": "PT", "number": "6330" },
-      "And",
-      { "subject": "PT", "number": "6331" },
-      { "subject": "PT", "number": "6330" },
-      "And",
-      { "subject": "PT", "number": "6331" },
-      { "subject": "PT", "number": "6330" },
-      "And",
-      { "subject": "PT", "number": "6331" },
-      { "subject": "PT", "number": "6330" },
-      "And",
-      { "subject": "PT", "number": "6331" },
-      { "subject": "PT", "number": "6330" },
-      "And",
-      { "subject": "PT", "number": "6331" },
-      { "subject": "PT", "number": "6330" },
-      "And",
-      { "subject": "PT", "number": "6331" },
-      { "subject": "PT", "number": "6330" },
-      "And",
-      { "subject": "PT", "number": "6331" },
-      { "subject": "PT", "number": "6330" },
-      "And",
-      { "subject": "PT", "number": "6331" },
       { "subject": "PT", "number": "6330" },
       "And",
       { "subject": "PT", "number": "6331" }
@@ -1270,190 +1102,8 @@
       { "term": "202310", "crn": "15455" }
     ],
     "description": "Accompanies PT 6350. Provides an introductory framework to the patient/client professional relationship.",
-    "coreqs": [
-      { "subject": "PT", "number": "6350" },
-      { "subject": "PT", "number": "6350" },
-      { "subject": "PT", "number": "6350" },
-      { "subject": "PT", "number": "6350" },
-      { "subject": "PT", "number": "6350" },
-      { "subject": "PT", "number": "6350" },
-      { "subject": "PT", "number": "6350" },
-      { "subject": "PT", "number": "6350" },
-      { "subject": "PT", "number": "6350" },
-      { "subject": "PT", "number": "6350" },
-      { "subject": "PT", "number": "6350" },
-      { "subject": "PT", "number": "6350" },
-      { "subject": "PT", "number": "6350" },
-      { "subject": "PT", "number": "6350" },
-      { "subject": "PT", "number": "6350" },
-      { "subject": "PT", "number": "6350" }
-    ],
+    "coreqs": [{ "subject": "PT", "number": "6350" }],
     "prereqs": [
-      "(",
-      { "subject": "PT", "number": "5101" },
-      "Or",
-      { "subject": "PT", "number": "5101" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5102" },
-      "Or",
-      { "subject": "PT", "number": "5102" },
-      ")",
-      "(",
-      { "subject": "PT", "number": "5101" },
-      "Or",
-      { "subject": "PT", "number": "5101" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5102" },
-      "Or",
-      { "subject": "PT", "number": "5102" },
-      ")",
-      "(",
-      { "subject": "PT", "number": "5101" },
-      "Or",
-      { "subject": "PT", "number": "5101" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5102" },
-      "Or",
-      { "subject": "PT", "number": "5102" },
-      ")",
-      "(",
-      { "subject": "PT", "number": "5101" },
-      "Or",
-      { "subject": "PT", "number": "5101" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5102" },
-      "Or",
-      { "subject": "PT", "number": "5102" },
-      ")",
-      "(",
-      { "subject": "PT", "number": "5101" },
-      "Or",
-      { "subject": "PT", "number": "5101" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5102" },
-      "Or",
-      { "subject": "PT", "number": "5102" },
-      ")",
-      "(",
-      { "subject": "PT", "number": "5101" },
-      "Or",
-      { "subject": "PT", "number": "5101" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5102" },
-      "Or",
-      { "subject": "PT", "number": "5102" },
-      ")",
-      "(",
-      { "subject": "PT", "number": "5101" },
-      "Or",
-      { "subject": "PT", "number": "5101" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5102" },
-      "Or",
-      { "subject": "PT", "number": "5102" },
-      ")",
-      "(",
-      { "subject": "PT", "number": "5101" },
-      "Or",
-      { "subject": "PT", "number": "5101" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5102" },
-      "Or",
-      { "subject": "PT", "number": "5102" },
-      ")",
-      "(",
-      { "subject": "PT", "number": "5101" },
-      "Or",
-      { "subject": "PT", "number": "5101" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5102" },
-      "Or",
-      { "subject": "PT", "number": "5102" },
-      ")",
-      "(",
-      { "subject": "PT", "number": "5101" },
-      "Or",
-      { "subject": "PT", "number": "5101" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5102" },
-      "Or",
-      { "subject": "PT", "number": "5102" },
-      ")",
-      "(",
-      { "subject": "PT", "number": "5101" },
-      "Or",
-      { "subject": "PT", "number": "5101" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5102" },
-      "Or",
-      { "subject": "PT", "number": "5102" },
-      ")",
-      "(",
-      { "subject": "PT", "number": "5101" },
-      "Or",
-      { "subject": "PT", "number": "5101" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5102" },
-      "Or",
-      { "subject": "PT", "number": "5102" },
-      ")",
-      "(",
-      { "subject": "PT", "number": "5101" },
-      "Or",
-      { "subject": "PT", "number": "5101" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5102" },
-      "Or",
-      { "subject": "PT", "number": "5102" },
-      ")",
-      "(",
-      { "subject": "PT", "number": "5101" },
-      "Or",
-      { "subject": "PT", "number": "5101" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5102" },
-      "Or",
-      { "subject": "PT", "number": "5102" },
-      ")",
-      "(",
-      { "subject": "PT", "number": "5101" },
-      "Or",
-      { "subject": "PT", "number": "5101" },
-      ")",
-      "And",
-      "(",
-      { "subject": "PT", "number": "5102" },
-      "Or",
-      { "subject": "PT", "number": "5102" },
-      ")",
       "(",
       { "subject": "PT", "number": "5101" },
       "Or",
@@ -1475,7 +1125,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "36294" }],
-    "description": "Provides the foundation of physical therapy administrative management principles required of physical therapists within the U.S. healthcare system. Examines the current and historical practices of the U.S. healthcare system through the lens of physical therapist delivery, including key legislation and policy changes that have impacted physical therapist delivery over time .Comparative evaluation of selected global healthcare systems is undertaken to understand differences. Discusses and applies leadership fundamentals, advocacy skills, and business and management principles to help students develop administrative skills for contemporary physical therapist practice."
+    "description": "Provides the foundation of physical therapy administrative management principles required of physical therapists within the U.S. healthcare system. Examines the current and historical practices of the U.S. healthcare system through the lens of physical therapist delivery, including key legislation and policy changes that have impacted physical therapist delivery over time .Comparative evaluation of selected global healthcare systems is undertaken to understand differences. Discusses and applies leadership fundamentals, advocacy skills, and business and management principles to help students develop administrative skills for contemporary physical therapist practice.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "PT", "number": "5160" }]
   },
   {
     "subject": "PT",
@@ -1495,7 +1147,25 @@
     ],
     "description": "Provides students with opportunities to practice examination, evaluation, and intervention skills previously learned in the classroom and on co-op. Students work under the supervision and guidance of a licensed physical therapist.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      "(",
+      { "subject": "PT", "number": "5230" },
+      "Or",
+      { "subject": "PT", "number": "5230" },
+      ")",
+      "And",
+      "(",
+      { "subject": "PT", "number": "6221" },
+      "Or",
+      { "subject": "PT", "number": "6221" },
+      ")",
+      "And",
+      "(",
+      { "subject": "PT", "number": "6223" },
+      "Or",
+      { "subject": "PT", "number": "6223" },
+      ")"
+    ]
   },
   {
     "subject": "PT",
@@ -1512,7 +1182,7 @@
     ],
     "description": "Continues PT 6441. Provides students with additional opportunities to practice examination, evaluation, and intervention skills learned in the classroom and during the previous course. Students are expected to function at a higher level requiring less supervision and guidance from a licensed physical therapist than was needed during their first clinical education experience.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "PT", "number": "6441" }]
   },
   {
     "subject": "PT",
@@ -1522,7 +1192,9 @@
     "credits": 9,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "30795" }],
-    "description": "Designed to provide students with the opportunity to meet entry-level requirements to practice as physical therapists. Supervised and guided by a licensed physical therapist, students practice examination, evaluation, intervention, documentation, and administrative skills and are expected to function at the level of a new graduate by the completion of this experience. Includes a written assignment. Helps students, through reflection of what they have learned, identify who they are as professionals, establish early career goals, and provide insight for the need to be a lifelong learner."
+    "description": "Designed to provide students with the opportunity to meet entry-level requirements to practice as physical therapists. Supervised and guided by a licensed physical therapist, students practice examination, evaluation, intervention, documentation, and administrative skills and are expected to function at the level of a new graduate by the completion of this experience. Includes a written assignment. Helps students, through reflection of what they have learned, identify who they are as professionals, establish early career goals, and provide insight for the need to be a lifelong learner.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "PT", "number": "6442" }]
   },
   {
     "subject": "PT",
@@ -1554,22 +1226,8 @@
       { "term": "202310", "crn": "20401" }
     ],
     "description": "Accompanies PT 6505. Uses an evidence-based, problem-solving approach to prioritize and plan patient care, including medical screening and identifying need for referral.",
-    "coreqs": [
-      { "subject": "PT", "number": "6505" },
-      { "subject": "PT", "number": "6505" },
-      { "subject": "PT", "number": "6505" },
-      { "subject": "PT", "number": "6505" }
-    ],
+    "coreqs": [{ "subject": "PT", "number": "6505" }],
     "prereqs": [
-      { "subject": "PT", "number": "6405" },
-      "And",
-      { "subject": "PT", "number": "6406" },
-      { "subject": "PT", "number": "6405" },
-      "And",
-      { "subject": "PT", "number": "6406" },
-      { "subject": "PT", "number": "6405" },
-      "And",
-      { "subject": "PT", "number": "6406" },
       { "subject": "PT", "number": "6405" },
       "And",
       { "subject": "PT", "number": "6406" }
@@ -1595,7 +1253,9 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "34730" }],
-    "description": "Offers students an opportunity to learn about statistical concepts that can be applied to the PT capstone project (PT 6512 and PT 6513). Additionally, understanding statistics helps students become adept consumers of studies, a necessary component of clinicians to keep informed of the latest research for their own practice."
+    "description": "Offers students an opportunity to learn about statistical concepts that can be applied to the PT capstone project (PT 6512 and PT 6513). Additionally, understanding statistics helps students become adept consumers of studies, a necessary component of clinicians to keep informed of the latest research for their own practice.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "PT", "number": "6510" }]
   },
   {
     "subject": "PT",
@@ -1605,7 +1265,9 @@
     "credits": 1,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "36621" }],
-    "description": "Offers students an opportunity to work directly with a faculty mentor(s) on scholarship activities to be disseminated (e.g., peer-reviewed journal article, conference poster) in the future. Students are assigned faculty mentor(s). Mentors determine the type of project students conduct for two semesters. Students are responsible for communicating with their mentor(s) throughout the semester and for completing the work that has been assigned by the specified deadlines. Additionally, students are expected to work cooperatively with fellow students assigned to the group to develop their project."
+    "description": "Offers students an opportunity to work directly with a faculty mentor(s) on scholarship activities to be disseminated (e.g., peer-reviewed journal article, conference poster) in the future. Students are assigned faculty mentor(s). Mentors determine the type of project students conduct for two semesters. Students are responsible for communicating with their mentor(s) throughout the semester and for completing the work that has been assigned by the specified deadlines. Additionally, students are expected to work cooperatively with fellow students assigned to the group to develop their project.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "PT", "number": "6511" }]
   },
   {
     "subject": "PT",
@@ -1629,7 +1291,11 @@
     "sections": [{ "term": "202310", "crn": "19375" }],
     "description": "Offers learners an opportunity to expand upon current evidence-based topics to reflect current advancements in physical therapist practice. Topics are determined by significant events and changes in the field across areas of clinical practice and in line with accreditation and National Physical Therapist Licensure Examination. Focuses on advanced patient management and complex case analysis that involves multiple systems across the life span. Learners use clinical reasoning theory and evidence-based practice to reflect on patient diagnosis and management.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "PT", "number": "6405" },
+      "And",
+      { "subject": "PT", "number": "6406" }
+    ]
   },
   {
     "subject": "PT",
@@ -1685,7 +1351,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "33924" }],
-    "description": "Offers students an opportunity to learn how to measure kinematics, kinetics, and muscle activity using bioinstrumentation, including 3D motion capture system, force plates, and electromyography, as well as to learn signal conditioning and processing techniques and how to compute physiological variables such as joint angles, joint torques, ground reaction force, center of pressure, and center of mass. Topics include programming skills in LabVIEW and MATLAB. Students use this information to formulate solutions to biomechanical problems."
+    "description": "Offers students an opportunity to learn how to measure kinematics, kinetics, and muscle activity using bioinstrumentation, including 3D motion capture system, force plates, and electromyography, as well as to learn signal conditioning and processing techniques and how to compute physiological variables such as joint angles, joint torques, ground reaction force, center of pressure, and center of mass. Topics include programming skills in LabVIEW and MATLAB. Students use this information to formulate solutions to biomechanical problems.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PT",
@@ -1695,7 +1363,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "35103" }],
-    "description": "Covers technologies that have relevance to rehabilitation of individuals with disorders of movement. Topics include measurement of human movement, electroencephalography (EEG), functional magnetic resonance imaging (fMRI), electromyography (EMG), virtual reality and gaming, robotics, neuroprosthetics, noninvasive brain stimulation, and peripheral stimulation. Exposes students to a historical perspective on how the technology evolved, applications of the technology, an overview of how the technology works, existing variants, strengths, limitations/gaps, and future directions."
+    "description": "Covers technologies that have relevance to rehabilitation of individuals with disorders of movement. Topics include measurement of human movement, electroencephalography (EEG), functional magnetic resonance imaging (fMRI), electromyography (EMG), virtual reality and gaming, robotics, neuroprosthetics, noninvasive brain stimulation, and peripheral stimulation. Exposes students to a historical perspective on how the technology evolved, applications of the technology, an overview of how the technology works, existing variants, strengths, limitations/gaps, and future directions.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PT",
@@ -1739,12 +1409,7 @@
     ],
     "description": "Offers dissertation supervision by members of the department.",
     "coreqs": [],
-    "prereqs": [
-      { "subject": "PT", "number": "9000" },
-      { "subject": "PT", "number": "9000" },
-      { "subject": "PT", "number": "9000" },
-      { "subject": "PT", "number": "9000" }
-    ]
+    "prereqs": [{ "subject": "PT", "number": "9000" }]
   },
   {
     "subject": "PT",
@@ -1757,7 +1422,9 @@
       { "term": "202330", "crn": "37779" },
       { "term": "202330", "crn": "37524" }
     ],
-    "description": "Offers dissertation supervision by members of the department."
+    "description": "Offers dissertation supervision by members of the department.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "PT", "number": "9990" }]
   },
   {
     "subject": "PT",
@@ -1770,6 +1437,12 @@
       { "term": "202310", "crn": "21596" },
       { "term": "202310", "crn": "21597" }
     ],
-    "description": "Offers continued dissertation work conducted under the supervision of a departmental faculty member."
+    "description": "Offers continued dissertation work conducted under the supervision of a departmental faculty member.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "PT", "number": "9991" },
+      "Or",
+      "Dissertation Check"
+    ]
   }
 ]

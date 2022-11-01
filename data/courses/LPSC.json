@@ -40,7 +40,9 @@
     "credits": 4,
     "nuPath": ["SI"],
     "sections": [{ "term": "202330", "crn": "33145" }],
-    "description": "Offers a historical overview of the Supreme Court's role in American life, focusing on the 20th century. As a legal, political, and policymaking institution, the Supreme Court plays a central role in U.S. legal, political, and policy disputes. The justices possess a wide range of social, cultural, political, and economic views."
+    "description": "Offers a historical overview of the Supreme Court's role in American life, focusing on the 20th century. As a legal, political, and policymaking institution, the Supreme Court plays a central role in U.S. legal, political, and policy disputes. The justices possess a wide range of social, cultural, political, and economic views.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "LPSC", "number": "1101" }]
   },
   {
     "subject": "LPSC",
@@ -55,12 +57,7 @@
     ],
     "description": "The meeting dates for the class will be November 14th, 15th, and 16th.",
     "coreqs": [],
-    "prereqs": [
-      { "subject": "LPSC", "number": "1101" },
-      { "subject": "LPSC", "number": "1101" },
-      { "subject": "LPSC", "number": "1101" },
-      { "subject": "LPSC", "number": "1101" }
-    ]
+    "prereqs": [{ "subject": "LPSC", "number": "1101" }]
   },
   {
     "subject": "LPSC",
@@ -98,6 +95,8 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "32061" }],
-    "description": "Provides an overview of the various aspects of urban sustainability planning. Examines sustainability as an urban planning approach with both ecological and social justice goals. Covers sustainable planning and offers students an opportunity to understand it within the context of smart growth and the new urbanism. Focuses on the two areas in which cities can reduce energy consumption and greenhouse gas emissions&#8212;the built environment and transportation. From there, the course examines planning efforts to reduce demand on water and sewer systems and to create employment in renewable energy and other &#8220;clean-tech&#8221; occupations. The course ends by placing urban initiatives in the context of state and national policy."
+    "description": "Provides an overview of the various aspects of urban sustainability planning. Examines sustainability as an urban planning approach with both ecological and social justice goals. Covers sustainable planning and offers students an opportunity to understand it within the context of smart growth and the new urbanism. Focuses on the two areas in which cities can reduce energy consumption and greenhouse gas emissions&#8212;the built environment and transportation. From there, the course examines planning efforts to reduce demand on water and sewer systems and to create employment in renewable energy and other &#8220;clean-tech&#8221; occupations. The course ends by placing urban initiatives in the context of state and national policy.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]

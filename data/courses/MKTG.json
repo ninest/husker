@@ -97,7 +97,9 @@
     "credits": 4,
     "nuPath": ["ER", "EX", "SI"],
     "sections": [{ "term": "202330", "crn": "33257" }],
-    "description": "Examines the role of marketing and business in society's central contemporary problems as well as the way marketing can take a positive and influential role in the efforts to address these problems. Reviews some of our society's main problems and a critical view of marketing and business in today's world. Also examines changing marketing practices and roles for businesses as firms and institutions become more socially responsible and ethically aware. Finally, introduces and analyzes the role of prosocial marketing, how marketing can influence people's behavior for advancing a socially desirable change. Offers students an opportunity to better understand our society and enhance an ethical mind-set, while highlighting the ways marketers can contribute to societal well-being."
+    "description": "Examines the role of marketing and business in society's central contemporary problems as well as the way marketing can take a positive and influential role in the efforts to address these problems. Reviews some of our society's main problems and a critical view of marketing and business in today's world. Also examines changing marketing practices and roles for businesses as firms and institutions become more socially responsible and ethically aware. Finally, introduces and analyzes the role of prosocial marketing, how marketing can influence people's behavior for advancing a socially desirable change. Offers students an opportunity to better understand our society and enhance an ethical mind-set, while highlighting the ways marketers can contribute to societal well-being.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MKTG",
@@ -135,7 +137,25 @@
     ],
     "description": "Focuses on the marketing process through the use of case studies simulating actual business settings and marketing challenges. Develops skill in marketing decision making, critical analysis, and communication. Topics include techniques for undertaking market analysis, marketing strategy (segmentation and positioning), and marketing implementation (4 Ps). A marketing plan project is used to enable students to apply their understanding about the marketing process.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      "(",
+      { "subject": "MKTG", "number": "2201" },
+      "Or",
+      { "subject": "MKTG", "number": "2202" },
+      "Or",
+      { "subject": "MKTG", "number": "2209" },
+      ")",
+      "And",
+      "(",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      ")"
+    ]
   },
   {
     "subject": "MKTG",
@@ -160,7 +180,35 @@
     ],
     "description": "Offers students an opportunity to gain experience in the marketing research process, while working on a client-based project. Topics include problem definition, secondary research, exploratory research, experimental design, questionnaire design, sampling and recruitment, and data analysis and visualization. Exercises skills of project management, teamwork, and client relationship management. Seeks to prepare students for careers that utilize consumer insights to inform managerial decisions.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      "(",
+      { "subject": "MKTG", "number": "2201" },
+      "Or",
+      { "subject": "MKTG", "number": "2202" },
+      "Or",
+      { "subject": "MKTG", "number": "2209" },
+      ")",
+      "And",
+      "(",
+      { "subject": "MGSC", "number": "1201" },
+      "Or",
+      { "subject": "MGSC", "number": "2301" },
+      "Or",
+      { "subject": "MATH", "number": "2280" },
+      "Or",
+      { "subject": "ECON", "number": "2350" },
+      "Or",
+      { "subject": "MATH", "number": "3081" },
+      "Or",
+      { "subject": "POLS", "number": "2400" },
+      "Or",
+      { "subject": "IS", "number": "3500" },
+      "Or",
+      { "subject": "PSYC", "number": "2320" },
+      "Or",
+      { "subject": "PHTH", "number": "2210" },
+      ")"
+    ]
   },
   {
     "subject": "MKTG",
@@ -205,51 +253,6 @@
     "prereqs": [
       { "subject": "MKTG", "number": "3401" },
       "Or",
-      { "subject": "MKTG", "number": "3402" },
-      { "subject": "MKTG", "number": "3401" },
-      "Or",
-      { "subject": "MKTG", "number": "3402" },
-      { "subject": "MKTG", "number": "3401" },
-      "Or",
-      { "subject": "MKTG", "number": "3402" },
-      { "subject": "MKTG", "number": "3401" },
-      "Or",
-      { "subject": "MKTG", "number": "3402" },
-      { "subject": "MKTG", "number": "3401" },
-      "Or",
-      { "subject": "MKTG", "number": "3402" },
-      { "subject": "MKTG", "number": "3401" },
-      "Or",
-      { "subject": "MKTG", "number": "3402" },
-      { "subject": "MKTG", "number": "3401" },
-      "Or",
-      { "subject": "MKTG", "number": "3402" },
-      { "subject": "MKTG", "number": "3401" },
-      "Or",
-      { "subject": "MKTG", "number": "3402" },
-      { "subject": "MKTG", "number": "3401" },
-      "Or",
-      { "subject": "MKTG", "number": "3402" },
-      { "subject": "MKTG", "number": "3401" },
-      "Or",
-      { "subject": "MKTG", "number": "3402" },
-      { "subject": "MKTG", "number": "3401" },
-      "Or",
-      { "subject": "MKTG", "number": "3402" },
-      { "subject": "MKTG", "number": "3401" },
-      "Or",
-      { "subject": "MKTG", "number": "3402" },
-      { "subject": "MKTG", "number": "3401" },
-      "Or",
-      { "subject": "MKTG", "number": "3402" },
-      { "subject": "MKTG", "number": "3401" },
-      "Or",
-      { "subject": "MKTG", "number": "3402" },
-      { "subject": "MKTG", "number": "3401" },
-      "Or",
-      { "subject": "MKTG", "number": "3402" },
-      { "subject": "MKTG", "number": "3401" },
-      "Or",
       { "subject": "MKTG", "number": "3402" }
     ]
   },
@@ -276,7 +279,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38155" }],
-    "description": "Offers students an advanced-level experiential learning opportunity working directly with a faculty mentor on an academic marketing research project. Depending on the mutual interests of students and faculty, research may be behavioral/experimental or quantitative/analytical in nature. Engages students in multiple aspects of a research project: literature review; theory development; hypothesis generation; research design; data analysis and visualization; and developing insights for managers, researchers, and policy. Students meet weekly with the course instructors for skill-building sessions and lab meetings."
+    "description": "Offers students an advanced-level experiential learning opportunity working directly with a faculty mentor on an academic marketing research project. Depending on the mutual interests of students and faculty, research may be behavioral/experimental or quantitative/analytical in nature. Engages students in multiple aspects of a research project: literature review; theory development; hypothesis generation; research design; data analysis and visualization; and developing insights for managers, researchers, and policy. Students meet weekly with the course instructors for skill-building sessions and lab meetings.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MKTG",
@@ -294,7 +299,13 @@
     ],
     "description": "Focuses on developing a creative advertising strategy and brand plan that aligns with a company’s overall marketing objectives. Topics include the business of brands, marketing strategy, ethical and legal considerations in advertising, advertising strategy development, media planning and buying, creative development and testing, identifying and measuring success on key performance indicators, historical foundations of advertising, and what’s next in the industry. Students apply course concepts to develop a creative advertising strategy to address campaign objectives.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "MKTG", "number": "2201" },
+      "Or",
+      { "subject": "MKTG", "number": "2202" },
+      "Or",
+      { "subject": "MKTG", "number": "2209" }
+    ]
   },
   {
     "subject": "MKTG",
@@ -313,7 +324,13 @@
     ],
     "description": "Incorporates the latest research in marketing, psychology, and other behavioral sciences to help students develop evidence-based strategies for predicting and influencing consumer behavior. Consumers are at the center of the business value creation process; therefore, an understanding of consumer thoughts, feelings, and actions is critical for business success. Offers students an opportunity to learn how to successfully target the right audience by conducting and interpreting market research; shape thoughts by getting consumers’ attention and making a lasting impression; influence attitudes by applying principles of persuasion and social influence; and impact consumer decisions by harnessing motivations and drivers of behavior.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "MKTG", "number": "2201" },
+      "Or",
+      { "subject": "MKTG", "number": "2202" },
+      "Or",
+      { "subject": "MKTG", "number": "2209" }
+    ]
   },
   {
     "subject": "MKTG",
@@ -329,21 +346,6 @@
     "description": "Examines the impact of technology on the marketing of goods and services. Focuses on the Internet and the World Wide Web. Investigates recent trends in e-business and identifies marketing strategies that work in this new environment. Introduces students to frameworks that help explain current issues in electronic marketing. Although the focus is on Internet marketing strategy, phenomena such as television home shopping and database marketing are also explored. Readings, cases, discussions, lectures, guest speakers, student reports, and exercises on the World Wide Web are all utilized.",
     "coreqs": [],
     "prereqs": [
-      { "subject": "MKTG", "number": "2201" },
-      "Or",
-      { "subject": "MKTG", "number": "2202" },
-      "Or",
-      { "subject": "MKTG", "number": "2209" },
-      { "subject": "MKTG", "number": "2201" },
-      "Or",
-      { "subject": "MKTG", "number": "2202" },
-      "Or",
-      { "subject": "MKTG", "number": "2209" },
-      { "subject": "MKTG", "number": "2201" },
-      "Or",
-      { "subject": "MKTG", "number": "2202" },
-      "Or",
-      { "subject": "MKTG", "number": "2209" },
       { "subject": "MKTG", "number": "2201" },
       "Or",
       { "subject": "MKTG", "number": "2202" },
@@ -376,7 +378,13 @@
     ],
     "description": "Introduces those aspects of marketing that are unique to international business within the framework of traditional functional areas of marketing. Focuses on the environment and the modifications of marketing concepts and practices necessitated by environmental differences. Topics include cultural dynamics in international markets, political and legal environmental constraints, educational and economic constraints, international marketing research, international marketing institutions, and marketing practices abroad.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "MKTG", "number": "2201" },
+      "Or",
+      { "subject": "MKTG", "number": "2202" },
+      "Or",
+      { "subject": "MKTG", "number": "2209" }
+    ]
   },
   {
     "subject": "MKTG",
@@ -401,7 +409,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "39034" }],
-    "description": "Examines the key drivers and building blocks of digital business transformations underlying the best marketing practices of the platform economy and discusses how companies can successfully take advantage of emerging multisided platforms and market-driven network externalities. Offers students an opportunity to learn how platforms change the way firms and consumers transact; to identify customer groups whose affiliation with the platform is most valuable; to understand the dynamics and limitations of platform-based network effects; to design competitive platform-based marketing strategies; and to develop plans for turning products and services into sustainable platforms. Explores consumer-based perspectives to highlight potential biases and discrimination arising in the platform economy. Considers various approaches for establishing fair and appropriate regulations and policies to mitigate such issues."
+    "description": "Examines the key drivers and building blocks of digital business transformations underlying the best marketing practices of the platform economy and discusses how companies can successfully take advantage of emerging multisided platforms and market-driven network externalities. Offers students an opportunity to learn how platforms change the way firms and consumers transact; to identify customer groups whose affiliation with the platform is most valuable; to understand the dynamics and limitations of platform-based network effects; to design competitive platform-based marketing strategies; and to develop plans for turning products and services into sustainable platforms. Explores consumer-based perspectives to highlight potential biases and discrimination arising in the platform economy. Considers various approaches for establishing fair and appropriate regulations and policies to mitigate such issues.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MKTG",
@@ -411,7 +421,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21481" }],
-    "description": "Offers special topics in marketing. May be repeated once."
+    "description": "Offers special topics in marketing. May be repeated once.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MKTG",
@@ -421,7 +433,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38777" }],
-    "description": "Offers an advanced-level experiential learning opportunity for students considering an academic career in marketing. Research may be behavioral/experimental or quantitative/analytical in nature. Engages students in multiple aspects of a research project: literature review; theory development; hypothesis generation; research design; data analysis and visualization; and developing insights for managers, researchers, and policy. Students participate in formal research training; attend weekly meetings with the faculty leads for the course; present their research; and submit a research paper at the end of the semester."
+    "description": "Offers an advanced-level experiential learning opportunity for students considering an academic career in marketing. Research may be behavioral/experimental or quantitative/analytical in nature. Engages students in multiple aspects of a research project: literature review; theory development; hypothesis generation; research design; data analysis and visualization; and developing insights for managers, researchers, and policy. Students participate in formal research training; attend weekly meetings with the faculty leads for the course; present their research; and submit a research paper at the end of the semester.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MKTG",
@@ -459,7 +473,23 @@
       { "term": "202330", "crn": "36030" },
       { "term": "202330", "crn": "30938" }
     ],
-    "description": "Provides an overview of the major qualitative and quantitative marketing research methodologies available to marketing managers. Explores customer relationship management (CRM) and multivariate statistical techniques including conjoint analysis, customer satisfaction, and service quality measurement."
+    "description": "Provides an overview of the major qualitative and quantitative marketing research methodologies available to marketing managers. Explores customer relationship management (CRM) and multivariate statistical techniques including conjoint analysis, customer satisfaction, and service quality measurement.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "MKTG", "number": "6200" },
+      "Or",
+      { "subject": "MKTG", "number": "6208" },
+      "Or",
+      { "subject": "MKTG", "number": "6318" },
+      ")",
+      "And",
+      "(",
+      { "subject": "MGSC", "number": "6200" },
+      "Or",
+      { "subject": "MGSC", "number": "6207" },
+      ")"
+    ]
   },
   {
     "subject": "MKTG",
@@ -489,7 +519,13 @@
     "sections": [{ "term": "202240", "crn": "41587" }],
     "description": "Focuses on the challenges and decisions new-product managers face as they take ideas through the new-product-development process. Companies need to create, develop, and market new products and services continually to compete effectively in a rapidly changing environment. Provides an overview of the new-product-development process, with an emphasis on customer involvement in this process. Provides detailed insights on such topics as new-product strategy, idea generation, idea selection and evaluation, concept development and testing, product development and testing, and market testing.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "MKTG", "number": "6200" },
+      "Or",
+      { "subject": "MKTG", "number": "6208" },
+      "Or",
+      { "subject": "MKTG", "number": "6318" }
+    ]
   },
   {
     "subject": "MKTG",
@@ -506,46 +542,6 @@
     "description": "Offers an advanced course in defining and managing an organization's product-market strategy. Intended for marketing specialists and nonspecialists interested in incorporating a market focus from a general management or consulting perspective. Emphasizes using market information to choose and manage the company's relationships with customers and competitors in a complex, changing environment, as well as the practical concerns of implementing and evaluating marketing strategy.",
     "coreqs": [],
     "prereqs": [
-      { "subject": "MKTG", "number": "6200" },
-      "Or",
-      { "subject": "MKTG", "number": "6208" },
-      "Or",
-      { "subject": "MKTG", "number": "6318" },
-      { "subject": "MKTG", "number": "6200" },
-      "Or",
-      { "subject": "MKTG", "number": "6208" },
-      "Or",
-      { "subject": "MKTG", "number": "6318" },
-      { "subject": "MKTG", "number": "6200" },
-      "Or",
-      { "subject": "MKTG", "number": "6208" },
-      "Or",
-      { "subject": "MKTG", "number": "6318" },
-      { "subject": "MKTG", "number": "6200" },
-      "Or",
-      { "subject": "MKTG", "number": "6208" },
-      "Or",
-      { "subject": "MKTG", "number": "6318" },
-      { "subject": "MKTG", "number": "6200" },
-      "Or",
-      { "subject": "MKTG", "number": "6208" },
-      "Or",
-      { "subject": "MKTG", "number": "6318" },
-      { "subject": "MKTG", "number": "6200" },
-      "Or",
-      { "subject": "MKTG", "number": "6208" },
-      "Or",
-      { "subject": "MKTG", "number": "6318" },
-      { "subject": "MKTG", "number": "6200" },
-      "Or",
-      { "subject": "MKTG", "number": "6208" },
-      "Or",
-      { "subject": "MKTG", "number": "6318" },
-      { "subject": "MKTG", "number": "6200" },
-      "Or",
-      { "subject": "MKTG", "number": "6208" },
-      "Or",
-      { "subject": "MKTG", "number": "6318" },
       { "subject": "MKTG", "number": "6200" },
       "Or",
       { "subject": "MKTG", "number": "6208" },
@@ -579,7 +575,15 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "39346" }],
-    "description": "Explores the latest trends in technology and new media, their effect on marketing goods and services, and how to deliver value to the customer using the latest technological innovations. Examines the latest trends in digital marketing, such as mobile marketing, and how the mobile platform can be used for branding purposes and to enhance customer relationships. Explores topics such as branding and advertising via mobile phones, online social networks and communities, technology adoption in global emerging markets, and how the Internet empowers customers and enables firms to engage in customer advocacy. Also examines how marketing research is conducted for technological innovations and ethical concerns that arise with technology usage, such as privacy and security issues, identity theft, and the role of trust in digital marketing."
+    "description": "Explores the latest trends in technology and new media, their effect on marketing goods and services, and how to deliver value to the customer using the latest technological innovations. Examines the latest trends in digital marketing, such as mobile marketing, and how the mobile platform can be used for branding purposes and to enhance customer relationships. Explores topics such as branding and advertising via mobile phones, online social networks and communities, technology adoption in global emerging markets, and how the Internet empowers customers and enables firms to engage in customer advocacy. Also examines how marketing research is conducted for technological innovations and ethical concerns that arise with technology usage, such as privacy and security issues, identity theft, and the role of trust in digital marketing.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "MKTG", "number": "6200" },
+      "Or",
+      { "subject": "MKTG", "number": "6208" },
+      "Or",
+      { "subject": "MKTG", "number": "6318" }
+    ]
   },
   {
     "subject": "MKTG",
@@ -599,21 +603,6 @@
       "Or",
       { "subject": "MKTG", "number": "6208" },
       "Or",
-      { "subject": "MKTG", "number": "6318" },
-      { "subject": "MKTG", "number": "6200" },
-      "Or",
-      { "subject": "MKTG", "number": "6208" },
-      "Or",
-      { "subject": "MKTG", "number": "6318" },
-      { "subject": "MKTG", "number": "6200" },
-      "Or",
-      { "subject": "MKTG", "number": "6208" },
-      "Or",
-      { "subject": "MKTG", "number": "6318" },
-      { "subject": "MKTG", "number": "6200" },
-      "Or",
-      { "subject": "MKTG", "number": "6208" },
-      "Or",
       { "subject": "MKTG", "number": "6318" }
     ]
   },
@@ -627,7 +616,13 @@
     "sections": [{ "term": "202260", "crn": "61393" }],
     "description": "Covers business-to-business marketing and the key roles of managing relationships with large buyers, going to market, and the sales organization. Begins with an understanding of why and how firms, institutions, and organizations purchase products and services and the importance of the multifunctional buying center. Covers a proven selling process and presents compelling solutions to customers. Going-to-market topics include managing value-added resellers and distributors. Intended for all interested in marketing: future product managers who must rely on the sales force and distributors to introduce new products and promotions, future sales managers, and marketing executives who must manage the marketing-sales interface.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "MKTG", "number": "6200" },
+      "Or",
+      { "subject": "MKTG", "number": "6208" },
+      "Or",
+      { "subject": "MKTG", "number": "6318" }
+    ]
   },
   {
     "subject": "MKTG",
@@ -655,7 +650,17 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38157" }],
-    "description": "Introduces how to measure, analyze, and evaluate the profit impact of marketing actions (MAP) by bringing together marketing, strategy, and finance. Your organization is going to spend millions on a new marketing or strategic initiative, but how will you know if it is working? Marketing performance measurement and feedback systems enable managers to take smarter risks by assessing experimental projects and forecasting the profit potential of bigger, bolder initiatives. Offers students an opportunity to explore systems that summarize marketing productivity and suggest steps for performance improvement in marketing strategy and tactics."
+    "description": "Introduces how to measure, analyze, and evaluate the profit impact of marketing actions (MAP) by bringing together marketing, strategy, and finance. Your organization is going to spend millions on a new marketing or strategic initiative, but how will you know if it is working? Marketing performance measurement and feedback systems enable managers to take smarter risks by assessing experimental projects and forecasting the profit potential of bigger, bolder initiatives. Offers students an opportunity to explore systems that summarize marketing productivity and suggest steps for performance improvement in marketing strategy and tactics.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "MKTG", "number": "6200" },
+      "Or",
+      { "subject": "MKTG", "number": "6208" },
+      "Or",
+      { "subject": "MKTG", "number": "6210" },
+      "Or",
+      { "subject": "MKTG", "number": "6318" }
+    ]
   },
   {
     "subject": "MKTG",
@@ -665,7 +670,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "32768" }],
-    "description": "Introduces informationcentric methods that help to choose which customer markets are worth pursuing; that identify what benefits would be most attractive to offer these customers; and that develop, communicate, and deliver products and services that provide value to both customers and organizations. In the current customercentric marketplace, every member within an organization is responsible for understanding and engaging customers, regardless of their specific functional role. Properly collecting and utilizing data from inside and outside the organization is necessary to support this process. Using real-world cases, scenarios, and data, offers students an opportunity to learn how customer relationships can be created and sustained."
+    "description": "Introduces informationcentric methods that help to choose which customer markets are worth pursuing; that identify what benefits would be most attractive to offer these customers; and that develop, communicate, and deliver products and services that provide value to both customers and organizations. In the current customercentric marketplace, every member within an organization is responsible for understanding and engaging customers, regardless of their specific functional role. Properly collecting and utilizing data from inside and outside the organization is necessary to support this process. Using real-world cases, scenarios, and data, offers students an opportunity to learn how customer relationships can be created and sustained.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MKTG",
@@ -693,7 +700,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "32500" }],
-    "description": "Introduces the substantive and procedural aspects of marketing strategy and customer markets. Topics include how to identify target markets, how to leverage data and analyses to enhance the development of a marketing strategy, and how to develop knowledge of various techniques for uncovering customer needs/wants. Studies the importance of customer insights to business success. Offers students an opportunity to develop and implement a concept test."
+    "description": "Introduces the substantive and procedural aspects of marketing strategy and customer markets. Topics include how to identify target markets, how to leverage data and analyses to enhance the development of a marketing strategy, and how to develop knowledge of various techniques for uncovering customer needs/wants. Studies the importance of customer insights to business success. Offers students an opportunity to develop and implement a concept test.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MKTG",
@@ -756,7 +765,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "33154" }],
-    "description": "Examines the specific elements of marketing management, including market research, metrics, positioning, planning, and the marketing mix. Focuses on developing student skills in putting together a marketing plan based on a thorough understanding of the market. Emphasizes predicting consumer behavior, developing points of difference and parity, calibrating the different elements of the market offering, and going to market with clear performance indicators."
+    "description": "Examines the specific elements of marketing management, including market research, metrics, positioning, planning, and the marketing mix. Focuses on developing student skills in putting together a marketing plan based on a thorough understanding of the market. Emphasizes predicting consumer behavior, developing points of difference and parity, calibrating the different elements of the market offering, and going to market with clear performance indicators.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "MKTG", "number": "6318" }]
   },
   {
     "subject": "MKTG",

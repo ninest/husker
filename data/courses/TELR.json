@@ -19,7 +19,9 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "37656" }],
-    "description": "Continues the examination of technology practices begun in TELR 5121. Requires work/training with a sponsoring organization or employer to improve a process or develop a project that is of significant value to the organization and demonstrates a quantifiable market impact while enhancing the student’s technological depth and fostering the student’s leadership development."
+    "description": "Continues the examination of technology practices begun in TELR 5121. Requires work/training with a sponsoring organization or employer to improve a process or develop a project that is of significant value to the organization and demonstrates a quantifiable market impact while enhancing the student’s technological depth and fostering the student’s leadership development.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "TELR", "number": "5121" }]
   },
   {
     "subject": "TELR",
@@ -41,7 +43,9 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "37657" }],
-    "description": "Continues the examination of fundamental science begun in TELR 5131."
+    "description": "Continues the examination of fundamental science begun in TELR 5131.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "TELR", "number": "5131" }]
   },
   {
     "subject": "TELR",
@@ -63,6 +67,8 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "37658" }],
-    "description": "Continues TELR 7440, a thesis-scale project in technology commercialization. Offers students an opportunity to demonstrate their development of a marketable technology product or prototype and to produce a written documentary report on the project to the satisfaction of an advising committee. Requires work/training with a sponsoring organization or employer to improve a process or develop a project that is of significant value to the organization and demonstrates a quantifiable market impact while enhancing the student’s technological depth and fostering the student’s leadership development."
+    "description": "Continues TELR 7440, a thesis-scale project in technology commercialization. Offers students an opportunity to demonstrate their development of a marketable technology product or prototype and to produce a written documentary report on the project to the satisfaction of an advising committee. Requires work/training with a sponsoring organization or employer to improve a process or develop a project that is of significant value to the organization and demonstrates a quantifiable market impact while enhancing the student’s technological depth and fostering the student’s leadership development.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "TELR", "number": "7440" }]
   }
 ]

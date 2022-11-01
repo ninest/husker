@@ -54,7 +54,9 @@
     "credits": 4,
     "nuPath": ["DD", "IC"],
     "sections": [{ "term": "202330", "crn": "38092" }],
-    "description": "Delves into the fascinating stories of African Americans who have called New England home, from the seventeenth century up to the present. Discusses themes such as freedom and slavery, migration, and civil rights. Introduces an interdisciplinary framework for understanding Black identity formation, activism, and cultural as well as intellectual traditions amid the long struggle for justice."
+    "description": "Delves into the fascinating stories of African Americans who have called New England home, from the seventeenth century up to the present. Discusses themes such as freedom and slavery, migration, and civil rights. Introduces an interdisciplinary framework for understanding Black identity formation, activism, and cultural as well as intellectual traditions amid the long struggle for justice.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "AFAM",
@@ -91,6 +93,8 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38093" }],
-    "description": "Explores the various questions, relationships, and connections between the law and racial issues and concepts. Each offering focuses on a special topic such as reparations, civil rights, gender, or the environment and energy policies. May be repeated up to three times for a maximum of 16 credits."
+    "description": "Explores the various questions, relationships, and connections between the law and racial issues and concepts. Each offering focuses on a special topic such as reparations, civil rights, gender, or the environment and energy policies. May be repeated up to three times for a maximum of 16 credits.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]

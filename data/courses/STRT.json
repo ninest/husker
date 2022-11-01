@@ -7,7 +7,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "33259" }],
-    "description": "Examines key components of strategic decision making in-depth. Strategic decision making involves solving complex business problems to achieve company objectives within a competitive context. Topics covered include understanding the competitive environment, managing uncertainty, identifying and evaluating resource allocation alternatives, and creating action plans to implement strategic decisions. Emphasizes critical thinking and making decisions with incomplete information in a competitive environment."
+    "description": "Examines key components of strategic decision making in-depth. Strategic decision making involves solving complex business problems to achieve company objectives within a competitive context. Topics covered include understanding the competitive environment, managing uncertainty, identifying and evaluating resource allocation alternatives, and creating action plans to implement strategic decisions. Emphasizes critical thinking and making decisions with incomplete information in a competitive environment.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "STRT",
@@ -109,7 +111,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "32219" }],
-    "description": "Offers students an opportunity to understand general business strategy concepts as they relate to the healthcare industry. Explores how to analyze market opportunities and challenges as they apply to various healthcare organizations, such as hospitals, physician organizations, and nursing homes. Presents and discusses analytical frameworks for making strategic decisions, drawing on different disciplines, including economics, management, and psychology. Strategic issues include mergers and acquisitions, vertical integration, joint ventures and alliances, performance-control systems, and organizational design."
+    "description": "Offers students an opportunity to understand general business strategy concepts as they relate to the healthcare industry. Explores how to analyze market opportunities and challenges as they apply to various healthcare organizations, such as hospitals, physician organizations, and nursing homes. Presents and discusses analytical frameworks for making strategic decisions, drawing on different disciplines, including economics, management, and psychology. Strategic issues include mergers and acquisitions, vertical integration, joint ventures and alliances, performance-control systems, and organizational design.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "STRT",

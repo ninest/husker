@@ -121,7 +121,15 @@
     ],
     "description": "Examines the philosophers of classical Greece, primarily Socrates, Plato, and Aristotle. These philosophers examined the nature of the material world, of the city, and of the person. The course takes up both the moral and political writings as well as the metaphysical writings. Devotes considerable attention to major works such as Plato's Republic. Some time is given to early Greek philosophers, to the Sophists, and to later developments. Requires written analysis of philosophical texts. PHIL 2325 and POLS 2325 are cross-listed.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
   },
   {
     "subject": "POLS",
@@ -160,7 +168,7 @@
     "sections": [{ "term": "202310", "crn": "19552" }],
     "description": "Analyzes the political, administrative, economic, and social dynamics of urban areas. Highlights the diversity of political institutions and practices in American cities. Introduces key policy areas at the city level such as land use, economic development, and education.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "POLS", "number": "1150" }]
   },
   {
     "subject": "POLS",
@@ -198,7 +206,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "34223" }],
-    "description": "Considers the role of science and technology in the policymaking process, not only as a tool but also as a subject of policymaking. Cases include government involvement in innovation and economic growth, the role of the military in the development of science and technology, the governance and regulation of the effects of scientific and technological progress, public funding of science and technology, and ethical aspects of science and technology, including the emerging focus on anticipatory and participatory governance."
+    "description": "Considers the role of science and technology in the policymaking process, not only as a tool but also as a subject of policymaking. Cases include government involvement in innovation and economic growth, the role of the military in the development of science and technology, the governance and regulation of the effects of scientific and technological progress, public funding of science and technology, and ethical aspects of science and technology, including the emerging focus on anticipatory and participatory governance.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "POLS",
@@ -208,7 +218,9 @@
     "credits": 4,
     "nuPath": ["SI"],
     "sections": [{ "term": "202330", "crn": "35681" }],
-    "description": "Examines the political forces, governmental institutions, socioeconomic factors, and global trends that shape environmental policy at national and subnational levels in the United States. A spectrum of different environmental issues is discussed, with some comparison of policy activity in the U.S., other nations, and at the global level."
+    "description": "Examines the political forces, governmental institutions, socioeconomic factors, and global trends that shape environmental policy at national and subnational levels in the United States. A spectrum of different environmental issues is discussed, with some comparison of policy activity in the U.S., other nations, and at the global level.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "POLS",
@@ -228,7 +240,15 @@
     ],
     "description": "Examines the range of research methods and designs used in political science, based on applying the logic of social scientific inquiry. Reviews experimental research, comparative methods, case studies, interviewing, surveys, program evaluation, and other topics relevant to the discipline, as well as questions related to the practice of research ethics. Course activities include intensive writing assignments by students. Requires prior completion of at least two of the following courses: POLS 1150, POLS 1155, and POLS 1160.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
   },
   {
     "subject": "POLS",
@@ -247,7 +267,19 @@
     ],
     "description": "Studies methods of quantitative analysis including descriptive statistics, hypothesis testing, cross-tabulation, analysis of variance, bivariate regression and correlation, and multiple regression. Examines how to generate and interpret statistical findings through use of Excel, SPSS, and/or other software programs. Uses examples from political behavior, public policy analysis, public opinion, comparative and international politics, and other areas of political and social-science inquiry to emphasize practical applications.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "MATH", "number": "1213" },
+      "Or",
+      { "subject": "MATH", "number": "1215" },
+      "Or",
+      { "subject": "MATH", "number": "1231" },
+      "Or",
+      { "subject": "MATH", "number": "1241" },
+      "Or",
+      { "subject": "MATH", "number": "1251" },
+      "Or",
+      { "subject": "MATH", "number": "1341" }
+    ]
   },
   {
     "subject": "POLS",
@@ -283,7 +315,7 @@
     "sections": [{ "term": "202310", "crn": "16488" }],
     "description": "Explores the structures, dynamics, and styles inherent in public policymaking within the U.S. Congress. Focuses on elections; representations of constituents' interests; the roles that participants play: the president, interest groups, and others; and how all of this is affected by the structure of Congress and the process embedded in the legislative body.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "POLS", "number": "1150" }]
   },
   {
     "subject": "POLS",
@@ -293,7 +325,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "33714" }],
-    "description": "Examines the nature of the judiciary in the United States. Focuses on courts and various aspects of the judicial process, including judicial selection, judicial decision making, the impact of judicial decisions on society, and public opinion of courts. After exploring, from various methodological perspectives, how and why courts behave as they do, the course turns its attention to questions about the role of courts in U.S. politics."
+    "description": "Examines the nature of the judiciary in the United States. Focuses on courts and various aspects of the judicial process, including judicial selection, judicial decision making, the impact of judicial decisions on society, and public opinion of courts. After exploring, from various methodological perspectives, how and why courts behave as they do, the course turns its attention to questions about the role of courts in U.S. politics.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "POLS", "number": "1150" }]
   },
   {
     "subject": "POLS",
@@ -309,17 +343,7 @@
     ],
     "description": "Analyzes the structure of and dynamics inherent in public policymaking and public administration in the United States. Introduces such concepts as problem definition, agenda development, policy formation, program implementation, and policy evaluation. Covers key issues in public administration including budgeting, personnel, and organizational design.",
     "coreqs": [],
-    "prereqs": [
-      { "subject": "POLS", "number": "1150" },
-      { "subject": "POLS", "number": "1150" },
-      { "subject": "POLS", "number": "1150" },
-      { "subject": "POLS", "number": "1150" },
-      { "subject": "POLS", "number": "1150" },
-      { "subject": "POLS", "number": "1150" },
-      { "subject": "POLS", "number": "1150" },
-      { "subject": "POLS", "number": "1150" },
-      { "subject": "POLS", "number": "1150" }
-    ]
+    "prereqs": [{ "subject": "POLS", "number": "1150" }]
   },
   {
     "subject": "POLS",
@@ -331,7 +355,7 @@
     "sections": [{ "term": "202260", "crn": "60544" }],
     "description": "Examines the politics and public policies of the movement for equality and social justice for lesbian, gay, bisexual, and transgender (LGBT) people in a wide range of state and federal policy areas such as same-sex marriage, military service, family adoption rights, and employment discrimination protection. Reviews the political history of LGBT communities and the treatment of LGBT people since the 1920s in the United States and globally. Analyzes the policy debates by considering voting behavior, trends in public opinion toward LGBT issues, and the political incorporation of LGBT people in the United States and around the world. Students who do not meet course prerequisites may seek permission of instructor.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "POLS", "number": "1150" }]
   },
   {
     "subject": "POLS",
@@ -341,7 +365,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38370" }],
-    "description": "Analyzes how Americans think about politics, how they vote, and how the rules of the U.S. electoral system affect electoral outcomes. Major topics include the nature and content of public opinion, mass partisanship, issues and issue voting, presidential and congressional elections, turnout and participation, campaign finance, and recent trends in U.S. electoral behavior."
+    "description": "Analyzes how Americans think about politics, how they vote, and how the rules of the U.S. electoral system affect electoral outcomes. Major topics include the nature and content of public opinion, mass partisanship, issues and issue voting, presidential and congressional elections, turnout and participation, campaign finance, and recent trends in U.S. electoral behavior.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "POLS", "number": "1150" }]
   },
   {
     "subject": "POLS",
@@ -351,7 +377,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38371" }],
-    "description": "Analyzes several facets of the mass media: the role of newspapers, radio, television, and the Internet in public opinion formation; their use and effectiveness in political campaigns; their objectivity and/or bias in reporting the news; and their impact on public policymaking."
+    "description": "Analyzes several facets of the mass media: the role of newspapers, radio, television, and the Internet in public opinion formation; their use and effectiveness in political campaigns; their objectivity and/or bias in reporting the news; and their impact on public policymaking.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "POLS", "number": "1150" }]
   },
   {
     "subject": "POLS",
@@ -361,7 +389,9 @@
     "credits": 4,
     "nuPath": ["DD", "SI"],
     "sections": [{ "term": "202330", "crn": "38372" }],
-    "description": "Examines the relationship between and material impact of race, public policies, and the administration of justice in the United States. Explores the ways the American legal system and political institutions have constructed and reinvented racial categories and their legal and social implications over time. Emphasizes the legacy of this legal history by examining how race and racial inequities intersect with contemporary public policy and social justice issues, including educational equity, employment discrimination, policing, and technology."
+    "description": "Examines the relationship between and material impact of race, public policies, and the administration of justice in the United States. Explores the ways the American legal system and political institutions have constructed and reinvented racial categories and their legal and social implications over time. Emphasizes the legacy of this legal history by examining how race and racial inequities intersect with contemporary public policy and social justice issues, including educational equity, employment discrimination, policing, and technology.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "POLS",
@@ -388,12 +418,7 @@
     ],
     "description": "Addresses international political economy and how we can understand the phenomenon of globalization. Introduces the interaction between international politics and international economics in industrial countries and in developing countries. Covers several theoretical approaches to international political economy. Then analyzes some of the classic issue areas of international trade relations; foreign direct investment and outsourcing; the international monetary and financial system and the role of international institutions; debt and financial crises; and poverty and inequality. Concludes with analysis of how international political economy issues relate to governance, development, and the politics of economic reform.",
     "coreqs": [],
-    "prereqs": [
-      { "subject": "POLS", "number": "1160" },
-      { "subject": "POLS", "number": "1160" },
-      { "subject": "POLS", "number": "1160" },
-      { "subject": "POLS", "number": "1160" }
-    ]
+    "prereqs": [{ "subject": "POLS", "number": "1160" }]
   },
   {
     "subject": "POLS",
@@ -408,7 +433,7 @@
     ],
     "description": "Introduces international law and how it redefines and shapes world politics. Offers students an opportunity to learn about the cornerstones of this area of the law: the state, organizations and their legal personality, diplomatic relations, treaties, extraterritorial jurisdiction, extradition, human rights and humanitarian law, the law of the sea trade/economic law, and international criminal law with a focus on the world courts. Considers the degree to which international law is pervasive in the life of individuals and states alike.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "POLS", "number": "1160" }]
   },
   {
     "subject": "POLS",
@@ -460,21 +485,6 @@
       "Or",
       { "subject": "POLS", "number": "1155" },
       "Or",
-      { "subject": "POLS", "number": "1160" },
-      { "subject": "POLS", "number": "1150" },
-      "Or",
-      { "subject": "POLS", "number": "1155" },
-      "Or",
-      { "subject": "POLS", "number": "1160" },
-      { "subject": "POLS", "number": "1150" },
-      "Or",
-      { "subject": "POLS", "number": "1155" },
-      "Or",
-      { "subject": "POLS", "number": "1160" },
-      { "subject": "POLS", "number": "1150" },
-      "Or",
-      { "subject": "POLS", "number": "1155" },
-      "Or",
       { "subject": "POLS", "number": "1160" }
     ]
   },
@@ -502,7 +512,9 @@
     "credits": 4,
     "nuPath": ["SI", "WI"],
     "sections": [{ "term": "202330", "crn": "35683" }],
-    "description": "Explores various types of conflict settlements and their implications for peace and reconciliation. Why do civil wars break out in some places but not others? What does it take to start a revolution? Why do some conflicts last decades, and what can be done to mitigate their costs? Examines why civil conflicts begin, how they are fought, and how they end. Substantive topics include strategies of insurgency and counterinsurgency; the role of ethnicity, religion, and gender; and the relationship between economic factors and conflict. Students leverage fundamental concepts and theories in comparative politics to analyze civil conflicts in a wide range of country contexts."
+    "description": "Explores various types of conflict settlements and their implications for peace and reconciliation. Why do civil wars break out in some places but not others? What does it take to start a revolution? Why do some conflicts last decades, and what can be done to mitigate their costs? Examines why civil conflicts begin, how they are fought, and how they end. Substantive topics include strategies of insurgency and counterinsurgency; the role of ethnicity, religion, and gender; and the relationship between economic factors and conflict. Students leverage fundamental concepts and theories in comparative politics to analyze civil conflicts in a wide range of country contexts.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "POLS", "number": "1160" }]
   },
   {
     "subject": "POLS",
@@ -512,7 +524,13 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "39125" }],
-    "description": "Presents an analysis of the goals, methods, and achievements of Russian policy in the post-Soviet era toward Eastern Europe, Western Europe, the Middle East, Central and East Asia, and the United States against the background of Soviet behavior toward these areas in the recent past."
+    "description": "Presents an analysis of the goals, methods, and achievements of Russian policy in the post-Soviet era toward Eastern Europe, Western Europe, the Middle East, Central and East Asia, and the United States against the background of Soviet behavior toward these areas in the recent past.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "POLS", "number": "1155" },
+      "Or",
+      { "subject": "POLS", "number": "1160" }
+    ]
   },
   {
     "subject": "POLS",
@@ -524,7 +542,7 @@
     "sections": [{ "term": "202310", "crn": "19558" }],
     "description": "Examines political, economic, military, and ideological factors within the Arab states and Israel, inter-Arab politics, pan-Arabism, the Arab-Israeli conflict, and the great power rivalry in the region.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "POLS", "number": "1155" }]
   },
   {
     "subject": "POLS",
@@ -534,7 +552,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38373" }],
-    "description": "Focuses on China's political system and the major issues confronted: leadership recruitment and succession, economic policies and development, class and class struggle, political culture and socialization, human rights, civil society, the media, and both internal and external security concerns. Examines how ideology, development, culture, and the pursuit of China's national interest affect governance."
+    "description": "Focuses on China's political system and the major issues confronted: leadership recruitment and succession, economic policies and development, class and class struggle, political culture and socialization, human rights, civil society, the media, and both internal and external security concerns. Examines how ideology, development, culture, and the pursuit of China's national interest affect governance.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "POLS", "number": "1155" }]
   },
   {
     "subject": "POLS",
@@ -544,7 +564,9 @@
     "credits": 4,
     "nuPath": ["ER", "SI"],
     "sections": [{ "term": "202330", "crn": "35840" }],
-    "description": "Examines the legal regulation of gender and sexuality. Investigates concrete legal cases to study the history of constitutional interpretation and the current status of rights for women and sexual minorities. Focuses on important theoretical issues emerging in the writings of diverse feminist and queer legal scholars. Addresses debates over the value of conventional equality approaches in legal doctrine; equality vs. difference perspectives; ways in which legal language constructs gender and sexuality; the incorporation of sexuality and gender in ideologies of law; and the intersections of gender, sexuality, and race in legal doctrine and legal theory. PHIL 3500, POLS 3500, and WMNS 3500 are cross-listed."
+    "description": "Examines the legal regulation of gender and sexuality. Investigates concrete legal cases to study the history of constitutional interpretation and the current status of rights for women and sexual minorities. Focuses on important theoretical issues emerging in the writings of diverse feminist and queer legal scholars. Addresses debates over the value of conventional equality approaches in legal doctrine; equality vs. difference perspectives; ways in which legal language constructs gender and sexuality; the incorporation of sexuality and gender in ideologies of law; and the intersections of gender, sexuality, and race in legal doctrine and legal theory. PHIL 3500, POLS 3500, and WMNS 3500 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "POLS",
@@ -608,7 +630,9 @@
     "credits": 4,
     "nuPath": ["EX", "SI"],
     "sections": [{ "term": "202330", "crn": "38374" }],
-    "description": "Offers students an opportunity to participate in teams that research assigned nations and represent those nations in a model Arab League role-playing exercise. Students may be selected to represent Northeastern University at the regional or national Model Arab League conferences in Washington, D.C., and different states. May be repeated twice."
+    "description": "Offers students an opportunity to participate in teams that research assigned nations and represent those nations in a model Arab League role-playing exercise. Students may be selected to represent Northeastern University at the regional or national Model Arab League conferences in Washington, D.C., and different states. May be repeated twice.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "POLS", "number": "1160" }]
   },
   {
     "subject": "POLS",
@@ -630,7 +654,13 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "35686" }],
-    "description": "Exposes students to the foundational and contemporary theories in international security and offers opportunities for application. Topics include the role of different actors and institutions; the evolution of the international system; conventional and nonconventional warfare, strategy, and tactics; and conflict negotiation. Addresses several issue areas in international security, including civil war, ethnic conflict, terrorism, civil-military relations, cybersecurity, and the role of gender."
+    "description": "Exposes students to the foundational and contemporary theories in international security and offers opportunities for application. Topics include the role of different actors and institutions; the evolution of the international system; conventional and nonconventional warfare, strategy, and tactics; and conflict negotiation. Addresses several issue areas in international security, including civil war, ethnic conflict, terrorism, civil-military relations, cybersecurity, and the role of gender.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "POLS", "number": "1160" },
+      "Or",
+      "Graduate Admission"
+    ]
   },
   {
     "subject": "POLS",
@@ -647,24 +677,7 @@
       { "term": "202260", "crn": "61521" }
     ],
     "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit.",
-    "coreqs": [
-      { "subject": "INSH", "number": "6864" },
-      { "subject": "INSH", "number": "6864" },
-      { "subject": "INSH", "number": "6864" },
-      { "subject": "INSH", "number": "6864" },
-      { "subject": "INSH", "number": "6864" },
-      { "subject": "INSH", "number": "6864" },
-      { "subject": "INSH", "number": "6864" },
-      { "subject": "INSH", "number": "6864" },
-      { "subject": "INSH", "number": "6864" },
-      { "subject": "INSH", "number": "6864" },
-      { "subject": "INSH", "number": "6864" },
-      { "subject": "INSH", "number": "6864" },
-      { "subject": "INSH", "number": "6864" },
-      { "subject": "INSH", "number": "6864" },
-      { "subject": "INSH", "number": "6864" },
-      { "subject": "INSH", "number": "6864" }
-    ],
+    "coreqs": [{ "subject": "INSH", "number": "6864" }],
     "prereqs": []
   },
   {
@@ -675,7 +688,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38375" }],
-    "description": "Provides a comprehensive introduction to key theoretical perspectives in the study of public policy. Includes different perspectives on policy change, policy formation, policy design, and policy implementation. Seeks to prepare students to apply a policy theory to their own research question."
+    "description": "Provides a comprehensive introduction to key theoretical perspectives in the study of public policy. Includes different perspectives on policy change, policy formation, policy design, and policy implementation. Seeks to prepare students to apply a policy theory to their own research question.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "POLS",
@@ -685,7 +700,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38376" }],
-    "description": "Focuses on major research paradigms within comparative politics, including political culture, structuralism, and rational choice. Examines major research fields in the discipline, including democratization, nationalism, ethnic politics, political economy, and political parties."
+    "description": "Focuses on major research paradigms within comparative politics, including political culture, structuralism, and rational choice. Examines major research fields in the discipline, including democratization, nationalism, ethnic politics, political economy, and political parties.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "POLS",
@@ -747,7 +764,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "32246" }],
-    "description": "Examines the characteristics of resilient cities, especially those located in coastal regions. Investigates the capacity of cities to respond to major disruptions to their social and ecological systems. Includes extensive use of case studies, such as the 2004 Indian Ocean tsunami and Hurricane Katrina in 2005, as well as readings on cities and social systems. Offers students an opportunity to analyze an urban area and provide recommendations for improving its resilience. POLS 7346 and PPUA 7346 are cross-listed."
+    "description": "Examines the characteristics of resilient cities, especially those located in coastal regions. Investigates the capacity of cities to respond to major disruptions to their social and ecological systems. Includes extensive use of case studies, such as the 2004 Indian Ocean tsunami and Hurricane Katrina in 2005, as well as readings on cities and social systems. Offers students an opportunity to analyze an urban area and provide recommendations for improving its resilience. POLS 7346 and PPUA 7346 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "POLS",
@@ -757,7 +776,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38377" }],
-    "description": "Addresses international political economy and how we can understand the phenomenon of globalization. Offers a graduate-level introduction to the interaction between international politics and international economics in both industrial countries and developing countries. Introduces several theoretical approaches to international political economy and analyzes some of the classic issue areas of international trade relations, such as the international monetary and financial system; foreign direct investment and multinational corporations, debt, and development; the role of international political, economic, and financial institutions; and globalization."
+    "description": "Addresses international political economy and how we can understand the phenomenon of globalization. Offers a graduate-level introduction to the interaction between international politics and international economics in both industrial countries and developing countries. Introduces several theoretical approaches to international political economy and analyzes some of the classic issue areas of international trade relations, such as the international monetary and financial system; foreign direct investment and multinational corporations, debt, and development; the role of international political, economic, and financial institutions; and globalization.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "POLS",
@@ -841,7 +862,7 @@
     ],
     "description": "Offers dissertation supervision by individual members of the department.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "POLS", "number": "9000" }]
   },
   {
     "subject": "POLS",
@@ -856,12 +877,7 @@
     ],
     "description": "Offers dissertation supervision by members of the department.",
     "coreqs": [],
-    "prereqs": [
-      { "subject": "POLS", "number": "9990" },
-      { "subject": "POLS", "number": "9990" },
-      { "subject": "POLS", "number": "9990" },
-      { "subject": "POLS", "number": "9990" }
-    ]
+    "prereqs": [{ "subject": "POLS", "number": "9990" }]
   },
   {
     "subject": "POLS",
@@ -876,6 +892,10 @@
     ],
     "description": "Offers continued dissertation supervision by individual members of the department. May be repeated without limit.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "POLS", "number": "9991" },
+      "Or",
+      "Dissertation Check"
+    ]
   }
 ]

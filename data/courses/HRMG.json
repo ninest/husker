@@ -49,7 +49,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "33801" }],
-    "description": "Covers key issues and introduces management principles in health organization management. Offers students an opportunity to apply important theoretical ideas, such as systems thinking and organizational learning, to meet challenges effectively, to learn how the healthcare workplace functions, and how to manage in these workplaces. Emphasizes case-based learning, critical thinking, and evidence-based management using individual and group projects. Introduces cutting-edge tools in areas such as work redesign, performance management, brand enhancement, and quality improvement. Addresses the management imperatives of today's healthcare organizations and how to implement strategies and programs to meet those imperatives effectively. Intended for anyone interested in working or managing within the healthcare industry, including the field of public health."
+    "description": "Covers key issues and introduces management principles in health organization management. Offers students an opportunity to apply important theoretical ideas, such as systems thinking and organizational learning, to meet challenges effectively, to learn how the healthcare workplace functions, and how to manage in these workplaces. Emphasizes case-based learning, critical thinking, and evidence-based management using individual and group projects. Introduces cutting-edge tools in areas such as work redesign, performance management, brand enhancement, and quality improvement. Addresses the management imperatives of today's healthcare organizations and how to implement strategies and programs to meet those imperatives effectively. Intended for anyone interested in working or managing within the healthcare industry, including the field of public health.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "HRMG",
@@ -101,7 +103,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "33101" }],
-    "description": "Examines the leadership and managerial skills required for effectively managing multifunctional teams engaged in product, service, and business process innovation. Incorporates fieldwork, corporate visits, and other experiential learning opportunities. Explores strategies for recruiting, motivating, and retaining high-performance people. Introduces models for leading systematic innovative change within established corporate cultures, including understanding senior management attitudes toward innovation and how to create executive sponsors and mentors."
+    "description": "Examines the leadership and managerial skills required for effectively managing multifunctional teams engaged in product, service, and business process innovation. Incorporates fieldwork, corporate visits, and other experiential learning opportunities. Explores strategies for recruiting, motivating, and retaining high-performance people. Introduces models for leading systematic innovative change within established corporate cultures, including understanding senior management attitudes toward innovation and how to create executive sponsors and mentors.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "HRMG",

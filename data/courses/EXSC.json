@@ -22,7 +22,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "30300" }],
-    "description": "Introduces exercise physiology. Covers the muscular, neuromuscular, cardiovascular, ventilatory, endocrine, and metabolic responses to acute exercise and the physiological adaptations to chronic exercise and physical activity. Basic concepts related to physical fitness, body composition, weight control, and training principles are discussed."
+    "description": "Introduces exercise physiology. Covers the muscular, neuromuscular, cardiovascular, ventilatory, endocrine, and metabolic responses to acute exercise and the physiological adaptations to chronic exercise and physical activity. Basic concepts related to physical fitness, body composition, weight control, and training principles are discussed.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "EXSC",
@@ -32,7 +34,9 @@
     "credits": 1,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "30274" }],
-    "description": "Accompanies EXSC 4500. Offers experiments in the exercise physiology laboratory that introduce concepts related to the lecture content of the course and include techniques such as strength testing, ergometry, graded exercise testing, indirect calorimetry, and body composition assessment."
+    "description": "Accompanies EXSC 4500. Offers experiments in the exercise physiology laboratory that introduce concepts related to the lecture content of the course and include techniques such as strength testing, ergometry, graded exercise testing, indirect calorimetry, and body composition assessment.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "EXSC",
@@ -44,7 +48,7 @@
     "sections": [{ "term": "202310", "crn": "12265" }],
     "description": "Offers students an opportunity to gain an understanding of physiological principles of the cardiopulmonary system. This advanced course covers (1) the structure and functional operation and regulation of the cardiopulmonary system; (2) disease-associated physiological changes and cardiopulmonary dysfunction; (3) exercise-induced acute responses and physiological adaptations of the system and their applications to chronic cardiopulmonary diseases. Encourages students to integrate their knowledge of exercise and physical activity with cardiopulmonary health and fitness, as well as cardiopulmonary disease prevention and treatment. Restricted to graduate students in exercise science and undergraduate students minoring in exercise science.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": ["Or", "Graduate Admission"]
   },
   {
     "subject": "EXSC",
@@ -66,7 +70,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "32176" }],
-    "description": "Covers the advanced study of concepts, principles, and research in the field of exercise physiology. Discusses advanced concepts in the muscular/neuromuscular, cardiovascular, ventilatory, endocrine, and metabolic responses to exercise and exercise training. Specific study of the physiological control mechanisms regulating these systems are also addressed during periods of rest, acute exercise, and following chronic exercise training."
+    "description": "Covers the advanced study of concepts, principles, and research in the field of exercise physiology. Discusses advanced concepts in the muscular/neuromuscular, cardiovascular, ventilatory, endocrine, and metabolic responses to exercise and exercise training. Specific study of the physiological control mechanisms regulating these systems are also addressed during periods of rest, acute exercise, and following chronic exercise training.",
+    "coreqs": [],
+    "prereqs": ["Or", "Graduate Admission"]
   },
   {
     "subject": "EXSC",
@@ -78,7 +84,7 @@
     "sections": [{ "term": "202310", "crn": "11841" }],
     "description": "Seeks to provide a foundation for understanding the benefits of physical activity and exercise and the detrimental effects of physical inactivity and sedentary behavior on musculoskeletal health. Studies the function/dysfunction of the musculoskeletal systems resulting in common/uncommon disorders and the prevalence, etiology, and benefits of physical activity/exercise. Students apply previously learned exercise physiology principles, such as exercise prescription and neural and motor control adaptations, to physical activity and exercise. Discusses key physiological mechanisms underlying common/uncommon musculoskeletal disorders. Examines the preventive and beneficial effects of physical activity and exercise endorsed by the American College of Sports Medicine. Restricted to graduate students in exercise science and to undergraduate students minoring in exercise science.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": ["Or", "Graduate Admission"]
   },
   {
     "subject": "EXSC",
@@ -88,7 +94,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "31855" }],
-    "description": "Focuses on the identification and management of chronic diseases. Offers students an opportunity to learn skills to interpret EKGs. Topics include cardiac electrophysiology, lead systems, dysrhythmia recognition and treatment, axis, infarction, ischemia, hypertrophy, and the effects of cardiovascular drugs and exercise on the EKG. Through case studies, students interpret exercise test results, prescribe exercise, and evaluate exercise programs for clinical conditions such as cardiovascular disease, pulmonary conditions, and metabolic diseases."
+    "description": "Focuses on the identification and management of chronic diseases. Offers students an opportunity to learn skills to interpret EKGs. Topics include cardiac electrophysiology, lead systems, dysrhythmia recognition and treatment, axis, infarction, ischemia, hypertrophy, and the effects of cardiovascular drugs and exercise on the EKG. Through case studies, students interpret exercise test results, prescribe exercise, and evaluate exercise programs for clinical conditions such as cardiovascular disease, pulmonary conditions, and metabolic diseases.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "EXSC",
@@ -104,7 +112,7 @@
     ],
     "description": "Offers students an opportunity to obtain practical experience and to synthesize, integrate, and apply skills and knowledge learned in the exercise science curriculum in a professional environment. Field experiences are an important part of graduate education programs in exercise science. The student is expected to complete a minimum of 300 hours of supervised experience in a research or practice setting. May be repeated once.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": ["(", "Or", ")", "And", "(", "Or", ")", "And", "(", "Or", ")"]
   },
   {
     "subject": "EXSC",
@@ -114,6 +122,8 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "31764" }],
-    "description": "Studies how to conduct scientific research in exercise science. Offers students an opportunity to propose a research project and design appropriate methodology to complete the project. Includes discussions on developing research hypotheses, comparing study designs, selecting appropriate statistical analyses, and managing data collection. Incorporates interpretation of published research to support the proposed research. Students present their own research plans through scientific writing."
+    "description": "Studies how to conduct scientific research in exercise science. Offers students an opportunity to propose a research project and design appropriate methodology to complete the project. Includes discussions on developing research hypotheses, comparing study designs, selecting appropriate statistical analyses, and managing data collection. Incorporates interpretation of published research to support the proposed research. Students present their own research plans through scientific writing.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]

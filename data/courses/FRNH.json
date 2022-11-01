@@ -37,51 +37,6 @@
     "prereqs": [
       { "subject": "FRNH", "number": "1101" },
       "Or",
-      { "subject": "FRNH", "number": "1301" },
-      { "subject": "FRNH", "number": "1101" },
-      "Or",
-      { "subject": "FRNH", "number": "1301" },
-      { "subject": "FRNH", "number": "1101" },
-      "Or",
-      { "subject": "FRNH", "number": "1301" },
-      { "subject": "FRNH", "number": "1101" },
-      "Or",
-      { "subject": "FRNH", "number": "1301" },
-      { "subject": "FRNH", "number": "1101" },
-      "Or",
-      { "subject": "FRNH", "number": "1301" },
-      { "subject": "FRNH", "number": "1101" },
-      "Or",
-      { "subject": "FRNH", "number": "1301" },
-      { "subject": "FRNH", "number": "1101" },
-      "Or",
-      { "subject": "FRNH", "number": "1301" },
-      { "subject": "FRNH", "number": "1101" },
-      "Or",
-      { "subject": "FRNH", "number": "1301" },
-      { "subject": "FRNH", "number": "1101" },
-      "Or",
-      { "subject": "FRNH", "number": "1301" },
-      { "subject": "FRNH", "number": "1101" },
-      "Or",
-      { "subject": "FRNH", "number": "1301" },
-      { "subject": "FRNH", "number": "1101" },
-      "Or",
-      { "subject": "FRNH", "number": "1301" },
-      { "subject": "FRNH", "number": "1101" },
-      "Or",
-      { "subject": "FRNH", "number": "1301" },
-      { "subject": "FRNH", "number": "1101" },
-      "Or",
-      { "subject": "FRNH", "number": "1301" },
-      { "subject": "FRNH", "number": "1101" },
-      "Or",
-      { "subject": "FRNH", "number": "1301" },
-      { "subject": "FRNH", "number": "1101" },
-      "Or",
-      { "subject": "FRNH", "number": "1301" },
-      { "subject": "FRNH", "number": "1101" },
-      "Or",
       { "subject": "FRNH", "number": "1301" }
     ]
   },
@@ -101,7 +56,11 @@
     ],
     "description": "Emphasizes further vocabulary building and mastery of fine points of grammar through written composition, prepared oral reports, and reading and discussion from current French periodicals.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "FRNH", "number": "1102" },
+      "Or",
+      { "subject": "FRNH", "number": "1302" }
+    ]
   },
   {
     "subject": "FRNH",
@@ -118,7 +77,11 @@
     ],
     "description": "Continues FRNH 2101. Stresses the fundamentals of French to promote effective self-expression through speaking and writing and to explore the idiomatic aspects of the language. Through progressive class discussions and oral and written commentaries, students analyze a contemporary French novel or a French cultural reader, screenplay, or collection of short stories. Strives to help students read and comprehend modern French writing with confidence, and to be able to talk and write about it in good French. Provides preparation for advanced courses.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "FRNH", "number": "2101" },
+      "Or",
+      { "subject": "FRNH", "number": "2301" }
+    ]
   },
   {
     "subject": "FRNH",
@@ -134,7 +97,13 @@
     ],
     "description": "Continues further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through advanced reading, composition, grammar review, and listening skills. Whenever possible, offers students an opportunity to engage in local community activities to enhance communication skills and cultural knowledge.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "FRNH", "number": "2102" },
+      "Or",
+      { "subject": "FRNH", "number": "2302" },
+      "Or",
+      "French Placement Test"
+    ]
   },
   {
     "subject": "FRNH",
@@ -150,15 +119,6 @@
     "description": "Builds on FRNH 3101 and continues further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through advanced reading, composition, grammar review, and listening skills. Whenever possible, offers students an opportunity to engage in local community activities to enhance communication skills and cultural knowledge.",
     "coreqs": [],
     "prereqs": [
-      { "subject": "FRNH", "number": "3101" },
-      "Or",
-      { "subject": "FRNH", "number": "3301" },
-      { "subject": "FRNH", "number": "3101" },
-      "Or",
-      { "subject": "FRNH", "number": "3301" },
-      { "subject": "FRNH", "number": "3101" },
-      "Or",
-      { "subject": "FRNH", "number": "3301" },
       { "subject": "FRNH", "number": "3101" },
       "Or",
       { "subject": "FRNH", "number": "3301" }

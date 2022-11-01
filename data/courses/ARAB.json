@@ -30,15 +30,6 @@
     "prereqs": [
       { "subject": "ARAB", "number": "1101" },
       "Or",
-      { "subject": "ARAB", "number": "1301" },
-      { "subject": "ARAB", "number": "1101" },
-      "Or",
-      { "subject": "ARAB", "number": "1301" },
-      { "subject": "ARAB", "number": "1101" },
-      "Or",
-      { "subject": "ARAB", "number": "1301" },
-      { "subject": "ARAB", "number": "1101" },
-      "Or",
       { "subject": "ARAB", "number": "1301" }
     ]
   },
@@ -58,15 +49,6 @@
     "prereqs": [
       { "subject": "ARAB", "number": "1102" },
       "Or",
-      { "subject": "ARAB", "number": "1302" },
-      { "subject": "ARAB", "number": "1102" },
-      "Or",
-      { "subject": "ARAB", "number": "1302" },
-      { "subject": "ARAB", "number": "1102" },
-      "Or",
-      { "subject": "ARAB", "number": "1302" },
-      { "subject": "ARAB", "number": "1102" },
-      "Or",
       { "subject": "ARAB", "number": "1302" }
     ]
   },
@@ -83,7 +65,23 @@
     ],
     "description": "Builds on ARAB 2101 and focuses on further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through written composition, prepared oral reports, and reading and discussion from current standard Arabic materials.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      "(",
+      { "subject": "ARAB", "number": "2101" },
+      "Or",
+      { "subject": "ARAB", "number": "2301" },
+      ")",
+      "And",
+      "(",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      ")"
+    ]
   },
   {
     "subject": "ARAB",

@@ -27,7 +27,11 @@
     ],
     "description": "Continues HBRW 1101. Includes continued focus on oral expression, listening comprehension, and elementary reading and writing. Expands functional and practical vocabulary base drawn from realistic situations and focuses on grammatical accuracy. Continues to focus on good pronunciation and ease of response.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "HBRW", "number": "1101" },
+      "Or",
+      { "subject": "HBRW", "number": "1301" }
+    ]
   },
   {
     "subject": "HBRW",
@@ -43,15 +47,6 @@
     "description": "Emphasizes further vocabulary building. Offers students an opportunity to master the fine points of grammar through written composition, prepared oral reports, and reading and discussion from contemporary Hebrew materials.",
     "coreqs": [],
     "prereqs": [
-      { "subject": "HBRW", "number": "1102" },
-      "Or",
-      { "subject": "HBRW", "number": "1302" },
-      { "subject": "HBRW", "number": "1102" },
-      "Or",
-      { "subject": "HBRW", "number": "1302" },
-      { "subject": "HBRW", "number": "1102" },
-      "Or",
-      { "subject": "HBRW", "number": "1302" },
       { "subject": "HBRW", "number": "1102" },
       "Or",
       { "subject": "HBRW", "number": "1302" }

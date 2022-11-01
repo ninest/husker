@@ -22,7 +22,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "36922" }],
-    "description": "Offers an overview and introduction to knowledge areas and primary skills sets for planning, launching, and sustaining arts and cultural organizations. Key topics include evaluating opportunities in the arts and culture sector; building effective vision, mission, and values for arts and culture initiatives in balance with civic and community contexts; smart approaches to arts and culture funding; developing sustainable and flexible strategic plans; and planning challenges for the contemporary strategic arts organization."
+    "description": "Offers an overview and introduction to knowledge areas and primary skills sets for planning, launching, and sustaining arts and cultural organizations. Key topics include evaluating opportunities in the arts and culture sector; building effective vision, mission, and values for arts and culture initiatives in balance with civic and community contexts; smart approaches to arts and culture funding; developing sustainable and flexible strategic plans; and planning challenges for the contemporary strategic arts organization.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "AACE",
@@ -47,7 +49,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "36728" }],
-    "description": "Offers nontechnical students an opportunity to obtain a clear and current understanding of key information technology (IT) concepts set in the context of arts and cultural organizations and to empower them to make decisions that map technology to strategy. Covers how to identify technical terms, stakeholders, and issues; evaluate IT challenges; apply best-practice frameworks; and identify business needs and compare technical solutions in order to minimize cost and maximize strategic alignment. Combines readings, casework, video lectures, screen casts, guest videos, and a hands-on approach to researching solutions and leading change. Includes both group and individual deliverables that students synthesize to create and present a final project."
+    "description": "Offers nontechnical students an opportunity to obtain a clear and current understanding of key information technology (IT) concepts set in the context of arts and cultural organizations and to empower them to make decisions that map technology to strategy. Covers how to identify technical terms, stakeholders, and issues; evaluate IT challenges; apply best-practice frameworks; and identify business needs and compare technical solutions in order to minimize cost and maximize strategic alignment. Combines readings, casework, video lectures, screen casts, guest videos, and a hands-on approach to researching solutions and leading change. Includes both group and individual deliverables that students synthesize to create and present a final project.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "AACE",
@@ -108,6 +112,8 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38147" }],
-    "description": "Offers advanced study of fundraising and resource development within the arts and cultural sector. Designed to help students develop the knowledge and skills required to create and increase various revenue streams. Covers fundraising ethics, grant writing, sponsorship proposals, pitching, stakeholder and volunteer engagement, storytelling, and other skills necessary to support fundraising goals. When applicable, students are encouraged to use this course to explore and apply fundraising fundamentals for their organization, startup, or creative practice."
+    "description": "Offers advanced study of fundraising and resource development within the arts and cultural sector. Designed to help students develop the knowledge and skills required to create and increase various revenue streams. Covers fundraising ethics, grant writing, sponsorship proposals, pitching, stakeholder and volunteer engagement, storytelling, and other skills necessary to support fundraising goals. When applicable, students are encouraged to use this course to explore and apply fundraising fundamentals for their organization, startup, or creative practice.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]

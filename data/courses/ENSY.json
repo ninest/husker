@@ -39,7 +39,13 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "32892" }],
-    "description": "Studies fundamental principles in fluid mechanics and thermal systems analysis. Topics include hydrostatics (pressure distribution, forces on submerged surfaces, and buoyancy); Newton's law of viscosity; integral forms of basic laws (conservation of mass, momentum, and energy); pipe flow analysis; concept of boundary layer; and drag coefficient. Presents Navier-Stokes equations as differential forms of conservative properties. Introduces theories of thermal energy transport, including conduction, convection, and thermal radiation; the design of thermal systems; and fundamentals of calculus, such as linear algebra, vector fields, and curvilinear coordinate systems required for introducing concepts of fluid dynamics and heat transfer. Discusses surface and volume integrals, conservative vector fields, and surface flux. Green's, divergence, and Stokes theorems are introduced for vector and scalar fields."
+    "description": "Studies fundamental principles in fluid mechanics and thermal systems analysis. Topics include hydrostatics (pressure distribution, forces on submerged surfaces, and buoyancy); Newton's law of viscosity; integral forms of basic laws (conservation of mass, momentum, and energy); pipe flow analysis; concept of boundary layer; and drag coefficient. Presents Navier-Stokes equations as differential forms of conservative properties. Introduces theories of thermal energy transport, including conduction, convection, and thermal radiation; the design of thermal systems; and fundamentals of calculus, such as linear algebra, vector fields, and curvilinear coordinate systems required for introducing concepts of fluid dynamics and heat transfer. Discusses surface and volume integrals, conservative vector fields, and surface flux. Green's, divergence, and Stokes theorems are introduced for vector and scalar fields.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENSY", "number": "5050" },
+      "Or",
+      { "subject": "ENSY", "number": "5050" }
+    ]
   },
   {
     "subject": "ENSY",
@@ -49,7 +55,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "33094" }],
-    "description": "Covers fundamentals of hydropowered development projects and their relevant design parameters. Emphasizes harnessing the hydro-energy potentials of both natural and man-made reservoirs. Reviews hydro- and electromechanical equipment and civil structure. Addresses selection procedure and design parameters of the equipment and structure."
+    "description": "Covers fundamentals of hydropowered development projects and their relevant design parameters. Emphasizes harnessing the hydro-energy potentials of both natural and man-made reservoirs. Reviews hydro- and electromechanical equipment and civil structure. Addresses selection procedure and design parameters of the equipment and structure.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "ENSY",
@@ -109,7 +117,9 @@
       { "term": "202330", "crn": "37307" },
       { "term": "202330", "crn": "38681" }
     ],
-    "description": "Focuses on the principles and working fundamentals of photovoltaic (PV) energy conversion, while emphasizing currently available solar technologies. Studies the semiconductor processes and advanced characterization theories. Examines design, fabrication, characterization of the PV modules, and different generations of solar cells and their properties. Advanced topics include thin film cells, compound semiconductors multijunction, multiband cells, spectral conversion, and introduces organic devices. Offers insight about the energy consumption crisis, sustainable energy sources, PV system components, and solar markets. Also discusses issues relating to PV systems, economics, and sustainability."
+    "description": "Focuses on the principles and working fundamentals of photovoltaic (PV) energy conversion, while emphasizing currently available solar technologies. Studies the semiconductor processes and advanced characterization theories. Examines design, fabrication, characterization of the PV modules, and different generations of solar cells and their properties. Advanced topics include thin film cells, compound semiconductors multijunction, multiband cells, spectral conversion, and introduces organic devices. Offers insight about the energy consumption crisis, sustainable energy sources, PV system components, and solar markets. Also discusses issues relating to PV systems, economics, and sustainability.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "ENSY",
@@ -122,7 +132,19 @@
       { "term": "202330", "crn": "38682" },
       { "term": "202330", "crn": "38683" }
     ],
-    "description": "Focuses on the technical fundamentals of geologic energy resources. Covers specific applications such as geothermal heat pumps, geothermal power generation, as well as geologic energy storage and carbon sequestration. Offers students an opportunity to use software to perform technical and economic assessments of such systems, reinforcing fundamental concepts. Geologic energy systems are deemed to be a major solution to the grand challenge of meeting rising global energy demand while also decarbonizing the economy."
+    "description": "Focuses on the technical fundamentals of geologic energy resources. Covers specific applications such as geothermal heat pumps, geothermal power generation, as well as geologic energy storage and carbon sequestration. Offers students an opportunity to use software to perform technical and economic assessments of such systems, reinforcing fundamental concepts. Geologic energy systems are deemed to be a major solution to the grand challenge of meeting rising global energy demand while also decarbonizing the economy.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "ME", "number": "2380" },
+      "And",
+      { "subject": "ME", "number": "3475" },
+      "And",
+      { "subject": "ME", "number": "4570" },
+      ")",
+      "Or",
+      "Graduate Admission"
+    ]
   },
   {
     "subject": "ENSY",
@@ -152,7 +174,7 @@
     ],
     "description": "Covers fundamentals of artificial intelligence (AI) used in engineering applications for energy systems. Introduces a brief treatment of AI methods. Examines several AI methods, including search algorithms, decision making under uncertainty, graphical methods, and machine learning. Discusses a more thorough treatment for how AI is used for engineering applications in energy systems. Application areas include power generation, electric grid, renewables, and energy storage. Focuses on practical considerations, including economic opportunity, verification and validation, risks, and nontechnical challenges.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "ENSY", "number": "5000" }]
   },
   {
     "subject": "ENSY",
@@ -174,7 +196,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "32957" }],
-    "description": "Continues ENSY 7440, a thesis-scale project in technology commercialization. Offers students an opportunity to demonstrate their development of a marketable technology product or prototype with an energy systems focus and to produce a written documentary report on the project to the satisfaction of an advising committee. Requires work/training with a sponsoring organization or employer to improve a process or develop a project that is of significant value to the organization and demonstrates a quantifiable market impact while enhancing the student's technological and engineering depth and fostering the student's leadership development."
+    "description": "Continues ENSY 7440, a thesis-scale project in technology commercialization. Offers students an opportunity to demonstrate their development of a marketable technology product or prototype with an energy systems focus and to produce a written documentary report on the project to the satisfaction of an advising committee. Requires work/training with a sponsoring organization or employer to improve a process or develop a project that is of significant value to the organization and demonstrates a quantifiable market impact while enhancing the student's technological and engineering depth and fostering the student's leadership development.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "ENSY", "number": "7440" }]
   },
   {
     "subject": "ENSY",
@@ -188,7 +212,9 @@
       { "term": "202330", "crn": "35378" },
       { "term": "202330", "crn": "35545" }
     ],
-    "description": "Offers theoretical or experimental work under individual faculty supervision."
+    "description": "Offers theoretical or experimental work under individual faculty supervision.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "ENSY",
@@ -201,6 +227,8 @@
       { "term": "202330", "crn": "33363" },
       { "term": "202330", "crn": "33518" }
     ],
-    "description": "Offers an individual effort in an area selected by student and advisor and approved by the Department Discipline Committee, resulting in a definitive report. May be repeated without limit."
+    "description": "Offers an individual effort in an area selected by student and advisor and approved by the Department Discipline Committee, resulting in a definitive report. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]

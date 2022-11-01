@@ -283,7 +283,9 @@
     "credits": 4,
     "nuPath": ["ER"],
     "sections": [{ "term": "202330", "crn": "38596" }],
-    "description": "Focuses on ethical principles, issues, and dilemmas in communication. Covers professional codes as well as personal, interpersonal, small group, organizational, and societal factors affecting ethical mediated communication. Designed to stimulate the moral imagination, reveal ethical issues inherent in communication, and provide resources for making and defending choices on ethical grounds."
+    "description": "Focuses on ethical principles, issues, and dilemmas in communication. Covers professional codes as well as personal, interpersonal, small group, organizational, and societal factors affecting ethical mediated communication. Designed to stimulate the moral imagination, reveal ethical issues inherent in communication, and provide resources for making and defending choices on ethical grounds.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "COMM",
@@ -591,7 +593,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "33095" }],
-    "description": "Develops frameworks and conceptual tools for understanding the world of sports marketing and promotion in an increasingly global and interconnected world. Drawing on examples from domestic and international sports promotional campaigns and academic literature, explores the promotion of sports at the professional, collegiate, and special event level. Focuses on the role marketing plays in attracting fans and sponsors and communicating effectively with the public. Emphasizes quantitative and qualitative approaches to research as part of a comprehensive approach to the development of an on-campus sports promotional campaign. Covers brand marketing and positioning, sports marketing research, event sponsorship and promotion, social media, public relations and community outreach, and controversial issues in sports."
+    "description": "Develops frameworks and conceptual tools for understanding the world of sports marketing and promotion in an increasingly global and interconnected world. Drawing on examples from domestic and international sports promotional campaigns and academic literature, explores the promotion of sports at the professional, collegiate, and special event level. Focuses on the role marketing plays in attracting fans and sponsors and communicating effectively with the public. Emphasizes quantitative and qualitative approaches to research as part of a comprehensive approach to the development of an on-campus sports promotional campaign. Covers brand marketing and positioning, sports marketing research, event sponsorship and promotion, social media, public relations and community outreach, and controversial issues in sports.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "COMM",
@@ -601,7 +605,9 @@
     "credits": 4,
     "nuPath": ["EI"],
     "sections": [{ "term": "202330", "crn": "33014" }],
-    "description": "Designed to teach students how to conceive, pitch, write an outline, and complete a script for a cutting-edge half-hour comedy pilot or drama that might appear on Netflix, Hulu, Amazon, and other emerging, nonlinear networks. Emphasizes the differences and similarities between writing content for streaming vs. broadcasting. Culminates in a final project, in which small groups of students complete an episodic show that will be judged by a panel of professional television writers. Course objectives are achieved through reading professional scripts, critically viewing television content, and participating in group writing assignments and “table reads.”"
+    "description": "Designed to teach students how to conceive, pitch, write an outline, and complete a script for a cutting-edge half-hour comedy pilot or drama that might appear on Netflix, Hulu, Amazon, and other emerging, nonlinear networks. Emphasizes the differences and similarities between writing content for streaming vs. broadcasting. Culminates in a final project, in which small groups of students complete an episodic show that will be judged by a panel of professional television writers. Course objectives are achieved through reading professional scripts, critically viewing television content, and participating in group writing assignments and “table reads.”",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "COMM",
@@ -631,7 +637,15 @@
     ],
     "description": "Introduces students to the landscape of mobile communication technologies. Takes a broad view of what “mobile,” “communication,” and “technology” mean in the past, present, and future, encompassing a range of digital and nondigital objects as well as technological and communicative practices. Covers core concepts and theories in mobile communication, focusing on the impact that mobile hardware and software have on society, culture, and politics.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" }
+    ]
   },
   {
     "subject": "COMM",
@@ -649,7 +663,15 @@
     ],
     "description": "Explores various topics as they relate to health communication including interpersonal aspects, cultural issues, and political complexities of health. Subject matter includes patient-provider communication, organizational systems, advertising in the health industry, and the role of media in the formation of expectations about health and the use of media to promote social change.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" }
+    ]
   },
   {
     "subject": "COMM",
@@ -671,7 +693,15 @@
     ],
     "description": "Offers an overview of the theory and practice of interpersonal communication with the goal of developing the knowledge and skills to create dialogue in conversation, work through conflict, adapt to change, and establish/maintain relationships. Topics include definitions of the communication process, identity, self-disclosure, verbal and nonverbal language, listening, management of interpersonal conflict, and relational and dialogic communication.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
   },
   {
     "subject": "COMM",
@@ -686,7 +716,15 @@
     ],
     "description": "Explores the relationships between communication, social identity, and social inclusion. Focuses on how communication shapes perceptions and positions of social identity categories and how individuals and groups resist and transform identity and promote inclusion through communication. Examines communication and inclusion in the contexts of gender, race, sexual identity, social class, ability, and age. Course topics cover a range of theoretical and practical issues, including diversity in organizational settings and the social construction of identity. COMM 3304 and WMNS 3304 are cross-listed.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" }
+    ]
   },
   {
     "subject": "COMM",
@@ -702,27 +740,6 @@
     "description": "Reviews the construction and influence of rhetoric in political campaigns, particularly contemporary presidential campaigns. Also studies the impact of mass communication on the outcome of elections. Offers students an opportunity to analyze artifacts from recent political campaigns such as stump speeches, campaign debates, campaign advertising, and formal campaign speeches such as nomination acceptance addresses, concession and victory speeches, and inaugural addresses.",
     "coreqs": [],
     "prereqs": [
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      "Or",
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      "Or",
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      "Or",
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
       { "subject": "ENGW", "number": "1111" },
       "Or",
       { "subject": "ENGW", "number": "1102" },
@@ -750,7 +767,33 @@
     ],
     "description": "Offers an Advanced Writing in the Disciplines (AWD) course. Dedicated to teaching students to write scholarly arguments in the discipline of public advocacy and rhetoric and to translate that work for a general audience. Features both an academic approach to writing in the field of rhetoric and a practical approach to writing persuasively for general audiences.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      "(",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      ")",
+      "And",
+      "(",
+      { "subject": "COMM", "number": "1210" },
+      "Or",
+      { "subject": "COMM", "number": "1225" },
+      "Or",
+      { "subject": "COMM", "number": "1231" },
+      "Or",
+      { "subject": "COMM", "number": "1255" },
+      "Or",
+      { "subject": "COMM", "number": "1310" },
+      "Or",
+      { "subject": "COMM", "number": "1331" },
+      "Or",
+      { "subject": "COMM", "number": "1412" },
+      ")"
+    ]
   },
   {
     "subject": "COMM",
@@ -767,62 +810,6 @@
     "description": "Offers students an opportunity to deepen their abilities to think critically about texts in a variety of forms such as orations, advertisements, music, and art. Studies methods that may range from close textual analysis to deconstruction to theories of performance. Students are required to write a lengthy research paper that carefully analyzes a rhetorical object.",
     "coreqs": [],
     "prereqs": [
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      "Or",
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
       { "subject": "ENGL", "number": "1111" },
       "Or",
       { "subject": "ENGL", "number": "1102" },
@@ -872,7 +859,15 @@
     ],
     "description": "Analyzes major debates over the environment, climate change, and related technologies such as nuclear energy, wind power, natural gas “fracking,” and food biotechnology. Studies the relevant scientific, political, and ethical dimensions of each case; the generalizable theories, frameworks, and methods that scholars use to analyze them; and the implications for effective public communication, policymaker engagement, and personal decision making. Offers students an opportunity to gain an integrated understanding of their different roles as professionals, advocates, and consumers and to improve their ability to find and use expert sources of information; assess competing media claims and narratives; write persuasive essays, analyses, and commentaries; and author evidence-based research papers.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" }
+    ]
   },
   {
     "subject": "COMM",
@@ -888,27 +883,6 @@
     "description": "Provides students with an opportunity to better understand freedom and limits to freedom, particularly in the realm of speech and expression. Materials covered range from the philosophy of freedom to historical legal cases about free speech and the press to political correctness and the repression of dissent.",
     "coreqs": [],
     "prereqs": [
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      "Or",
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      "Or",
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      "Or",
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
       { "subject": "ENGW", "number": "1111" },
       "Or",
       { "subject": "ENGW", "number": "1102" },
@@ -932,7 +906,15 @@
     ],
     "description": "Analyzes the ways in which sexualities intersect with issues relating to interpersonal communication, mediated communication, popular culture, identity, and social movements. Discusses outing, media representations, queer identity development, and the HIV/AIDS epidemic. Covers theoretical perspectives from communication and other social science disciplines, gender and sexuality studies, and cultural studies. Students work with a variety of materials, contemporary and historical, theoretical and empirical, fiction and nonfiction. Offers students an opportunity to design, conduct, and write their own original empirical research paper relating to sexualities and communication using class content as a theoretical framework.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" }
+    ]
   },
   {
     "subject": "COMM",
@@ -942,7 +924,17 @@
     "credits": 4,
     "nuPath": ["ER", "WI"],
     "sections": [{ "term": "202330", "crn": "34351" }],
-    "description": "Explores both theories of conflict and potential strategies for more effectively managing conflict in a variety of contexts, that is, interpersonal relationships, organizational settings, and broader societal contexts. Offers students the opportunity to participate in the process of conflict assessment and to explore various negotiation strategies as well as discuss the role of forgiveness in conflict situations."
+    "description": "Explores both theories of conflict and potential strategies for more effectively managing conflict in a variety of contexts, that is, interpersonal relationships, organizational settings, and broader societal contexts. Offers students the opportunity to participate in the process of conflict assessment and to explore various negotiation strategies as well as discuss the role of forgiveness in conflict situations.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
   },
   {
     "subject": "COMM",
@@ -952,7 +944,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21198" }],
-    "description": "Uses social and digital media to examine questions about contemporary topics and the histories that contribute to them. Black Twitter stands as a point of entry for this course as we address questions about culture and communication, applying what we learn to better understand the dynamics of race, media, and power in the internet age. Offers students an opportunity to develop their own media products to put their learning into real-world context."
+    "description": "Uses social and digital media to examine questions about contemporary topics and the histories that contribute to them. Black Twitter stands as a point of entry for this course as we address questions about culture and communication, applying what we learn to better understand the dynamics of race, media, and power in the internet age. Offers students an opportunity to develop their own media products to put their learning into real-world context.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "COMM",
@@ -962,7 +956,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38597" }],
-    "description": "Demonstrates practices and techniques employed in the field including organization of events and functions. Studies campaign planning, research, and media relationships."
+    "description": "Demonstrates practices and techniques employed in the field including organization of events and functions. Studies campaign planning, research, and media relationships.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "JRNL", "number": "3425" }]
   },
   {
     "subject": "COMM",
@@ -972,7 +968,9 @@
     "credits": 4,
     "nuPath": ["EI"],
     "sections": [{ "term": "202330", "crn": "32054" }],
-    "description": "Explores a variety of approaches to making special effects for film, video, and the World Wide Web. Offers students an opportunity to utilize cutting-edge technology and to apply state-of-the-art techniques to design and produce innovative special effects. Explores historical, technical, and theoretical aspects of special effects. Topics covered include compositing, matte painting, multiplane animation, explosions, smoke, three-dimensional lighting, particle emitters, chroma keying, motion graphics, video tracking, and more."
+    "description": "Explores a variety of approaches to making special effects for film, video, and the World Wide Web. Offers students an opportunity to utilize cutting-edge technology and to apply state-of-the-art techniques to design and produce innovative special effects. Explores historical, technical, and theoretical aspects of special effects. Topics covered include compositing, matte painting, multiplane animation, explosions, smoke, three-dimensional lighting, particle emitters, chroma keying, motion graphics, video tracking, and more.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "COMM",
@@ -982,7 +980,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "39246" }],
-    "description": "Immerses students in a real-life television newsroom experience. Exposes students to all aspects of TV news production: from news gathering, producing, and being in front of the camera to the behind-the-scenes work of operating multiple cameras, live switching, audio mixing, and studio lighting. Allows students to be an integral part of a newsroom team, working as reporters, anchors, videographers, and editors to gather content and work in the studio to produce a Northeastern newscast covering news on campus and beyond. Involves hands-on reporting and production where the stories are real and so are the deadlines."
+    "description": "Immerses students in a real-life television newsroom experience. Exposes students to all aspects of TV news production: from news gathering, producing, and being in front of the camera to the behind-the-scenes work of operating multiple cameras, live switching, audio mixing, and studio lighting. Allows students to be an integral part of a newsroom team, working as reporters, anchors, videographers, and editors to gather content and work in the studio to produce a Northeastern newscast covering news on campus and beyond. Involves hands-on reporting and production where the stories are real and so are the deadlines.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "COMM",
@@ -997,12 +997,7 @@
     ],
     "description": "Offers an in-depth look at how persuasive health campaigns are designed and executed. Discusses how campaigns are designed to intentionally influence awareness, knowledge gain, and attitude/behavior change. Offers students an opportunity to obtain skills to design and evaluate campaigns through the completion of their own campaign projects and to learn about visual and verbal arguments and the unique ethical and other considerations of health campaigns.",
     "coreqs": [],
-    "prereqs": [
-      { "subject": "COMM", "number": "2301" },
-      { "subject": "COMM", "number": "2301" },
-      { "subject": "COMM", "number": "2301" },
-      { "subject": "COMM", "number": "2301" }
-    ]
+    "prereqs": [{ "subject": "COMM", "number": "2301" }]
   },
   {
     "subject": "COMM",
@@ -1056,27 +1051,6 @@
       "Or",
       { "subject": "ENGL", "number": "1111" },
       "Or",
-      { "subject": "ENGL", "number": "1102" },
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      "Or",
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      "Or",
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
-      { "subject": "ENGL", "number": "1102" },
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      "Or",
-      { "subject": "ENGL", "number": "1111" },
-      "Or",
       { "subject": "ENGL", "number": "1102" }
     ]
   },
@@ -1088,7 +1062,9 @@
     "credits": 4,
     "nuPath": ["CE"],
     "sections": [{ "term": "202330", "crn": "32055" }],
-    "description": "Offers students an opportunity to complete a semester-long, intensive research and writing capstone project related to the field of strategic communication. Research topics can span business, politics, advocacy, entertainment, public health, the environment, and other societal sectors. Building on previous course work, students have an opportunity to gain a deeper scholarly and professional understanding of strategic communication; cultivate professional and academic contacts; and demonstrate mastery of relevant theoretical concepts, professional principles, research methods, and writing approaches. Encourages students to share and translate their findings for relevant academic and professional communities."
+    "description": "Offers students an opportunity to complete a semester-long, intensive research and writing capstone project related to the field of strategic communication. Research topics can span business, politics, advocacy, entertainment, public health, the environment, and other societal sectors. Building on previous course work, students have an opportunity to gain a deeper scholarly and professional understanding of strategic communication; cultivate professional and academic contacts; and demonstrate mastery of relevant theoretical concepts, professional principles, research methods, and writing approaches. Encourages students to share and translate their findings for relevant academic and professional communities.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "COMM",
@@ -1148,7 +1124,7 @@
     ],
     "description": "Offers students the opportunity to gain hands-on experience in the communications industry. Further internship details are available in the department office. May be repeated without limit.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "COMM", "number": "1101" }]
   },
   {
     "subject": "COMM",
@@ -1233,6 +1209,8 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "36859" }],
-    "description": "Offers students an opportunity to complete a semester-long, intensive research and writing capstone project related to the field of strategic communication. Research topics can span business, politics, advocacy, entertainment, public health, the environment, and other societal sectors. Building on previous course work, students have an opportunity to gain a deeper scholarly and professional understanding of strategic communication; cultivate professional and academic contacts; and demonstrate mastery of relevant theoretical concepts, professional principles, research methods, and writing approaches. Encourages students to share and translate their findings for relevant academic and professional communities."
+    "description": "Offers students an opportunity to complete a semester-long, intensive research and writing capstone project related to the field of strategic communication. Research topics can span business, politics, advocacy, entertainment, public health, the environment, and other societal sectors. Building on previous course work, students have an opportunity to gain a deeper scholarly and professional understanding of strategic communication; cultivate professional and academic contacts; and demonstrate mastery of relevant theoretical concepts, professional principles, research methods, and writing approaches. Encourages students to share and translate their findings for relevant academic and professional communities.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]

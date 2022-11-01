@@ -32,15 +32,6 @@
     "prereqs": [
       { "subject": "ITLN", "number": "1101" },
       "Or",
-      { "subject": "ITLN", "number": "1301" },
-      { "subject": "ITLN", "number": "1101" },
-      "Or",
-      { "subject": "ITLN", "number": "1301" },
-      { "subject": "ITLN", "number": "1101" },
-      "Or",
-      { "subject": "ITLN", "number": "1301" },
-      { "subject": "ITLN", "number": "1101" },
-      "Or",
       { "subject": "ITLN", "number": "1301" }
     ]
   },
@@ -60,15 +51,6 @@
     "prereqs": [
       { "subject": "ITLN", "number": "1102" },
       "Or",
-      { "subject": "ITLN", "number": "1302" },
-      { "subject": "ITLN", "number": "1102" },
-      "Or",
-      { "subject": "ITLN", "number": "1302" },
-      { "subject": "ITLN", "number": "1102" },
-      "Or",
-      { "subject": "ITLN", "number": "1302" },
-      { "subject": "ITLN", "number": "1102" },
-      "Or",
       { "subject": "ITLN", "number": "1302" }
     ]
   },
@@ -85,7 +67,11 @@
     ],
     "description": "Continues ITLN 2101. Emphasizes further vocabulary building and mastery of fine points of grammar through written composition, prepared oral reports, and reading and discussion from current Italian periodicals.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ITLN", "number": "2101" },
+      "Or",
+      { "subject": "ITLN", "number": "2301" }
+    ]
   },
   {
     "subject": "ITLN",
@@ -100,6 +86,10 @@
     ],
     "description": "Stresses the fundamentals of Italian to promote effective self-expression through speaking and writing and to explore the idiomatic aspects of the language. Through progressive class discussions and oral and written commentaries, students analyze a contemporary Italian novel or a Italian cultural reader, screenplay, or collection of short stories. The course strives, first, to help students read and comprehend modern Italian writing with confidence and to be able to talk and write about it in good Italian; and second, to provide preparation for advanced courses.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ITLN", "number": "2102" },
+      "Or",
+      { "subject": "ITLN", "number": "2302" }
+    ]
   }
 ]

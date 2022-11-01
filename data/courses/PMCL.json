@@ -7,6 +7,14 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38366" }],
-    "description": "Continues PMCL 6260, although in a format that is not contingent that PMCL 6260 precedes this course."
+    "description": "Continues PMCL 6260, although in a format that is not contingent that PMCL 6260 precedes this course.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "PHSC", "number": "5100" },
+      "Or",
+      { "subject": "PHSC", "number": "5100" },
+      ")"
+    ]
   }
 ]

@@ -27,7 +27,13 @@
     ],
     "description": "Continues GRMN 1101. Includes completion of basic grammatical usage, reading of contemporary German material, and increased stress on oral and aural skills.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "GRMN", "number": "1101" },
+      "Or",
+      { "subject": "GRMN", "number": "1301" },
+      "Or",
+      "German Placement Test"
+    ]
   },
   {
     "subject": "GRMN",
@@ -43,21 +49,6 @@
     "description": "Emphasizes further vocabulary building. Offers students an opportunity to master the fine points of grammar through written composition, prepared oral reports, and reading and discussion from contemporary German materials.",
     "coreqs": [],
     "prereqs": [
-      { "subject": "GRMN", "number": "1102" },
-      "Or",
-      { "subject": "GRMN", "number": "1302" },
-      "Or",
-      "German Placement Test",
-      { "subject": "GRMN", "number": "1102" },
-      "Or",
-      { "subject": "GRMN", "number": "1302" },
-      "Or",
-      "German Placement Test",
-      { "subject": "GRMN", "number": "1102" },
-      "Or",
-      { "subject": "GRMN", "number": "1302" },
-      "Or",
-      "German Placement Test",
       { "subject": "GRMN", "number": "1102" },
       "Or",
       { "subject": "GRMN", "number": "1302" },
@@ -78,7 +69,25 @@
     ],
     "description": "Builds on GRMN 2101 and focuses on further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through written composition, prepared oral reports, and reading and discussion from contemporary German materials.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      "(",
+      { "subject": "GRMN", "number": "2101" },
+      "Or",
+      { "subject": "GRMN", "number": "2301" },
+      "Or",
+      "German Placement Test",
+      ")",
+      "And",
+      "(",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      ")"
+    ]
   },
   {
     "subject": "GRMN",
@@ -88,7 +97,15 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "39077" }],
-    "description": "Continues further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through advanced reading, composition, grammar review, and listening skills. Whenever possible, offers students an opportunity to engage in local community activities to enhance communication skills and cultural knowledge."
+    "description": "Continues further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through advanced reading, composition, grammar review, and listening skills. Whenever possible, offers students an opportunity to engage in local community activities to enhance communication skills and cultural knowledge.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "GRMN", "number": "2102" },
+      "Or",
+      { "subject": "GRMN", "number": "2302" },
+      "Or",
+      "German Placement Test"
+    ]
   },
   {
     "subject": "GRMN",

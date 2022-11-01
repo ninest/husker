@@ -42,15 +42,6 @@
     "prereqs": [
       { "subject": "LING", "number": "1449" },
       "Or",
-      { "subject": "LING", "number": "1150" },
-      { "subject": "LING", "number": "1449" },
-      "Or",
-      { "subject": "LING", "number": "1150" },
-      { "subject": "LING", "number": "1449" },
-      "Or",
-      { "subject": "LING", "number": "1150" },
-      { "subject": "LING", "number": "1449" },
-      "Or",
       { "subject": "LING", "number": "1150" }
     ]
   },
@@ -90,7 +81,9 @@
     "credits": 4,
     "nuPath": ["AD"],
     "sections": [{ "term": "202330", "crn": "38654" }],
-    "description": "Surveys phonetics, the study of speech sounds, including articulatory, acoustic, and auditory phonetics. Articulatory phonetics topics include anatomy and physiology; cross-linguistic consonant and vowel articulation; aerodynamics of speech production; coarticulation phenomena; and phonetics of supersegmentals such as syllables, stress, tone, and pitch accent. Acoustic phonetics topics include the physics of sound waves, reading spectrograms, and performing acoustic analyses. Auditory phonetics topics include audition and speech perception."
+    "description": "Surveys phonetics, the study of speech sounds, including articulatory, acoustic, and auditory phonetics. Articulatory phonetics topics include anatomy and physiology; cross-linguistic consonant and vowel articulation; aerodynamics of speech production; coarticulation phenomena; and phonetics of supersegmentals such as syllables, stress, tone, and pitch accent. Acoustic phonetics topics include the physics of sound waves, reading spectrograms, and performing acoustic analyses. Auditory phonetics topics include audition and speech perception.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "LING", "number": "2350" }]
   },
   {
     "subject": "LING",
@@ -102,7 +95,7 @@
     "sections": [{ "term": "202310", "crn": "18913" }],
     "description": "Examines phonology, the study of the mental representation, organization, and patterning of sounds in human language. Major topics include phonological typology, phonemes, underlying and surface representations, phonological rules and alternations, natural classes of sounds, syllables and prosody, autosegmental phonology, rule-based vs. constraint-based approaches, morphophonology, diachronic phonology, and current theoretic models of sound systems.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "LING", "number": "2350" }]
   },
   {
     "subject": "LING",
@@ -124,7 +117,13 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38655" }],
-    "description": "Examines the milestones and developmental patterns of typical first language acquisition across the linguistic system. Details the patterns and expected norms for the acquisition and development of speech perception and production, semantics, morphosyntax, pragmatics, and the lexicon. Considers biological, environmental, linguistic, and other factors that contribute to the processes of language acquisition, as well as major theories in the field. Students gain hands-on experience transcribing, analyzing, and evaluating child language data throughout the semester."
+    "description": "Examines the milestones and developmental patterns of typical first language acquisition across the linguistic system. Details the patterns and expected norms for the acquisition and development of speech perception and production, semantics, morphosyntax, pragmatics, and the lexicon. Considers biological, environmental, linguistic, and other factors that contribute to the processes of language acquisition, as well as major theories in the field. Students gain hands-on experience transcribing, analyzing, and evaluating child language data throughout the semester.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "LING", "number": "1449" },
+      "Or",
+      { "subject": "LING", "number": "1150" }
+    ]
   },
   {
     "subject": "LING",
@@ -134,7 +133,27 @@
     "credits": 4,
     "nuPath": ["DD", "SI", "WI"],
     "sections": [{ "term": "202330", "crn": "38656" }],
-    "description": "Focuses on why people choose to say things in different ways in different situations. Examines language behavior in its social context and outlines the linguistic constructs that allow conversation to occur, the types of variation that can occur in registers and dialects, and the possible reasons for choosing different linguistic varieties. Also explores linguistic variation in relation to social context, gender, socioeconomic class, race, and ethnicity."
+    "description": "Focuses on why people choose to say things in different ways in different situations. Examines language behavior in its social context and outlines the linguistic constructs that allow conversation to occur, the types of variation that can occur in registers and dialects, and the possible reasons for choosing different linguistic varieties. Also explores linguistic variation in relation to social context, gender, socioeconomic class, race, and ethnicity.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "ENGL", "number": "1150" },
+      "Or",
+      { "subject": "LING", "number": "1449" },
+      "Or",
+      { "subject": "LING", "number": "1150" },
+      ")",
+      "And",
+      "(",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      ")"
+    ]
   },
   {
     "subject": "LING",
@@ -149,7 +168,7 @@
     ],
     "description": "Introduces syntax, the theory of sentence structure. Explores how to do syntactic analysis using linguistic evidence and argumentation. Focuses primarily on English, with some discussion on the syntax of other languages. Other topics include syntactic universals and the relation between syntax and semantics.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "LING", "number": "2350" }]
   },
   {
     "subject": "LING",
@@ -159,7 +178,13 @@
     "credits": 4,
     "nuPath": ["AD", "FQ"],
     "sections": [{ "term": "202330", "crn": "38657" }],
-    "description": "Focuses on meaning and how it is expressed in language—through words, sentence structure, intonation, stress patterns, and speech acts. Considers how content, logic, and speakers’ and listeners’ assumptions affect what sentences can mean and how linguistic meaning is determined by one’s perceptual system or culture."
+    "description": "Focuses on meaning and how it is expressed in language—through words, sentence structure, intonation, stress patterns, and speech acts. Considers how content, logic, and speakers’ and listeners’ assumptions affect what sentences can mean and how linguistic meaning is determined by one’s perceptual system or culture.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "LING", "number": "1449" },
+      "Or",
+      { "subject": "LING", "number": "1150" }
+    ]
   },
   {
     "subject": "LING",
@@ -181,7 +206,9 @@
     "credits": 4,
     "nuPath": ["CE", "WI"],
     "sections": [{ "term": "202330", "crn": "34792" }],
-    "description": "Explores a topic in current linguistics research. Requires prior completion of either two 3000-level LING courses or one 3000-level LING course and permission of instructor. May be repeated without limit."
+    "description": "Explores a topic in current linguistics research. Requires prior completion of either two 3000-level LING courses or one 3000-level LING course and permission of instructor. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "LING", "number": "2350" }]
   },
   {
     "subject": "LING",
@@ -191,6 +218,8 @@
     "credits": 4,
     "nuPath": ["EX"],
     "sections": [{ "term": "202330", "crn": "32977" }],
-    "description": "Offers individualized research experience on a chosen topic under the direction of a faculty member. Also includes group meetings of students and the faculty member to study relevant research methods, to discuss relevant research literature, and to present research progress and results. Research content and requisites depend on the instructor, and prior arrangements should be made with the faculty member well in advance of registration. May be repeated up to eight times."
+    "description": "Offers individualized research experience on a chosen topic under the direction of a faculty member. Also includes group meetings of students and the faculty member to study relevant research methods, to discuss relevant research literature, and to present research progress and results. Research content and requisites depend on the instructor, and prior arrangements should be made with the faculty member well in advance of registration. May be repeated up to eight times.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]

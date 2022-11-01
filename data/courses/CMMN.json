@@ -30,6 +30,8 @@
       { "term": "202330", "crn": "38479" },
       { "term": "202330", "crn": "38480" }
     ],
-    "description": "Seeks to provide students with the tools necessary to plan and deliver a professional speech and with opportunities to practice and perfect their own presentation styles. Discusses common issues in public speaking, such as anxiety, audience analysis, and selecting a topic. Covers organizing a speech and developing effective introductions and conclusions. Explores methods of delivery and presentation aids. Exposes students to different types of speeches, both inside and outside of academia."
+    "description": "Seeks to provide students with the tools necessary to plan and deliver a professional speech and with opportunities to practice and perfect their own presentation styles. Discusses common issues in public speaking, such as anxiety, audience analysis, and selecting a topic. Covers organizing a speech and developing effective introductions and conclusions. Explores methods of delivery and presentation aids. Exposes students to different types of speeches, both inside and outside of academia.",
+    "coreqs": [{ "subject": "CMMN", "number": "1103" }],
+    "prereqs": []
   }
 ]

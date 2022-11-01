@@ -7,7 +7,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "20229" }],
-    "description": "This course is only available to Animation seniors. To request registration approval, please contact Jason Donati and Alison Ottaviano."
+    "description": "This course is only available to Animation seniors. To request registration approval, please contact Jason Donati and Alison Ottaviano.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "ARTE",

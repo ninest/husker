@@ -236,7 +236,9 @@
     "credits": 1,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38109" }],
-    "description": "Explores how a highly connected world driven by technological advances fuels a digital transformation centered around networks, crowds, and markets. Covers network effects and 'rich-get-richer' phenomena; business models and strategies for multisided markets and platforms; crowdsourcing and online labor markets; sharing economy; and new ways organizations become innovative by tapping into expertise outside firms' boundaries. Discusses business cases from industries including Uber/Lyft, Airbnb, Kickstarter, Amazon’s Mechanical Turk, Upwork, Etsy, eBay, InnoCentive, and TopCoder. Explicitly addresses possible negative consequences. Explores critical risks such as bias and inequality due to deregulation, social and algorithm-based discrimination, and an overall critique of growth-based business models. Offers students an opportunity to hone their skills to spearhead game-changing digital initiatives to learn how to manage others in the wake of disruptive changes."
+    "description": "Explores how a highly connected world driven by technological advances fuels a digital transformation centered around networks, crowds, and markets. Covers network effects and 'rich-get-richer' phenomena; business models and strategies for multisided markets and platforms; crowdsourcing and online labor markets; sharing economy; and new ways organizations become innovative by tapping into expertise outside firms' boundaries. Discusses business cases from industries including Uber/Lyft, Airbnb, Kickstarter, Amazon’s Mechanical Turk, Upwork, Etsy, eBay, InnoCentive, and TopCoder. Explicitly addresses possible negative consequences. Explores critical risks such as bias and inequality due to deregulation, social and algorithm-based discrimination, and an overall critique of growth-based business models. Offers students an opportunity to hone their skills to spearhead game-changing digital initiatives to learn how to manage others in the wake of disruptive changes.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "BUSN",
@@ -265,7 +267,9 @@
       { "term": "202310", "crn": "21817" },
       { "term": "202310", "crn": "21818" }
     ],
-    "description": "Consists of various experiential learning opportunities that are approved by the faculty of the D'Amore-McKim School of Business for full-time MBA students."
+    "description": "Consists of various experiential learning opportunities that are approved by the faculty of the D'Amore-McKim School of Business for full-time MBA students.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "BUSN",
@@ -306,7 +310,9 @@
     "credits": 1,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38110" }],
-    "description": "Introduces key concepts in strategic corporate governance. Offers students an opportunity to use these concepts to understand the different economic, social, and political contexts across advanced industrial and emerging economies. Describes key aspects of corporate governance systems in a number of different countries and analyzes the strengths and weaknesses of these systems in comparison. Examines the importance of social and political factors in shaping different models of firm organization across countries and how new governance practices and institutional norms develop in response to changes in the real world of business management."
+    "description": "Introduces key concepts in strategic corporate governance. Offers students an opportunity to use these concepts to understand the different economic, social, and political contexts across advanced industrial and emerging economies. Describes key aspects of corporate governance systems in a number of different countries and analyzes the strengths and weaknesses of these systems in comparison. Examines the importance of social and political factors in shaping different models of firm organization across countries and how new governance practices and institutional norms develop in response to changes in the real world of business management.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "BUSN",
@@ -416,7 +422,9 @@
       { "term": "202330", "crn": "37967" },
       { "term": "202310", "crn": "21823" }
     ],
-    "description": "Provides eligible students with an opportunity for work experience. May be repeated up to five times."
+    "description": "Provides eligible students with an opportunity for work experience. May be repeated up to five times.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "BUSN",

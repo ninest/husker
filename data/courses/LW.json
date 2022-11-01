@@ -7,7 +7,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21383" }],
-    "description": "Class meets from October 24 thru December 17."
+    "description": "Class meets from October 24 thru December 17.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "LW",
@@ -17,7 +19,15 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21388" }],
-    "description": "Class meets from September 6 - thru October 22."
+    "description": "Class meets from September 6 - thru October 22.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "LW", "number": "6101" },
+      "Or",
+      { "subject": "LW", "number": "6102" },
+      "Or",
+      { "subject": "LW", "number": "6400" }
+    ]
   },
   {
     "subject": "LW",
@@ -27,7 +37,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21096" }],
-    "description": "This course explores the legal levers that drive policy change.  Advocates often intend to alter public policy in support of an organization or a cause.  But influencing policy requires understanding who sets policy in the first instance.  Is the issue governed by federal, state or local law?  Are key decision makers elected or appointed?  Who is it most important to persuade and what sorts of arguments are likely to convince the key audience?  This course will introduce students to the mechanisms of government that drive key policy debates across a wide range of issues, which may include health care, market regulation, environmental policy,  housing, education, the internet, privacy, and social policy.  Emphasis will be placed on tailoring arguments to different constituencies."
+    "description": "This course explores the legal levers that drive policy change.  Advocates often intend to alter public policy in support of an organization or a cause.  But influencing policy requires understanding who sets policy in the first instance.  Is the issue governed by federal, state or local law?  Are key decision makers elected or appointed?  Who is it most important to persuade and what sorts of arguments are likely to convince the key audience?  This course will introduce students to the mechanisms of government that drive key policy debates across a wide range of issues, which may include health care, market regulation, environmental policy,  housing, education, the internet, privacy, and social policy.  Emphasis will be placed on tailoring arguments to different constituencies.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "LW",
@@ -37,7 +49,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21369" }],
-    "description": "This course focuses on federal and state environmental laws. Topics include pollution control, waste management, and cleanup of contaminated land and water. The course explores legislative policy and regulatory decisions as well as enforcement issues. We will give attention to questions of environmental justice and to the strategic use of legal tools in working to ensure safe and healthy surroundings for diverse groups of people."
+    "description": "This course focuses on federal and state environmental laws. Topics include pollution control, waste management, and cleanup of contaminated land and water. The course explores legislative policy and regulatory decisions as well as enforcement issues. We will give attention to questions of environmental justice and to the strategic use of legal tools in working to ensure safe and healthy surroundings for diverse groups of people.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "LW",
@@ -47,7 +61,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21097" }],
-    "description": "What limits are there on actions aimed at influencing public officials or public opinion?  What limits should there be?  Clearly, it is unlawful to offer a bribe to a public official to produce a desirable outcome.  But what constitutes a bribe?  Can a lobbyist send a wedding gift to a favorite legislator?  Are the rules different when advocacy efforts reach beyond United States borders?  Are there limits on what an advocate can say to promote a product or service?  Where is the line between conduct that is legally permissible and conduct that is not?  To what extent are legal boundaries and ethical boundaries aligned?  This course will explore the ethical and legal issues that arise in connection with advocacy."
+    "description": "What limits are there on actions aimed at influencing public officials or public opinion?  What limits should there be?  Clearly, it is unlawful to offer a bribe to a public official to produce a desirable outcome.  But what constitutes a bribe?  Can a lobbyist send a wedding gift to a favorite legislator?  Are the rules different when advocacy efforts reach beyond United States borders?  Are there limits on what an advocate can say to promote a product or service?  Where is the line between conduct that is legally permissible and conduct that is not?  To what extent are legal boundaries and ethical boundaries aligned?  This course will explore the ethical and legal issues that arise in connection with advocacy.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "LW",
@@ -57,6 +73,8 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202310", "crn": "21375" }],
-    "description": "Examines law and technology as both processes and artifacts endemic to human groups, who have been toolmakers and lawmakers since human history has been recorded. Yet, in recent times, development of technological things has outpaced development in the law, bringing about what we might describe as new “design challenges” within the law. Considers several disputes around ownership and property, and safety and risk, and offers students a conceptual framework from the social study of science and technology by which to understand technology and the law. Focuses on the regulation of “digital labor” and algorithmically convened labor markets, such as Uber."
+    "description": "Examines law and technology as both processes and artifacts endemic to human groups, who have been toolmakers and lawmakers since human history has been recorded. Yet, in recent times, development of technological things has outpaced development in the law, bringing about what we might describe as new “design challenges” within the law. Considers several disputes around ownership and property, and safety and risk, and offers students a conceptual framework from the social study of science and technology by which to understand technology and the law. Focuses on the regulation of “digital labor” and algorithmically convened labor markets, such as Uber.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "LW", "number": "6400" }]
   }
 ]

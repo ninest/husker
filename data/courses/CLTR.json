@@ -45,7 +45,9 @@
     "credits": 4,
     "nuPath": ["DD", "IC"],
     "sections": [{ "term": "202330", "crn": "36035" }],
-    "description": "Provides an introduction to Japanese film through works by such great masters as Kurosawa, Mizoguchi, and Ozu, as well as works by new directors from the 1980s and 1990s such as Tami, Morita, and Suo. Studies both form and content; relates major works to Japanese culture. Conducted in English."
+    "description": "Provides an introduction to Japanese film through works by such great masters as Kurosawa, Mizoguchi, and Ozu, as well as works by new directors from the 1980s and 1990s such as Tami, Morita, and Suo. Studies both form and content; relates major works to Japanese culture. Conducted in English.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CLTR",
@@ -55,7 +57,9 @@
     "credits": 4,
     "nuPath": ["IC", "SI"],
     "sections": [{ "term": "202330", "crn": "36036" }],
-    "description": "Introduces modern Chinese history and culture through literary works, films, and historical texts. Examines political, social, and cultural changes in China since 1800: the decline of empire; the New Culture Movement of the 1920s; the rise of nationalism and rural revolution; the changing roles of women; the Cultural Revolution of the 1960s; and China's cinematic, literary, and economic engagement with the world since 1978. Taught in English and open to all undergraduates. CLTR 1500 and HIST 1500 are cross-listed."
+    "description": "Introduces modern Chinese history and culture through literary works, films, and historical texts. Examines political, social, and cultural changes in China since 1800: the decline of empire; the New Culture Movement of the 1920s; the rise of nationalism and rural revolution; the changing roles of women; the Cultural Revolution of the 1960s; and China's cinematic, literary, and economic engagement with the world since 1978. Taught in English and open to all undergraduates. CLTR 1500 and HIST 1500 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CLTR",
@@ -110,7 +114,9 @@
     "credits": 4,
     "nuPath": ["IC", "SI"],
     "sections": [{ "term": "202330", "crn": "34215" }],
-    "description": "Introduces the study of world cinema from the past several decades as a form of artistic and cultural expression. Emphasizes the way that different ethnicities and cultures mix and even clash within national boundaries. Readings cover such topics as the postcolonial inheritance, immigration, the boundaries of class, the pressures of modernization, ethnic identities, and historical memory. Examines storytelling in its multicultural aspects and deals with the diverse influences of entertainment cinema and art cinema, as well as measures taken by countries to limit the influx of foreign films in order to protect their own cultural productivity. One overall concern of the course is the place of film in contemporary global culture."
+    "description": "Introduces the study of world cinema from the past several decades as a form of artistic and cultural expression. Emphasizes the way that different ethnicities and cultures mix and even clash within national boundaries. Readings cover such topics as the postcolonial inheritance, immigration, the boundaries of class, the pressures of modernization, ethnic identities, and historical memory. Examines storytelling in its multicultural aspects and deals with the diverse influences of entertainment cinema and art cinema, as well as measures taken by countries to limit the influx of foreign films in order to protect their own cultural productivity. One overall concern of the course is the place of film in contemporary global culture.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "CLTR",
@@ -122,7 +128,11 @@
     "sections": [{ "term": "202310", "crn": "19060" }],
     "description": "Explores contending theories of identity and nationalism—a powerful force in international and domestic politics. Examines topics such as the process of identity creation, the choice of national symbols, how group boundaries are established, the role of identity in conflict and state building, and the debate over nationalism’s constructed or primordial nature. POLS 3418 and CLTR 3418 are cross-listed.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "POLS", "number": "1155" },
+      "Or",
+      { "subject": "POLS", "number": "1160" }
+    ]
   },
   {
     "subject": "CLTR",
@@ -150,7 +160,15 @@
     "credits": 4,
     "nuPath": ["IC"],
     "sections": [{ "term": "202330", "crn": "38091" }],
-    "description": "Focuses on the construction, characteristics, and representation of poverty/the poor in Latin American texts from the thirties and sixties and in the works of contemporary Latin American writers and film directors. Discusses the relation of these works to a &#8220;realist tradition&#8221; by studying social, political, and cultural aspects of Latin America from the nineteenth and twentieth centuries. Considers whether we are facing a new kind of realism. Also engages the problem of representation, the &#8220;role of literature&#8221; (ethics and literature), and its relation with politics and the global economy (literature and the market) in the Latin American context. Taught in Spanish."
+    "description": "Focuses on the construction, characteristics, and representation of poverty/the poor in Latin American texts from the thirties and sixties and in the works of contemporary Latin American writers and film directors. Discusses the relation of these works to a &#8220;realist tradition&#8221; by studying social, political, and cultural aspects of Latin America from the nineteenth and twentieth centuries. Considers whether we are facing a new kind of realism. Also engages the problem of representation, the &#8220;role of literature&#8221; (ethics and literature), and its relation with politics and the global economy (literature and the market) in the Latin American context. Taught in Spanish.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "SPNS", "number": "2102" },
+      "Or",
+      { "subject": "SPNS", "number": "3101" },
+      "Or",
+      { "subject": "SPNS", "number": "3102" }
+    ]
   },
   {
     "subject": "CLTR",
@@ -160,6 +178,16 @@
     "credits": 4,
     "nuPath": ["IC", "WI"],
     "sections": [{ "term": "202330", "crn": "38097" }],
-    "description": "Offers an overview of the major trends in Latin American narrative, poetry, drama, and essays, from Bernal Diaz through Borges and Bolaño. Studies broad cultural and political contexts, especially the Cold War period and the impact of neoliberalism. Conducted in Spanish."
+    "description": "Offers an overview of the major trends in Latin American narrative, poetry, drama, and essays, from Bernal Diaz through Borges and Bolaño. Studies broad cultural and political contexts, especially the Cold War period and the impact of neoliberalism. Conducted in Spanish.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "SPNS", "number": "2101" },
+      "Or",
+      { "subject": "SPNS", "number": "2102" },
+      "Or",
+      { "subject": "SPNS", "number": "3101" },
+      "Or",
+      { "subject": "SPNS", "number": "3102" }
+    ]
   }
 ]

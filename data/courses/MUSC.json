@@ -55,7 +55,9 @@
     "credits": 4,
     "nuPath": ["IC"],
     "sections": [{ "term": "202330", "crn": "30309" }],
-    "description": "Examines the development of rock-and-roll and its relationship to blues, rhythm and blues, country, folk, and other styles of music. Considers themes such as the role of rock as youth music, the reflections of social realities in rock songs, the relationship of rock to the recording industry and the mass media, and the changing styles of rock. Emphasizes listening skills."
+    "description": "Examines the development of rock-and-roll and its relationship to blues, rhythm and blues, country, folk, and other styles of music. Considers themes such as the role of rock as youth music, the reflections of social realities in rock songs, the relationship of rock to the recording industry and the mass media, and the changing styles of rock. Emphasizes listening skills.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MUSC",
@@ -77,7 +79,9 @@
     "credits": 4,
     "nuPath": ["EI", "IC"],
     "sections": [{ "term": "202330", "crn": "38999" }],
-    "description": "Emphasizes the various ways that music is used in film, including music depicted on-screen and musical scores. Music is a crucial element of meaning in film, yet its presence is easy to ignore. Offers students an opportunity to learn basic approaches to the analysis of music and sound in film, to develop the ability to think critically about film, and to become knowledgeable about key historical developments in film music and sound. No musical background is necessary."
+    "description": "Emphasizes the various ways that music is used in film, including music depicted on-screen and musical scores. Music is a crucial element of meaning in film, yet its presence is easy to ignore. Offers students an opportunity to learn basic approaches to the analysis of music and sound in film, to develop the ability to think critically about film, and to become knowledgeable about key historical developments in film music and sound. No musical background is necessary.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MUSC",
@@ -87,7 +91,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "39000" }],
-    "description": "Examines the application of music as a therapeutic vehicle to release suppressed emotions, to encourage self-expression in psychiatric patients, and to treat a wide variety of disorders. Examines music therapy, in a modern approach to health services, as a supplement to other treatments."
+    "description": "Examines the application of music as a therapeutic vehicle to release suppressed emotions, to encourage self-expression in psychiatric patients, and to treat a wide variety of disorders. Examines music therapy, in a modern approach to health services, as a supplement to other treatments.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MUSC",
@@ -119,7 +125,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "39002" }],
-    "description": "Presents an introduction to the music of selected Near Eastern and Arab cultures (such as Persian in the East and Ethiopic and Berber in Africa). Includes the cantillation styles and practices of various chants of the Hebrew, Christian, and Islamic traditions."
+    "description": "Presents an introduction to the music of selected Near Eastern and Arab cultures (such as Persian in the East and Ethiopic and Berber in Africa). Includes the cantillation styles and practices of various chants of the Hebrew, Christian, and Islamic traditions.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MUSC",
@@ -187,44 +195,7 @@
     ],
     "description": "Introduces melodic and harmonic practices in tonal music with additional work in chord and melody construction. Develops ear training and sight-singing skills.",
     "coreqs": [],
-    "prereqs": [
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" },
-      { "subject": "MUSC", "number": "1119" }
-    ]
+    "prereqs": [{ "subject": "MUSC", "number": "1119" }]
   },
   {
     "subject": "MUSC",
@@ -239,7 +210,7 @@
     ],
     "description": "Continues MUSC 1201. Focuses on harmonic practices in tonal music. Examines the role and function of harmony through analysis of musical examples and composition of four-voice chorales. Introduces study of advanced harmony. Further develops ear training and sight-singing skills.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "MUSC", "number": "1201" }]
   },
   {
     "subject": "MUSC",
@@ -298,7 +269,9 @@
     "credits": 1,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "34826" }],
-    "description": "Offers private instruction in music composition. Contact the music department for arrangements. Requires lab fee. May be repeated without limit."
+    "description": "Offers private instruction in music composition. Contact the music department for arrangements. Requires lab fee. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MUSC",
@@ -527,7 +500,15 @@
     "sections": [{ "term": "202310", "crn": "19640" }],
     "description": "Explores the history of the genre of song through a set of examples that have had enormous impact and influence, songs that have “made history.” Using songs selected by the faculty based on their expertise, this course aims to identify the social, cultural, musical, and poetic threads that have woven their way through song repertories, influencing song composition from its origins to the present day. Establishes commonalities and trends in order to understand how “song” has taken on an important cultural status that is unique to a specific time and place and is widespread, linking various songs together.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" }
+    ]
   },
   {
     "subject": "MUSC",
@@ -537,7 +518,9 @@
     "credits": 4,
     "nuPath": ["EI", "FQ"],
     "sections": [{ "term": "202330", "crn": "39006" }],
-    "description": "Engages mathematical thinking in music with regard to its symbolic (how we represent music using numbers and signs); sonic (how mathematical thinking might create insights into musical sound); and grammatical (the logic by which music proceeds from one time to the next) expressions. Music and mathematics both contain objects that exhibit similar properties, such as circularity, similarity, objecthood, spatial dimensionality, dynamics, and processuality. Draws upon various branches of mathematics, including number theory, set theory, algebra, geometry, and statistics. Such representations highlight fundamental musical principles invoked in the process of improvisation, performance, and composition. As such, musical listening is a key component of the course. Ability to read musical notation or musical experience preferred."
+    "description": "Engages mathematical thinking in music with regard to its symbolic (how we represent music using numbers and signs); sonic (how mathematical thinking might create insights into musical sound); and grammatical (the logic by which music proceeds from one time to the next) expressions. Music and mathematics both contain objects that exhibit similar properties, such as circularity, similarity, objecthood, spatial dimensionality, dynamics, and processuality. Draws upon various branches of mathematics, including number theory, set theory, algebra, geometry, and statistics. Such representations highlight fundamental musical principles invoked in the process of improvisation, performance, and composition. As such, musical listening is a key component of the course. Ability to read musical notation or musical experience preferred.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MUSC",
@@ -603,7 +586,13 @@
     "credits": 4,
     "nuPath": ["EI"],
     "sections": [{ "term": "202330", "crn": "39008" }],
-    "description": "Builds on the skills covered in MUSC 2210. Seeks to advance the student’s songwriting toolbox via a combination of analysis/transcription, writing, production, critiquing, and analysis. In order to maximize the amount of professional opportunities afforded to the songwriters, this course is highly collaborative in order to model the writing processes most commonly used in the industry. Students who do not meet course prerequisites may seek permission of instructor."
+    "description": "Builds on the skills covered in MUSC 2210. Seeks to advance the student’s songwriting toolbox via a combination of analysis/transcription, writing, production, critiquing, and analysis. In order to maximize the amount of professional opportunities afforded to the songwriters, this course is highly collaborative in order to model the writing processes most commonly used in the industry. Students who do not meet course prerequisites may seek permission of instructor.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "MUSC", "number": "2210" },
+      "And",
+      { "subject": "MUSC", "number": "1119" }
+    ]
   },
   {
     "subject": "MUSC",
@@ -613,7 +602,9 @@
     "credits": 4,
     "nuPath": ["IC", "SI"],
     "sections": [{ "term": "202330", "crn": "39248" }],
-    "description": "Surveys the evolution of popular music styles in the United States, from the end of World War II to the present day. Examines popular music's development and transformation, highlighting interactions with a wide array of factors including ethnic and gender identities, music business practices, race relations, social and political movements, and technological innovations. Offers students an opportunity to gain a broad overview of the field of popular music studies, its theoretical perspectives and methodologies, and its research sources and materials."
+    "description": "Surveys the evolution of popular music styles in the United States, from the end of World War II to the present day. Examines popular music's development and transformation, highlighting interactions with a wide array of factors including ethnic and gender identities, music business practices, race relations, social and political movements, and technological innovations. Offers students an opportunity to gain a broad overview of the field of popular music studies, its theoretical perspectives and methodologies, and its research sources and materials.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MUSC",
@@ -625,7 +616,15 @@
     "sections": [{ "term": "202310", "crn": "16453" }],
     "description": "Explores the musical heritage of the United States through a range of instructor-selected case studies. Offers students an opportunity to learn to identify various styles of music and relate them to larger discourses on a range of topics, i.e., democracy, cultural pluralism, identity, and other themes in American musical life. Uses weekly instructor lectures, readings of both primary and secondary texts, listening/viewing of multimedia, peer discussion and feedback, and hands-on exercises to analyze and explore the varied role of music in American life.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" }
+    ]
   },
   {
     "subject": "MUSC",
@@ -635,7 +634,9 @@
     "credits": 4,
     "nuPath": ["ER", "SI", "WI"],
     "sections": [{ "term": "202330", "crn": "39009" }],
-    "description": "Surveys the relationship between music and technology from the Paleolithic Age to the present. Examines the origins and impact of diverse musical instruments, with attention to connections between musical and technological developments; the reasons instruments are accepted, modified, or abandoned; and debates about the effects of new technologies on music. Considers such forces as standardization, institutionalization, and commodification, as well as experimentation, hacker, and DIY cultures. Asks whether music technologies are “just tools” or rather carry with them ethical values and ramifications. By studying the sociocultural history of such instruments as the violin, piano, electric guitar and synthesizer, offers students an opportunity to gain an understanding of the interplay between technological change and the enduring human need for music."
+    "description": "Surveys the relationship between music and technology from the Paleolithic Age to the present. Examines the origins and impact of diverse musical instruments, with attention to connections between musical and technological developments; the reasons instruments are accepted, modified, or abandoned; and debates about the effects of new technologies on music. Considers such forces as standardization, institutionalization, and commodification, as well as experimentation, hacker, and DIY cultures. Asks whether music technologies are “just tools” or rather carry with them ethical values and ramifications. By studying the sociocultural history of such instruments as the violin, piano, electric guitar and synthesizer, offers students an opportunity to gain an understanding of the interplay between technological change and the enduring human need for music.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MUSC",
@@ -645,7 +646,9 @@
     "credits": 4,
     "nuPath": ["DD", "SI", "WI"],
     "sections": [{ "term": "202330", "crn": "39249" }],
-    "description": "Combines ethnomusicology and experiential learning by exploring the diverse communities of Boston and their music. Since 17th-century encounters between the Wampanoag Nation and English Puritans, Boston has been characterized by intercultural contact and exchange. Discusses the history and legacies of such encounters, as well as present-day issues of diversity and belonging in Boston. Focuses on how communities reinforce their own cultural bonds through music and discusses alliances formed through shared experiences of diasporic, exilic, refugee, immigrant, and minority status. Through interdisciplinary, ethnographic analysis and practice, offers students an opportunity to explore how these inherently intersectional social dynamics&#8212;which engage issues of race, gender, class, ethnicity, etc.&#8212;play out through collective and individual musical practices."
+    "description": "Combines ethnomusicology and experiential learning by exploring the diverse communities of Boston and their music. Since 17th-century encounters between the Wampanoag Nation and English Puritans, Boston has been characterized by intercultural contact and exchange. Discusses the history and legacies of such encounters, as well as present-day issues of diversity and belonging in Boston. Focuses on how communities reinforce their own cultural bonds through music and discusses alliances formed through shared experiences of diasporic, exilic, refugee, immigrant, and minority status. Through interdisciplinary, ethnographic analysis and practice, offers students an opportunity to explore how these inherently intersectional social dynamics&#8212;which engage issues of race, gender, class, ethnicity, etc.&#8212;play out through collective and individual musical practices.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MUSC",
@@ -655,7 +658,9 @@
     "credits": 4,
     "nuPath": ["IC"],
     "sections": [{ "term": "202330", "crn": "39130" }],
-    "description": "Introduces students to diverse local communities of the surrounding area through texts and media, in-class workshops with local musicians and arts workers, experiential activities, and students’ own semester-long research projects. Explores a range of musical practices and intersecting issues, which might include music and urban spatial politics; music and gentrification; music, immigration, and diaspora; etc. Offers students an opportunity to engage with music through experiential learning activities, which might include soundwalks, conducting interviews, attending performances, or documenting music through photographs and audio recordings."
+    "description": "Introduces students to diverse local communities of the surrounding area through texts and media, in-class workshops with local musicians and arts workers, experiential activities, and students’ own semester-long research projects. Explores a range of musical practices and intersecting issues, which might include music and urban spatial politics; music and gentrification; music, immigration, and diaspora; etc. Offers students an opportunity to engage with music through experiential learning activities, which might include soundwalks, conducting interviews, attending performances, or documenting music through photographs and audio recordings.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MUSC",
@@ -665,7 +670,17 @@
     "credits": 4,
     "nuPath": ["DD", "SI", "WI"],
     "sections": [{ "term": "202330", "crn": "39010" }],
-    "description": "Examines the significance of gender to the experience of and access to participation in music making, listening, the music industries, and cultural recognition. Surveys how gender differences have been constructed, enacted, and contested in historical and contemporary musical cultures and develops critical lenses for analyzing musical representations of gender difference and their social impact. Considers how gender intersects with racial and sexual identities in music and its institutional structures. Uses case studies drawn from a variety of contexts, such as classical (Bizet's &#8220;Carmen&#8221;), popular (Beyonc&#233;), film (&#8220;Star Wars&#8221;), and avant-garde (Yoko Ono)."
+    "description": "Examines the significance of gender to the experience of and access to participation in music making, listening, the music industries, and cultural recognition. Surveys how gender differences have been constructed, enacted, and contested in historical and contemporary musical cultures and develops critical lenses for analyzing musical representations of gender difference and their social impact. Considers how gender intersects with racial and sexual identities in music and its institutional structures. Uses case studies drawn from a variety of contexts, such as classical (Bizet's &#8220;Carmen&#8221;), popular (Beyonc&#233;), film (&#8220;Star Wars&#8221;), and avant-garde (Yoko Ono).",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" }
+    ]
   },
   {
     "subject": "MUSC",
@@ -692,7 +707,9 @@
     "credits": 4,
     "nuPath": ["AD", "ND"],
     "sections": [{ "term": "202330", "crn": "39011" }],
-    "description": "Offers an overview of the perceptual, cognitive, and brain bases of performing, composing, and listening to music for enjoyment and for human benefit. Topics include acoustics and biological processing of sound; theories and empirical research on pitch, rhythm, harmony, melody, timbre, orchestration; similarities and differences between music and language; evolution and development of musical ability; and special populations in musical functions. Includes laboratory demonstrations and exercises in experiment design and data analysis. Requires a final project (paper and in-class presentation). Offers students an opportunity to learn how to design and conduct their own research study in music perception and cognition."
+    "description": "Offers an overview of the perceptual, cognitive, and brain bases of performing, composing, and listening to music for enjoyment and for human benefit. Topics include acoustics and biological processing of sound; theories and empirical research on pitch, rhythm, harmony, melody, timbre, orchestration; similarities and differences between music and language; evolution and development of musical ability; and special populations in musical functions. Includes laboratory demonstrations and exercises in experiment design and data analysis. Requires a final project (paper and in-class presentation). Offers students an opportunity to learn how to design and conduct their own research study in music perception and cognition.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MUSC",
@@ -708,15 +725,6 @@
     "description": "Addresses the history of the concept of race, taken as a cultural construct and a lived reality, long used to justify social, economic, and political inequality. Examines the relationship between musical sound and processes of racialization, addressing this relationship through a series of select historical and contemporary case studies, alongside grounding texts drawn from critical race studies, gender and sexuality studies, and ethnomusicology and popular music studies. Explores how the construction and everyday lived experience of race influenced music production, performance, reception, and analysis and how categories of race have been represented and questioned through the sonic and embodied acts of performers.",
     "coreqs": [],
     "prereqs": [
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
-      { "subject": "ENGW", "number": "1111" },
-      "Or",
-      { "subject": "ENGW", "number": "1102" },
       { "subject": "ENGW", "number": "1111" },
       "Or",
       { "subject": "ENGW", "number": "1102" }
@@ -751,12 +759,7 @@
     ],
     "description": "Offers preparation for and performance of a senior recital (forty to sixty minutes of music) under the guidance of the student's primary instrumental or vocal instructor.",
     "coreqs": [],
-    "prereqs": [
-      { "subject": "MUSC", "number": "3410" },
-      { "subject": "MUSC", "number": "3410" },
-      { "subject": "MUSC", "number": "3410" },
-      { "subject": "MUSC", "number": "3410" }
-    ]
+    "prereqs": [{ "subject": "MUSC", "number": "3410" }]
   },
   {
     "subject": "MUSC",
@@ -766,6 +769,8 @@
     "credits": 4,
     "nuPath": ["AD", "ND"],
     "sections": [{ "term": "202330", "crn": "39306" }],
-    "description": "Offers an overview of the perceptual, cognitive, and brain bases of performing, composing, and listening to music for enjoyment and for human benefit. Studies how and why music stimulates our senses and how it can promote health and well-being. Topics include theories and empirical research on pitch, rhythm, harmony, melody, timbre; music and language; development of musical ability; and special populations in musical functions. Meetings include demonstrations and exercises in experiment design and data analysis. Requires an in-depth research project (paper and in-class presentation), in consultation with the instructor. By the end of this course, students should be able to design and conduct their own research study in music perception and cognition."
+    "description": "Offers an overview of the perceptual, cognitive, and brain bases of performing, composing, and listening to music for enjoyment and for human benefit. Studies how and why music stimulates our senses and how it can promote health and well-being. Topics include theories and empirical research on pitch, rhythm, harmony, melody, timbre; music and language; development of musical ability; and special populations in musical functions. Meetings include demonstrations and exercises in experiment design and data analysis. Requires an in-depth research project (paper and in-class presentation), in consultation with the instructor. By the end of this course, students should be able to design and conduct their own research study in music perception and cognition.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]

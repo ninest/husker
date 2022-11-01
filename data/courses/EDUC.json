@@ -29,7 +29,7 @@
     ],
     "description": "Examines the broad construct of culture and explores how these characteristics impact personal identity, access to education, social mobility, power, and influence. Explores educational institutions as cultural systems and questions concepts at the heart of personal and professional interactions in teaching, learning, curriculum, and administration. Expects students to participate in reflective discussion and begin to explore their own feelings and experience with culture; to develop competencies spanning cultural and international boundaries; to prepare to be more effective in diverse settings; and to influence and advocate for systemic change.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "EDUC", "number": "1111" }]
   },
   {
     "subject": "EDUC",
@@ -41,7 +41,11 @@
     "sections": [{ "term": "202310", "crn": "16617" }],
     "description": "Surveys contemporary educational theory of human learning and accomplished teaching. Offers students an opportunity to develop a working understanding of teaching and learning as they occur in different types of schools and community settings. Investigates how children and adolescents learn, acquire knowledge, and make sense of their experience, as well as theories of teaching or pedagogy—how best to teach for understanding and learning achievement.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "EDUC", "number": "1111" },
+      "And",
+      { "subject": "EDUC", "number": "1112" }
+    ]
   },
   {
     "subject": "EDUC",
@@ -56,6 +60,6 @@
     ],
     "description": "Addresses the range of learning needs of special education legislation, as well as the politics of who is identified and why. Examines students' own attitudes about teaching children with learning disabilities. Offers students an opportunity to develop skills and strategies for identifying and teaching learning-disabled children. Requires graduate students to demonstrate advanced levels of study and research.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "EDUC", "number": "1111" }]
   }
 ]

@@ -27,7 +27,9 @@
       { "term": "202330", "crn": "33549" },
       { "term": "202330", "crn": "37905" }
     ],
-    "description": "Introduces cadets to the personal challenges and competencies that are critical for effective leadership. Offers cadets an opportunity to learn how the personal development of life skills such as critical thinking, time management, goal setting, and stress management relate to leadership and the Army profession; to learn the basics of the communications process; and the importance for leaders to develop the essential skills to effectively communicate in the Army. Includes a leadership laboratory where cadets conduct practical applications of their military science curriculum."
+    "description": "Introduces cadets to the personal challenges and competencies that are critical for effective leadership. Offers cadets an opportunity to learn how the personal development of life skills such as critical thinking, time management, goal setting, and stress management relate to leadership and the Army profession; to learn the basics of the communications process; and the importance for leaders to develop the essential skills to effectively communicate in the Army. Includes a leadership laboratory where cadets conduct practical applications of their military science curriculum.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "ARMY",
@@ -37,7 +39,9 @@
     "credits": 0,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "31434" }],
-    "description": "Accompanies ARMY 1102. Introduces basic soldier skills and introduces squad-level tactical operations in Leadership Lab. Students also participate in physical fitness training three days per week."
+    "description": "Accompanies ARMY 1102. Introduces basic soldier skills and introduces squad-level tactical operations in Leadership Lab. Students also participate in physical fitness training three days per week.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "ARMY",
@@ -105,7 +109,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "31249" }],
-    "description": "Focuses on applied leadership in small-unit operations. Constitutes an academically challenging course where the cadet is required to study, practice, and apply the fundamentals of direct-level leadership and small-unit tactics at the platoon level. At the conclusion of this course, the successful cadet should be capable of planning, coordinating, navigating, motivating, and leading a platoon in the execution of a mission. Seeks to prepare the cadet for the ROTC Cadet Leader Course (CLC), which the cadet attends in the summer at Fort Knox, KY. Requires students to apply their knowledge and leadership competencies outside the classroom in a hands-on performance-oriented environment during leadership labs and other field activities (team-building exercises, leadership development exercises). Requires prior completion of ARMY 1101, ARMY 1102, ARMY 2201, and ARMY 2202 or equivalent military experience."
+    "description": "Focuses on applied leadership in small-unit operations. Constitutes an academically challenging course where the cadet is required to study, practice, and apply the fundamentals of direct-level leadership and small-unit tactics at the platoon level. At the conclusion of this course, the successful cadet should be capable of planning, coordinating, navigating, motivating, and leading a platoon in the execution of a mission. Seeks to prepare the cadet for the ROTC Cadet Leader Course (CLC), which the cadet attends in the summer at Fort Knox, KY. Requires students to apply their knowledge and leadership competencies outside the classroom in a hands-on performance-oriented environment during leadership labs and other field activities (team-building exercises, leadership development exercises). Requires prior completion of ARMY 1101, ARMY 1102, ARMY 2201, and ARMY 2202 or equivalent military experience.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "ARMY",
@@ -115,7 +121,9 @@
     "credits": 0,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "31432" }],
-    "description": "Accompanies ARMY 3302. Introduces basic soldier skills and introduces squad-level tactical operations in leadership lab. Includes participation in physical fitness training."
+    "description": "Accompanies ARMY 3302. Introduces basic soldier skills and introduces squad-level tactical operations in leadership lab. Includes participation in physical fitness training.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "ARMY",
@@ -155,6 +163,8 @@
     "credits": 0,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "31433" }],
-    "description": "Introduces basic soldier skills and squad-level tactical operations in leadership lab. Includes participation in physical fitness training."
+    "description": "Introduces basic soldier skills and squad-level tactical operations in leadership lab. Includes participation in physical fitness training.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]

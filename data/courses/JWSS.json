@@ -7,7 +7,9 @@
     "credits": 4,
     "nuPath": ["DD", "SI"],
     "sections": [{ "term": "202330", "crn": "38529" }],
-    "description": "Surveys the history of the Jews in the modern world, with an emphasis on global cultural exchange. Examines Jewish interaction with non-Jewish society from Europe to North Africa, the Middle East, the Soviet Union, Israel, and the United States and explores this relationship’s creative and destructive consequences. Focuses on how Jewish society, culture, religious practice, and political definition changed in relation to a variety of processes now associated with modernity, such as urbanization, industrialization, state centralization, and the development of nationalism and secularism."
+    "description": "Surveys the history of the Jews in the modern world, with an emphasis on global cultural exchange. Examines Jewish interaction with non-Jewish society from Europe to North Africa, the Middle East, the Soviet Union, Israel, and the United States and explores this relationship’s creative and destructive consequences. Focuses on how Jewish society, culture, religious practice, and political definition changed in relation to a variety of processes now associated with modernity, such as urbanization, industrialization, state centralization, and the development of nationalism and secularism.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "JWSS",
@@ -17,7 +19,9 @@
     "credits": 4,
     "nuPath": ["DD", "IC"],
     "sections": [{ "term": "202330", "crn": "38747" }],
-    "description": "Introduces the representation of sex and gender in Jewish culture and religion. Explores varied representations of masculinity and femininity over time and place within Jewish communities; the role of biblical texts in the construction of Western conceptions of gender and sexuality; and how contemporary feminist, queer, and other sexual identities have influenced Jewish practices. Readings draw from a range of primary sources (memoirs, fiction, religious texts, etc.) and critical literature."
+    "description": "Introduces the representation of sex and gender in Jewish culture and religion. Explores varied representations of masculinity and femininity over time and place within Jewish communities; the role of biblical texts in the construction of Western conceptions of gender and sexuality; and how contemporary feminist, queer, and other sexual identities have influenced Jewish practices. Readings draw from a range of primary sources (memoirs, fiction, religious texts, etc.) and critical literature.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "JWSS",
@@ -42,7 +46,9 @@
     "credits": 4,
     "nuPath": ["ER", "SI"],
     "sections": [{ "term": "202330", "crn": "38748" }],
-    "description": "Examines the American response to the Holocaust, in terms of both contemporaneous knowledge and actions and the lasting impact on policy and culture. Starts with early twentieth-century events, such as the Armenian genocide, that shaped later attitudes. Explores the prewar period, particularly U.S. immigration and isolationist policies. Assesses Americans' knowledge of European events as the extermination campaign unfolded and fights ensued over rescue possibilities. Examines changing depictions of the Holocaust that emerged in the postwar period as a result of critical events such as the Eichmann trial and popular television and film portrayals. Finally, considers how perceptions of the Holocaust have shaped subsequent U.S. responses to genocide. HIST 2285, JRNL 2285, and JWSS 2285 are cross-listed."
+    "description": "Examines the American response to the Holocaust, in terms of both contemporaneous knowledge and actions and the lasting impact on policy and culture. Starts with early twentieth-century events, such as the Armenian genocide, that shaped later attitudes. Explores the prewar period, particularly U.S. immigration and isolationist policies. Assesses Americans' knowledge of European events as the extermination campaign unfolded and fights ensued over rescue possibilities. Examines changing depictions of the Holocaust that emerged in the postwar period as a result of critical events such as the Eichmann trial and popular television and film portrayals. Finally, considers how perceptions of the Holocaust have shaped subsequent U.S. responses to genocide. HIST 2285, JRNL 2285, and JWSS 2285 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "JWSS",
@@ -52,6 +58,8 @@
     "credits": 1,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "31142" }],
-    "description": "Permits specialized Jewish studies topics to be studied as part of more general courses. May be repeated without limit."
+    "description": "Permits specialized Jewish studies topics to be studied as part of more general courses. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]

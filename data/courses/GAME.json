@@ -52,7 +52,15 @@
     "sections": [{ "term": "202310", "crn": "13141" }],
     "description": "Offers students an opportunity to learn how contemporary narrative theories evolved and their uses in various media. Examines various mediated texts to understand how best to use storytelling strategies for students' own narrative-forward games so as to best take advantage of designing narratives for different platforms and audiences. Uses presentations and performances to enhance students' understanding of how audiences assimilate information and to critique. Students write, play, and study narrative-driven games in the context of various narrative theories and practice writing with the awareness and intention that actors and audiences will read their work and respond.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" }
+    ]
   },
   {
     "subject": "GAME",
@@ -87,7 +95,9 @@
     "credits": 4,
     "nuPath": ["AD"],
     "sections": [{ "term": "202330", "crn": "32136" }],
-    "description": "Surveys research methods and epistemologies relevant to game researchers, designers, and artists, including experimental studies; analytics, formal and historical analysis; ethnography; qualitative social research; and design research. Engages students in lectures, readings, and game faculty guest lectures presenting practical examples of methods discussed in the class. Seeks to familiarize students with core literatures on games, library research, and research design through a series of hypothetical research project drafts and the completion of a research project using a specific method covered in the class."
+    "description": "Surveys research methods and epistemologies relevant to game researchers, designers, and artists, including experimental studies; analytics, formal and historical analysis; ethnography; qualitative social research; and design research. Engages students in lectures, readings, and game faculty guest lectures presenting practical examples of methods discussed in the class. Seeks to familiarize students with core literatures on games, library research, and research design through a series of hypothetical research project drafts and the completion of a research project using a specific method covered in the class.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "GAME",
@@ -97,7 +107,13 @@
     "credits": 4,
     "nuPath": ["WI"],
     "sections": [{ "term": "202330", "crn": "32137" }],
-    "description": "Covers fundamental theories of art, meaning-making, expression, cultural reflection, and criticism concerning media, games, and playful artifacts. Assigns several papers that offer students an opportunity to choose and apply different critical lenses to games, game criticism, and their own gameplay experience. A long-form paper allows students to train writing theoretically informed and argumentatively cogent critical presentations of games and gameplay experience."
+    "description": "Covers fundamental theories of art, meaning-making, expression, cultural reflection, and criticism concerning media, games, and playful artifacts. Assigns several papers that offer students an opportunity to choose and apply different critical lenses to games, game criticism, and their own gameplay experience. A long-form paper allows students to train writing theoretically informed and argumentatively cogent critical presentations of games and gameplay experience.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "GAME", "number": "1110" },
+      "Or",
+      { "subject": "GAME", "number": "2500" }
+    ]
   },
   {
     "subject": "GAME",
@@ -107,7 +123,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "32563" }],
-    "description": "Analyzes games from a social justice perspective, encouraging students to consider issues of social stereotyping, normalization, exclusion, and inequity as they apply to games from all sectors of the industry. Discusses and analyzes games using a variety of social theories from a diverse set of fields, including gender studies, critical race theory, and LGBTQ studies. Provides a studio setting in which students have an opportunity to engage in critical making of playable experiences that are based upon and deeply integrate social justice theories in their design."
+    "description": "Analyzes games from a social justice perspective, encouraging students to consider issues of social stereotyping, normalization, exclusion, and inequity as they apply to games from all sectors of the industry. Discusses and analyzes games using a variety of social theories from a diverse set of fields, including gender studies, critical race theory, and LGBTQ studies. Provides a studio setting in which students have an opportunity to engage in critical making of playable experiences that are based upon and deeply integrate social justice theories in their design.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "GAME",
@@ -124,7 +142,13 @@
     ],
     "description": "Offers an experiential learning course in which students collaborate with faculty on a project for credit, which may include research, game creation, or a combination of the two. Offers students an opportunity to co-produce a publishable, distributable, or exhibitable game and/or research paper, which can become part of the student's portfolio. Course may be taught by an individual faculty member or team-taught to explore a specific topic, such as documentary games, art games, physical interfaces, installations, historical games, live-action role-playing, etc. Offers students an opportunity to gain experience working on a real-world project, as well as being credited for collaboration with an established practitioner/researcher. May be repeated once.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "GAME", "number": "1110" },
+      "And",
+      { "subject": "GAME", "number": "2500" },
+      "And",
+      { "subject": "GAME", "number": "2650" }
+    ]
   },
   {
     "subject": "GAME",
@@ -139,12 +163,7 @@
     ],
     "description": "Introduces interface design for games. A game interface is the point at which the player interacts with the game system, which pertains to visual, auditory, and haptic cues; screens and graphical user interfaces; the player character; and the game controller. Analyzes successful and unsuccessful game interfaces from historical, theoretical, and cultural perspectives. Offers students an opportunity to learn to analyze, critique, and iteratively design innovative game user interfaces; learn about and practice game usability and game feel, as well as design techniques for user interfaces and user experience; and focus on designing innovative game interfaces as they iteratively develop and test a game interface from beginning to end, resulting in a portfolio-ready game interface prototype. Designed as an intermediate course for undergraduate students across disciplines.",
     "coreqs": [],
-    "prereqs": [
-      { "subject": "GAME", "number": "1110" },
-      { "subject": "GAME", "number": "1110" },
-      { "subject": "GAME", "number": "1110" },
-      { "subject": "GAME", "number": "1110" }
-    ]
+    "prereqs": [{ "subject": "GAME", "number": "1110" }]
   },
   {
     "subject": "GAME",
@@ -160,7 +179,7 @@
     ],
     "description": "Analyzes game-level designs in a variety of genres and forms. Building upon basic drawing and design skills, students have an opportunity to develop paper prototypes and simple game “mods” in the context of story and game play. Students use computer-based tools to examine game-level architecture. Encourages students to take this elective in preparation for or in parallel to the Game Projects courses.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "GAME", "number": "1110" }]
   },
   {
     "subject": "GAME",
@@ -176,7 +195,11 @@
     ],
     "description": "Studies digital and nondigital prototyping techniques through weekly activities in which students build and critique prototypes around a variety of game design themes. Offers students an opportunity to build a portfolio of small proof-of-concept game prototypes over the course of the semester. Additionally, covers how to iterate on a single prototype through a semesterlong project in which students have an opportunity to work individually on a larger game design.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "GAME", "number": "1110" },
+      "Or",
+      { "subject": "GAME", "number": "2500" }
+    ]
   },
   {
     "subject": "GAME",
@@ -186,7 +209,21 @@
     "credits": 4,
     "nuPath": ["EI", "WI"],
     "sections": [{ "term": "202330", "crn": "35080" }],
-    "description": "Offers student teams an opportunity to conceptualize, design, document, and develop a complete game, including content, level design, user interface, and game mechanics as specified in design documents. Offers a set of brainstorming techniques. Students segment the concepts into individual systems and prototype them in an iterative manner, formally iterating over the whole game to improve the player experience. Requires students to maintain a schedule and project management documents. Results in the presentation of the complete game for critique."
+    "description": "Offers student teams an opportunity to conceptualize, design, document, and develop a complete game, including content, level design, user interface, and game mechanics as specified in design documents. Offers a set of brainstorming techniques. Students segment the concepts into individual systems and prototype them in an iterative manner, formally iterating over the whole game to improve the player experience. Requires students to maintain a schedule and project management documents. Results in the presentation of the complete game for critique.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "GAME", "number": "3700" },
+      "And",
+      "(",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      ")"
+    ]
   },
   {
     "subject": "GAME",
@@ -196,7 +233,9 @@
     "credits": 4,
     "nuPath": ["EI"],
     "sections": [{ "term": "202330", "crn": "32505" }],
-    "description": "Offers students an opportunity to learn to conceive, design, and convey imaginary worlds across a wide range of media. The crafting of fictional worlds has become an important skill in the media landscape, whether for video and tabletop games, comic books, novels, film, or television. Analyzes existing works in diverse genres such as fantasy, science fiction, superhero, and supernatural worlds. Explores, through creative projects, the ways in which the use of different media are suited to portray different aspects of an imaginary world."
+    "description": "Offers students an opportunity to learn to conceive, design, and convey imaginary worlds across a wide range of media. The crafting of fictional worlds has become an important skill in the media landscape, whether for video and tabletop games, comic books, novels, film, or television. Analyzes existing works in diverse genres such as fantasy, science fiction, superhero, and supernatural worlds. Explores, through creative projects, the ways in which the use of different media are suited to portray different aspects of an imaginary world.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "GAME",
@@ -206,7 +245,15 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "36643" }],
-    "description": "Studies principles of procedural content generation and generative methods, including modular design, the role of randomness in design, and designing for emergence. Examines the role of generative design in games and its impact on both designers and players. Through assignments and a semester-long project, encourages student creation of generative systems for playful experiences."
+    "description": "Studies principles of procedural content generation and generative methods, including modular design, the role of randomness in design, and designing for emergence. Examines the role of generative design in games and its impact on both designers and players. Through assignments and a semester-long project, encourages student creation of generative systems for playful experiences.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ARTG", "number": "2260" },
+      "Or",
+      { "subject": "CS", "number": "2500" },
+      "Or",
+      { "subject": "GAME", "number": "2500" }
+    ]
   },
   {
     "subject": "GAME",
@@ -222,15 +269,6 @@
     "description": "Offers students an opportunity to develop a fully functional game using the iterative design skills they develop in GAME 3700 and GAME 3800. Students take on individual roles in a large-group project, with the goal of creating a complete game from preproduction through implementation and testing. Focuses on developing, playtesting, and iteratively refining a multilevel game, in addition to class discussions and exercises oriented toward professional and portfolio development. This class is an opportunity to complete, polish, and potentially publish that project. Integrated into the capstone are opportunities for the students to gain exposure for their games and to practice their professional development skills.",
     "coreqs": [],
     "prereqs": [
-      { "subject": "GAME", "number": "3700" },
-      "And",
-      { "subject": "GAME", "number": "3800" },
-      { "subject": "GAME", "number": "3700" },
-      "And",
-      { "subject": "GAME", "number": "3800" },
-      { "subject": "GAME", "number": "3700" },
-      "And",
-      { "subject": "GAME", "number": "3800" },
       { "subject": "GAME", "number": "3700" },
       "And",
       { "subject": "GAME", "number": "3800" }

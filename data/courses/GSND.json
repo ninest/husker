@@ -13,12 +13,6 @@
     "description": "Provides theoretical background and foundation for analyzing and designing games. Examines fundamental domains that are necessary to understand what games are and how they affect players, including but not limited to interface design, level design, narrative, learning, and culture. Presents relevant concepts and frameworks from a wide variety of disciplines—psychology, phenomenology, sociology, anthropology, media studies, affect theories, learning theories, and theories of motivation—for each domain. Explains the core elements of game design, introduces students to formal abstract design tools, explores several models of design process and iteration, and offers students an opportunity to practice game design in groups.",
     "coreqs": [
       { "subject": "GSND", "number": "5111" },
-      { "subject": "GSND", "number": "5112" },
-      { "subject": "GSND", "number": "5111" },
-      { "subject": "GSND", "number": "5112" },
-      { "subject": "GSND", "number": "5111" },
-      { "subject": "GSND", "number": "5112" },
-      { "subject": "GSND", "number": "5111" },
       { "subject": "GSND", "number": "5112" }
     ],
     "prereqs": []
@@ -37,17 +31,7 @@
       { "term": "202310", "crn": "17140" }
     ],
     "description": "Offers students an opportunity to discuss and analyze selected games, applying concepts from GSND 5110. Exposes students to a varied mix of AAA and indie titles and demonstrates how to analyze and appreciate them. Open to seniors; restricted to students in selected colleges.",
-    "coreqs": [
-      { "subject": "GSND", "number": "5110" },
-      { "subject": "GSND", "number": "5110" },
-      { "subject": "GSND", "number": "5110" },
-      { "subject": "GSND", "number": "5110" },
-      { "subject": "GSND", "number": "5110" },
-      { "subject": "GSND", "number": "5110" },
-      { "subject": "GSND", "number": "5110" },
-      { "subject": "GSND", "number": "5110" },
-      { "subject": "GSND", "number": "5110" }
-    ],
+    "coreqs": [{ "subject": "GSND", "number": "5110" }],
     "prereqs": []
   },
   {
@@ -92,17 +76,7 @@
       { "term": "202310", "crn": "17143" }
     ],
     "description": "Focuses on methods and methodologies from human-computer interaction (HCI) and their use in different applications, including apps, web  applications, games, and virtual worlds. Covers the basics of user-oriented evaluation, associated topics, and usability methods. Introduces the design process, usability heuristics, HCI paradigms, task models, and cognitive models. Examines quantitative and qualitative analysis of data. Offers students an opportunity to delve into experimental design, institutional review board  approvals, ethics, research subject recruitment, and experiment implementations. Applies concepts through concrete projects, case examples, and exercises. Expects students to be running assignments continually and trying out different evaluation methods and methodologies.",
-    "coreqs": [
-      { "subject": "GSND", "number": "5131" },
-      { "subject": "GSND", "number": "5131" },
-      { "subject": "GSND", "number": "5131" },
-      { "subject": "GSND", "number": "5131" },
-      { "subject": "GSND", "number": "5131" },
-      { "subject": "GSND", "number": "5131" },
-      { "subject": "GSND", "number": "5131" },
-      { "subject": "GSND", "number": "5131" },
-      { "subject": "GSND", "number": "5131" }
-    ],
+    "coreqs": [{ "subject": "GSND", "number": "5131" }],
     "prereqs": []
   },
   {
@@ -128,7 +102,9 @@
       { "term": "202330", "crn": "32872" },
       { "term": "202330", "crn": "36642" }
     ],
-    "description": "Explores the process of designing new modalities of interaction utilizing novel uses of established technology, e.g., pervasive and affective technologies. Focuses on philosophy and practice of creating and evaluating experimental interactions. Recontextualizes gameplay concepts through permutations of basic elements such as controls, platforms, cameras, interfaces, etc. Leverages constraints as vehicles to push the boundaries of accepted design. Explores four key approaches to experimental interaction through course projects and assignments: discovering, examining, and exploring potential new technologies and interaction principles; rapidly designing and prototyping experimental interactions; pitching, justifying, and explaining designs and prototypes to others; and addressing new technologies and forms of interaction from a research perspective, focusing on their larger implications and potential impact on play."
+    "description": "Explores the process of designing new modalities of interaction utilizing novel uses of established technology, e.g., pervasive and affective technologies. Focuses on philosophy and practice of creating and evaluating experimental interactions. Recontextualizes gameplay concepts through permutations of basic elements such as controls, platforms, cameras, interfaces, etc. Leverages constraints as vehicles to push the boundaries of accepted design. Explores four key approaches to experimental interaction through course projects and assignments: discovering, examining, and exploring potential new technologies and interaction principles; rapidly designing and prototyping experimental interactions; pitching, justifying, and explaining designs and prototypes to others; and addressing new technologies and forms of interaction from a research perspective, focusing on their larger implications and potential impact on play.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "GSND",
@@ -153,7 +129,13 @@
       { "term": "202330", "crn": "32874" },
       { "term": "202330", "crn": "37089" }
     ],
-    "description": "Explores theories of perception, motivation, needs, learning, goals, and belief systems as they pertain to games and play. Examines psychological principles, including visual and audio perception, emotions, behavior, personality, and the more recent scientific discoveries around psychological models explaining play behavior or motivation theories behind play. Introduces how players learn in and from games based on the relationship of play to learning theories. Forms a solid theoretical basis for a new segmentation tool&#8212;psychographics. Explores visual and cultural archetypes, digging into comics, movie sets, and cartoons to distillate what makes people tick in certain ways relating to universal theories of perception and gestalt theories. Applies the theories through critical analysis of play behavior and games."
+    "description": "Explores theories of perception, motivation, needs, learning, goals, and belief systems as they pertain to games and play. Examines psychological principles, including visual and audio perception, emotions, behavior, personality, and the more recent scientific discoveries around psychological models explaining play behavior or motivation theories behind play. Introduces how players learn in and from games based on the relationship of play to learning theories. Forms a solid theoretical basis for a new segmentation tool&#8212;psychographics. Explores visual and cultural archetypes, digging into comics, movie sets, and cartoons to distillate what makes people tick in certain ways relating to universal theories of perception and gestalt theories. Applies the theories through critical analysis of play behavior and games.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "GSND", "number": "5110" },
+      "Or",
+      { "subject": "GSND", "number": "5110" }
+    ]
   },
   {
     "subject": "GSND",
@@ -167,40 +149,8 @@
       { "term": "202310", "crn": "14104" }
     ],
     "description": "Focuses on topics of player psychology—cognition; memory; emotions; attention; and game-focused theories such as engagement, fun, user experience, player-need-satisfaction model, and flow. The development cycle of any game relies on the understanding of the players, the target market of the game product. Covers game usability engineering and game-specific evaluation methods, such as play testing, rapid iterative testing and evaluation (RITE), play-heuristic evaluation, and retrospective play reviews. Offers students an opportunity to learn how to analyze qualitative and quantitative data and to apply parametric and nonparametric statistical evaluation methods, qualitative data coding and analysis, and descriptive statistics. Requires students to apply visualization techniques of data and reporting.",
-    "coreqs": [
-      { "subject": "GSND", "number": "6331" },
-      { "subject": "GSND", "number": "6331" },
-      { "subject": "GSND", "number": "6331" },
-      { "subject": "GSND", "number": "6331" }
-    ],
+    "coreqs": [{ "subject": "GSND", "number": "6331" }],
     "prereqs": [
-      { "subject": "GSND", "number": "5130" },
-      "Or",
-      { "subject": "GSND", "number": "5130" },
-      "Or",
-      "(",
-      { "subject": "CS", "number": "5340" },
-      "And",
-      { "subject": "CS", "number": "6350" },
-      ")",
-      { "subject": "GSND", "number": "5130" },
-      "Or",
-      { "subject": "GSND", "number": "5130" },
-      "Or",
-      "(",
-      { "subject": "CS", "number": "5340" },
-      "And",
-      { "subject": "CS", "number": "6350" },
-      ")",
-      { "subject": "GSND", "number": "5130" },
-      "Or",
-      { "subject": "GSND", "number": "5130" },
-      "Or",
-      "(",
-      { "subject": "CS", "number": "5340" },
-      "And",
-      { "subject": "CS", "number": "6350" },
-      ")",
       { "subject": "GSND", "number": "5130" },
       "Or",
       { "subject": "GSND", "number": "5130" },
@@ -247,7 +197,9 @@
       { "term": "202330", "crn": "36644" },
       { "term": "202330", "crn": "37103" }
     ],
-    "description": "Studies principles of procedural content generation and generative methods, including modular design, the role of randomness in design, and designing for emergence. Examines the role of generative design in games and its impact on both designers and players. Through assignments and a semester-long project, encourages student creation of generative systems for playful experiences. In advanced course assignments, students are expected to evaluate the experience by applying game analytics and metrics and conducting user evaluations."
+    "description": "Studies principles of procedural content generation and generative methods, including modular design, the role of randomness in design, and designing for emergence. Examines the role of generative design in games and its impact on both designers and players. Through assignments and a semester-long project, encourages student creation of generative systems for playful experiences. In advanced course assignments, students are expected to evaluate the experience by applying game analytics and metrics and conducting user evaluations.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "GSND",

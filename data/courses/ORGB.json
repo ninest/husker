@@ -62,7 +62,23 @@
     ],
     "description": "Provides an overview of the actions and behaviors of people in organizations. Uses case studies, videos, experiential exercises, lectures, and discussions to explore the effects of individual, interpersonal, group, organizational, and cross-cultural factors on human behavior. Topics include groups and teams, motivation, leadership, organizational change, organizational culture, structure, conflict resolution, and communication. Both the underlying theories and principles of these topics, as well as their practical applications and implications for organizations, are covered.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      "(",
+      { "subject": "COOP", "number": "3945" },
+      "Or",
+      { "subject": "COOP", "number": "3948" },
+      ")",
+      "And",
+      "(",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      "Or",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      ")"
+    ]
   },
   {
     "subject": "ORGB",

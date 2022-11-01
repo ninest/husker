@@ -40,7 +40,9 @@
       { "term": "202330", "crn": "32417" },
       { "term": "202330", "crn": "34485" }
     ],
-    "description": "Presents scientific findings and innovations in the field of nanomedicine by leading researchers and clinicians, with a focus on emerging technologies for public health. Offers students an opportunity to learn about unmet needs and career opportunities in nanomedicine. May be repeated without limit."
+    "description": "Presents scientific findings and innovations in the field of nanomedicine by leading researchers and clinicians, with a focus on emerging technologies for public health. Offers students an opportunity to learn about unmet needs and career opportunities in nanomedicine. May be repeated without limit.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "NNMD",
@@ -70,6 +72,8 @@
       { "term": "202330", "crn": "31430" },
       { "term": "202330", "crn": "34486" }
     ],
-    "description": "Offers a comprehensive overview of the  commercialization process for nano- and  biomedical technologies. Discusses the key elements of a successful  business plan, including scientific innovation, market assessment, customer discovery,  intellectual property protection,  business modeling, and value extraction.  Also covers regulatory processes  and market-specific strategies for  raising capital.  Offers students an opportunity to gain entrepreneurship skills through the creation of a team business proposal. Students have opportunities to interact with guest entrepreneurs."
+    "description": "Offers a comprehensive overview of the  commercialization process for nano- and  biomedical technologies. Discusses the key elements of a successful  business plan, including scientific innovation, market assessment, customer discovery,  intellectual property protection,  business modeling, and value extraction.  Also covers regulatory processes  and market-specific strategies for  raising capital.  Offers students an opportunity to gain entrepreneurship skills through the creation of a team business proposal. Students have opportunities to interact with guest entrepreneurs.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]

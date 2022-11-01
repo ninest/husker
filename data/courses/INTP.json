@@ -43,7 +43,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "30508" }],
-    "description": "Focuses on the translation and interpretation of narrative texts (personal narratives, storytelling) and the development of strategic decision-making skills within the context of narrative texts. Presents an overview of linguistic and sociolinguistic features and situational aspects of narrative texts. Guides students in building cognitive processes and skills in translation, consecutive interpretation, simultaneous interpretation, and team interpretation. Offers students an opportunity to develop the decision-making skills needed for achieving cross-cultural, cross-linguistic message mediation in these settings."
+    "description": "Focuses on the translation and interpretation of narrative texts (personal narratives, storytelling) and the development of strategic decision-making skills within the context of narrative texts. Presents an overview of linguistic and sociolinguistic features and situational aspects of narrative texts. Guides students in building cognitive processes and skills in translation, consecutive interpretation, simultaneous interpretation, and team interpretation. Offers students an opportunity to develop the decision-making skills needed for achieving cross-cultural, cross-linguistic message mediation in these settings.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "INTP", "number": "3510" }]
   },
   {
     "subject": "INTP",
@@ -55,7 +57,19 @@
     "sections": [{ "term": "202310", "crn": "19744" }],
     "description": "Guides students through the process of analyzing and interpreting frozen texts (plays, poems, and ceremonial scripts), from first read-through to final interpreted rendering of the performed text. Interpreting for theatrical or otherwise scripted communication is markedly different from other forms of interpreting. The availability of a script, ample time to rehearse, and the possibility of feedback makes this a hybrid practice—part interpreting, part translation, and part performance. Offers students an opportunity to learn how to analyze scripts for both content and interpreting issues; how to solve production problems of logistics, placement, and lighting; and how to interpret a series of performances for the Deaf Community. This course is offered in conjunction with or in advance of a theatre department production or other performed text.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "AMSL", "number": "2102" },
+      "And",
+      "(",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      ")"
+    ]
   },
   {
     "subject": "INTP",
@@ -65,6 +79,8 @@
     "credits": 4,
     "nuPath": ["CE", "WI"],
     "sections": [{ "term": "202330", "crn": "30051" }],
-    "description": "Requires students to undertake a research project focused on some aspect of American Sign Language-English interpretation. Students work individually or in research teams (with approval). In consultation with a faculty advisor, students select a research question, design and implement the data collection component of the project, analyze results, and write up their research findings. In addition to a written report, students also present their research results to ASL majors and community stakeholders at an annual ASL research symposium."
+    "description": "Requires students to undertake a research project focused on some aspect of American Sign Language-English interpretation. Students work individually or in research teams (with approval). In consultation with a faculty advisor, students select a research question, design and implement the data collection component of the project, analyze results, and write up their research findings. In addition to a written report, students also present their research results to ASL majors and community stakeholders at an annual ASL research symposium.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "INTP", "number": "3970" }]
   }
 ]

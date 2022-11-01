@@ -24,7 +24,7 @@
     "sections": [{ "term": "202310", "crn": "19743" }],
     "description": "Designed for students with prior ASL learning",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "AMSL", "number": "1102" }]
   },
   {
     "subject": "DEAF",
@@ -34,7 +34,9 @@
     "credits": 4,
     "nuPath": ["DD", "IC"],
     "sections": [{ "term": "202330", "crn": "38659" }],
-    "description": "Surveys the history and culture of the American Deaf community and Deaf people in the Western world.  Focuses on educational, political, and technological forces and events that have positively and negatively affected the American Deaf community. Focuses on the American Deaf community as a linguistic and cultural minority. Also examines contemporary values and factors that shape and define the diverse American Deaf community and compares and contrasts American Deaf cultural values with those of American society in general."
+    "description": "Surveys the history and culture of the American Deaf community and Deaf people in the Western world.  Focuses on educational, political, and technological forces and events that have positively and negatively affected the American Deaf community. Focuses on the American Deaf community as a linguistic and cultural minority. Also examines contemporary values and factors that shape and define the diverse American Deaf community and compares and contrasts American Deaf cultural values with those of American society in general.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "DEAF", "number": "1500" }]
   },
   {
     "subject": "DEAF",
@@ -44,6 +46,26 @@
     "credits": 4,
     "nuPath": ["WI"],
     "sections": [{ "term": "202330", "crn": "30054" }],
-    "description": "Introduces the basic issues in linguistics by examining the structural properties of American Sign Language. Includes phonology (formational properties of signs); morphology (word formation, rules, derivation, inflection, complex verbs, classifiers, and verb modulations); semantics (the meaning structure of signs); and syntax (the structure of ASL utterances in terms of old vs. new information and the structure of ASL narratives). Examines sociolinguistic variation of ASL usage (such as region, age, and Black ASL), as well as language attitudes and change over time."
+    "description": "Introduces the basic issues in linguistics by examining the structural properties of American Sign Language. Includes phonology (formational properties of signs); morphology (word formation, rules, derivation, inflection, complex verbs, classifiers, and verb modulations); semantics (the meaning structure of signs); and syntax (the structure of ASL utterances in terms of old vs. new information and the structure of ASL narratives). Examines sociolinguistic variation of ASL usage (such as region, age, and Black ASL), as well as language attitudes and change over time.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "LING", "number": "1150" },
+      "Or",
+      { "subject": "ENGL", "number": "1150" },
+      ")",
+      "And",
+      "(",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      ")",
+      "And",
+      { "subject": "AMSL", "number": "1102" }
+    ]
   }
 ]

@@ -41,7 +41,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38252" }],
-    "description": "Examines popular and scientific notions about sex, gender relations, family, and kinship. Examines why our images of family, masculinity, and femininity are not universal by analyzing the patterns of sex roles, sexual practices, and kinship in other cultures. Discusses how and why relations between men and women change during times of socioeconomic and political change."
+    "description": "Examines popular and scientific notions about sex, gender relations, family, and kinship. Examines why our images of family, masculinity, and femininity are not universal by analyzing the patterns of sex roles, sexual practices, and kinship in other cultures. Discusses how and why relations between men and women change during times of socioeconomic and political change.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "ANTH",
@@ -81,7 +83,22 @@
     "sections": [{ "term": "202310", "crn": "19726" }],
     "description": "Focuses on the connections between the development of modern nation-states and the control of nature. Explores the role human societies play in such events as climate change, tsunamis, and droughts. Studies how industrialization and the process of science and technology development are related to our transforming environmental conditions, as well as how the social sciences, the sciences, and engineering are transforming to address these issues. Draws on social theory, environmental history, anthropology, sociology, art, design, and open-source technologies to investigate theoretically and methodologically the sources, experiences of, and solutions for environmental health questions.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ANTH", "number": "1101" },
+      "Or",
+      { "subject": "CRIM", "number": "1100" },
+      "Or",
+      { "subject": "HUSV", "number": "1101" },
+      "Or",
+      { "subject": "INTL", "number": "1101" },
+      "Or",
+      { "subject": "POLS", "number": "1140" },
+      "Or",
+      { "subject": "POLS", "number": "1160" },
+      "Or",
+      { "subject": "SOCL", "number": "1101" },
+      "Or"
+    ]
   },
   {
     "subject": "ANTH",
@@ -91,7 +108,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38213" }],
-    "description": "Examines the roots of the urbanization process, major ways of thinking about it, and the development of world cities and megacities. The twenty-first century will be a century in which urbanism is a central problem and opportunity. Considers the economic, political, cultural, and environmental dimensions of urbanism across the globe. Includes specific case studies from around the world. Encourages students to develop a knowledge of particular cities in order to examine the key themes of the course. INTL 3200, ANTH 3200, and SOCL 3200 are cross-listed."
+    "description": "Examines the roots of the urbanization process, major ways of thinking about it, and the development of world cities and megacities. The twenty-first century will be a century in which urbanism is a central problem and opportunity. Considers the economic, political, cultural, and environmental dimensions of urbanism across the globe. Includes specific case studies from around the world. Encourages students to develop a knowledge of particular cities in order to examine the key themes of the course. INTL 3200, ANTH 3200, and SOCL 3200 are cross-listed.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "ANTH",
@@ -101,7 +120,9 @@
     "credits": 4,
     "nuPath": ["AD", "EX"],
     "sections": [{ "term": "202330", "crn": "38230" }],
-    "description": "Offers students an opportunity to experience fieldwork while studying current ethnographic methods and theory and to design a semester-long ethnographic field research project. Field sites may include public and outdoor spaces, online communities, cultural centers, schools, immigrant neighborhoods, sports organizations, social service agencies, nonprofit groups, religious institutions, etc."
+    "description": "Offers students an opportunity to experience fieldwork while studying current ethnographic methods and theory and to design a semester-long ethnographic field research project. Field sites may include public and outdoor spaces, online communities, cultural centers, schools, immigrant neighborhoods, sports organizations, social service agencies, nonprofit groups, religious institutions, etc.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "ANTH", "number": "1101" }]
   },
   {
     "subject": "ANTH",
@@ -140,7 +161,7 @@
     "sections": [{ "term": "202310", "crn": "19985" }],
     "description": "Introduces the foundations of anthropological theory. Examines recurring themes surrounding structure and agency, culture and power, and the tension between the individual and society. Addresses these questions by returning to anthropology's Enlightenment roots, early evolutionary thought, classic and contemporary theories, as well as ongoing critiques of the discipline. Explores different schools of thought, including functionalism, structural functionalism, symbolism, interpretivism, and more recent theoretical developments that address history, political economy, reflexivity, poststructuralism, and feminism, as well as transnational/global and activist approaches. Requires prior completion of two ANTH courses numbered 1000 or above.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "ANTH", "number": "1101" }]
   },
   {
     "subject": "ANTH",
@@ -150,7 +171,13 @@
     "credits": 4,
     "nuPath": ["DD", "SI"],
     "sections": [{ "term": "202330", "crn": "38231" }],
-    "description": "Examines core concepts of medicine as a cultural system, then moves to anthropology of the body as it has been understood and shaped within healing systems. Medical anthropology is a subfield of anthropology that uses the four-field approach to examine cultural concepts and experiences of health, illness, treatment, and power cross-culturally. Emphasizes history and construction of biomedicine. Surveys traditional Chinese medicine, Ayurvedic medicine, Voudon, Mayan curanderos, and other folk healing systems around the world. Explores medical pluralism, the common practice of seeking out and utilizing more than one therapeutic treatment style at one time; structural violence; and how healing systems interact with broader political and social systems globally."
+    "description": "Examines core concepts of medicine as a cultural system, then moves to anthropology of the body as it has been understood and shaped within healing systems. Medical anthropology is a subfield of anthropology that uses the four-field approach to examine cultural concepts and experiences of health, illness, treatment, and power cross-culturally. Emphasizes history and construction of biomedicine. Surveys traditional Chinese medicine, Ayurvedic medicine, Voudon, Mayan curanderos, and other folk healing systems around the world. Explores medical pluralism, the common practice of seeking out and utilizing more than one therapeutic treatment style at one time; structural violence; and how healing systems interact with broader political and social systems globally.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "ANTH", "number": "1101" },
+      "Or",
+      { "subject": "SOCL", "number": "1101" }
+    ]
   },
   {
     "subject": "ANTH",
@@ -162,7 +189,7 @@
     "sections": [{ "term": "202310", "crn": "19725" }],
     "description": "Reflects on the social, economic, ecological, and cultural value of anthropology as a field, as well as an experiential learning space for transforming anthropological research into material understandable by the general public. Offers students an opportunity to learn methodologies across visual, collaborative, and engaged anthropologies, as well as to study the ethical considerations and specific skills necessary to communicate effectively in a variety of modalities.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "ANTH", "number": "1101" }]
   },
   {
     "subject": "ANTH",
@@ -172,7 +199,36 @@
     "credits": 4,
     "nuPath": ["IC", "WI"],
     "sections": [{ "term": "202330", "crn": "36210" }],
-    "description": "Explores the processes of social, economic, and cultural change in Latin America. While concentrating on the present, traces class formation, agrarian structures, ethnic identity, ceremonial organization, gender roles, and political conflict since the colonial era in a range of countries. Emphasizes the relationship of communities and national political and economic systems. May emphasize Central America and Mexico or countries in South America through case studies. ANTH 4500 and INTL 4500 are cross-listed."
+    "description": "Explores the processes of social, economic, and cultural change in Latin America. While concentrating on the present, traces class formation, agrarian structures, ethnic identity, ceremonial organization, gender roles, and political conflict since the colonial era in a range of countries. Emphasizes the relationship of communities and national political and economic systems. May emphasize Central America and Mexico or countries in South America through case studies. ANTH 4500 and INTL 4500 are cross-listed.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      { "subject": "SOCL", "number": "1101" },
+      "Or",
+      { "subject": "ANTH", "number": "1101" },
+      "Or",
+      { "subject": "HUSV", "number": "1101" },
+      "Or",
+      { "subject": "CRIM", "number": "1100" },
+      "Or",
+      { "subject": "INTL", "number": "1101" },
+      "Or",
+      "Or",
+      { "subject": "POLS", "number": "1140" },
+      "Or",
+      { "subject": "POLS", "number": "1160" },
+      ")",
+      "And",
+      "(",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      ")"
+    ]
   },
   {
     "subject": "ANTH",
@@ -184,7 +240,18 @@
     "sections": [{ "term": "202310", "crn": "20320" }],
     "description": "Introduces students to changes in society and economy in contemporary China. Examines changes in family, gender relations, rural life, work, and international relations. Draws on literature from a range of disciplines including sociology, political science, anthropology, and economics.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "ANTH", "number": "1101" },
+      "Or",
+      { "subject": "INTL", "number": "1101" },
+      "Or",
+      { "subject": "POLS", "number": "1140" },
+      "Or",
+      { "subject": "POLS", "number": "1160" },
+      "Or",
+      { "subject": "SOCL", "number": "1101" },
+      "Or"
+    ]
   },
   {
     "subject": "ANTH",
@@ -194,6 +261,8 @@
     "credits": 4,
     "nuPath": ["CE", "WI"],
     "sections": [{ "term": "202330", "crn": "30837" }],
-    "description": "Designed to deal with anthropological theory and work with students who are asked to apply these theories to some of their own work. Content may vary."
+    "description": "Designed to deal with anthropological theory and work with students who are asked to apply these theories to some of their own work. Content may vary.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]

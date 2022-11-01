@@ -77,7 +77,17 @@
     ],
     "description": "Offers students an introduction to and overview of the methodological frameworks and tool sets for the design, development, and implementation of data-management solutions. Today, almost no aspect of business operates without a strong reliance on the flow of information. Even small enterprises track huge volumes of data, from sales transactions and supply chain activities to Web site traffic. Knowledge workers and managers at all levels within the organization require an understanding of data management, database design and operations, and associated decision-support and data-analysis tools and systems to complete even day-to-day tasks. Offers students an opportunity to work hands-on, applying these methods and tools to solve actual business problems.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      "(",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      ")"
+    ]
   },
   {
     "subject": "MISM",
@@ -87,7 +97,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "35619" }],
-    "description": "Covers data wrangling principles and novel techniques for business analytics. Key topics include data profiling, data retrieval, data cleansing, and data integration, as well as data extraction and exploration via APIs. Applies the principles of data wrangling for structured and unstructured data using industry tools such as Oracle, SQL, statistical programming languages (R/Python), and visualization tools (Tableau). Offers students an opportunity to learn data wrangling techniques to identify and solve real-world data challenges, creating business value from the vast amount and types of traditional and big data."
+    "description": "Covers data wrangling principles and novel techniques for business analytics. Key topics include data profiling, data retrieval, data cleansing, and data integration, as well as data extraction and exploration via APIs. Applies the principles of data wrangling for structured and unstructured data using industry tools such as Oracle, SQL, statistical programming languages (R/Python), and visualization tools (Tableau). Offers students an opportunity to learn data wrangling techniques to identify and solve real-world data challenges, creating business value from the vast amount and types of traditional and big data.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MISM",
@@ -127,33 +139,6 @@
       "Or",
       { "subject": "MATH", "number": "3081" },
       "Or",
-      { "subject": "POLS", "number": "2400" },
-      { "subject": "MGSC", "number": "2301" },
-      "Or",
-      { "subject": "ECON", "number": "2350" },
-      "Or",
-      { "subject": "MATH", "number": "2280" },
-      "Or",
-      { "subject": "MATH", "number": "3081" },
-      "Or",
-      { "subject": "POLS", "number": "2400" },
-      { "subject": "MGSC", "number": "2301" },
-      "Or",
-      { "subject": "ECON", "number": "2350" },
-      "Or",
-      { "subject": "MATH", "number": "2280" },
-      "Or",
-      { "subject": "MATH", "number": "3081" },
-      "Or",
-      { "subject": "POLS", "number": "2400" },
-      { "subject": "MGSC", "number": "2301" },
-      "Or",
-      { "subject": "ECON", "number": "2350" },
-      "Or",
-      { "subject": "MATH", "number": "2280" },
-      "Or",
-      { "subject": "MATH", "number": "3081" },
-      "Or",
       { "subject": "POLS", "number": "2400" }
     ]
   },
@@ -165,7 +150,25 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "34281" }],
-    "description": "Focuses on modern decision models in business analytics with applications to business process design, revenue management, pricing, inventory control, business network planning, and other topics. Introduces concepts including optimization, dynamic programming, cluster analysis, and consumer choice models. Emphasizes data-driven, real-world applications of the mathematical decision tools and concepts presented in the course."
+    "description": "Focuses on modern decision models in business analytics with applications to business process design, revenue management, pricing, inventory control, business network planning, and other topics. Introduces concepts including optimization, dynamic programming, cluster analysis, and consumer choice models. Emphasizes data-driven, real-world applications of the mathematical decision tools and concepts presented in the course.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "COMM", "number": "2301" },
+      "Or",
+      { "subject": "ECON", "number": "2350" },
+      "Or",
+      { "subject": "MATH", "number": "2280" },
+      "Or",
+      { "subject": "MATH", "number": "3081" },
+      "Or",
+      { "subject": "MGSC", "number": "2301" },
+      "Or",
+      { "subject": "PHTH", "number": "2210" },
+      "Or",
+      { "subject": "POLS", "number": "2400" },
+      "Or",
+      { "subject": "PSYC", "number": "2320" }
+    ]
   },
   {
     "subject": "MISM",
@@ -180,7 +183,25 @@
     ],
     "description": "Examines significant improvements to business performance, which can be achieved through sharing information within the enterprise and with customers and suppliers. Realizing the full business benefits of shared information requires changing processes and organizational structures. This team- and project-based course offers students an opportunity to design and implement these strategies and to examine significant improvements to business performance.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      "(",
+      { "subject": "MISM", "number": "3403" },
+      "Or",
+      { "subject": "IS", "number": "3500" },
+      "Or",
+      { "subject": "CS", "number": "2510" },
+      ")",
+      "And",
+      "(",
+      { "subject": "ENGL", "number": "1111" },
+      "Or",
+      { "subject": "ENGL", "number": "1102" },
+      "Or",
+      { "subject": "ENGW", "number": "1111" },
+      "Or",
+      { "subject": "ENGW", "number": "1102" },
+      ")"
+    ]
   },
   {
     "subject": "MISM",
@@ -249,7 +270,7 @@
     ],
     "description": "Covers data wrangling principles and techniques for business. Key topics include data extraction, profiling, cleansing, integration, aggregation, transformation, and automating data processes for business purposes. Applies principles and techniques using data transformation tools, programming languages, and data process automation tools. Emphasizes embedding appropriate communication mechanisms for collaboration for identifying, solving, and resolving challenges revealed in datasets and business processes. Offers students an opportunity to learn data wrangling techniques to identify, solve, and resolve real-world data challenges, creating business value in today’s disparate computing and dynamic business environment.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "MISM", "number": "6202" }]
   },
   {
     "subject": "MISM",
@@ -259,7 +280,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38150" }],
-    "description": "Focuses on modern decision models in business analytics, with applications to business process design, revenue management, pricing, inventory control, business network planning, and other topics. Includes optimization, simulation, and selected data mining techniques. Emphasizes data-driven, real-world applications of mathematical decision tools and concepts."
+    "description": "Focuses on modern decision models in business analytics, with applications to business process design, revenue management, pricing, inventory control, business network planning, and other topics. Includes optimization, simulation, and selected data mining techniques. Emphasizes data-driven, real-world applications of mathematical decision tools and concepts.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "MISM", "number": "6202" }]
   },
   {
     "subject": "MISM",

@@ -151,7 +151,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "35627" }],
-    "description": "Covers the issues and practices of successful multigeneration family businesses, including family values and culture, managing conflict, sibling rivalry, entitlement, hiring family and nonfamily employees, management of the family business, facilitating growth and change, and succession planning."
+    "description": "Covers the issues and practices of successful multigeneration family businesses, including family values and culture, managing conflict, sibling rivalry, entitlement, hiring family and nonfamily employees, management of the family business, facilitating growth and change, and succession planning.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "ENTR",
@@ -193,7 +195,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "34747" }],
-    "description": "Covers the intersection of project management, product development, and product portfolio management. Focuses on how large corporations develop, manage, and commercialize new products and services. Explores the unique attributes of different industries, such as internet platform-based firms, service-based firms, traditional manufacturing firms, and healthcare."
+    "description": "Covers the intersection of project management, product development, and product portfolio management. Focuses on how large corporations develop, manage, and commercialize new products and services. Explores the unique attributes of different industries, such as internet platform-based firms, service-based firms, traditional manufacturing firms, and healthcare.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "ENTR",
@@ -274,7 +278,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38113" }],
-    "description": "Designed for advanced students interested in launching a new venture or growing an existing business venture. Includes developing a business plan, strategy development for small- to medium-sized enterprises, sales forecasting, pro forma development, debt financing, and service developments. Sponsored by the Center for Family Business, focuses on obtaining a bank loan to start a business or to grow an existing small- to medium-sized venture."
+    "description": "Designed for advanced students interested in launching a new venture or growing an existing business venture. Includes developing a business plan, strategy development for small- to medium-sized enterprises, sales forecasting, pro forma development, debt financing, and service developments. Sponsored by the Center for Family Business, focuses on obtaining a bank loan to start a business or to grow an existing small- to medium-sized venture.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "ENTR",
@@ -284,7 +290,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38114" }],
-    "description": "Offers students an opportunity to experience corporate innovation in the classroom. Corporate innovation involves an enterprise experimenting with modern practices, technology, strategies, and opportunities to make its existing business model more competitive in the current marketplace. Students, as a class, represent a specific firm and tackle these corporate innovation challenges by adopting a culture that embraces new technology and actively seeks out ways to enhance the firm’s business model. With this proactive approach to corporate innovation, the students can visualize how enterprises can remain agile in the face of rising competition. The goal is to learn how corporations may even identify new opportunities before any startup has a chance to establish itself in the market."
+    "description": "Offers students an opportunity to experience corporate innovation in the classroom. Corporate innovation involves an enterprise experimenting with modern practices, technology, strategies, and opportunities to make its existing business model more competitive in the current marketplace. Students, as a class, represent a specific firm and tackle these corporate innovation challenges by adopting a culture that embraces new technology and actively seeks out ways to enhance the firm’s business model. With this proactive approach to corporate innovation, the students can visualize how enterprises can remain agile in the face of rising competition. The goal is to learn how corporations may even identify new opportunities before any startup has a chance to establish itself in the market.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "ENTR",
@@ -322,7 +330,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38965" }],
-    "description": "Topic: The Digital Transformation of Urban Innovation?"
+    "description": "Topic: The Digital Transformation of Urban Innovation?",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "ENTR",
@@ -382,7 +392,9 @@
       { "term": "202330", "crn": "32339" },
       { "term": "202330", "crn": "30939" }
     ],
-    "description": "Stresses the operating problems of managing small businesses. Case studies develop analytical approaches for appraising the risks and rewards of potential growth opportunities as well as operating problems. Problems range from locating, evaluating, marketing, and financing a small company to the survival and growth of more established businesses. Guest speakers and entrepreneurs provide pertinent business perspectives to in-class activities."
+    "description": "Stresses the operating problems of managing small businesses. Case studies develop analytical approaches for appraising the risks and rewards of potential growth opportunities as well as operating problems. Problems range from locating, evaluating, marketing, and financing a small company to the survival and growth of more established businesses. Guest speakers and entrepreneurs provide pertinent business perspectives to in-class activities.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "ENTR",
@@ -395,7 +407,9 @@
       { "term": "202330", "crn": "31208" },
       { "term": "202330", "crn": "31209" }
     ],
-    "description": "Covers the issues surrounding the creation of a new business in the service and retail sectors. Emphasizes issues relating to the startup, growth, and operation of business ventures in these areas. Topics include developing a business plan for startup, market positioning, services design, operations management, sales forecasting, cash flow management, and venture financing with a heavy emphasis on debt financing. Students are asked to develop business plans for services and retail ventures of their own choosing as the class project. Requires prior completion of 9 SH of MBA core courses."
+    "description": "Covers the issues surrounding the creation of a new business in the service and retail sectors. Emphasizes issues relating to the startup, growth, and operation of business ventures in these areas. Topics include developing a business plan for startup, market positioning, services design, operations management, sales forecasting, cash flow management, and venture financing with a heavy emphasis on debt financing. Students are asked to develop business plans for services and retail ventures of their own choosing as the class project. Requires prior completion of 9 SH of MBA core courses.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "ENTR",
@@ -446,7 +460,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "31976" }],
-    "description": "Introduces major topics in the modern understanding of business models: their essence and role in securing competitive advantage, key components and design of business models, business model change and innovation, technology commercialization through sustaining business models, financial representation of a business model, and validation of developed business models."
+    "description": "Introduces major topics in the modern understanding of business models: their essence and role in securing competitive advantage, key components and design of business models, business model change and innovation, technology commercialization through sustaining business models, financial representation of a business model, and validation of developed business models.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "ENTR",
@@ -495,7 +511,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "33468" }],
-    "description": "Provides a business perspective on how to design and optimize platform-based business models for growth, value creation, and innovation and a practical analytical toolkit of theories, concepts, and frameworks. Uses case studies from various industries. Many of today’s growth enterprises and startups are organized as platforms. Platforms facilitate other actors and support interactions among a wider “ecosystem” of users, services, suppliers, etc., and they have potential for massive growth and value creation. High returns to successful platform business models lead companies to learn to act like platforms. Technology trends toward digitization, big data, automation, etc., accelerate these trends. Aimed at people looking to work within existing companies or those interested in starting or growing new platforms."
+    "description": "Provides a business perspective on how to design and optimize platform-based business models for growth, value creation, and innovation and a practical analytical toolkit of theories, concepts, and frameworks. Uses case studies from various industries. Many of today’s growth enterprises and startups are organized as platforms. Platforms facilitate other actors and support interactions among a wider “ecosystem” of users, services, suppliers, etc., and they have potential for massive growth and value creation. High returns to successful platform business models lead companies to learn to act like platforms. Technology trends toward digitization, big data, automation, etc., accelerate these trends. Aimed at people looking to work within existing companies or those interested in starting or growing new platforms.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "ENTR",

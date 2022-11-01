@@ -37,7 +37,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38143" }],
-    "description": "Covers fundamentals of change leadership as a set of integrated skills, focusing on examples of both proactive change (leveraging opportunities to grow and improve), as well as reactive change (leading in times of crisis). Uses case studies, media coverage, simulations, and guest speakers to examine some of the most dramatic changes encountered by business leaders in recent times and to evaluate different approaches to managing change at all levels of the organization. Examines the psychology of change, including overcoming fear of and resistance to change, and introduces practical frameworks that students can leverage in their own change efforts. Requires a student-led change project."
+    "description": "Covers fundamentals of change leadership as a set of integrated skills, focusing on examples of both proactive change (leveraging opportunities to grow and improve), as well as reactive change (leading in times of crisis). Uses case studies, media coverage, simulations, and guest speakers to examine some of the most dramatic changes encountered by business leaders in recent times and to evaluate different approaches to managing change at all levels of the organization. Examines the psychology of change, including overcoming fear of and resistance to change, and introduces practical frameworks that students can leverage in their own change efforts. Requires a student-led change project.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MGMT",
@@ -62,7 +64,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38144" }],
-    "description": "Examines issues related to managing oneself and others in an increasingly diverse workforce. Organizations need to address diversity issues in some manner if they are to compete effectively in a global economy. Covers diversity-related issues with management implications including religion, social identity, socialization, employment decisions by applicants and organizations, team dynamics, leadership, sexual harassment, workplace romance, career development, work and family, accommodation of people with disabilities, and organizational strategies for promoting equal opportunity and a multicultural approach toward diversity. Offers students an opportunity to conduct self-assessments to monitor their own workforce needs as they relate to issues of diversity, careers, and work-life integration."
+    "description": "Examines issues related to managing oneself and others in an increasingly diverse workforce. Organizations need to address diversity issues in some manner if they are to compete effectively in a global economy. Covers diversity-related issues with management implications including religion, social identity, socialization, employment decisions by applicants and organizations, team dynamics, leadership, sexual harassment, workplace romance, career development, work and family, accommodation of people with disabilities, and organizational strategies for promoting equal opportunity and a multicultural approach toward diversity. Offers students an opportunity to conduct self-assessments to monitor their own workforce needs as they relate to issues of diversity, careers, and work-life integration.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MGMT",
@@ -72,7 +76,13 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "35616" }],
-    "description": "Designed to help develop students’ leadership skills and prepare themselves to lead with integrity. Uses discussion, case studies, exercises, and video/audio to explore both the science and the art of leadership. Topics include leadership theories, power and politics, counseling, communication, and followership. Additionally, this class includes a heavy focus on ethical philosophy and its application to leadership."
+    "description": "Designed to help develop students’ leadership skills and prepare themselves to lead with integrity. Uses discussion, case studies, exercises, and video/audio to explore both the science and the art of leadership. Topics include leadership theories, power and politics, counseling, communication, and followership. Additionally, this class includes a heavy focus on ethical philosophy and its application to leadership.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "COOP", "number": "3945" },
+      "Or",
+      { "subject": "COOP", "number": "3948" }
+    ]
   },
   {
     "subject": "MGMT",
@@ -97,7 +107,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "34277" }],
-    "description": "Introduces students to social network analysis. Identifies and evaluates key elements of an individual's social network—including students' own networks—and familiarizes students with some tools and techniques for managing organizational networks. Examines different types and combinations of social relations, network structures of these relations, and institutional environments that impact them. The course combines lectures, case-based class discussions, and personal/organizational network analysis applications."
+    "description": "Introduces students to social network analysis. Identifies and evaluates key elements of an individual's social network—including students' own networks—and familiarizes students with some tools and techniques for managing organizational networks. Examines different types and combinations of social relations, network structures of these relations, and institutional environments that impact them. The course combines lectures, case-based class discussions, and personal/organizational network analysis applications.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MGMT",
@@ -153,7 +165,11 @@
     ],
     "description": "Offers students an opportunity to gain practical experience in finding appropriate solutions for complex and dynamic client organizational issues using a structured curriculum and frequent in-class coaching sessions. Students work as pro bono consultants both onsite and virtually with organizations to help solve real client challenges in the managing and leading of an organization. Students employ management consulting as a framework in demonstrating proficiency in a wide range of knowledge and skill areas in both management and consulting. Structures course deliverables as challenging goals to be achieved within a set time frame by working with students' chosen consulting (Pod) group and through individual assignments.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "COOP", "number": "3945" },
+      "Or",
+      { "subject": "COOP", "number": "3948" }
+    ]
   },
   {
     "subject": "MGMT",
@@ -196,7 +212,9 @@
       { "term": "202330", "crn": "31170" },
       { "term": "202330", "crn": "31171" }
     ],
-    "description": "Examines how organizational leaders influence decisions to advance an environmental agenda. Studies the scientific knowledge that organizational leaders must have to make effective sustainability decisions. Analyzes how a variety of organizations, including businesses, governments, government-sponsored enterprises, and nongovernment organizations, interact on environmental issues."
+    "description": "Examines how organizational leaders influence decisions to advance an environmental agenda. Studies the scientific knowledge that organizational leaders must have to make effective sustainability decisions. Analyzes how a variety of organizations, including businesses, governments, government-sponsored enterprises, and nongovernment organizations, interact on environmental issues.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MGMT",
@@ -209,7 +227,9 @@
       { "term": "202330", "crn": "31483" },
       { "term": "202330", "crn": "32042" }
     ],
-    "description": "Examines how the environment affects corporate strategy, public policy, and individual decision making. Exposes students to the skills and knowledge needed to help organizations understand and act upon the principles of sustainability. Examines a variety of environmental problems, including global warming, use and disposal of toxic substances, and depletion of natural resources. Also studies how companies solve these problems by reducing their impact on the environment through solutions such as zero emissions, green design, and corporate environmental reporting."
+    "description": "Examines how the environment affects corporate strategy, public policy, and individual decision making. Exposes students to the skills and knowledge needed to help organizations understand and act upon the principles of sustainability. Examines a variety of environmental problems, including global warming, use and disposal of toxic substances, and depletion of natural resources. Also studies how companies solve these problems by reducing their impact on the environment through solutions such as zero emissions, green design, and corporate environmental reporting.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "MGMT",
@@ -219,6 +239,8 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "32499" }],
-    "description": "Focuses on next-generation products, systems, and services with an integrated framework that applies market innovation, user-centered design, architectural and platform innovation, and business model innovation. Offers students an opportunity to apply these concepts to new product/service/business process innovation opportunities in their own organization with executive sponsorship and faculty guidance."
+    "description": "Focuses on next-generation products, systems, and services with an integrated framework that applies market innovation, user-centered design, architectural and platform innovation, and business model innovation. Offers students an opportunity to apply these concepts to new product/service/business process innovation opportunities in their own organization with executive sponsorship and faculty guidance.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]

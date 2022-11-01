@@ -23,7 +23,9 @@
     "credits": 1,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38362" }],
-    "description": "Introduces students to the pharmaceutical sciences cooperative education program and professionalism in the field. Students assess their workplace skills, interests, and values and discuss how these impact personal career decisions. Offers students an opportunity to develop effective job search and career management skills, prepare a professional resumé, learn proper interviewing techniques, develop a strong online professional profile, and learn how to use the Northeastern job database and referral process."
+    "description": "Introduces students to the pharmaceutical sciences cooperative education program and professionalism in the field. Students assess their workplace skills, interests, and values and discuss how these impact personal career decisions. Offers students an opportunity to develop effective job search and career management skills, prepare a professional resumé, learn proper interviewing techniques, develop a strong online professional profile, and learn how to use the Northeastern job database and referral process.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHSC",
@@ -63,25 +65,8 @@
       { "term": "202310", "crn": "10536" }
     ],
     "description": "Accompanies PHSC 2301. Focuses on the anatomy of the major organ systems. Digital images allow each student to study the structure of each organ system in-depth.",
-    "coreqs": [
-      { "subject": "PHSC", "number": "2301" },
-      { "subject": "PHSC", "number": "2301" },
-      { "subject": "PHSC", "number": "2301" },
-      { "subject": "PHSC", "number": "2301" },
-      { "subject": "PHSC", "number": "2301" },
-      { "subject": "PHSC", "number": "2301" },
-      { "subject": "PHSC", "number": "2301" },
-      { "subject": "PHSC", "number": "2301" },
-      { "subject": "PHSC", "number": "2301" },
-      { "subject": "PHSC", "number": "2301" },
-      { "subject": "PHSC", "number": "2301" },
-      { "subject": "PHSC", "number": "2301" },
-      { "subject": "PHSC", "number": "2301" },
-      { "subject": "PHSC", "number": "2301" },
-      { "subject": "PHSC", "number": "2301" },
-      { "subject": "PHSC", "number": "2301" }
-    ],
-    "prereqs": []
+    "coreqs": [{ "subject": "PHSC", "number": "2301" }],
+    "prereqs": [{ "subject": "BIOL", "number": "1113" }]
   },
   {
     "subject": "PHSC",
@@ -91,7 +76,13 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38363" }],
-    "description": "Continues PHSC 2301. Provides students with an understanding of the principles of physiology. Discusses physiological information mostly related to cell physiology, muscle physiology, and physiology of the nervous system. Focuses on the physiological mechanisms of the major organ systems. Physiological information is related to the specific areas of pharmacology."
+    "description": "Continues PHSC 2301. Provides students with an understanding of the principles of physiology. Discusses physiological information mostly related to cell physiology, muscle physiology, and physiology of the nervous system. Focuses on the physiological mechanisms of the major organ systems. Physiological information is related to the specific areas of pharmacology.",
+    "coreqs": [{ "subject": "PHSC", "number": "2304" }],
+    "prereqs": [
+      { "subject": "PHSC", "number": "2301" },
+      "And",
+      { "subject": "PHSC", "number": "2302" }
+    ]
   },
   {
     "subject": "PHSC",
@@ -106,7 +97,13 @@
       { "term": "202330", "crn": "30032" },
       { "term": "202330", "crn": "30039" }
     ],
-    "description": "Accompanies PHSC 2303. Covers topics from the course through various experiments."
+    "description": "Accompanies PHSC 2303. Covers topics from the course through various experiments.",
+    "coreqs": [{ "subject": "PHSC", "number": "2303" }],
+    "prereqs": [
+      { "subject": "PHSC", "number": "2301" },
+      "And",
+      { "subject": "PHSC", "number": "2302" }
+    ]
   },
   {
     "subject": "PHSC",
@@ -143,7 +140,21 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "30461" }],
-    "description": "Provides students with an understanding of the principles, mechanisms, organs, cells, and molecules of the innate and adaptive immunity. Monoclonal antibodies, organ transplant immunity, hypersensitivity, tolerance, tumor immunity, autoimmunity, and immunodeficiencies are discussed in light of potential therapeutic interventions. Weekly journal club-style presentation of related assigned topic is required."
+    "description": "Provides students with an understanding of the principles, mechanisms, organs, cells, and molecules of the innate and adaptive immunity. Monoclonal antibodies, organ transplant immunity, hypersensitivity, tolerance, tumor immunity, autoimmunity, and immunodeficiencies are discussed in light of potential therapeutic interventions. Weekly journal club-style presentation of related assigned topic is required.",
+    "coreqs": [],
+    "prereqs": [
+      "(",
+      "(",
+      { "subject": "PHSC", "number": "2303" },
+      "Or",
+      { "subject": "BIOL", "number": "2219" },
+      ")",
+      "And",
+      { "subject": "PHSC", "number": "2320" },
+      ")",
+      "Or",
+      "Graduate Admission"
+    ]
   },
   {
     "subject": "PHSC",
@@ -165,7 +176,21 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "32582" }],
-    "description": "Surveys research methods and topics relevant to health science research with the goal of engaging undergraduate students to commit to research training throughout at least one semester and possibly continuing throughout their undergraduate program. Exposes students to lectures addressing the benefits of a research experience and readings of original literature. Health science faculty from across the university present their lines of research focusing on projects that would be available to students. Seeks to familiarize students with use of the scientific method in addressing unsolved problems and to prepare them to select the most appropriate research laboratory to engage in research."
+    "description": "Surveys research methods and topics relevant to health science research with the goal of engaging undergraduate students to commit to research training throughout at least one semester and possibly continuing throughout their undergraduate program. Exposes students to lectures addressing the benefits of a research experience and readings of original literature. Health science faculty from across the university present their lines of research focusing on projects that would be available to students. Seeks to familiarize students with use of the scientific method in addressing unsolved problems and to prepare them to select the most appropriate research laboratory to engage in research.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "BIOL", "number": "1111" },
+      "And",
+      "(",
+      "Or",
+      ")",
+      "And",
+      "(",
+      { "subject": "MATH", "number": "1241" },
+      "Or",
+      { "subject": "MATH", "number": "1245" },
+      ")"
+    ]
   },
   {
     "subject": "PHSC",
@@ -177,7 +202,26 @@
     "sections": [{ "term": "202310", "crn": "10482" }],
     "description": "Develops an understanding of pharmaceutical dosage forms, with emphasis on solids, liquids, semisolids, parenterals, inhalation, and novel drug delivery systems. Combines the discussion of pharmaceutical products developed in industry and those compounded in local pharmacies. Focuses on application of mathematical principles and problem-solving skills in pharmaceutical compounding.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      "(",
+      { "subject": "MATH", "number": "1241" },
+      "Or",
+      { "subject": "MATH", "number": "1245" },
+      "Or",
+      { "subject": "MATH", "number": "1341" },
+      ")",
+      "And",
+      "And",
+      "(",
+      { "subject": "PHYS", "number": "1145" },
+      "Or",
+      { "subject": "PHYS", "number": "1149" },
+      "Or",
+      { "subject": "PHYS", "number": "1161" },
+      ")",
+      "Or",
+      "Graduate Admission"
+    ]
   },
   {
     "subject": "PHSC",
@@ -187,7 +231,13 @@
     "credits": 3,
     "nuPath": ["AD"],
     "sections": [{ "term": "202330", "crn": "30456" }],
-    "description": "Focuses on the basic principles and methods of biopharmaceutics and pharmacokinetics. Covers the kinetics of drug absorption, distribution, metabolism, and excretion; linear and nonlinear pharmacokinetics; general concept of one- and two-compartment models with instantaneous (i.v. bolus), zero order (i.v. infusion), or first order (oral administration or i.m. injection) input; evaluation of bioavailability and investigation of the factors affecting drug availability; influence of the route of administration, dosage form, and regimen on bioavailability of drugs; bioequivalence study; multiple dosing kinetics; general approaches to dosage adjustment in renal disease; noncompartmental analysis; and pharmacokinetic-pharmacodynamic modeling."
+    "description": "Focuses on the basic principles and methods of biopharmaceutics and pharmacokinetics. Covers the kinetics of drug absorption, distribution, metabolism, and excretion; linear and nonlinear pharmacokinetics; general concept of one- and two-compartment models with instantaneous (i.v. bolus), zero order (i.v. infusion), or first order (oral administration or i.m. injection) input; evaluation of bioavailability and investigation of the factors affecting drug availability; influence of the route of administration, dosage form, and regimen on bioavailability of drugs; bioequivalence study; multiple dosing kinetics; general approaches to dosage adjustment in renal disease; noncompartmental analysis; and pharmacokinetic-pharmacodynamic modeling.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "PHSC", "number": "3412" },
+      "Or",
+      "Graduate Admission"
+    ]
   },
   {
     "subject": "PHSC",
@@ -199,7 +249,18 @@
     "sections": [{ "term": "202310", "crn": "10358" }],
     "description": "Introduces the principles and basic concepts of pharmacology and the general mechanisms of drug action including drug receptor interactions. Discusses the major drug classes affecting the peripheral autonomic and central nervous systems including anxiolytics, sedative-hypnotics, anesthetics, anticonvulsants, neuroleptics, antidepressants, and antimanic agents. Considers therapeutic uses, mechanisms of drug action, and undesirable actions including side effects and adverse reactions.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      "(",
+      "(",
+      { "subject": "PHSC", "number": "2303" },
+      "Or",
+      { "subject": "BIOL", "number": "2219" },
+      ")",
+      "And",
+      ")",
+      "Or",
+      "Graduate Admission"
+    ]
   },
   {
     "subject": "PHSC",
@@ -209,7 +270,9 @@
     "credits": 4,
     "nuPath": ["CE", "WI"],
     "sections": [{ "term": "202310", "crn": "21195" }],
-    "description": "Offers students an opportunity to prepare an undergraduate thesis under faculty supervision."
+    "description": "Offers students an opportunity to prepare an undergraduate thesis under faculty supervision.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHSC",
@@ -219,7 +282,9 @@
     "credits": 4,
     "nuPath": ["WI"],
     "sections": [{ "term": "202330", "crn": "39310" }],
-    "description": "Offers students an opportunity to execute a project as described in PHSC 4997, which involves laboratory work; skill development; and the ability to generate, analyze, and report valid and reproducible data with the highest level of honesty and integrity. Students write and defend a thesis project to a public audience that describes the scientific background and context of the research, the hypothesis tested, methods utilized, and experimental results obtained. The thesis also includes interpretation of data, its contribution to the field, and future directions for the research. Students are expected to demonstrate motivation and initiative and to develop skills necessary to work cooperatively with a faculty mentor and other lab personnel."
+    "description": "Offers students an opportunity to execute a project as described in PHSC 4997, which involves laboratory work; skill development; and the ability to generate, analyze, and report valid and reproducible data with the highest level of honesty and integrity. Students write and defend a thesis project to a public audience that describes the scientific background and context of the research, the hypothesis tested, methods utilized, and experimental results obtained. The thesis also includes interpretation of data, its contribution to the field, and future directions for the research. Students are expected to demonstrate motivation and initiative and to develop skills necessary to work cooperatively with a faculty mentor and other lab personnel.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "PHSC", "number": "4997" }]
   },
   {
     "subject": "PHSC",
@@ -283,7 +348,9 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "31445" }],
-    "description": "Focuses in-depth on the major cellular physiological mechanisms, including physiology of the cell membrane, ion channels and transport phenomena, energy production, signal transduction, synapses, and physiological processes in the cytosol. Relates physiological information on the specific areas of pharmacology, pharmaceutics, and drug discovery/development. Offers students an opportunity to obtain an understanding of the principles of cellular physiology."
+    "description": "Focuses in-depth on the major cellular physiological mechanisms, including physiology of the cell membrane, ion channels and transport phenomena, energy production, signal transduction, synapses, and physiological processes in the cytosol. Relates physiological information on the specific areas of pharmacology, pharmaceutics, and drug discovery/development. Offers students an opportunity to obtain an understanding of the principles of cellular physiology.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHSC",
@@ -305,7 +372,9 @@
     "credits": 3,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38364" }],
-    "description": "Introduces current and emerging trends and concepts in drug discovery in the context of targeted disease therapy and structure-based drug design. Reviews and discusses topics on target selection and validation, computational drug design tools, kinase inhibitors, proteolysis targeting chimeras and molecular glues, covalent drugs, cannabinoid receptors, RNA-targeting small molecule agents, and protein-protein interaction modulators. Exemplifies the applications of general medicinal chemistry and pharmacology principles to real-world drug discovery and development."
+    "description": "Introduces current and emerging trends and concepts in drug discovery in the context of targeted disease therapy and structure-based drug design. Reviews and discusses topics on target selection and validation, computational drug design tools, kinase inhibitors, proteolysis targeting chimeras and molecular glues, covalent drugs, cannabinoid receptors, RNA-targeting small molecule agents, and protein-protein interaction modulators. Exemplifies the applications of general medicinal chemistry and pharmacology principles to real-world drug discovery and development.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHSC",
@@ -315,7 +384,9 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "32030" }],
-    "description": "Offers a multidisciplinary course targeted to students interested in recent advances in biomedical research, clinical practice, and personalized medicine as related to cancer immunotherapies. Describes current promises and disappointments with cancer immunotherapies and recent FDA drug approvals for personalized cancer therapies. Explains the role of immunological and physiological negative regulators of antitumor and tumor biology as needed. Explains underlying principles of immunology, biochemistry, genetics, and preclinical and clinical studies when introducing new concepts. Assigned detailed study of specific areas and discussion of assigned papers are designed to complement classroom material."
+    "description": "Offers a multidisciplinary course targeted to students interested in recent advances in biomedical research, clinical practice, and personalized medicine as related to cancer immunotherapies. Describes current promises and disappointments with cancer immunotherapies and recent FDA drug approvals for personalized cancer therapies. Explains the role of immunological and physiological negative regulators of antitumor and tumor biology as needed. Explains underlying principles of immunology, biochemistry, genetics, and preclinical and clinical studies when introducing new concepts. Assigned detailed study of specific areas and discussion of assigned papers are designed to complement classroom material.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHSC",
@@ -355,7 +426,11 @@
     ],
     "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "PHSC", "number": "5100" },
+      "Or",
+      { "subject": "PHSC", "number": "5100" }
+    ]
   },
   {
     "subject": "PHSC",
@@ -365,7 +440,15 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "34234" }],
-    "description": "Focuses on a series of cases that raise ethical and professional code of conduct concerns and engages with them collaboratively and carefully to develop essential skills for ethical analysis and evaluation. Scientific practice presents researchers and citizens with myriad ethical challenges. Engaging with those ethical challenges in ways that help yield the benefits of research while respecting ethical boundaries is furthered by not only understanding ethical frameworks but by carefully analyzing and evaluating ethical concerns in context."
+    "description": "Focuses on a series of cases that raise ethical and professional code of conduct concerns and engages with them collaboratively and carefully to develop essential skills for ethical analysis and evaluation. Scientific practice presents researchers and citizens with myriad ethical challenges. Engaging with those ethical challenges in ways that help yield the benefits of research while respecting ethical boundaries is furthered by not only understanding ethical frameworks but by carefully analyzing and evaluating ethical concerns in context.",
+    "coreqs": [],
+    "prereqs": [
+      { "subject": "PHSC", "number": "6212" },
+      "Or",
+      { "subject": "PHSC", "number": "5212" },
+      "Or",
+      { "subject": "PHSC", "number": "2400" }
+    ]
   },
   {
     "subject": "PHSC",
@@ -375,7 +458,9 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "32165" }],
-    "description": "Discusses fundamental principles of experimental design and statistical analysis, with emphasis on clinical research. Topics include descriptive statistics, hypothesis testing, analysis of variance, correlation, regression, chi-square test, and nonparametric methods."
+    "description": "Discusses fundamental principles of experimental design and statistical analysis, with emphasis on clinical research. Topics include descriptive statistics, hypothesis testing, analysis of variance, correlation, regression, chi-square test, and nonparametric methods.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHSC",
@@ -409,7 +494,9 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38365" }],
-    "description": "Designed to prepare students to understand the advantages, shortcomings, and pitfalls of the use of live, behaving animals in drug discovery.  Covers an in-depth analysis of ethical issues in animal research, as well as aspects of animal behavioral models, behavior and brain biochemistry, and methods of behavioral analysis.  Specific topics include psychopharmacology; fear and anxiety; pain and stress; depression and reward; general arousal and tolerance; drug abuse and habitual behaviors.  The ways in which animal behaviors can be described in a quantitative manner and the effects of medications and abused drugs quantified and related to human diseases and drug responses are an important component of the course."
+    "description": "Designed to prepare students to understand the advantages, shortcomings, and pitfalls of the use of live, behaving animals in drug discovery.  Covers an in-depth analysis of ethical issues in animal research, as well as aspects of animal behavioral models, behavior and brain biochemistry, and methods of behavioral analysis.  Specific topics include psychopharmacology; fear and anxiety; pain and stress; depression and reward; general arousal and tolerance; drug abuse and habitual behaviors.  The ways in which animal behaviors can be described in a quantitative manner and the effects of medications and abused drugs quantified and related to human diseases and drug responses are an important component of the course.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHSC",
@@ -435,7 +522,9 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "35586" }],
-    "description": "Continues PHSC 6235. Offers students an opportunity to continue their research work in early drug discovery using original imaging data that was previously analyzed. Focuses on manuscript preparation and submission to a peer-reviewed journal."
+    "description": "Continues PHSC 6235. Offers students an opportunity to continue their research work in early drug discovery using original imaging data that was previously analyzed. Focuses on manuscript preparation and submission to a peer-reviewed journal.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "PHSC", "number": "6235" }]
   },
   {
     "subject": "PHSC",
@@ -445,7 +534,9 @@
     "credits": 2,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "32706" }],
-    "description": "Provides an interdisciplinary introduction to biophysical methods used in modern drug discovery, including hit generation and lead optimization. Emphasizes key experimental methods, including nuclear magnetic resonance (NMR) spectroscopy and X-ray crystallography, as well as computer modeling as applied to ligand- and structure-based drug design. Includes lectures by experts on related topics from their recent drug-discovery research. Presented under the auspices of the Center for Drug Discovery. Requires permission of instructor for students of junior or senior standing."
+    "description": "Provides an interdisciplinary introduction to biophysical methods used in modern drug discovery, including hit generation and lead optimization. Emphasizes key experimental methods, including nuclear magnetic resonance (NMR) spectroscopy and X-ray crystallography, as well as computer modeling as applied to ligand- and structure-based drug design. Includes lectures by experts on related topics from their recent drug-discovery research. Presented under the auspices of the Center for Drug Discovery. Requires permission of instructor for students of junior or senior standing.",
+    "coreqs": [],
+    "prereqs": []
   },
   {
     "subject": "PHSC",
@@ -585,12 +676,7 @@
     ],
     "description": "Offers preparation of PhD dissertation proposal and proposal defense before dissertation committee. Requires passing of comprehensive exam. May be repeated without limit.",
     "coreqs": [],
-    "prereqs": [
-      { "subject": "PHSC", "number": "8940" },
-      { "subject": "PHSC", "number": "8940" },
-      { "subject": "PHSC", "number": "8940" },
-      { "subject": "PHSC", "number": "8940" }
-    ]
+    "prereqs": [{ "subject": "PHSC", "number": "8940" }]
   },
   {
     "subject": "PHSC",
@@ -605,7 +691,11 @@
     ],
     "description": "Offers research/experimental work for PhD thesis.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "PHSC", "number": "9681" },
+      "And",
+      { "subject": "PHSC", "number": "9000" }
+    ]
   },
   {
     "subject": "PHSC",
@@ -620,7 +710,7 @@
     ],
     "description": "Offers dissertation supervision by members of the department.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "PHSC", "number": "9990" }]
   },
   {
     "subject": "PHSC",
@@ -636,15 +726,6 @@
     "description": "Offers continuation of PhD dissertation research.",
     "coreqs": [],
     "prereqs": [
-      { "subject": "PHSC", "number": "9991" },
-      "Or",
-      "Dissertation Check",
-      { "subject": "PHSC", "number": "9991" },
-      "Or",
-      "Dissertation Check",
-      { "subject": "PHSC", "number": "9991" },
-      "Or",
-      "Dissertation Check",
       { "subject": "PHSC", "number": "9991" },
       "Or",
       "Dissertation Check"

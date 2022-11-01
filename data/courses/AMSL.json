@@ -35,24 +35,7 @@
     ],
     "description": "Continues AMSL 1101. Continues development of expressive and receptive competence in using American Sign Language to fulfill various social functions (such as introductions, explanations of personal history, and descriptions of simple narratives). Emphasizes further development of receptive and expressive skills, finger spelling, vocabulary building, grammatical structures; encourages more extensive use of nonmanual behaviors, classifiers, body postures, and signing space. Students are also introduced to regional and ethnic sign variations and political and educational institutions of the Deaf community.",
     "coreqs": [],
-    "prereqs": [
-      { "subject": "AMSL", "number": "1101" },
-      { "subject": "AMSL", "number": "1101" },
-      { "subject": "AMSL", "number": "1101" },
-      { "subject": "AMSL", "number": "1101" },
-      { "subject": "AMSL", "number": "1101" },
-      { "subject": "AMSL", "number": "1101" },
-      { "subject": "AMSL", "number": "1101" },
-      { "subject": "AMSL", "number": "1101" },
-      { "subject": "AMSL", "number": "1101" },
-      { "subject": "AMSL", "number": "1101" },
-      { "subject": "AMSL", "number": "1101" },
-      { "subject": "AMSL", "number": "1101" },
-      { "subject": "AMSL", "number": "1101" },
-      { "subject": "AMSL", "number": "1101" },
-      { "subject": "AMSL", "number": "1101" },
-      { "subject": "AMSL", "number": "1101" }
-    ]
+    "prereqs": [{ "subject": "AMSL", "number": "1101" }]
   },
   {
     "subject": "AMSL",
@@ -62,7 +45,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "36924" }],
-    "description": "This course focuses on classifier /depicting signs, and includes ASL vocabulary related to medical /body systems."
+    "description": "This course focuses on classifier /depicting signs, and includes ASL vocabulary related to medical /body systems.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "AMSL", "number": "1101" }]
   },
   {
     "subject": "AMSL",
@@ -77,7 +62,11 @@
     ],
     "description": "Continues the student's development of expressive and receptive competence in using American Sign Language to fulfill various communicative functions, such as making and responding to inquiries, constructing and comprehending narratives, and engaging in debates. Students also continue to expand their ASL lexicon.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [
+      { "subject": "AMSL", "number": "1102" },
+      "And",
+      { "subject": "DEAF", "number": "1500" }
+    ]
   },
   {
     "subject": "AMSL",
@@ -92,7 +81,7 @@
     ],
     "description": "Continues AMSL 2101. Emphasizes further development of receptive and expressive skills, finger spelling, vocabulary building, grammatical structures; encourages more extensive use of nonmanual behaviors, classifiers, body postures, and signing space. Continues exposure to regional and ethnic sign variations and political and educational institutions of Deaf people. Offers intensive practice involving expressive and receptive skills in storytelling and dialogue. Introduces language forms used in American Sign Language poetry and the features of culture as they are displayed in art.",
     "coreqs": [],
-    "prereqs": []
+    "prereqs": [{ "subject": "AMSL", "number": "2101" }]
   },
   {
     "subject": "AMSL",
@@ -114,7 +103,9 @@
     "credits": 4,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "30008" }],
-    "description": "Continues AMSL 3101. Focuses on further development and refinement of American Sign Language competence in various discourse settings, predominantly formal and consultative. Continues development of lexical semantics and uses individual diagnostic assessment of ASL competence to determine individual competency goals."
+    "description": "Continues AMSL 3101. Focuses on further development and refinement of American Sign Language competence in various discourse settings, predominantly formal and consultative. Continues development of lexical semantics and uses individual diagnostic assessment of ASL competence to determine individual competency goals.",
+    "coreqs": [],
+    "prereqs": [{ "subject": "AMSL", "number": "3101" }]
   },
   {
     "subject": "AMSL",
@@ -136,6 +127,8 @@
     "credits": 0,
     "nuPath": [],
     "sections": [{ "term": "202330", "crn": "38658" }],
-    "description": "Offers students an opportunity to study at an officially bilingual university, with American Sign Language and English used for instruction and by the university."
+    "description": "Offers students an opportunity to study at an officially bilingual university, with American Sign Language and English used for instruction and by the university.",
+    "coreqs": [],
+    "prereqs": []
   }
 ]
