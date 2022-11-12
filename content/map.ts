@@ -126,6 +126,12 @@ export const contentMap: Category[] = [
         icon: "book",
       },
       {
+        name: "Time Ticketing",
+        href: "https://registrar.northeastern.edu/article/time-ticketing/",
+        description: "Find registration times",
+        icon: "clock",
+      },
+      {
         name: "Schedule",
         href: "https://prod-web.neu.edu/wasapp/bn/AdmittedCourseSchedule/secure/index.jsp",
         description: "Summarized semester schedule",
