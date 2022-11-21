@@ -181,6 +181,11 @@ const ContributorsExpandable = () => {
       href: "https://discordapp.com/users/408983816712093697",
       description: "Wording",
     },
+    {
+      name: "RubberDuck#4827",
+      href: "https://discordapp.com/users/719340622892236961",
+      description: "Emotional Damage",
+    },
   ];
   return (
     <Expandable icon="smilebeam" title="Contributors list">
