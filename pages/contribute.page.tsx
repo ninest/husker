@@ -176,6 +176,11 @@ const ContributorsExpandable = () => {
       href: "https://www.reddit.com/user/thecrashmaverick/",
       description: "Housing images",
     },
+    {
+      name: "cb#7296",
+      href: "https://discordapp.com/users/408983816712093697",
+      description: "Wording",
+    },
   ];
   return (
     <Expandable icon="smilebeam" title="Contributors list">

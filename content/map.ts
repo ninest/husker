@@ -225,7 +225,7 @@ export const contentMap: Category[] = [
         icon: "cog",
       },
       {
-        name: "Hours",
+        name: "Dining Hours",
         href: "https://nudining.com/public/hours-of-operation",
         description: "Dining hall and restaurants timings",
         icon: "clock",
