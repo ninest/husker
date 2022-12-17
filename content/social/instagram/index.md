@@ -16,6 +16,7 @@ This list is divided into two groups:
 - [@nuorientation](https://www.instagram.com/nuorientation/)
 - [@nu_spots](https://www.instagram.com/nu_spots/)
 - [@northeastern](https://www.instagram.com/northeastern/)
+- [@presidentaoun](https://www.instagram.com/presidentaoun/)
 
 ## Run by students
 
