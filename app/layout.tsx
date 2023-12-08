@@ -2,6 +2,7 @@ import "./globals.css";
 
 import { NavRail } from "@/app/nav-rail";
 import { ThemeProvider } from "@/components/providers/theme-provider";
+import { Provider } from "jotai";
 import type { Metadata } from "next";
 import { Karla, Inter, JetBrains_Mono } from "next/font/google";
 
@@ -20,10 +21,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body
         className={`${inter.variable} ${jetbrains.variable} ${karla.variable} font-sans h-full text-foreground dark:text-foreground flex`}
       >
-        <ThemeProvider attribute="class" defaultTheme="dark" disableTransitionOnChange>
-          <NavRail />
-          <div className="flex-1">{children}</div>
-        </ThemeProvider>
+        <Provider>
+          <ThemeProvider attribute="class" defaultTheme="dark" disableTransitionOnChange>
+            <div className="hidden md:block">
+              <NavRail />
+            </div>
+            <div className="flex-1">{children}</div>
+          </ThemeProvider>
+        </Provider>
       </body>
     </html>
   );

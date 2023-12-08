@@ -10,7 +10,7 @@ export default async function LinksPage() {
   const [linkCategories, links] = await Promise.all([getLinkCategories(), getLinks()]);
 
   return (
-    <div className="m-5 md:mx-auto md:max-w-[50rem] space-y-10">
+    <div className="mx-4 my-5 md:mx-auto md:px-4 md:max-w-[50rem] space-y-10">
       {linkCategories.map((category) => {
         const filteredLinks = links.filter((link) => link.categoryIds.includes(category.id));
         return (

@@ -1,29 +1,29 @@
+"use client";
+
+import { SearchInput } from "@/app/(links)/search-input";
+import { useSearch } from "@/app/(links)/use-search";
 import { Spacer } from "@/components/spacer";
-import { Input } from "@/components/ui/input";
 import { Category } from "@/modules/content/category";
+import { HuskerLink } from "@/modules/content/link";
 import Link from "next/link";
-import { LuSearch } from "react-icons/lu";
 
 interface LinksSidebarProps {
   categories: Category[];
+  links: HuskerLink[];
 }
 
 export function LinksSidebar({ categories }: LinksSidebarProps) {
+  const { searchQuery, setSearchQuery } = useSearch();
+
   return (
     <>
-      <aside className="flex-none sticky top-0 h-screen w-[22rem] bg-gray-50d border-r p-4">
+      <aside className="flex-none sticky top-0 h-screen w-[16rem] lg:w-[22rem] bg-gray-50d border-r p-4 overflow-y-scroll">
         <div className="font-display font-black text-lg">Husker</div>
 
         <Spacer className="h-3" />
 
-        <div className="relative">
-          <div className="pointer-events-none	 absolute left-0 top-0 bottom-0 w-[2.5rem] flex items-center justify-center">
-            <LuSearch />
-          </div>
-          <Input className="pl-10" placeholder="Search" />
-        </div>
+        <SearchInput placeholder="Search" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
 
-        
         <Spacer className="h-8" />
 
         <div className="space-y-2">
