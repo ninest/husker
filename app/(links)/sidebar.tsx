@@ -31,7 +31,7 @@ export function LinksSidebar({ categories }: LinksSidebarProps) {
             <div key={category.id}>
               <Link
                 href={`/#${category.slug}`}
-                className="py-1 -m-1 px-2 block font-medium rounded-md hover:bg-gray-200 dark:hover:bg-gray-700"
+                className="py-1 -m-1 px-2 block font-medium rounded-md text-sm hover:bg-gray-200 dark:hover:bg-gray-700"
               >
                 {category.title}
               </Link>

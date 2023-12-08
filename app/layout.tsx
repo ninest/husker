@@ -3,11 +3,11 @@ import "./globals.css";
 import { NavRail } from "@/app/nav-rail";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import type { Metadata } from "next";
-import { Figtree, Inter, JetBrains_Mono } from "next/font/google";
+import { Karla, Inter, JetBrains_Mono } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"], display: "swap", variable: "--font-inter" });
 const jetbrains = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains" });
-const figtree = Figtree({ subsets: ["latin"], variable: "--font-figtree" });
+const karla = Karla({ subsets: ["latin"], variable: "--font-karla" });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${jetbrains.variable} ${figtree.variable} font-sans h-full text-gray-800 dark:text-gray-300 flex`}
+        className={`${inter.variable} ${jetbrains.variable} ${karla.variable} font-sans h-full text-foreground dark:text-foreground flex`}
       >
         <ThemeProvider attribute="class" defaultTheme="dark" disableTransitionOnChange>
           <NavRail />

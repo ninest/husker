@@ -1,9 +1,11 @@
 import { queryNotionDatabase } from "@/modules/notion/apis";
 import { notionConstants } from "@/modules/notion/constants";
+import { IconSlug } from "@/utils/icon";
 import { PageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
 import invariant from "tiny-invariant";
 
 export type HuskerLink = {
+  iconSlug: IconSlug | string;
   title: string;
   categoryIds: string[];
   description: string;
@@ -42,11 +44,14 @@ export async function getLinks() {
     invariant(properties["Short Description"].type === "rich_text");
     const description = properties["Short Description"].rich_text[0].plain_text;
 
-    let icon = undefined;
-    if (row.icon) {
-      if (row.icon.type === "external") icon = row.icon;
-    }
-    links.push({ /* icon, */ title, url, description, categoryIds, filterIds });
+    // let icon = undefined;
+    // if (row.icon) {
+    //   if (row.icon.type === "external") icon = row.icon;
+    // }
+    invariant(properties["Icon"].type === "rich_text");
+    const iconSlug = properties["Icon"].rich_text.length > 0 ? properties["Icon"].rich_text[0].plain_text : "FaFile";
+
+    links.push({ iconSlug, title, url, description, categoryIds, filterIds });
   });
 
   return links;

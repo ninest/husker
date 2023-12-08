@@ -1,3 +1,5 @@
+import colors from "tailwindcss/colors";
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
@@ -7,7 +9,7 @@ module.exports = {
       default: ["var(--font-inter)"],
       sans: ["var(--font-inter)"],
       mono: ["var(--font-jetbrains)"],
-      display: ["var(--font-figtree)"],
+      display: ["var(--font-karla)"],
     },
     container: {
       center: true,
@@ -23,6 +25,7 @@ module.exports = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        gray: colors.gray,
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
