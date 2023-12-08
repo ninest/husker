@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formkit/auto-animate": "^0.8.1",
     "@hookform/resolvers": "^3.3.2",
     "@notionhq/client": "^2.2.14",
     "@radix-ui/react-context-menu": "^2.1.5",
