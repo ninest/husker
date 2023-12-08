@@ -1,6 +1,6 @@
 import { Spacer } from "@/components/spacer";
 import { Input } from "@/components/ui/input";
-import { Category } from "@/modules/categories";
+import { Category } from "@/modules/content/category";
 import Link from "next/link";
 import { LuSearch } from "react-icons/lu";
 
