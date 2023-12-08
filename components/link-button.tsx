@@ -23,12 +23,12 @@ export function LinkButton({ huskerLink }: LinkButtonProps) {
   const isFavorite = isFavorited(huskerLink.id);
 
   return (
-    <ContextMenu>
+    <ContextMenu >
       <ContextMenuTrigger asChild>
         <Link
           href={huskerLink.url}
           target="_blank"
-          className="flex items-center space-x-4 rounded-md bg-gray-50 dark:bg-gray-900 border border-gray-100 dark:border-gray-800 p-3"
+          className="flex items-center space-x-4 rounded-md bg-gray-50 dark:bg-gray-900 border border-gray-100 dark:border-gray-800 p-3 select-none"
         >
           <div>
             <Icon className="text-sm text-gray-500 dark:text-gray-500" />

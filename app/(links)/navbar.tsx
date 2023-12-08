@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Category } from "@/modules/content/category";
 import { HuskerLink } from "@/modules/content/link";
 import { useState } from "react";
-import { LuSearch, LuX } from "react-icons/lu";
+import { LuSearch, LuX, LuPanelRight } from "react-icons/lu";
 
 interface LinksNavbarProps {
   categories: Category[];
@@ -21,7 +21,17 @@ export function LinksNavbar({ categories, links }: LinksNavbarProps) {
     <>
       <header className="p-4 border-b">
         <div className="flex items-center space-x-4 justify-between">
-          <div className="font-display font-black text-lg">Husker</div>
+          <div className="flex items-center justify-between space-x-4">
+            <Button
+              onClick={() => setIsSearching(!isSearching)}
+              variant={"outline"}
+              size={"icon"}
+
+            >
+              <LuPanelRight />
+            </Button>
+            <div className="font-display font-black text-lg">Husker</div>
+          </div>
 
           <Button
             onClick={() => setIsSearching(!isSearching)}

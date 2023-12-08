@@ -20,6 +20,7 @@ export function Title({ level = 2, children, ...props }: TitleProps) {
         },
         props.className
       )}
+      id={props.id}
     >
       {children}
     </H>

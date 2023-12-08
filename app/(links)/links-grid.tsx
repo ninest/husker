@@ -41,7 +41,7 @@ export function LinksGrid({ categories, links }: LinksGridProps) {
               <Link href="/settings" className="underline">
                 settings
               </Link>{" "}
-              and disable favorites or right-click a link to add to favorites.{" "}
+              and disable favorites or right-click a link to add to favorites.
             </Empty>
           )}
           <div ref={animationParent} className="grid grid-cols-2 md:grid-cols-3 gap-5">
@@ -57,7 +57,7 @@ export function LinksGrid({ categories, links }: LinksGridProps) {
         if (filteredLinksInCategory.length === 0) return <></>;
         return (
           <div key={category.slug}>
-            <Title level={2} className="font-extrabold text-xl">
+            <Title level={2} id={category.slug} className="font-extrabold text-xl">
               {category.title}
             </Title>
             <Spacer className="h-3" />

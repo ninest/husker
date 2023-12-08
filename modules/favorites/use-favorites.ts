@@ -14,6 +14,7 @@ export function useFavorites() {
   const toggleFavoritesEnabled = () => setFavoritesEnabled(!favoritesEnabled);
 
   const addToFavorite = (link: FavoriteLink) => {
+    setFavoritesEnabled(true);
     setFavorites([...favorites, link]);
   };
 
