@@ -50,8 +50,8 @@ function LinkButton({ title, href, children }: { title: string; href: string } &
     <Link
       href={href}
       className={cn("w-full flex items-center justify-center rounded-md py-3 text-lg", {
-        "bg-gray-100": isActive,
-        "hover:bg-gray-200": !isActive,
+        "bg-gray-100 dark:bg-gray-800": isActive,
+        "hover:bg-gray-200 dark:hover:bg-gray-700": !isActive,
       })}
     >
       {children}

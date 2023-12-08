@@ -15,7 +15,7 @@ export default function LinksLayout({ children }: ComponentProps<"div">) {
           <div className="pointer-events-none	 absolute left-0 top-0 bottom-0 w-[2.5rem] flex items-center justify-center">
             <LuSearch />
           </div>
-          <Input className="pl-10 bg-white" placeholder="Search" />
+          <Input className="pl-10" placeholder="Search" />
         </div>
       </aside>
       <div className="p-4">{children}</div>
