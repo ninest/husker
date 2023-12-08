@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       >
         <ThemeProvider attribute="class" defaultTheme="dark" disableTransitionOnChange>
           <NavRail />
-          <div>{children}</div>
+          <div className="flex-1">{children}</div>
         </ThemeProvider>
       </body>
     </html>
