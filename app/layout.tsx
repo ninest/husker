@@ -2,6 +2,7 @@ import "./globals.css";
 
 import { NavRail } from "@/app/nav-rail";
 import { ThemeProvider } from "@/components/providers/theme-provider";
+import { Toaster } from "@/components/ui/toaster";
 import { Provider } from "jotai";
 import type { Metadata } from "next";
 import { Karla, Inter, JetBrains_Mono } from "next/font/google";
@@ -23,6 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       >
         <Provider>
           <ThemeProvider attribute="class" defaultTheme="dark" disableTransitionOnChange>
+            <Toaster />
             <div className="hidden md:block">
               <NavRail />
             </div>

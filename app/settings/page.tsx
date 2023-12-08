@@ -4,7 +4,6 @@ import { ThemeToggle } from "@/app/settings/theme-toggle";
 import { PageLayout } from "@/components/page-layout";
 import { Spacer } from "@/components/spacer";
 import { Title } from "@/components/title";
-import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
 import { useFavorites } from "@/modules/favorites/use-favorites";
 
