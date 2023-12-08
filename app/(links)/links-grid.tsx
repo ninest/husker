@@ -33,7 +33,7 @@ export function LinksGrid({ categories, links }: LinksGridProps) {
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
               {filteredLinksInCategory.map((link) => (
-                <LinkButton key={link.url} href={link.url} title={link.title} iconSlug={link.iconSlug} />
+                <LinkButton key={link.id} huskerLink={link} />
               ))}
             </div>
           </div>

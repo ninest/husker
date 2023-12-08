@@ -5,6 +5,7 @@ import { PageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
 import invariant from "tiny-invariant";
 
 export type HuskerLink = {
+  id: string;
   iconSlug: IconSlug | string;
   title: string;
   categoryIds: string[];
@@ -29,6 +30,8 @@ export async function getLinks() {
   // TODO: move to helper function
   rows.forEach((row) => {
     const properties = row.properties;
+    const id = row.id;
+
     invariant(properties["Title"].type === "title");
     const title = properties["Title"].title[0].plain_text;
 
@@ -51,7 +54,7 @@ export async function getLinks() {
     invariant(properties["Icon"].type === "rich_text");
     const iconSlug = properties["Icon"].rich_text.length > 0 ? properties["Icon"].rich_text[0].plain_text : "FaFile";
 
-    links.push({ iconSlug, title, url, description, categoryIds, filterIds });
+    links.push({ id, iconSlug, title, url, description, categoryIds, filterIds });
   });
 
   return links;
