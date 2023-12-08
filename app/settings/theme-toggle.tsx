@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
 import { useTheme } from "next-themes";
+import { RxCaretSort } from "react-icons/rx";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -19,16 +19,22 @@ export function ThemeToggle() {
   useEffect(() => setShow(true), []);
 
   return (
-    <>
+    <div className="flex items-center justify-between border p-3 rounded-md">
+      <div>
+        <div className="font-bold">Theme</div>
+      </div>
       {show ? (
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant="outline">
-              {theme === "dark" && "Dark"}
-              {theme === "light" && "Light"}
-              {theme === "system" && "System"}
-              {/* <SunIcon className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-          <MoonIcon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" /> */}
+            <Button variant="outline" className="flex space-x-2">
+              <div>
+                {theme === "dark" && "Dark"}
+                {theme === "light" && "Light"}
+                {theme === "system" && "System"}
+              </div>
+              <div>
+                <RxCaretSort />
+              </div>
               <span className="sr-only">Toggle theme</span>
             </Button>
           </DropdownMenuTrigger>
@@ -41,6 +47,6 @@ export function ThemeToggle() {
       ) : (
         <Button variant={"outline"}>Loading ...</Button>
       )}
-    </>
+    </div>
   );
 }
