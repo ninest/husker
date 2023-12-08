@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono, Figtree } from "next/font/google";
 import "./globals.css";
+import { NavRail } from "@/app/nav-rail";
 
 const inter = Inter({ subsets: ["latin"], display: "swap", variable: "--font-inter" });
 const jetbrains = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains" });
@@ -14,7 +15,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${jetbrains.variable} ${figtree.variable} font-sans h-full`}>{children}</body>
+      <body className={`${inter.variable} ${jetbrains.variable} ${figtree.variable} font-sans h-full text-gray-800 flex`}>
+        <NavRail />
+        <div>{children}</div>
+      </body>
     </html>
   );
 }
