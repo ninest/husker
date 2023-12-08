@@ -4,7 +4,7 @@ import { cn } from "@/utils/style";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ComponentProps } from "react";
-import { LuBook, LuDumbbell, LuInfo, LuLayoutDashboard, LuNewspaper, LuSettings2 } from "react-icons/lu";
+import { LuHome, LuBook, LuDumbbell, LuInfo, LuLayoutDashboard, LuNewspaper, LuSettings2 } from "react-icons/lu";
 
 export function NavRail() {
   return (
@@ -16,6 +16,7 @@ export function NavRail() {
 
         <div className="p-2 space-y-2">
           <LinkButton href="/" title="Links">
+            {/* Which one looks better? LuHome or LuLayoutDashboard? */}
             <LuLayoutDashboard />
           </LinkButton>
           <LinkButton href="/courses" title="Courses">
@@ -44,7 +45,7 @@ export function NavRail() {
 
 function LinkButton({ title, href, children }: { title: string; href: string } & ComponentProps<"div">) {
   const pathname = usePathname();
-  const isActive = pathname.startsWith(href);
+  const isActive = pathname.split("?")[0].split("#")[0] === href;
 
   return (
     <Link
