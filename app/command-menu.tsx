@@ -10,7 +10,7 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-  CommandSeparator
+  CommandSeparator,
 } from "@/components/ui/command";
 import { HuskerLink } from "@/modules/content/link";
 import { useRouter } from "next/navigation";
