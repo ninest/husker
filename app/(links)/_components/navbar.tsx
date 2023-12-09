@@ -3,6 +3,7 @@
 import { MobileSidebar } from "@/app/(links)/_components/mobile-sidebar";
 import { SearchInput } from "@/app/(links)/_components/search-input";
 import { useSearch } from "@/app/(links)/use-search";
+import { useCommandMenu } from "@/app/use-command-menu";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -15,10 +16,9 @@ interface LinksNavbarProps {
 
 export function LinksNavbar({ backButtonHref }: LinksNavbarProps) {
   const router = useRouter();
-  const [isSearching, setIsSearching] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const { searchQuery, setSearchQuery } = useSearch();
-
+  const { setIsCommandMenuOpen } = useCommandMenu();
   return (
     <>
       <header className="bg-background p-4 border-b">
@@ -37,26 +37,11 @@ export function LinksNavbar({ backButtonHref }: LinksNavbarProps) {
             <div className="font-display font-black text-lg">Husker</div>
           </div>
 
-          <Button
-            onClick={() => {
-              if (isSearching) setIsSearching(false);
-              else {
-                router.push("/");
-                setIsSearching(true);
-              }
-            }}
-            variant={"outline"}
-            size={"icon"}
-            className="rounded-full"
-          >
-            {isSearching ? <LuX /> : <LuSearch />}
+          <Button onClick={() => setIsCommandMenuOpen(true)} variant={"outline"} size={"icon"} className="rounded-full">
+            <LuSearch />
           </Button>
         </div>
-        {isSearching && (
-          <div className="mt-2">
-            <SearchInput placeholder="Search" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
-          </div>
-        )}
+
         {isSidebarOpen && (
           <div className="mt-4">
             <MobileSidebar />

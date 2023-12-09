@@ -2,6 +2,7 @@
 
 import { SearchInput } from "@/app/(links)/_components/search-input";
 import { useSearch } from "@/app/(links)/use-search";
+import { useCommandMenu } from "@/app/use-command-menu";
 import { SimpleSidebarLinkButton } from "@/components/simple-sidebar-link-button";
 import { Spacer } from "@/components/spacer";
 import { Category } from "@/modules/content/category";
@@ -14,8 +15,8 @@ interface LinksSidebarProps {
 }
 
 export function LinksSidebar({ categories, links }: LinksSidebarProps) {
-  const { searchQuery, setSearchQuery } = useSearch();
   const { favoritesEnabled } = useFavorites();
+  const { setIsCommandMenuOpen } = useCommandMenu();
 
   return (
     <>
@@ -23,7 +24,7 @@ export function LinksSidebar({ categories, links }: LinksSidebarProps) {
 
       <Spacer className="h-3" />
 
-      <SearchInput placeholder="Search" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
+      <SearchInput placeholder="Search" onClick={() => setIsCommandMenuOpen(true)} />
 
       <Spacer className="h-5" />
 

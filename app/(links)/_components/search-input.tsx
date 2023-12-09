@@ -4,7 +4,7 @@ import { ComponentProps, forwardRef } from "react";
 import { LuSearch } from "react-icons/lu";
 
 interface SearchInputProps extends ComponentProps<"input"> {
-  wrapperClassName?: string;
+wrapperClassName?: string;
 }
 
 export const SearchInput = forwardRef<HTMLInputElement, SearchInputProps>(
