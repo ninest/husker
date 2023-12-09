@@ -1,10 +1,23 @@
 "use client";
 
+import { HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card";
 import { cn } from "@/utils/style";
+import { HoverCard } from "@radix-ui/react-hover-card";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ComponentProps } from "react";
-import { LuHome, LuBook, LuDumbbell, LuInfo, LuLayoutDashboard, LuNewspaper, LuSettings2, LuPlus, LuPlusCircle, LuPlusSquare } from "react-icons/lu";
+import {
+  LuHome,
+  LuBook,
+  LuDumbbell,
+  LuInfo,
+  LuLayoutDashboard,
+  LuNewspaper,
+  LuSettings2,
+  LuPlus,
+  LuPlusCircle,
+  LuPlusSquare,
+} from "react-icons/lu";
 
 export function NavRail() {
   return (

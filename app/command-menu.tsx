@@ -1,6 +1,6 @@
 "use client";
 
-import { EnvelopeClosedIcon, GearIcon, PersonIcon } from "@radix-ui/react-icons";
+import { LuFile, LuStar } from "react-icons/lu";
 
 import { useCommandMenu } from "@/app/use-command-menu";
 import {
@@ -15,6 +15,7 @@ import {
 import { HuskerLink } from "@/modules/content/link";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
+import { useFavorites } from "@/modules/favorites/use-favorites";
 
 interface CommandMenuProps {
   links: HuskerLink[];
@@ -23,6 +24,7 @@ interface CommandMenuProps {
 export function CommandMenu({ links }: CommandMenuProps) {
   const router = useRouter();
   const { isCommandMenuOpen, setIsCommandMenuOpen } = useCommandMenu();
+  const { favorites } = useFavorites();
 
   useEffect(() => {
     const down = (e: KeyboardEvent) => {
@@ -36,6 +38,12 @@ export function CommandMenu({ links }: CommandMenuProps) {
     return () => document.removeEventListener("keydown", down);
   }, []);
 
+  const openUrl = (url: string) => {
+    if (url.startsWith("/")) router.push(url);
+    else window.open(url, "_blank");
+    setIsCommandMenuOpen(false)
+  };
+
   return (
     <>
       <CommandDialog open={isCommandMenuOpen} onOpenChange={setIsCommandMenuOpen}>
@@ -45,7 +53,7 @@ export function CommandMenu({ links }: CommandMenuProps) {
           <CommandGroup heading="Links">
             {links.map((link) => {
               return (
-                <CommandItem key={link.id} onSelect={() => router.push(link.url)}>
+                <CommandItem key={link.id} onSelect={() => openUrl(link.url)}>
                   <span>{link.title}</span>
                 </CommandItem>
               );
@@ -55,18 +63,32 @@ export function CommandMenu({ links }: CommandMenuProps) {
           <CommandSeparator />
 
           <CommandGroup heading="Pages">
-            <CommandItem>
-              <PersonIcon className="mr-2 h-4 w-4" />
+            <CommandItem onSelect={() => openUrl("/")}>
+              <LuFile className="mr-2 h-4 w-4" />
+              <span>Home</span>
+            </CommandItem>
+            <CommandItem onSelect={() => openUrl("/about")}>
+              <LuFile className="mr-2 h-4 w-4" />
               <span>About</span>
             </CommandItem>
-            <CommandItem>
-              <EnvelopeClosedIcon className="mr-2 h-4 w-4" />
+            <CommandItem onSelect={() => openUrl("/contribute")}>
+              <LuFile className="mr-2 h-4 w-4" />
               <span>Contribute</span>
             </CommandItem>
-            <CommandItem>
-              <GearIcon className="mr-2 h-4 w-4" />
+            <CommandItem onSelect={() => openUrl("/settings")}>
+              <LuFile className="mr-2 h-4 w-4" />
               <span>Settings</span>
             </CommandItem>
+          </CommandGroup>
+          <CommandSeparator />
+
+          <CommandGroup heading="Favorites">
+            {favorites.map((favoriteLink) => (
+              <CommandItem onSelect={() => openUrl(favoriteLink.url)}>
+                <LuStar className="mr-2 h-4 w-4" />
+                <span>{favoriteLink.title}</span>
+              </CommandItem>
+            ))}
           </CommandGroup>
         </CommandList>
       </CommandDialog>
