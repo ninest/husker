@@ -6,7 +6,7 @@ import { Title } from "@/components/title";
 export default function ContributePage() {
   return (
     <>
-      <PageLayout showMobileNav>
+      <PageLayout showMobileNav desktopBackButton={{ text: "Home", href: "/" }}>
         <Title level={1}>Contribute</Title>
         <Spacer className="h-4" />
 

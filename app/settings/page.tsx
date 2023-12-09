@@ -11,7 +11,7 @@ export default function SettingsPage() {
   const { favoritesEnabled, toggleFavoritesEnabled } = useFavorites();
   return (
     <>
-      <PageLayout showMobileNav>
+      <PageLayout showMobileNav desktopBackButton={{ text: "Home", href: "/" }}>
         <Title level={1}>Settings</Title>
         <Spacer className="h-4" />
 

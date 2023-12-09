@@ -7,7 +7,7 @@ export default async function AboutPage() {
   const aboutPageId = "17ecc6fdea344c7ab00c52c33f54b3f0";
 
   return (
-    <PageLayout showMobileNav>
+    <PageLayout showMobileNav desktopBackButton={{ text: "Home", href: "/" }}>
       <Title level={1}>About</Title>
       <Spacer className="h-4" />
       <FullNotionPageContent pageId={aboutPageId} />
