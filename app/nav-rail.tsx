@@ -4,7 +4,7 @@ import { cn } from "@/utils/style";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ComponentProps } from "react";
-import { LuHome, LuBook, LuDumbbell, LuInfo, LuLayoutDashboard, LuNewspaper, LuSettings2 } from "react-icons/lu";
+import { LuHome, LuBook, LuDumbbell, LuInfo, LuLayoutDashboard, LuNewspaper, LuSettings2, LuPlus, LuPlusCircle, LuPlusSquare } from "react-icons/lu";
 
 export function NavRail() {
   return (
@@ -31,6 +31,9 @@ export function NavRail() {
         </div>
 
         <div className="p-2 space-y-2">
+          <LinkButton href="/contribute" title="Contribute">
+            <LuPlus />
+          </LinkButton>
           <LinkButton href="/about" title="About">
             <LuInfo />
           </LinkButton>

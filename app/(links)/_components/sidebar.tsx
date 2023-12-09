@@ -1,12 +1,12 @@
 "use client";
 
-import { SearchInput } from "@/app/(links)/search-input";
+import { SearchInput } from "@/app/(links)/_components/search-input";
 import { useSearch } from "@/app/(links)/use-search";
+import { SimpleSidebarLinkButton } from "@/components/simple-sidebar-link-button";
 import { Spacer } from "@/components/spacer";
 import { Category } from "@/modules/content/category";
 import { HuskerLink } from "@/modules/content/link";
 import { useFavorites } from "@/modules/favorites/use-favorites";
-import Link from "next/link";
 
 interface LinksSidebarProps {
   categories: Category[];
@@ -30,11 +30,11 @@ export function LinksSidebar({ categories, links }: LinksSidebarProps) {
       <div className="space-y-2">
         {favoritesEnabled && (
           <div>
-            <SidebarButton href={`/#favorites`} title={"Favorites"} />
+            <SimpleSidebarLinkButton href={`/#favorites`} title={"Favorites"} />
           </div>
         )}
         {categories.map((category) => (
-          <SidebarButton key={category.id} href={`/#${category.slug}`} title={category.title} />
+          <SimpleSidebarLinkButton key={category.id} href={`/#${category.slug}`} title={category.title} />
         ))}
       </div>
 
@@ -43,29 +43,9 @@ export function LinksSidebar({ categories, links }: LinksSidebarProps) {
       <Spacer className="h-5" />
 
       <div className="space-y-2">
-        <SidebarButton href={`/`} title={"About"} />
-        <SidebarButton href={`/`} title={"Contribute"} />
-        <SidebarButton href={`/`} title={"Settings"} />
-      </div>
-    </>
-  );
-}
-
-interface SidebarButtonProps {
-  href: string;
-  title: string;
-}
-
-export function SidebarButton({ href, title }: SidebarButtonProps) {
-  return (
-    <>
-      <div>
-        <Link
-          href={href}
-          className="py-1 -m-1 px-2 block font-medium rounded-md text-sm hover:bg-gray-200 dark:hover:bg-gray-700"
-        >
-          {title}
-        </Link>
+        <SimpleSidebarLinkButton href={`/about`} title={"About"} />
+        <SimpleSidebarLinkButton href={`/contribute`} title={"Contribute"} />
+        <SimpleSidebarLinkButton href={`/settings`} title={"Settings"} />
       </div>
     </>
   );

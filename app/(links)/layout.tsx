@@ -1,5 +1,5 @@
-import { LinksNavbar } from "@/app/(links)/navbar";
-import { LinksSidebar } from "@/app/(links)/sidebar";
+import { LinksNavbar } from "@/app/(links)/_components/navbar";
+import { LinksSidebar } from "@/app/(links)/_components/sidebar";
 import { getLinkCategories } from "@/modules/content/category";
 import { getLinks } from "@/modules/content/link";
 import { ComponentProps } from "react";
@@ -15,7 +15,7 @@ export default async function LinksLayout({ children }: ComponentProps<"div">) {
         </aside>
       </div>
 
-      <div className="block md:hidden">
+      <div className="block md:hidden sticky top-0">
         <LinksNavbar categories={linkCategories} links={links} />
       </div>
 

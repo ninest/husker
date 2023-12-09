@@ -1,4 +1,4 @@
-import { LinksGrid } from "@/app/(links)/links-grid";
+import { LinksGrid } from "@/app/(links)/_components/links-grid";
 import { getLinkCategories } from "@/modules/content/category";
 import { getLinks } from "@/modules/content/link";
 
