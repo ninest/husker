@@ -23,9 +23,9 @@ export function NavRail() {
   return (
     <>
       <div className="sticky top-0 flex-none w-[4rem] h-screen border-r flex flex-col justify-between">
-        <div className="p-4 flex items-center justify-center font-display font-black text-lg">
-          {/* <FaPaw className="text-lg" /> */}H
-        </div>
+        <Link href="/" className="p-4 flex items-center justify-center font-display font-black text-lg">
+          H
+        </Link>
 
         <div className="p-2 space-y-2">
           <LinkButton href="/" title="Links">

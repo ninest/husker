@@ -8,6 +8,7 @@ import { Spacer } from "@/components/spacer";
 import { Category } from "@/modules/content/category";
 import { HuskerLink } from "@/modules/content/link";
 import { useFavorites } from "@/modules/favorites/use-favorites";
+import Link from "next/link";
 
 interface LinksSidebarProps {
   categories: Category[];
@@ -20,7 +21,9 @@ export function LinksSidebar({ categories, links }: LinksSidebarProps) {
 
   return (
     <>
-      <div className="font-display font-black text-lg">Husker</div>
+      <Link href="/" className="block font-display font-black text-lg">
+        Husker
+      </Link>
 
       <Spacer className="h-3" />
 
@@ -30,7 +33,7 @@ export function LinksSidebar({ categories, links }: LinksSidebarProps) {
 
       <div className="space-y-2">
         {favoritesEnabled && (
-          <div>
+          <div>ss
             <SimpleSidebarLinkButton href={`/#favorites`} title={"Favorites"} />
           </div>
         )}
