@@ -1,23 +1,13 @@
 "use client";
 
-import { HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card";
+import { useIsActive } from "@/hooks/use-is-active";
+import { siteMap } from "@/map";
+import { getIcon } from "@/utils/icon";
 import { cn } from "@/utils/style";
-import { HoverCard } from "@radix-ui/react-hover-card";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ComponentProps } from "react";
-import {
-  LuHome,
-  LuBook,
-  LuDumbbell,
-  LuInfo,
-  LuLayoutDashboard,
-  LuNewspaper,
-  LuSettings2,
-  LuPlus,
-  LuPlusCircle,
-  LuPlusSquare,
-} from "react-icons/lu";
+import { LuBook, LuDumbbell, LuInfo, LuLayoutDashboard, LuNewspaper, LuPlus, LuSettings2 } from "react-icons/lu";
 
 export function NavRail() {
   return (
@@ -28,31 +18,25 @@ export function NavRail() {
         </Link>
 
         <div className="p-2 space-y-2">
-          <LinkButton href="/" title="Links">
-            {/* Which one looks better? LuHome or LuLayoutDashboard? */}
-            <LuLayoutDashboard />
-          </LinkButton>
-          <LinkButton href="/courses" title="Courses">
-            <LuBook />
-          </LinkButton>
-          <LinkButton href="/wiki" title="Wiki">
-            <LuNewspaper />
-          </LinkButton>
-          <LinkButton href="/gym" title="Gym">
-            <LuDumbbell />
-          </LinkButton>
+          {siteMap.topLevel.map((link) => {
+            const Icon = getIcon(link.icon);
+            return (
+              <LinkButton key={link.href} href={link.href} title={link.title}>
+                <Icon />
+              </LinkButton>
+            );
+          })}
         </div>
 
         <div className="p-2 space-y-2">
-          <LinkButton href="/contribute" title="Contribute">
-            <LuPlus />
-          </LinkButton>
-          <LinkButton href="/about" title="About">
-            <LuInfo />
-          </LinkButton>
-          <LinkButton href="/settings" title="Settings">
-            <LuSettings2 />
-          </LinkButton>
+          {siteMap.utility.map((link) => {
+            const Icon = getIcon(link.icon);
+            return (
+              <LinkButton key={link.href} href={link.href} title={link.title}>
+                <Icon />
+              </LinkButton>
+            );
+          })}
         </div>
       </div>
     </>
@@ -60,8 +44,7 @@ export function NavRail() {
 }
 
 function LinkButton({ title, href, children }: { title: string; href: string } & ComponentProps<"div">) {
-  const pathname = usePathname();
-  const isActive = pathname.split("?")[0].split("#")[0] === href;
+  const isActive = useIsActive({ href, parent: true });
 
   return (
     <Link

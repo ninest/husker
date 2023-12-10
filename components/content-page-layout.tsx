@@ -8,12 +8,14 @@ import { LuChevronLeft, LuFileEdit, LuPen } from "react-icons/lu";
 
 interface ContentPageLayoutProps extends ComponentProps<"div"> {
   showMobileNav?: boolean;
+  title: string;
   backButton?: { text: string; href: string };
   contributeInfo?: { pageTitle: string };
 }
 
 export function ContentPageLayout({
   showMobileNav = false,
+  title,
   backButton: desktopBackButton,
   contributeInfo,
   children,
@@ -21,7 +23,7 @@ export function ContentPageLayout({
   return (
     <div>
       {/* Mobile nav */}
-      <div className="block md:hidden">{showMobileNav && <MobileNavbar />}</div>
+      <div className="block md:hidden">{showMobileNav && <MobileNavbar title={title} />}</div>
 
       <div className="mx-5 my-5 md:my-8 md:px-5 md:max-w-2xl md:mx-auto lg:max-w-3xl xl:max-w-4xl">
         {!!desktopBackButton && (
@@ -34,7 +36,9 @@ export function ContentPageLayout({
                 </Link>
               </Button>
 
-              <div className="flex items-center space-x-2">{!!contributeInfo && <ContributeSheetButton pageTitle={contributeInfo.pageTitle} />}</div>
+              <div className="flex items-center space-x-2">
+                {!!contributeInfo && <ContributeSheetButton pageTitle={contributeInfo.pageTitle} />}
+              </div>
             </div>
             <Spacer className="h-6" />
           </>

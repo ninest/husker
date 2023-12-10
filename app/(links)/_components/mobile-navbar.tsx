@@ -8,10 +8,11 @@ import { useState } from "react";
 import { LuChevronLeft, LuPanelRight, LuSearch, LuX } from "react-icons/lu";
 
 interface LinksNavbarProps {
+  title: string;
   backButtonHref?: string;
 }
 
-export function MobileNavbar({ backButtonHref }: LinksNavbarProps) {
+export function MobileNavbar({ title, backButtonHref }: LinksNavbarProps) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const { setIsCommandMenuOpen } = useCommandMenu();
   return (
@@ -30,7 +31,7 @@ export function MobileNavbar({ backButtonHref }: LinksNavbarProps) {
               </Button>
             )}
             <Link href="/" className="block font-display font-black text-lg">
-              Husker
+              {title}
             </Link>
           </div>
 

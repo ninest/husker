@@ -1,8 +1,8 @@
-import { Blockquote } from "@/components/blockquote";
+import { Blockquote } from "@/components/typography/blockquote";
 import { FaFile } from "react-icons/fa6";
 import { Callout } from "@/components/callout";
 import { Loading } from "@/components/loading";
-import { Title } from "@/components/title";
+import { Title } from "@/components/typography/title";
 import { PageMention } from "@/modules/blocks/mentions";
 import { getBlocksChildrenList, getBlock } from "@/modules/notion/apis";
 import { cn } from "@/utils/style";

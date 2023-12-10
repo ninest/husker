@@ -5,6 +5,7 @@ import { useSearch } from "@/app/(links)/use-search";
 import { useCommandMenu } from "@/app/use-command-menu";
 import { SimpleSidebarLinkButton } from "@/components/simple-sidebar-link-button";
 import { Spacer } from "@/components/spacer";
+import { siteMap } from "@/map";
 import { Category } from "@/modules/content/category";
 import { HuskerLink } from "@/modules/content/link";
 import { useFavorites } from "@/modules/favorites/use-favorites";
@@ -33,7 +34,8 @@ export function DesktopLinksSidebar({ categories, links }: LinksSidebarProps) {
 
       <div className="space-y-2">
         {favoritesEnabled && (
-          <div>ss
+          <div>
+            ss
             <SimpleSidebarLinkButton href={`/#favorites`} title={"Favorites"} />
           </div>
         )}
@@ -47,9 +49,9 @@ export function DesktopLinksSidebar({ categories, links }: LinksSidebarProps) {
       <Spacer className="h-5" />
 
       <div className="space-y-2">
-        <SimpleSidebarLinkButton href={`/about`} title={"About"} />
-        <SimpleSidebarLinkButton href={`/contribute`} title={"Contribute"} />
-        <SimpleSidebarLinkButton href={`/settings`} title={"Settings"} />
+        {siteMap.utility.map((link) => {
+          return <SimpleSidebarLinkButton key={link.href} href={link.href} title={link.title} />;
+        })}
       </div>
     </>
   );

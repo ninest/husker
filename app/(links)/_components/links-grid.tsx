@@ -4,7 +4,7 @@ import { filterResults, useSearch } from "@/app/(links)/use-search";
 import { Empty, NoElementsEmpty } from "@/components/empty";
 import { LinkButton } from "@/components/link-button";
 import { Spacer } from "@/components/spacer";
-import { Title } from "@/components/title";
+import { Title } from "@/components/typography/title";
 import { Category } from "@/modules/content/category";
 import { HuskerLink } from "@/modules/content/link";
 import { useFavorites } from "@/modules/favorites/use-favorites";
