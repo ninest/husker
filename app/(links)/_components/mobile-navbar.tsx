@@ -1,12 +1,9 @@
 "use client";
 
 import { MobileSidebar } from "@/app/(links)/_components/mobile-sidebar";
-import { SearchInput } from "@/app/(links)/_components/search-input";
-import { useSearch } from "@/app/(links)/use-search";
 import { useCommandMenu } from "@/app/use-command-menu";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { LuChevronLeft, LuPanelRight, LuSearch, LuX } from "react-icons/lu";
 
@@ -14,10 +11,8 @@ interface LinksNavbarProps {
   backButtonHref?: string;
 }
 
-export function LinksNavbar({ backButtonHref }: LinksNavbarProps) {
-  const router = useRouter();
+export function MobileNavbar({ backButtonHref }: LinksNavbarProps) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const { searchQuery, setSearchQuery } = useSearch();
   const { setIsCommandMenuOpen } = useCommandMenu();
   return (
     <>
@@ -34,7 +29,9 @@ export function LinksNavbar({ backButtonHref }: LinksNavbarProps) {
                 </Link>
               </Button>
             )}
-            <div className="font-display font-black text-lg">Husker</div>
+            <Link href="/" className="block font-display font-black text-lg">
+              Husker
+            </Link>
           </div>
 
           <Button onClick={() => setIsCommandMenuOpen(true)} variant={"outline"} size={"icon"} className="rounded-full">

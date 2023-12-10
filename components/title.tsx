@@ -15,7 +15,7 @@ export function Title({ level = 2, children, ...props }: TitleProps) {
         "scroll-m-20 font-display text-gray-800 dark:text-gray-200",
         {
           "text-3xl lg:text-4xl font-extrabold tracking-tight": level == 1,
-          "text-2xl font-semibold tracking-normal": level == 2,
+          "text-2xl font-bold tracking-normal": level == 2,
           "text-xl font-semibold tracking-tight": level == 3,
         },
         props.className

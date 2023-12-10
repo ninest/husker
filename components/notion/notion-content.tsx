@@ -39,7 +39,7 @@ export async function NotionContent({ blocks, mentions }: NotionContentProps) {
         );
 
         return (
-          <div key={block.id} className={cn({ "mb-3": !noSpaceBelow && !isTitle, "mb-2": isTitle })}>
+          <div key={block.id} className={cn({ "mb-4": !noSpaceBelow && !isTitle, "mb-2": isTitle })}>
             {isListItem ? <ul className="list-disc list-outside ml-6">{notionBlock}</ul> : notionBlock}
           </div>
         );

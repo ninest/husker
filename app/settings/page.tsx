@@ -1,7 +1,7 @@
 "use client";
 
 import { ThemeToggle } from "@/app/settings/theme-toggle";
-import { PageLayout } from "@/components/page-layout";
+import { ContentPageLayout } from "@/components/content-page-layout";
 import { Spacer } from "@/components/spacer";
 import { Title } from "@/components/title";
 import { Switch } from "@/components/ui/switch";
@@ -11,7 +11,7 @@ export default function SettingsPage() {
   const { favoritesEnabled, toggleFavoritesEnabled } = useFavorites();
   return (
     <>
-      <PageLayout showMobileNav desktopBackButton={{ text: "Home", href: "/" }}>
+      <ContentPageLayout showMobileNav backButton={{ text: "Home", href: "/" }}>
         <Title level={1}>Settings</Title>
         <Spacer className="h-4" />
 
@@ -43,7 +43,7 @@ export default function SettingsPage() {
             </label>
           </section>
         </div>
-      </PageLayout>
+      </ContentPageLayout>
     </>
   );
 }

@@ -15,7 +15,7 @@ interface LinksSidebarProps {
   links: HuskerLink[];
 }
 
-export function LinksSidebar({ categories, links }: LinksSidebarProps) {
+export function DesktopLinksSidebar({ categories, links }: LinksSidebarProps) {
   const { favoritesEnabled } = useFavorites();
   const { setIsCommandMenuOpen } = useCommandMenu();
 

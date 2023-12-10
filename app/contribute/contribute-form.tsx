@@ -24,17 +24,20 @@ export const contributeFormSchema = z.object({
 
 export type ContributeFormType = z.infer<typeof contributeFormSchema>;
 
-interface ContributeFormProps {}
+interface ContributeFormProps {
+  pageTitle?: string;
+}
 
-export function ContributeForm() {
+export function ContributeForm({ pageTitle }: ContributeFormProps) {
   const form = useForm<ContributeFormType>({
     resolver: zodResolver(contributeFormSchema),
     defaultValues: {
-      name: "",
+      name: pageTitle ?? "",
       content: "",
       credit: "",
     },
   });
+  const allowEditTitle = !pageTitle;
   const { toast } = useToast();
 
   const onSubmit = form.handleSubmit(async (data) => {
@@ -66,7 +69,11 @@ export function ContributeForm() {
   const onDrop = useCallback(async (acceptedFiles: File[]) => {
     for await (const file of acceptedFiles) {
       if (!file.type.includes("image")) {
-        toast({ title: `${file.name} is not an image`, description: "Only images can be uploaded", key: Math.random() });
+        toast({
+          title: `${file.name} is not an image`,
+          description: "Only images can be uploaded",
+          key: Math.random(),
+        });
         continue;
       }
       const url = await uploadToImgBB(file);
@@ -107,13 +114,15 @@ export function ContributeForm() {
             name="name"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Name</FormLabel>
-                <FormDescription>
-                  Enter the title of the page you want to contribute to. If you are suggesting a new page, feel free to
-                  leave this field blank.
-                </FormDescription>
+                <FormLabel>Page title</FormLabel>
+                {allowEditTitle && (
+                  <FormDescription>
+                    Enter the title or URL of the page you want to contribute to. If you are suggesting a new page, feel
+                    free to leave this field blank.
+                  </FormDescription>
+                )}
                 <FormControl>
-                  <Input {...field} />
+                  <Input disabled {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -128,11 +137,6 @@ export function ContributeForm() {
 
                 <FormDescription>
                   {isDragActive ? "Yup, drag those images here!" : "Drag 'n' drop images here."}
-                  {/* Please use Imgur links to submit images.{" "}
-                  <a href="https://imgur.com/upload" target="_blank" className="underline">
-                  Click here to upload images on Imgur
-                  </a>
-                . Make sure the link never expires! */}
                 </FormDescription>
 
                 <FormControl>
