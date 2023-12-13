@@ -18,6 +18,15 @@ export async function getLinkCategories() {
   return await transformNotionResponseToCategories(response);
 }
 
+export async function getWikiCategories() {
+  const response = await queryNotionDatabase(notionConstants.CATEGORIES_DATABASE_ID, {
+    sorts: [{ property: "Order", direction: "ascending" }],
+  });
+
+  const categories = await transformNotionResponseToCategories(response);
+  return categories;
+}
+
 async function transformNotionResponseToCategories(response: QueryDatabaseResponse) {
   const categories: Category[] = [];
   const results = response.results.filter((result): result is PageObjectResponse => "properties" in result);
