@@ -1,4 +1,4 @@
-import { MobileNavbar } from "@/app/(links)/_components/mobile-navbar";
+import { MobileNavbar } from "@/components/mobile-navbar";
 import { DesktopLinksSidebar } from "@/app/(links)/_components/desktop-sidebar";
 import { getLinkCategories } from "@/modules/content/category";
 import { getLinks } from "@/modules/content/link";

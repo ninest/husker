@@ -1,20 +1,21 @@
 "use client";
 
-import { MobileSidebar } from "@/app/(links)/_components/mobile-sidebar";
+import { MobileSidebar } from "@/components/mobile-sidebar";
 import { useCommandMenu } from "@/app/use-command-menu";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { useState } from "react";
+import { ComponentProps, useState } from "react";
 import { LuChevronLeft, LuPanelRight, LuSearch, LuX } from "react-icons/lu";
 
-interface LinksNavbarProps {
+type LinksNavbarProps = ComponentProps<"div"> & {
   title: string;
   backButtonHref?: string;
-}
+};
 
-export function MobileNavbar({ title, backButtonHref }: LinksNavbarProps) {
+export function MobileNavbar({ title, backButtonHref, children }: LinksNavbarProps) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const { setIsCommandMenuOpen } = useCommandMenu();
+
   return (
     <>
       <header className="bg-background p-4 border-b">
@@ -42,7 +43,7 @@ export function MobileNavbar({ title, backButtonHref }: LinksNavbarProps) {
 
         {isSidebarOpen && (
           <div className="mt-4">
-            <MobileSidebar />
+            <MobileSidebar>{children}</MobileSidebar>
           </div>
         )}
       </header>

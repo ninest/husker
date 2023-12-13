@@ -1,4 +1,4 @@
-import { MobileNavbar } from "@/app/(links)/_components/mobile-navbar";
+import { MobileNavbar } from "@/components/mobile-navbar";
 import { ContributeSheetButton } from "@/components/contribute-sheet-button";
 import { Spacer } from "@/components/spacer";
 import { Button } from "@/components/ui/button";
