@@ -106,7 +106,7 @@ export async function NotionBlock({ block, mentions }: { block: BlockObjectRespo
       // @ts-ignore
       const src = b.image.file.url;
       return (
-        <figure>
+        <figure className="bg-gray-50 max-w-[30rem] xl:max-w-[34rem]">
           <img src={src} alt={"Image"} />
         </figure>
       );
@@ -120,8 +120,8 @@ export async function NotionBlock({ block, mentions }: { block: BlockObjectRespo
       }
       const blocks = sb.results as BlockObjectResponse[];
 
-      // @ts-ignore
-      return <NotionPage blocks={blocks} mentions={mentions} />;
+      // Recursive
+      return <NotionContent blocks={blocks} mentions={mentions} />;
     }
     case "file": {
       let fileUrl: string;

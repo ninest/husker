@@ -1,6 +1,7 @@
-import { queryNotionDatabase } from "@/modules/notion/apis";
+import { queryNotionDatabase, retrieveNotionPage } from "@/modules/notion/apis";
 import { notionConstants } from "@/modules/notion/constants";
 import { GetPageResponse, PageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
+import invariant from "tiny-invariant";
 
 export interface Article {
   id: string;
@@ -8,6 +9,7 @@ export interface Article {
   title: string;
   description: string;
   categoryIds: string;
+  link?: string;
   metadata?: ArticleMetadata;
 }
 
@@ -18,25 +20,28 @@ interface ArticleMetadata {
 
 export async function getArticles() {
   const response = await queryNotionDatabase(notionConstants.WIKI_DATABASE_ID);
-  const articles: Article[] = [];
 
   const rows = response.results.filter((result): result is PageObjectResponse => "properties" in result);
 
-  rows.forEach((row) => {
-    // @ts-ignore
-    const slug = row.properties["Slug"].rich_text[0].plain_text;
-    // @ts-ignore
-    const title = row.properties["Title"].title[0].plain_text;
-    // @ts-ignore
-    const categoryIds = row.properties["Categories"].relation.map((relation) => relation.id);
-    // @ts-ignore
-    const description = row.properties["Description"].rich_text[0].plain_text;
-    articles.push({ id: row.id, slug, title, categoryIds, description });
-  });
+  const articles = rows.map(transformNotionPageToArticle);
 
   articles.sort((a, b) => a.title.localeCompare(b.title));
 
   return articles;
+}
+
+export async function getArticleBySlug(slug: string) {
+  const response = await queryNotionDatabase(notionConstants.WIKI_DATABASE_ID, {
+    filter: { property: "Slug", rich_text: { equals: slug } },
+  });
+  const page = response.results[0];
+
+  return transformNotionPageToArticle(page as PageObjectResponse);
+}
+
+export async function getArticleById(id: string) {
+  const response = await retrieveNotionPage(id);
+  return transformNotionPageToArticle(response);
 }
 
 function transformNotionPageToArticle(page: GetPageResponse) {
@@ -47,9 +52,11 @@ function transformNotionPageToArticle(page: GetPageResponse) {
     lastEditedAt: new Date(page.last_edited_time),
   };
 
+  // TODO: add all invariants
+  invariant(page.properties["Slug"].type === "rich_text");
+
   const article: Article = {
     id: page.id,
-    // @ts-ignore
     slug: page.properties["Slug"].rich_text[0].plain_text,
     // @ts-ignore
     title: page.properties["Title"].title[0].plain_text,
@@ -59,6 +66,14 @@ function transformNotionPageToArticle(page: GetPageResponse) {
     description: page.properties["Description"].rich_text[0].plain_text,
     metadata,
   };
+
+  if (page.properties["Link"]) {
+    // @ts-ignore
+    if (page.properties["Link"].rich_text.length > 0) {
+      // @ts-ignore
+      article.link = page.properties["Link"].rich_text[0].plain_text;
+    }
+  }
 
   return article;
 }
