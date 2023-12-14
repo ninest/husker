@@ -1,25 +1,29 @@
 "use client";
 
-import { MobileSidebar } from "@/components/mobile-sidebar";
 import { useCommandMenu } from "@/app/use-command-menu";
+import { SimpleSidebarLinkButton } from "@/components/simple-sidebar-link-button";
+import { Spacer } from "@/components/spacer";
 import { Button } from "@/components/ui/button";
+import { siteMap } from "@/map";
 import Link from "next/link";
-import { ComponentProps, useState } from "react";
+import { ReactNode, useState } from "react";
 import { LuChevronLeft, LuPanelRight, LuSearch, LuX } from "react-icons/lu";
 
-type LinksNavbarProps = ComponentProps<"div"> & {
+type LinksNavbarProps = {
   title: string;
   backButtonHref?: string;
+  expandedContent?: ReactNode;
 };
 
-export function MobileNavbar({ title, backButtonHref, children }: LinksNavbarProps) {
+export function MobileNavbar({ title, backButtonHref, expandedContent }: LinksNavbarProps) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const { setIsCommandMenuOpen } = useCommandMenu();
 
   return (
     <>
-      <header className="bg-background p-4 border-b">
-        <div className="flex items-center space-x-4 justify-between">
+      <header className="bg-background border-b">
+        {/* Navbar that is always shown */}
+        <div className="p-4 flex items-center space-x-4 justify-between">
           <div className="flex items-center justify-between space-x-4">
             <Button onClick={() => setIsSidebarOpen(!isSidebarOpen)} variant={"outline"} size={"icon"}>
               {isSidebarOpen ? <LuX /> : <LuPanelRight />}
@@ -41,9 +45,30 @@ export function MobileNavbar({ title, backButtonHref, children }: LinksNavbarPro
           </Button>
         </div>
 
+        {/* Only shown when expanded */}
         {isSidebarOpen && (
-          <div className="mt-4">
-            <MobileSidebar>{children}</MobileSidebar>
+          <div className="pt-2 px-4 pb-6 max-h-[50vh] overflow-y-scroll">
+            <div className="space-x-2 flex items-center">
+              {siteMap.topLevel.map((link) => {
+                return <SimpleSidebarLinkButton key={link.href} href={link.href} title={link.title} />;
+              })}
+            </div>
+            {expandedContent ? (
+              <>
+                <hr className="mt-4 mb-3" />
+                {expandedContent}
+                <hr className="mt-3 mb-4" />
+              </>
+            ) : (
+              <>
+                <hr className="my-3" />
+              </>
+            )}
+            <div className="space-x-2 flex items-center">
+              {siteMap.utility.map((link) => {
+                return <SimpleSidebarLinkButton key={link.href} href={link.href} title={link.title} />;
+              })}
+            </div>
           </div>
         )}
       </header>
