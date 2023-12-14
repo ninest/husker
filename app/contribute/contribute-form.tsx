@@ -1,6 +1,7 @@
 "use client";
 
 import { contributeAction } from "@/app/contribute/_actions/contribute";
+import { Spacer } from "@/components/spacer";
 import { Button } from "@/components/ui/button";
 import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
@@ -12,7 +13,7 @@ import { ToastAction } from "@radix-ui/react-toast";
 import Link from "next/link";
 import { useCallback } from "react";
 import { useDropzone } from "react-dropzone";
-import { useForm } from "react-hook-form";
+import { useFieldArray, useForm } from "react-hook-form";
 import { LuImage, LuUpload } from "react-icons/lu";
 import { z } from "zod";
 
@@ -20,6 +21,7 @@ export const contributeFormSchema = z.object({
   name: z.string().optional(),
   content: z.string().min(15, "The content is too short! Please add a little more!"),
   credit: z.string().optional(),
+  images: z.array(z.object({ url: z.string().url() })),
 });
 
 export type ContributeFormType = z.infer<typeof contributeFormSchema>;
@@ -35,8 +37,11 @@ export function ContributeForm({ pageTitle }: ContributeFormProps) {
       name: pageTitle ?? "",
       content: "",
       credit: "",
+      images: [],
     },
   });
+  const imageUrlsField = useFieldArray({ control: form.control, name: "images" });
+
   const allowEditTitle = !pageTitle;
   const { toast } = useToast();
 
@@ -78,8 +83,9 @@ export function ContributeForm({ pageTitle }: ContributeFormProps) {
       }
       const url = await uploadToImgBB(file);
 
-      const newContentValue = (form.getValues("content").trim() + `\n\n${url}`).trim();
-      form.setValue("content", newContentValue);
+      const prevImages = form.getValues("images");
+      form.setValue("images", [...prevImages, { url }]);
+
       toast({ title: `${file.name} added successfully!`, description: "Thanks for adding an image" });
     }
   }, []);
@@ -128,29 +134,57 @@ export function ContributeForm({ pageTitle }: ContributeFormProps) {
               </FormItem>
             )}
           />
-          <FormField
-            control={form.control}
-            name="content"
-            render={({ field }) => (
-              <FormItem>
-                <FormLabel>Content</FormLabel>
+          <div>
+            <FormField
+              control={form.control}
+              name="content"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Content</FormLabel>
 
-                <FormDescription>
-                  {isDragActive ? "Yup, drag those images here!" : "Drag 'n' drop images here."}
-                </FormDescription>
+                  <FormDescription>
+                    {isDragActive ? "Yup, drag those images here!" : "Drag 'n' drop images here."}
+                  </FormDescription>
 
-                <FormControl>
-                  <Textarea rows={7} {...field} />
-                </FormControl>
-                <FormMessage />
-                <Button type="button" onClick={open} variant={"outline"} size={"sm"}>
-                  <LuUpload className="mr-1" />
-                  <LuImage className="mr-2" />
-                  Upload image
-                </Button>
-              </FormItem>
+                  <FormControl>
+                    <Textarea rows={7} {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+
+            <Spacer className="h-2" />
+
+            {imageUrlsField.fields.length > 0 && (
+              <div className="space-y-2">
+                {imageUrlsField.fields.map((field, index) => (
+                  <div key={field.id} className="border rounded-md overflow-hidden flex items-center justify-between">
+                    <div className="flex items-center space-x-2">
+                      <img src={field.url} height={10} width={10} className="w-[3rem] h-[3rem]" />
+                      <div className="text-sm">Uploaded image</div>
+                    </div>
+                    <Button
+                      onClick={() => imageUrlsField.remove(index)}
+                      className="mr-2"
+                      size={"sm"}
+                      variant={"secondary"}
+                    >
+                      Remove
+                    </Button>
+                  </div>
+                ))}
+              </div>
             )}
-          />
+
+            <Spacer className="h-3" />
+
+            <Button type="button" onClick={open} variant={"outline"} size={"sm"}>
+              <LuUpload className="mr-1" />
+              <LuImage className="mr-2" />
+              Upload image
+            </Button>
+          </div>
           <FormField
             control={form.control}
             name="credit"
