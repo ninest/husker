@@ -47,24 +47,25 @@ export function MobileNavbar({ title, backButtonHref, expandedContent }: LinksNa
 
         {/* Only shown when expanded */}
         {isSidebarOpen && (
-          <div className="pt-2 px-4 pb-6 max-h-[50vh] overflow-y-scroll">
-            <div className="space-x-2 flex items-center">
+          // <div className="pt-2 px-4 pb-6 max-h-[50vh] overflow-y-scroll">
+          <div className="max-h-[50vh] overflow-y-scroll">
+            <div className="pt-1 px-4 space-x-2 flex items-center">
               {siteMap.topLevel.map((link) => {
                 return <SimpleSidebarLinkButton key={link.href} href={link.href} title={link.title} />;
               })}
             </div>
             {expandedContent ? (
               <>
-                <hr className="mt-4 mb-3" />
+                <hr className="mx-4 mt-4 mb-2" />
                 {expandedContent}
-                <hr className="mt-3 mb-4" />
+                <hr className="mx-4 mt-2 mb-4" />
               </>
             ) : (
               <>
                 <hr className="my-3" />
               </>
             )}
-            <div className="space-x-2 flex items-center">
+            <div className="px-4 pb-4 space-x-2 flex items-center">
               {siteMap.utility.map((link) => {
                 return <SimpleSidebarLinkButton key={link.href} href={link.href} title={link.title} />;
               })}

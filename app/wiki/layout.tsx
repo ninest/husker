@@ -14,10 +14,12 @@ export default async function WikiLayout({ children }: ComponentProps<"div">) {
   return (
     <main className="md:flex h-full">
       <div className="hidden md:block">
-        <aside className="flex-none sticky top-0 h-screen w-[16rem] lg:w-[22rem] border-r p-4 overflow-y-scroll">
-          <Link href="/" className="block font-display font-black text-lg">
-            Husker Wiki
-          </Link>
+        <aside className="flex-none sticky top-0 h-screen w-[16rem] lg:w-[22rem] border-r overflow-y-scroll">
+          <div className="px-4 pt-4">
+            <Link href="/" className="block font-display font-black text-lg">
+              Husker Wiki
+            </Link>
+          </div>
           <WikiSideBarContent categories={categories} articles={articles} />
         </aside>
       </div>

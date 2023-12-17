@@ -57,8 +57,7 @@ export function WikiSideBarContent({ categories, articles }: WikiSideBarProps) {
 
   return (
     <>
-      <Spacer className="h-3" />
-      <div className="sticky top-0 bg-background">
+      <div className="sticky pt-0 md:pt-4 p-4 top-0 bg-background/90">
         <Combobox
           placeholder="Select a category ..."
           searchPlaceholder="Search a category ... "
@@ -71,9 +70,8 @@ export function WikiSideBarContent({ categories, articles }: WikiSideBarProps) {
           className="w-full"
         />
       </div>
-      <Spacer className="h-6" />
 
-      <div className="space-y-2">
+      <div className="pt-2 p-4 space-y-2">
         {filteredArticles.length === 0 && (
           <Link href="/wiki" className="block">
             <NoElementsEmpty>No articles with this filter. Click to clear filters.</NoElementsEmpty>
