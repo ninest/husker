@@ -8,10 +8,12 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/components/ui/use-toast";
 import { celebrate } from "@/utils/confetti";
+import { cn } from "@/utils/style";
+import { sleep } from "@/utils/time";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { ToastAction } from "@radix-ui/react-toast";
 import Link from "next/link";
-import { useCallback } from "react";
+import { useCallback, useState } from "react";
 import { useDropzone } from "react-dropzone";
 import { useFieldArray, useForm } from "react-hook-form";
 import { LuImage, LuUpload } from "react-icons/lu";
@@ -71,6 +73,7 @@ export function ContributeForm({ pageTitle }: ContributeFormProps) {
     celebrate();
   });
 
+  const [imageIsLoading, setImageIsLoading] = useState(false);
   const onDrop = useCallback(async (acceptedFiles: File[]) => {
     for await (const file of acceptedFiles) {
       if (!file.type.includes("image")) {
@@ -81,12 +84,25 @@ export function ContributeForm({ pageTitle }: ContributeFormProps) {
         });
         continue;
       }
+
+      // To prevent loading UI from flashing on and off
+      // Show loading for at least 1 second
+      setImageIsLoading(true);
+      const startUploadTime = new Date();
+
       const url = await uploadToImgBB(file);
 
-      const prevImages = form.getValues("images");
-      form.setValue("images", [...prevImages, { url }]);
+      const endUploadTime = new Date();
+      const difference = endUploadTime.getTime() - startUploadTime.getTime();
 
-      toast({ title: `${file.name} added successfully!`, description: "Thanks for adding an image" });
+      if (difference < 1250) {
+        await sleep(1250 - difference);
+      }
+
+      const prevImages = form.getValues("images");
+      form.setValue("images", [{ url }, ...prevImages]);
+      setImageIsLoading(false);
+      toast({ title: `Image added successfully!`, description: "Thanks for adding an image" });
     }
   }, []);
   const { getRootProps, getInputProps, isDragActive, open } = useDropzone({ onDrop, noClick: true });
@@ -147,7 +163,11 @@ export function ContributeForm({ pageTitle }: ContributeFormProps) {
                   </FormDescription>
 
                   <FormControl>
-                    <Textarea rows={7} {...field} />
+                    <Textarea
+                      rows={7}
+                      {...field}
+                      className={cn("[--border-pulse-color:--accent]", { "animate-border-color-pulse": isDragActive })}
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -156,28 +176,39 @@ export function ContributeForm({ pageTitle }: ContributeFormProps) {
 
             <Spacer className="h-2" />
 
-            {imageUrlsField.fields.length > 0 && (
-              <div className="space-y-2">
-                {imageUrlsField.fields.map((field, index) => (
-                  <div key={field.id} className="border rounded-md overflow-hidden flex items-center justify-between">
+            <div className="space-y-2">
+              {/* Loading placeholder */}
+              {imageIsLoading && (
+                <>
+                  <div className="border rounded-md overflow-hidden flex items-center justify-between">
                     <div className="flex items-center space-x-2">
-                      <img src={field.url} height={10} width={10} className="w-[3rem] h-[3rem]" />
-                      <div className="text-sm">Uploaded image</div>
+                      <div className="w-[3rem] h-[3rem] animate-pulse dark:bg-gray-900 bg-gray-50" />
+                      <div className="text-sm">Loading ...</div>
                     </div>
-                    <Button
-                      onClick={() => imageUrlsField.remove(index)}
-                      className="mr-2"
-                      size={"sm"}
-                      variant={"secondary"}
-                    >
-                      Remove
-                    </Button>
                   </div>
-                ))}
-              </div>
-            )}
+                </>
+              )}
 
-            <Spacer className="h-3" />
+              {/* Actual images */}
+              {imageUrlsField.fields.map((field, index) => (
+                <div key={field.id} className="border rounded-md overflow-hidden flex items-center justify-between">
+                  <div className="flex items-center space-x-2">
+                    <img src={field.url} height={10} width={10} className="w-[3rem] h-[3rem]" />
+                    <div className="text-sm">Uploaded image</div>
+                  </div>
+                  <Button
+                    onClick={() => imageUrlsField.remove(index)}
+                    className="mr-2"
+                    size={"sm"}
+                    variant={"secondary"}
+                  >
+                    Remove
+                  </Button>
+                </div>
+              ))}
+            </div>
+
+            <Spacer className="h-2" />
 
             <Button type="button" onClick={open} variant={"outline"} size={"sm"}>
               <LuUpload className="mr-1" />

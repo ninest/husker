@@ -69,10 +69,12 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: 0 },
         },
+        "border-color-pulse": { "0%, 100%": {}, "50%": { borderColor: "var(--border-pulse-color)" } },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        'border-color-pulse': 'border-color-pulse 0.75s ease-in-out infinite'
       },
     },
   },
