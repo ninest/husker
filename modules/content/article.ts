@@ -10,6 +10,7 @@ export interface Article {
   description: string;
   categoryIds: string;
   link?: string;
+  featured: boolean;
   metadata?: ArticleMetadata;
 }
 
@@ -64,6 +65,8 @@ function transformNotionPageToArticle(page: GetPageResponse) {
     categoryIds: page.properties["Categories"].relation.map((relation) => relation.id),
     // @ts-ignore
     description: page.properties["Description"].rich_text[0].plain_text,
+    // @ts-ignore
+    featured: !!page.properties["Featured"] ? page.properties["Featured"].checkbox : false,
     metadata,
   };
 

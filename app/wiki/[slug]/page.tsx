@@ -8,15 +8,20 @@ import { Suspense } from "react";
 
 interface WikiPageProps {
   params: { slug: string };
+  searchParams: Record<string, string>;
 }
-export default async function WikiPage({ params }: WikiPageProps) {
+export default async function WikiPage({ params, searchParams }: WikiPageProps) {
   const page = await getArticleBySlug(params.slug);
   if (page.link) return redirect(`/${page.link}?from=wiki`);
 
   return (
     <ContentPageLayout
       title="Husker"
-      backButton={{ text: "Wiki", href: "/wiki" }}
+      backButton={{
+        text: "Wiki",
+
+        href: `/wiki?${new URLSearchParams(searchParams).toString()}`,
+      }}
       contributeInfo={{ pageTitle: page.title }}
     >
       <Suspense fallback={<>Loading ...</>}>

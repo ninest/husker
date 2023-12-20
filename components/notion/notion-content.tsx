@@ -107,7 +107,7 @@ export async function NotionBlock({ block, mentions }: { block: BlockObjectRespo
       // @ts-ignore
       const src = b.image.file.url;
       return (
-        <figure className="bg-gray-50 max-w-[30rem] xl:max-w-[34rem]">
+        <figure className="bg-gray-50 dark:bg-gray-950 max-w-[30rem] xl:max-w-[34rem]">
           <img src={src} alt={"Image"} />
         </figure>
       );

@@ -1,6 +1,7 @@
 "use client";
 
 import { contributeAction } from "@/app/contribute/_actions/contribute";
+import { useContributeFormState } from "@/app/contribute/use-contribute-form-state";
 import { Spacer } from "@/components/spacer";
 import { Button } from "@/components/ui/button";
 import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
@@ -13,7 +14,7 @@ import { sleep } from "@/utils/time";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { ToastAction } from "@radix-ui/react-toast";
 import Link from "next/link";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { useDropzone } from "react-dropzone";
 import { useFieldArray, useForm } from "react-hook-form";
 import { LuImage, LuUpload } from "react-icons/lu";
@@ -33,11 +34,12 @@ interface ContributeFormProps {
 }
 
 export function ContributeForm({ pageTitle }: ContributeFormProps) {
+  const { saveContributeFormState, getContributeContent, deleteContributeFormState } = useContributeFormState();
   const form = useForm<ContributeFormType>({
     resolver: zodResolver(contributeFormSchema),
     defaultValues: {
       name: pageTitle ?? "",
-      content: "",
+      content: pageTitle ? getContributeContent(pageTitle) : "",
       credit: "",
       images: [],
     },
@@ -46,6 +48,13 @@ export function ContributeForm({ pageTitle }: ContributeFormProps) {
 
   const allowEditTitle = !pageTitle;
   const { toast } = useToast();
+
+  useEffect(() => {
+    const pageTitle = form.getValues("name");
+    const content = form.getValues("content");
+
+    if (pageTitle) saveContributeFormState(pageTitle, content);
+  }, [form.watch("content")]);
 
   const onSubmit = form.handleSubmit(async (data) => {
     const response = await contributeAction(data);
@@ -71,6 +80,8 @@ export function ContributeForm({ pageTitle }: ContributeFormProps) {
     toast({ title: "Thank you!", description: "We'll take a look at your contribution soon!" });
     form.reset();
     celebrate();
+
+    if (data.name) deleteContributeFormState(data.name);
   });
 
   const [imageIsLoading, setImageIsLoading] = useState(false);

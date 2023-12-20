@@ -3,7 +3,6 @@
 import { Combobox } from "@/components/combobox";
 import { NoElementsEmpty } from "@/components/empty";
 import { SimpleSidebarLinkButton } from "@/components/simple-sidebar-link-button";
-import { Spacer } from "@/components/spacer";
 import { Article } from "@/modules/content/article";
 import { Category } from "@/modules/content/category";
 import Link from "next/link";
@@ -78,7 +77,11 @@ export function WikiSideBarContent({ categories, articles }: WikiSideBarProps) {
           </Link>
         )}
         {filteredArticles.map((article) => (
-          <SimpleSidebarLinkButton key={article.id} href={`/wiki/${article.slug}`} title={article.title} />
+          <SimpleSidebarLinkButton
+            key={article.id}
+            href={`/wiki/${article.slug}?${searchParams}`}
+            title={article.title}
+          />
         ))}
       </div>
     </>

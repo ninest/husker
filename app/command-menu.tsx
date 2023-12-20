@@ -84,7 +84,7 @@ export function CommandMenu({ links }: CommandMenuProps) {
 
           <CommandGroup heading="Favorites">
             {favorites.map((favoriteLink) => (
-              <CommandItem onSelect={() => openUrl(favoriteLink.url)}>
+              <CommandItem key={favoriteLink.id} onSelect={() => openUrl(favoriteLink.url)}>
                 <LuStar className="mr-2 h-4 w-4" />
                 <span>{favoriteLink.title}</span>
               </CommandItem>

@@ -12,23 +12,21 @@ interface ContributeSheetButtonProps {
 
 export function ContributeSheetButton({ pageTitle }: ContributeSheetButtonProps) {
   return (
-    <>
-      <Sheet>
-        <SheetTrigger asChild>
-          <Button variant={"outline"}>
-            <LuPen className="mr-2" />
-            Edit
-          </Button>
-        </SheetTrigger>
-        <SheetContent>
-          <p className="text-muted-foreground">
-            To contribute to the {pageTitle} page, please fill out this form. Add content you'd like to see in the
-            "Content" field below.
-          </p>
-          <Spacer className="h-3" />
-          <ContributeForm pageTitle={pageTitle} />
-        </SheetContent>
-      </Sheet>
-    </>
+    <Sheet>
+      <SheetTrigger asChild>
+        <Button variant={"outline"}>
+          <LuPen className="mr-2" />
+          Edit
+        </Button>
+      </SheetTrigger>
+      <SheetContent>
+        <p className="text-muted-foreground">
+          To contribute to the {pageTitle} page, please fill out this form. Add content you'd like to see in the
+          "Content" field below.
+        </p>
+        <Spacer className="h-3" />
+        <ContributeForm pageTitle={pageTitle} />
+      </SheetContent>
+    </Sheet>
   );
 }

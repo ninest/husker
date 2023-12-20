@@ -25,7 +25,7 @@ export function ContentPageLayout({
       {/* Mobile nav */}
       <div className="block md:hidden">{showMobileNav && <MobileNavbar title={title} />}</div>
 
-      <div className="mx-5 my-5 md:my-8 md:px-5 md:max-w-2xl md:mx-auto lg:max-w-3xl xl:max-w-4xl">
+      <div className="my-5 md:my-8 space-x">
         {!!desktopBackButton && (
           <>
             <div className="flex items-center justify-between">
