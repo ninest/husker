@@ -3,6 +3,7 @@ import { DesktopLinksSidebarContent } from "@/app/(links)/_components/desktop-li
 import { getLinkCategories } from "@/modules/content/category";
 import { getLinks } from "@/modules/content/link";
 import { ComponentProps } from "react";
+import { Metadata } from "next";
 
 export default async function LinksLayout({ children }: ComponentProps<"div">) {
   const [linkCategories, links] = await Promise.all([getLinkCategories(), getLinks()]);
