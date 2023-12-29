@@ -1,5 +1,19 @@
 import { IconType } from "react-icons";
-import { FaFile, FaFileInvoice } from "react-icons/fa6";
+import {
+  FaBookBookmark,
+  FaBookmark,
+  FaCalendar,
+  FaDumbbell,
+  FaFile,
+  FaFileInvoice,
+  FaGear,
+  FaMoneyCheckDollar,
+  FaNetworkWired,
+  FaPrint,
+  FaRegClock,
+  FaRegThumbsDown,
+  FaTicket,
+} from "react-icons/fa6";
 import { LuLayoutDashboard, LuBook, LuNewspaper, LuDumbbell, LuPlus, LuInfo, LuSettings2 } from "react-icons/lu";
 
 export const iconMap = {
@@ -12,6 +26,17 @@ export const iconMap = {
   LuPlus,
   LuInfo,
   LuSettings2,
+  FaPrint,
+  FaNetworkWired,
+  FaCalendar,
+  FaBookmark,
+  FaBookBookmark,
+  FaMoneyCheckDollar,
+  FaGear,
+  FaRegThumbsDown,
+  FaRegClock,
+  FaDumbbell,
+  FaTicket
 };
 export type IconSlug = keyof typeof iconMap;
 

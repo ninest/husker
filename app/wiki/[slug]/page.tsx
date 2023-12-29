@@ -1,4 +1,5 @@
 import { ContentPageLayout } from "@/components/content-page-layout";
+import { Loading } from "@/components/loading";
 import { FullNotionPageContent } from "@/components/notion/full-notion-page-content";
 import { Spacer } from "@/components/spacer";
 import { Title } from "@/components/typography/title";
@@ -24,7 +25,13 @@ export default async function WikiPage({ params, searchParams }: WikiPageProps) 
       }}
       contributeInfo={{ pageTitle: page.title }}
     >
-      <Suspense fallback={<>Loading ...</>}>
+      <Suspense
+        fallback={
+          <>
+            <Loading heights={[3, { type: "spacer", height: 1 }, 1, 1]} />
+          </>
+        }
+      >
         <Title level={1}>{page.title}</Title>
         <Spacer className="h-4" />
         <FullNotionPageContent pageId={page.id} />

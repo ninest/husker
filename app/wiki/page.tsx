@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { getArticles } from "@/modules/content/article";
 import { getWikiCategories } from "@/modules/content/category";
 import { Fragment } from "react";
-import { LuPlus } from "react-icons/lu";
+import { LuChevronDown, LuPlus } from "react-icons/lu";
 
 export default async function WikiPage() {
   const [categories, articles] = await Promise.all([getWikiCategories(), getArticles()]);
@@ -29,7 +29,7 @@ export default async function WikiPage() {
           <Title level={2}>Featured</Title>
           <Spacer className="h-2" />
 
-          <WikiSimpleLinksList type="list" articles={featuredArticles} />
+          <WikiSimpleLinksList type="list" articles={featuredArticles} className="ml-2" />
         </section>
         <section>
           <Title level={2}>Categories</Title>
@@ -44,21 +44,29 @@ export default async function WikiPage() {
               const rest = filteredArticles.slice(4);
               return (
                 <section key={category.id}>
-                  <Title level={3}>{category.title}</Title>
+                  <Title level={3} className="text-lg font-bold">
+                    {category.title}
+                  </Title>
                   <Spacer className="h-2" />
 
-                  <WikiSimpleLinksList type="list" articles={firstFiew} showDescription />
+                  <div className="ml-2">
+                    <WikiSimpleLinksList type="list" articles={firstFiew} showDescription />
 
-                  {rest.length > 0 && (
-                    <>
-                      <Spacer className="h-2" />
-                      <details>
-                        <summary className="list-none text-sm">View all</summary>
-                        <Spacer className="h-1" />
-                        <WikiSimpleLinksList type="list" articles={rest} showDescription />
-                      </details>
-                    </>
-                  )}
+                    {rest.length > 0 && (
+                      <>
+                        <Spacer className="h-4" />
+                        <details>
+                          <summary className="list-none text-sm">
+                            <div className="bg-gray-900 px-2 py-1 rounded cursor-pointer inline-flex items-center space-x-2">
+                              <span>View all</span> <LuChevronDown />
+                            </div>
+                          </summary>
+                          <Spacer className="h-1" />
+                          <WikiSimpleLinksList type="list" articles={rest} showDescription />
+                        </details>
+                      </>
+                    )}
+                  </div>
                 </section>
               );
             })}
@@ -68,7 +76,7 @@ export default async function WikiPage() {
         <section>
           <Title level={2}>All articles</Title>
           <Spacer className="h-2" />
-          <WikiSimpleLinksList type="list" articles={articles} showDescription />
+          <WikiSimpleLinksList type="list" articles={articles} showDescription className="ml-2" />
         </section>
       </div>
     </div>
