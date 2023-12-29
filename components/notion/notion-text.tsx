@@ -15,7 +15,7 @@ export function NotionText({ text, mentions }: { text: any; mentions: PageMentio
     } = value;
     const classes = clsx({
       "font-bold": bold,
-      "font-mono bg-gray-100 text-sm rounded -mx-0.5 px-0.5": code,
+      "font-mono bg-gray-100 dark:bg-gray-800 text-sm rounded -mx-0.5 px-0.5": code,
       italic: italic,
       strikethrough: strikethrough,
       underline: underline,

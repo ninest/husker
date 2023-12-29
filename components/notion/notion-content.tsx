@@ -3,7 +3,7 @@ import { FaFile } from "react-icons/fa6";
 import { Callout } from "@/components/callout";
 import { Loading } from "@/components/loading";
 import { Title } from "@/components/typography/title";
-import { PageMention } from "@/modules/blocks/mentions";
+import { PageMention, getNotionPageMentions } from "@/modules/blocks/mentions";
 import { getBlocksChildrenList, getBlock } from "@/modules/notion/apis";
 import { cn } from "@/utils/style";
 import {
@@ -50,7 +50,8 @@ export async function NotionContent({ blocks, mentions }: NotionContentProps) {
 
 export async function NotionBlock({ block, mentions }: { block: BlockObjectResponse; mentions: PageMention[] }) {
   const { type, id } = block;
-  // @ts-ignore
+
+  //@ts-ignore
   const value = block[type];
 
   const notionText = <NotionText text={value} mentions={mentions} />;
@@ -106,7 +107,7 @@ export async function NotionBlock({ block, mentions }: { block: BlockObjectRespo
       // @ts-ignore
       const src = b.image.file.url;
       return (
-        <figure>
+        <figure className="bg-gray-50 dark:bg-gray-950 max-w-[30rem] xl:max-w-[34rem]">
           <img src={src} alt={"Image"} />
         </figure>
       );
@@ -120,8 +121,8 @@ export async function NotionBlock({ block, mentions }: { block: BlockObjectRespo
       }
       const blocks = sb.results as BlockObjectResponse[];
 
-      // @ts-ignore
-      return <NotionPage blocks={blocks} mentions={mentions} />;
+      // Recursive
+      return <NotionContent blocks={blocks} mentions={mentions} />;
     }
     case "file": {
       let fileUrl: string;
@@ -152,6 +153,44 @@ export async function NotionBlock({ block, mentions }: { block: BlockObjectRespo
             <div>File</div>
           )}
         </a>
+      );
+    }
+    case "video": {
+      const url = block.video.type === "file" ? block.video.file.url : block.video.external.url;
+      if (url.includes("youtu.be")) {
+        const youtubeId = url.split("youtu.be/")[1];
+        return (
+          <iframe
+            sandbox="allow-same-origin allow-forms allow-popups allow-scripts allow-presentation"
+            src={`https://youtube.com/embed/${youtubeId}`}
+            className="w-full aspect-video"
+          ></iframe>
+        );
+      }
+      return <video src={url} controls></video>;
+    }
+    case "column_list": {
+      if (!block.has_children) return <></>;
+
+      const children = await getBlocksChildrenList(block.id);
+      const columns = children.results;
+      // for await (const child of children.results) {
+      //   const innerChildren = await getBlocksChildrenList(child.id);
+      //   console.log(innerChildren);
+      // }
+
+      return (
+        <>
+          <div className="flex gap-4">
+            {await Promise.all(
+              columns.map(async (block) => {
+                const children = await getBlocksChildrenList(block.id);
+                const blocks = children.results as BlockObjectResponse[];
+                return <NotionContent key={block.id} blocks={blocks} mentions={mentions} />;
+              })
+            )}
+          </div>
+        </>
       );
     }
     default:

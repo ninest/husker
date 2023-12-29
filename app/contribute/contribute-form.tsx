@@ -1,18 +1,22 @@
 "use client";
 
 import { contributeAction } from "@/app/contribute/_actions/contribute";
+import { useContributeFormState } from "@/app/contribute/use-contribute-form-state";
+import { Spacer } from "@/components/spacer";
 import { Button } from "@/components/ui/button";
 import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/components/ui/use-toast";
 import { celebrate } from "@/utils/confetti";
+import { cn } from "@/utils/style";
+import { sleep } from "@/utils/time";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { ToastAction } from "@radix-ui/react-toast";
 import Link from "next/link";
-import { useCallback } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { useDropzone } from "react-dropzone";
-import { useForm } from "react-hook-form";
+import { useFieldArray, useForm } from "react-hook-form";
 import { LuImage, LuUpload } from "react-icons/lu";
 import { z } from "zod";
 
@@ -20,6 +24,7 @@ export const contributeFormSchema = z.object({
   name: z.string().optional(),
   content: z.string().min(15, "The content is too short! Please add a little more!"),
   credit: z.string().optional(),
+  images: z.array(z.object({ url: z.string().url() })),
 });
 
 export type ContributeFormType = z.infer<typeof contributeFormSchema>;
@@ -29,16 +34,27 @@ interface ContributeFormProps {
 }
 
 export function ContributeForm({ pageTitle }: ContributeFormProps) {
+  const { saveContributeFormState, getContributeContent, deleteContributeFormState } = useContributeFormState();
   const form = useForm<ContributeFormType>({
     resolver: zodResolver(contributeFormSchema),
     defaultValues: {
       name: pageTitle ?? "",
-      content: "",
+      content: pageTitle ? getContributeContent(pageTitle) : "",
       credit: "",
+      images: [],
     },
   });
+  const imageUrlsField = useFieldArray({ control: form.control, name: "images" });
+
   const allowEditTitle = !pageTitle;
   const { toast } = useToast();
+
+  useEffect(() => {
+    const pageTitle = form.getValues("name");
+    const content = form.getValues("content");
+
+    if (pageTitle) saveContributeFormState(pageTitle, content);
+  }, [form.watch("content")]);
 
   const onSubmit = form.handleSubmit(async (data) => {
     const response = await contributeAction(data);
@@ -64,8 +80,11 @@ export function ContributeForm({ pageTitle }: ContributeFormProps) {
     toast({ title: "Thank you!", description: "We'll take a look at your contribution soon!" });
     form.reset();
     celebrate();
+
+    if (data.name) deleteContributeFormState(data.name);
   });
 
+  const [imageIsLoading, setImageIsLoading] = useState(false);
   const onDrop = useCallback(async (acceptedFiles: File[]) => {
     for await (const file of acceptedFiles) {
       if (!file.type.includes("image")) {
@@ -76,11 +95,25 @@ export function ContributeForm({ pageTitle }: ContributeFormProps) {
         });
         continue;
       }
+
+      // To prevent loading UI from flashing on and off
+      // Show loading for at least 1 second
+      setImageIsLoading(true);
+      const startUploadTime = new Date();
+
       const url = await uploadToImgBB(file);
 
-      const newContentValue = (form.getValues("content").trim() + `\n\n${url}`).trim();
-      form.setValue("content", newContentValue);
-      toast({ title: `${file.name} added successfully!`, description: "Thanks for adding an image" });
+      const endUploadTime = new Date();
+      const difference = endUploadTime.getTime() - startUploadTime.getTime();
+
+      if (difference < 1250) {
+        await sleep(1250 - difference);
+      }
+
+      const prevImages = form.getValues("images");
+      form.setValue("images", [{ url }, ...prevImages]);
+      setImageIsLoading(false);
+      toast({ title: `Image added successfully!`, description: "Thanks for adding an image" });
     }
   }, []);
   const { getRootProps, getInputProps, isDragActive, open } = useDropzone({ onDrop, noClick: true });
@@ -128,29 +161,72 @@ export function ContributeForm({ pageTitle }: ContributeFormProps) {
               </FormItem>
             )}
           />
-          <FormField
-            control={form.control}
-            name="content"
-            render={({ field }) => (
-              <FormItem>
-                <FormLabel>Content</FormLabel>
+          <div>
+            <FormField
+              control={form.control}
+              name="content"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Content</FormLabel>
 
-                <FormDescription>
-                  {isDragActive ? "Yup, drag those images here!" : "Drag 'n' drop images here."}
-                </FormDescription>
+                  <FormDescription>
+                    {isDragActive ? "Yup, drag those images here!" : "Drag 'n' drop images here."}
+                  </FormDescription>
 
-                <FormControl>
-                  <Textarea rows={7} {...field} />
-                </FormControl>
-                <FormMessage />
-                <Button type="button" onClick={open} variant={"outline"} size={"sm"}>
-                  <LuUpload className="mr-1" />
-                  <LuImage className="mr-2" />
-                  Upload image
-                </Button>
-              </FormItem>
-            )}
-          />
+                  <FormControl>
+                    <Textarea
+                      rows={7}
+                      {...field}
+                      className={cn("[--border-pulse-color:--accent]", { "animate-border-color-pulse": isDragActive })}
+                    />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+
+            <Spacer className="h-2" />
+
+            <div className="space-y-2">
+              {/* Loading placeholder */}
+              {imageIsLoading && (
+                <>
+                  <div className="border rounded-md overflow-hidden flex items-center justify-between">
+                    <div className="flex items-center space-x-2">
+                      <div className="w-[3rem] h-[3rem] animate-pulse dark:bg-gray-900 bg-gray-50" />
+                      <div className="text-sm">Loading ...</div>
+                    </div>
+                  </div>
+                </>
+              )}
+
+              {/* Actual images */}
+              {imageUrlsField.fields.map((field, index) => (
+                <div key={field.id} className="border rounded-md overflow-hidden flex items-center justify-between">
+                  <div className="flex items-center space-x-2">
+                    <img src={field.url} height={10} width={10} className="w-[3rem] h-[3rem]" />
+                    <div className="text-sm">Uploaded image</div>
+                  </div>
+                  <Button
+                    onClick={() => imageUrlsField.remove(index)}
+                    className="mr-2"
+                    size={"sm"}
+                    variant={"secondary"}
+                  >
+                    Remove
+                  </Button>
+                </div>
+              ))}
+            </div>
+
+            <Spacer className="h-2" />
+
+            <Button type="button" onClick={open} variant={"outline"} size={"sm"}>
+              <LuUpload className="mr-1" />
+              <LuImage className="mr-2" />
+              Upload image
+            </Button>
+          </div>
           <FormField
             control={form.control}
             name="credit"

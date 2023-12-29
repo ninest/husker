@@ -74,3 +74,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .space-x {
+    @apply mx-5 md:px-5 md:max-w-2xl md:mx-auto lg:max-w-3xl xl:max-w-4xl
+  }
+}

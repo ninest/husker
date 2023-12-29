@@ -1,5 +1,5 @@
 import { HuskerLink } from "@/modules/content/link";
-import { atom, useAtom } from "jotai";
+import { useAtom } from "jotai";
 import { atomWithStorage } from "jotai/utils";
 
 export type FavoriteLink = Pick<HuskerLink, "id" | "iconSlug" | "title" | "description" | "url">;
