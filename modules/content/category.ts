@@ -39,6 +39,7 @@ async function transformNotionResponseToCategories(response: QueryDatabaseRespon
     const title = properties["Title"].title[0].plain_text;
 
     invariant(properties["Slug"].type === "rich_text", "Slug property should be rich text");
+    invariant(!!properties["Slug"].rich_text[0].plain_text, `Slug should exist for ${id}`);
     const slug = properties["Slug"].rich_text[0].plain_text;
 
     let article: undefined | Article = undefined;
