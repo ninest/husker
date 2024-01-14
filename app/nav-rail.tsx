@@ -13,7 +13,7 @@ export function NavRail() {
   return (
     <>
       <div className="sticky top-0 flex-none w-[4rem] h-screen border-r flex flex-col justify-between">
-        <Link href="/" className="p-4 flex items-center justify-center font-display font-black text-lg">
+        <Link href="/" className="p-4 flex items-center justify-center font-display font-black text-lg text-gray-700 dark:text-gray-300">
           H
         </Link>
 
@@ -50,8 +50,9 @@ function LinkButton({ title, href, children }: { title: string; href: string } &
     <Link
       href={href}
       className={cn("w-full flex items-center justify-center rounded-md py-3 text-lg", {
-        "bg-gray-100 dark:bg-gray-800": isActive,
-        "hover:bg-gray-200 dark:hover:bg-gray-700": !isActive,
+        // "bg-gray-100 dark:bg-gray-800": isActive,
+        "text-gray-800 dark:text-gray-200": isActive,
+        "text-gray-400 dark:text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-800": !isActive,
       })}
     >
       {children}
