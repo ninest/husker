@@ -67,6 +67,10 @@ export function CommandMenu({ links }: CommandMenuProps) {
               <LuFile className="mr-2 h-4 w-4" />
               <span>Home</span>
             </CommandItem>
+            <CommandItem onSelect={() => openUrl("/wiki")}>
+              <LuFile className="mr-2 h-4 w-4" />
+              <span>Wiki</span>
+            </CommandItem>
             <CommandItem onSelect={() => openUrl("/about")}>
               <LuFile className="mr-2 h-4 w-4" />
               <span>About</span>
