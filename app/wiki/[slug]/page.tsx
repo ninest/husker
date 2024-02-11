@@ -1,3 +1,4 @@
+import { createOgImageUrl } from "@/app/api/og/og-functions";
 import { ContentPageLayout } from "@/components/content-page-layout";
 import { Loading } from "@/components/loading";
 import { FullNotionPageContent } from "@/components/notion/full-notion-page-content";
@@ -11,6 +12,17 @@ interface WikiPageProps {
   params: { slug: string };
   searchParams: Record<string, string>;
 }
+
+export async function generateMetadata({ params }: WikiPageProps) {
+  const page = await getArticleBySlug(params.slug);
+  return {
+    title: "Wiki",
+    openGraph: {
+      images: [{ url: createOgImageUrl({ title: page.title }) }],
+    },
+  };
+}
+
 export default async function WikiPage({ params, searchParams }: WikiPageProps) {
   const page = await getArticleBySlug(params.slug);
   if (page.link) return redirect(`/${page.link}?from=wiki`);

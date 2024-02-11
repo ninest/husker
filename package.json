@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.0.16",
     "@formkit/auto-animate": "^0.8.1",
     "@hookform/resolvers": "^3.3.2",
     "@notionhq/client": "^2.2.14",

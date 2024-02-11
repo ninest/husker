@@ -5,6 +5,7 @@ import { Title } from "@/components/typography/title";
 import { Button } from "@/components/ui/button";
 import { getArticles } from "@/modules/content/article";
 import { getWikiCategories } from "@/modules/content/category";
+import Link from "next/link";
 import { Fragment } from "react";
 import { LuChevronDown, LuPlus } from "react-icons/lu";
 
@@ -17,9 +18,11 @@ export default async function WikiPage() {
     <div className="my-9 space-x">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <Title level={1}>Welcome to Husker Wiki!</Title>
-        <Button variant={"default"}>
-          <LuPlus className="mr-2" />
-          New page
+        <Button variant={"default"} asChild>
+          <Link href="/contribute">
+            <LuPlus className="mr-2" />
+            New page
+          </Link>
         </Button>
       </div>
       <Spacer className="h-10" />

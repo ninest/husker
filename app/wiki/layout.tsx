@@ -4,11 +4,17 @@ import { getWikiCategories } from "@/modules/content/category";
 import { ComponentProps } from "react";
 import { getArticles } from "@/modules/content/article";
 import Link from "next/link";
+import { Metadata } from "next";
+import { createOgImageUrl } from "@/app/api/og/og-functions";
+
+export const metadata: Metadata = {
+  title: "Wiki",
+  openGraph: {
+    images: [{ url: createOgImageUrl({ title: "Wiki" }) }],
+  },
+};
 
 export default async function WikiLayout({ children }: ComponentProps<"div">) {
-  // const categories = await getWikiCategories();
-  // const articles = await getArticles(
-
   const [categories, articles] = await Promise.all([getWikiCategories(), getArticles()]);
 
   return (

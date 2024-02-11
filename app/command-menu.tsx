@@ -1,6 +1,6 @@
 "use client";
 
-import { LuFile, LuStar } from "react-icons/lu";
+import { LuFile, LuMoon, LuPartyPopper, LuStar } from "react-icons/lu";
 
 import { useCommandMenu } from "@/app/use-command-menu";
 import {
@@ -16,6 +16,8 @@ import { HuskerLink } from "@/modules/content/link";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 import { useFavorites } from "@/modules/favorites/use-favorites";
+import { useTheme } from "next-themes";
+import { celebrate } from "@/utils/confetti";
 
 interface CommandMenuProps {
   links: HuskerLink[];
@@ -25,6 +27,7 @@ export function CommandMenu({ links }: CommandMenuProps) {
   const router = useRouter();
   const { isCommandMenuOpen, setIsCommandMenuOpen } = useCommandMenu();
   const { favorites } = useFavorites();
+  const { theme, setTheme } = useTheme();
 
   useEffect(() => {
     const down = (e: KeyboardEvent) => {
@@ -41,7 +44,7 @@ export function CommandMenu({ links }: CommandMenuProps) {
   const openUrl = (url: string) => {
     if (url.startsWith("/")) router.push(url);
     else window.open(url, "_blank");
-    setIsCommandMenuOpen(false)
+    setIsCommandMenuOpen(false);
   };
 
   return (
@@ -67,6 +70,10 @@ export function CommandMenu({ links }: CommandMenuProps) {
               <LuFile className="mr-2 h-4 w-4" />
               <span>Home</span>
             </CommandItem>
+            <CommandItem onSelect={() => openUrl("/wiki")}>
+              <LuFile className="mr-2 h-4 w-4" />
+              <span>Wiki</span>
+            </CommandItem>
             <CommandItem onSelect={() => openUrl("/about")}>
               <LuFile className="mr-2 h-4 w-4" />
               <span>About</span>
@@ -90,6 +97,23 @@ export function CommandMenu({ links }: CommandMenuProps) {
               </CommandItem>
             ))}
           </CommandGroup>
+
+          <CommandGroup heading="Actions">
+            <CommandItem onSelect={() => setTheme(theme === "light" ? "dark" : "light")}>
+              <LuMoon className="mr-2 h-4 w-4" />
+              <span>Toggle theme</span>
+            </CommandItem>
+            <CommandItem
+              onSelect={() => {
+                celebrate();
+                setIsCommandMenuOpen(false);
+              }}
+            >
+              <LuPartyPopper className="mr-2 h-4 w-4" />
+              <span>Celebrate</span>
+            </CommandItem>
+          </CommandGroup>
+          <CommandSeparator />
         </CommandList>
       </CommandDialog>
     </>
