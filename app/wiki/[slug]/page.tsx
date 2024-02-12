@@ -46,6 +46,7 @@ export default async function WikiPage({ params, searchParams }: WikiPageProps) 
       >
         <Title level={1}>{page.title}</Title>
         <Spacer className="h-4" />
+        {/* @ts-ignore */}
         <FullNotionPageContent pageId={page.id} />
       </Suspense>
     </ContentPageLayout>

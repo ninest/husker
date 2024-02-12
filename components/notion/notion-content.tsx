@@ -54,6 +54,7 @@ export async function NotionBlock({ block, mentions }: { block: BlockObjectRespo
   //@ts-ignore
   const value = block[type];
 
+  // @ts-ignore
   const notionText = <NotionText text={value} mentions={mentions} />;
 
   switch (type) {
@@ -122,6 +123,7 @@ export async function NotionBlock({ block, mentions }: { block: BlockObjectRespo
       const blocks = sb.results as BlockObjectResponse[];
 
       // Recursive
+      // @ts-ignore
       return <NotionContent blocks={blocks} mentions={mentions} />;
     }
     case "file": {
@@ -186,6 +188,7 @@ export async function NotionBlock({ block, mentions }: { block: BlockObjectRespo
               columns.map(async (block) => {
                 const children = await getBlocksChildrenList(block.id);
                 const blocks = children.results as BlockObjectResponse[];
+                // @ts-ignore
                 return <NotionContent key={block.id} blocks={blocks} mentions={mentions} />;
               })
             )}
