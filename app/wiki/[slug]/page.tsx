@@ -8,7 +8,9 @@ import { getArticleBySlug } from "@/modules/content/article";
 import { redirect } from "next/navigation";
 import { Suspense } from "react";
 
-interface WikiPageProps {
+export const revalidate = 60;
+
+export interface WikiPageProps {
   params: { slug: string };
   searchParams: Record<string, string>;
 }
@@ -16,7 +18,7 @@ interface WikiPageProps {
 export async function generateMetadata({ params }: WikiPageProps) {
   const page = await getArticleBySlug(params.slug);
   return {
-    title: "Wiki",
+    title: page.title,
     openGraph: {
       images: [{ url: createOgImageUrl({ title: page.title }) }],
     },

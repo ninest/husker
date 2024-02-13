@@ -2,7 +2,6 @@
 
 import { useCommandMenu } from "@/app/use-command-menu";
 import { SimpleSidebarLinkButton } from "@/components/simple-sidebar-link-button";
-import { Spacer } from "@/components/spacer";
 import { Button } from "@/components/ui/button";
 import { siteMap } from "@/map";
 import Link from "next/link";

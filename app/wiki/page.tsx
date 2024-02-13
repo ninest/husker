@@ -9,6 +9,8 @@ import Link from "next/link";
 import { Fragment } from "react";
 import { LuChevronDown, LuPlus } from "react-icons/lu";
 
+export const revalidate = 60;
+
 export default async function WikiPage() {
   const [categories, articles] = await Promise.all([getWikiCategories(), getArticles()]);
 
@@ -57,10 +59,10 @@ export default async function WikiPage() {
 
                     {rest.length > 0 && (
                       <>
-                        <Spacer className="h-4" />
+                        <Spacer className="h-2" />
                         <details>
                           <summary className="list-none text-sm">
-                            <div className="bg-gray-900 px-2 py-1 rounded cursor-pointer inline-flex items-center space-x-2">
+                            <div className="bg-gray-100 dark:bg-gray-900 px-2 py-1 rounded cursor-pointer inline-flex items-center space-x-2">
                               <span>View all</span> <LuChevronDown />
                             </div>
                           </summary>

@@ -1,8 +1,10 @@
+import { Analytics } from "@/app/analytics";
 import { createOgImageUrl } from "@/app/api/og/og-functions";
 import { CommandMenu } from "@/app/command-menu";
 import { NavRail } from "@/app/nav-rail";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { Toaster } from "@/components/ui/toaster";
+import { getArticles } from "@/modules/content/article";
 import { getLinks } from "@/modules/content/link";
 import { Provider } from "jotai";
 import type { Metadata } from "next";
@@ -23,17 +25,24 @@ export const metadata: Metadata = {
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  const huskerLinks = await getLinks();
+  const [huskerLinks, wikiLinks] = await Promise.all([getLinks(), getArticles()]);
+  const wikiLinksWithUrl = wikiLinks.map((wl) => ({ ...wl, url: `/wiki/${wl.slug}` }));
 
   return (
     <html lang="en">
+      {process.env.NODE_ENV === "production" && <Analytics />}
       <body
         className={`${inter.variable} ${jetbrains.variable} ${karla.variable} font-sans h-full text-foreground dark:text-foreground flex`}
       >
         <Provider>
           <ThemeProvider attribute="class" defaultTheme="dark" disableTransitionOnChange>
             <Toaster />
-            <CommandMenu links={huskerLinks} />
+            <CommandMenu
+              linkGroups={[
+                { name: "Links", links: huskerLinks },
+                { name: "Articles", links: wikiLinksWithUrl },
+              ]}
+            />
             <div className="hidden md:block">
               <NavRail />
             </div>

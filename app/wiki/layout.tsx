@@ -8,7 +8,7 @@ import { Metadata } from "next";
 import { createOgImageUrl } from "@/app/api/og/og-functions";
 
 export const metadata: Metadata = {
-  title: "Wiki",
+  title: { default: "Husker Wiki", template: "%s - Husker Wiki" },
   openGraph: {
     images: [{ url: createOgImageUrl({ title: "Wiki" }) }],
   },

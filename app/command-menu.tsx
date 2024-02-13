@@ -12,18 +12,17 @@ import {
   CommandList,
   CommandSeparator,
 } from "@/components/ui/command";
-import { HuskerLink } from "@/modules/content/link";
+import { useFavorites } from "@/modules/favorites/use-favorites";
+import { celebrate } from "@/utils/confetti";
+import { useTheme } from "next-themes";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
-import { useFavorites } from "@/modules/favorites/use-favorites";
-import { useTheme } from "next-themes";
-import { celebrate } from "@/utils/confetti";
 
 interface CommandMenuProps {
-  links: HuskerLink[];
+  linkGroups: { name: string; links: { id: string; title: string; url: string }[] }[];
 }
 
-export function CommandMenu({ links }: CommandMenuProps) {
+export function CommandMenu({ linkGroups }: CommandMenuProps) {
   const router = useRouter();
   const { isCommandMenuOpen, setIsCommandMenuOpen } = useCommandMenu();
   const { favorites } = useFavorites();
@@ -53,37 +52,41 @@ export function CommandMenu({ links }: CommandMenuProps) {
         <CommandInput placeholder="Type a command or search..." />
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
-          <CommandGroup heading="Links">
-            {links.map((link) => {
-              return (
-                <CommandItem key={link.id} onSelect={() => openUrl(link.url)}>
-                  <span>{link.title}</span>
-                </CommandItem>
-              );
-            })}
-          </CommandGroup>
+          {linkGroups.map((group) => {
+            return (
+              <CommandGroup key={group.name} heading={group.name}>
+                {group.links.map((link) => {
+                  return (
+                    <CommandItem key={link.id} onSelect={() => openUrl(link.url)}>
+                      <span>{link.title}</span>
+                    </CommandItem>
+                  );
+                })}
+              </CommandGroup>
+            );
+          })}
 
           <CommandSeparator />
 
           <CommandGroup heading="Pages">
             <CommandItem onSelect={() => openUrl("/")}>
-              <LuFile className="mr-2 h-4 w-4" />
+              <LuFile className="opacity-60 mr-2 h-3 w-3" />
               <span>Home</span>
             </CommandItem>
             <CommandItem onSelect={() => openUrl("/wiki")}>
-              <LuFile className="mr-2 h-4 w-4" />
+              <LuFile className="opacity-60 mr-2 h-3 w-3" />
               <span>Wiki</span>
             </CommandItem>
             <CommandItem onSelect={() => openUrl("/about")}>
-              <LuFile className="mr-2 h-4 w-4" />
+              <LuFile className="opacity-60 mr-2 h-3 w-3" />
               <span>About</span>
             </CommandItem>
             <CommandItem onSelect={() => openUrl("/contribute")}>
-              <LuFile className="mr-2 h-4 w-4" />
+              <LuFile className="opacity-60 mr-2 h-3 w-3" />
               <span>Contribute</span>
             </CommandItem>
             <CommandItem onSelect={() => openUrl("/settings")}>
-              <LuFile className="mr-2 h-4 w-4" />
+              <LuFile className="opacity-60 mr-2 h-3 w-3" />
               <span>Settings</span>
             </CommandItem>
           </CommandGroup>
@@ -92,7 +95,7 @@ export function CommandMenu({ links }: CommandMenuProps) {
           <CommandGroup heading="Favorites">
             {favorites.map((favoriteLink) => (
               <CommandItem key={favoriteLink.id} onSelect={() => openUrl(favoriteLink.url)}>
-                <LuStar className="mr-2 h-4 w-4" />
+                <LuStar className="opacity-60 mr-2 h-3 w-3" />
                 <span>{favoriteLink.title}</span>
               </CommandItem>
             ))}
@@ -100,7 +103,7 @@ export function CommandMenu({ links }: CommandMenuProps) {
 
           <CommandGroup heading="Actions">
             <CommandItem onSelect={() => setTheme(theme === "light" ? "dark" : "light")}>
-              <LuMoon className="mr-2 h-4 w-4" />
+              <LuMoon className="opacity-60 mr-2 h-3 w-3" />
               <span>Toggle theme</span>
             </CommandItem>
             <CommandItem
@@ -109,7 +112,7 @@ export function CommandMenu({ links }: CommandMenuProps) {
                 setIsCommandMenuOpen(false);
               }}
             >
-              <LuPartyPopper className="mr-2 h-4 w-4" />
+              <LuPartyPopper className="opacity-60 mr-2 h-3 w-3" />
               <span>Celebrate</span>
             </CommandItem>
           </CommandGroup>

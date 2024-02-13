@@ -15,7 +15,7 @@ export default async function LinksLayout({ children }: { children: ReactNode })
         </aside>
       </div>
 
-      <div className="block md:hidden sticky top-0">
+      <div className="block md:hidden sticky top-0 z-50">
         <MobileNavbar title="Husker" />
       </div>
 

@@ -13,6 +13,7 @@ import {
   FaRegClock,
   FaRegThumbsDown,
   FaTicket,
+  FaEnvelope,
 } from "react-icons/fa6";
 import { LuLayoutDashboard, LuBook, LuNewspaper, LuDumbbell, LuPlus, LuInfo, LuSettings2 } from "react-icons/lu";
 
@@ -36,7 +37,8 @@ export const iconMap = {
   FaRegThumbsDown,
   FaRegClock,
   FaDumbbell,
-  FaTicket
+  FaTicket,
+  FaEnvelope,
 };
 export type IconSlug = keyof typeof iconMap;
 

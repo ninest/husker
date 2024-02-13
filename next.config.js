@@ -12,6 +12,11 @@ const nextConfig = {
         destination: "/wiki/:path*",
         permanent: true,
       },
+      {
+        source: "/programs/:path*",
+        destination: "/wiki/:path*",
+        permanent: true,
+      },
     ];
   },
 };
