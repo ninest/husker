@@ -1,6 +1,10 @@
 import { MobileNavbar } from "@/components/mobile-navbar";
 import { PropsWithChildren } from "react";
 
+export const metadata = {
+  title: 'Husker Courses',
+};
+
 export default function CoursesLayout({ children }: PropsWithChildren) {
   return (
     <main>

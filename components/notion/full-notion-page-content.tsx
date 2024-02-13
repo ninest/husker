@@ -13,6 +13,7 @@ export async function FullNotionPageContent({ pageId }: FullNotionPageContentPro
 
   return (
     <>
+      {/* @ts-ignore */}
       <NotionContent blocks={blocks} mentions={mentions} />
     </>
   );

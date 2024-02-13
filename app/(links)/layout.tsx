@@ -1,11 +1,10 @@
-import { MobileNavbar } from "@/components/mobile-navbar";
 import { DesktopLinksSidebarContent } from "@/app/(links)/_components/desktop-links-sidebar-content";
+import { MobileNavbar } from "@/components/mobile-navbar";
 import { getLinkCategories } from "@/modules/content/category";
 import { getLinks } from "@/modules/content/link";
-import { ComponentProps } from "react";
-import { Metadata } from "next";
+import { ReactNode } from "react";
 
-export default async function LinksLayout({ children }: ComponentProps<"div">) {
+export default async function LinksLayout({ children }: { children: ReactNode }) {
   const [linkCategories, links] = await Promise.all([getLinkCategories(), getLinks()]);
 
   return (
@@ -16,7 +15,7 @@ export default async function LinksLayout({ children }: ComponentProps<"div">) {
         </aside>
       </div>
 
-      <div className="block md:hidden sticky top-0">
+      <div className="block md:hidden sticky top-0 z-50">
         <MobileNavbar title="Husker" />
       </div>
 

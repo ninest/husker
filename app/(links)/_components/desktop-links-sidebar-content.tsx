@@ -35,7 +35,6 @@ export function DesktopLinksSidebarContent({ categories, links }: LinksSidebarPr
       <div className="space-y-2">
         {favoritesEnabled && (
           <div>
-            ss
             <SimpleSidebarLinkButton href={`/#favorites`} title={"Favorites"} />
           </div>
         )}

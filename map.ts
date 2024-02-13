@@ -1,6 +1,6 @@
 import { IconSlug } from "@/utils/icon";
 
-type SiteLink = { icon: IconSlug; title: string; href: string };
+type SiteLink = { inSidebar?: boolean; icon: IconSlug; title: string; href: string };
 
 interface SiteMap {
   topLevel: SiteLink[];
@@ -19,5 +19,8 @@ export const siteMap: SiteMap = {
     { icon: "LuPlus", title: "Contribute", href: "/contribute" },
     { icon: "LuInfo", title: "About", href: "/about" },
     { icon: "LuSettings2", title: "Settings", href: "/settings" },
+    { inSidebar: false, icon: "FaEnvelope", title: "Mailing list", href: "http://eepurl.com/imB7zE" },
+    { inSidebar: false, icon: "FaEnvelope", title: "Discord", href: "https://discord.gg/j7WkFct2rY" },
+    { inSidebar: false, icon: "FaEnvelope", title: "GitHub", href: "https://github.com/ninest/huskinfo" },
   ],
 };
