@@ -16,6 +16,7 @@ export async function generateMetadata({ params }: WikiTopLevelPageProps) {
   const page = await getArticleBySlug(params.wikiSlug);
   return {
     title: page.title,
+    description: page.description,
     openGraph: {
       images: [{ url: createOgImageUrl({ title: page.title }) }],
     },
@@ -42,7 +43,7 @@ export default async function AboutPage({ params, searchParams }: { params: Para
   return (
     <ContentPageLayout title="Husker" showMobileNav backButton={backButton} contributeInfo={{ pageTitle: "About" }}>
       <>
-        <Title level={1}>About</Title>
+        <Title level={1}>{article.title}</Title>
         <Spacer className="h-4" />
         {/* @ts-ignore */}
         <FullNotionPageContent pageId={article.id} />

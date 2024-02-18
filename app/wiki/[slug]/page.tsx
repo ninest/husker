@@ -5,6 +5,7 @@ import { FullNotionPageContent } from "@/components/notion/full-notion-page-cont
 import { Spacer } from "@/components/spacer";
 import { Title } from "@/components/typography/title";
 import { getArticleBySlug } from "@/modules/content/article";
+import { Metadata } from "next";
 import { redirect } from "next/navigation";
 import { Suspense } from "react";
 
@@ -15,10 +16,11 @@ export interface WikiPageProps {
   searchParams: Record<string, string>;
 }
 
-export async function generateMetadata({ params }: WikiPageProps) {
+export async function generateMetadata({ params }: WikiPageProps): Promise<Metadata> {
   const page = await getArticleBySlug(params.slug);
   return {
     title: page.title,
+    description: page.description,
     openGraph: {
       images: [{ url: createOgImageUrl({ title: page.title }) }],
     },
