@@ -17,14 +17,14 @@ export async function GET(req: Request) {
 
   return new ImageResponse(
     (
-      <div tw="w-full h-full flex flex-col p-8">
+      <div tw="w-full h-full flex flex-col p-8 bg-gray-900">
         {!!title ? (
           <div tw="flex flex-col h-full">
-            <div tw="flex-none text-[3rem]">Husker</div>
-            <div tw="flex-1 items-center justify-center font-bold text-[5rem]">{title}</div>
+            <div tw="flex-none text-[3rem] text-gray-200">Husker</div>
+            <div tw="flex-1 items-center justify-center font-bold text-[6rem] text-gray-100">{title}</div>
           </div>
         ) : (
-          <div tw="flex items-center justify-center w-full h-full text-[10rem] font-bold">Husker</div>
+          <div tw="flex items-center justify-center w-full h-full text-[10rem] font-bold text-gray-100">Husker</div>
         )}
       </div>
     ),
