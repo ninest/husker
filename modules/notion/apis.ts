@@ -1,13 +1,16 @@
 import type {
   BlockObjectResponse,
-  CommentObjectResponse,
   GetDatabaseResponse,
   GetPageResponse,
   ListBlockChildrenResponse,
   ListCommentsResponse,
   QueryDatabaseParameters,
-  QueryDatabaseResponse,
+  QueryDatabaseResponse
 } from "@notionhq/client/build/src/api-endpoints";
+
+if (!process.env.NOTION_API_KEY) {
+  throw Error("Missing NOTION_API_KEY. Please check out https://github.com/ninest/husker to set up your env.")
+}
 
 const notionHeaders = {
   Authorization: "Bearer " + process.env.NOTION_API_KEY,

@@ -12,7 +12,13 @@ If you're interested in getting updates, join the [mailing list](http://eepurl.c
 
 ## Development
 
-First, run the development server:
+**IMPORTANT**: After cloning the repo, add this to your `.env`:
+
+```bash
+NOTION_API_KEY="secret_dKlXkhxUnN6iDDfAzwU0zhZSZZJF6SIG2Ngp6yegt8F"
+```
+
+Run the development server:
 
 ```bash
 pnpm dev
