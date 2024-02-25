@@ -36,7 +36,7 @@ export function Combobox({ className, placeholder, searchPlaceholder, options, .
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className={cn("justify-between overflow-x-scroll", className)}
+          className={cn("justify-between overflow-x-scroll overflow-hidden", className)}
         >
           {props.type === "single-select" ? (
             <>
