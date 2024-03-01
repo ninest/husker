@@ -4,14 +4,24 @@ import { getLinkCategories } from "@/modules/content/category";
 import { getLinks } from "@/modules/content/link";
 import { ReactNode } from "react";
 
-export default async function LinksLayout({ children }: { children: ReactNode }) {
-  const [linkCategories, links] = await Promise.all([getLinkCategories(), getLinks()]);
+export default async function LinksLayout({
+  children,
+}: {
+  children: ReactNode;
+}) {
+  const [linkCategories, links] = await Promise.all([
+    getLinkCategories(),
+    getLinks(),
+  ]);
 
   return (
     <main className="md:flex h-full">
       <div className="hidden md:block">
-        <aside className="flex-none sticky top-0 h-screen w-[16rem] lg:w-[22rem] border-r p-4 overflow-y-scroll">
-          <DesktopLinksSidebarContent categories={linkCategories} links={links} />
+        <aside className="flex-none sticky top-0 h-screen w-[16rem] lg:w-[22rem] border-r p-4 overflow-auto">
+          <DesktopLinksSidebarContent
+            categories={linkCategories}
+            links={links}
+          />
         </aside>
       </div>
 
