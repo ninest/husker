@@ -26,6 +26,11 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Contributors
+
+- [Parth Kabra](https://www.parthkabra.me/)
+- ... (more from Northeastern Electric Racing)
+
 ## Licence
 
 MIT

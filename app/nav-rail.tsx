@@ -6,6 +6,8 @@ import { getIcon } from "@/utils/icon";
 import { cn } from "@/utils/style";
 import Link from "next/link";
 import { ComponentProps } from "react";
+import kaleidoscopeLogo from "../public/kaleidoscope-logo.png";
+import Image from "next/image";
 
 export function NavRail() {
   return (
@@ -30,6 +32,9 @@ export function NavRail() {
         </div>
 
         <div className="p-2 space-y-2">
+          <LinkButton href={"https://markefontenot.notion.site/Sponsored-by-Kaleidoscope-4016a87fbd8c4ef182041269c6288ee5?pvs=74"} title="Kaleidoscope" className="p-2">
+            <Image src={kaleidoscopeLogo} alt="Kaleidoscope logo" />
+          </LinkButton>
           {siteMap.utility
             .filter((link) => link.inSidebar !== false)
             .map((link) => {

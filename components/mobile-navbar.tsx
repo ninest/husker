@@ -7,6 +7,8 @@ import { siteMap } from "@/map";
 import Link from "next/link";
 import { ReactNode, useState } from "react";
 import { LuChevronLeft, LuPanelRight, LuSearch, LuX } from "react-icons/lu";
+import kaleidoscopeLogo from "../public/kaleidoscope-logo.png";
+import Image from "next/image";
 
 type LinksNavbarProps = {
   title: string;
@@ -68,6 +70,17 @@ export function MobileNavbar({ title, backButtonHref, expandedContent }: LinksNa
               {siteMap.utility.map((link) => {
                 return <SimpleSidebarLinkButton key={link.href} href={link.href} title={link.title} />;
               })}
+            </div>
+            <div className="px-4 pb-4">
+              <Link
+                href={
+                  "https://markefontenot.notion.site/Sponsored-by-Kaleidoscope-4016a87fbd8c4ef182041269c6288ee5?pvs=74"
+                }
+                className="flex items-center gap-2"
+              >
+                <Image src={kaleidoscopeLogo} alt="Kaleidoscope logo" className="w-6 h-6" />{" "}
+                <div>Sponsored by Kaleidoscope</div>
+              </Link>
             </div>
           </div>
         )}
