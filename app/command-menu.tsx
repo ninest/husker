@@ -15,8 +15,8 @@ import {
 import { useFavorites } from "@/modules/favorites/use-favorites";
 import { celebrate } from "@/utils/confetti";
 import { useTheme } from "next-themes";
-import { useRouter } from "next/navigation";
-import { useEffect } from "react";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { useEffect, useState } from "react";
 
 interface CommandMenuProps {
   linkGroups: { name: string; links: { id: string; title: string; url: string }[] }[];
@@ -24,7 +24,19 @@ interface CommandMenuProps {
 
 export function CommandMenu({ linkGroups }: CommandMenuProps) {
   const router = useRouter();
+  const pathname = usePathname();
+  const q = useSearchParams().get("q");
+  const [commandInputText, setCommandInputText] = useState(q ?? "");
+
   const { isCommandMenuOpen, setIsCommandMenuOpen } = useCommandMenu();
+
+  useEffect(() => {
+    if (q) {
+      setIsCommandMenuOpen(true);
+      router.push(pathname);
+    }
+  }, []);
+
   const { favorites } = useFavorites();
   const { theme, setTheme } = useTheme();
 
@@ -49,7 +61,11 @@ export function CommandMenu({ linkGroups }: CommandMenuProps) {
   return (
     <>
       <CommandDialog open={isCommandMenuOpen} onOpenChange={setIsCommandMenuOpen}>
-        <CommandInput placeholder="Type a command or search..." />
+        <CommandInput
+          placeholder="Type a command or search..."
+          value={commandInputText}
+          onValueChange={(s) => setCommandInputText(s)}
+        />
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
           {linkGroups.map((group) => {
