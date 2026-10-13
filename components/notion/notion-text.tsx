@@ -41,10 +41,12 @@ export function NotionText({ text, mentions }: { text: any; mentions: PageMentio
         const text = value.plain_text;
         // @ts-ignore
         const linkedToPageId = value.mention.page.id.replaceAll("-", "");
-        const mention = mentions.find((mention) => mention.id === linkedToPageId)!;
+        const mention = mentions.find((mention) => mention.id === linkedToPageId);
+        // A mention of a page that isn't a wiki page or course stays plain text.
+        if (!mention) return <span className={classes}>{text}</span>;
         return (
           <span className={classes}>
-            <Link href={mention?.href} className="underline">
+            <Link href={mention.href} className="underline">
               {text}
             </Link>
           </span>

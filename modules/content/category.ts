@@ -1,8 +1,4 @@
-import { Article, getArticleById } from "@/modules/content/article";
-import { queryNotionDatabase } from "@/modules/notion/apis";
-import { notionConstants } from "@/modules/notion/constants";
-import { QueryDatabaseResponse, PageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
-import invariant from "tiny-invariant";
+import categories from "@/content/categories.json";
 
 export type Category = {
   id: string;
@@ -10,50 +6,17 @@ export type Category = {
   slug: string;
 };
 
+const toCategory = ({ id, title, slug }: (typeof categories)[number]): Category => ({ id, title, slug });
+
+/** Categories shown on the links page, in their links order. */
 export async function getLinkCategories() {
-  const response = await queryNotionDatabase(notionConstants.CATEGORIES_DATABASE_ID, {
-    filter: { property: "Is Links Category", checkbox: { equals: true } },
-    sorts: [{ property: "Links Order", direction: "ascending" }],
-  });
-
-  return await transformNotionResponseToCategories(response);
+  return categories
+    .filter((category) => category.isLinksCategory)
+    .sort((a, b) => (a.linksOrder ?? Infinity) - (b.linksOrder ?? Infinity))
+    .map(toCategory);
 }
 
+/** All categories, in wiki order (content/categories.json is kept sorted). */
 export async function getWikiCategories() {
-  const response = await queryNotionDatabase(notionConstants.CATEGORIES_DATABASE_ID, {
-    sorts: [{ property: "Order", direction: "ascending" }],
-  });
-
-  const categories = await transformNotionResponseToCategories(response);
-  return categories;
-}
-
-async function transformNotionResponseToCategories(response: QueryDatabaseResponse) {
-  const categories: Category[] = [];
-  const results = response.results.filter((result): result is PageObjectResponse => "properties" in result);
-  for await (const row of results) {
-    const { properties } = row;
-
-    const id = row.id;
-    invariant(properties["Title"].type === "title", "Title property should be type title");
-    const title = properties["Title"].title[0].plain_text;
-
-    invariant(properties["Slug"].type === "rich_text", "Slug property should be rich text");
-    invariant(!!properties["Slug"].rich_text[0].plain_text, `Slug should exist for ${id}`);
-    const slug = properties["Slug"].rich_text[0].plain_text;
-
-    let article: undefined | Article = undefined;
-    invariant(
-      properties["Wiki Page"].type === "relation",
-      "Expected Wiki Page property to be a relation to categories@ts"
-    );
-    if (properties["Wiki Page"].relation.length > 0) {
-      const wikiArticleId = properties["Wiki Page"].relation[0].id;
-      article = await getArticleById(wikiArticleId);
-    }
-
-    categories.push({ id, slug, title /* wikiArticle: article */ });
-  }
-
-  return categories;
+  return categories.map(toCategory);
 }
