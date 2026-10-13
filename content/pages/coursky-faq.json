@@ -1,0 +1,305 @@
+{
+  "id": "031b2a07-c45f-4818-830c-8903d8910e80",
+  "blocks": [
+    {
+      "id": "30756a3a-32a6-4630-9207-c1951b0a2516",
+      "type": "heading_3",
+      "has_children": false,
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "What are the features of Husker Courses?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "What are the features of Husker Courses?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "1747dcad-6ee0-49ea-81b8-0b59926d4241",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Ability to search for courses by term, subject, number, and CRN",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Ability to search for courses by term, subject, number, and CRN",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "351eba87-4e3c-4813-bfc3-4cb6ec922dfa",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "View course descriptions and NUPath covered",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "View course descriptions and NUPath covered",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "8a17ea12-c159-4b03-8aa3-fe93d297f57c",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "View information on course sections including term, professors, timings",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "View information on course sections including term, professors, timings",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "a5bc2771-1d7a-4fa0-ae90-5aad93c5754a",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "View (and share) course notes",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "View (and share) course notes",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "0f6a84ac-889b-4f2b-993e-61c60731c4ae",
+      "type": "heading_3",
+      "has_children": false,
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "What are course notes?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "What are course notes?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "bf0495bf-48e8-42d9-8c70-234d3eebf997",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Course notes aims to be a place where students can share syllabi, required textbooks, FAQ, and other useful things for a course. They can be found on every course page. An example of a course with good notes is ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Course notes aims to be a place where students can share syllabi, required textbooks, FAQ, and other useful things for a course. They can be found on every course page. An example of a course with good notes is ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "24e67542-efb5-4611-a784-1124392862c4"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "CS 2500: Fundamentals of Computer Science 1",
+            "href": "https://app.notion.com/p/24e67542efb54611a7841124392862c4"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". ",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    },
+    {
+      "id": "f07f5d95-7a8e-4540-a27f-e990baf19aae",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If you would like to contribute, look for the “contribute” button, or ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If you would like to contribute, look for the “contribute” button, or ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "fill out this form",
+              "link": {
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLSdIzBLNUhuc1OMyPCPAKwDBo4gpvqcK78OY9yaoCoJ3YMxTkQ/viewform"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "fill out this form",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLSdIzBLNUhuc1OMyPCPAKwDBo4gpvqcK78OY9yaoCoJ3YMxTkQ/viewform"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    }
+  ],
+  "mentions": [
+    {
+      "id": "24e67542efb54611a7841124392862c4",
+      "title": "CS 2500: Fundamentals of Computer Science 1",
+      "type": "course-link",
+      "href": "/CS2500"
+    }
+  ]
+}

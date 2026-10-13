@@ -1,0 +1,34 @@
+{
+  "id": "29441562-1708-4e18-945d-68cc999df86e",
+  "blocks": [
+    {
+      "id": "63302ff5-57de-4965-bc40-259a77e6430d",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Please support Husker by sharing with your friends!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Please support Husker by sharing with your friends!",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    }
+  ],
+  "mentions": []
+}

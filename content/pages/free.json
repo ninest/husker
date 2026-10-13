@@ -1,0 +1,2405 @@
+{
+  "id": "9a332bad-c501-49ab-afff-58f19b9d116d",
+  "blocks": [
+    {
+      "id": "0f80006c-4324-4614-8765-a73644064482",
+      "type": "callout",
+      "has_children": false,
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Want updates on the latest free and discounted stuff? ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Want updates on the latest free and discounted stuff? ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Click here to join the mailing list",
+              "link": {
+                "url": "https://husker.us21.list-manage.com/subscribe?u=fbfcc4b5db965a0100336a5c3&id=5d10ee06b1"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Click here to join the mailing list",
+            "href": "https://husker.us21.list-manage.com/subscribe?u=fbfcc4b5db965a0100336a5c3&id=5d10ee06b1"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
+        },
+        "color": "gray_background"
+      }
+    },
+    {
+      "id": "bba7e71d-f35c-4040-a6d2-2568f1d0467d",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Movies",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Movies",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "1647ea35-4d58-4e35-a874-b55a36f17891",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "AMC Loews Boston Common theater",
+              "link": {
+                "url": "https://www.amctheatres.com/movie-theatres/boston/amc-boston-common-19"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "AMC Loews Boston Common theater",
+            "href": "https://www.amctheatres.com/movie-theatres/boston/amc-boston-common-19"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": $3 off tickets on Thursdays. Consider getting AMCs A-List if you watch 2+ movies a month.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": $3 off tickets on Thursdays. Consider getting AMCs A-List if you watch 2+ movies a month.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "2424628f-ae40-4e0d-be86-2cb1371331bc",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Brattle Theater in Harvard Square",
+              "link": {
+                "url": "https://www.harvardsquare.com/venue/brattle-theatre/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The Brattle Theater in Harvard Square",
+            "href": "https://www.harvardsquare.com/venue/brattle-theatre/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": $2 off ($12 tickets).",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": $2 off ($12 tickets).",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "f1616e6f-ed98-4e63-86d5-0fb2a95c3403",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Apple Cinemas in Cambridge",
+              "link": {
+                "url": "https://www.applecinemas.com/movies"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Apple Cinemas in Cambridge",
+            "href": "https://www.applecinemas.com/movies"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": $4.75 movie tickets on Tuesdays.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": $4.75 movie tickets on Tuesdays.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "d01b7cb5-f867-4028-a0fb-c172cbb7c008",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Source: ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Source: ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Husky How-to",
+              "link": {
+                "url": "https://news.northeastern.edu/2012/01/17/huskycard/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Husky How-to",
+            "href": "https://news.northeastern.edu/2012/01/17/huskycard/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    },
+    {
+      "id": "15b1ad9e-a374-463b-904b-03fb0c1b525d",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Museums",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Museums",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "6cadcc48-e35d-4109-8e34-f4c69ead6413",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Museum of Fine Arts Boston (MFA)",
+              "link": {
+                "url": "https://mfa.org/tickets"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Museum of Fine Arts Boston (MFA)",
+            "href": "https://mfa.org/tickets"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Free general admission tickets and $7 special exhibition tickets are available to students, faculty, and staff from Northeastern University in person with a valid student or faculty ID. Offer not valid Wednesdays 3–4 pm or in advance.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Free general admission tickets and $7 special exhibition tickets are available to students, faculty, and staff from Northeastern University in person with a valid student or faculty ID. Offer not valid Wednesdays 3–4 pm or in advance.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "a3afc1ff-a6c8-4294-9cb4-e4d8d212c141",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Isabella Steward Gardner Museum",
+              "link": {
+                "url": "https://www.gardnermuseum.org/visit/admissions"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Isabella Steward Gardner Museum",
+            "href": "https://www.gardnermuseum.org/visit/admissions"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": $13 with student ID, $20 otherwise.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": $13 with student ID, $20 otherwise.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "68205941-585b-4808-9e1f-8909851c8349",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Institute of Contemporary Art (ICA)",
+              "link": {
+                "url": "https://www.icaboston.org/page/university-membership"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Institute of Contemporary Art (ICA)",
+            "href": "https://www.icaboston.org/page/university-membership"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": $10, free admission Thursdays 5–9 PM; free tickets with the code ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": $10, free admission Thursdays 5–9 PM; free tickets with the code ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "NEU2022ICA",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "NEU2022ICA",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " or ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " or ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Norteastern",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "Norteastern",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "828d3956-497f-40a7-924e-5814126f34c6",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sports",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sports",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "ef6648aa-50e2-412e-b01f-45a13da21e54",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Boston Red Sox: $9 for tickets: text the word ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Boston Red Sox: $9 for tickets: text the word ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "STUDENTS",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "STUDENTS",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 23215 to sign up for Red Sox Ticket Availability.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 23215 to sign up for Red Sox Ticket Availability.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "e8e55282-ec06-4160-ae69-24766be919f9",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "News and articles",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "News and articles",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "8d17c08b-db95-41e8-a3af-3978e018755a",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Check out ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Check out ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Northeastern's library",
+              "link": {
+                "url": "https://library.northeastern.edu/resource_discovery/popular-magazine-newspaper-subscriptions/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Northeastern's library",
+            "href": "https://library.northeastern.edu/resource_discovery/popular-magazine-newspaper-subscriptions/"
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    },
+    {
+      "id": "e5053455-57dc-4478-a3f3-b93e2cb3557e",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Wall Street Journal",
+              "link": {
+                "url": "https://wsj.com/northeastern"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Wall Street Journal",
+            "href": "https://wsj.com/northeastern"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "6ad24bac-0326-420d-aed3-e0469ce02fe4",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Washington Post",
+              "link": {
+                "url": "https://subscribe.washingtonpost.com/acqlite/edu-offer/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Washington Post",
+            "href": "https://subscribe.washingtonpost.com/acqlite/edu-offer/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": $5 per month (50% discount).",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": $5 per month (50% discount).",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "fc572c4c-55b6-41f9-95c8-e3ca0e76bb04",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "New York Times",
+              "link": {
+                "url": "https://nytimesineducation.com/access-nyt/northeastern-university-boston-ma/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "New York Times",
+            "href": "https://nytimesineducation.com/access-nyt/northeastern-university-boston-ma/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Free access to NYT. If you already pay, cancel the subscription by emailing ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Free access to NYT. If you already pay, cancel the subscription by emailing ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "customercare@nytimes.com",
+              "link": {
+                "url": "mailto:customercare@nytimes.com"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "customercare@nytimes.com",
+            "href": "mailto:customercare@nytimes.com"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " or calling 800-591-9233",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " or calling 800-591-9233",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "faa9f24e-e847-4039-aad9-a1c8005a5002",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Shopping",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Shopping",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "b3f6ac5e-33fc-4e0b-8237-defd3b77ad7c",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Amazon Prime",
+              "link": {
+                "url": "https://www.amazon.com/Amazon-Student/b?node=668781011"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Amazon Prime",
+            "href": "https://www.amazon.com/Amazon-Student/b?node=668781011"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "721e3814-6122-4433-a7f3-4230839eb9ce",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "StudentBeans",
+              "link": {
+                "url": "https://www.studentbeans.com/us"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "StudentBeans",
+            "href": "https://www.studentbeans.com/us"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "67f4a81b-0af2-43be-a777-a63eb7bcea55",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "UniDays",
+              "link": {
+                "url": "https://www.myunidays.com/US/en-US"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "UniDays",
+            "href": "https://www.myunidays.com/US/en-US"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "1b18deb4-22f5-46bf-a399-415bebc221fd",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "From You Flowers",
+              "link": {
+                "url": "https://www.fromyouflowers.com/gsh"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "From You Flowers",
+            "href": "https://www.fromyouflowers.com/gsh"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Save 20% off normal product price. Only this specific link automatically applies the discount. Save up to 50% on Seasonal Specials in the \"Grower's Collection\" section.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Save 20% off normal product price. Only this specific link automatically applies the discount. Save up to 50% on Seasonal Specials in the \"Grower's Collection\" section.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "8439d232-062e-446e-9019-fd5e15307aac",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "GrubHub+",
+              "link": {
+                "url": "https://www.amazon.com/prime/offer/GrubHub/student-discount"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "GrubHub+",
+            "href": "https://www.amazon.com/prime/offer/GrubHub/student-discount"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Requires Amazon Prime student subscription",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Requires Amazon Prime student subscription",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "f190bea8-e419-423e-a322-2443c3b7875b",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Transport",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Transport",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "ff7d3a23-b242-44c3-89db-6b71da04ee85",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "MBTA Pass",
+              "link": {
+                "url": "https://www.northeastern.edu/commutingservices/mbta/student-discounted-semester-pass-program/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "MBTA Pass",
+            "href": "https://www.northeastern.edu/commutingservices/mbta/student-discounted-semester-pass-program/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 11% discount on MBTA pass in Fall and Spring.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 11% discount on MBTA pass in Fall and Spring.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "dbc520f2-1b5c-4371-8b7e-ef8155aefd3f",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Amtrak",
+              "link": {
+                "url": "https://www.amtrak.com/student-discounts"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Amtrak",
+            "href": "https://www.amtrak.com/student-discounts"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "54973b05-f70b-45dc-b203-0458a963aeea",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Bluebikes",
+              "link": {
+                "url": "https://www.northeastern.edu/commutingservices/bicycling/discounted-blue-bike-sharing-program/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Bluebikes",
+            "href": "https://www.northeastern.edu/commutingservices/bicycling/discounted-blue-bike-sharing-program/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Use the program code ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Use the program code ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "HUSKY",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "HUSKY",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "29d7e16b-6769-45a5-84e2-a690a3a8f683",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Zipcar",
+              "link": {
+                "url": "https://www.zipcar.com/universities/northeastern-university"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Zipcar",
+            "href": "https://www.zipcar.com/universities/northeastern-university"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "a60b1f09-5efa-4bf5-81d6-7ba612870975",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "AVIS Car Rentals",
+              "link": {
+                "url": "https://www.avis.com/en/association/A672012"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "AVIS Car Rentals",
+            "href": "https://www.avis.com/en/association/A672012"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Up to 25% off a rental. Link already includes code (",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Up to 25% off a rental. Link already includes code (",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "A672012",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "A672012",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ").",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ").",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "bfe11b25-d94b-43c9-a9d5-6cd414da77bb",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Video, music, and streaming",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Video, music, and streaming",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "5ab20005-40f7-479e-959c-22f455830280",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Xfinity",
+              "link": {
+                "url": "https://xfinityoncampus.com/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Xfinity",
+            "href": "https://xfinityoncampus.com/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Search for \"Northeastern\", and use campus Wi-Fi. Can also be used for HBO Max. See ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Search for \"Northeastern\", and use campus Wi-Fi. Can also be used for HBO Max. See ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "instructions",
+              "link": {
+                "url": "https://northeastern.service-now.com/tech?id=kb_article&sys_id=117a75791b5a389058845420604bcb26"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "instructions",
+            "href": "https://northeastern.service-now.com/tech?id=kb_article&sys_id=117a75791b5a389058845420604bcb26"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " on how to enable.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " on how to enable.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "270313fb-f4f8-4fbe-858c-1cc228c1beee",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Spotify",
+              "link": {
+                "url": "https://www.spotify.com/us/student/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Spotify",
+            "href": "https://www.spotify.com/us/student/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Discounted Spotify Premium, Hulu, and Showtime.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Discounted Spotify Premium, Hulu, and Showtime.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "c82585fb-e27d-4019-b9ea-e765ce7a5c7c",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "YouTube Premium",
+              "link": {
+                "url": "https://support.google.com/youtube/answer/9158808?hl=en&co=GENIE.Platform%3DAndroid"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "YouTube Premium",
+            "href": "https://support.google.com/youtube/answer/9158808?hl=en&co=GENIE.Platform%3DAndroid"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "62b8e3d8-9672-41e8-a33c-2cc6c2a35f98",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "PeacockTV",
+              "link": {
+                "url": "https://www.peacocktv.com/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "PeacockTV",
+            "href": "https://www.peacocktv.com/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Log in through Xfinity.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Log in through Xfinity.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "4711652a-88fc-4c14-b0f0-fd920cfebb88",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Kanopy",
+              "link": {
+                "url": "https://northeastern.kanopy.com/category/56"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Kanopy",
+            "href": "https://northeastern.kanopy.com/category/56"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "ec1e429b-5908-449b-a0e5-0b8e66c5d073",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Apps and services",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Apps and services",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "c0fd6412-cb58-4676-98ed-a66fe5487fa3",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Adobe CC",
+              "link": {
+                "url": "https://adobe.northeastern.edu/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Adobe CC",
+            "href": "https://adobe.northeastern.edu/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "instructions",
+              "link": {
+                "url": "https://service.northeastern.edu/ogs?id=kb_article&sys_id=0dc2194647f289d0c1c8874c346d43b1"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "instructions",
+            "href": "https://service.northeastern.edu/ogs?id=kb_article&sys_id=0dc2194647f289d0c1c8874c346d43b1"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "5d8d913a-7fd7-4bac-bb69-c5af7e51c0e3",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Microsoft 365",
+              "link": {
+                "url": "https://www.microsoft.com/en-us/education/products/office"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Microsoft 365",
+            "href": "https://www.microsoft.com/en-us/education/products/office"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Sign in with your northeastern.edu email. Free Office 365 apps, 5 TB of OneDrive cloud storage, and other services.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Sign in with your northeastern.edu email. Free Office 365 apps, 5 TB of OneDrive cloud storage, and other services.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "1a70f24b-062a-4a89-81d9-9fab5de1cf45",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Zoom",
+              "link": {
+                "url": "https://northeastern.zoom.us/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Zoom",
+            "href": "https://northeastern.zoom.us/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "4cc6a573-0b09-487f-8d4c-61ee642037a4",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Google Services",
+              "link": {
+                "url": "https://service.northeastern.edu/tech?id=kb_article&sys_id=f5fbc2c11b3fb4d058845420604bcba1"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Google Services",
+            "href": "https://service.northeastern.edu/tech?id=kb_article&sys_id=f5fbc2c11b3fb4d058845420604bcba1"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "9384580a-854f-4e51-8640-4b92b22a2b4b",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Headspace",
+              "link": {
+                "url": "https://work.headspace.com/northeastern/member-enroll"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Headspace",
+            "href": "https://work.headspace.com/northeastern/member-enroll"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Meditation, mindfulness, and sleep. If your NU ID starts with ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Meditation, mindfulness, and sleep. If your NU ID starts with ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "00",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "00",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", try entering only the numbers after it.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", try entering only the numbers after it.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "fc0e03de-5fee-4dd3-9a8d-9918102c1798",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "OnTheHub",
+              "link": {
+                "url": "https://neu.onthehub.com/WebStore/Security/SignIn.aspx?rurl=%2FWebStore%2FProductsByMajorVersionList.aspx%3F"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "OnTheHub",
+            "href": "https://neu.onthehub.com/WebStore/Security/SignIn.aspx?rurl=%2FWebStore%2FProductsByMajorVersionList.aspx%3F"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Free and discounted software (VMware, Windows, and more).",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Free and discounted software (VMware, Windows, and more).",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "82093ea2-ad38-4e74-ae65-441f5a51d07c",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "JetBrains IDEs",
+              "link": {
+                "url": "https://www.jetbrains.com/community/education/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "JetBrains IDEs",
+            "href": "https://www.jetbrains.com/community/education/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Free education license.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Free education license.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "60d1541e-e703-42d3-a08e-a0961e1ed47e",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Azure",
+              "link": {
+                "url": "https://azureforeducation.microsoft.com/devtools"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Azure",
+            "href": "https://azureforeducation.microsoft.com/devtools"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "86454330-90bf-4746-b117-7dd923146f30",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Notion",
+              "link": {
+                "url": "https://www.notion.so/product/notion-for-education"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Notion",
+            "href": "https://www.notion.so/product/notion-for-education"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Students get the pro plan for free. Did you know that this content is on Notion?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Students get the pro plan for free. Did you know that this content is on Notion?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "af6119d8-583b-4667-a124-483937d7f50e",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Craft.do",
+              "link": {
+                "url": "https://dollarflightclub.com/student-and-teachers-discount/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Craft.do",
+            "href": "https://dollarflightclub.com/student-and-teachers-discount/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Free 1-year license for students and teachers, reapply every 1 year for 5 years.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Free 1-year license for students and teachers, reapply every 1 year for 5 years.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "81c563e9-ba85-4fc6-b0c8-d16943fa40cc",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Figma",
+              "link": {
+                "url": "https://www.figma.com/education/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Figma",
+            "href": "https://www.figma.com/education/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "69ae9207-2a2c-4614-9911-daa1b682c5e2",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Lucidchart",
+              "link": {
+                "url": "https://lucidco.zendesk.com/hc/en-us/articles/360049831771-Get-Started-with-an-Educational-Account"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Lucidchart",
+            "href": "https://lucidco.zendesk.com/hc/en-us/articles/360049831771-Get-Started-with-an-Educational-Account"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Free with .edu email address.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Free with .edu email address.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "fcfb7f9f-f321-40f0-95ac-7664f70ee66f",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Milanote",
+              "link": {
+                "url": "https://help.milanote.com/en/articles/3600867-can-i-have-a-discount"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Milanote",
+            "href": "https://help.milanote.com/en/articles/3600867-can-i-have-a-discount"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Contact support for a discount.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Contact support for a discount.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "88b2e3ce-a064-470b-b1e5-925738126942",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Wolfram Alpha",
+              "link": {
+                "url": "https://www.wolframalpha.com/pro/pricing/students"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Wolfram Alpha",
+            "href": "https://www.wolframalpha.com/pro/pricing/students"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Discounted for students: $5 for students, $7.25 per month otherwise Mathematica also discounted for students.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Discounted for students: $5 for students, $7.25 per month otherwise Mathematica also discounted for students.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "19d7c2f6-0c09-4026-bdc0-ea275d48830c",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Academic and career",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Academic and career",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "972332ef-8bce-4021-ab32-4e31b957e74f",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "VMock",
+              "link": {
+                "url": "https://www.vmock.com/northeastern"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "VMock",
+            "href": "https://www.vmock.com/northeastern"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": AI resume review tool",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": AI resume review tool",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "3610d08a-3a76-4aee-9fde-7f7a9c009607",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Other",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Other",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "18bd630e-3891-4b32-bc75-032e77bf00c9",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Anxiety",
+              "link": {
+                "url": "https://www.youtube.com/watch?v=pifBpLAun6U"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Anxiety",
+            "href": "https://www.youtube.com/watch?v=pifBpLAun6U"
+          }
+        ],
+        "color": "default"
+      }
+    }
+  ],
+  "mentions": []
+}

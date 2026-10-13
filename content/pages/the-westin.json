@@ -1,0 +1,275 @@
+{
+  "id": "5f570e19-5100-4d45-8a87-e31b687bb0e8",
+  "blocks": [
+    {
+      "id": "aa13b917-7e43-4f70-bbc6-c6c74b7c499d",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Dorm specifications",
+              "link": {
+                "url": "https://northeastern.edu/housing/westin"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Dorm specifications",
+            "href": "https://northeastern.edu/housing/westin"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "224e657b-db8c-4d4f-bad3-e0977092cc87",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Hotel rooms",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Hotel rooms",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "0b4781e7-4f77-4be6-a8ef-1699fb9901a1",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Air conditioning",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Air conditioning",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "02720f43-b04c-4a27-a5a4-9b6fdaf1eb17",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Includes pillows, bedsheets, blankets, microfrige",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Includes pillows, bedsheets, blankets, microfrige",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "14b8ac45-8df1-4c9e-9bef-837fa6c5aeac",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Free Charlie Card",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Free Charlie Card",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "e0455cff-3c93-4f56-93b7-8d2308141a16",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Images",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Images",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "8301c0d4-4b8b-4236-99a2-3f8c12338e18",
+      "type": "heading_3",
+      "has_children": false,
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Double",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Double",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "d9be1618-30dd-4200-9255-4f16d79c6240",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/d9be161830dd420092554f16d79c6240.webp"
+        }
+      }
+    },
+    {
+      "id": "15f34bab-75bd-4f41-b149-767c23d5322a",
+      "type": "heading_3",
+      "has_children": false,
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Gym",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Gym",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "20002820-5670-403f-b26c-4dfa45511cf1",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/200028205670403fb26c4dfa45511cf1.webp"
+        }
+      }
+    },
+    {
+      "id": "c9ec8e61-b29e-44e0-8c25-dc74cba76971",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/c9ec8e61b29e44e08c25dc74cba76971.webp"
+        }
+      }
+    },
+    {
+      "id": "84dda323-7f15-4493-9c3f-a44ca54aa79f",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/84dda3237f1544939c3fa44ca54aa79f.webp"
+        }
+      }
+    }
+  ],
+  "mentions": []
+}

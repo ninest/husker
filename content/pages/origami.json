@@ -1,0 +1,212 @@
+{
+  "id": "99c6f106-1de7-4b9a-8c41-4fa31eda634b",
+  "blocks": [
+    {
+      "id": "a44a2b3c-b7e7-437b-bb99-d8d415f5dbb7",
+      "type": "callout",
+      "has_children": false,
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Fall 2024 meetings: Tuesdays, Thursdays 7 PM, Egan 306. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Fall 2024 meetings: Tuesdays, Thursdays 7 PM, Egan 306. ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "If you are here, mark your attendance",
+              "link": {
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLSfjs-BfhiZCV0VBx0YddAlr-JxDwW84tgpOgZvPigtf4LvAdw/viewform"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If you are here, mark your attendance",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLSfjs-BfhiZCV0VBx0YddAlr-JxDwW84tgpOgZvPigtf4LvAdw/viewform"
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
+        },
+        "color": "gray_background"
+      }
+    },
+    {
+      "id": "6dc0383b-671a-4b3d-a8df-542e9f2f6a1b",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Join Slack",
+              "link": {
+                "url": "https://join.slack.com/t/increaseorigamiclub/shared_invite/zt-2cgjqeut1-yDT7Y4CVezwnCsLWlb1ZaA"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Join Slack",
+            "href": "https://join.slack.com/t/increaseorigamiclub/shared_invite/zt-2cgjqeut1-yDT7Y4CVezwnCsLWlb1ZaA"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "788e9fb9-f05b-4f1f-9ad1-a024edc83e6a",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Follow us on Instagram",
+              "link": {
+                "url": "https://www.instagram.com/increaseorigami/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Follow us on Instagram",
+            "href": "https://www.instagram.com/increaseorigami/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "7a2b476d-046d-47ab-89eb-25823a236f73",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Join us on Engage",
+              "link": {
+                "url": "https://neu.campuslabs.com/engage/organization/increase"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Join us on Engage",
+            "href": "https://neu.campuslabs.com/engage/organization/increase"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "ede50ce6-f55f-4565-bc78-2a61809ec6a1",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "📚 Check out our books and diagrams",
+              "link": {
+                "url": "https://drive.google.com/drive/u/0/folders/1AYjig8IqaPu3vnE3c8jkASNIMEaMZD3l"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "📚 Check out our books and diagrams",
+            "href": "https://drive.google.com/drive/u/0/folders/1AYjig8IqaPu3vnE3c8jkASNIMEaMZD3l"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "d8e1fd41-97be-4422-aef5-5e110306f4cc",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Please scan if you are here",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Please scan if you are here",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "a2737ba9-456b-4f33-8c45-852d0cf20021",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/a2737ba9456b4f338c45852d0cf20021.webp"
+        }
+      }
+    }
+  ],
+  "mentions": []
+}

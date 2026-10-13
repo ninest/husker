@@ -1,0 +1,262 @@
+{
+  "id": "a07bb9b5-c8b8-432d-84f6-a8f5728f23e7",
+  "blocks": [
+    {
+      "id": "4ef82153-62b2-437f-9c79-d1d6a66daa73",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Annas Archive",
+              "link": {
+                "url": "https://annas-archive.org/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Annas Archive",
+            "href": "https://annas-archive.org/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "33454cfe-7da6-480f-a9ec-ba9075dc8e57",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Z-lib",
+              "link": {
+                "url": "https://z-lib.is/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Z-lib",
+            "href": "https://z-lib.is/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "f299d713-191d-43a6-bcb2-4d06ece65101",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "gutenberg.org",
+              "link": {
+                "url": "https://gutenberg.org/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "gutenberg.org",
+            "href": "https://gutenberg.org/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": over 60,000 free books, focus on older works for which US copyright has expired",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": over 60,000 free books, focus on older works for which US copyright has expired",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "7e67673e-ea1e-4f08-9ba2-4efb0a0336fe",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "textbooknova.com",
+              "link": {
+                "url": "https://textbooknova.com/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "textbooknova.com",
+            "href": "https://textbooknova.com/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "ee884987-4243-40a6-bfb1-ed2bd6837c2c",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "manybooks.net",
+              "link": {
+                "url": "https://manybooks.net/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "manybooks.net",
+            "href": "https://manybooks.net/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "df84c647-82c6-4c00-a255-8abe69a0854f",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "bookguru.net",
+              "link": {
+                "url": "http://bookguru.net/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "bookguru.net",
+            "href": "http://bookguru.net/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "64552e4d-4f59-4691-b77e-20a4d476519b",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "libgen.lc",
+              "link": {
+                "url": "http://libgen.lc/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "libgen.lc",
+            "href": "http://libgen.lc/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " or ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " or ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "libgen.is",
+              "link": {
+                "url": "https://libgen.is/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "libgen.is",
+            "href": "https://libgen.is/"
+          }
+        ],
+        "color": "default"
+      }
+    }
+  ],
+  "mentions": []
+}

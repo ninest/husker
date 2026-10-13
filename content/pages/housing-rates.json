@@ -1,0 +1,91 @@
+{
+  "id": "51a0f3cb-e661-4e44-8c83-f7347527aee7",
+  "blocks": [
+    {
+      "id": "6f7a531c-c13e-429a-9e3d-52da74ecf329",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "First Year Rates",
+              "link": {
+                "url": "https://housing.northeastern.edu/wp-content/uploads/2023/06/First-Year-Rates-20232024.pdf"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "First Year Rates",
+            "href": "https://housing.northeastern.edu/wp-content/uploads/2023/06/First-Year-Rates-20232024.pdf"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "7ab630ff-b308-4a91-b638-7ad1cd80a983",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Upperclassmen Rates",
+              "link": {
+                "url": "https://housing.northeastern.edu/wp-content/uploads/2023/07/Upperclass-Rates-20232024.pdf"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Upperclassmen Rates",
+            "href": "https://housing.northeastern.edu/wp-content/uploads/2023/07/Upperclass-Rates-20232024.pdf"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "21d6d6b4-b8e0-4ca1-8be2-621a69cd96da",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Graduate/Law: Housing is no longer being provided",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Graduate/Law: Housing is no longer being provided",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    }
+  ],
+  "mentions": []
+}

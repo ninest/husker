@@ -1,0 +1,212 @@
+{
+  "id": "5767c606-8de6-425b-a2e7-d0788a426046",
+  "blocks": [
+    {
+      "id": "6c7b2978-95e5-466e-be8a-be223600863d",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Dorm specifications",
+              "link": {
+                "url": "https://northeastern.edu/housing/kennedy-hall"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Dorm specifications",
+            "href": "https://northeastern.edu/housing/kennedy-hall"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "7d911507-599a-4f47-a8ce-59bc6340da59",
+      "type": "bulleted_list_item",
+      "has_children": true,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Standard and economy 2- and 3-person suites",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Standard and economy 2- and 3-person suites",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "children": [
+        {
+          "id": "d7ee1035-1899-4ef5-97cc-31cba487ffbc",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Standard single bedrooms",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Standard single bedrooms",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "f1f175b6-4cb5-4bbb-a0c7-7037a2e9e24e",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Standard double bedrooms",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Standard double bedrooms",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "46b0ce97-8d04-4139-912c-7771d3d33634",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Economy double bedrooms",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Economy double bedrooms",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "a27ca9cf-69ec-4fb9-a621-243f5520f233",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Economy triple bedrooms",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Economy triple bedrooms",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "id": "415a51dd-6d6b-4fc2-9db1-52e28a4158b9",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Videos",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Videos",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "c93fe0e4-22c4-42ad-8fc9-14194d408b68",
+      "type": "video",
+      "has_children": false,
+      "video": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://youtu.be/ugVRXbFlht4"
+        }
+      }
+    }
+  ],
+  "mentions": []
+}

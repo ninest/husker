@@ -1,0 +1,893 @@
+{
+  "id": "17ecc6fd-ea34-4c7a-b00c-52c33f54b3f0",
+  "blocks": [
+    {
+      "id": "b396625d-bf7c-475c-8e51-74722e2b6c34",
+      "type": "callout",
+      "has_children": false,
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "To get updates from Husker, join the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "To get updates from Husker, join the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "mailing the list",
+              "link": {
+                "url": "http://eepurl.com/imB7zE"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "mailing the list",
+            "href": "http://eepurl.com/imB7zE"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "!",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
+        },
+        "color": "gray_background"
+      }
+    },
+    {
+      "id": "28ea3a11-758c-4896-b9aa-880775510e33",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This website aims to share links and resources related to Northeastern University.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This website aims to share links and resources related to Northeastern University.",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    },
+    {
+      "id": "e7507b1f-35c6-45fe-bcce-dcda31654d07",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Some pages have more information. For example, the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Some pages have more information. For example, the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Housing",
+              "link": {
+                "url": "https://www.husker.nu/house"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Housing",
+            "href": "https://www.husker.nu/house"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " page, which contains a list of all dorms. I aim to have an FAQ on every page for questions commonly asked on Discord or Reddit. Some pages already have an FAQ page, for example, the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " page, which contains a list of all dorms. I aim to have an FAQ on every page for questions commonly asked on Discord or Reddit. Some pages already have an FAQ page, for example, the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Financial page",
+              "link": {
+                "url": "https://www.husker.nu/financial"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Financial page",
+            "href": "https://www.husker.nu/financial"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    },
+    {
+      "id": "a5639ec1-ae34-41f7-ab83-e233f16f3bc4",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "I suggest getting started by going to the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "I suggest getting started by going to the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Main links page",
+              "link": {
+                "url": "https://www.husker.nu/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Main links page",
+            "href": "https://www.husker.nu/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". Here you will find useful links related to different categories. If you want to view more about a topic, click on the \"more\" button on the right side of the heading.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". Here you will find useful links related to different categories. If you want to view more about a topic, click on the \"more\" button on the right side of the heading.",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    },
+    {
+      "id": "67c8a45b-9c3c-4160-a756-00ddd6473a3c",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "While Husker was created with the intention of sharing links, it is clear that sharing more information (more text content) is something the school requires. There are some \"content-heavy\" pages in the works too, such as ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "While Husker was created with the intention of sharing links, it is clear that sharing more information (more text content) is something the school requires. There are some \"content-heavy\" pages in the works too, such as ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "the programs page",
+              "link": {
+                "url": "https://www.husker.nu/programs"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "the programs page",
+            "href": "https://www.husker.nu/programs"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". If you'd like to help with these, let me know!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". If you'd like to help with these, let me know!",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    },
+    {
+      "id": "73102059-a61a-4c93-896a-9e87d8f13817",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Contribute",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Contribute",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "586c55f7-98b3-48f0-b128-9bec5669f619",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "There are a few ways to contribute. The quickest way is to head over to ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "There are a few ways to contribute. The quickest way is to head over to ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "the contribute page",
+              "link": {
+                "url": "https://www.husker.nu/contribute"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "the contribute page",
+            "href": "https://www.husker.nu/contribute"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " and fill out the form. Every page has an \"Edit\" button right underneath the title, so you can use that too.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " and fill out the form. Every page has an \"Edit\" button right underneath the title, so you can use that too.",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    },
+    {
+      "id": "6ea303af-cda9-4651-ac8c-2804c7db1b83",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If you would like to contribute through Discord, join the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If you would like to contribute through Discord, join the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Husker Discord Server",
+              "link": {
+                "url": "https://discord.gg/j7WkFct2rY"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Husker Discord Server",
+            "href": "https://discord.gg/j7WkFct2rY"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "! You can also message me ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "! You can also message me ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "on Reddit",
+              "link": {
+                "url": "https://www.reddit.com/user/mapuniverse"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "on Reddit",
+            "href": "https://www.reddit.com/user/mapuniverse"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    },
+    {
+      "id": "7d92df8e-c419-4461-b939-25b173808db6",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If you know how to code, you may also open an issue or pull request on the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If you know how to code, you may also open an issue or pull request on the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "GitHub repository",
+              "link": {
+                "url": "https://github.com/ninest/huskinfo"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "GitHub repository",
+            "href": "https://github.com/ninest/huskinfo"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    },
+    {
+      "id": "e67dd194-3956-46bd-a645-9348b5a85b6c",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Also see the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Also see the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "contact page",
+              "link": {
+                "url": "https://www.husker.nu/contact"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "contact page",
+            "href": "https://www.husker.nu/contact"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    },
+    {
+      "id": "2bffac61-f3d6-4f9c-9834-2c8de69977aa",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Storage",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Storage",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "b42b00b6-530f-423e-8bd8-7c2f8604240e",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "All content is saved in markdown files in the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "All content is saved in markdown files in the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "GitHub repository",
+              "link": {
+                "url": "https://github.com/ninest/husker"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "GitHub repository",
+            "href": "https://github.com/ninest/husker"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". While keeping it this way does make it easy to own the data, update content, and add rich elements into content, it does make it difficult for other users to freely edit content.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". While keeping it this way does make it easy to own the data, update content, and add rich elements into content, it does make it difficult for other users to freely edit content.",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    },
+    {
+      "id": "5d9ada18-b2a9-4967-9d12-b41cb757ef51",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Reddit posts",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Reddit posts",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "00c4ba8d-fe63-48db-9e46-a9bc3b718da0",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Below is a list of posts where Husker was mentioned on Reddit:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Below is a list of posts where Husker was mentioned on Reddit:",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    },
+    {
+      "id": "2dbcee7a-6fd1-43c4-9aff-751bb4822781",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A website for mobile apps to download",
+              "link": {
+                "url": "https://www.reddit.com/r/NEU/comments/p7jrs6/a_website_for_mobile_apps_to_download/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A website for mobile apps to download",
+            "href": "https://www.reddit.com/r/NEU/comments/p7jrs6/a_website_for_mobile_apps_to_download/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "d6e2ee55-37d4-474b-9795-6cb0069fede5",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A simple website to put together useful links and resources",
+              "link": {
+                "url": "https://www.reddit.com/r/NEU/comments/orw38h/i_made_a_simple_website_to_put_together_useful/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A simple website to put together useful links and resources",
+            "href": "https://www.reddit.com/r/NEU/comments/orw38h/i_made_a_simple_website_to_put_together_useful/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "56c1a9b1-3b32-4836-be1c-42fb73fbce27",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Remember to join origami club!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Remember to join origami club!",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    },
+    {
+      "id": "13ff8ee9-895c-8043-a82b-e18ee8bbf4ac",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [],
+        "icon": null,
+        "color": "default"
+      }
+    }
+  ],
+  "mentions": []
+}

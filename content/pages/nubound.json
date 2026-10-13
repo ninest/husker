@@ -1,0 +1,63 @@
+{
+  "id": "e7e51777-7f36-4631-9264-497cb4673e04",
+  "blocks": [
+    {
+      "id": "b1b53a64-b441-4114-8ec9-de1246df83aa",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Quicklinks",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Quicklinks",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "424c2760-f26d-4077-be19-8dcfd8828b03",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "NU Bound website",
+              "link": {
+                "url": "https://admissions.northeastern.edu/academics/specialized-entry-programs/nu-bound/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "NU Bound website",
+            "href": "https://admissions.northeastern.edu/academics/specialized-entry-programs/nu-bound/"
+          }
+        ],
+        "color": "default"
+      }
+    }
+  ],
+  "mentions": []
+}

@@ -1,0 +1,1227 @@
+{
+  "id": "507df22b-12f8-4011-b87f-386b8addb355",
+  "blocks": [
+    {
+      "id": "c740f5ec-9450-4534-824e-0433243ee210",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Dorms List",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Dorms List",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "1187757d-88c8-40ad-a463-cafe6f40ec4a",
+      "type": "synced_block",
+      "has_children": true,
+      "synced_block": {
+        "synced_from": null
+      },
+      "children": [
+        {
+          "id": "db6cd704-dd54-4328-aad1-c852c3096cf8",
+          "type": "heading_3",
+          "has_children": false,
+          "heading_3": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Traditional",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Traditional",
+                "href": null
+              }
+            ],
+            "is_toggleable": false,
+            "color": "default"
+          }
+        },
+        {
+          "id": "75538c14-34ec-4fc4-be6e-c3da2a72a02c",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "mention",
+                "mention": {
+                  "type": "page",
+                  "page": {
+                    "id": "7fa6daa6-a0c1-4b96-8ee6-395014755a72"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "White Hall",
+                "href": "https://app.notion.com/p/7fa6daa6a0c14b968ee6395014755a72"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "d1cdb564-931d-4b5f-97da-93ea33d1ff2f",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "mention",
+                "mention": {
+                  "type": "page",
+                  "page": {
+                    "id": "b3847602-03df-4656-98e0-4adb3cea2c99"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Stetson East",
+                "href": "https://app.notion.com/p/b384760203df465698e04adb3cea2c99"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "9c0d081a-e705-4b4f-b999-3ef983b9df2f",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "mention",
+                "mention": {
+                  "type": "page",
+                  "page": {
+                    "id": "ab3a8713-6c85-415a-8e26-a56950e32efb"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Stetson West",
+                "href": "https://app.notion.com/p/ab3a87136c85415a8e26a56950e32efb"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "0708494e-b2cf-4f91-9bf8-1efdf8baf6e5",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "mention",
+                "mention": {
+                  "type": "page",
+                  "page": {
+                    "id": "aa55dc28-2ff7-4bed-804d-2b28e36a01f5"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Speare Hall",
+                "href": "https://app.notion.com/p/aa55dc282ff74bed804d2b28e36a01f5"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "9103cfe8-7bb3-41b3-a0d7-53db1768583c",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "mention",
+                "mention": {
+                  "type": "page",
+                  "page": {
+                    "id": "1758b6b8-b068-4009-85c9-99ce4364f388"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Smith Hall",
+                "href": "https://app.notion.com/p/1758b6b8b068400985c999ce4364f388"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "53bb643b-6e37-42b0-9d39-b89f314c8970",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "mention",
+                "mention": {
+                  "type": "page",
+                  "page": {
+                    "id": "8374e848-3361-4675-a8ad-53ae6273de0c"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Hastings Hall",
+                "href": "https://app.notion.com/p/8374e84833614675a8ad53ae6273de0c"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "e26c4a79-ddbd-4311-b5e6-f09822056c43",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "mention",
+                "mention": {
+                  "type": "page",
+                  "page": {
+                    "id": "565c88b1-631e-4580-bdb8-d90641b2814b"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Light Hall",
+                "href": "https://app.notion.com/p/565c88b1631e4580bdb8d90641b2814b"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "6b6daed6-c858-493c-ae88-3e97ced2bf79",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "mention",
+                "mention": {
+                  "type": "page",
+                  "page": {
+                    "id": "2a603f80-fadc-4693-b30f-d132972d6f95"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Melvin Hall",
+                "href": "https://app.notion.com/p/2a603f80fadc4693b30fd132972d6f95"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "1539130a-4a9f-4925-be02-d5969e9bdf53",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "mention",
+                "mention": {
+                  "type": "page",
+                  "page": {
+                    "id": "a8d95579-2e54-4d20-aa24-38d0eee3326c"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Kerr Hall",
+                "href": "https://app.notion.com/p/a8d955792e544d20aa2438d0eee3326c"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "38aeb157-9821-48f4-9544-91cd79ed2d40",
+          "type": "heading_3",
+          "has_children": false,
+          "heading_3": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Suit",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Suit",
+                "href": null
+              }
+            ],
+            "is_toggleable": false,
+            "color": "default"
+          }
+        },
+        {
+          "id": "a5565c66-62e9-4d6b-80dc-4909f67f5b64",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "mention",
+                "mention": {
+                  "type": "page",
+                  "page": {
+                    "id": "8b1cf7bb-a0ae-4a86-ad8e-060be8569b0c"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "153 Hemenway Street",
+                "href": "https://app.notion.com/p/8b1cf7bba0ae4a86ad8e060be8569b0c"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "1084146e-91ee-4aed-a160-b5132631a971",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "mention",
+                "mention": {
+                  "type": "page",
+                  "page": {
+                    "id": "4a821a46-2248-45f4-a70f-8f307a3971fa"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "International Village",
+                "href": "https://app.notion.com/p/4a821a46224845f4a70f8f307a3971fa"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "046905fd-7f1d-483c-b248-9f64675a2e3d",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "mention",
+                "mention": {
+                  "type": "page",
+                  "page": {
+                    "id": "7043cafa-8625-42a3-bd66-44cbf3deb143"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "East Village",
+                "href": "https://app.notion.com/p/7043cafa862542a3bd6644cbf3deb143"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "b216260f-82de-4f90-9631-04e3379cbe2b",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "mention",
+                "mention": {
+                  "type": "page",
+                  "page": {
+                    "id": "5767c606-8de6-425b-a2e7-d0788a426046"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Kennedy Hall",
+                "href": "https://app.notion.com/p/5767c6068de6425ba2e7d0788a426046"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "d1100665-77b8-421b-b9fc-0d7b39e0c113",
+          "type": "heading_3",
+          "has_children": false,
+          "heading_3": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Hotel",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Hotel",
+                "href": null
+              }
+            ],
+            "is_toggleable": false,
+            "color": "default"
+          }
+        },
+        {
+          "id": "60243dba-3548-437d-bc8f-9e15f80667bb",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "mention",
+                "mention": {
+                  "type": "page",
+                  "page": {
+                    "id": "43085ae8-c721-4f53-9802-480e329d46e4"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "The Midtown",
+                "href": "https://app.notion.com/p/43085ae8c7214f539802480e329d46e4"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "47ddb265-7b1b-4e24-8906-4611bca62df5",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "mention",
+                "mention": {
+                  "type": "page",
+                  "page": {
+                    "id": "fb8193ec-7cf5-4cd7-863e-7de29c2045e0"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "39 Dalton",
+                "href": "https://app.notion.com/p/fb8193ec7cf54cd7863e7de29c2045e0"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "9c18ea5e-421c-4a95-b3a0-6dc91cea78fe",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "mention",
+                "mention": {
+                  "type": "page",
+                  "page": {
+                    "id": "5f570e19-5100-4d45-8a87-e31b687bb0e8"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "The Westin",
+                "href": "https://app.notion.com/p/5f570e1951004d458a87e31b687bb0e8"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "89389f80-9adb-4a99-8717-05f0c3b1493f",
+          "type": "heading_3",
+          "has_children": false,
+          "heading_3": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Apartment",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Apartment",
+                "href": null
+              }
+            ],
+            "is_toggleable": false,
+            "color": "default"
+          }
+        },
+        {
+          "id": "1144d5c9-0f31-4e65-a7d3-d35c97182f24",
+          "type": "paragraph",
+          "has_children": false,
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "TODO",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "TODO",
+                "href": null
+              }
+            ],
+            "icon": null,
+            "color": "default"
+          }
+        },
+        {
+          "id": "2bfba7c0-387a-446f-9537-c143d8062fa9",
+          "type": "heading_3",
+          "has_children": false,
+          "heading_3": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Leased Properties",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Leased Properties",
+                "href": null
+              }
+            ],
+            "is_toggleable": false,
+            "color": "default"
+          }
+        },
+        {
+          "id": "23a441b7-4295-4d2b-be37-6e6147397655",
+          "type": "paragraph",
+          "has_children": false,
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "TODO",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "TODO",
+                "href": null
+              }
+            ],
+            "icon": null,
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "id": "72b2fa82-a1ca-4304-b0af-c721b57bf37e",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Other",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Other",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "37abb87a-2dd5-474f-a1eb-cf90bc73849f",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "cab6243e-4edf-4100-86b6-e7b042606007"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Housing FAQ",
+            "href": "https://app.notion.com/p/cab6243e4edf410086b6e7b042606007"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "6de3b394-56bd-47b5-b808-93c1b4512f70",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "51a0f3cb-e661-4e44-8c83-f7347527aee7"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Housing Rates",
+            "href": "https://app.notion.com/p/51a0f3cbe6614e448c83f7347527aee7"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "  ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "  ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "c4b04468-f6dd-48eb-a433-f1cf96755666",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "On-campus housing cancelation, deadlines, and and fee petition",
+              "link": {
+                "url": "https://www.northeastern.edu/housing/cancellation-deadlines/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "On-campus housing cancelation, deadlines, and and fee petition",
+            "href": "https://www.northeastern.edu/housing/cancellation-deadlines/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "821bfa03-d674-44d1-b120-3937e5bf667a",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [],
+        "icon": null,
+        "color": "default"
+      }
+    }
+  ],
+  "mentions": [
+    {
+      "id": "7fa6daa6a0c14b968ee6395014755a72",
+      "title": "White Hall",
+      "type": "wiki-link",
+      "href": "/wiki/white-hall"
+    },
+    {
+      "id": "b384760203df465698e04adb3cea2c99",
+      "title": "Stetson East",
+      "type": "wiki-link",
+      "href": "/wiki/stetson-east"
+    },
+    {
+      "id": "ab3a87136c85415a8e26a56950e32efb",
+      "title": "Stetson West",
+      "type": "wiki-link",
+      "href": "/wiki/stetson-west"
+    },
+    {
+      "id": "aa55dc282ff74bed804d2b28e36a01f5",
+      "title": "Speare Hall",
+      "type": "wiki-link",
+      "href": "/wiki/speare-hall"
+    },
+    {
+      "id": "1758b6b8b068400985c999ce4364f388",
+      "title": "Smith Hall",
+      "type": "wiki-link",
+      "href": "/wiki/smith-hall"
+    },
+    {
+      "id": "8374e84833614675a8ad53ae6273de0c",
+      "title": "Hastings Hall",
+      "type": "wiki-link",
+      "href": "/wiki/hastings-hall"
+    },
+    {
+      "id": "565c88b1631e4580bdb8d90641b2814b",
+      "title": "Light Hall",
+      "type": "wiki-link",
+      "href": "/wiki/light-hall"
+    },
+    {
+      "id": "2a603f80fadc4693b30fd132972d6f95",
+      "title": "Melvin Hall",
+      "type": "wiki-link",
+      "href": "/wiki/melving-hall"
+    },
+    {
+      "id": "a8d955792e544d20aa2438d0eee3326c",
+      "title": "Kerr Hall",
+      "type": "wiki-link",
+      "href": "/wiki/kerr-hall"
+    },
+    {
+      "id": "8b1cf7bba0ae4a86ad8e060be8569b0c",
+      "title": "153 Hemenway Street",
+      "type": "wiki-link",
+      "href": "/wiki/153-hemenway-street"
+    },
+    {
+      "id": "4a821a46224845f4a70f8f307a3971fa",
+      "title": "International Village",
+      "type": "wiki-link",
+      "href": "/wiki/international-village"
+    },
+    {
+      "id": "7043cafa862542a3bd6644cbf3deb143",
+      "title": "East Village",
+      "type": "wiki-link",
+      "href": "/wiki/east-village"
+    },
+    {
+      "id": "5767c6068de6425ba2e7d0788a426046",
+      "title": "Kennedy Hall",
+      "type": "wiki-link",
+      "href": "/wiki/kennedy-hall"
+    },
+    {
+      "id": "43085ae8c7214f539802480e329d46e4",
+      "title": "The Midtown",
+      "type": "wiki-link",
+      "href": "/wiki/midtown-hotel"
+    },
+    {
+      "id": "fb8193ec7cf54cd7863e7de29c2045e0",
+      "title": "39 Dalton",
+      "type": "wiki-link",
+      "href": "/wiki/the-sheraton"
+    },
+    {
+      "id": "5f570e1951004d458a87e31b687bb0e8",
+      "title": "The Westin",
+      "type": "wiki-link",
+      "href": "/wiki/the-westin"
+    },
+    {
+      "id": "cab6243e4edf410086b6e7b042606007",
+      "title": "Housing FAQ",
+      "type": "wiki-link",
+      "href": "/wiki/housing-faq"
+    },
+    {
+      "id": "51a0f3cbe6614e448c83f7347527aee7",
+      "title": "Housing Rates",
+      "type": "wiki-link",
+      "href": "/wiki/housing-rates"
+    }
+  ]
+}

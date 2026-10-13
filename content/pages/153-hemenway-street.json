@@ -1,0 +1,346 @@
+{
+  "id": "8b1cf7bb-a0ae-4a86-ad8e-060be8569b0c",
+  "blocks": [
+    {
+      "id": "cdfc0e20-adf3-4639-8d7d-b28dbdc3784f",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Dorm specifications",
+              "link": {
+                "url": "https://northeastern.edu/housing/153-hemenway-street"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Dorm specifications",
+            "href": "https://northeastern.edu/housing/153-hemenway-street"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "36798d1f-a86c-4c84-acdd-662ae7b950e9",
+      "type": "bulleted_list_item",
+      "has_children": true,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2-, 3-, 4-person apartments",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2-, 3-, 4-person apartments",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "children": [
+        {
+          "id": "1ba9d70a-b29c-4514-97ad-38f5fe12d05d",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Standard double bedrooms",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Standard double bedrooms",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "3a386ad5-f624-44ff-8b15-786f6623df7c",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Economy double bedrooms",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Economy double bedrooms",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "7ffc1ee9-afdb-4a5b-ba7b-dc2aeb79729b",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Economy triple bedrooms",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Economy triple bedrooms",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "3e04db60-9af8-4281-a5bf-c4f8f3883a99",
+          "type": "bulleted_list_item",
+          "has_children": false,
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Economy quad bedrooms",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Economy quad bedrooms",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ff88ecd7-5fd1-4f0d-b952-4d09e55fd1f4",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Lounge/study area is located on the lower level: 2 study lounges, 1 multimedia lounge.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Lounge/study area is located on the lower level: 2 study lounges, 1 multimedia lounge.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "460d6585-f5ac-4601-aee7-3b173f98c814",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "No elevator",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "No elevator",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "31b2bc35-e220-41fb-8774-5a833cd4f391",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Floor plans",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Floor plans",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "fb3913dd-5571-4914-af17-06247ffad984",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/fb3913dd55714914af1706247ffad984.webp"
+        }
+      }
+    },
+    {
+      "id": "0c02da08-712e-48bf-b5fa-6267153b3e9c",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Images",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Images",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "7a46a3ec-0311-4c06-b1a3-a5f8fe936812",
+      "type": "heading_3",
+      "has_children": false,
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Economy double",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Economy double",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "178e1fb1-1f20-4af5-b859-b14a36bcc27a",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/178e1fb11f204af5b859b14a36bcc27a.webp"
+        }
+      }
+    },
+    {
+      "id": "c224b117-be84-4cde-b71b-88700bc6c7b3",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/c224b117be844cdeb71b88700bc6c7b3.webp"
+        }
+      }
+    }
+  ],
+  "mentions": []
+}
