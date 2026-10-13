@@ -4,7 +4,7 @@ import { Callout } from "@/components/callout";
 import { Loading } from "@/components/loading";
 import { Title } from "@/components/typography/title";
 import { PageMention, getNotionPageMentions } from "@/modules/blocks/mentions";
-import { getBlocksChildrenList, getBlock } from "@/modules/notion/apis";
+import { getBlocksChildrenList, getBlock } from "@/modules/content/blocks";
 import { cn } from "@/utils/style";
 import {
   BlockObjectResponse,

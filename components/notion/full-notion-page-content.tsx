@@ -1,6 +1,6 @@
 import { NotionContent } from "@/components/notion/notion-content";
 import { getNotionPageMentions } from "@/modules/blocks/mentions";
-import { getBlocksChildrenList } from "@/modules/notion/apis";
+import { getBlocksChildrenList } from "@/modules/content/blocks";
 import { BlockObjectResponse } from "@notionhq/client/build/src/api-endpoints";
 
 interface FullNotionPageContentProps {
