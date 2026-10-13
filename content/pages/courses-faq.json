@@ -1,0 +1,98 @@
+{
+  "id": "cc73c57a-11ec-4d96-acc2-51e91c9bc86f",
+  "blocks": [
+    {
+      "id": "8a58e67a-2be8-4f5d-a6aa-15e8044eb9d8",
+      "type": "heading_3",
+      "has_children": false,
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "How do I view my exam schedule?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "How do I view my exam schedule?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "08f3f48f-2c38-4020-88d3-3a03ac0ee95d",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Open the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Open the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Student Hub",
+              "link": {
+                "url": "https://me.northeastern.edu/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Student Hub",
+            "href": "https://me.northeastern.edu/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " and wait for it to load. The exam schedule should show up under the tab bar.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " and wait for it to load. The exam schedule should show up under the tab bar.",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    }
+  ],
+  "mentions": []
+}

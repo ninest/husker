@@ -1,0 +1,109 @@
+{
+  "id": "b3847602-03df-4656-98e0-4adb3cea2c99",
+  "blocks": [
+    {
+      "id": "ee954917-06d2-488d-876a-a609bdf8db00",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Dorm specifications",
+              "link": {
+                "url": "https://northeastern.edu/housing/stetson-hall-east"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Dorm specifications",
+            "href": "https://northeastern.edu/housing/stetson-hall-east"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "1e44140c-f916-403a-a43b-074ff5704218",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Links",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Links",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "12ad882b-2cd9-4731-9f04-8c760f8e030d",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Single",
+              "link": {
+                "url": "https://www.reddit.com/r/NEU/comments/ik7j9/single_room_in_stetson_hall_east/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Single",
+            "href": "https://www.reddit.com/r/NEU/comments/ik7j9/single_room_in_stetson_hall_east/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " (2011)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " (2011)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    }
+  ],
+  "mentions": []
+}

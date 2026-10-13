@@ -1,0 +1,35 @@
+{
+  "id": "565c88b1-631e-4580-bdb8-d90641b2814b",
+  "blocks": [
+    {
+      "id": "936bb65a-08c2-4e75-8ac4-d4f93ccb21e2",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Dorm specifications",
+              "link": {
+                "url": "https://www.northeastern.edu/housing/light-hall/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Dorm specifications",
+            "href": "https://www.northeastern.edu/housing/light-hall/"
+          }
+        ],
+        "color": "default"
+      }
+    }
+  ],
+  "mentions": []
+}

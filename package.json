@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export-notion": "node --env-file=.env.local scripts/export-notion.mjs"
   },
   "dependencies": {
     "@fontsource/inter": "^5.0.16",
@@ -49,6 +50,7 @@
     "@types/react-dom": "^18.2.8",
     "autoprefixer": "^10.0.1",
     "postcss": "^8",
+    "sharp": "0.33.5",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   }

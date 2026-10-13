@@ -1,0 +1,87 @@
+{
+  "id": "8374e848-3361-4675-a8ad-53ae6273de0c",
+  "blocks": [
+    {
+      "id": "92863f51-c8b1-4dc4-a08e-7aa50c13c302",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Dorm specifications",
+              "link": {
+                "url": "https://northeastern.edu/housing/hastings-hall"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Dorm specifications",
+            "href": "https://northeastern.edu/housing/hastings-hall"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "38c72094-5c41-4125-a7c1-737d59d0c4c3",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Videos",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Videos",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "dbcf68a8-a11b-4cb6-b826-f50a9c2fd144",
+      "type": "video",
+      "has_children": false,
+      "video": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://youtu.be/4nVpwnWfHwY"
+        }
+      }
+    },
+    {
+      "id": "f0d607bb-8680-484b-bfa8-81df30103a06",
+      "type": "video",
+      "has_children": false,
+      "video": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://www.youtube.com/shorts/w7g8lozkHLo?feature=share"
+        }
+      }
+    }
+  ],
+  "mentions": []
+}

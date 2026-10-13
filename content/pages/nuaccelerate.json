@@ -1,0 +1,499 @@
+{
+  "id": "096f15df-8132-4730-84dc-b877ff977166",
+  "blocks": [
+    {
+      "id": "1517332b-4b55-40dc-813c-9f2de261c4b8",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Quicklinks",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Quicklinks",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "a51e13ed-891d-4716-9d34-137cdfd46931",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "NU Accelerate website",
+              "link": {
+                "url": "https://precollegeprograms.northeastern.edu/nuaccelerate/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "NU Accelerate website",
+            "href": "https://precollegeprograms.northeastern.edu/nuaccelerate/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "be526e8a-bd03-49ee-a568-1df48faf7152",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "About",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "About",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "51f65b93-db65-45fe-a3f8-24dea31215a1",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "NU Accelerate is a ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "NU Accelerate is a ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "pre-college",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "pre-college",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " program for ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " program for ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "early decision students",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "early decision students",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " to complete ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " to complete ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "up to 2 courses",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "up to 2 courses",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " prior to starting university. These courses can be completed for free (no program fees) virtually and asynchronously.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " prior to starting university. These courses can be completed for free (no program fees) virtually and asynchronously.",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    },
+    {
+      "id": "8449baa3-6d25-4348-bbff-e0bd3c1b0205",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "It is recommended to complete these one course in the Spring, and the other in the Summer before joining Northeastern University. The expected time commitment for a 4-credit course is around 7-9 hours per week.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It is recommended to complete these one course in the Spring, and the other in the Summer before joining Northeastern University. The expected time commitment for a 4-credit course is around 7-9 hours per week.",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    },
+    {
+      "id": "ecd792dc-4d6e-4582-8657-982a35c85fc9",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Courses",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Courses",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "a36b7e3b-e4ed-4069-ab46-7bdde5fa7ed0",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "To find a list of courses you can complete, look for the \"Course Catalog\" links on the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "To find a list of courses you can complete, look for the \"Course Catalog\" links on the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "NU Accelerate website",
+              "link": {
+                "url": "https://precollegeprograms.northeastern.edu/nuaccelerate/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "NU Accelerate website",
+            "href": "https://precollegeprograms.northeastern.edu/nuaccelerate/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    },
+    {
+      "id": "07bcf993-0227-488c-9f0b-276c70c87096",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "To receive credit for these courses, a grade of ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "To receive credit for these courses, a grade of ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "C or above",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "C or above",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " is required. The courses will be listed as ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " is required. The courses will be listed as ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "transfer credit",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "transfer credit",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " on the university transcript. These courses ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " on the university transcript. These courses ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "do not count towards the GPA",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "do not count towards the GPA",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    },
+    {
+      "id": "067ef93f-dbc6-442d-9945-179b4db08080",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Completing the 2 courses is highly recommended as it is free and also gives a head start in credits. Those with more course credits get earlier time slots to select courses for future semesters.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Completing the 2 courses is highly recommended as it is free and also gives a head start in credits. Those with more course credits get earlier time slots to select courses for future semesters.",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    }
+  ],
+  "mentions": []
+}

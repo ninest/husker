@@ -1,0 +1,62 @@
+{
+  "id": "5bf32f59-014c-4672-8d4a-887b9b43ca22",
+  "blocks": [
+    {
+      "id": "b75b3def-0fbe-4b82-8e71-31967486f4b0",
+      "type": "heading_3",
+      "has_children": false,
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Are Husky/dining dollars refundable?",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Are Husky/dining dollars refundable?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "f2335509-b0a8-40ba-a14d-4805606e861a",
+      "type": "paragraph",
+      "has_children": false,
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Dining dollars expire at the end of the semester and Husky dollars are refunded when you graduate.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Dining dollars expire at the end of the semester and Husky dollars are refunded when you graduate.",
+            "href": null
+          }
+        ],
+        "icon": null,
+        "color": "default"
+      }
+    }
+  ],
+  "mentions": []
+}

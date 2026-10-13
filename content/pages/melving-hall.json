@@ -1,0 +1,525 @@
+{
+  "id": "2a603f80-fadc-4693-b30f-d132972d6f95",
+  "blocks": [
+    {
+      "id": "3f15e6ba-b803-4082-b098-b74f596e3a34",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Dorm specifications",
+              "link": {
+                "url": "https://northeastern.edu/housing/melvin-hall"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Dorm specifications",
+            "href": "https://northeastern.edu/housing/melvin-hall"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "1b5403eb-e0b2-4c26-8e19-09d60611cbbe",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1-, 2-, 3-person bedrooms (standard and economy singles, doubles, triples)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1-, 2-, 3-person bedrooms (standard and economy singles, doubles, triples)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "9da0c7f8-3e01-473e-8bce-04381a28d0ed",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "5 single occupancy bathrooms on every floor (not like communal), provides extra privacy",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "5 single occupancy bathrooms on every floor (not like communal), provides extra privacy",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "5561ad46-c81c-4266-8898-639ddd1d4368",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Only common area is the basement",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Only common area is the basement",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "20c79249-8def-4d59-8dc8-660fd6ef7600",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Gets hot in the summer, bring fan",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Gets hot in the summer, bring fan",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "43e58e18-831c-4f53-8c9f-adc75707948d",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Floor plans",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Floor plans",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "1257786d-940d-4ca8-b563-bd8da14ca80c",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/1257786d940d4ca8b563bd8da14ca80c.webp"
+        }
+      }
+    },
+    {
+      "id": "d2f5ab8f-5e8b-4518-88e5-6ad8a9a17ac1",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Images",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Images",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "7d514496-e4c8-4c45-b1a0-b5a000cc3f99",
+      "type": "heading_3",
+      "has_children": false,
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Standard double",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Standard double",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "62588d44-b817-46de-be21-962a7ebb8a12",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/62588d44b81746debe21962a7ebb8a12.webp"
+        }
+      }
+    },
+    {
+      "id": "07d52a76-b553-4767-aa02-8b751e0f02fe",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/07d52a76b5534767aa028b751e0f02fe.webp"
+        }
+      }
+    },
+    {
+      "id": "350e6922-69ab-464a-869c-16103a0009a5",
+      "type": "video",
+      "has_children": false,
+      "video": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/350e692269ab464a869c16103a0009a5.mp4"
+        }
+      }
+    },
+    {
+      "id": "12d165c6-4f8d-4f67-9870-c09f6bd5286d",
+      "type": "heading_3",
+      "has_children": false,
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Standard triple",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Standard triple",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "ee326a9a-8455-42f6-ac83-fe8b0973c2b2",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/ee326a9a845542f6ac83fe8b0973c2b2.webp"
+        }
+      }
+    },
+    {
+      "id": "1ca1ebe8-9eb9-40c7-8fb5-0565808b4705",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/1ca1ebe89eb940c78fb50565808b4705.webp"
+        }
+      }
+    },
+    {
+      "id": "c58cdcde-c049-4764-b40a-7655fa005637",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/c58cdcdec0494764b40a7655fa005637.webp"
+        }
+      }
+    },
+    {
+      "id": "93f61148-b5b9-4c4d-948d-2a1b303225e0",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/93f61148b5b94c4d948d2a1b303225e0.webp"
+        }
+      }
+    },
+    {
+      "id": "62192fc5-72d1-4eb1-b442-a7dcae7f3f5e",
+      "type": "heading_3",
+      "has_children": false,
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Standard single",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Standard single",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "f5696bfc-601c-4eca-aa30-dc0e3939aff4",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/f5696bfc601c4ecaaa30dc0e3939aff4.webp"
+        }
+      }
+    },
+    {
+      "id": "df9d76af-0e3b-42ea-9c8a-7f83174a854d",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/df9d76af0e3b42ea9c8a7f83174a854d.webp"
+        }
+      }
+    },
+    {
+      "id": "27aec135-bf03-48a1-a023-28b752cf13ee",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/27aec135bf0348a1a02328b752cf13ee.webp"
+        }
+      }
+    },
+    {
+      "id": "08042be2-e084-4357-b07c-05d33bc896f2",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/08042be2e0844357b07c05d33bc896f2.webp"
+        }
+      }
+    },
+    {
+      "id": "d21287e8-dbcf-45f5-96b7-afcaf9fbde2a",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/d21287e8dbcf45f596b7afcaf9fbde2a.webp"
+        }
+      }
+    },
+    {
+      "id": "cf17f13d-1e52-4c18-bdbb-124489893c7b",
+      "type": "image",
+      "has_children": false,
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/content/cf17f13d1e524c18bdbb124489893c7b.webp"
+        }
+      }
+    },
+    {
+      "id": "66d60280-5b49-4659-9427-729cc77b18a2",
+      "type": "heading_2",
+      "has_children": false,
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Links",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Links",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "e9be1093-e0b8-4441-9a26-a0b642a302e7",
+      "type": "bulleted_list_item",
+      "has_children": false,
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Melvin Hall Freshman Dorm",
+              "link": {
+                "url": "https://sallyjin.wordpress.com/2018/09/01/northeastern-university-freshman-dorm-melvin-hall/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Melvin Hall Freshman Dorm",
+            "href": "https://sallyjin.wordpress.com/2018/09/01/northeastern-university-freshman-dorm-melvin-hall/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " (Blog, 2018)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " (Blog, 2018)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    }
+  ],
+  "mentions": []
+}
