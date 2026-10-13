@@ -12,12 +12,12 @@ import { Suspense } from "react";
 export const revalidate = 60;
 
 export interface WikiPageProps {
-  params: { slug: string };
-  searchParams: Record<string, string>;
+  params: Promise<{ slug: string }>;
+  searchParams: Promise<Record<string, string>>;
 }
 
 export async function generateMetadata({ params }: WikiPageProps): Promise<Metadata> {
-  const page = await getArticleBySlug(params.slug);
+  const page = await getArticleBySlug((await params).slug);
   return {
     title: page.title,
     description: page.description,
@@ -27,8 +27,9 @@ export async function generateMetadata({ params }: WikiPageProps): Promise<Metad
   };
 }
 
-export default async function WikiPage({ params, searchParams }: WikiPageProps) {
-  const page = await getArticleBySlug(params.slug);
+export default async function WikiPage(props: WikiPageProps) {
+  const [{ slug }, searchParams] = await Promise.all([props.params, props.searchParams]);
+  const page = await getArticleBySlug(slug);
   if (page.link) return redirect(`/${page.link}?from=wiki`);
 
   return (

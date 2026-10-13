@@ -9,11 +9,11 @@ import { redirect } from "next/navigation";
 export const revalidate = 60;
 
 interface WikiTopLevelPageProps {
-  params: { wikiSlug: string };
+  params: Promise<{ wikiSlug: string }>;
 }
 
 export async function generateMetadata({ params }: WikiTopLevelPageProps) {
-  const page = await getArticleBySlug(params.wikiSlug);
+  const page = await getArticleBySlug((await params).wikiSlug);
   return {
     title: page.title,
     description: page.description,
@@ -31,11 +31,11 @@ interface Params {
   wikiSlug: string;
 }
 
-export default async function AboutPage({ params, searchParams }: { params: Params; searchParams: SearchParams }) {
+export default async function AboutPage(props: { params: Promise<Params>; searchParams: Promise<SearchParams> }) {
+  const [params, searchParams] = await Promise.all([props.params, props.searchParams]);
   const backButton = searchParams.from === "wiki" ? { text: "Wiki", href: "/wiki" } : { text: "Home", href: "/" };
 
   const article = await getArticleBySlug(params.wikiSlug);
-  console.log(article.link);
   if (!article.link && article.link !== params.wikiSlug) {
     return redirect(`/wiki/${article.slug}`);
   }

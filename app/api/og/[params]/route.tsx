@@ -1,19 +1,20 @@
 import { getParamsFromUrl } from "@/app/api/og/og-functions";
 import { ImageResponse } from "next/og";
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
 
-export const runtime = "edge";
+// Inter, copied from @fontsource/inter. Read relative to the project root, as
+// Next.js recommends for the Node.js runtime, so the files ship with the route.
+const fontPath = (weight: number) => join(process.cwd(), `app/api/og/fonts/inter-latin-${weight}-normal.woff`);
+
 export const revalidate = 3600;
 
 export async function GET(req: Request) {
   const params = getParamsFromUrl(req.url);
   const title = params.title;
 
-  const inter400 = fetch(
-    new URL(`../../../../node_modules/@fontsource/inter/files/inter-latin-400-normal.woff`, import.meta.url)
-  ).then((res) => res.arrayBuffer());
-  const inter700 = fetch(
-    new URL(`../../../../node_modules/@fontsource/inter/files/inter-latin-700-normal.woff`, import.meta.url)
-  ).then((res) => res.arrayBuffer());
+  const inter400 = readFile(fontPath(400));
+  const inter700 = readFile(fontPath(700));
 
   return new ImageResponse(
     (

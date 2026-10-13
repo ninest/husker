@@ -1,14 +1,14 @@
 import { PageMention } from "@/modules/blocks/mentions";
-import { TextRichTextItemResponse } from "@notionhq/client/build/src/api-endpoints";
+import { RichTextItemResponse } from "@notionhq/client/build/src/api-endpoints";
 import clsx from "clsx";
 import Link from "next/link";
 
 export function NotionText({ text, mentions }: { text: any; mentions: PageMention[] }) {
   if (!text) return <></>;
 
-  const richText: TextRichTextItemResponse[] = text["rich_text"];
+  const richText: RichTextItemResponse[] = text["rich_text"];
 
-  return richText.map((value) => {
+  return richText.map((value, i) => {
     const {
       type,
       annotations: { bold, code, color, italic, strikethrough, underline },
@@ -25,7 +25,7 @@ export function NotionText({ text, mentions }: { text: any; mentions: PageMentio
       case "text": {
         const text = value.text;
         return (
-          <span className={classes}>
+          <span key={i} className={classes}>
             {text.link ? (
               <a href={text.link.url} className="underline">
                 {text.content}
@@ -43,9 +43,9 @@ export function NotionText({ text, mentions }: { text: any; mentions: PageMentio
         const linkedToPageId = value.mention.page.id.replaceAll("-", "");
         const mention = mentions.find((mention) => mention.id === linkedToPageId);
         // A mention of a page that isn't a wiki page or course stays plain text.
-        if (!mention) return <span className={classes}>{text}</span>;
+        if (!mention) return <span key={i} className={classes}>{text}</span>;
         return (
-          <span className={classes}>
+          <span key={i} className={classes}>
             <Link href={mention.href} className="underline">
               {text}
             </Link>

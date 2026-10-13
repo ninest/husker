@@ -81,7 +81,7 @@ export async function NotionBlock({ block, mentions }: { block: BlockObjectRespo
             {children &&
               children.results.map((block) => {
                 // @ts-ignore
-                return <NotionBlock block={block as BlockObjectResponse} mentions={mentions} />;
+                return <NotionBlock key={block.id} block={block as BlockObjectResponse} mentions={mentions} />;
               })}
           </div>
         </>
