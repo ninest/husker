@@ -23,13 +23,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Content
 
-All content lives in this repo as JSON, so it can be edited and reviewed like code:
+All content lives in this repo, so it can be edited and reviewed like code:
 
 - `content/links.json`: the links on the home page, in display order
 - `content/categories.json`: link and wiki categories (`order` for the wiki, `linksOrder` for the links page)
 - `content/articles.json`: wiki articles (title, slug, description, categories)
-- `content/pages/<slug>.json`: each wiki article's content, as Notion blocks with children inlined, plus the
-  page mentions it links to
+- `content/pages/<slug>.md`: each wiki article's content, in Markdown
 - `content/courses.json`: courses, used to link course mentions
 - `public/content/`: images and videos used by wiki pages
 
