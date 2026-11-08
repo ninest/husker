@@ -1,0 +1,4 @@
+- [About](/wiki/about)
+- [FAQ](/wiki/faq)
+- [Changelog](/wiki/changelog)
+- [Husker Courses FAQ](/wiki/coursky-faq)

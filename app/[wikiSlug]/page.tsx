@@ -1,9 +1,10 @@
 import { createOgImageUrl } from "@/app/api/og/og-functions";
 import { ContentPageLayout } from "@/components/content-page-layout";
-import { FullNotionPageContent } from "@/components/notion/full-notion-page-content";
+import { MarkdownContent } from "@/components/markdown/markdown-content";
 import { Spacer } from "@/components/spacer";
 import { Title } from "@/components/typography/title";
 import { getArticleBySlug } from "@/modules/content/article";
+import { getPageMarkdown } from "@/modules/content/page";
 import { redirect } from "next/navigation";
 
 export const revalidate = 60;
@@ -45,8 +46,7 @@ export default async function AboutPage(props: { params: Promise<Params>; search
       <>
         <Title level={1}>{article.title}</Title>
         <Spacer className="h-4" />
-        {/* @ts-ignore */}
-        <FullNotionPageContent pageId={article.id} />
+        <MarkdownContent markdown={(await getPageMarkdown(article.slug)) ?? ""} />
       </>
     </ContentPageLayout>
   );
