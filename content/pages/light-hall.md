@@ -1,0 +1,1 @@
+- [Dorm specifications](https://www.northeastern.edu/housing/light-hall/)

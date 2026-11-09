@@ -1,0 +1,6 @@
+- [Dorm specifications](https://www.northeastern.edu/housing/39daltonstreet/)
+- No longer Hotel rooms
+- Air conditioning
+- ~~Includes pillows, bedsheets, blankets, microfrige~~
+- Free Charlie Card
+- The Sheraton is now a leased property called "39 Dalton".

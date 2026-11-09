@@ -1,7 +1,7 @@
 import { MobileNavbar } from "@/components/mobile-navbar";
 import { WikiSideBarContent } from "@/app/wiki/_components/wiki-sidebar-content";
 import { getWikiCategories } from "@/modules/content/category";
-import { ComponentProps } from "react";
+import { ComponentProps, Suspense } from "react";
 import { getArticles } from "@/modules/content/article";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -26,7 +26,10 @@ export default async function WikiLayout({ children }: ComponentProps<"div">) {
               Husker Wiki
             </Link>
           </div>
-          <WikiSideBarContent categories={categories} articles={articles} />
+          {/* The sidebar reads the category filter from the URL. */}
+          <Suspense>
+            <WikiSideBarContent categories={categories} articles={articles} />
+          </Suspense>
         </aside>
       </div>
 
@@ -34,7 +37,11 @@ export default async function WikiLayout({ children }: ComponentProps<"div">) {
       <div className="block md:hidden sticky top-0">
         <MobileNavbar
           title="Husker Wiki"
-          expandedContent={<WikiSideBarContent categories={categories} articles={articles} />}
+          expandedContent={
+            <Suspense>
+              <WikiSideBarContent categories={categories} articles={articles} />
+            </Suspense>
+          }
         ></MobileNavbar>
       </div>
 

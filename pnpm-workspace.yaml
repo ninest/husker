@@ -1,0 +1,4 @@
+# sharp ships prebuilt binaries for each platform, so its install script
+# (which only builds from source when no binary fits) isn't needed.
+allowBuilds:
+  sharp: false

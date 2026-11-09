@@ -54,7 +54,7 @@ export function Combobox({ className, placeholder, searchPlaceholder, options, .
           <LuChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
         </Button>
       </PopoverTrigger>
-      <PopoverContent side="bottom" className="w-[--radix-popover-trigger-width] p-0">
+      <PopoverContent side="bottom" className="w-(--radix-popover-trigger-width) p-0">
         <Command>
           <CommandInput placeholder={searchPlaceholder} />
           <CommandEmpty>No framework found.</CommandEmpty>
