@@ -5,6 +5,9 @@ const nextConfig = {
   outputFileTracingIncludes: {
     "/**": ["./content/pages/*.md"],
   },
+  experimental: {
+    agentUpgrade: "security",
+  },
   async redirects() {
     return [
       {
