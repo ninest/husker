@@ -3,9 +3,10 @@
 //
 //   pnpm export-notion     (needs NOTION_API_KEY in .env.local)
 //
-// Writes content/{links,categories,articles,courses}.json and one
-// content/pages/<slug>.md per wiki page (see notion-to-markdown.mjs for how
-// Notion blocks become Markdown). Files hosted by Notion
+// Writes content/{links,categories,articles,courses}.json, one
+// content/pages/<slug>.md per wiki page, and one
+// content/courses/<SUBJECT><NUMBER>.md per course with notes (see
+// notion-to-markdown.mjs for how Notion blocks become Markdown). Files hosted by Notion
 // (images, videos) are downloaded to public/content/, because Notion's
 // links to them expire after an hour. Images are resized and saved as WebP:
 // Notion keeps uploads as multi-megabyte PNGs, far bigger than the site shows.
@@ -86,6 +87,13 @@ const compactId = (id) => id.replaceAll("-", "");
 
 // --- databases --------------------------------------------------------------
 
+/** A Notion page icon as text: an emoji, a built-in icon's name, or a URL. */
+function notionIcon(icon) {
+  if (icon.type === "emoji") return icon.emoji;
+  if (icon.type === "icon") return icon.icon.name;
+  return icon.external?.url ?? icon.file?.url ?? null;
+}
+
 function toLink(row) {
   const p = row.properties;
   return {
@@ -96,6 +104,9 @@ function toLink(row) {
     iconSlug: plain(p["Icon"]) ?? "FaFile",
     categoryIds: relationIds(p["Categories"]),
     filterIds: p["Filters"].multi_select.map((option) => option.id),
+    isMinor: p["Is Minor"]?.checkbox ?? false,
+    // The page's own icon in Notion; the site shows iconSlug instead.
+    ...(row.icon && { notionIcon: notionIcon(row.icon) }),
   };
 }
 
@@ -132,9 +143,17 @@ function toArticle(row) {
   };
 }
 
+/** Notion's "Status" is kept only where it isn't the default, "No info". */
 function toCourse(row) {
   const p = row.properties;
-  return { id: row.id, subject: plain(p["Subject"]), number: p["Number"].number, name: plain(p["Name"]) };
+  const status = p["Status"]?.status?.name;
+  return {
+    id: row.id,
+    subject: plain(p["Subject"]),
+    number: p["Number"].number,
+    name: plain(p["Name"]),
+    ...(status && status !== "No info" && { status }),
+  };
 }
 
 // --- page content -----------------------------------------------------------
@@ -200,8 +219,10 @@ async function writeJson(file, data) {
 async function main() {
   // Start clean, so pages and files deleted in Notion disappear here too.
   await rm(path.join(CONTENT_DIR, "pages"), { recursive: true, force: true });
+  await rm(path.join(CONTENT_DIR, "courses"), { recursive: true, force: true });
   await rm(FILES_DIR, { recursive: true, force: true });
   await mkdir(path.join(CONTENT_DIR, "pages"), { recursive: true });
+  await mkdir(path.join(CONTENT_DIR, "courses"), { recursive: true });
   await mkdir(FILES_DIR, { recursive: true });
 
   const [linkRows, categoryRows, linkCategoryRows, wikiRows, courseRows] = await Promise.all([
@@ -238,10 +259,21 @@ async function main() {
     await writeFile(path.join(CONTENT_DIR, "pages", `${article.slug}.md`), blocksToMarkdown(blocks, hrefById));
   }
 
+  // Course notes: the content of a course's page in the courses database.
+  // Most courses have none, so this checks all of them (it takes a while).
+  let notes = 0;
+  for (const course of courses) {
+    const children = await listChildren(course.id);
+    if (children.length === 0) continue;
+    const blocks = await cleanBlocks(children);
+    await writeFile(path.join(CONTENT_DIR, "courses", `${course.subject}${course.number}.md`), blocksToMarkdown(blocks, hrefById));
+    notes++;
+  }
+
   const files = await readdir(FILES_DIR);
   console.log(
     `Exported ${linkRows.length} links, ${categoryRows.length} categories, ${articles.length} wiki pages, ` +
-      `${courses.length} courses, and ${files.length} files.`,
+      `${courses.length} courses (${notes} with notes), and ${files.length} files.`,
   );
 }
 
