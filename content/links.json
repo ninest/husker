@@ -8,7 +8,9 @@
     "categoryIds": [
       "5366c517-fce0-44fe-843e-68c78a9b0f23"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "home"
   },
   {
     "id": "6c79af7e-3ed7-457a-9561-5d40488bc98b",
@@ -19,7 +21,9 @@
     "categoryIds": [
       "a369342a-e0ad-4f51-9f62-03ff0e5498cd"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "credit-card"
   },
   {
     "id": "b723d9eb-d766-45c1-8152-f3f3f779382c",
@@ -30,7 +34,9 @@
     "categoryIds": [
       "d2524f8a-c820-4809-b54a-71cdab8cb863"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "card"
   },
   {
     "id": "30a66373-15ec-43be-a7ec-3563e6e92cc1",
@@ -41,7 +47,8 @@
     "categoryIds": [
       "1f94c56d-6f8a-48f8-93f1-928d958e95d0"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "f4150da6-7376-4583-aa02-9fd77805f192",
@@ -52,7 +59,8 @@
     "categoryIds": [
       "3703ae11-594e-4f2d-b349-4dfa0c2b557b"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "e2ac63db-4bdd-4ab8-abb4-ddebcdf28746",
@@ -63,7 +71,9 @@
     "categoryIds": [
       "5366c517-fce0-44fe-843e-68c78a9b0f23"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "wrench"
   },
   {
     "id": "273dad48-f9f0-4aa5-82c9-051f6ccc65e6",
@@ -74,7 +84,9 @@
     "categoryIds": [
       "a369342a-e0ad-4f51-9f62-03ff0e5498cd"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "receipt"
   },
   {
     "id": "2be531ab-e3e0-4703-9b26-72871c552693",
@@ -85,7 +97,9 @@
     "categoryIds": [
       "d2524f8a-c820-4809-b54a-71cdab8cb863"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "gear"
   },
   {
     "id": "543f40bc-1486-4f6b-8bb9-e734096f002a",
@@ -96,7 +110,8 @@
     "categoryIds": [
       "1f94c56d-6f8a-48f8-93f1-928d958e95d0"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "214ba5b3-6b37-47c9-933e-2036e9f85b84",
@@ -107,7 +122,8 @@
     "categoryIds": [
       "3703ae11-594e-4f2d-b349-4dfa0c2b557b"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "05d1cf96-b9d2-41f5-aef1-712fbfe723d5",
@@ -118,7 +134,9 @@
     "categoryIds": [
       "a369342a-e0ad-4f51-9f62-03ff0e5498cd"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "currency-coin"
   },
   {
     "id": "c80ee8ee-9d8c-44ea-aad7-89bc842a182d",
@@ -129,7 +147,9 @@
     "categoryIds": [
       "d2524f8a-c820-4809-b54a-71cdab8cb863"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "thumbs-down"
   },
   {
     "id": "21e3fa4f-25d3-46cf-9887-fe0117a74001",
@@ -140,7 +160,8 @@
     "categoryIds": [
       "1f94c56d-6f8a-48f8-93f1-928d958e95d0"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "2ec22206-52d6-4470-af34-8cd95fd72cd0",
@@ -151,7 +172,8 @@
     "categoryIds": [
       "3703ae11-594e-4f2d-b349-4dfa0c2b557b"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "f0e51fbd-015a-4330-8b6e-340f6cf0b8fd",
@@ -162,7 +184,9 @@
     "categoryIds": [
       "a369342a-e0ad-4f51-9f62-03ff0e5498cd"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "library"
   },
   {
     "id": "913d76c7-3c97-4800-9523-d0c07500e577",
@@ -173,7 +197,9 @@
     "categoryIds": [
       "d2524f8a-c820-4809-b54a-71cdab8cb863"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "clock-alternate"
   },
   {
     "id": "d34c28e7-5b21-40c7-b3eb-29b7c4cfc657",
@@ -184,7 +210,9 @@
     "categoryIds": [
       "1ff3f781-8386-4ae5-8fad-3afc5a04eb61"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "print"
   },
   {
     "id": "18a48335-77af-4bf7-93da-2d82aad63650",
@@ -195,7 +223,8 @@
     "categoryIds": [
       "3703ae11-594e-4f2d-b349-4dfa0c2b557b"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "4361d115-51ea-429e-b196-4717b6fe72a3",
@@ -206,7 +235,9 @@
     "categoryIds": [
       "a369342a-e0ad-4f51-9f62-03ff0e5498cd"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "signature-document"
   },
   {
     "id": "8bbe73d2-7a9a-45ce-8842-50fba4977f7e",
@@ -217,7 +248,9 @@
     "categoryIds": [
       "d2524f8a-c820-4809-b54a-71cdab8cb863"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "gym"
   },
   {
     "id": "60c58f7b-a8a8-4d6a-8a10-0e703f6c43ce",
@@ -228,7 +261,9 @@
     "categoryIds": [
       "1ff3f781-8386-4ae5-8fad-3afc5a04eb61"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "star-half"
   },
   {
     "id": "96464a7b-7d88-4cac-af33-8881e1d0977e",
@@ -239,7 +274,9 @@
     "categoryIds": [
       "3703ae11-594e-4f2d-b349-4dfa0c2b557b"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "copy"
   },
   {
     "id": "047d7cd0-74d5-40c5-a01f-693d3a3d6c7c",
@@ -250,7 +287,9 @@
     "categoryIds": [
       "a369342a-e0ad-4f51-9f62-03ff0e5498cd"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "token"
   },
   {
     "id": "f0bd876d-7ada-41ad-9a96-1812a8f1d207",
@@ -261,7 +300,9 @@
     "categoryIds": [
       "d2524f8a-c820-4809-b54a-71cdab8cb863"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "ticket-admission"
   },
   {
     "id": "0db082b4-6e4d-44d2-913b-f3cdca5f6832",
@@ -272,7 +313,8 @@
     "categoryIds": [
       "1f94c56d-6f8a-48f8-93f1-928d958e95d0"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "74b1e3fa-00df-4a27-bab3-5f95acff0845",
@@ -285,7 +327,9 @@
     ],
     "filterIds": [
       "nT[|"
-    ]
+    ],
+    "isMinor": false,
+    "notionIcon": "graduate"
   },
   {
     "id": "bbabf1cb-8c36-4c89-91ac-f3ca822ab91d",
@@ -296,7 +340,8 @@
     "categoryIds": [
       "1f94c56d-6f8a-48f8-93f1-928d958e95d0"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "4e9175c2-f365-41e0-8c40-63a4dadf8a39",
@@ -309,7 +354,9 @@
     ],
     "filterIds": [
       "ukCx"
-    ]
+    ],
+    "isMinor": false,
+    "notionIcon": "graduate"
   },
   {
     "id": "aa6f680e-3f4f-4aeb-807b-6b9dc4070c31",
@@ -320,7 +367,8 @@
     "categoryIds": [
       "1f94c56d-6f8a-48f8-93f1-928d958e95d0"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "f56728d1-8b64-418f-9ce4-2485bd4708d0",
@@ -331,7 +379,9 @@
     "categoryIds": [
       "3703ae11-594e-4f2d-b349-4dfa0c2b557b"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "calendar"
   },
   {
     "id": "afc86bc6-906b-4961-a92a-e100060757a5",
@@ -342,7 +392,9 @@
     "categoryIds": [
       "1ff3f781-8386-4ae5-8fad-3afc5a04eb61"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "table"
   },
   {
     "id": "2bdfd188-4d94-4dd7-b76a-862ee58de1c0",
@@ -353,7 +405,9 @@
     "categoryIds": [
       "3703ae11-594e-4f2d-b349-4dfa0c2b557b"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "dashboard"
   },
   {
     "id": "1070d68f-285c-40a7-b696-f236381b5e7d",
@@ -364,7 +418,8 @@
     "categoryIds": [
       "1ff3f781-8386-4ae5-8fad-3afc5a04eb61"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "d9344ea4-a850-4eaf-93f8-e737374f6ec0",
@@ -375,7 +430,9 @@
     "categoryIds": [
       "3703ae11-594e-4f2d-b349-4dfa0c2b557b"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false,
+    "notionIcon": "cash-register"
   },
   {
     "id": "63509b58-898d-4f05-855b-806fe683df90",
@@ -386,7 +443,8 @@
     "categoryIds": [
       "3703ae11-594e-4f2d-b349-4dfa0c2b557b"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "cff283f7-a811-45d8-987f-b094b3c16502",
@@ -397,7 +455,8 @@
     "categoryIds": [
       "1ff3f781-8386-4ae5-8fad-3afc5a04eb61"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "bc516aa3-ef3d-42a9-aac7-ce8a9ce14005",
@@ -408,7 +467,9 @@
     "categoryIds": [
       "5366c517-fce0-44fe-843e-68c78a9b0f23"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": true,
+    "notionIcon": "map"
   },
   {
     "id": "9fc5eb9f-639b-485e-a4e6-343123f73bb4",
@@ -419,7 +480,9 @@
     "categoryIds": [
       "a369342a-e0ad-4f51-9f62-03ff0e5498cd"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": true,
+    "notionIcon": "handbag"
   },
   {
     "id": "1380e53b-85cd-4e42-9ea7-7ab6a6c4e0e1",
@@ -430,7 +493,9 @@
     "categoryIds": [
       "d2524f8a-c820-4809-b54a-71cdab8cb863"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": true,
+    "notionIcon": "fork-and-knife"
   },
   {
     "id": "caa4d66f-63c1-49fb-899a-182c4d2cf11d",
@@ -441,7 +506,8 @@
     "categoryIds": [
       "3703ae11-594e-4f2d-b349-4dfa0c2b557b"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "4b9acd19-ca17-4a3c-bec6-59dfe712ad96",
@@ -452,7 +518,8 @@
     "categoryIds": [
       "1ff3f781-8386-4ae5-8fad-3afc5a04eb61"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "fb69371b-49f1-46c5-8d28-5a5456853170",
@@ -463,7 +530,9 @@
     "categoryIds": [
       "d2524f8a-c820-4809-b54a-71cdab8cb863"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": true,
+    "notionIcon": "flatware"
   },
   {
     "id": "002e241b-a5e0-49d9-b8d7-1b0405ac30aa",
@@ -474,7 +543,8 @@
     "categoryIds": [
       "1ff3f781-8386-4ae5-8fad-3afc5a04eb61"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "27fcb4ef-670a-4164-9410-6fc1e79691f9",
@@ -485,7 +555,9 @@
     "categoryIds": [
       "d2524f8a-c820-4809-b54a-71cdab8cb863"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": true,
+    "notionIcon": "dining"
   },
   {
     "id": "18cf8ee9-895c-8088-8317-cc555cdb5172",
@@ -496,7 +568,8 @@
     "categoryIds": [
       "99222fec-12a6-4d40-bd0d-e63019717422"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "24a2a80f-0433-4641-a3f2-c272619a7605",
@@ -507,7 +580,8 @@
     "categoryIds": [
       "217aaf66-5673-44d3-b207-2c4cc980fa4e"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "5b487cc1-f933-4bf7-87a6-58e27cc57c7f",
@@ -518,7 +592,8 @@
     "categoryIds": [
       "99222fec-12a6-4d40-bd0d-e63019717422"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "0520e8f0-fee8-46d2-9252-6f6f3316df6d",
@@ -529,7 +604,8 @@
     "categoryIds": [
       "99222fec-12a6-4d40-bd0d-e63019717422"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "314239ae-4ab9-47fc-95ad-95ee6dad6b39",
@@ -540,7 +616,8 @@
     "categoryIds": [
       "99222fec-12a6-4d40-bd0d-e63019717422"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "302d4672-4bce-4ebe-9ed5-cd6ad804a95e",
@@ -551,7 +628,8 @@
     "categoryIds": [
       "99222fec-12a6-4d40-bd0d-e63019717422"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "875e25b4-75c8-4d5b-89cf-63475dcf6b1f",
@@ -562,7 +640,8 @@
     "categoryIds": [
       "99222fec-12a6-4d40-bd0d-e63019717422"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   },
   {
     "id": "7fa91211-4b3e-44e8-823f-698587e45d7e",
@@ -573,6 +652,7 @@
     "categoryIds": [
       "256b3687-9ad2-456e-8ce3-d7a36fd7072a"
     ],
-    "filterIds": []
+    "filterIds": [],
+    "isMinor": false
   }
 ]

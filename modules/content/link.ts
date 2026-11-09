@@ -9,6 +9,7 @@ export type HuskerLink = {
   description: string;
   url: string;
   filterIds: string[];
+  isMinor: boolean;
 };
 
 export const huskerLinkFilterMap = {

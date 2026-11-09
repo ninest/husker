@@ -5703,13 +5703,15 @@
     "id": "f51df857-cb6b-4ae3-b207-e642f51cf3c8",
     "subject": "CS",
     "number": 1200,
-    "name": "CS 1200: First Year Seminar"
+    "name": "CS 1200: First Year Seminar",
+    "status": "In progress"
   },
   {
     "id": "08119be6-1b7b-4804-84ce-4f7464414008",
     "subject": "CS",
     "number": 1210,
-    "name": "CS 1210: Professional Development for Khoury Co-op"
+    "name": "CS 1210: Professional Development for Khoury Co-op",
+    "status": "In progress"
   },
   {
     "id": "d0b861ba-b1a9-4c22-a153-2f7b052cdf72",
@@ -5727,7 +5729,8 @@
     "id": "24e67542-efb5-4611-a784-1124392862c4",
     "subject": "CS",
     "number": 2500,
-    "name": "CS 2500: Fundamentals of Computer Science 1"
+    "name": "CS 2500: Fundamentals of Computer Science 1",
+    "status": "In progress"
   },
   {
     "id": "5a46a042-0bdc-4ace-8484-51539b131a53",
@@ -5739,7 +5742,8 @@
     "id": "5a194653-72ee-4039-9dc0-817d55d4acb6",
     "subject": "CS",
     "number": 2510,
-    "name": "CS 2510: Fundamentals of Computer Science 2"
+    "name": "CS 2510: Fundamentals of Computer Science 2",
+    "status": "In progress"
   },
   {
     "id": "76248d0b-279f-43f5-b047-d5a72b6d0280",
@@ -5751,7 +5755,8 @@
     "id": "aa0a6946-0bd0-44eb-a410-77aff832795e",
     "subject": "CS",
     "number": 2800,
-    "name": "CS 2800: Logic and Computation"
+    "name": "CS 2800: Logic and Computation",
+    "status": "In progress"
   },
   {
     "id": "f6e26809-02db-4ee7-9e78-278bf8e4b0e3",
@@ -5763,7 +5768,8 @@
     "id": "3fb40bf3-2149-4bd8-9aeb-efae63d67bcc",
     "subject": "CS",
     "number": 3000,
-    "name": "CS 3000: Algorithms and Data"
+    "name": "CS 3000: Algorithms and Data",
+    "status": "In progress"
   },
   {
     "id": "c9bdfd26-3efc-43a9-939c-c57dab74b670",
@@ -5781,7 +5787,8 @@
     "id": "e1352d98-daae-404b-9747-21acc8597777",
     "subject": "CS",
     "number": 3500,
-    "name": "CS 3500: Object-Oriented Design"
+    "name": "CS 3500: Object-Oriented Design",
+    "status": "In progress"
   },
   {
     "id": "2ff02163-b558-4176-88b0-a7a1282625cb",
@@ -5991,7 +5998,8 @@
     "id": "6138f27e-a09e-4c1f-a0eb-5f3a39c24cd9",
     "subject": "CS",
     "number": 5004,
-    "name": "CS 5004: Object-Oriented Design"
+    "name": "CS 5004: Object-Oriented Design",
+    "status": "In progress"
   },
   {
     "id": "b3c809ea-c2eb-4c79-8eb7-ae6a2cd3d883",
@@ -6057,7 +6065,8 @@
     "id": "6dfdf8fc-7ad6-4db2-aa7a-66f5d11ce419",
     "subject": "CS",
     "number": 5200,
-    "name": "CS 5200: Database Management Systems"
+    "name": "CS 5200: Database Management Systems",
+    "status": "In progress"
   },
   {
     "id": "09a7f049-bafe-49a2-b310-b8aae2ced178",
@@ -6117,13 +6126,15 @@
     "id": "25aa71aa-cdd0-465c-af9c-fad66a0efac7",
     "subject": "CS",
     "number": 5600,
-    "name": "CS 5600: Computer Systems"
+    "name": "CS 5600: Computer Systems",
+    "status": "In progress"
   },
   {
     "id": "b3832c19-24d1-4ba3-b762-db0d0d321769",
     "subject": "CS",
     "number": 5610,
-    "name": "CS 5610: Web Development"
+    "name": "CS 5610: Web Development",
+    "status": "In progress"
   },
   {
     "id": "696c8d36-fcb3-43e0-ad87-b2f7bd9b9d58",
@@ -8907,7 +8918,8 @@
     "id": "c48a1ef1-e97c-4dce-98fc-b85246882f47",
     "subject": "PSYC",
     "number": 1101,
-    "name": "PSYC 1101: Foundations of Psychology"
+    "name": "PSYC 1101: Foundations of Psychology",
+    "status": "In progress"
   },
   {
     "id": "5078dd71-ea2a-4c3c-82a0-49a22f4e6070",
