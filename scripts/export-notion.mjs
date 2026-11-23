@@ -13,7 +13,11 @@
 
 import { mkdir, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
-import sharp from "sharp";
+// sharp isn't a dependency: Next.js 14.0.4 fails on Vercel while collecting
+// build traces when it's installed. Install it just for the export.
+const { default: sharp } = await import("sharp").catch(() => {
+  throw new Error("The export needs sharp to resize images: run `pnpm add -D sharp@0.33.5` first.");
+});
 import { blocksToMarkdown } from "./notion-to-markdown.mjs";
 
 const DATABASES = {
