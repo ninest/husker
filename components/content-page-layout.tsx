@@ -4,7 +4,7 @@ import { Spacer } from "@/components/spacer";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { ComponentProps } from "react";
-import { LuChevronLeft, LuFileEdit, LuPen } from "react-icons/lu";
+import { LuChevronLeft, LuFilePen, LuPen } from "react-icons/lu";
 
 interface ContentPageLayoutProps extends ComponentProps<"div"> {
   showMobileNav?: boolean;

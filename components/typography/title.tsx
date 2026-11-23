@@ -1,5 +1,5 @@
 import { cn } from "@/utils/style";
-import { HTMLAttributes } from "react";
+import { HTMLAttributes, type JSX } from "react";
 
 interface TitleProps extends HTMLAttributes<HTMLTitleElement> {
   level?: number;
@@ -7,7 +7,7 @@ interface TitleProps extends HTMLAttributes<HTMLTitleElement> {
 
 export function Title({ level = 2, children, ...props }: TitleProps) {
   // https://stackoverflow.com/a/59685929/8677167
-  const H = `h${level}` as keyof JSX.IntrinsicElements;
+  const H = `h${level}` as "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
 
   return (
     <H

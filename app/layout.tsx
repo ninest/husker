@@ -29,11 +29,12 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   const wikiLinksWithUrl = wikiLinks.map((wl) => ({ ...wl, url: `/wiki/${wl.slug}` }));
 
   return (
-    <html lang="en">
-      {process.env.NODE_ENV === "production" && <Analytics />}
+    // next-themes sets the theme class on <html> before React hydrates.
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${inter.variable} ${jetbrains.variable} ${karla.variable} font-sans h-full text-foreground dark:text-foreground flex`}
       >
+        {process.env.NODE_ENV === "production" && <Analytics />}
         <Provider>
           <ThemeProvider attribute="class" defaultTheme="dark" disableTransitionOnChange>
             <Toaster />

@@ -177,7 +177,7 @@ export function ContributeForm({ pageTitle }: ContributeFormProps) {
                     <Textarea
                       rows={7}
                       {...field}
-                      className={cn("[--border-pulse-color:--accent]", { "animate-border-color-pulse": isDragActive })}
+                      className={cn("[--border-pulse-color:var(--accent)]", { "animate-border-color-pulse": isDragActive })}
                     />
                   </FormControl>
                   <FormMessage />

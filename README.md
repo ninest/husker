@@ -33,8 +33,7 @@ All content lives in this repo, so it can be edited and reviewed like code:
 - `public/content/`: images and videos used by wiki pages
 
 The content was exported from the original Notion workspace by `scripts/export-notion.mjs`. To re-export, put a
-Notion integration key in `.env.local` as `NOTION_API_KEY="..."`, run `pnpm add -D sharp@0.33.5` (left out of
-`package.json` because it breaks the Vercel build on Next 14), and run `pnpm export-notion`. This replaces
+Notion integration key in `.env.local` as `NOTION_API_KEY="..."` and run `pnpm export-notion`. This replaces
 everything in `content/` and `public/content/` with Notion's current data.
 
 ## Contributors
