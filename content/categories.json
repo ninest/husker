@@ -1,0 +1,212 @@
+[
+  {
+    "id": "c5b35a09-c397-406b-bf5b-495ac5d207ff",
+    "title": "Collection",
+    "slug": "collection",
+    "order": 0,
+    "isLinksCategory": false,
+    "linksOrder": null,
+    "wikiPageId": null,
+    "parentCategoryId": null
+  },
+  {
+    "id": "1f94c56d-6f8a-48f8-93f1-928d958e95d0",
+    "title": "Apps",
+    "slug": "apps",
+    "order": 2,
+    "isLinksCategory": true,
+    "linksOrder": 0,
+    "wikiPageId": null,
+    "parentCategoryId": null
+  },
+  {
+    "id": "3703ae11-594e-4f2d-b349-4dfa0c2b557b",
+    "title": "Courses",
+    "slug": "courses",
+    "order": 10,
+    "isLinksCategory": true,
+    "linksOrder": 2,
+    "wikiPageId": "013c7b5a-ff12-4703-896f-19c3e698a1c8",
+    "parentCategoryId": null
+  },
+  {
+    "id": "d2524f8a-c820-4809-b54a-71cdab8cb863",
+    "title": "Husky Card",
+    "slug": "husky-card",
+    "order": 20,
+    "isLinksCategory": true,
+    "linksOrder": 3,
+    "wikiPageId": "c0ca2d2d-cad0-45aa-9ef2-3b0efcf87c1d",
+    "parentCategoryId": null
+  },
+  {
+    "id": "a369342a-e0ad-4f51-9f62-03ff0e5498cd",
+    "title": "Financial",
+    "slug": "financial",
+    "order": 30,
+    "isLinksCategory": true,
+    "linksOrder": 4,
+    "wikiPageId": null,
+    "parentCategoryId": null
+  },
+  {
+    "id": "217aaf66-5673-44d3-b207-2c4cc980fa4e",
+    "title": "Resources",
+    "slug": "resources",
+    "order": 40,
+    "isLinksCategory": true,
+    "linksOrder": 8,
+    "wikiPageId": null,
+    "parentCategoryId": null
+  },
+  {
+    "id": "08a1b493-386b-4ec5-a306-5af68a38b00c",
+    "title": "Dining",
+    "slug": "dining",
+    "order": 50,
+    "isLinksCategory": false,
+    "linksOrder": null,
+    "wikiPageId": null,
+    "parentCategoryId": "d2524f8a-c820-4809-b54a-71cdab8cb863"
+  },
+  {
+    "id": "5366c517-fce0-44fe-843e-68c78a9b0f23",
+    "title": "Housing",
+    "slug": "housing",
+    "order": 60,
+    "isLinksCategory": true,
+    "linksOrder": 5,
+    "wikiPageId": "507df22b-12f8-4011-b87f-386b8addb355",
+    "parentCategoryId": null
+  },
+  {
+    "id": "f07cc27e-df45-43d9-92ad-fb5ac9248387",
+    "title": "Housing: Traditional",
+    "slug": "housing-traditional",
+    "order": 61,
+    "isLinksCategory": false,
+    "linksOrder": null,
+    "wikiPageId": null,
+    "parentCategoryId": "5366c517-fce0-44fe-843e-68c78a9b0f23"
+  },
+  {
+    "id": "f31215fd-c104-4ca7-942a-74f855f198b6",
+    "title": "Housing: Suite",
+    "slug": "housing-suite",
+    "order": 62,
+    "isLinksCategory": false,
+    "linksOrder": null,
+    "wikiPageId": null,
+    "parentCategoryId": "5366c517-fce0-44fe-843e-68c78a9b0f23"
+  },
+  {
+    "id": "a46589bc-76ba-4c2e-9eba-c3ff23ec974a",
+    "title": "Housing: Leased",
+    "slug": "housing-leased",
+    "order": 64,
+    "isLinksCategory": false,
+    "linksOrder": null,
+    "wikiPageId": null,
+    "parentCategoryId": "5366c517-fce0-44fe-843e-68c78a9b0f23"
+  },
+  {
+    "id": "821ed3c5-af24-45d5-bd41-6076234d3e80",
+    "title": "Housing: Apartment",
+    "slug": "housing-apartment",
+    "order": 65,
+    "isLinksCategory": false,
+    "linksOrder": null,
+    "wikiPageId": null,
+    "parentCategoryId": "5366c517-fce0-44fe-843e-68c78a9b0f23"
+  },
+  {
+    "id": "f38e4855-d28d-463c-8659-9cc90a706824",
+    "title": "Programs",
+    "slug": "programs",
+    "order": 70,
+    "isLinksCategory": false,
+    "linksOrder": null,
+    "wikiPageId": null,
+    "parentCategoryId": null
+  },
+  {
+    "id": "1ff3f781-8386-4ae5-8fad-3afc5a04eb61",
+    "title": "General",
+    "slug": "general",
+    "order": 80,
+    "isLinksCategory": true,
+    "linksOrder": 1,
+    "wikiPageId": null,
+    "parentCategoryId": null
+  },
+  {
+    "id": "a5aee2ea-cfae-4559-a7a8-91e611b03108",
+    "title": "FAQ",
+    "slug": "faq",
+    "order": 90,
+    "isLinksCategory": false,
+    "linksOrder": null,
+    "wikiPageId": null,
+    "parentCategoryId": null
+  },
+  {
+    "id": "4127bea8-c2e9-4206-b05a-43f9e5b93fc9",
+    "title": "Husker",
+    "slug": "husker",
+    "order": 100,
+    "isLinksCategory": false,
+    "linksOrder": null,
+    "wikiPageId": null,
+    "parentCategoryId": null
+  },
+  {
+    "id": "f24b0300-32ba-4fdd-a232-cd94c9f65660",
+    "title": "Test",
+    "slug": "test",
+    "order": 120,
+    "isLinksCategory": false,
+    "linksOrder": null,
+    "wikiPageId": null,
+    "parentCategoryId": null
+  },
+  {
+    "id": "a9b6e17e-4b80-4725-a966-bd78aaa9330c",
+    "title": "Career",
+    "slug": "career",
+    "order": null,
+    "isLinksCategory": false,
+    "linksOrder": null,
+    "wikiPageId": null,
+    "parentCategoryId": null
+  },
+  {
+    "id": "b6de9659-63ee-48f7-af1f-0eba461f34aa",
+    "title": "Club",
+    "slug": "club",
+    "order": null,
+    "isLinksCategory": false,
+    "linksOrder": null,
+    "wikiPageId": null,
+    "parentCategoryId": null
+  },
+  {
+    "id": "99222fec-12a6-4d40-bd0d-e63019717422",
+    "title": "Miscellaneous",
+    "slug": "miscellaneous",
+    "order": null,
+    "isLinksCategory": true,
+    "linksOrder": 6,
+    "wikiPageId": null,
+    "parentCategoryId": null
+  },
+  {
+    "id": "256b3687-9ad2-456e-8ce3-d7a36fd7072a",
+    "title": "Social",
+    "slug": "social",
+    "order": null,
+    "isLinksCategory": true,
+    "linksOrder": 7,
+    "wikiPageId": null,
+    "parentCategoryId": null
+  }
+]

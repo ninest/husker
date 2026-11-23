@@ -1,10 +1,11 @@
 import { createOgImageUrl } from "@/app/api/og/og-functions";
 import { ContentPageLayout } from "@/components/content-page-layout";
 import { Loading } from "@/components/loading";
-import { FullNotionPageContent } from "@/components/notion/full-notion-page-content";
+import { MarkdownContent } from "@/components/markdown/markdown-content";
 import { Spacer } from "@/components/spacer";
 import { Title } from "@/components/typography/title";
 import { getArticleBySlug } from "@/modules/content/article";
+import { getPageMarkdown } from "@/modules/content/page";
 import { Metadata } from "next";
 import { redirect } from "next/navigation";
 import { Suspense } from "react";
@@ -50,8 +51,7 @@ export default async function WikiPage({ params, searchParams }: WikiPageProps) 
       >
         <Title level={1}>{page.title}</Title>
         <Spacer className="h-4" />
-        {/* @ts-ignore */}
-        <FullNotionPageContent pageId={page.id} />
+        <MarkdownContent markdown={(await getPageMarkdown(page.slug)) ?? ""} />
       </Suspense>
     </ContentPageLayout>
   );

@@ -1,0 +1,6 @@
+- [turtleman99](https://github.com/turtleman99): Northeastern status page
+- Vocaloiid: Various links
+- [Kyle Sferrazza](https://github.com/kylesferrazza): Links
+- [cb#7296](https://discordapp.com/users/408983816712093697): Typos
+- [RubberDuck#4827](https://discord.com/users/719340622892236961): Emotional damage
+- [Sean](https://seanfinch.com/): Various links, outdated information
