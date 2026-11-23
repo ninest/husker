@@ -2,8 +2,10 @@
 const nextConfig = {
   // Wiki pages read their Markdown from disk when rendered, so make sure the
   // files ship with the server build.
-  outputFileTracingIncludes: {
-    "/**": ["./content/pages/*.md"],
+  experimental: {
+    outputFileTracingIncludes: {
+      "/**": ["./content/pages/*.md"],
+    },
   },
   async redirects() {
     return [
